@@ -1,0 +1,154 @@
+---
+import Base from '../../../layouts/Base.astro';
+---
+
+<Base title="Dades obertes" description="Dataset públic d'intervencions ciutadanes als plens de l'Ajuntament de València. 570 intervencions, 277 entitats, 4 mandats (2011–2026). CC BY 4.0.">
+
+  <!-- Hero -->
+  <section style="background: #1e1e1e; color: #fff; padding: 3rem 1rem 2.5rem;">
+    <div class="max-w-5xl mx-auto">
+      <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #e8562a; margin-bottom: 0.75rem;">
+        Dades obertes
+      </p>
+      <h1 style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 1rem;">
+        El dataset és lliure.<br/>Usa'l.
+      </h1>
+      <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 1rem; color: #aaa; max-width: 48rem; line-height: 1.6;">
+        Les intervencions ciutadanes que La Ciutat Parla extreu de les actes oficials no existeixen en cap font pública estructurada. Les publiquem ací perquè periodistes, investigadors i ciutadans puguen reutilitzar-les.
+      </p>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section style="background: #f5f5f5; border-bottom: 1px solid #eee; padding: 1.5rem 1rem;">
+    <div class="max-w-5xl mx-auto" style="display: flex; flex-wrap: wrap; gap: 2rem;">
+      {[
+        { n: '570', label: 'intervencions' },
+        { n: '277', label: 'entitats ciutadanes' },
+        { n: '4',   label: 'mandats municipals' },
+        { n: '2011–2026', label: 'cobertura temporal' },
+      ].map(({ n, label }) => (
+        <div>
+          <span style="font-family: 'Sora', sans-serif; font-size: 1.75rem; font-weight: 800; color: #1e1e1e; letter-spacing: -0.03em;">{n}</span>
+          <span style="font-family: 'Outfit', sans-serif; font-size: 0.85rem; color: #666; display: block;">{label}</span>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <div class="max-w-5xl mx-auto px-4 py-10" style="font-family: 'Outfit', system-ui, sans-serif;">
+
+    <!-- Arxius -->
+    <section style="margin-bottom: 3rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem;">Arxius</h2>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; max-width: 48rem;">
+        Tres arxius complementaris. El JSON és el canònic; el CSV facilita l'anàlisi en Excel o qualsevol full de càlcul.
+      </p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;">
+
+        <div style="border: 1px solid #e5e5e5; border-radius: 12px; padding: 1.25rem 1.5rem; background: #fff;">
+          <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem;">
+            <span style="background: #fff3ee; color: #e8562a; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; padding: 3px 8px; border-radius: 6px;">JSON · 3,9 MB</span>
+          </div>
+          <p style="font-weight: 600; font-size: 1rem; margin-bottom: 0.25rem; color: #1e1e1e;">intervencions.json</p>
+          <p style="color: #666; font-size: 0.82rem; line-height: 1.5; margin-bottom: 1rem;">Dataset complet. Inclou textos íntegres en castellà i en valencià, classificació temàtica anidada i codis CAP.</p>
+          <a href="/datos/intervencions.json" download style="display: inline-block; background: #1e1e1e; color: #fff; font-size: 0.8rem; font-weight: 600; padding: 8px 16px; border-radius: 8px; text-decoration: none;">Descarregar JSON</a>
+        </div>
+
+        <div style="border: 1px solid #e5e5e5; border-radius: 12px; padding: 1.25rem 1.5rem; background: #fff;">
+          <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem;">
+            <span style="background: #f0fdf4; color: #16a34a; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; padding: 3px 8px; border-radius: 6px;">CSV · 496 KB</span>
+          </div>
+          <p style="font-weight: 600; font-size: 1rem; margin-bottom: 0.25rem; color: #1e1e1e;">intervencions_metadata.csv</p>
+          <p style="color: #666; font-size: 0.82rem; line-height: 1.5; margin-bottom: 1rem;">Metadades aplanades. Tots els camps excepte textos complets. S'obre directament en Excel, Google Sheets o qualsevol programari d'anàlisi.</p>
+          <a href="/datos/intervencions_metadata.csv" download style="display: inline-block; background: #1e1e1e; color: #fff; font-size: 0.8rem; font-weight: 600; padding: 8px 16px; border-radius: 8px; text-decoration: none;">Descarregar CSV</a>
+        </div>
+
+        <div style="border: 1px solid #e5e5e5; border-radius: 12px; padding: 1.25rem 1.5rem; background: #fff;">
+          <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem;">
+            <span style="background: #fff3ee; color: #e8562a; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; padding: 3px 8px; border-radius: 6px;">JSON · 88 KB</span>
+          </div>
+          <p style="font-weight: 600; font-size: 1rem; margin-bottom: 0.25rem; color: #1e1e1e;">entitats.json</p>
+          <p style="color: #666; font-size: 0.82rem; line-height: 1.5; margin-bottom: 1rem;">Catàleg de les 277 entitats ciutadanes identificades, amb tipus, nombre d'intervencions i temes principals.</p>
+          <a href="/datos/entitats.json" download style="display: inline-block; background: #1e1e1e; color: #fff; font-size: 0.8rem; font-weight: 600; padding: 8px 16px; border-radius: 8px; text-decoration: none;">Descarregar JSON</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Diccionari de camps -->
+    <section style="margin-bottom: 3rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem;">Diccionari de camps</h2>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 1.5rem;">Camps de <code style="background:#f5f5f5; padding: 2px 5px; border-radius:4px; font-size:0.82rem;">intervencions.json</code>. Al CSV, els camps de tipus llista se serialitzen com a valors separats per <code style="background:#f5f5f5; padding: 2px 5px; border-radius:4px; font-size:0.82rem;">|</code>.</p>
+      <div style="overflow-x: auto;">
+        <table style="width: 100%; border-collapse: collapse; font-size: 0.84rem;">
+          <thead>
+            <tr style="border-bottom: 2px solid #1e1e1e;">
+              <th style="text-align: left; padding: 8px 12px; font-family: 'Sora', sans-serif; font-weight: 700; white-space: nowrap;">Camp</th>
+              <th style="text-align: left; padding: 8px 12px; font-family: 'Sora', sans-serif; font-weight: 700;">Tipus</th>
+              <th style="text-align: left; padding: 8px 12px; font-family: 'Sora', sans-serif; font-weight: 700;">Descripció</th>
+            </tr>
+          </thead>
+          <tbody>
+            {[
+              { camp: 'id', tipus: 'string', desc: 'Identificador únic. Format: YYYY-MM-DD-NNN' },
+              { camp: 'pleno_id', tipus: 'string', desc: 'Identificador del ple (data de l\'acta)' },
+              { camp: 'fecha', tipus: 'string', desc: 'Data del ple en format YYYY-MM-DD' },
+              { camp: 'mandat_id', tipus: 'string', desc: 'Mandat municipal: 2011-2015 | 2015-2019 | 2019-2023 | 2023-2027' },
+              { camp: 'intervinient', tipus: 'string', desc: 'Nom de la persona que intervé' },
+              { camp: 'entitat', tipus: 'string', desc: 'Nom de l\'entitat representada (tal com apareix a l\'acta)' },
+              { camp: 'entitat_id', tipus: 'string', desc: 'Identificador normalitzat de l\'entitat (slug). Permet enllaçar amb entitats.json' },
+              { camp: 'tipus_entitat', tipus: 'string', desc: 'Tipus: vecinal · plataforma · ong · sindical · cultural · educacio · esportiu · empresa · particular · altres' },
+              { camp: 'idioma_original', tipus: 'string', desc: 'Idioma en què es va pronunciar la intervenció: valenciano | castellano | mixt' },
+              { camp: 'text_cas', tipus: 'string', desc: 'Text íntegre en castellà. Només al JSON.' },
+              { camp: 'text_val', tipus: 'string', desc: 'Text íntegre en valencià. Només al JSON.' },
+              { camp: 'resum_cas', tipus: 'string', desc: 'Resum d\'1-2 frases en castellà' },
+              { camp: 'resum_val', tipus: 'string', desc: 'Resum d\'1-2 frases en valencià' },
+              { camp: 'temes_v2', tipus: 'object', desc: 'Classificació temàtica a dos nivells. Dict: { categoria: [subcategories] }. Només al JSON; al CSV vegeu categorias/subcategorias.' },
+              { camp: 'categorias', tipus: 'string (CSV)', desc: 'Categories temàtiques principals, separades per |' },
+              { camp: 'subcategorias', tipus: 'string (CSV)', desc: 'Subcategories en format cat:sub, separades per |' },
+              { camp: 'ambit', tipus: 'string', desc: 'Àmbit geogràfic: barri | districte | multi_barri | multi_districte | ciutat | area_metropolitana | no_especificat' },
+              { camp: 'zones', tipus: 'array/string', desc: 'Barris esmentats, amb la nomenclatura oficial (88 barris del Ajuntament)' },
+              { camp: 'districtes', tipus: 'array/string', desc: 'Districtes inferits a partir dels barris (19 districtes)' },
+              { camp: 'cap_major', tipus: 'array/string', desc: 'Codis CAP de major topic (1-2 dígits). Estàndard Comparative Agendas Project.' },
+              { camp: 'cap_subtopics', tipus: 'array/string', desc: 'Codis CAP de subtopic (3-4 dígits). Mitjana: 3,3 subtopics per intervenció.' },
+            ].map(({ camp, tipus, desc }, i) => (
+              <tr style={`border-bottom: 1px solid #f0f0f0; background: ${i % 2 === 0 ? '#fff' : '#fafafa'};`}>
+                <td style="padding: 8px 12px; white-space: nowrap;"><code style="font-size: 0.8rem; color: #e8562a;">{camp}</code></td>
+                <td style="padding: 8px 12px; color: #666; white-space: nowrap; font-size: 0.8rem;">{tipus}</td>
+                <td style="padding: 8px 12px; color: #444; line-height: 1.45;">{desc}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Llicència -->
+    <section style="background: #fff8f5; border: 1px solid #fde0d4; border-radius: 12px; padding: 1.5rem 2rem; margin-bottom: 3rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.2rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.75rem; color: #1e1e1e;">Llicència</h2>
+      <p style="font-size: 0.9rem; color: #444; line-height: 1.65; margin-bottom: 0.75rem;">
+        Aquest dataset es publica sota llicència <strong>Creative Commons Attribution 4.0 International (CC BY 4.0)</strong>. Pots usar-lo, modificar-lo i redistribuir-lo lliurement, inclús amb finalitats periodístiques i acadèmiques, sempre que cites la font.
+      </p>
+      <p style="font-size: 0.85rem; color: #666; line-height: 1.6; margin-bottom: 1rem;">
+        <strong style="color: #666;">Nota sobre ús comercial:</strong> Si la teua intenció és comercialitzar directament el dataset (revenda, producte de pagament), contacta'ns abans a <a href="mailto:hola@laciutatparla.es" style="color: #e8562a;">hola@laciutatparla.es</a>. L'ús periodístic i informatiu de qualsevol mitjà, inclosos els comercials, és expressament benvingut.
+      </p>
+      <p style="font-size: 0.82rem; color: #666; line-height: 1.5;">
+        <strong style="color: #666;">Cita suggerida:</strong> Sánchez, M. (<span id="cite-year">2026</span>). <em>Intervencions ciutadanes als plens de l'Ajuntament de València</em> [dataset]. La Ciutat Parla. laciutatparla.es/val/dades/
+      </p>
+      <div style="margin-top: 1rem;">
+        <a href="https://creativecommons.org/licenses/by/4.0/deed.ca" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; font-weight: 600; color: #e8562a; text-decoration: none; border: 1px solid #fde0d4; padding: 6px 12px; border-radius: 8px; background: #fff;">
+          CC BY 4.0 →
+        </a>
+      </div>
+    </section>
+
+    <!-- Fonts originals -->
+    <section style="padding: 1.5rem 0; border-top: 1px solid #eee;">
+      <p style="font-size: 0.78rem; color: #aaa; line-height: 1.6;">
+        <strong style="color: #999;">Fonts originals:</strong> Actes dels plens municipals — Ajuntament de València (domini públic, Llei 19/2013 de Transparència i Llei 2/2015 de la Comunitat Valenciana). Dataset de barris i districtes — Portal de Dades Obertes de l'Ajuntament de València (CC BY 4.0). La nomenclatura geogràfica segueix la nomenclatura oficial dels 88 barris i 19 districtes de l'Ajuntament.
+      </p>
+    </section>
+
+  </div>
+</Base>

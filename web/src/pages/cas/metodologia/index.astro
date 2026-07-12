@@ -1,0 +1,232 @@
+---
+import Base from '../../../layouts/Base.astro';
+---
+
+<Base title="Metodología" description="Cómo La Ciutat Parla extrae, clasifica y publica las intervenciones ciudadanas de los plenos del Ayuntamiento de València. Pipeline de 7 pasos, IA + supervisión humana.">
+
+  <!-- Hero -->
+  <section style="background: #1e1e1e; color: #fff; padding: 3rem 1rem 2.5rem;">
+    <div class="max-w-5xl mx-auto">
+      <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #e8562a; margin-bottom: 0.75rem;">
+        Metodología
+      </p>
+      <h1 style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 1rem;">
+        Cómo funciona.
+      </h1>
+      <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 1rem; color: #aaa; max-width: 48rem; line-height: 1.6;">
+        Las actas de los plenos son documentos PDF de hasta 200 páginas. Esta página explica cómo las convertimos en datos estructurados, qué hace la inteligencia artificial y qué supervisa la persona.
+      </p>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section style="background: #f5f5f5; border-bottom: 1px solid #eee; padding: 1.5rem 1rem;">
+    <div class="max-w-5xl mx-auto" style="display: flex; flex-wrap: wrap; gap: 2rem;">
+      {[
+        { n: '7', label: 'pasos del pipeline' },
+        { n: '~$0.10', label: 'coste por pleno (IA)' },
+        { n: '4', label: 'mandatos procesados' },
+        { n: '100%', label: 'código abierto' },
+      ].map(({ n, label }) => (
+        <div>
+          <span style="font-family: 'Sora', sans-serif; font-size: 1.75rem; font-weight: 800; color: #1e1e1e; letter-spacing: -0.03em;">{n}</span>
+          <span style="font-family: 'Outfit', sans-serif; font-size: 0.85rem; color: #666; display: block;">{label}</span>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <div class="max-w-5xl mx-auto px-4 py-10" style="font-family: 'Outfit', system-ui, sans-serif;">
+
+    <!-- Fuentes de datos -->
+    <section style="margin-bottom: 3.5rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem;">Fuentes de datos</h2>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; max-width: 48rem; line-height: 1.6;">
+        El proyecto parte de fuentes públicas del Ajuntament de València y las combina para generar datos que no existen en ninguna otra forma estructurada.
+      </p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem;">
+
+        <div style="border: 1px solid #e5e5e5; border-radius: 12px; padding: 1.25rem 1.5rem; background: #fff;">
+          <p style="font-weight: 700; font-size: 0.9rem; color: #1e1e1e; margin-bottom: 0.4rem;">Actas de plenos municipales</p>
+          <p style="color: #666; font-size: 0.82rem; line-height: 1.55; margin-bottom: 0.75rem;">PDFs publicados por el Ajuntament en su web oficial. Dominio público. Reutilización amparada por la Ley 19/2013 de Transparencia y la Ley 2/2015 de la Comunitat Valenciana.</p>
+          <span style="font-size: 0.72rem; font-weight: 600; color: #666; letter-spacing: 0.05em; text-transform: uppercase;">Principal · dominio público</span>
+        </div>
+
+        <div style="border: 1px solid #e5e5e5; border-radius: 12px; padding: 1.25rem 1.5rem; background: #fff;">
+          <p style="font-weight: 700; font-size: 0.9rem; color: #1e1e1e; margin-bottom: 0.4rem;">Dataset Barris i Districtes</p>
+          <p style="color: #666; font-size: 0.82rem; line-height: 1.55; margin-bottom: 0.75rem;">88 barrios y 19 distritos con sus contornos GeoJSON. Portal de Datos Abiertos del Ajuntament de València (geoportal.valencia.es). Usado para la geolocalización de intervenciones y el mapa interactivo.</p>
+          <span style="font-size: 0.72rem; font-weight: 600; color: #16a34a; letter-spacing: 0.05em; text-transform: uppercase;">Datos abiertos · CC BY 4.0</span>
+        </div>
+
+        <div style="border: 1px solid #e5e5e5; border-radius: 12px; padding: 1.25rem 1.5rem; background: #fff;">
+          <p style="font-weight: 700; font-size: 0.9rem; color: #1e1e1e; margin-bottom: 0.4rem;">Queixes, Suggeriments i Pressupostos</p>
+          <p style="color: #666; font-size: 0.82rem; line-height: 1.55; margin-bottom: 0.75rem;">Datasets de quejas y sugerencias (87.528 registros) y de presupuestos participativos (8 ediciones). Portal de Datos Abiertos del Ajuntament. Usados en la sección <em>Altres veus</em>.</p>
+          <span style="font-size: 0.72rem; font-weight: 600; color: #16a34a; letter-spacing: 0.05em; text-transform: uppercase;">Datos abiertos · CC BY 4.0</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Pipeline -->
+    <section style="margin-bottom: 3.5rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem;">El pipeline: 7 pasos</h2>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 2rem; max-width: 48rem; line-height: 1.6;">
+        Un conjunto de scripts Python procesa cada pleno desde su publicación en la web del Ajuntament hasta su aparición en la web. Los pasos 1–4 son automáticos e idempotentes; los pasos 5–7 usan IA con supervisión humana.
+      </p>
+
+      <div style="display: flex; flex-direction: column; gap: 0;">
+        {[
+          {
+            n: '01',
+            title: 'Índice de sesiones',
+            tech: 'Python · web scraping',
+            desc: 'Descarga automática del listado de todos los plenos desde la web municipal. Extrae fecha, tipo (ordinario/extraordinario) y enlaces a las actas y vídeos.',
+            output: 'sessions_index.json',
+            ia: false,
+          },
+          {
+            n: '02',
+            title: 'Metadatos de sesión',
+            tech: 'Python · web scraping',
+            desc: 'Visita cada página de sesión para obtener los metadatos completos y los enlaces directos a los PDFs de las actas.',
+            output: 'sessions_metadata.json',
+            ia: false,
+          },
+          {
+            n: '03',
+            title: 'Descarga de PDFs',
+            tech: 'Python · urllib',
+            desc: 'Descarga las actas oficiales en formato PDF. Solo descarga los que no existen ya localmente. Las actas pueden superar las 200 páginas.',
+            output: 'data/raw/pdfs/',
+            ia: false,
+          },
+          {
+            n: '04',
+            title: 'Extracción de texto',
+            tech: 'pdftotext · Python',
+            desc: 'Convierte cada PDF a texto plano limpio. Elimina cabeceras, pies de página y artefactos de maquetación para preparar el texto para la IA.',
+            output: 'data/raw/texts/',
+            ia: false,
+          },
+          {
+            n: '05',
+            title: 'Extracción con IA',
+            tech: 'Claude Haiku · Anthropic',
+            desc: 'El modelo lee el texto del acta e identifica cada bloque de intervención ciudadana. Por cada intervención extrae: quién habla, qué entidad representa, en qué idioma, qué dice. Genera resúmenes bilingües (castellano y valencià).',
+            output: 'interventions_raw.json',
+            ia: true,
+          },
+          {
+            n: '06',
+            title: 'Normalización de entidades',
+            tech: 'Claude Haiku · supervisión humana',
+            desc: 'La misma entidad aparece con grafías distintas en diferentes actas. Este paso agrupa variantes bajo un nombre canónico. Se aplican correcciones manuales reproducibles para casos que la IA no resuelve bien.',
+            output: 'entitats.json',
+            ia: true,
+          },
+          {
+            n: '07',
+            title: 'Clasificación y construcción final',
+            tech: 'Claude Haiku · Python',
+            desc: 'Cada intervención se clasifica temáticamente (9 categorías, 30+ subcategorías), geográficamente (barrio, distrito, ámbito) y con códigos CAP (Comparative Agendas Project, estándar académico internacional). Se construyen los JSONs finales que alimentan la web.',
+            output: 'intervencions.json · plenos.json',
+            ia: true,
+          },
+        ].map(({ n, title, tech, desc, output, ia }, i) => (
+          <div style={`display: flex; gap: 1.25rem; padding: 1.25rem 0; ${i > 0 ? 'border-top: 1px solid #f0f0f0;' : ''}`}>
+            <div style="flex-shrink: 0; display: flex; flex-direction: column; align-items: center; gap: 0;">
+              <div style={`width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Sora', sans-serif; font-size: 0.75rem; font-weight: 800; flex-shrink: 0; ${ia ? 'background: #fff3ee; color: #e8562a;' : 'background: #f0f0f0; color: #666;'}`}>
+                {n}
+              </div>
+            </div>
+            <div style="flex: 1; min-width: 0;">
+              <div style="display: flex; align-items: baseline; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.3rem;">
+                <p style="font-weight: 700; font-size: 0.95rem; color: #1e1e1e; margin: 0;">{title}</p>
+                <span style="font-size: 0.72rem; color: #aaa; font-weight: 500;">{tech}</span>
+                {ia && <span style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #e8562a; background: #fff3ee; padding: 2px 7px; border-radius: 4px;">IA</span>}
+              </div>
+              <p style="color: #555; font-size: 0.85rem; line-height: 1.6; margin: 0 0 0.4rem 0;">{desc}</p>
+              <p style="font-size: 0.75rem; color: #aaa; margin: 0;">→ <code style="font-size: 0.75rem;">{output}</code></p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Rol de la IA -->
+    <section style="margin-bottom: 3.5rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem;">El rol de la inteligencia artificial</h2>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; max-width: 48rem; line-height: 1.6;">
+        La IA hace posible procesar cientos de páginas de documentos administrativos. La supervisión humana garantiza la calidad del resultado.
+      </p>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;">
+        <div style="border: 1px solid #fde0d4; border-radius: 12px; padding: 1.25rem 1.5rem; background: #fff8f5;">
+          <p style="font-family: 'Sora', sans-serif; font-weight: 700; font-size: 0.9rem; color: #e8562a; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.72rem;">Qué hace la IA</p>
+          <ul style="color: #444; font-size: 0.85rem; line-height: 1.7; margin: 0; padding-left: 1.1rem;">
+            <li>Localizar los bloques de intervención ciudadana en el acta</li>
+            <li>Identificar quién habla y a qué entidad representa</li>
+            <li>Detectar el idioma (castellano, valencià o mixt)</li>
+            <li>Redactar un resumen de 1-2 frases en ambos idiomas</li>
+            <li>Clasificar temáticamente con taxonomía propia y códigos CAP</li>
+            <li>Identificar barrios y distritos mencionados</li>
+            <li>Marcar en negrita las frases clave del texto</li>
+          </ul>
+        </div>
+        <div style="border: 1px solid #e5e5e5; border-radius: 12px; padding: 1.25rem 1.5rem; background: #fff;">
+          <p style="font-family: 'Sora', sans-serif; font-weight: 700; font-size: 0.72rem; color: #666; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">Qué supervisa la persona</p>
+          <ul style="color: #444; font-size: 0.85rem; line-height: 1.7; margin: 0; padding-left: 1.1rem;">
+            <li>Revisar cada sesión procesada</li>
+            <li>Eliminar intervenciones de concejales mal identificados</li>
+            <li>Corregir nombres de entidades y fusionar duplicados</li>
+            <li>Reasignar cesiones de turno entre entidades</li>
+            <li>Validar la clasificación geográfica en casos ambiguos</li>
+            <li>Todas las correcciones quedan en código versionado y son reproducibles</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="background: #f5f5f5; border-radius: 10px; padding: 1rem 1.25rem; font-size: 0.84rem; color: #555; line-height: 1.6;">
+        <strong style="color: #1e1e1e;">Modelo:</strong> Claude Haiku (Anthropic) ·
+        <strong style="color: #1e1e1e;">Coste estimado por pleno:</strong> ~$0.05–0.15 ·
+        <strong style="color: #1e1e1e;">Coste total del dataset completo:</strong> &lt;$30 ·
+        <strong style="color: #1e1e1e;">Hosting web:</strong> $0 (sitio estático)
+      </div>
+    </section>
+
+    <!-- Cobertura y limitaciones -->
+    <section style="margin-bottom: 3.5rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem;">Cobertura y limitaciones</h2>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; max-width: 48rem; line-height: 1.6;">
+        El dataset es exhaustivo dentro de su ámbito, pero tiene límites que cualquier usuario debería conocer.
+      </p>
+      <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+        {[
+          { label: 'Cobertura temporal', text: '4 mandatos municipales: 2011–2015 (Rita Barberá), 2015–2019 (Joan Ribó), 2019–2023 (Joan Ribó), 2023–2027 (María José Catalá). Los plenos más recientes se añaden periódicamente.' },
+          { label: 'Solo intervenciones ciudadanas', text: 'El dataset recoge únicamente las intervenciones del turno ciudadano en el pleno. No incluye debates entre concejales, preguntas de grupos municipales ni otros trámites del orden del día.' },
+          { label: 'Calidad de los PDFs', text: 'Las actas de 2011–2014 son documentos escaneados. La calidad del texto extraído es menor y puede haber más errores de transcripción que en los documentos digitales nativos de mandatos posteriores.' },
+          { label: 'Precisión de la IA', text: 'La extracción automática tiene una tasa de acierto elevada, pero no es perfecta. Todas las sesiones se revisan manualmente. Los errores identificados se corrigen en un script de correcciones versionado.' },
+          { label: 'Normalización de entidades', text: 'Una misma entidad puede aparecer con grafías distintas en diferentes actas. El proceso de normalización es iterativo y mejora con cada nuevo pleno procesado. Pueden quedar variantes no detectadas.' },
+          { label: 'Entidades no identificadas', text: 'En algunos casos el interviniente no indica claramente la entidad que representa. Estas intervenciones se recogen con el campo entitat vacío o con el nombre del interviniente como identificador.' },
+        ].map(({ label, text }, i) => (
+          <div style={`padding: 0.9rem 1.1rem; border-radius: 8px; background: ${i % 2 === 0 ? '#fafafa' : '#fff'}; border: 1px solid #eee;`}>
+            <span style="font-weight: 700; font-size: 0.85rem; color: #1e1e1e;">{label}: </span>
+            <span style="font-size: 0.85rem; color: #555; line-height: 1.6;">{text}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Cómo reutilizar -->
+    <section style="background: #fff8f5; border: 1px solid #fde0d4; border-radius: 12px; padding: 1.5rem 2rem; margin-bottom: 3rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.2rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.75rem; color: #1e1e1e;">Reutilizar los datos</h2>
+      <p style="font-size: 0.9rem; color: #444; line-height: 1.65; margin-bottom: 1rem;">
+        El dataset completo está disponible para descarga libre bajo licencia <strong>CC BY 4.0</strong>. Puedes usarlo en proyectos periodísticos, investigaciones académicas o visualizaciones propias siempre que cites la fuente.
+      </p>
+      <a href="/cas/datos/" style="display: inline-block; background: #1e1e1e; color: #fff; font-size: 0.85rem; font-weight: 600; padding: 9px 20px; border-radius: 8px; text-decoration: none;">
+        Ir a Datos abiertos →
+      </a>
+    </section>
+
+  </div>
+</Base>

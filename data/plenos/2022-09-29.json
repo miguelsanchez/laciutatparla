@@ -1,0 +1,205 @@
+{
+  "id": "2022-09-29",
+  "fecha": "2022-09-29",
+  "tipo": "ordinaria",
+  "mandat_id": "2019-2023",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2022-09-29",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20220929_0945_0_firmadoweb.pdf/377d3bd3-58eb-4943-f71b-d7584e98715c?t=1667392714211",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20220929_0945_0_firmadoweb.pdf/ec48f9e8-8493-a8e9-02cd-033061434a43?t=1664868773698",
+  "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-197",
+  "num_intervencions": 3,
+  "intervencions": [
+    {
+      "id": "2022-09-29-001",
+      "pleno_id": "2022-09-29",
+      "fecha": "2022-09-29",
+      "mandat_id": "2019-2023",
+      "ordre": 1,
+      "intervinient": "[***]",
+      "entitat": "Asociación de Vecinos del Barrio de San Antonio",
+      "entitat_id": "asociacion-vecinos-san-antonio-zaidia",
+      "tipus_entitat": "av",
+      "barri_o_zona": "San Antonio",
+      "punts_ordre_dia": "No especificados",
+      "idioma_original": "castellano",
+      "text_cas": "Somos vecinos de la Asociación de Vecinos del Barrio de San Antonio. Venimos del **séptimo barrio más densamente poblado de la ciudad** de València y que **menos dotaciones públicas tiene**. No tenemos **centro de mayores, ni biblioteca, ni escoleta municipal, ni centro de jóvenes, ni ecoparque móvil**. La protección de las naves es el anhelo que tenemos en el barrio para poder ubicar estas **dotaciones municipales**.\nDesde julio de 2021, los vecinos de nuestro barrio nos hemos movilizado para paralizar la concesión de una licencia ambiental para un **macrohotel residencia de estudiantes de 575 habitaciones** en una superficie de **18.000 metros cuadrados**. En la actualidad el hotel más grande de València es el Expohotel, con **378 habitaciones**. Una serie de **actuaciones del Ayuntamiento que vienen favoreciendo el proyecto de macrohotel**, que es **contrario al Plan Estratégico València 2030**.\nUna de las parcelas del proyecto se había efectuado una **inmatriculación irregular** y **hasta el momento no se ha hecho nada**. El 11 de julio se vendió dicha parcela a la empresa **Selacem, SL, promotora inmobiliaria de Barcelona**. Los grupos de gobierno **dicen en público una cosa y hacer lo contrario**. Tenemos que **modificar el Plan General de Ordenación Urbana**.",
+      "text_val": "Somos veïns de l'Associació de Veïns del Barri de Sant Antoni. Venim del **setè barri més densament poblat de la ciutat** de València i que **menys dotacions públiques té**. No tenim **centre de majors, ni biblioteca, ni escoleta municipal, ni centre de joves, ni ecoparc mòbil**. La protecció de les naus és l'anhel que tenim en el barri per poder ubicar aquestes **dotacions municipals**.\nDes de juliol de 2021, els veïns del nostre barri ens hem mobilitzat per paralitzar la concessió d'una llicència ambiental per a un **machotel residència d'estudiants de 575 habitacions** en una superfície de **18.000 metres quadrats**. Actualment l'hotel més gran de València és l'Expohotel, amb **378 habitacions**. Una sèrie d'**actuacions de l'Ajuntament que venen afavorint el projecte de machotel**, que és **contrari al Pla Estratègic València 2030**. Una de les parcel·les del projecte s'havia efectuat una **inmatriculació irregular** i **fins al moment no s'ha fet res**.\nL'11 de juliol es va vendre dita parcel·la a l'empresa **Selacem, SL, promotora immobiliària de Barcelona**. Els grups de govern **diuen en públic una cosa i fan lo contrari**. Hem de **modificar el Pla General d'Ordenació Urbana**.",
+      "temes": [
+        "urbanisme",
+        "barris",
+        "participacio_ciutadana",
+        "habitatge",
+        "infraestructures",
+        "medi_ambient",
+        "patrimoni",
+        "serveis_socials",
+        "educacio"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "habitatge",
+          "espai_public"
+        ],
+        "serveis_publics": [
+          "educacio",
+          "salut",
+          "serveis_socials"
+        ],
+        "drets_i_igualtat": [
+          "drets_humans"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Sant Antoni"
+      ],
+      "districtes": [
+        "La Saïdia"
+      ],
+      "resum_cas": "La Asociación de Vecinos del Barrio de San Antonio denuncia la falta de dotaciones públicas en el barrio y se opone a la construcción de un macrohotel de 575 habitaciones en la calle Guatla, denunciando irregularidades en la titularidad del suelo y contradictions en las actuaciones del Ayuntamiento respecto al Plan Estratégico València 2030.",
+      "resum_val": "L'Associació de Veïns del Barri de Sant Antoni denuncia la manca de dotacions públiques en el barri i s'oposa a la construcció d'un machotel de 575 habitacions al carrer Guatla, denunciant irregularitats en la titularitat del sòl i contradiccions en les actuacions de l'Ajuntament respecte al Pla Estratègic València 2030.",
+      "cap_subtopics": [
+        1403,
+        1401,
+        1906,
+        2000
+      ],
+      "cap_major": [
+        14,
+        19,
+        20
+      ]
+    },
+    {
+      "id": "2022-09-29-002",
+      "pleno_id": "2022-09-29",
+      "fecha": "2022-09-29",
+      "mandat_id": "2019-2023",
+      "ordre": 2,
+      "intervinient": "[***]",
+      "entitat": "Asociación de Vecinos del Barrio de San Antonio",
+      "entitat_id": "asociacion-vecinos-san-antonio-zaidia",
+      "tipus_entitat": "av",
+      "barri_o_zona": "San Antonio",
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "castellano",
+      "text_cas": "El 27 de abril se solicitó **la declaración de bien de relevancia local** para las naves por parte de nuestra asociación de vecinos, alentados por un asesor del señor alcalde. Y **a fecha de hoy no hay resolución** por parte del Ayuntamiento. Con gran preocupación, sin embargo, hemos tenido información este verano sobre **la solicitud de derribo de las naves** de la calle Guatla, 3, por parte de la promotora dueña de las mismas.\nAl transcurrir **más de tres meses sin respuesta** y a raíz de nuestra queja, **la Oficina del Síndic de Greuges** por dos veces ha requerido al Ayuntamiento para que resuelva este expediente. Ahora es **el momento crucial** en que, a ejemplo de los vecinos del barrio de San Antonio, solicitamos **una voluntad política unida** y esto se debe concretar en **figuras de protección a las naves**. Señor Ribó, le pedimos que **visite nuestro barrio de San Antonio**.\nEn segundo lugar, que nos explique por qué uno de sus asesores nos concertó una reunión con **el arquitecto redactor del proyecto del machohotel David Zapatero**. Por último, le pedimos que lea con detenimiento este informe redactado por **Carles Dolç, arquitecto prestigioso**, en el que califica el proyecto como **desmedido**. Se producirían **los problemas derivados del turismo**, pero con una **densidad mayor**.",
+      "text_val": "El 27 d'abril es va sol·licitar **la declaració de bé de rellevància local** per a les naus per part de la nostra associació de veïns, alentats per un assessor del senyor alcalde. I **a data de hui no hi ha resolució** per part de l'Ajuntament. Amb gran preocupació, no obstant, hem tingut informació este estiu sobre **la sol·licitud de derribament de les naus** del carrer Guatla, 3, per part de la promotora propietària de les mateixes.\nAl transcórrer **més de tres mesos sense resposta** i com a conseqüència de la nostra queixa, **l'Oficina del Síndic de Greuges** per dos vegades ha requerit a l'Ajuntament perquè resolga este expedient. Ara és **el moment crucial** en que, a exemple dels veïns del barri de Sant Antoni, sol·licitem **una voluntat política unida** i això s'ha de concretar en **figures de protecció a les naus**. Senyor Ribó, li demanem que **visite el nostre barri de Sant Antoni**.\nEn segon lloc, que ens explique per què un dels seus assessors ens va concertar una reunió amb **l'arquitecte redactor del projecte del machohotel David Zapatero**. Per últim, li demanem que llig amb deteniment este informe redactat per **Carles Dolç, arquitecte prestigiós**, en el que qualifica el projecte com a **desmesuratment**. Es produirien **els problemes derivats del turisme**, però amb una **densitat major**.",
+      "temes": [
+        "patrimoni",
+        "urbanisme",
+        "habitatge",
+        "turisme",
+        "participacio_ciutadana",
+        "barris"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "patrimoni",
+          "usos_turistics"
+        ],
+        "participacio": [
+          "participacio",
+          "transparencia"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Sant Antoni"
+      ],
+      "districtes": [
+        "La Saïdia"
+      ],
+      "resum_cas": "La asociación de vecinos de San Antonio denuncia la falta de resolución sobre la declaración de bien de relevancia local para las naves de la calle Guatla y la amenaza de derribo por una promotora, solicitando protección patrimonial y expresando preocupación sobre el proyecto del macrohotel David Zapatero.",
+      "resum_val": "L'associació de veïns de Sant Antoni denuncia la falta de resolució sobre la declaració de bé de rellevància local per a les naus del carrer Guatla i la amenaça de derribament per part d'una promotora, demanant protecció patrimonial i expressant preocupació sobre el projecte del macrohotel David Zapatero.",
+      "cap_subtopics": [
+        1403,
+        2015,
+        1401
+      ],
+      "cap_major": [
+        14,
+        20
+      ]
+    },
+    {
+      "id": "2022-09-29-003",
+      "pleno_id": "2022-09-29",
+      "fecha": "2022-09-29",
+      "mandat_id": "2019-2023",
+      "ordre": 3,
+      "intervinient": "[***]",
+      "entitat": "Associació de Veïns de la Creu Coberta",
+      "entitat_id": "associacio-veins-creu-coberta",
+      "tipus_entitat": "av",
+      "barri_o_zona": "Creu Coberta",
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "castellano",
+      "text_cas": "Hola. ¿Qué tal? Gracias.\n\n[*], presidente de la AV Cruz Cubierta.\n\nEl problema que les traigo lo conocen casi todos ustedes porque han estado en el barrio. Desde Vox, PP, Ciudadanos, el PSOE, Compromís y tal. El día 15 estuvo el señor alcalde allí, en el Huerto de Senabre. Y aunque hablo en representación de Cruz Cubierta, yo creo que nos abarca pues a Iturbi, a Senabre, a Cruz Cubierta y a Marcelino. Les hablo un poco de **la degeneración de la calle San Vicente**, de Giorgeta, Cruz Cubierta. Bueno, **es una calle que tiene tráfico a 100 kilómetros por hora**, no al 30 o 50 este que teóricamente debía tener la ciudad. Y ahora a la derecha estaban los Cuarteles de Intendencia y de Artillería, que se están remodelando para hacer viviendas y tal, y el antiguo colegio Santo Ángel de la Guarda. Y a la izquierda hay una valla, Macosa, **las naves aquellas de Macosa**, que pone prohibido circular por aquí porque se derrumba la nave esa. **Eso lleva ya cerca de 30 años**.\n\nYo les vengo a hablar de **los okupas** y de las críticas, las quejas que nos los dicen los vecinos de la zona final, del monumento de la Cruz Cubierta. Esta gente recibe los problemas de **la discoteca, la antigua Pachá**. Todos los fines de semana tienen conflictos. Tienen los problemas de **la antigua cervecera**. Queda un edificio enorme allí todavía y les invitaría a que se acercaran a verla. **La gente hace reformas de baños y de cocinas, y lo tira allí**. Los okupas de las otras calles de al lado -Codonyer, Altamira, Vicenta Salcedo, San Vicente- **es una auténtica montaña de basura, de desperdicios**. **Allí hay ratas, cocodrilos, Tarzán está por ahí**. Bueno, **es realmente deprimente y muy triste**.\n\n**Esta gente son de origen rumano, de etnia gitana y hay unos 100, según la Policía Local**. Dentro de las casas tienen motos, tienen columpios, tienen semáforos, **material también municipal**. **Tienen animales, tiene hasta caballos, burros, de todo**. **Todas las noches montan jaleíllo**.\n\nPor favor, **acuérdense de los barrios estos de aquí**. Porque parece que **todas las inversiones que se están haciendo van al centro, 90.000 euros de mínima**. **Los barrios marítimos y la Cruz Cubierta no llegamos ni a 19.000 euros**. Eso es un informe de la Agencia Tributaria.",
+      "text_val": "Hola. ¿Qué tal? Gràcies.\n\n[***], president de l'AV Creu Coberta.\n\nEl problema que vos porto el coneixen gairebé tots vosaltres perquè han estat en el barri. Des de Vox, PP, Ciudadanos, el PSOE, Compromís i tal. El dia 15 va estar el senyor alcalde allà, en l'Hort de Senabre. I encara que parle en representació de Creu Coberta, jo crec que nos abarca doncs a Iturbi, a Senabre, a Creu Coberta i a Marcelino. Vos parle una mica de la degradació de la carrer San Vicente, de Giorgeta, Creu Coberta. Bueno, és una carrer que té trànsit a 100 quilòmetres per hora, no al 30 o 50 este que teòricament devia tenir la ciutat. I ara a la dreta estaven els Quartels d'Intendència i d'Artilleria, que s'estan remodelant per fer habitatges i tal, i l'antic col·legi Sant Àngel de la Guarda. I a l'esquerra hi ha una valla, Macosa, les naus aquelles de Macosa, que posa prohibit circular per aquí perquè es derrumba la nau esa. Això porta ja prop de 30 anys. Perdó. Quantes coses exigiu vosaltres, ¿no? Porta això prop de 30 anys. O siga, que va anant.\n\nJo vos vinc a parlar dels okupes i de les crítiques, les queixes que ens diuen els veïns de la zona final, del monument de la Creu Coberta. Ho tenen clar esta gent. Nosaltres som més rics i vivim en les carrers de més allà, en Carteros i tal. Esta gent rep els problemes de la discoteca, l'antiga Pachá. Tots els caps de setmana tenen conflictes. Tienen els problemes de l'antiga cervecera que eren tres edificis, es van derruir dos en la legislatura anterior amb Vicent Sarriá. Queda un edifici enorme allà todavía i vos convidaria a que s'acostaren a veure-la per aquí, per favor, el regidor Javier Mateo, se'ls agraïsc, i a la regidora Climent, que ens ha convidat a prendre la paraula, en quines condicions està açò. La gent fa reformes de banys i de cuines, i ho tira allà. Tiren els new jersey ese, els apartem i els tiren allà. Però a més, els okupes de les altres carrers de al costat -Codonyer, Altamira, Vicenta Salcedo, San Vicente- tot el que recollen no tot els val, no tot ho venen, sinó que la deixalla de motos, l'apartat esse, la cosa esa que tienen les neveres i tot açò ho tiren allà, i és una autèntica muntanya de brossa, de desperdicis. Allà hi ha rates, cocodrils, Tarzán està per allà. Bueno, és realment depriment i molt trista. Familiars nostres que entren per València diuen: Oye, ¿esto és València? ¿Pues no és la Ciutat de les Ciències i tal? Bueno, si vissen l'espectacle esse és realment trista. Crec que Renfe vol donar la volta per no passar per allà -bueno, és una broma- per no veure esse espectacle de l'entrada de València.\n\nI luego, a més de la discoteca i de la zona essa tan degradada de l'antiga cervecera doncs queden piscines i estan plenes totes d'escombros, estan els okupes de quatre o cinc carrers allà al voltant en la carrer San Vicente, darrere de la gasolinera. Esta gent són d'origen romanès, d'etnia gitana i hi ha uns 100, segons la Policia Local. Per cierto, la Policia Local es porta molt bé, almenys en ajuda als veïns. Però clar, fan el que poden. Els han tapiada algunes cases perquè són també modernistes, que açò es deuria conservar. I ells s'han ficat en chabolas aquí en la cervecera o fan butrón i la tornen a ocupar. Jo estava amb la premsa i amb la ràdio i coses d'estes. En les plantes baixes que tienen no tienen sols material que ens roben a nosaltres. Nosaltres hem fet festes en el barri i ens han dut valls, ens han dut açò de la llum i ens han dut, bueno, absolutament de tot. Tienen preferència pels poms de les portes, estos daurats. En la meva casa, en la meva finca ja han robat tres vegades, perquè açò pareix que es ven més. Dins de les cases tienen motos, tienen columpisos, tienen semàfors, material també municipal. Aleshores el que fan és que van, recollen tots els desperdicis que hi ha en els alrededors o en els contenidors estos d'obra i se'ls duen allà. Si ho veu algunes vegades, el carro enorme. Tot el que no usen doncs ho tiren als alrededors. Fa una setmana se va pegar foc una barraca d'esses, una chabola de les que van muntar. A més, clar, ells tienen les seves normes. Són d'origen musulmà, ortodoxos o alguna cosa d'essa i totes les nits monten jaleíllo. Tienen animals, tiene fins a cavalls, burros, de tot. Bueno, monten el seu folklore i molesten als veïns.\n\nUna cosa més, sols deu segons. Per favor, ara que està la subasta esta de pobres, de rics, de financiació i coses d'esses, acordeu-vos dels barris estos de per aquí, per favor. Perquè pareix que totes les inversions que s'estan fent van al centre, 90.000 euros de mínima, el centre, el Pla del Remei i tal. Els barris marítims i la Creu Coberta no arribem ni a 19.000 euros. Açò és un informe de l'Agència Tributària. Aleshores, a vore si…\n\nMolt amable. Gràcies.",
+      "temes": [
+        "barris",
+        "seguretat",
+        "habitatge",
+        "urbanisme",
+        "medi_ambient",
+        "economia",
+        "serveis_socials"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "espai_public",
+          "patrimoni"
+        ],
+        "mobilitat": [
+          "transit"
+        ],
+        "medi_ambient": [
+          "contaminacio",
+          "benestar_animal"
+        ],
+        "serveis_publics": [
+          "seguretat"
+        ],
+        "economia": [
+          "pressupostos"
+        ],
+        "drets_i_igualtat": [
+          "interculturalitat_i_antiracisme"
+        ],
+        "participacio": [
+          "participacio"
+        ]
+      },
+      "ambit": "multi_barri",
+      "zones": [
+        "La Creu Coberta",
+        "L'Hort De Senabre",
+        "Sant Marcel.Li"
+      ],
+      "districtes": [
+        "Jesús"
+      ],
+      "resum_cas": "El presidente de la AV Cruz Cubierta denuncia la degradación de las calles San Vicente y zonas aledañas debido a ocupaciones ilegales, acumulación de basura, robos y problemas de seguridad, además de reivindicar mayor inversión en los barrios periféricos frente al centro de la ciudad.",
+      "resum_val": "El president de l'AV Creu Coberta denuncia la degradació de les carrers de San Vicente i zones pròximes per ocupacions il·legals, acumulació de deixalles, robatoris i problemes de seguretat, i reclama més inversió en els barris perifèrics enfront del centre de la ciutat.",
+      "cap_subtopics": [
+        1002,
+        1401,
+        1200,
+        1304,
+        2000,
+        705,
+        703
+      ],
+      "cap_major": [
+        7,
+        10,
+        12,
+        13,
+        14,
+        20
+      ]
+    }
+  ]
+}

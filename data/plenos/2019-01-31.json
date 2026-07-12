@@ -1,0 +1,220 @@
+{
+  "id": "2019-01-31",
+  "fecha": "2019-01-31",
+  "tipo": "ordinaria",
+  "mandat_id": "2015-2019",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2019-01-31",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20190131_1000_0_firmadoweb.pdf/8091e9aa-49fc-8881-6710-759e08301a77?t=1613213002649",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20190131_1000_0_firmadoweb.pdf/f2f99836-ec25-2635-71f1-86cdef379616?t=1613213001296",
+  "url_video": "https://players.cdn.enetres.net/live/1B4DA0F1F28C4AC4BA9AE203080C30C8021",
+  "num_intervencions": 4,
+  "intervencions": [
+    {
+      "id": "2019-01-31-001",
+      "pleno_id": "2019-01-31",
+      "fecha": "2019-01-31",
+      "mandat_id": "2015-2019",
+      "ordre": 1,
+      "intervinient": "Amparo Obiol Saiz",
+      "entitat": "Associació Cabanyal Reviu",
+      "entitat_id": "cabanyal-reviu",
+      "tipus_entitat": "plataforma",
+      "barri_o_zona": "Cabanyal-Canyameral",
+      "punts_ordre_dia": "Pla Especial del Cabanyal",
+      "idioma_original": "valenciano",
+      "text_cas": "Comparecemos hoy aquí en representación de aquellas vecinas, colectivos y asociaciones del Cabanyal que han mostrado su **preocupación y desacuerdo**. Exponemos que el **Plan Especial del Cabanyal no da una solución real de habitabilidad** a todas las personas que residen en el Bloc Portuarios. **Vulnera el artículo 16 del Estatuto de Autonomía**. Hay un acuerdo de la **turistificación del barrio**. Este Plan pone **la alfombra roja a la turistificación, que deshumaniza el entorno**. **Se expulsa de los barrios a quienes los habitan**.\nEspecialmente alarmante es la **concentración turística** con un **40 % de viviendas susceptibles de ser alquiladas**. El impacto del **hotel de quince plantas**. **Este nuevo Plan no respeta la trama urbana tradicional** y crea una **nueva frontera con el mar**. Quedarà por aclarar **cuantas viviendas serán destinadas realmente al parque público de vivienda social**. **Pérdida de atención social y espacios colectivos**.\nSolicitamos que **toda planificación urbana sea sensible** con los proyectos de sus vecinos. **Se ha de recuperar la ciudad para las personas** dando prioridad al espacio público.",
+      "text_val": "Compareixem hui ací en representació d'aquelles veïnes, col·lectius i associacions del Cabanyal que han mostrat la seua **preocupació i desacord**. Exposem que el **Pla Especial del Cabanyal no dóna una solució real d'habitabilitat** a totes les persones que residixen en el Bloc Portuaris. **Vulnera l'article 16 de l'Estatut d'Autonomia**. Hi ha un acord de la **turistificació del barri**. Este Pla posa **la estora roja a la turistificació, que deshumanitza l'entorn**. **S'expulsa dels barris als que els habiten**.\nEspecialment alarmant és la **concentració turística** amb un **40 % de vivendes susceptibles de ser llogades**. L'impacte de l'**hotel de quinze plantes**. **Este nou Pla no respecta la trama urbana tradicional** i crea una **nova frontera amb el mar**. Quedarà per aclarir **quantes vivendes seran destinades al parc públic de vivenda social**. **Pèrdua d'atenció social i espais col·lectius**.\nSol·licitem que **tota planificació urbana siga sensible** amb els projectes dels veïns. **S'ha de recuperar la ciutat per a les persones** donant prioritat a l'espai públic.",
+      "temes": [
+        "habitatge",
+        "urbanisme",
+        "turisme",
+        "serveis_socials",
+        "participacio_ciutadana",
+        "memoria_historica",
+        "patrimoni",
+        "barris",
+        "infraestructures"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "habitatge",
+          "espai_public",
+          "usos_turistics"
+        ],
+        "drets_i_igualtat": [
+          "drets_humans"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Cabanyal-Canyamelar"
+      ],
+      "districtes": [
+        "Poblats Marítims"
+      ],
+      "resum_cas": "Amparo Obiol Saiz, en representación de la Asociación Cabanyal Reviu, presenta críticas al Plan Especial del Cabanyal respecto a la falta de soluciones habitacionales para residentes del Bloc Portuaris, la turistificación del barrio, el diseño urbanístico que no respeta la trama tradicional y la pérdida de espacios sociales y colectivos.",
+      "resum_val": "Amparo Obiol Saiz, en representació de l'Associació Cabanyal Reviu, presenta crítiques al Pla Especial del Cabanyal respecte a la manca de solucions habitacionals per als residents del Bloc Portuaris, la turistificació del barri, el disseny urbanístic que no respecta la trama tradicional i la pèrdua d'espais socials i col·lectius.",
+      "cap_subtopics": [
+        1400,
+        1401,
+        1526,
+        1403
+      ],
+      "cap_major": [
+        14,
+        15
+      ]
+    },
+    {
+      "id": "2019-01-31-002",
+      "pleno_id": "2019-01-31",
+      "fecha": "2019-01-31",
+      "mandat_id": "2015-2019",
+      "ordre": 2,
+      "intervinient": "Daniel Herrero Ginovart",
+      "entitat": "Associació de Veïns de la Font de Sant Lluís",
+      "entitat_id": "associacio-veins-font-sant-lluis",
+      "tipus_entitat": "av",
+      "barri_o_zona": "Devesa-Fuente de San Luis",
+      "punts_ordre_dia": "no especificat",
+      "idioma_original": "castellano",
+      "text_cas": "Señor alcalde, señoras y señores concejales, señoras y señores.\nSoy Daniel Herrero, presidente de la **Asociación de Vecinos Devesa-Fuente de San Luis**.\n\nMi barrio, **un barrio que sentimos algo olvidado de la Administración**, al principio de esta legislatura recibimos la visita de Dª Sandra Gómez, que agradecimos mucho. El pasado año tuvimos la suerte de contar con la visita de D. Giuseppe Grezzi, que fue bastante efectiva en temas de movilidad. Y últimamente hemos recibido la visita de dos concejales de Ciudadanos que han tomado interés en los distintos problemas de nuestro barrio.\n\n**Solares**, el edificio de la Diputación Provincial cerrado unos 30 años en la principal plaza del barrio, plaza de la Iglesia, el principal acceso a la avenida Ausiàs March, calle Entrada de Ponce, con **un vallado que dificulta su circulación**, falta de urbanización a los alrededores de la estación de ferrocarril, por mentar unos cuantos.\n\nUno de los principales problemas que más me comentan los vecinos son **las instalaciones del pabellón de la Fuente de San Luis**. Por ejemplo, **los vestuarios están en deplorables condiciones**. Por poner un ejemplo, los aseos utilizan **cisternas que funcionan con cadena**, un sistema que creo que se dejó de utilizar **hace 25 años**. El suelo de dichos vestuarios son de rasilla de terraza (azulejos rojos entrecruzados) que solo lo puedes encontrar en las terrazas de los edificios antiguos.\n\nCuando llueve **se inundan las salas de la instalación**, provocando **problemas de moho y problemas de olores**. Parece ser que su mantenimiento general, el mantenimiento minucioso, no el de la piscina o las canastas, o entrada del personal que va a disfrutar un partido, esto está bien, **el resto de las instalaciones cuenta con suelos parcheados, puertas por pintar, ladrillos rotos**.\n\nLos distintos usuarios de dichas instalaciones, que son bastantes vecinos de mi barrio, mucho agradecerían **una revisión general, una puesta a punto que diera una imagen digna el polideportivo**.\n\nNo voy a apurar mi tiempo porque simplemente es agradecer la oportunidad que me han brindado de poder exponer aquí lo que he dicho y quedo a disposición de todos ustedes.\n\nGracias.",
+      "text_val": "Senyor alcalde, senyores i senyors regidors, senyores i senyors.\nSoc Daniel Herrero, president de l'**Associació de Veïns Devesa-Font de Sant Lluís**.\n\nEl meu barri, **un barri que sentim una mica oblidat de l'Administració**, al principi d'aquesta legislatura vam rebre la visita de Dª Sandra Gómez, que vam agrair molt. L'any passat vam tenir la sort de comptar amb la visita de D. Giuseppe Grezzi, que va ser bastant efectiva en temes de mobilitat. I últimament hem rebut la visita de dos regidors de Ciutadans que han pres interès en els distintos problemes del nostre barri.\n\n**Solars**, l'edifici de la Diputació Provincial tancat uns 30 anys en la principal plaça del barri, plaça de l'Església, el principal accés a l'avinguda Ausiàs March, carrer Entrada de Ponce, amb **una tanca que dificulta la seua circulació**, falta d'urbanització als voltants de l'estació de ferrocarril, per mencionar uns quants.\n\nUn dels principals problemes que més em comenten els veïns són **les instal·lacions del pavelló de la Font de Sant Lluís**. Per exemple, **els vestidors estan en deplorables condicions**. Per posar un exemple, els banys utilitzen **cisternes que funcionen amb cadena**, un sistema que crec que es va deixar d'utilitzar **fa 25 anys**. El sòl dels dits vestidors és de rasilla de terrassa (rajoles rojos entrecreuats) que només els pots trobar en les terrasses dels edificis antics.\n\nQuан plou **s'inunden les sales de la instal·lació**, provocant **problemes de sants i problemes d'olors**. Sembla ser que el seu manteniment general, el manteniment minuciós, no el de la piscina o les cistelles, o entrada del personal que va a gaudir d'un partit, això està bé, **la resta de les instal·lacions compta amb sòls pegats, portes per pintar, maons trencats**.\n\nEls distintos usuaris d'aquestes instal·lacions, que són bastants veïns del meu barri, molt agraïrien **una revisió general, una puesta a punt que donara una imatge digna el poliesportiu**.\n\nNo vaig a apurar el meu temps perquè simplement és agrair l'oportunitat que m'han brindat de poder exposar ací el que he dit i quede a disposició de tots vosaltres.\n\nGràcies.",
+      "temes": [
+        "infraestructures",
+        "urbanisme",
+        "esports",
+        "barris"
+      ],
+      "temes_v2": {
+        "serveis_publics": [
+          "esports"
+        ],
+        "urbanisme": [
+          "espai_public"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "La Fonteta S.Lluis"
+      ],
+      "districtes": [
+        "Quatre Carreres"
+      ],
+      "resum_cas": "El presidente de la Asociación de Vecinos de la Devesa-Fuente de San Luis expone los principales problemas del barrio, destacando el mal estado de las instalaciones del pabellón polideportivo, con vestuarios sin reformar, problemas de inundaciones y deficiencias generales en el mantenimiento.",
+      "resum_val": "El president de l'Associació de Veïns de la Devesa-Fuente de San Luis exposa els principals problemes del barri, destacant el mal estat de les instal·lacions del pavelló poliesportiu, amb vestidors sense reformar, problemes d'inundacions i deficiències generals en el manteniment.",
+      "cap_subtopics": [
+        1526,
+        1401
+      ],
+      "cap_major": [
+        14,
+        15
+      ]
+    },
+    {
+      "id": "2019-01-31-003",
+      "pleno_id": "2019-01-31",
+      "fecha": "2019-01-31",
+      "mandat_id": "2015-2019",
+      "ordre": 3,
+      "intervinient": "Alfredo Alfonso Pérez",
+      "entitat": "FCUD Benicalap (Unión Deportiva Benicalap)",
+      "entitat_id": "fcud-benicalap",
+      "tipus_entitat": "esportiu",
+      "barri_o_zona": "Benicalap",
+      "punts_ordre_dia": "no especificat",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días a todos. Soy Alfredo Alfonso, soy el presidente de la **Unión Deportiva Benicalap**. Vamos a ver, lo que quiero comentaros es que vengo en plan de **no criticar ni buscar culpables**, simplemente vengo a presentar **unos pequeños fallos que tiene el polideportivo**. Tenemos **225 niños** y como comprenderéis pues tienen padre, madre y familiares. Entonces, cuando no viene uno, viene otro a exponernos cosas que ciertamente tienen razón y yo os explico un poquito.\n\nHace bastante tiempo que **no se viene a podar los árboles ni a cortar el césped**, aquello es una pequeña selvita. Luego, hay otro inconveniente que es que cuando se ponen los aspersores en marcha se ve que hay **una fuga interior y el parque es un río**, y se nos inunda uno de los frontones. Entonces, claro, son cosas que nos vienen a decir y que vengo yo en plan de que lo sepáis.\n\nHablando de los frontones, **los frontones están fatal**. Los hemos remendado bastante porque, claro, hay que dar un servicio, pero el club no puede llegar a tanto. Entonces, pedimos eso. A ver si entre unos y otros, no sé, os preocupáis un poquito de nuestro tema. **La pista de futbito y tenis, es un peligro** porque da la sensación de que están huecas y en cualquier momento se puede desprender y tener un grandísimo disgusto. Lo hemos comentado pero ahí están sin solucionar.\n\nOtra cosa muy importante, **el cuarto de calderas es tercermundista**. Aquello está hecho de hace **35 o 40 años** y como comprenderéis cuando no falla por un lado falla por otro. Entonces seguimos con la misma, a ver si entre unos y otros nos pueden solucionar el tema del polideportivo.\n\nLuego también tenemos el fallo o que **nos faltan vestuarios**. Tenemos **seis vestuarios** y tenemos dos pistas de frontón, dos de tenis, la de futbito y baloncesto, y luego el campo de futbol. Que los sábados podemos tener fútbol 8 y fútbol 11. Entonces, cuando tenemos fútbol 8 son dos equipos en un campo y dos en el otro. Si miramos el frontón, el tenis, nos falta sitio. Y simplemente es eso.\n\nVuelvo a insistir no vengo en plan de criticar, vengo en plan de **la Unión Deportiva y de los chavales que tenemos**. Muchísimas gracias.",
+      "text_val": "Buenos días a tots. Sóc Alfredo Alfonso, sóc el president de la **Unió Deportiva Benicalap**. Vamos a vore, el que vull comentar-vos és que vine en plan de **no criticar ni buscar culpables**, simplement vine a presentar **uns pequeños fallides que té el poliesportiu**. Tenim **225 xiquets** i com comprendareu bé que tenen pare, mare i familiars. Aleshores, quan no ve un, ve un altre a exposar-nos coses que certament tenen raó i vos explique un poqueta.\n\nFa bastant temps que **no es ve podar els arbres ni tallar la gespa**, aquello és una pequena selveta. Luego, hi ha un altre inconvenient que és que quan es posen els aspersors en marxa es veu que hi ha **una fuga interior i el parque és un riu**, i se nos inunda un dels frontós. Aleshores, clar, són coses que nos venen a dir i que vine jo en plan que ho sapiáu.\n\nParalnt dels frontós, **els frontós estan fatal**. Els hem remendats bastant perquè, clar, cal dar un servici, però el club no pot arribar a tant. Aleshores, demannem eixo. A vore si entre uns i altres, no sé, vos preocupau un poqueta del nostre tema. **La pista de futbito i tennis, és un perille** perquè dóna la sensació de que estan buides i en qualsevol moment es pot despendre i tenir un grandíssim disgusto. Ho hem comentat però ací estan sense solucionar.\n\nUna altra cosa molt important, **el quart de calderes és tercermundista**. Aquello està fet de fa **35 o 40 anys** i com comprendareu quan no falla per un costat falla per l'altre. Aleshores seguim amb la mateixa, a vore si entre uns i altres vos poden solucionar el tema del poliesportiu.\n\nLuego també tenim el fallida o que **nos falten vestuaris**. Tenim **sis vestuaris** i tenim dos pistes de frontó, dos de tennis, la de futbito i bàsquet, i luego el camp de futbol. Que els sàbats podem tindre futbol 8 i futbol 11. Aleshores, quan tenim futbol 8 són dos equips en un camp i dos en l'altre. Si mirem el frontó, el tennis, nos falta lloc. I simplement és eixo.\n\nTorne a insistir no vine en plan de criticar, vine en plan de **la Unió Deportiva i dels xiquets que tenim**. Moltíssimes gràcies.",
+      "temes": [
+        "esports",
+        "infraestructures",
+        "manteniment",
+        "seguretat"
+      ],
+      "temes_v2": {
+        "serveis_publics": [
+          "esports"
+        ],
+        "urbanisme": [
+          "espai_public"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Benicalap"
+      ],
+      "districtes": [
+        "Benicalap"
+      ],
+      "resum_cas": "El presidente de la Unión Deportiva Benicalap expone los problemas de mantenimiento e infraestructura del polideportivo de la zona, incluyendo deficiencias en el riego, deterioro de frontones, pistas de tenis en mal estado, calderas obsoletas y falta de vestuarios para atender a los 225 niños afiliados.",
+      "resum_val": "El president de la Unió Deportiva Benicalap exposa els problemes de manteniment i infraestructura del poliesportiu de la zona, incloent deficiències en el reg, deteriorament dels frontós, pistes de tenis en mal estat, calderes obsoletes i falta de vestuaris per a atendre els 225 xiquets afiliats.",
+      "cap_subtopics": [
+        1526,
+        709
+      ],
+      "cap_major": [
+        7,
+        15
+      ]
+    },
+    {
+      "id": "2019-01-31-004",
+      "pleno_id": "2019-01-31",
+      "fecha": "2019-01-31",
+      "mandat_id": "2015-2019",
+      "ordre": 4,
+      "intervinient": "Antonio Cassola Cortadellas",
+      "entitat": "Associació de Veïns i Amics del Carme",
+      "entitat_id": "associacio-veinats-carme",
+      "tipus_entitat": "av",
+      "barri_o_zona": "Carme",
+      "punts_ordre_dia": "punt 29",
+      "idioma_original": "mixt",
+      "text_cas": "En primer lugar, dar las gracias porque se me pueda dar la palabra a pesar de todas las circunstancias un tanto accidentadas que han rodeado este tema, de tergiversaciones, de suplantaciones y de equívocos porque a primera hora se nos había dicho que podíamos hablar a pesar de que no hubiera moción.\n\nDicho esto, insisto, gracias por dejarnos expresar nuestros argumentos en favor de una moción que consideramos que es **muy urgente y necesaria**. Me gustaría que pensaran que no solamente es la Federación de Asociaciones de Vecinos quien les habla, aquí había **ocho asociaciones de vecinos**, todas con los mismos problemas que voy a mencionar ahora relacionados con el **ocio y con el turismo**.\n\nComo digo, la ciudad de València necesita con urgencia un **Observatorio del Ocio y del Turismo** y estas son nuestras razones. La primera, porque si València debe acoger **cada año dos millones de turistas**, tres veces su población, y comprobamos que en poco tiempo ha desaparecido del mercado **un tercio de la oferta de viviendas de alquiler** y que **el precio medio ha crecido un 47 %** más vale que nos demos aire en analizar este impacto y en proponer soluciones de eficacia inmediata.\n\nSi el espacio público, al igual que ocurre con la vivienda, comprobamos que se está colonizando como consecuencia de un **uso comercial abusivo** tanto del día como de la noche urge que creemos un espacio de diálogo bien pertrechado de **datos fiables** y con capacidad para hacer propuestas y velar por vigencia.\n\nLa tan deseada **movilidad hace aguas** en muchas calles y plazas de la ciudad, **auténticos espacios privatizados e inaccesibles** para el vecino de a pie. La licencia de actividad de muchos de los locales que ocupan algunas de estas calles son un **auténtico misterio**, como evidencia la reciente reprobación del Consejo de Transparencia de la Comunitat Valenciana al Servicio de Actividades dirigido por el Sr. Carlos Galiana por no facilitar información una versa y comprensible.\n\nEn Ciutat Vella **un tercio de las viviendas están desocupadas**. ¿Cuál es el uso que se les está dando?, ¿no sería bueno saberlo? Estas son, pues, las razones que nos mueven a pedir el apoyo del Ayuntamiento de València en Pleno a la iniciativa de la Federación de Asociaciones de Vecinos para la creación del Observatorio del Ocio y el Turismo de la Ciudad de València.\n\nUrge crear un espacio de encuentro para identificar **los efectos de una oferta turística y de ocio estable** en la ciudad, con un crecimiento sostenido, y saber qué tipo de impactos está teniendo en la vida diaria de la ciudad y en la **convivencia entre vecinos y visitantes**, es indispensable.\n\nNos hemos pasado **tres años señalando unos problemas** que no han hecho más que agravarse mes a mes. Con esta iniciativa pensamos que puede y debe sellarse un **compromiso por una ciudad abierta, tolerante, festiva pero apacible**, un compromiso con el **diálogo franco y transparente**. Hemos hablado con muchos de ustedes, todos los grupos municipales. **Creemos que el acuerdo es posible**, es cuestión de un esfuerzo. No lo dejemos para el mandato que viene.\n\nEl ruego que os traemos es si no se puede aprobar hoy esta moción tal como está, que lógicamente no se va a poder aprobar, sí que les rogamos que **quede sobre la mesa el compromiso** de que sigamos hablando a lo largo de este mes y que el mes próximo podamos traer una propuesta que hable de todas estas cosas: **del problema de la vivienda, del turismo, del botellón, de la sobreocupación del espacio público**. Estoy seguro que podremos entendernos.\n\nPara terminar, decir e insistir que rechazamos que las **ZAS sean el último recurso** cuando todo va mal. Hay de tener antes una última palabra como hasta ahora y **un primer paso para tender puentes**, esta es la oportunidad. Venimos, como digo, llamando tres años a esta puerta. Por favor, hagamos **un esfuerzo de diálogo, de entendimiento** y démonos la oportunidad el mes que viene, en el próximo pleno, de poder seguir discutiendo sobre este tema, es necesario.",
+      "text_val": "En primer lloc, donar les gràcies perquè se'm puga donar la paraula tot i totes les circumstàncies un tant accidentades que han envoltat aquest tema, de tergiversacions, de suplantacions i d'equívocs perquè a primera hora se'ns havia dit que podíem parlar tot i que no hi hagués moció.\n\nDit això, insistesc, gràcies per deixar-nos expressar els nostres arguments a favor d'una moció que considerem que és **molt urgent i necessària**. M'agradaria que pensaren que no sols és la Federació d'Associacions de Veïns qui els parla, ací hi havia **huit associacions de veïns**, totes amb els mateixos problemes que vaig a mencionar ara relacionats amb l'**oci i amb el turisme**.\n\nCom dic, la ciutat de València necessita amb urgència un **Observatori de l'Oci i del Turisme** i aquestes són les nostres raons. La primera, perquè si València ha d'acollir **cada any dos milions de turistes**, tres vegades la seua població, i comprovem que en poc temps ha desaparegut del mercat **un terç de l'oferta de vivendes de lloguer** i que **el preu mitjà ha crescut un 47 %** més val que ens done aire en analitzar aquest impacte i en proposar solucions d'eficàcia immediata.\n\nSi l'espai públic, igual que ocorre amb la vivenda, comprovem que s'està colonitzant com a conseqüència d'un **ús comercial abusiu** tant del dia com de la nit urgeix que creem un espai de diàleg ben proveït de **dades fiables** i amb capacitat per a fer propostes i vetllar per la vigència.\n\nLa tant desitjada **mobilitat fa aigües** en molts carers i places de la ciutat, **autèntics espais privatitzats i inaccesibles** per al veïnat de a peu. La llicència d'activitat de molts dels locals que ocupen alguns d'estos carers són un **autèntic misteri**, com evidencia la recent reprovació del Consell de Transparència de la Comunitat Valenciana al Servei d'Activitats dirigit pel Sr. Carlos Galiana per no facilitar informació versa i comprensible.\n\nEn Ciutat Vella **un terç de les vivendes estan desocupades**. ¿Quin és l'ús que se'ls està donant?, ¿no seria bo saberho? Aquestes són, doncs, les raons que ens mouen a demanar el suport de l'Ajuntament de València en Ple a la iniciativa de la Federació d'Associacions de Veïns per a la creació de l'Observatori de l'Oci i el Turisme de la Ciutat de València.\n\nUrgeix crear un espai de trobada per a identificar **els efectes d'una oferta turística i d'oci estable** en la ciutat, amb un creixement sostingut, i saber quin tipus d'impactes està tenint en la vida diària de la ciutat i en la **convivència entre veïnat i visitants**, és indispensable.\n\nEns hem passat **tres anys senyalant uns problemes** que no han fet més que agreujar mes a mes. Amb aquesta iniciativa pensem que pot i ha de sellar-se un **compromís per una ciutat oberta, tolerant, festiva però apacible**, un compromís amb el **diàleg franquement i transparent**. Hem parlat amb molts de vostès, tots els grups municipals. **Creiem que l'acord és possible**, és qüestió d'un esforç. No ho deixem per al mandat que ve.\n\nEl prec que us portem és si no es pot aprovar hui aquesta moció tal com està, que lògicament no es podrà aprovar, sí que us rogem que **quede sobre la taula el compromís** que continuem parlant al llarg d'este mes i que el mes pròxim puguem portar una proposta que parle de totes aquestes coses: **del problema de la vivenda, del turisme, del botellón, de la sobreocupació de l'espai públic**. Sóc segur que podrem entendrens.\n\nPer a terminar, dir i insistir que rebutgem que les **ZAS siguen l'últim recurs** quan tot va mal. Hi ha de tenir abans una última paraula com fins ara i **un primer pas per a tendir ponts**, aquesta és l'oportunitat. Venim, com dic, cridant tres anys a esta porta. Per favor, fem **un esforç de diàleg, d'enteniment** i donem-nos l'oportunitat el mes que ve, en el pròxim ple, de poder continuar discutint sobre aquest tema, és necessari.",
+      "temes": [
+        "turisme",
+        "habitatge",
+        "mobilitat",
+        "participacio_ciutadana",
+        "barris"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "espai_public",
+          "habitatge",
+          "usos_turistics"
+        ],
+        "mobilitat": [
+          "mobilitat_activa"
+        ],
+        "participacio": [
+          "participacio",
+          "transparencia"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [],
+      "districtes": [
+        "Ciutat Vella"
+      ],
+      "resum_cas": "La Asociación de Vecinos del Carme solicita la creación urgente de un Observatorio del Ocio y Turismo para analizar los impactos del turismo masivo en vivienda, espacio público y movilidad en la ciudad de València.",
+      "resum_val": "L'Associació de Veïns del Carme sol·licita la creació urgent d'un Observatori de l'Oci i el Turisme per a analitzar els impactes del turisme massiu en habitatge, espai públic i mobilitat a la ciutat de València.",
+      "cap_subtopics": [
+        1401,
+        1526,
+        1002,
+        2015
+      ],
+      "cap_major": [
+        10,
+        14,
+        15,
+        20
+      ]
+    }
+  ]
+}

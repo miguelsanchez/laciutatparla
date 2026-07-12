@@ -1,0 +1,111 @@
+{
+  "id": "2022-12-22",
+  "fecha": "2022-12-22",
+  "tipo": "ordinaria",
+  "mandat_id": "2019-2023",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2022-12-22-1",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20221222_0945_0_firmadoweb.pdf/c85cca8e-d849-c371-914d-0349f8fe02e5?t=1674822146781",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20221222_0945_0_firmadoweb.pdf/fff7f599-c238-f3c6-d645-6b2fa9406879?t=1672051007772",
+  "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-539",
+  "num_intervencions": 2,
+  "intervencions": [
+    {
+      "id": "2022-12-22-001",
+      "pleno_id": "2022-12-22",
+      "fecha": "2022-12-22",
+      "mandat_id": "2019-2023",
+      "ordre": 1,
+      "intervinient": "[***]",
+      "entitat": "Asociación de Vecinos del barrio de San Antonio",
+      "entitat_id": "av-sant-antoni-saidia",
+      "tipus_entitat": "av",
+      "barri_o_zona": "San Antonio, distrito de Zaidia",
+      "punts_ordre_dia": "moción urgente para la paralización de la demolición del complejo industrial en calle Guatla número tres",
+      "idioma_original": "castellano",
+      "text_cas": "Muchas gracias.\n\nBuenas tardes, señor alcalde. Señoras y señores concejales.\n\nVolvemos a intervenir en este pleno. Lo hicimos hace menos de **tres meses**, la última vez, el **29 de septiembre**, defendiendo la **paralización de la concesión** de la licencia ambiental y de obras del **macrohotel** proyectado en la **calle Guatla número tres**. Por cierto, tuvimos poco éxito. Somos de la **Asociación de Vecinos del barrio de San Antonio**, del **distrito de Zaidia**. Venimos del **séptimo barrio más densamente poblado** de la ciudad de València y **uno de los barrios que menos dotaciones públicas** tenemos. No tenemos ni **centros de mayores, ni escoleta municipal, ni biblioteca, ni centro de jóvenes**. La última **campaña Cultura als pobles de València** ni siquiera pasó por nuestro barrio. Y así podríamos seguir con una lista larguísima de carencias.\n\nHoy queremos agradecer al **Grupo del Partido Popular** por la presentación de esta **moción urgente** para la **paralización de la demolición** del complejo industrial situado en nuestro barrio y que podamos intervenir de nuevo otra vez aquí. Ante la posibilidad anunciada por la promotora del macrohotel del comienzo de los derribos de las naves de la calle Guatla con la sola presentación de una declaración responsable y con **fecha de mañana, 23 de diciembre**, se iniciarán las obras. Venimos hoy aquí para **salvar estos edificios**, testigos de un **pasado industrial y huertano** de nuestra barriada, y que la **codicia de unas empresas especuladoras** intentan eliminar y en las que se podrían localizar **todos los servicios municipales** de los que carecemos. Hoy, la **Concejalía de Urbanismo** ha **denegado el permiso de derribo** por DERE para las naves y se ha vuelto a plantear lograr un **acuerdo de gobierno** para conseguir que estas naves sirvan para **dotaciones públicas**. Esperamos no sean solo palabras y por fin se actúe ante esto.\n\nMuchas gracias.",
+      "text_val": "Moltes gràcies.\n\nBones tardes, senyor alcalde. Senyores i senyors regidors.\n\nTornem a intervindre en aquest ple. Ho vàrem fer fa menys de tres mesos, la darrera vegada, el **29 de setembre**, defensant la **paralització de la concessió de la llicència ambiental i d'obres** del **macrohotel projectat al carrer Guatla número tres**. Per cert, vàrem tenir poc èxit. Som de l'**Associació de Veïns del barri de Sant Antoni**, del **districte de Zaidia**. Venim del **setè barri més densament poblat** de la ciutat de València i un dels barris que **menys dotacions públiques tenim**. No tenim ni **centres de majors**, ni **escoleta municipal**, ni **biblioteca**, ni **centre de joves**. La darrera campanya Cultura als pobles de València ni tan sols va passar pel nostre barri. I així podríem continuar amb una llista llargíssima de carències.\n\nHuí volem agrair al **Grup del Partit Popular** per la presentació d'aquesta **moció urgent per a la paralització de la demolició** del complex industrial situat en el nostre barri i que podem intervindre de nou una altra vegada ací. Davant la possibilitat anunciada per la promotora del macrohotel del começament dels **derribos de les naus del carrer Guatla** amb la sola presentació d'una declaració responsable i amb data de demà, **23 de desembre**, s'iniciaran les obres. Venim huí ací per a **salvar estos edificis**, **testimonis d'un passat industrial i hortolà** de la nostra barriada, i que la cobdícia d'unes empreses especuladores intenten eliminar i en les quals es podrien localitzar **tots els serveis municipals dels quals carecemos**. Huí, la **Regidoria d'Urbanisme ha denegat el permís de derribo** per DERE per a les naus i s'ha tornat a plantejar aconseguir un **acord de govern** per a conseguir que estas naus servixen per a **dotacions públiques**. Esperem que no siguen sols paraules i per fi s'actúe davant d'això.\n\nMoltes gràcies.",
+      "temes": [
+        "urbanisme",
+        "patrimoni",
+        "serveis_socials",
+        "barris",
+        "participacio_ciutadana",
+        "cultura",
+        "educacio",
+        "infraestructures"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "patrimoni",
+          "usos_turistics"
+        ],
+        "serveis_publics": [
+          "educacio",
+          "salut",
+          "serveis_socials"
+        ],
+        "economia": [
+          "comerc_ocupacio"
+        ],
+        "cultura": [
+          "esports"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Sant Antoni"
+      ],
+      "districtes": [
+        "La Saïdia"
+      ],
+      "resum_cas": "La Asociación de Vecinos del barrio de San Antonio solicita la paralización de la demolición de un complejo industrial en calle Guatla para preservar su patrimonio industrial y convertirlo en dotaciones públicas, argumentando las carencias de servicios en el barrio.",
+      "resum_val": "L'Associació de Veïns del barri de Sant Antoni sol·licita la paralització de la demolició d'un complex industrial al carrer Guatla per preservar el seu patrimoni industrial i convertir-lo en dotacions públiques, argumentant les carències de serveis en el barri."
+    },
+    {
+      "id": "2022-12-22-002",
+      "pleno_id": "2022-12-22",
+      "fecha": "2022-12-22",
+      "mandat_id": "2019-2023",
+      "ordre": 2,
+      "intervinient": "[***]",
+      "entitat": "Asociación de Vecinos del barrio de San Antonio",
+      "entitat_id": "av-sant-antoni-saidia",
+      "tipus_entitat": "av",
+      "barri_o_zona": "barrio con calle de Guatla",
+      "punts_ordre_dia": "moción presentada sobre modificación de calificaciones urbanísticas",
+      "idioma_original": "castellano",
+      "text_cas": "Hoy, **esta mañana** nos hemos despertado en el **barrio** con los **ruidos de las radiales** y las piquetas que estaban quitando los azulejos. Quizá no sé si era a las siete o antes, porque era ya de noche. Con ese ruido nos hemos despertado esta mañana.\n\nLes pedimos que tengan la **valentía** de hacer lo necesario para que **estas naves**, su pavimento, sus azulejerías, su **panel cerámico de Nuestra Señora de la Cabeza**, de **1935**, que ostenta la protección como **Bien de Relevancia Local**, el **brazo seco de la acequia de Guatla**, también BRL, no sucumban ante la entrada de las excavadoras.\n\nHan sido **meses intensos de lucha vecinal** en los que hemos logrado dar a conocer nuestras razones y reivindicaciones, uniendo vecinos de distintas formas de pensar en un objetivo común para tener un **barrio mejor**.\n\nLa **moción presentada hoy** refleja las peticiones que venimos haciendo al Ayuntamiento y nuestro deseo de impedir una **operación inmobiliaria especulativa** que beneficiaría a unos pocos, sobre todo a la promotora inmobiliaria **SELACEM, SL**, de **Barcelona**, que viene adquiriendo parcelas de este proyecto, incluso algunas de las que ha vendido el propio **Ayuntamiento de València**, y desde la que hace ya muchos meses venimos denunciando como una operación especulativa y que la promotora que lo hacía, **Inversiones Gran València**, no tenía ningún interés más que conseguir la licencia.\n\nPor todo ello, vemos necesario **modificar las calificaciones urbanísticas** de las parcelas de la **calle de Guatla** en **dotacionales** y que se continúe en el proceso de **protección de las naves**.\n\nNo gastaremos más tiempo de nuestra intervención. Está todo dicho. Muchas gracias a todos por escucharnos.",
+      "text_val": "Hui, esta matinada ens hem despertat en el barri amb els **sorolls de les radials** i les pics que estaven traient els azulejos. Potser no sé si era a les set o abans, perquè ja era de nit. Amb eixe soroll ens hem despertat esta matinada.\n\nLi demanem que tinga la **valentía de fer el necessari** perquè aquestes **naus**, el seu paviment, les seues atzulejareis, el seu **panell ceràmic de Nostra Senyora de la Cabeza, de 1935**, que ostenta la protecció com a **Bé de Rellevància Local**, el **braç sec de la sèquia de Guatla**, també BRL, no sucumhin davant l'entrada de les excavadores.\n\nHan sigut **mesos intensos de lluita veïnal** en els quals hem aconseguit donar a conéixer els nostres **raons i reivindicacions**, unint **veïns de distintes formes de pensar** en un objectiu comú per a tindre un barri millor.\n\nLa **moció presentada hui** reflectix les peticions que veníem fent a l'Ajuntament i el nostre desig d'impedir una **operació immobiliària especulativa** que beneficiaria a uns pocs, sobretot a la promotora immobiliària **SELACEM, SL, de Barcelona**, que ve adquirint parcel·les d'este projecte, inclús algunes de les que ha venut el propi **Ajuntament de València**, i des de la qual fa ja molts mesos veníem denunciant com una operació especulativa i que la promotora que ho feia, **Inversions Gran València**, no tenia ningún interés més que aconseguir la llicència.\n\nPer tot això, veiem necessari **modificar les qualificacions urbanístiques** de les parcel·les del carrer de Guatla en **dotacionals** i que es continue en el **procés de protecció de les naus**.\n\nNo gastarem més temps de la nostra intervenció. Està tot dit. Moltes gràcies a tots per escoltar-nos.",
+      "temes": [
+        "urbanisme",
+        "habitatge",
+        "patrimoni",
+        "participacio_ciutadana",
+        "economia",
+        "barris"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "patrimoni",
+          "usos_turistics"
+        ],
+        "medi_ambient": [
+          "contaminacio"
+        ],
+        "economia": [
+          "pressupostos"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Sant Antoni"
+      ],
+      "districtes": [
+        "La Saïdia"
+      ],
+      "resum_cas": "Vecinos del barrio denuncian operaciones inmobiliarias especulativas en la calle de Guatla y solicitan la protección de naves históricas y la modificación de calificaciones urbanísticas a dotacionales para evitar una urbanización que beneficiaría principalmente a promotoras.",
+      "resum_val": "Veïns del barri denuncien operacions immobiliàries especulatives en el carrer de Guatla i sol·liciten la protecció de naus històriques i la modificació de qualificacions urbanístiques a dotacionals per evitar una urbanització que beneficiaria principalment a promotores."
+    }
+  ]
+}

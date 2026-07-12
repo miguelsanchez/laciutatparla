@@ -1,0 +1,154 @@
+{
+  "id": "2022-10-31",
+  "fecha": "2022-10-31",
+  "tipo": "ordinaria",
+  "mandat_id": "2019-2023",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2022-10-31",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20221031_0945_0_firmadoweb.pdf/97684ce2-a893-4297-a6ae-a1920be0792c?t=1680089671731",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20221031_0945_0_firmadoweb.pdf/aef7c028-43f0-2d8e-3f98-7bb85cd14d88?t=1667392510313",
+  "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-203",
+  "num_intervencions": 3,
+  "intervencions": [
+    {
+      "id": "2022-10-31-001",
+      "pleno_id": "2022-10-31",
+      "fecha": "2022-10-31",
+      "mandat_id": "2019-2023",
+      "ordre": 1,
+      "intervinient": "[***]",
+      "entitat": "Asociación de Veíns Plaça de Múrcia / Asociación Vecinal Fuensanta",
+      "entitat_id": "asociacion-vecinos-fuensanta",
+      "tipus_entitat": "av",
+      "barri_o_zona": "La Fuensanta",
+      "punts_ordre_dia": "no especificat",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días.\n\nCon permiso del Pleno, señor alcalde.\n\nSoy [*], actual presidente de la **Asociación Vecinal Fuensanta**. Tras **24 mesos d'intenso treball** tramitant múltiples incidències a través de l'app de l'Ajuntament i multitud de correus electrònics i firmes digital per registre d'entrada, vàrem veure que **era impossible abordar** la multitud d'assumptes pendents en el nostre barri utilitzant només aquests mitjans. Aquests problemes **arrastren des de fa anys, alguns des de fa dècades**, i de molt calat, arribant a la conclusió en assemblea entre tots que **aquest sistema de treball a penes soluciona el 10 % dels problemes**. Decidírem entre tots els veïns que **havia d'arribar als mitjans de comunicació** per traure a la llum totes aquestes qüestions. Com a exemple i una de les gotes que ompl el vas ja, **la plaga de rates** que campen en el nostre barri dominant els espais comuns i després entrant en les nostres cases. Participem en la **Junta de Districte** en distintes ocasions i começàrem a citar regidors amb responsabilitat per visitar els nostres barris, fent entrega per escrit de noves incidències i estàrem en contacte per realitzar més visites amb els regidors. A més, citàrem **càrrecs polítics de tota l'oposició** per implicar-los ja que estàrem en **una situació crítica a molts nivells**, alguns des de fa dècades i algun mode d'arribar a l'arrel dels problemes.\n\nAixí que passe la paraula a la meva companya [*], vicepresidenta de l'associació.",
+      "text_val": "Buenos días.\n\nAmb permís del Ple, senyor alcalde.\n\nSóc [***], actual president de l'Associació Vecinal Fuensanta. Després de 24 mesos de intense treball tramitant múltiples incidències a través de l'app de l'Ajuntament i multitud de correus electrònics i firmes digital per registre d'entrada, vam veure que era impossible afrontar la multitud d'assumptes pendents del nostre barri utilitzant només aquests mitjans. Aquests problemes arrosseguen des de fa anys, alguns des de fa dècades, i de molt calat, arribant a la conclusió en assemblea entre tots que aquest sistema de treball apenas soluciona un 10 % dels problemes. Vam decidir entre tots i totes els veïns que havia que arribar als mitjans de comunicació per a treure a la llum totes aquestes qüestions. Com a exemple i una de les gotes que cola el vas ja, la plaga de rates que campan en el nostre barri dominant els espais comuns i després entrant en les nostres cases. Participem en la Junta de Districte en distintes ocasions i vam començar a citar regidors amb responsabilitat per a visitar els nostres barris, fent lliurament per escrit de noves incidències i estem en contacte per a realitzar més visites amb els regidors. A més, citarem a càrrecs polítics de tota l'oposició per a implicar-los ja que estem en una situació crítica a molts nivells, alguns des de fa dècades i algún mode d'arribar a l'arrel dels problemes.\n\nAixí que passe la paraula a la meva companya [***], vicepresidenta de l'associació.",
+      "temes": [],
+      "temes_v2": {
+        "participacio": [
+          "participacio",
+          "processos_participatius",
+          "transparencia"
+        ],
+        "medi_ambient": [
+          "benestar_animal"
+        ],
+        "serveis_publics": [
+          "seguretat"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Fuensanta"
+      ],
+      "districtes": [
+        "La Saïdia"
+      ],
+      "resum_cas": "El presidente de la Asociación Vecinal Fuensanta expone la frustración por la ineficacia del sistema municipal para resolver problemas del barrio, destacando la plaga de ratas y la necesidad de implicación política directa.",
+      "resum_val": "El president de l'Associació Vecinal Fuensanta exposa la frustració per la ineficàcia del sistema municipal per a resoldre problemes del barri, destacant la plaga de rates i la necessitat d'implicació política directa.",
+      "cap_subtopics": [
+        2000,
+        1305,
+        1401,
+        2015
+      ],
+      "cap_major": [
+        13,
+        14,
+        20
+      ]
+    },
+    {
+      "id": "2022-10-31-002",
+      "pleno_id": "2022-10-31",
+      "fecha": "2022-10-31",
+      "mandat_id": "2019-2023",
+      "ordre": 2,
+      "intervinient": "[***]",
+      "entitat": "Associació Mi Tierra CV / Hablamos Español",
+      "entitat_id": "mi-tierra-cv",
+      "tipus_entitat": "av",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "moció sobre trámites municipales en español",
+      "idioma_original": "castellano",
+      "text_cas": "Hola. Muchas gracias, señor alcalde.\n\nQuiero agradecer también a la Asociación Mi Tierra su amabilidad al facilitarnos nuestra intervención hoy en este pleno.\n\nMi nombre es [*]. También he venido con compañeros. Está [*], [*], [*], [*], [*]. **Somos una asociación de personas de a pie**, personas de diferente edad, formación y estrato social que **hacemos voluntariado** unidos por un mismo objetivo. **Nuestro objetivo es conseguir que en España tengamos una política lingüística** homologable a la de todas las democracias con lenguas cooficiales, es decir, **basada en la libertad de elección de lengua**. ¿Cómo se aplicaría eso a la Comunidad Valenciana? En enseñanza se podría elegir estudiar íntegramente en español o íntegramente en valenciano. **No se discriminaría a nadie por razón de lengua** desde el ámbito oficial, ni se le diría a nadie cuál debe ser su lengua. **Ambas lenguas oficiales estarían presentes** en la rotulación. Y por supuesto, y por eso estamos hoy aquí en el Ayuntamiento, **en todos los ayuntamientos se respetaría la cooficialidad lingüística**.\n\nHoy se presenta una moción para lograr que **en este Ayuntamiento todos los trámites se puedan realizar también en español** y que se respete el uso y publicación de nuestra lengua común en actas y demás documentación municipal. Pero desde Hablamos Español queremos llamar la atención también sobre otros ámbitos dependientes del Ayuntamiento de València, donde **el español está siendo excluido de forma antidemocrática y absurda**. Nos referimos a la cartelería del mobiliario público urbano. Nos referimos a las redes sociales del Ayuntamiento. Mire, últimamente hemos estado siguiendo València como capital verde europea y hemos leído valenciano e inglés. Sus hashtags eran València verda, Green València. **Nada de español**. Los autobuses de la Empresa Municipal de Transportes, nuestro callejero e incluso en la bienvenida que nos da el Ayuntamiento cuando entramos en coche en la ciudad. **En todos estos ámbitos se excluye el español**, lo que es una muestra de falta de consideración hacia las personas del resto de España que vienen a València y revela una absoluta falta de respeto a la cooficialidad lingüística y a los valencianos hispanohablantes. Si de verdad quieren promocionar el valenciano, **no lo conviertan en una lengua de exclusión**. **Los valencianos queremos ver nuestras dos lenguas juntas**.\n\nLo que estamos reclamando es fácil de cumplir y **acorde a la Constitución española**, ley de leyes que ninguna norma inferior debe contradecir. Así lo entienden las personas que han firmado la **proposición de ley de libertad de elección de lengua** que hemos llevado a las Cortes Valencianas como **Iniciativa Legislativa Popular** y que ha sido avalada por el cuádruple de firmas legalmente requeridas.\n\nDesde Hablamos Español pedimos al Pleno de este Ayuntamiento que reflexione sobre ello para que València, en lugar de mirarse en el espejo de Cataluña, paradigma de la **intolerancia lingüística**, se convierta en un ejemplo de **tolerancia y de respeto a la cooficialidad**.\n\nMuchas gracias.",
+      "text_val": "Hola. Moltes gràcies, senyor alcalde.\n\nVull agrair també a l'Associació Mi Tierra la seua amabilitat al facilitar-nos la nostra intervenció hui en aquest ple.\n\nEl meu nom és [***]. He vingut també amb companys. Estan [***], [***], [***], [***], [***]. Som una associació de persones de peu, persones de diferent edat, formació i estrat social que fem voluntariat units per un mateix objectiu. El nostre objectiu és aconseguir que a Espanya tinguem una política lingüística homologable a la de totes les democràcies amb llengües cooficials, és a dir, basada en la llibertat d'elecció de llengua. Com s'aplicaria això a la Comunitat Valenciana? En ensenyança es podria triar estudiar íntegrament en espanyol o íntegrament en valencià. No es discriminaria ningú per raó de llengua des de l'àmbit oficial, ni se li diria a ningú quina ha de ser la seua llengua. Ambdues llengües oficials estarien presents en la rotulació. I per suposat, i per això esteem hui ací a l'Ajuntament, en tots els ajuntaments es respectaria la cooficialitat lingüística.\n\nHui es presenta una moció per a aconseguir que en este Ajuntament tots els trámits es puxen realitzar també en espanyol i que es respecte l'ús i publicació de la nostra llengua comuna en actes i demés documentació municipal. Però des de Hablamos Español volem cridar l'atenció també sobre altres àmbits depenents de l'Ajuntament de València, on l'espanyol està sent exclòs de forma antidemocrática i absurda. Ens referim a la carteleria del mobiliari públic urbà. Ens referim a les xarxes socials de l'Ajuntament. Mire, últimament hem estat seguint València com a capital verda europea i hem llegit valencià i anglés. Els seus hashtags eren València verda, Green València. Res d'espanyol. Els autobusos de l'Empresa Municipal de Transports, el nostre callejero i inclús en la benvinguda que ens dona l'Ajuntament quan entrem en cotxe en la ciutat. En tots estos àmbits s'exclou l'espanyol, la qual cosa és una mostra de falta de consideració cap a les persones de la resta d'Espanya que venen a València i revela una absoluta falta de respecte a la cooficialitat lingüística i als valencians hispanoparlants. Si de verdad volen promocionar el valencià, no el convertisquen en una llengua d'exclusió. Els valencians volem veure les nostres dos llengües juntes.\n\nLo que estamos reclamando es fácil de cumplir y acorde a la Constitución española, ley de leyes que ninguna norma inferior debe contradecir. Així ho entenen les persones que han signat la proposició de llei de llibertat d'elecció de llengua que hem portat a les Corts Valencianes com a Iniciativa Legislativa Popular i que ha estat avalada pel quàdruple de firmes legalment requerides.\n\nDes de Hablamos Español demanem al Ple d'este Ajuntament que reflexione sobre això perquè València, en lloc de mirar-se en l'espill de Catalunya, paradigma de la intolerància lingüística i del incompliment de la legislació vigent, es convertisca en un exemple de tolerància i de respecte a la cooficialitat.\n\nMoltes gràcies.",
+      "temes": [],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "drets_linguistics"
+        ],
+        "participacio": [
+          "participacio"
+        ],
+        "serveis_publics": [
+          "educacio"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "Representante de Hablamos Español solicita que el Ayuntamiento de Valencia garantice los trámites municipales en español y respete la cooficialidad lingüística en cartelería, redes sociales y documentación, argumentando que es acorde con la Constitución española y las democracias europeas con lenguas cooficiales.",
+      "resum_val": "Representant de Hablamos Español sol·licita que l'Ajuntament de València garantisca els trámits municipals en espanyol i respecte la cooficialitat lingüística en carteleria, xarxes socials i documentació, argumentant que és d'acord amb la Constitució espanyola i les democràcies europees amb llengües cooficials.",
+      "cap_subtopics": [
+        207,
+        602,
+        1401,
+        2000
+      ],
+      "cap_major": [
+        2,
+        6,
+        14,
+        20
+      ]
+    },
+    {
+      "id": "2022-10-31-003",
+      "pleno_id": "2022-10-31",
+      "fecha": "2022-10-31",
+      "mandat_id": "2019-2023",
+      "ordre": 3,
+      "intervinient": "[***], [***]",
+      "entitat": "Associació de Veïns Plataforma Intercultural d'Espanya",
+      "entitat_id": "asociacion-plataforma-intercultural-espana",
+      "tipus_entitat": "plataforma",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "Moció sobre discursos de odio cap a la població migrante",
+      "idioma_original": "castellano",
+      "text_cas": "Muchas gracias, señor alcalde. Muchas gracias a todos por darnos la oportunidad y la voz.\n\nEn representación de la Plataforma Intercultural queremos solicitar esta moción precisamente debido a **todos los discursos de odio** que se tejen y se están tejiendo en esta sociedad. Una sociedad que ha identificado y en la cual hemos estado durante los últimos 30 años, y que nos preocupa realmente que **se criminalice a la migración**, cuando **somos ciudadanas y ciudadanos que estamos aquí construyendo** precisamente y queriendo nuestra ciudad y ayudando a ese crecimiento.\n\nCuando hablamos de los discursos de odio que se han tejido también tenemos que redirigirnos a que estos discursos de odio son precisamente testigos de **la proliferación de toda la discriminación, de todo el racismo, de toda la xenofobia** que se teje en nuestra ciudad. Nos llama la atención que cuando se habla de la migración no se habla del recurso que ha llegado a crecer, a contribuir al **crecimiento tanto social como cultural y económico** de este país. Se habla desde los criminales, desde los que roben, desde los que hacen daño a esta ciudad. Y no es así. Cada día nos desvelamos porque **esta ciudad diferente, acogedora** que acaba de ganar el premio precisamente como ciudad verde, también es **una ciudad inclusiva**.\n\nEntonces, desde esta plataforma nos derivamos y le solicitamos que **se rechace totalmente los discursos de odio hacia la población migrante**.\n\nMuchas gracias, señor alcalde. Esta moción que hace referencia en su exposición de motivos a **los 75 años de la Declaración Universal de los Derechos Humanos** también nos recoge a nosotros en la historia para saber dónde estamos y de dónde venimos. Hoy, 31 de octubre, se están cumpliendo **100 años que 25.000 camisas negras entraron en Roma** a celebrar que Mussolini era el jefe de gobierno italiano, con 36 millones de habitantes que había en aquella Italia. Cien años y en este 2022 se cumplen **90 años exactamente que en el Parlamento alemán, con el 18 % de los votos, entraba el Partido Nazi** y nombraba a Hitler canciller. Y el 82 % de la población que no los votó veía cómo tanto en una Italia como en la Alemania del 32 **el odio, la mentira, la intolerancia**, el encontrar enemigos, la falsedad hacía que se quedaban con la sociedad más todo lo que vino después. Por eso hoy nosotros apoyamos por supuesto esta moción y le decimos, como decía mi compañera, a todos aquellos que están aquí que **ustedes son el ejemplo** porque ustedes son los representantes y **esta es la caja de resonancia del pueblo valenciano**. Por lo cual el comportamiento, la forma de actuar de **la València que queremos hoy y la que queremos mañana** tiene que ser **achicar, angostar, empequeñecer el lugar que los racistas trabajan**, porque **los valencianos y valencianas no son racistas**. En ese sentido, esos discursos son los que generan que cuando pasan cosas como pasaron en **la valla de Melilla** haya mucha gente que se queda en silencio, que cuando sale a hablar en nuestra ciudad un oficial de la Policía haya quien le cree, por aquello de aquellos años de una mentira repetida muchas veces pasa a ser verdad y por aquello de que hay que buscar un enemigo. Aquel momento eran los judíos. Hoy, para algunos en España, en València y en Europa son los inmigrantes. Pero yo les quiero decir, señores concejales y concejalas, que aquí tenemos que demostrar que **somos más los que no somos racistas**, porque **la València integradora, igualitaria, diversa, plural** que nosotros queremos para nuestros hijos que nacieron aquí es una en la cual van a los mismos colegios que van vuestros hijos. Y cuando **los niños se educan en una sociedad igualitaria** aprenden a conocer al que va al lado en su banco no como el morito, ni como el panchito, ni como el rusito, sino como el niño con nombre y apellido, que es lo que son todos los que estudian aquí. Por eso les decimos que es muy importante que ustedes apoyen en mayoría **todas las medidas que vayan en contra del racismo**, porque tenemos que hacer lo que no se hizo en aquel momento, **acotar el espacio a los que quieren dividirnos**. Y por último, una reflexión personal, que también es importante que lo hagamos porque no hay quien no lo tenga. [La presidència li comunica que ha esgotat el seu torn d'intervenció] Termino. Millones y miles y miles de españoles y españolas se refugiaron durante años en Latinoamérica. Mi padre fue uno de ellos. Nunca nadie salió a juntar firmas, ni a pedir que lo deporten, ni a pedir que lo tiraran, ni a pedir que si no pagaba no lo atendían en el hospital público. Con ese ejemplo, nosotros tenemos que devolvérselo a la historia de nuestro país que es España y València. Muchas gracias.",
+      "text_val": "Moltes gràcies, senyor alcalde. Moltes gràcies a tots per donar-nos l'oportunitat i la veu.\n\nEn representació de la Plataforma Intercultural volem sol·licitar aquesta moció precisament per **tots els discursos d'odi** que es teixen i s'estan teixint en aquesta societat. Una societat que ha identificat i en la qual hem estat durant els últims 30 anys, i que ens preocupa realment que **es criminalitze la migració**, quan **som ciutadanes i ciutadans que estem ací construint** precisament i volent la nostra ciutat i ajudant a eixe creixement.\n\nQuant parlamos dels discursos d'odi que s'han teixit també hem de redirigirnos a que aquests discursos d'odi són precisament testimonis de **la proliferació de tota la discriminació, de tot el racisme, de tota la xenofòbia** que es teix en la nostra ciutat. Ens crida l'atenció que quan es parla de la migració no es parla del recurs que ha arribat a créixer, a contribuir al **creixement tant social com cultural i econòmic** d'aquest país. Es parla des dels criminals, des dels que roben, des dels que fan mal a aquesta ciutat. I no és així. Cada dia ens desvelem perquè **aquesta ciutat diferent, acollidora** que acaba de guanyar el premi com a ciutat verda, també és **una ciutat inclusiva**.\n\nAleshores, des d'aquesta plataforma ens derivem i li sol·licitem que **es rebutge totalment els discursos d'odi cap a la població migrant**.",
+      "temes": [
+        "participacio_ciutadana",
+        "igualtat",
+        "memoria_historica"
+      ],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "interculturalitat_i_antiracisme",
+          "drets_humans"
+        ],
+        "participacio": [
+          "participacio"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "La Plataforma Intercultural solicita el rechazo de discursos de odio hacia la población migrante, enfatizando que los migrantes contribuyen al crecimiento social, cultural y económico de la ciudad, y no deben ser criminalizados.",
+      "resum_val": "La Plataforma Intercultural sol·licita el rebuig de discursos d'odi cap a la població migrant, destacant que els migrants contribueixen al creixement social, cultural i econòmic de la ciutat, i no han de ser criminalitzats.",
+      "cap_subtopics": [
+        1906,
+        900,
+        201
+      ],
+      "cap_major": [
+        2,
+        9,
+        19
+      ]
+    }
+  ]
+}

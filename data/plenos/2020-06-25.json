@@ -1,0 +1,194 @@
+{
+  "id": "2020-06-25",
+  "fecha": "2020-06-25",
+  "tipo": "ordinaria",
+  "mandat_id": "2019-2023",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2020-06-25",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20200625_0945_0_firmadoweb.pdf/166f4deb-cd0a-254f-27cb-b9ce136bc4ad?t=1613213143647",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20200625_0945_0_firmadoweb.pdf/53aafd50-187c-73be-549d-bba1387454e2?t=1613213142589",
+  "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-118",
+  "num_intervencions": 4,
+  "intervencions": [
+    {
+      "id": "2020-06-25-001",
+      "pleno_id": "2020-06-25",
+      "fecha": "2020-06-25",
+      "mandat_id": "2019-2023",
+      "ordre": 1,
+      "intervinient": "[***]",
+      "entitat": "Federació d'Associacions de Veïns de València",
+      "entitat_id": "favv",
+      "tipus_entitat": "av",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "Reglament de Govern Obert i Transparència",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días, Sr. Alcalde, vicealcaldes, concejales, entidades ciudadanas e instituciones.\n\nLa estrategia de gobierno abierto de la ciudad de València se debe fundamentar en **tres ejes: transparencia, datos abiertos y participación ciudadana**. La transparencia es ante todo **un proceso político y administrativo** que tiene como principal objetivo **favorecer a la ciudadanía la información necesaria** para poder fiscalizar la actividad pública. Resulta paradójico que tratándose de un **Reglamento de Gobierno Abierto y Transparencia** nos veamos obligados a tomar la palabra en este pleno para recordar al equipo de Gobierno que **al movimiento vecinal nos hubiera gustado estar desde el inicio** en la tramitación y redacción de este reglamento.\n\nEl **derecho de acceso a los registros y documentos administrativos** constituye un derecho de la ciudadanía de los llamados de tercera generación y está arraigado en el **principio de transparencia administrativa**. El objetivo de este nuevo proyecto es claro: que **las y los valencianos puedan decidir directamente la política de la ciudad**, y que **todo aquello que ocurra en el Ayuntamiento esté a la vista de todas y de todos**.\n\nEl nuevo **Portal de Gobierno Abierto** debe estar dividido en **tres partes: participación, transparencia y datos abiertos**. La participación permite **decidir qué ciudad queremos tener** a través de propuestas ciudadanas, espacios de debate y legislación colaborativa. En transparencia se publicarán **todos los datos sobre quién y cómo se gestiona València**, incluyendo nombres de responsables, planes de gobierno, contratos y agendas. Con datos abiertos, **cualquiera pueda usar toda la información directamente** sin necesidad de preguntar.",
+      "text_val": "Buenos días, Sr. Alcalde, vicealcaldes, concejals, entitats ciutadanes e institucions.\n\nL'estratègia de govern obert de la ciutat de València es deu fonamentar en **tres eixos: transparència, dades obertes i participació ciutadana**. La transparència és ante tot **un procés polític i administratiu** que té com a principal objectiu **afavorir a la ciutadania la informació necessària** per a poder fiscalitzar l'activitat pública. Resulta paradoxal que tractant-se d'un **Reglament de Govern Obert i Transparència** ens vegem obligats a prendre la paraula en este ple per a recordar a l'equip de Govern que **al moviment veïnal ens haguera agradat estar des de l'inici** en la tramitació i redacció d'este reglament.\n\nEl **dret d'accés als registres i documents administratius** constituïx un dret de la ciutadania dels anomenats de tercera generació i està arrelat en el **principi de transparència administrativa**. L'objectiu d'este nou projecte és clar: que **les i els valencians puxen decidir directament la política de la ciutat**, i que **tot allò que ocurra en l'Ajuntament estiga a la vista de totes i de tots**.\n\nEl nou **Portal de Govern Obert** deu estar dividit en **tres parts: participació, transparència i dades obertes**. La participació permet **decidir quina ciutat volem tenir** a través de propostes ciutadanes, espais de debat i legislació col·laborativa. En transparència es publicaran **tots els dades sobre qui i com es gestiona València**, inclosos noms de responsables, plans de govern, contractes i agendes. Amb dades obertes, **qualsevol puga usar tota la informació directament** sense necessitat de preguntar.",
+      "temes": [
+        "participacio_ciutadana",
+        "infraestructures"
+      ],
+      "temes_v2": {
+        "participacio": [
+          "participacio",
+          "processos_participatius",
+          "transparencia"
+        ],
+        "drets_i_igualtat": [
+          "drets_humans"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "La Federación de Asociaciones de Vecinos de València interviene sobre el Reglamento de Gobierno Abierto y Transparencia, solicitando haber sido consultada desde el inicio y destacando los tres pilares del gobierno abierto: transparencia en la gestión de recursos públicos, datos abiertos y participación ciudadana.",
+      "resum_val": "La Federació d'Associacions de Veïns de València intervé sobre el Reglament de Govern Obert i Transparència, demanant haver estat consultada des del inici i destacant els tres pilars del govern obert: transparència en la gestió de recursos públics, dades obertes i participació ciutadana.",
+      "cap_subtopics": [
+        2000,
+        2015,
+        1401
+      ],
+      "cap_major": [
+        14,
+        20
+      ]
+    },
+    {
+      "id": "2020-06-25-002",
+      "pleno_id": "2020-06-25",
+      "fecha": "2020-06-25",
+      "mandat_id": "2019-2023",
+      "ordre": 2,
+      "intervinient": "[***]",
+      "entitat": "Associació Ciutadania i Comunicació (ACICOM) i Consell de Transparència, Bon Govern i Participació Ciutadana de la Comunitat Valenciana",
+      "entitat_id": "acicom",
+      "tipus_entitat": "altres",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "Aprovació del nou Reglament de transparència",
+      "idioma_original": "valenciano",
+      "text_cas": "Buenos días\n\nComenzaré por decir, no metafóricamente sino realmente, que es una satisfacción para mí y un orgullo poder estar aquí hoy en el Pleno del Ayuntamiento de Valencia, donde se aprobará el **nuevo Reglamento de transparencia** que puede ser un referente para muchos ayuntamientos de la Comunidad Valenciana y de España. Y he de añadir que estoy aquí representando dos instituciones nucleares y valencianas en esto que decimos **transparencia** y que significa el **derecho que tiene la ciudadanía a saber**.\n\nRepresento como vicepresidenta a una organización social llamada **ACICOM**, Asociación Ciudadanía y Comunicación, fundada en 2009 por un grupo de ciudadanos y ciudadanas valencianas muy interesadas en defender los derechos que afectan al ámbito de la comunicación y de la **libertad de expresión, información y publicación**. ACICOM se coordina con muchas entidades y personas como por ejemplo la Coalición Pro Acceso de España y la internacional The Freedom of Information Advocates Network. Y está bien que se sepa porque es de justicia, que desde el primer año en que ACICOM pudo organizar sus actividades públicas se celebró el **Día Internacional del Derecho a Saber**, el 28 de septiembre, siguiendo la iniciativa de las Naciones Unidas que reconoce el derecho a acceder a la información de las administraciones públicas como una vía esencial para facilitar la **participación ciudadana** y garantizar la **rendición de cuentas**. Esto ocurría cuando en nuestro país nadie hablaba de transparencia y no se sabía qué era eso del derecho a saber. ACICOM ha convocado y reunido, año tras año, los expertos que teníamos en el país y ellos explicaban a la ciudadanía qué era eso del derecho a saber, qué era la transparencia y para qué servía. Años después conseguimos, el último país europeo salvo Malta, tener la **Ley estatal de la transparencia, de 2013**, y la **Ley de la Comunidad Valenciana, de 2015**.\n\nLa segunda representación que me trae hasta aquí es como **comisionada del Consell de Transparència, Bon Govern i Participació Ciutadana** de la Comunidad Valenciana, que está actuando desde el 22 de diciembre de 2015. Se trata de un órgano colegiado encargado de garantizar la transparencia en el ámbito de la Comunidad Valenciana, actuando con **plena independencia funcional** en el cumplimiento de sus funciones recogidas en el artículo 42 y que básicamente se refieren a:\n\n- Garantizar los **derechos de acceso a la información pública**.\n- Velar por el cumplimiento de las **obligaciones de publicidad activa**.\n- Y garantizar y promover la observancia de las disposiciones de **buen gobierno**.\n\nEs cierto que ningún derecho es absoluto, pero también es cierto que la sociedad que no lucha por sus derechos los pierde. En estos **cuatro años y medio de experiencia activa** de la Comisión Ejecutiva del Consell de Transparència puedo asegurar que se han recibido **833 quejas o reclamaciones** de ciudadanos y ciudadanas, y que prácticamente la mitad iban dirigidas contra los ayuntamientos por no haber sido atendidas sus peticiones. No les quiero marear con cifras pero también es necesario decir que el **80 % de las resoluciones que no se cumplen** y que dan pie a la petición de procedimientos sancionadores son de los ayuntamientos. Y que muchos de los **500 ayuntamientos de la Comunidad Valenciana** aún no tienen un portal de transparencia o lo tienen muy incompleto.\n\nNo he venido aquí a haceros un reproche, sino, bien al contrario, a señalaros que los ayuntamientos sois el **punto de mira primero**, por ser el más próximo y el que más les afecta. Y ese hecho constituye vuestra razón de ser y también vuestra **responsabilidad**. Una responsabilidad de la cual hoy, con la preparación y aprobación del Reglamento, dais buena muestra de que la aceptáis. De ahí que yo esté hoy satisfecha no simplemente por estar aquí sino por la razón por la que estoy, porque **reglamentos como este que estáis a punto de dar a luz** son necesarios en esta sociedad tan preocupada y tan debilitada en estos días inciertos. Quiero referirme concretamente, porque el tiempo del que dispongo no permite que me extienda más, a cinco temas que considero un paso adelante muy importante y que aparecen en el Reglamento:\n\n- La **ampliación de las obligaciones de publicidad activa** sobre las ya establecidas en la legislación básica.\n- La **incorporación de los procedimientos sancionadores** para exigir responsabilidades a los que pueden haber incumplido las leyes. Las **medidas de rendición de cuentas**, aún tan poco practicadas en nuestro país.\n\nSolo advertir, respecto de la disposición adicional segunda, que no se puede tener miedo de **regular la actividad de los lobbies**, tan utilizados por las corporaciones y las empresas importantes. Los lobbies también pueden ser utilizados por la **ciudadanía comprometida con los problemas sociales y políticos** que le preocupa, y espero que este Reglamento lo permita.\n\nPor tanto, os felicito y nos felicitamos, por parte de las dos entidades que hoy represento, de vuestra iniciativa en dar vida a un **nuevo reglamento facilitador de los derechos de la ciudadanía** para obtener de este Ayuntamiento de Valencia una respuesta eficaz a sus ansias de saber colectivas que les corresponde. Agradecer al funcionariado y a los políticos que han trabajado con ahínco durante estos años para darle forma y fondo a un Reglamento que ha de dotarse de una larga vida. Y animar también a los políticos que han de dar en este acto el visto bueno para su definitiva aprobación, además de dotarlo de los recursos necesarios para hacerlo realidad. Desde ACICOM y desde el Consell de Transparència, Bon Govern i Participació Ciutadana de la Comunidad Valenciana seguiremos y vigilaremos con interés su cumplimiento.\n\nMuchas gracias.",
+      "text_val": "Bon dia\n\nComençaré per dir, no metafòricament sinó realment, que és una satisfacció per a mi i un orgull poder estar ací hui en el Ple de l´Ajuntament de València, on s'aprovarà el **nou Reglament de transparencia** que pot ser un referent per a molts ajuntaments de la Comunitat Valenciana i d´Espanya. I he d´afegir que estic ací representant dues institucions nucleals i valencianes en açò que diguem **transparencia** i que significa el **dret que té la ciutadania a saber**.\n\nRepresente com a vicepresidenta a una organització social anomenada **ACICOM**, Associació Ciutadania i Comunicació, fundada en 2009 per un grup de ciutadans i ciutadanes valencianes molt interessades a defensar els drets que afecten a l´àmbit de la comunicació i de la **llibertat d´expressió, informació i publicació**. ACICOM es coordina amb moltes entitats i persones com per exemple la Coalición Pro Acceso de España i la internacional The Freedom of Information Advocates Network. I està bé que se sàpiga perquè és de justícia, que des del primer any en què ACICOM va poder organitzar les seues activitats públiques es va celebrar el **Dia Internacional del Dret a Saber**, el 28 de setembre, seguint la iniciativa de les Nacions Unides que reconeix el dret a accedir a la informació de les administracions públiques com una via essencial per a facilitar la **participació ciutadana** i garantir la **rendició de comptes**. Això ocorria quan al nostre país ningú no parlava de transparencia i no se sabia què era això del dret a saber. ACICOM ha convocat i reunit, any rere any, els experts que teníem al país i ells van explicar a la ciutadania què era això del dret a saber, què era la transparencia i per a què servia. Anys després vam aconseguir, l´últim país europeu llevat de Malta, tindre la **Llei estatal de la transparencia, de 2013**, i la **Llei de la Comunitat Valenciana, de 2015**.\n\nLa segona representació que em porta fins ací és com a **comissionada del Consell de Transparència, Bon Govern i Participació Ciutadana** de la Comunitat Valenciana, que està actuant des del 22 de desembre de 2015. Es tracta d´un òrgan col·legiat encarregat de garantir la transparencia en l´àmbit de la Comunitat Valenciana, actuant amb **plena independencia funcional** en el compliment de les seues funcions recollides en l´article 42 i que bàsicament es refereixen a:\n\n- Garantir els **drets d´accés a la informació pública**.\n- Vetlar pel compliment de les **obligacions de publicitat activa**.\n- I garantir i promoure l´observança de les disposicions de **bon govern**.\n\nÉs cert que cap dret és absolut, però també es cert que la societat que no lluita pels seus drets els perd. En aquests **quatre anys i mig d´experiència activa** de la Comissió Executiva del Consell de Transparencia puc assegurar que s´han rebut **833 queixes o reclamacions** de ciutadans i ciutadanes, i que pràcticament la meitat anaven dirigides contra els ajuntaments per no haver sigut ateses les seus peticions. No els vull marejar amb xifres però també és necessari dir que el **80 % de les resolucions que no es compleixen** i que donen peu a la petició de procediments sancionador són dels ajuntaments. I que molts dels **500 ajuntaments de la Comunitat Valenciana** encara no tenen un portal de transparencia o el tenen molt incomplet.\n\nNo he vingut ací a fer-vos un lleig, sinó, ben al contrari, a assenyalar-vos que els ajuntaments sou per a la ciutadania el **punt de mira primer**, per ser el més proper i el que més els afecta. I eixe fet constitueix la vostra raó de ser i també la vostra **responsabilitat**. Una responsabilitat de la qual hui, amb la preparació i aprovació del Reglament, doneu una bona mostra que l´accepteu. D´ací que jo estiga hui satisfeta no simplement per estar ací sinó per la raó per la que estic, perquè **reglaments com este que esteu a punt de donar a llum** són necessaris en esta società tan preocupada i tan debilitada en estos dies incerts. Vull referir-me concretament, perquè el temps que dispose no permet que m´estenga més, a cinc temes que considere un pas avant molt important i que apareixen al Reglament:\n\n- L´**ampliació de les obligacions de publicitat activa** sobre les ja establides en la legislació bàsica.\n- La **incorporació dels procediments sancionadors** per exigir responsabilitats als que poden haver incomplit les lleis. Les **mesures de rendició de comptes**, encara tan poc practicades en el nostre país.\n\nSols advertir, respecte de la disposició addicional segona, que no es pot tindre por de **regular l´activitat dels lobbies**, tan utilitzats per les corporacions i les empreses importants. Els lobbies també poden ser utilitzats per la **ciutadania compromesa dels problemes socials i polítics** que els preocupa, i espere que este Reglament ho permeta.\n\nPer tant, vos felicite i ens felicitem, per part de les dos entitat que avui represente, de la vostra iniciativa en donar vida a un **nou reglament facilitador dels drets de la ciutadania** per a obtenir d´este Ajuntament de València una resposta eficaç a les seues ànsies de saber col·lectives que els pertoca. Agrair al funcionariat i als polítics que han treballat de valent durant estos anys per a donar-li forma i fons a un Reglament que ha de dotar-se d´una llarga vida. I animar també als polítics que han de donar en este acte el vistiplau per a la seua definitiva aprovació, a més de dotar-lo dels recursos necessaris per a fer-ho realitat. Des d´ACICOM i des del Consell de Transparencia, Bon Govern i Participació Ciutadana de la Comunitat Valenciana seguirem i vigilarem amb interès el seu acompliment.\n\nMoltes gràcies.",
+      "temes": [
+        "participacio_ciutadana"
+      ],
+      "temes_v2": {
+        "participacio": [
+          "transparencia",
+          "processos_participatius"
+        ],
+        "drets_i_igualtat": [
+          "drets_humans"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "La vicepresidenta de ACICOM y comisionada del Consell de Transparència valora positivamente la aprobación del nuevo Reglamento de Transparencia como referente, destacando la importancia del derecho de la ciudadanía a la información pública y señalando problemas de cumplimiento en los ayuntamientos de la Comunitat Valenciana.",
+      "resum_val": "La vicepresidenta d'ACICOM i comissionada del Consell de Transparència valora positivament l'aprovació del nou Reglament de Transparència com a referent, destacant la importància del dret de la ciutadania a la informació pública i assenyalant problemes de compliment en els ajuntaments de la Comunitat Valenciana.",
+      "cap_subtopics": [
+        2000,
+        2015,
+        1906
+      ],
+      "cap_major": [
+        19,
+        20
+      ]
+    },
+    {
+      "id": "2020-06-25-003",
+      "pleno_id": "2020-06-25",
+      "fecha": "2020-06-25",
+      "mandat_id": "2019-2023",
+      "ordre": 3,
+      "intervinient": "[***]",
+      "entitat": "Associació Mesura / Fundació per la Justícia",
+      "entitat_id": "plataforma-valencia-aire",
+      "tipus_entitat": "plataforma",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "valenciano",
+      "text_cas": "Buenos días. Muchas gracias. Una compañera que es [*] nos ha pedido **compartir la palabra**. Es de la **Fundación por la Justicia**. Le pido al alcalde si no se va, le pido a Sandra Gómez si podemos **compartir la palabra** o podría ampliar si tienes a bien cinco minutos más para la Fundación Justicia. ¿Si queréis? ¿Sí? Muchas gracias. Agradecido. Bueno, intentaré no consumirlos e iré directamente a la propuesta. El marco lo han puesto muy bien **ACICOM y Broseta**. Saben de lo que hablan, llevamos **mucho tiempo en transparencia y fundamentalmente en participación**.\nA mí me gustaría ir directamente a la propuesta. En una situación de datos, en un **espacio de datos**, nosotros no nos debemos quedar atrás; Si todo el mundo tenemos datos y generan datos, **¿por qué el Ayuntamiento no tiene que tratarlos como debe?** Y lo que queríamos proponeros es, bueno, ahora tenemos una **concejala muy valiente** que está al frente de la **participación y la transparencia**. Tenemos una **oportunidad muy grande con el tema del OCI** con Pere Fuset. **Conectar la digitalización de los datos**, conectar estos dos espacios para poder **controlaros**.\nLa propuesta concreta es -con **Narciso Estellés hemos hablado**, con José María Bravo cuando estaba no han tenido tiempo y con Eusebio Monzó. Eusebio Monzó no colaboró mucho en la **construcción de un espacio de acceso a los datos**, sí Narciso y Txema-, lo que queremos es: tenemos ahora una **Concejalía de Cambio Climático** que es transversal a todas, tenéis un concejal muy por la labor de abrir esta concejalía y pedirnos datos.\nLa propuesta concreta es **hacer una mesa de trabajo** para bajar este marco normativo, es un marco inicial que puede servir, y **comenzar a trabajar desde aquí**. Nos interesa un **trabajo específico** y, si funciona, **replicarlo en otras concejalías** porque los **jefes de servicio son fundamentales** y la funcionaria también. Y apuntamos directamente a [*]. [*] es una persona muy importante en esta historia que **puede ayudar o bloquear**.\nQueremos **hacer un círculo** con estos dos y trabajar conjuntamente con Narciso Estellés, con María José, que nunca hemos tenido la oportunidad de hablar con ella de estos temas, y de Vox, que no nos conocemos aún. Muchas gracias y hasta la próxima.",
+      "text_val": "Bon dia. Moltes gràcies. Una companya que és [***] ens ha demanat compartir la paraula. És de la Fundació per la Justícia. Li pregue a l'alcalde si no se'n va, li pregue a Sandra Gómez si podem compartir la paraula o podria ampliar si tens a bé cinc minuts més per a la Fundació Justícia. Si voleu. Sí? Moltes gràcies. Agraït. Bo, intentaré no consumir-los i aniré directament a la proposta. El marc l'han posat molt bé ACICOM i Broseta. Saben del que parlen, portem molt de temps en transparència i fonamentalment en participació. A mi m´agradaria anar directament a la proposta.\nEn una situació de dades, en un espai de dades, nosaltres no ens devem quedar darrere; Si tot el món tenim dades i generen dades, per què l´Ajuntament no té que tractar-les com deu mana, no? I el que volíeu proposar-vos és, bueno, ara tenim una regidora molt valenta que està al capdavant de la participació i la transparència. Tenim una oportunitat molt gran amb el tema de l'OCI amb Pere Fuset. Connectar el que és la digitalització de les dades, connectar estos dos espais per a poder controlar-vos a vosaltres i als vostres companys.\nLa proposta concreta és -amb Narciso Estellés hem parlat, amb José Maria Bravo quan estava no han tingut temps i amb Eusebio Monzó. Eusebio Monzó no va col·laborar massa en la construcció d´un espai d´accés a les dades, sí Narciso i Txema-, el que volem és: tenim ara una Regidoria de Canvi Climàtic que és transversal a totes, teniu un regidor molt per la labor d´obrir esta regidoria i demanar-vos dades i [***] que és un servei valent.\nLa proposta concreta és fer una taula de treball per a baixar este marc normatiu del que no anem a parlar, és un marc inicial que pot servir, i començar a treballar des d'ací, en lloc de treballar sobre tot no ens interessen els vostres sous, etc. Ens interessa un treball específic i, si funciona, replicar-ho en altres regidories perquè els caps de servei són fonamentals i el funcionariat també. I apuntem directament a[***]. [***] és una persona molt important en esta historia que pot ajudar o bloquejar, i totes les dianes estan cap ell i cap a [***], està ahí de peu.\nVolem fer un cercle amb estos dos i treballar conjuntament amb Narciso Estellés, amb Maria José, que no hem tingut mai l´oportunitat de parlar amb ella d'estos temes, i de Vox, que no ens coneguem encara. Moltes gràcies i fins la propera.",
+      "temes": [
+        "participacio_ciutadana",
+        "economia",
+        "medi_ambient",
+        "infraestructures"
+      ],
+      "temes_v2": {
+        "participacio": [
+          "participacio",
+          "processos_participatius",
+          "transparencia"
+        ],
+        "medi_ambient": [
+          "emergencies_climatiques"
+        ],
+        "economia": [
+          "pressupostos"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "Representantes de Associació Mesura y Fundació per la Justícia proponen crear una mesa de trabajo para mejorar la gestión de datos municipales, conectando la digitalización con participación ciudadana y transparencia, involucrando a las concejalías de participación, transparencia y cambio climático.",
+      "resum_val": "Representants d'Associació Mesura i Fundació per la Justícia proposen crear una taula de treball per a millorar la gestió de dades municipals, connectant la digitalització amb la participació ciutadana i transparència, implicant les regidories de participació, transparència i canvi climàtic.",
+      "cap_subtopics": [
+        2000,
+        2015,
+        711,
+        1403
+      ],
+      "cap_major": [
+        7,
+        14,
+        20
+      ]
+    },
+    {
+      "id": "2020-06-25-004",
+      "pleno_id": "2020-06-25",
+      "fecha": "2020-06-25",
+      "mandat_id": "2019-2023",
+      "ordre": 4,
+      "intervinient": "[***]",
+      "entitat": "Fundación por la Justicia",
+      "entitat_id": "fundacio-justicia",
+      "tipus_entitat": "ong",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "Reglamento de Gobierno Abierto del Ayuntamiento de València",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días.\n\nEn nombre de **Fundación por la Justicia** quiero agradecer el hecho que se nos haya invitado en calidad de **organización de la sociedad civil** para poder expresar nuestra opinión acerca del trámite de aprobación del **Reglamento de Gobierno Abierto** de este Ayuntamiento y en particular a la Asociación Mesura ya que ha accedido a compartir el tiempo dedicado a esta intervención.\n\nFundación por la Justicia es una organización sin ánimo de lucro cuyo objetivo principal es la **defensa de los Derechos Humanos** en todos los ámbitos y formas posibles. Siendo un **derecho fundamental el de la igualdad** entre todos los ciudadanos y ciudadanas a todos los niveles está claro que cualquier acción basada en **comportamientos corruptos o fraudulentos** ataca uno de los derechos fundamentales más destacados, favoreciendo a aquellos individuos o instituciones que se aprovechan de determinadas situaciones o acciones concretas.\n\nEsta es la relación que existe entre **corrupción y Derechos Humanos**, motivo por el que desde hace unos años Fundación por la Justicia ha mantenido una línea de trabajo de **lucha contra la corrupción** dentro de su Plan Estratégico y entre los que me gustaría destacar el trabajo realizado para la Diputación de València sobre gobierno abierto.\n\nLa **transparencia administrativa** es uno de los principios de **buena gobernanza** para luchar contra la corrupción. Los organismos internacionales, al igual que los expertos en su lucha, defienden que **cuanto mayor sea el nivel de transparencia** en las administraciones públicas, **menores serán los niveles de corrupción** de un país. Y cuanto mejor conozcan los ciudadanos el funcionamiento de los organismos encargados de gestionar lo público, **mayor será su confianza en las instituciones públicas** y menores posibilidades de que haya corrupción. Y aunque es cierto que para acabar con la corrupción es **absolutamente necesaria la voluntad política** para llevarlo a cabo, un buen conjunto de **leyes y reglamentos a favor del gobierno abierto** constituye un elemento importante para combatir y reducir actividades y conductas corruptas.\n\nLa consideración de Fundación por la Justicia sobre la implantación de un **gobierno abierto en los municipios** se focaliza en que la ejecución de la evaluación o de la herramienta utilizada sea **transparente, sirva para rendir cuentas** y que **facilite la participación ciudadana**. Particularmente, nos gustaría que el Reglamento de Gobierno Abierto del Ayuntamiento de València sirviera para encontrar una evaluación que abriera en la administración local los canales necesarios que facilitaran el desarrollo de un gobierno abierto, con todas sus bondades: **mejor democracia, mejor coherencia, mejor eficacia, mejor eficiencia** y sobre todo una **mejora en la calidad de vida** de los ciudadanos y ciudadanas.\n\nPara que el desarrollo del gobierno abierto sea fructífero, se tendrá que estar atento a la opinión de la ciudadanía y de los responsables y gestores de la administración pública, generando **procesos de sensibilización** y lugares de **formación, innovación y debate**. Es fundamental, por lo tanto, desde nuestro punto de vista, que se proporcione a los funcionarios públicos **recursos humanos, financieros y técnicos adecuados**, incluyendo las habilidades necesarias y los incentivos profesionales para diseñar e implementar con éxito estrategias e iniciativas gubernamentales.\n\n**Enhorabuena al Ayuntamiento de València** por esta iniciativa para la cual no encontrará en nosotros siempre un apoyo decidido para llevarla a cabo.\n\nGracias.",
+      "text_val": "Buenos días.\n\nEn nom de **Fundació per la Justícia** vull agrair el fet que se'ns haja invitat en qualitat d'**organització de la societat civil** per a poder expressar la nostra opinió acerca del tràmit d'aprovació del **Reglament de Govern Obert** d'este Ajuntament i en particular a l'Associació Mesura ja que ha accedit a compartir el temps dedicat a esta intervenció.\n\nFundació per la Justícia és una organització sense ànim de lucre l'objectiu principal de la qual és la **defensa dels Drets Humans** en tots els àmbits i formes possibles. Sent un **dret fonamental el de la igualtat** entre tots els ciutadans i ciutadanes a tots els nivells està clar que qualsevol acció basada en **comportaments corruptes o fraudulents** ataca un dels drets fonamentals més destacats, afavorint aquells individus o institucions que s'aproven de determinades situacions o accions concretes.\n\nEsta és la relació que existix entre **corrupció i Drets Humans**, motiu per el qual des de fa uns anys Fundació per la Justícia ha mantingut una línia de treball de **lluita contra la corrupció** dins del seu Pla Estratègic i entre els que m'agradaria destacar el treball realitzat per a la Diputació de València sobre govern obert.\n\nLa **transparència administrativa** és un dels principis de **bona governança** per a lluitar contra la corrupció. Els organismes internacionals, al igual que els experts en la seua lluita, defenen que **quant major siga el nivell de transparència** en les administracions públiques, **menors seran els nivells de corrupció** d'un país. I quant millor coneixen els ciutadans el funcionament dels organismes encarregats de gestionar lo públic, **major serà la seua confiança en les institucions públiques** i menors possibilitats de que haja corrupció. I aunque és cert que per a acabar amb la corrupció és **absolutament necessària la voluntat política**, un bon conjunt de **lleis i reglaments a favor del govern obert** constituïx un element important per a combatre i reduir activitats i conductes corruptes.\n\nLa consideració de Fundació per la Justícia sobre la implantació d'un **govern obert en els municipis** se focalitza en que l'execució de l'avaluació o de l'eina utilitzada siga **transparent, servisca per a rendir comptes** i que **facilite la participació ciutadana**. Particularment, ens agradaria que el Reglament de Govern Obert de l'Ajuntament de València servisca per a trobar una avaluació que abria en l'administració local els canals necessaris que facilitaren el desenvolupament d'un govern obert, amb totes les seues bonats: **millor democràcia, millor coherència, millor eficàcia, millor eficiència** i sobretot una **millora en la qualitat de vida** dels ciutadans i ciutadanes.\n\nPer a que el desenvolupament del govern obert siga fructífer, es tendrà que estar atent a la opinió de la ciutadania i dels responsables i gestors de l'administració pública, generant **processos de sensibilització** i llocs de **formació, innovació i debat**. És fonamental, per lo tant, des del nostre punt de vista, que se proporcione als funcionaris públics **recursos humans, financers i tècnics adequats**, inclent les habilitats necessàries i els incentius professionals per a diseñar i implementar amb èxit estratègies i iniciatives governamentals.\n\n**Enhorabona a l'Ajuntament de València** per esta iniciativa per a la qual no trobarà en nosaltres sempre un apoio decidit per a dur-la a terme.\n\nGràcies.",
+      "temes": [
+        "participacio_ciutadana",
+        "igualtat"
+      ],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "drets_humans"
+        ],
+        "participacio": [
+          "transparencia",
+          "processos_participatius"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "La Fundación por la Justicia apoya la aprobación del Reglamento de Gobierno Abierto del Ayuntamiento de València, considerándolo una herramienta fundamental para combatir la corrupción a través de la transparencia administrativa y la participación ciudadana. Destaca la necesidad de proporcionar recursos adecuados a los funcionarios públicos para implementar con éxito esta iniciativa.",
+      "resum_val": "La Fundació per la Justícia recolza l'aprovació del Reglament de Govern Obert de l'Ajuntament de València, considerant-lo una ferramenta fonamental per a combatre la corrupció através de la transparència administrativa i la participació ciutadana. Destaca la necessitat de proporcionar recursos adequats als funcionaris públics per a implementar amb èxit aquesta iniciativa.",
+      "cap_subtopics": [
+        1906,
+        2000,
+        2015
+      ],
+      "cap_major": [
+        19,
+        20
+      ]
+    }
+  ]
+}

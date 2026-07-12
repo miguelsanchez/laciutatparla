@@ -1,0 +1,61 @@
+{
+  "id": "2018-03-28",
+  "fecha": "2018-03-28",
+  "tipo": "ordinaria",
+  "mandat_id": "2015-2019",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2018-03-28",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20180328_1000_0_firmadoweb.pdf/11b723ad-18d7-1410-efd0-7ab6163ffede?t=1613212805696",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20180328_1000_0_firmadoweb.pdf/2dcaa6df-07e2-4d14-df93-f312c278f40e?t=1613212805021",
+  "url_video": "https://players.cdn.enetres.net/live/1B4DA0F1F28C4AC4BA9AE203080C30C8021",
+  "num_intervencions": 1,
+  "intervencions": [
+    {
+      "id": "2018-03-28-001",
+      "pleno_id": "2018-03-28",
+      "fecha": "2018-03-28",
+      "mandat_id": "2015-2019",
+      "ordre": 1,
+      "intervinient": "Juan Ángel Velasco Barrios",
+      "entitat": "Federació d'oci i Turisme de la Comunitat Valenciana (FOTUR)",
+      "entitat_id": "fotur",
+      "tipus_entitat": "empresa",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días a todos.\n\nNosotros, desde el punto de vista empresarial, venimos a exponer un poco nuestra mejora de las **Fallas**, lo que nosotros hemos visto un poco carente, pero bueno, también hay cosas muy buenas, pero especialmente desde el punto de vista empresarial **pubs, café-conciertos y discotecas**.\n\nEn primer lugar, por ejemplo, lo único las verbenas, que tenían **permiso hasta las 4:00 de la mañana**, lo que es los pubs era hasta las 3:30 y lo único que pedimos es que al tener hasta las 4:00 de la mañana las verbenas **la capacidad de negocio delos pubs ha sido nula**. Luego también **la venta de los lateros** que ha habido por la calle, ha sido un poco incontrolada. Está claro que a veces no se puede controlar como debiéramos. Y también diríamos **los puestos de alcohol** que hay en la calle con unos precios que no podemos competir, es imposible. Entonces, lo único que pedimos es **un poco de previsibilidad** también con **el botellón** que realmente ha habido parques en Fallas que ha estado lleno de chavales bebiendo. Eso nos perjudica a todos los locales, **un poco más de control**. No podemos entender **cómo se prima a los chiringuitos ambulantes**, frente al **derecho preferente que tienen los establecimientos constituidos**. **La permisibilidad del botellón** en toda la ciudad ha sido una lacra para nuestro sector.\n\nTambién nos gustaría igual que también podemos alabar **la gestión de las mascletaes** lo hemos visto perfecto, no todo es malo sino hay cosas positivas. y también nos gustaría que **el próximo año existiera una mesa de trabajo** en la cual el empresariado pudiera participar y opinar para las próximas Fallas del 2019.\n\nNada más, muchas gracias.",
+      "text_val": "Buenos días a tots.\n\nNosaltres, des del punt de vista empresarial, venim a exposar una mica la nostra millora de les **Falles**, el que nosaltres hem vist una mica carent, però bé, també hi ha coses molt bones, però especialment des del punt de vista empresarial **pubs, cafè-concerts i discoteques**.\n\nEn primer lloc, per exemple, l'únic les verbenes, que tenien **permís fins a les 4:00 del matí**, el que és els pubs era fins a les 3:30 i l'únic que demanem és que en tenir fins a les 4:00 del matí les verbenes **la capacitat de negoci dels pubs ha sigut nul·la**. Després també **la venda dels lateros** que ha habut pel carrer, ha sigut una mica incontrolada. Està clar que a vegades no es pot controlar com debiérem. I també diríem **els postos d'alcohol** que hi ha al carrer amb uns preus que no podem competir, és impossible. Aleshores, l'únic que demanem és **una mica de previsibilitat** també amb **el botelló** que realment ha habut parcs en Falles que ha estat ple de xavals bevent. Açò ens perjudica a tots els locals, **una mica més de control**. No podem entendre **com es prima als chiringuitos ambulants**, enfront del **dret preferent que tenen els establiments constituïts**. **La permisibilitat del botelló** en tota la ciutat ha sigut una plaga per al nostre sector.\n\nTambé ens agradaria igual que també podem alabar **la gestió de les mascletades** ho hem vist perfecte, no tot és dolent sinó hi ha coses positives. i també ens agradaria que **el proper any existira una taula de treball** en la qual l'empresariat poguera participar i opinar per a les pròximes Falles del 2019.\n\nRes més, moltes gràcies.",
+      "temes": [
+        "turisme",
+        "economia",
+        "seguretat"
+      ],
+      "temes_v2": {
+        "cultura": [
+          "festes"
+        ],
+        "economia": [
+          "comerc_ocupacio"
+        ],
+        "participacio": [
+          "processos_participatius"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "Representante de FOTUR solicita mayor control sobre venta de alcohol en la calle, horarios más equitativos para establecimientos y una mesa de trabajo empresarial para las Fallas 2019, criticando la competencia desleal de chiringuitos ambulantes y el botellón.",
+      "resum_val": "Representant de FOTUR sol·licita major control sobre la venda d'alcohol al carrer, horaris més equitatius per als establiments i una taula de treball empresarial per a les Falles 2019, criticant la competència desleal dels chiringuitos ambulants i el botelló.",
+      "cap_subtopics": [
+        2300,
+        1500,
+        2000
+      ],
+      "cap_major": [
+        15,
+        20,
+        23
+      ]
+    }
+  ]
+}

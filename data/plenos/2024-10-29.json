@@ -1,0 +1,132 @@
+{
+  "id": "2024-10-29",
+  "fecha": "2024-10-29",
+  "tipo": "ordinaria",
+  "mandat_id": "2023-2027",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2024-10-29",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20241029_0945_0_firmadoweb.pdf/8e4d09b3-f03c-93d9-246d-fbdbf6be5299?t=1732090580880",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20241029_0945_0_firmadoweb.pdf/d5c11453-e712-816d-160f-ed33eb47c6a3?t=1731575096522",
+  "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-709",
+  "num_intervencions": 2,
+  "intervencions": [
+    {
+      "id": "2024-10-29-001",
+      "pleno_id": "2024-10-29",
+      "fecha": "2024-10-29",
+      "mandat_id": "2023-2027",
+      "ordre": 1,
+      "intervinient": "Amadeo Ruiz Fernández",
+      "entitat": "Associació de Vecinos la Raïosa",
+      "entitat_id": "associacio-veinal-raiosa",
+      "tipus_entitat": "av",
+      "barri_o_zona": "Raïosa",
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "castellano",
+      "text_cas": "Mi agradecimiento, señora alcaldesa, a usted y a todos los presentes. Vengo para asistir a este Pleno en representación del **edificio Iturbi**, situado en el este del barrio de la Raïosa y el **más próximo a las vías del ferrocarril**. Tenemos unas **grandes deficiencias de servicios básicos** como son la **falta de colegios**. El Colegio Santo Ángel de la Guarda ha desaparecido ya hace **cinco o seis años**. Los alumnos de nuestro barrio no tienen lugar donde ir a un **colegio público**. Tampoco disponemos de **ambulatorio**. Tampoco conocemos al **policía de barrio**.\nEl único supermercado existente es el Mercadona y **va a cerrar ya a finales de año**. Estamos muy **desprotegidos de servicios básicos**. La **contaminación acústica terrible** que sufrimos en nuestro barrio, concretamente los que vivimos **al lado de las vías del tren**. Se nos informó que nos iban a poner un **sonómetro**. **De esto hace ya dos años** y hasta ahora no hemos recibido ninguna noticia. Hemos medido ahí con un sonómetro de **más de 110 decibelios**. **Es una barbaridad**. **La contaminación es tan elevada**.\nYo dudo que haya en València ningún punto que tenga tanta **contaminación acústica**. **No hemos tenido ninguna respuesta**. Tenemos un **continuo paso de aviones** en descenso para el aeropuerto de Manises. También tenemos el **puente de Giorgeta**, bastante contaminante. La **pasarela con ruidos permanentes**, voces, insultos, tránsito de bicicletas, patinetes, carritos cargados de chatarra. Y **refugio de indigentes**. **Calle Pianista Amparo Iturbi se ha convertido en una calle párquin**. El Ayuntamiento **ponernos otros dos aparcamientos** en el centro de la calle.\nDisponemos del **jardín del Turia**, con sus **12 kilómetros de longitud**. Nuestro barrio y València necesitan el **colofón al Parque Central**. **Corredor verde libre de tráfico contaminante**. **Dignificar la sufrida y olvidada avenida del Poeta Federico García Lorca**.",
+      "text_val": "La meua gratitud, senyora alcaldesa, a vosté i a tots els presents. Vindre per a assistir a este Ple en representació de l'**edifici Iturbi**, situat en l'est del barri de la Raïosa i el **més pròxim a les vies del ferrocarril**. Tenim unes **grans deficiències de serveis bàsics** com són la **falta de col·legis**. El Col·legi Santo Ángel de la Guarda ha desaparegut ja fa **cinc o sis anys**. Els alumnes del nostre barri no tenen lloc on anar a un **col·legi públic**. Tampoc disposem d'**ambulatori**. Tampoc coneixem al **policia de barri**.\nL'únic supermercat existent és el Mercadona i **va a tancar ja a finals d'any**. Estem molt **desprotegits de serveis bàsics**. La **contaminació acústica terrible** que sofrim en el nostre barri, concretament els que vivim **al costat de les vies del tren**. Se'ns informà que ens anaven a posar un **sonòmetre**. **D'això fa ja dos anys** i fins ara no hem rebut cap notícia. Hem mesurat allí amb un sonòmetre de **més de 110 decibels**. **És una barbaritat**. **La contaminació és tan elevada**.\nJo dubte que hi haja en València cap punt que tinga tanta **contaminació acústica**. **No hem tingut cap resposta**. Tenim un **continu pas d'avions** en descens per a l'aeroport de Manises. També tenim el **pont de Giorgeta**, bastant contaminant. La **passarel·la amb sorolls permanents**, veus, insults, trànsit de bicicletes, patinets, carritxos carregats de ferralla. I **refugi d'indigents**. **Carrer Pianista Amparo Iturbi s'ha convertit en un carrer pàrquing**. L'Ajuntament **posar-nos altres dos aparcaments** en el centre del carrer.\nDisposem del **jardí del Túria**, amb els seus **12 quilòmetres de longitud**. El nostre barri i València necessiten el **colofó al Parc Central**. **Corredor verd lliure de tràfic contaminant**. **Dignificar la soferta i oblidada avinguda del Poeta Federico García Lorca**.",
+      "temes": [
+        "serveis_socials",
+        "educacio",
+        "salut",
+        "seguretat",
+        "medi_ambient",
+        "mobilitat",
+        "urbanisme",
+        "participacio_ciutadana",
+        "barris"
+      ],
+      "temes_v2": {
+        "serveis_publics": [
+          "educacio",
+          "salut",
+          "seguretat"
+        ],
+        "medi_ambient": [
+          "contaminacio",
+          "zones_verdes"
+        ],
+        "mobilitat": [
+          "aparcament"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "La Raiosa"
+      ],
+      "districtes": [
+        "Jesús"
+      ],
+      "resum_cas": "El representante de la Asociación de Vecinos la Raïosa denuncia las graves deficiencias de servicios básicos en el barrio (falta de colegio público, ambulatorio y policía de barrio) y la terrible contaminación acústica producida por el ferrocarril, aviones y otros focos, solicitando apoyo municipal para implementar un corredor verde que dignifique la avenida García Lorca.",
+      "resum_val": "El representant de l'Associació de Veïns la Raïosa denuncia les greus deficiències de serveis bàsics al barri (manca de col·legi públic, ambulatori i policia de barri) i la terrible contaminació acústica produïda pel ferrocarril, avions i altres focus, sol·licitant suport municipal per a implementar un corredor verd que dignifique l'avinguda García Lorca.",
+      "cap_subtopics": [
+        600,
+        705,
+        1002,
+        1401
+      ],
+      "cap_major": [
+        6,
+        7,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "2024-10-29-002",
+      "pleno_id": "2024-10-29",
+      "fecha": "2024-10-29",
+      "mandat_id": "2023-2027",
+      "ordre": 2,
+      "intervinient": "Núria Sanz Àlex",
+      "entitat": "Federació d'Empresaris d'Hosteleria de València",
+      "entitat_id": "fehv",
+      "tipus_entitat": "empresa",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "Consulta pública per a elaborar una normativa de gestió del litoral de la Comunitat Valenciana",
+      "idioma_original": "valenciano",
+      "text_cas": "Buenos días, desde Hostelería Valencia vemos una **buena oportunidad** la puesta en marcha de esta **consulta pública** para elaborar una normativa que pueda regular la **gestión del litoral** de la Comunidad Valenciana de una forma **integral y general**, dada la **importancia** que tiene en esta Comunidad y en algunas ocasiones no ha estado exenta de **situaciones problemáticas** que han generado **inseguridad e incertidumbre**, especialmente sobre las **autorizaciones de concesiones** de establecimientos de restauración en zona de **dominio público marítimo terrestre** y sus diferentes usos relacionados con las actividades de **hostelería y ocio**. Coincidir en que la **ordenación del litoral** de la Comunidad y su regulación para compatibilizar los usos y actividades se trata de una **cuestión de interés general** y que se tiene que regular y gestionar desde la misma Comunidad para una mejor compatibilización de la ordenación del litoral con la **protección del medio ambiente** y la **sostenibilidad**. Hay que respetar los usos y actividades y concretamente la hostelería y el ocio que están muy vinculados en estos entornos naturales y costeros, desde hace ya **más de 40 años** en algunos locales. Sin embargo, la superficie en que se encuentran estos establecimientos, en su mayor parte, se encuentran en la conocida zona como dominio público marítimo terrestre, siendo su competencia ejercida por la **autoridad estatal** a través de la **Demarcación de Costas Provincial**. Todas estas circunstancias nos lleva a provocar algunos **incidentes y problemáticas** sobre esta interpretación de la normativa. Hay que indicar que estos locales han sido **adaptados y reformados debidamente** y especialmente se han **actualizado** para recoger todas estas características y requisitos que se exigen por la normativa de costas. Esta **nueva normativa** que está siendo objeto de consulta pública debería estar en **consonancia con la normativa turística**. Desde Hostelería Valencia consideramos que este **anteproyecto de ley** de ordenación y protección de las costas de la Comunidad han de permitir a la Generalitat Valenciana **regular de forma integral y general** nuestro territorio y nuestro litoral para facilitar la **gestión y administración** de los diferentes usos y actividades que se encuentran ubicados en nuestro litoral y costas. No obstante, desde Hostelería Valencia seguimos reiterando la **necesidad** de que la Generalitat Valenciana pueda tener junto con la competencia de ordenación del litoral, la **competencia en la gestión de títulos de ocupación y uso del dominio público marítimo terrestre**, especialmente en el **otorgamiento de autorizaciones y concesiones**. Consideramos que la Generalitat debería estudiar la **viabilidad** de poder realizar la solicitud de competencias en la gestión de los títulos de ocupación y el uso de dominio público marítimo terrestre. Desde Hostelería Valencia siempre hemos considerado **prioritario** que la competencia de este espacio, el **dominio público marítimo terrestre**, y los usos que el mismo pueda llevar a cabo ha de estar en la **misma autonomía**. Lo que nosotros queremos es una **ordenación ordenada**, **respetando el medio ambiente**, pero respetando los **usos de los locales** que hace más de 40 años que están en nuestro litoral y que ahora mismo es una **economía** y **reclamo turístico**. Gracias.",
+      "text_val": "Bon dia, des d'Hosteleria València veiem una **bona oportunitat** la posada en marxa d'aquesta **consulta pública** per a elaborar una normativa que puga regular la **gestió del litoral** de la Comunitat Valenciana d'una forma **integral i general**, donada la **importància** que té en aquesta Comunitat i en algunes ocasions no ha estat exempta de **situacions problemàtiques** que han generat **inseguretat i incertidumbre**, especialment sobre les **autoritzacions de concessions** d'establiments de restauració en zona de **domini públic marítim terrestre** i els seus diferents usos relacionats amb les activitats d'**hostaleria i oci**. Coincidim en què l'**ordenació del litoral** de la Comunitat i la seua regulació per compatibilitzar els usos i activitats es tracta d'una **qüestió d'interés general** i que es té que regular i gestionar des de la mateixa Comunitat per a una millor compatibilització de l'ordenació del litoral amb la **protecció del medi ambient** i la **sostenibilitat**. Hi ha que respectar els usos i activitats i concretament l'hosteleria i l'oci que estan molt vinculats en aquestos entorns naturals i costeres, des de fa ja **més de 40 anys** en alguns locals. Tanmateix, la superfície en què es troben aquestos establiments, en la seva major part, es troben en la coneguda zona com domini públic marítim terrestre, sent la seva competència exercida per l'**autoritat estatal** a través de la **Demarcació de Costes Provincial**. Totes estes circumstàncies ens du a provocar alguns **incidents i problemàtiques** sobre aquesta interpretació de la normativa. Hi ha que indicar que aquestos locals han sigut **adaptats i reformats degudament** i especialment s'han **actualitzats** per a arreplegar totes aquestes característiques i requisits que s'exigeixen per la normativa de costes. Aquesta **nova normativa** que està sent objecte de consulta pública deuria estar en **consonància amb la normativa turística**. Des d'Hosteleria València considerem que aquest **avantprojecte de llei** d'ordenació i protecció de les costes de la Comunitat han de permet a la Generalitat Valenciana **regular de forma integral i general** el nostre territori i el nostre litoral per facilitar la **gestió i administració** dels diferents usos i activitats que es troben ubicats en el nostre litoral i costes. No obstant això, des d'Hosteleria València seguim reiterant la **necessitat** de què la Generalitat Valenciana puga tindre junt amb la competència d'ordenació del litoral, la **competencia en la gestió de títols d'ocupació i ús del domini públic marítim terrestre**, especialment en l'**atorgament d'autoritzacions i concessions**. Considerem que la Generalitat hauria d'estudiar la **viabilitat** de poder realitzar la sol·licitud de competències en la gestió dels títols d'ocupació i l'ús de domini públic marítim terrestre. Des d'Hosteleria València sempre hem considerat **prioritari** que la competència d'este espai, el **domini públic marítim terrestre**, i els usos que el mateix puga dur a cap ha d'estar en la **mateixa autonomia**. Nosaltres el que volem és una **ordenació ordenada**, **respectant el medi ambient**, però respectant els **usos dels locals** que fa més de 40 anys que estan en el nostre litoral i que ara mateix és una **economia** i és un **reclam turístic**. Gràcies.",
+      "temes": [
+        "urbanisme",
+        "medi_ambient",
+        "patrimoni",
+        "economia"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "usos_turistics"
+        ],
+        "economia": [
+          "comerc_ocupacio"
+        ],
+        "medi_ambient": [
+          "zones_verdes"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [
+        "El Grau",
+        "Cabanyal-Canyamelar",
+        "La Malva-Rosa",
+        "Betero",
+        "Natzaret"
+      ],
+      "districtes": [
+        "Poblats Marítims"
+      ],
+      "resum_cas": "Hostelería Valencia apoya la normativa de gestión integral del litoral autonómico y solicita que la Generalitat asuma competencias sobre autorización de concesiones en dominio público marítimo, respetando los establecimientos hosteleros de más de 40 años y la protección ambiental.",
+      "resum_val": "Hosteleria València recolza la normativa de gestió integral del litoral autonòmic i sol·licita que la Generalitat assuma competències sobre autorització de concessions en domini públic marítim, respectant els establiments hostalers de més de 40 anys i la protecció ambiental.",
+      "cap_subtopics": [
+        1526,
+        1401,
+        700
+      ],
+      "cap_major": [
+        7,
+        14,
+        15
+      ]
+    }
+  ]
+}

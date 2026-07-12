@@ -1,0 +1,232 @@
+---
+import Base from '../../../layouts/Base.astro';
+---
+
+<Base title="Metodologia" description="Com La Ciutat Parla extreu, classifica i publica les intervencions ciutadanes dels plens de l'Ajuntament de València. Pipeline de 7 passos, IA + supervisió humana.">
+
+  <!-- Hero -->
+  <section style="background: #1e1e1e; color: #fff; padding: 3rem 1rem 2.5rem;">
+    <div class="max-w-5xl mx-auto">
+      <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #e8562a; margin-bottom: 0.75rem;">
+        Metodologia
+      </p>
+      <h1 style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 1rem;">
+        Com funciona.
+      </h1>
+      <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 1rem; color: #aaa; max-width: 48rem; line-height: 1.6;">
+        Les actes dels plens són documents PDF de fins a 200 pàgines. Aquesta pàgina explica com les convertim en dades estructurades, què fa la intel·ligència artificial i què supervisa la persona.
+      </p>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section style="background: #f5f5f5; border-bottom: 1px solid #eee; padding: 1.5rem 1rem;">
+    <div class="max-w-5xl mx-auto" style="display: flex; flex-wrap: wrap; gap: 2rem;">
+      {[
+        { n: '7', label: 'passos del pipeline' },
+        { n: '~$0.10', label: 'cost per ple (IA)' },
+        { n: '4', label: 'mandats processats' },
+        { n: '100%', label: 'codi obert' },
+      ].map(({ n, label }) => (
+        <div>
+          <span style="font-family: 'Sora', sans-serif; font-size: 1.75rem; font-weight: 800; color: #1e1e1e; letter-spacing: -0.03em;">{n}</span>
+          <span style="font-family: 'Outfit', sans-serif; font-size: 0.85rem; color: #666; display: block;">{label}</span>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <div class="max-w-5xl mx-auto px-4 py-10" style="font-family: 'Outfit', system-ui, sans-serif;">
+
+    <!-- Fonts de dades -->
+    <section style="margin-bottom: 3.5rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem;">Fonts de dades</h2>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; max-width: 48rem; line-height: 1.6;">
+        El projecte parteix de fonts públiques de l'Ajuntament de València i les combina per generar dades que no existeixen en cap altra forma estructurada.
+      </p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem;">
+
+        <div style="border: 1px solid #e5e5e5; border-radius: 12px; padding: 1.25rem 1.5rem; background: #fff;">
+          <p style="font-weight: 700; font-size: 0.9rem; color: #1e1e1e; margin-bottom: 0.4rem;">Actes dels plens municipals</p>
+          <p style="color: #666; font-size: 0.82rem; line-height: 1.55; margin-bottom: 0.75rem;">PDFs publicats per l'Ajuntament al seu web oficial. Domini públic. Reutilització emparada per la Llei 19/2013 de Transparència i la Llei 2/2015 de la Comunitat Valenciana.</p>
+          <span style="font-size: 0.72rem; font-weight: 600; color: #666; letter-spacing: 0.05em; text-transform: uppercase;">Principal · domini públic</span>
+        </div>
+
+        <div style="border: 1px solid #e5e5e5; border-radius: 12px; padding: 1.25rem 1.5rem; background: #fff;">
+          <p style="font-weight: 700; font-size: 0.9rem; color: #1e1e1e; margin-bottom: 0.4rem;">Dataset Barris i Districtes</p>
+          <p style="color: #666; font-size: 0.82rem; line-height: 1.55; margin-bottom: 0.75rem;">88 barris i 19 districtes amb els seus contorns GeoJSON. Portal de Dades Obertes de l'Ajuntament de València (geoportal.valencia.es). Usat per a la geolocalització d'intervencions i el mapa interactiu.</p>
+          <span style="font-size: 0.72rem; font-weight: 600; color: #16a34a; letter-spacing: 0.05em; text-transform: uppercase;">Dades obertes · CC BY 4.0</span>
+        </div>
+
+        <div style="border: 1px solid #e5e5e5; border-radius: 12px; padding: 1.25rem 1.5rem; background: #fff;">
+          <p style="font-weight: 700; font-size: 0.9rem; color: #1e1e1e; margin-bottom: 0.4rem;">Queixes, Suggeriments i Pressupostos</p>
+          <p style="color: #666; font-size: 0.82rem; line-height: 1.55; margin-bottom: 0.75rem;">Datasets de queixes i suggeriments (87.528 registres) i de pressupostos participatius (8 edicions). Portal de Dades Obertes de l'Ajuntament. Usats a la secció <em>Altres veus</em>.</p>
+          <span style="font-size: 0.72rem; font-weight: 600; color: #16a34a; letter-spacing: 0.05em; text-transform: uppercase;">Dades obertes · CC BY 4.0</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Pipeline -->
+    <section style="margin-bottom: 3.5rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem;">El pipeline: 7 passos</h2>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 2rem; max-width: 48rem; line-height: 1.6;">
+        Un conjunt de scripts Python processa cada ple des de la seua publicació al web de l'Ajuntament fins a la seua aparició al web. Els passos 1–4 són automàtics i idempotents; els passos 5–7 usen IA amb supervisió humana.
+      </p>
+
+      <div style="display: flex; flex-direction: column; gap: 0;">
+        {[
+          {
+            n: '01',
+            title: 'Índex de sessions',
+            tech: 'Python · web scraping',
+            desc: 'Descàrrega automàtica del llistat de tots els plens des del web municipal. Extreu data, tipus (ordinari/extraordinari) i enllaços a les actes i vídeos.',
+            output: 'sessions_index.json',
+            ia: false,
+          },
+          {
+            n: '02',
+            title: 'Metadades de sessió',
+            tech: 'Python · web scraping',
+            desc: 'Visita cada pàgina de sessió per obtenir els metadades complets i els enllaços directes als PDFs de les actes.',
+            output: 'sessions_metadata.json',
+            ia: false,
+          },
+          {
+            n: '03',
+            title: 'Descàrrega de PDFs',
+            tech: 'Python · urllib',
+            desc: "Descarrega les actes oficials en format PDF. Només descarrega els que no existeixen ja localment. Les actes poden superar les 200 pàgines.",
+            output: 'data/raw/pdfs/',
+            ia: false,
+          },
+          {
+            n: '04',
+            title: 'Extracció de text',
+            tech: 'pdftotext · Python',
+            desc: 'Converteix cada PDF a text pla net. Elimina capçaleres, peus de pàgina i artefactes de maquetació per preparar el text per a la IA.',
+            output: 'data/raw/texts/',
+            ia: false,
+          },
+          {
+            n: '05',
+            title: 'Extracció amb IA',
+            tech: 'Claude Haiku · Anthropic',
+            desc: "El model llegeix el text de l'acta i identifica cada bloc d'intervenció ciutadana. Per cada intervenció extreu: qui parla, quina entitat representa, en quin idioma, què diu. Genera resums bilingües (castellà i valencià).",
+            output: 'interventions_raw.json',
+            ia: true,
+          },
+          {
+            n: '06',
+            title: 'Normalització d\'entitats',
+            tech: 'Claude Haiku · supervisió humana',
+            desc: "La mateixa entitat apareix amb grafies distintes en actes diferents. Aquest pas agrupa variants sota un nom canònic. S'apliquen correccions manuals reproduïbles per als casos que la IA no resol bé.",
+            output: 'entitats.json',
+            ia: true,
+          },
+          {
+            n: '07',
+            title: 'Classificació i construcció final',
+            tech: 'Claude Haiku · Python',
+            desc: "Cada intervenció es classifica temàticament (9 categories, 30+ subcategories), geogràficament (barri, districte, àmbit) i amb codis CAP (Comparative Agendas Project, estàndard acadèmic internacional). Es construeixen els JSONs finals que alimenten el web.",
+            output: 'intervencions.json · plenos.json',
+            ia: true,
+          },
+        ].map(({ n, title, tech, desc, output, ia }, i) => (
+          <div style={`display: flex; gap: 1.25rem; padding: 1.25rem 0; ${i > 0 ? 'border-top: 1px solid #f0f0f0;' : ''}`}>
+            <div style="flex-shrink: 0; display: flex; flex-direction: column; align-items: center; gap: 0;">
+              <div style={`width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Sora', sans-serif; font-size: 0.75rem; font-weight: 800; flex-shrink: 0; ${ia ? 'background: #fff3ee; color: #e8562a;' : 'background: #f0f0f0; color: #666;'}`}>
+                {n}
+              </div>
+            </div>
+            <div style="flex: 1; min-width: 0;">
+              <div style="display: flex; align-items: baseline; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.3rem;">
+                <p style="font-weight: 700; font-size: 0.95rem; color: #1e1e1e; margin: 0;">{title}</p>
+                <span style="font-size: 0.72rem; color: #aaa; font-weight: 500;">{tech}</span>
+                {ia && <span style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #e8562a; background: #fff3ee; padding: 2px 7px; border-radius: 4px;">IA</span>}
+              </div>
+              <p style="color: #555; font-size: 0.85rem; line-height: 1.6; margin: 0 0 0.4rem 0;">{desc}</p>
+              <p style="font-size: 0.75rem; color: #aaa; margin: 0;">→ <code style="font-size: 0.75rem;">{output}</code></p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Rol de la IA -->
+    <section style="margin-bottom: 3.5rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem;">El rol de la intel·ligència artificial</h2>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; max-width: 48rem; line-height: 1.6;">
+        La IA fa possible processar centenars de pàgines de documents administratius. La supervisió humana garanteix la qualitat del resultat.
+      </p>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;">
+        <div style="border: 1px solid #fde0d4; border-radius: 12px; padding: 1.25rem 1.5rem; background: #fff8f5;">
+          <p style="font-family: 'Sora', sans-serif; font-weight: 700; font-size: 0.72rem; color: #e8562a; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">Què fa la IA</p>
+          <ul style="color: #444; font-size: 0.85rem; line-height: 1.7; margin: 0; padding-left: 1.1rem;">
+            <li>Localitzar els blocs d'intervenció ciutadana a l'acta</li>
+            <li>Identificar qui parla i quina entitat representa</li>
+            <li>Detectar l'idioma (castellà, valencià o mixt)</li>
+            <li>Redactar un resum d'1-2 frases en tots dos idiomes</li>
+            <li>Classificar temàticament amb taxonomia pròpia i codis CAP</li>
+            <li>Identificar barris i districtes esmentats</li>
+            <li>Marcar en negreta les frases clau del text</li>
+          </ul>
+        </div>
+        <div style="border: 1px solid #e5e5e5; border-radius: 12px; padding: 1.25rem 1.5rem; background: #fff;">
+          <p style="font-family: 'Sora', sans-serif; font-weight: 700; font-size: 0.72rem; color: #666; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">Què supervisa la persona</p>
+          <ul style="color: #444; font-size: 0.85rem; line-height: 1.7; margin: 0; padding-left: 1.1rem;">
+            <li>Revisar cada sessió processada</li>
+            <li>Eliminar intervencions de regidors mal identificats</li>
+            <li>Corregir noms d'entitats i fusionar duplicats</li>
+            <li>Reassignar cessions de torn entre entitats</li>
+            <li>Validar la classificació geogràfica en casos ambigus</li>
+            <li>Totes les correccions queden en codi versionat i són reproduïbles</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="background: #f5f5f5; border-radius: 10px; padding: 1rem 1.25rem; font-size: 0.84rem; color: #555; line-height: 1.6;">
+        <strong style="color: #1e1e1e;">Model:</strong> Claude Haiku (Anthropic) ·
+        <strong style="color: #1e1e1e;">Cost estimat per ple:</strong> ~$0.05–0.15 ·
+        <strong style="color: #1e1e1e;">Cost total del dataset complet:</strong> &lt;$30 ·
+        <strong style="color: #1e1e1e;">Allotjament web:</strong> $0 (lloc estàtic)
+      </div>
+    </section>
+
+    <!-- Cobertura i limitacions -->
+    <section style="margin-bottom: 3.5rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem;">Cobertura i limitacions</h2>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; max-width: 48rem; line-height: 1.6;">
+        El dataset és exhaustiu dins del seu àmbit, però té límits que qualsevol usuari hauria de conèixer.
+      </p>
+      <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+        {[
+          { label: 'Cobertura temporal', text: '4 mandats municipals: 2011–2015 (Rita Barberá), 2015–2019 (Joan Ribó), 2019–2023 (Joan Ribó), 2023–2027 (María José Catalá). Els plens més recents s\'afegeixen periòdicament.' },
+          { label: 'Només intervencions ciutadanes', text: 'El dataset recull únicament les intervencions del torn ciutadà al ple. No inclou debats entre regidors, preguntes de grups municipals ni altres tràmits de l\'ordre del dia.' },
+          { label: 'Qualitat dels PDFs', text: 'Les actes de 2011–2014 són documents escanejats. La qualitat del text extret és menor i hi pot haver més errors de transcripció que en els documents digitals natius de mandats posteriors.' },
+          { label: 'Precisió de la IA', text: "L'extracció automàtica té una taxa d'encert elevada, però no és perfecta. Totes les sessions es revisen manualment. Els errors identificats es corregeixen en un script de correccions versionat." },
+          { label: 'Normalització d\'entitats', text: "Una mateixa entitat pot aparèixer amb grafies distintes en actes diferents. El procés de normalització és iteratiu i millora amb cada nou ple processat. Poden quedar variants no detectades." },
+          { label: 'Entitats no identificades', text: 'En alguns casos l\'intervinient no indica clarament l\'entitat que representa. Aquestes intervencions es recullen amb el camp entitat buit o amb el nom de l\'intervinient com a identificador.' },
+        ].map(({ label, text }, i) => (
+          <div style={`padding: 0.9rem 1.1rem; border-radius: 8px; background: ${i % 2 === 0 ? '#fafafa' : '#fff'}; border: 1px solid #eee;`}>
+            <span style="font-weight: 700; font-size: 0.85rem; color: #1e1e1e;">{label}: </span>
+            <span style="font-size: 0.85rem; color: #555; line-height: 1.6;">{text}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Com reutilitzar -->
+    <section style="background: #fff8f5; border: 1px solid #fde0d4; border-radius: 12px; padding: 1.5rem 2rem; margin-bottom: 3rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.2rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.75rem; color: #1e1e1e;">Reutilitzar les dades</h2>
+      <p style="font-size: 0.9rem; color: #444; line-height: 1.65; margin-bottom: 1rem;">
+        El dataset complet està disponible per a descàrrega lliure sota llicència <strong>CC BY 4.0</strong>. Pots usar-lo en projectes periodístics, investigacions acadèmiques o visualitzacions pròpies sempre que cites la font.
+      </p>
+      <a href="/val/dades/" style="display: inline-block; background: #1e1e1e; color: #fff; font-size: 0.85rem; font-weight: 600; padding: 9px 20px; border-radius: 8px; text-decoration: none;">
+        Anar a Dades obertes →
+      </a>
+    </section>
+
+  </div>
+</Base>

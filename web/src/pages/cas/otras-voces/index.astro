@@ -1,0 +1,504 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { t } from '../../../i18n/index.ts';
+import { AnalysisExplorer } from '../../../components/AnalysisExplorer.tsx';
+import { PresupuestosExplorer } from '../../../components/PresupuestosExplorer.tsx';
+import { CrucesExplorer } from '../../../components/CrucesExplorer.tsx';
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
+
+const lang = 'cas';
+const dataDir = resolve(process.cwd(), '..', 'data');
+
+let intervencions: any[] = [];
+let quejas: any = { districts: {}, temas: {}, total: 0, years: [], by_year_district_tema: {} };
+let mandats: any[] = [];
+let entitats: any[] = [];
+let barris: any[] = [];
+let presupuestos: any = null;
+let propostes: any = null;
+let barriPoblacion: any = {};
+try {
+  intervencions = JSON.parse(readFileSync(`${dataDir}/intervencions.json`, 'utf-8'));
+  quejas = JSON.parse(readFileSync(`${dataDir}/quejas.json`, 'utf-8'));
+  mandats = JSON.parse(readFileSync(`${dataDir}/mandats.json`, 'utf-8'));
+  entitats = JSON.parse(readFileSync(`${dataDir}/entitats.json`, 'utf-8'));
+  barris = JSON.parse(readFileSync(`${dataDir}/raw/barris_referencia.json`, 'utf-8'));
+  presupuestos = JSON.parse(readFileSync(`${dataDir}/presupuestos_oficial.json`, 'utf-8'));
+  propostes = JSON.parse(readFileSync(`${dataDir}/propostes.json`, 'utf-8'));
+  barriPoblacion = JSON.parse(readFileSync(`${dataDir}/raw/barri_poblacion.json`, 'utf-8'));
+} catch {}
+
+// Map barri name → districte name
+const barriToDistrict: Record<string, string> = {};
+for (const b of barris) {
+  barriToDistrict[b.nom] = b.districte_nom;
+}
+
+// Slim entity lookup
+const entityNames: Record<string, any> = {};
+for (const e of entitats) {
+  entityNames[e.id] = { nom_cas: e.nom_cas, nom_val: e.nom_val };
+}
+
+// Slim interventions (only fields needed for analysis)
+const slimIvs = intervencions.map((iv: any) => ({
+  id: iv.id, fecha: iv.fecha, entitat: iv.entitat, entitat_id: iv.entitat_id,
+  tipus_entitat: iv.tipus_entitat, temes_v2: iv.temes_v2 || {},
+  districtes: iv.districtes || [], zones: iv.zones || [],
+}));
+
+const catLabels: Record<string, string> = {
+  urbanisme: t(lang, 'cat_urbanisme'),
+  mobilitat: t(lang, 'cat_mobilitat'),
+  medi_ambient: t(lang, 'cat_medi_ambient'),
+  serveis_publics: t(lang, 'cat_serveis_publics'),
+  economia: t(lang, 'cat_economia'),
+  drets_i_igualtat: t(lang, 'cat_drets_i_igualtat'),
+  persones: t(lang, 'cat_persones'),
+  cultura: t(lang, 'cat_cultura'),
+  participacio: t(lang, 'cat_participacio'),
+};
+---
+
+<Base title="Otras voces" fullWidth={true}>
+
+  <!-- Hero -->
+  <section style="background: #1e1e1e; color: #fff; padding: 3rem 1rem 2.5rem;">
+    <div class="max-w-5xl mx-auto">
+      <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #e8562a; margin-bottom: 0.75rem;">
+        Otras voces
+      </p>
+      <h1 style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 1rem;">
+        Voces que complementan el pleno: quejas y sugerencias, presupuestos participativos
+      </h1>
+      <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 1rem; color: #aaa; max-width: 48rem; line-height: 1.6;">
+        Las <strong style="color: #fff;">intervenciones ciudadanas en el pleno</strong> son una forma de participación, pero no la única. La ciudadanía de València también se expresa presentando <strong style="color: #fff;">quejas y sugerencias</strong> individuales y proponiendo proyectos en los <strong style="color: #fff;">presupuestos participativos</strong>. Tres canales con reglas y barreras distintas, cruzados aquí por distrito, barrio y edición.
+      </p>
+    </div>
+  </section>
+
+  <!-- Pirámide invertida de la participación -->
+  <section style="background: #fafafa; padding: 3rem 1rem; border-bottom: 1px solid #eee;">
+    <div class="max-w-5xl mx-auto" style="font-family: 'Outfit', system-ui, sans-serif;">
+      <h2 style="font-family: 'Sora', system-ui, sans-serif; font-size: 1.5rem; font-weight: 700; color: #1e1e1e; letter-spacing: -0.02em; margin-bottom: 0.5rem;">
+        Tres canales, distintas barreras
+      </h2>
+      <p style="color: #666; margin-bottom: 2rem; max-width: 42rem; line-height: 1.6; font-size: 0.95rem;">
+        De más accesible a más exigente. Cuanto más estrecho el canal, menos personas llegan y más filtros institucionales hay que atravesar — pero también más peso tiene cada voz que atraviesa el embudo.
+      </p>
+
+      <div style="display: grid; gap: 0.75rem;">
+        <!-- Canal 1: Quejas -->
+        <a href="#" data-open-tab="quejas" style="text-decoration: none; color: inherit; display: block;">
+          <div style="background: #fef1ec; border-left: 4px solid #e8562a; border-radius: 12px; padding: 1.25rem 1.5rem; display: grid; grid-template-columns: auto 1fr auto; gap: 1rem; align-items: center; width: 100%;">
+            <div style="background: #e8562a; color: #fff; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Sora', system-ui, sans-serif; font-weight: 800;">1</div>
+            <div>
+              <h3 style="font-family: 'Sora', system-ui, sans-serif; font-size: 1.1rem; font-weight: 700; color: #1e1e1e; margin-bottom: 0.25rem;">Quejas y sugerencias</h3>
+              <p style="font-size: 0.85rem; color: #666; line-height: 1.4; margin: 0;">Voz individual, sin requisito organizativo. La forma más sencilla de alzar la voz: cualquier vecino denuncia un problema cotidiano.</p>
+            </div>
+            <div style="text-align: right; white-space: nowrap;">
+              <div style="font-family: 'Sora', system-ui, sans-serif; font-weight: 800; font-size: 1.3rem; color: #e8562a;">87.528</div>
+              <div style="font-size: 0.65rem; color: #666; text-transform: uppercase; letter-spacing: 0.05em;">registros · 2020-2026</div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Canal 2: Presupuestos -->
+        <a href="#" data-open-tab="presupuestos" style="text-decoration: none; color: inherit; display: block; margin-left: 4%; margin-right: 4%;">
+          <div style="background: #fff3e0; border-left: 4px solid #d97706; border-radius: 12px; padding: 1.25rem 1.5rem; display: grid; grid-template-columns: auto 1fr auto; gap: 1rem; align-items: center; width: 100%;">
+            <div style="background: #d97706; color: #fff; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Sora', system-ui, sans-serif; font-weight: 800;">2</div>
+            <div>
+              <h3 style="font-family: 'Sora', system-ui, sans-serif; font-size: 1.1rem; font-weight: 700; color: #1e1e1e; margin-bottom: 0.25rem;">Presupuestos participativos</h3>
+              <p style="font-size: 0.85rem; color: #666; line-height: 1.4; margin: 0;">Proponer proyectos o votarlos en momentos concretos. Las propuestas tienen que superar un filtro de apoyo ciudadano y otro técnico del Ayuntamiento.</p>
+            </div>
+            <div style="text-align: right; white-space: nowrap;">
+              <div style="font-family: 'Sora', system-ui, sans-serif; font-weight: 800; font-size: 1.3rem; color: #d97706;">28.473</div>
+              <div style="font-size: 0.65rem; color: #666; text-transform: uppercase; letter-spacing: 0.05em;">participantes · 8ª ed.</div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Canal 3: Intervenciones -->
+        <a href={`/${lang}/intervencions/`} style="text-decoration: none; color: inherit; display: block; margin-left: 12%; margin-right: 12%;">
+          <div style="background: #f3f4f6; border-left: 4px solid #1e1e1e; border-radius: 12px; padding: 1.25rem 1.5rem; display: grid; grid-template-columns: auto 1fr auto; gap: 1rem; align-items: center; width: 100%;">
+            <div style="background: #1e1e1e; color: #fff; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Sora', system-ui, sans-serif; font-weight: 800;">3</div>
+            <div>
+              <h3 style="font-family: 'Sora', system-ui, sans-serif; font-size: 1.1rem; font-weight: 700; color: #1e1e1e; margin-bottom: 0.25rem;">Intervenciones en el pleno</h3>
+              <p style="font-size: 0.85rem; color: #666; line-height: 1.4; margin: 0;">Canal formal y regulado. Mayoritariamente entidades organizadas y vecinos que se atreven a comparecer. Es el núcleo de La Ciutat Parla.</p>
+            </div>
+            <div style="text-align: right; white-space: nowrap;">
+              <div style="font-family: 'Sora', system-ui, sans-serif; font-weight: 800; font-size: 1.3rem; color: #1e1e1e;">{intervencions.length}</div>
+              <div style="font-size: 0.65rem; color: #666; text-transform: uppercase; letter-spacing: 0.05em;">intervenciones · 2019-2026</div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <p style="color: #666; font-size: 0.75rem; margin-top: 1.5rem; font-style: italic;">
+        La anchura de cada fila refleja la accesibilidad del canal, no el peso político.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- Tres hallazgos clave                                             -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <section style="background: #fff; padding: 2.5rem 1rem 2rem; border-bottom: 1px solid #eee;">
+    <div class="max-w-5xl mx-auto" style="font-family: 'Outfit', system-ui, sans-serif;">
+      <p style="font-size: 0.7rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #e8562a; margin-bottom: 1rem;">
+        Tres hallazgos clave
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+        <a href="#" data-open-tab="presupuestos" style="text-decoration: none; color: inherit; display: block; border-left: 3px solid #d97706; padding: 1.25rem 1.25rem 1rem; background: linear-gradient(135deg, #fffbf0 0%, #fff 100%); border-radius: 0 12px 12px 0;" class="hover:shadow-md transition-shadow">
+          <div style="font-family: 'Sora', system-ui, sans-serif; font-size: 2.5rem; font-weight: 800; color: #d97706; line-height: 1; margin-bottom: 0.5rem;">48%</div>
+          <h3 style="font-family: 'Sora', system-ui, sans-serif; font-size: 0.9rem; font-weight: 700; color: #1e1e1e; margin-bottom: 0.4rem; line-height: 1.35;">Las pedanías del norte participan cuatro veces más que la media</h3>
+          <p style="font-size: 0.8rem; color: #666; line-height: 1.5; margin: 0 0 0.75rem;">Pobles del Nord acumula un 48% de participación en presupuestos participativos — el triple de la media ciudadana (11.6%). Pero en los plenos apenas aparece: solo 1 intervención en 7 años.</p>
+          <span style="font-size: 0.72rem; color: #d97706; font-weight: 600;">→ Presupuestos participativos</span>
+        </a>
+
+        <a href="#" data-open-tab="presupuestos" style="text-decoration: none; color: inherit; display: block; border-left: 3px solid #e8562a; padding: 1.25rem 1.25rem 1rem; background: linear-gradient(135deg, #fef8f5 0%, #fff 100%); border-radius: 0 12px 12px 0;" class="hover:shadow-md transition-shadow">
+          <div style="font-family: 'Sora', system-ui, sans-serif; font-size: 2.5rem; font-weight: 800; color: #e8562a; line-height: 1; margin-bottom: 0.5rem;">1.335</div>
+          <h3 style="font-family: 'Sora', system-ui, sans-serif; font-size: 0.9rem; font-weight: 700; color: #1e1e1e; margin-bottom: 0.4rem; line-height: 1.35;">La mitad de las propuestas cae antes del filtro técnico</h3>
+          <p style="font-size: 0.8rem; color: #666; line-height: 1.5; margin: 0 0 0.75rem;">De 2.776 propuestas en la 8ª edición, 1.335 (48%) no consiguieron los 30 apoyos mínimos. La ciudadanía ejerce su propio filtro antes que los técnicos del Ayuntamiento.</p>
+          <span style="font-size: 0.72rem; color: #e8562a; font-weight: 600;">→ Presupuestos participativos</span>
+        </a>
+
+        <a href="#" data-open-tab="cruces" style="text-decoration: none; color: inherit; display: block; border-left: 3px solid #1e1e1e; padding: 1.25rem 1.25rem 1rem; background: linear-gradient(135deg, #f5f5f4 0%, #fff 100%); border-radius: 0 12px 12px 0;" class="hover:shadow-md transition-shadow">
+          <div style="font-family: 'Sora', system-ui, sans-serif; font-size: 2.5rem; font-weight: 800; color: #1e1e1e; line-height: 1; margin-bottom: 0.5rem;">≠</div>
+          <h3 style="font-family: 'Sora', system-ui, sans-serif; font-size: 0.9rem; font-weight: 700; color: #1e1e1e; margin-bottom: 0.4rem; line-height: 1.35;">Las quejas hablan de limpieza; el pleno habla de derechos</h3>
+          <p style="font-size: 0.8rem; color: #666; line-height: 1.5; margin: 0 0 0.75rem;">Los temas de las quejas individuales (limpieza, ruido, reparaciones) y los del pleno (urbanismo, derechos, participación) apenas se solapan. Dos canales para dos tipos distintos de voz vecinal.</p>
+          <span style="font-size: 0.72rem; color: #666; font-weight: 600;">→ Cruces entre canales</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Sticky tab nav -->
+  <nav id="av-nav" aria-label="Secciones" style="position: sticky; top: 48px; z-index: 30; background: #f0efe9; border-bottom: 1px solid #e5e5e5; box-shadow: 0 1px 4px rgba(0,0,0,0.06);">
+    <div class="max-w-5xl mx-auto" style="padding: 0.5rem 1rem;">
+      <div class="av-tab-bar">
+        <button class="av-pill av-active" data-tab="quejas">
+          <span class="tab-label">Quejas</span>
+          <span class="tab-sub">87k registros</span>
+        </button>
+        <button class="av-pill" data-tab="presupuestos">
+          <span class="tab-label">Presupuestos Participativos</span>
+          <span class="tab-sub">8 edic. · 80k pers.</span>
+        </button>
+        <button class="av-pill" data-tab="pleno">
+          <span class="tab-label">Pleno</span>
+          <span class="tab-sub">570 intervenciones</span>
+        </button>
+        <button class="av-pill" data-tab="cruces">
+          <span class="tab-label">Cruces</span>
+          <span class="tab-sub">3 canales · 19 dist.</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <style>
+    .av-tab-bar {
+      display: flex; gap: 4px;
+      background: #fff; border: 1px solid #e5e5e5;
+      border-radius: 10px; padding: 4px;
+    }
+    .av-pill {
+      flex: 1; display: flex; flex-direction: column; align-items: center; gap: 2px;
+      padding: 8px 6px; border-radius: 7px; border: none; cursor: pointer;
+      background: transparent; font-family: 'Outfit', system-ui, sans-serif;
+      transition: background 0.15s; min-width: 0;
+    }
+    .av-pill:hover:not(.av-active) { background: #f5f5f4; }
+    .av-pill.av-active { background: #1e1e1e; }
+    .av-pill .tab-label {
+      font-size: 0.8rem; font-weight: 500; color: #666; line-height: 1.2;
+      text-align: center; word-break: break-word; max-width: 100%;
+    }
+    .av-pill.av-active .tab-label { color: #fff; }
+    .av-pill .tab-sub {
+      font-size: 0.6rem; color: #aaa; letter-spacing: 0.03em;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;
+    }
+    .av-pill.av-active .tab-sub { color: rgba(255,255,255,0.45); }
+    .cruce-pill {
+      flex-shrink: 0;
+      font-family: 'Outfit', system-ui, sans-serif;
+      font-size: 0.78rem;
+      font-weight: 500;
+      padding: 5px 14px;
+      border-radius: 100px;
+      border: 1px solid #e5e5e5;
+      background: #fff;
+      color: #666;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.15s, color 0.15s, border-color 0.15s;
+    }
+    .cruce-pill:hover:not(.cruce-active) { border-color: #ccc; color: #333; }
+    .cruce-pill.cruce-active {
+      background: #e8562a;
+      color: #fff;
+      border-color: #e8562a;
+      font-weight: 600;
+    }
+    #cruces-subnav::-webkit-scrollbar { display: none; }
+  </style>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- Panel: Quejas y Sugerencias                                      -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div id="panel-quejas" class="av-panel">
+    <section style="background: #1e1e1e; color: #fff; padding: 2.5rem 1rem 2rem;">
+      <div class="max-w-5xl mx-auto">
+        <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #e8562a; margin-bottom: 0.5rem;">
+          Canal 1 / voz individual
+        </p>
+        <h2 style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; margin-bottom: 0.75rem;">
+          Quejas y sugerencias
+        </h2>
+        <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.95rem; color: #aaa; max-width: 48rem; line-height: 1.6;">
+          Dataset <em>Queixes i Suggeriments</em> del portal de datos abiertos municipal. Volumen por distrito, barrio y tema, filtrable por año y tipo (queja o sugerencia). Ten en cuenta el contexto: 2020 y 2021 marcados por la pandemia, 2023 año electoral con cambio de gobierno, octubre de 2024 la DANA.
+        </p>
+      </div>
+    </section>
+
+    <AnalysisExplorer
+      client:load
+      intervencions={slimIvs}
+      quejas={quejas}
+      mandats={mandats}
+      entityNames={entityNames}
+      lang={lang}
+      cat_labels={catLabels}
+      entitats_path={`/${lang}/entitats/`}
+      barriToDistrict={barriToDistrict}
+      hideIntervenciones={true}
+    />
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- Panel: Presupuestos Participativos                               -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div id="panel-presupuestos" class="av-panel" style="display:none">
+    <section style="background: #1e1e1e; color: #fff; padding: 2.5rem 1rem 2rem;">
+      <div class="max-w-5xl mx-auto">
+        <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #d97706; margin-bottom: 0.5rem;">
+          Canal 2 / voz colectiva con filtro
+        </p>
+        <h2 style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; margin-bottom: 0.75rem;">
+          Presupuestos participativos
+        </h2>
+        <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.95rem; color: #aaa; max-width: 48rem; line-height: 1.6;">
+          Desde 2015, ocho ediciones en las que la ciudadanía propone, apoya y vota proyectos de inversión municipal. 80.091 personas han participado al menos una vez. En la edición 2025/26 se reparten <strong style="color: #fff;">16 millones de euros</strong> con criterios de población y renta.
+        </p>
+      </div>
+    </section>
+
+    {presupuestos && propostes && (
+      <PresupuestosExplorer
+        client:load
+        data={presupuestos}
+        propostes={propostes}
+        barriPoblacion={barriPoblacion}
+        barriToDistrict={barriToDistrict}
+        lang={lang}
+      />
+    )}
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- Panel: Intervenciones en el pleno                                -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div id="panel-pleno" class="av-panel" style="display:none">
+    <section style="background: #1e1e1e; color: #fff; padding: 2.5rem 1rem 2rem;">
+      <div class="max-w-5xl mx-auto">
+        <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #fff; margin-bottom: 0.5rem;">
+          Canal 3 / voz formal y organizada
+        </p>
+        <h2 style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; margin-bottom: 0.75rem;">
+          Intervenciones en el pleno
+        </h2>
+        <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.95rem; color: #aaa; max-width: 48rem; line-height: 1.6; margin-bottom: 1.5rem;">
+          {intervencions.length} intervenciones entre 2019 y 2026, de {entitats.length} entidades y colectivos distintos. Es el núcleo de esta web: cada intervención es el resultado de preparar un discurso, pedir turno y comparecer ante el pleno municipal.
+        </p>
+        <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+          <a href={`/${lang}/intervencions/`} style="background: #e8562a; color: #fff; font-family: 'Outfit', system-ui, sans-serif; font-weight: 600; padding: 0.6rem 1.4rem; border-radius: 100px; text-decoration: none; font-size: 0.9rem;">
+            Ver todas las intervenciones →
+          </a>
+          <a href={`/${lang}/mapa/`} style="background: transparent; color: #fff; font-family: 'Outfit', system-ui, sans-serif; font-weight: 600; padding: 0.6rem 1.4rem; border-radius: 100px; text-decoration: none; font-size: 0.9rem; border: 1px solid #444;">
+            Ver en el mapa
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- Panel: Cruces                                                    -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div id="panel-cruces" class="av-panel" style="display:none">
+    <section style="background: #fef8f5; padding: 3rem 1rem 2rem; border-top: 4px solid #e8562a;">
+      <div class="max-w-5xl mx-auto">
+        <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #e8562a; margin-bottom: 0.5rem;">
+          Cruces · recapitulación
+        </p>
+        <h2 style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(1.8rem, 4.5vw, 2.5rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; margin-bottom: 1rem; color: #1e1e1e;">
+          ¿Se solapan los tres canales?
+        </h2>
+        <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 1rem; color: #555; max-width: 48rem; line-height: 1.6;">
+          Tras presentar cada canal por separado, cruzamos cada uno con las <strong>intervenciones en el pleno</strong> y al final con los tres juntos. La pregunta: ¿los mismos distritos lideran los tres canales, o cada vía canaliza perfiles vecinales distintos?
+        </p>
+      </div>
+    </section>
+
+    <!-- A/B/C sub-nav -->
+    <div id="cruces-subnav" style="background: #fff; padding: 0.5rem 1rem; border-bottom: 1px solid #f0f0f0;">
+      <div class="max-w-5xl mx-auto" style="display: flex; gap: 0.25rem; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;">
+        <button class="cruce-pill cruce-active" data-cruce="A">A · Quejas × Intervenciones</button>
+        <button class="cruce-pill" data-cruce="B">B · Presupuestos participativos</button>
+        <button class="cruce-pill" data-cruce="C">C · Tres canales</button>
+      </div>
+    </div>
+
+    <!-- Cruce A: Quejas × Intervenciones -->
+    <div id="cruce-panel-A">
+      <section style="background: #fff; padding: 2rem 1rem 0;">
+        <div class="max-w-5xl mx-auto">
+          <h3 style="font-family: 'Sora', system-ui, sans-serif; font-size: 1.3rem; font-weight: 700; color: #1e1e1e; letter-spacing: -0.02em; margin-bottom: 0.5rem;">
+            A. Quejas × Intervenciones
+          </h3>
+          <p style="color: #666; max-width: 42rem; line-height: 1.6; font-size: 0.9rem;">
+            Quejarse no requiere organización, basta un formulario. Intervenir en el pleno requiere una entidad, un turno y preparación. Por eso estos dos canales no siempre van de la mano. La diferencia entre ellos dice más sobre el tejido asociativo de cada barrio que cualquiera de los dos por separado.
+          </p>
+        </div>
+      </section>
+
+      <AnalysisExplorer
+        client:load
+        intervencions={slimIvs}
+        quejas={quejas}
+        mandats={mandats}
+        entityNames={entityNames}
+        lang={lang}
+        cat_labels={catLabels}
+        entitats_path={`/${lang}/entitats/`}
+        barriToDistrict={barriToDistrict}
+        clampToQuejas={true}
+      />
+    </div>
+
+    <!-- Cruces B + C (CrucesExplorer handles which block to show) -->
+    <div id="cruce-panel-BC" style="display:none">
+      {presupuestos && (
+        <CrucesExplorer
+          client:load
+          intervencions={slimIvs}
+          barriToDistrict={barriToDistrict}
+          participantes_por_distrito={presupuestos.participantes_por_distrito}
+          participantes_por_barri={presupuestos.participantes_por_barri}
+          barriPoblacion={barriPoblacion}
+          quejas={quejas}
+          lang={lang}
+        />
+      )}
+    </div>
+  </div>
+
+  <!-- Fuentes -->
+  <section style="padding: 2rem 1rem; background: #fafafa; border-top: 1px solid #eee;">
+    <div class="max-w-5xl mx-auto" style="font-family: 'Outfit', system-ui, sans-serif; color: #666; font-size: 0.78rem; line-height: 1.6;">
+      <p style="margin-bottom: 0.5rem;"><strong style="color: #666;">Fuentes:</strong></p>
+      <ul style="margin: 0; padding-left: 1.2rem; color: #666;">
+        <li><em>Queixes i Suggeriments</em> — Portal de Datos Abiertos, Ajuntament de València (87.742 registros, 2020-2026).</li>
+        <li><em>Apoyo a propuestas DecidimVLC</em> — Portal de Datos Abiertos (5.795 propuestas, 2015/16-2022/23).</li>
+        <li><em>Análisis de la participación ciudadana en las ocho ediciones celebradas</em> — Oficina d'Estadística, 04/02/2026.</li>
+        <li><em>Modificación de la distribución presupuestaria 2025</em> — Oficina d'Estadística.</li>
+        <li><em>Intervenciones ciudadanas en los plenos</em> — La Ciutat Parla, extracción propia de actas municipales.</li>
+      </ul>
+    </div>
+  </section>
+
+  <script>
+    (function () {
+      var TABS = ['quejas', 'presupuestos', 'pleno', 'cruces'];
+      var CRUCES = ['A', 'B', 'C'];
+
+      function getParam(key, fallback) {
+        try { return new URLSearchParams(window.location.search).get(key) || fallback; }
+        catch { return fallback; }
+      }
+
+      function setParam(key, val) {
+        try {
+          var u = new URL(window.location.href);
+          u.searchParams.set(key, val);
+          history.replaceState(null, '', u.toString());
+        } catch {}
+      }
+
+      function activateTab(tab, scroll) {
+        if (TABS.indexOf(tab) === -1) tab = TABS[0];
+        TABS.forEach(function (t) {
+          var p = document.getElementById('panel-' + t);
+          if (p) p.style.display = t === tab ? '' : 'none';
+        });
+        document.querySelectorAll('.av-pill').forEach(function (btn) {
+          btn.classList.toggle('av-active', btn.dataset.tab === tab);
+        });
+        setParam('tab', tab);
+        if (scroll) {
+          var nav = document.getElementById('av-nav');
+          if (nav) nav.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      }
+
+      function activateCruce(cruce) {
+        if (CRUCES.indexOf(cruce) === -1) cruce = 'A';
+        var panelA = document.getElementById('cruce-panel-A');
+        var panelBC = document.getElementById('cruce-panel-BC');
+        if (panelA) panelA.style.display = cruce === 'A' ? '' : 'none';
+        if (panelBC) panelBC.style.display = cruce !== 'A' ? '' : 'none';
+        document.querySelectorAll('.cruce-pill').forEach(function (btn) {
+          btn.classList.toggle('cruce-active', btn.dataset.cruce === cruce);
+        });
+        if (cruce === 'B' || cruce === 'C') {
+          window.dispatchEvent(new CustomEvent('cruce-show-block', { detail: { block: cruce } }));
+        }
+      }
+
+      function ready(fn) {
+        if (document.readyState !== 'loading') fn();
+        else document.addEventListener('DOMContentLoaded', fn);
+      }
+
+      ready(function () {
+        // Main tab pills
+        document.querySelectorAll('.av-pill').forEach(function (btn) {
+          btn.addEventListener('click', function () { activateTab(btn.dataset.tab, true); });
+        });
+
+        // data-open-tab links (pyramid + findings cards)
+        document.querySelectorAll('[data-open-tab]').forEach(function (el) {
+          el.addEventListener('click', function (e) {
+            e.preventDefault();
+            activateTab(el.dataset.openTab, true);
+          });
+        });
+
+        // Cruce A/B/C sub-nav pills
+        document.querySelectorAll('.cruce-pill').forEach(function (btn) {
+          btn.addEventListener('click', function () { activateCruce(btn.dataset.cruce); });
+        });
+
+        // Initialize from URL
+        var initialTab = getParam('tab', TABS[0]);
+        activateTab(TABS.indexOf(initialTab) !== -1 ? initialTab : TABS[0], false);
+        activateCruce('A');
+      });
+    })();
+  </script>
+
+</Base>

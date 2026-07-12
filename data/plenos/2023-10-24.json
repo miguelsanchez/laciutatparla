@@ -1,0 +1,318 @@
+{
+  "id": "2023-10-24",
+  "fecha": "2023-10-24",
+  "tipo": "ordinaria",
+  "mandat_id": "2023-2027",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2023-10-24",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20231024_0945_0_firmadoweb.pdf/605ebfaf-9072-c6d3-53e1-dbcf74959a27?t=1700036120812",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20231024_0945_0_firmadoweb.pdf/1b57a2a9-090a-9a71-c603-61d4eefd3812?t=1698391377546",
+  "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-593",
+  "num_intervencions": 5,
+  "intervencions": [
+    {
+      "id": "2023-10-24-001",
+      "pleno_id": "2023-10-24",
+      "fecha": "2023-10-24",
+      "mandat_id": "2023-2027",
+      "ordre": 1,
+      "intervinient": "Violeta Mateu López",
+      "entitat": "Associació de Veïns de Sant Antoni-la Saïdia",
+      "entitat_id": "associacio-veins-sant-antoni-saidia",
+      "tipus_entitat": "av",
+      "barri_o_zona": "Sant Antoni-Saïdia",
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "mixt",
+      "text_cas": "Gracias. Señora alcaldesa, señoras y señores concejales, volvemos a intervenir de nuevo en este Pleno. No han pasado todavía **diez meses** desde que estuvimos aquí defendiendo la **paralización de la concesión** del macrohotel en la calle Guala número 3. Tuvimos la satisfacción de que la moción fue votada afirmativamente por **31 concejales de cuatro formaciones políticas**. Pertenecemos a la Asociación de Vecinos del Barrio **San Antonio**, en el distrito de la Zaidía.\nVenimos del **séptimo barrio más densamente poblado** de la ciudad de València, un barrio que **carece totalmente de dotaciones públicas**. No tenemos **centro de mayores, ni biblioteca, ni escoleta municipal**. Ni **centro de jóvenes**, ni puntos de ayuda digitales Smart City València, ni la campaña **Cultura a los barrios 2023** pasó por nuestro barrio. **Una lista interminable de carencias** que tiene nuestro barrio. Seguimos creyendo en el **valor de la representación vecinal** y de la **participación de la sociedad civil**.\nQueremos agradecer al **Grupo político Compromís** la presentación de una moción para **mantener el complejo fabril** de las naves de la calle Guala y destinarlo a **servicios públicos municipales, espacios verdes e instalaciones infantiles**. Valoramos positivamente la **protección de edificios en la calle Sagunto**.",
+      "text_val": "Gràcies. Senyora alcaldesa, senyores i senyors regidors, tornem a intervenir de nou en aquest Ple. No han passat ja **deu mesos** des que vam estar ací defensant la **paralització de la concessió** del macrohotel en el carrer Guala número 3. Vam tindre la satisfacció que la moció va ser votada afirmativament per **31 regidors de quatre formacions polítiques**. Pertanyem a l'Associació de Veïns del Barri **Sant Antoni**, en el districte de Saïdia. Venim del **setè barri més densament poblat** de la ciutat de València, un barri que **careix totalment de dotacions públiques**.\nNo tenim **centre de majors, ni biblioteca, ni escoleta municipal**. Ni **centre de joves**, ni punts d'ajuda digitals Smart City València, ni la campanya **Cultura als barris 2023** va passar pel nostre barri. **Una llista interminable de carències** que té el nostre barri. Seguim creguent en el **valor de la representació veïnal** i de la **participació de la societat civil**.\nVolem agrair al **Grup polític Compromís** la presentació d'una moció per a **mantindre el complex fabril** de les naus del carrer Guala i destinar-lo a **serveis públics municipals, espais verds i instal·lacions infantils**. Valoritzem positivament la **protecció d'edificis en el carrer Sagunto**.",
+      "temes": [
+        "urbanisme",
+        "habitatge",
+        "patrimoni",
+        "participacio_ciutadana",
+        "barris",
+        "serveis_socials",
+        "cultura",
+        "educacio",
+        "gent_major"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "espai_public",
+          "habitatge"
+        ],
+        "participacio": [
+          "participacio"
+        ],
+        "serveis_publics": [
+          "educacio",
+          "serveis_socials",
+          "esports"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Sant Antoni"
+      ],
+      "districtes": [
+        "La Saïdia"
+      ],
+      "resum_cas": "La Asociación de Vecinos de Sant Antoni-Saïdia reclama dotaciones públicas para el barrio carente de infraestructuras y solicita que las naves de Guala 3, donde se pretendía construir un macrohotel, se destinen a servicios municipales.",
+      "resum_val": "L'Associació de Veïns de Sant Antoni-Saïdia reclama dotacions públiques per al barri, que no en té cap, i demana que les naus de Guala 3, on es pretenia construir un macrohotel, es destinen a serveis municipals.",
+      "cap_subtopics": [
+        1403,
+        1401,
+        1305,
+        2000
+      ],
+      "cap_major": [
+        13,
+        14,
+        20
+      ]
+    },
+    {
+      "id": "2023-10-24-002",
+      "pleno_id": "2023-10-24",
+      "fecha": "2023-10-24",
+      "mandat_id": "2023-2027",
+      "ordre": 2,
+      "intervinient": "David Adrià Ibor",
+      "entitat": "Per l'Horta",
+      "entitat_id": "per-horta",
+      "tipus_entitat": "av",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "Ampliació del port de València",
+      "idioma_original": "valenciano",
+      "text_cas": "Buenos días. Gracias. Mirad, yo quería comenzar diciendo los **cargos** que ayer conocimos por los que iban a declarar el Consejo de la Autoridad Portuaria en 2022: **prevaricación administrativa**, **asesoramiento permanente**, **utilización de secretos**, **información privilegiada**, **fraude ante la administración**, **aprovechamiento de información privilegiada** y **tráfico de influencias**.\nEstos son los cargos por los cuales el Consejo de la Autoridad Portuaria del año 2022 ha sido citado a declarar en los próximos meses por el Juzgado de Instrucción número 17 de Valencia. Y miremos por dónde, es que la Comisión Ciudad Puerto, la cual también represento como miembro de Per l'Horta, **no nos sorprende esto nada de nada**, ya que son las **prácticas** que durante estos últimos años nosotros hemos estado denunciando por parte del Consejo de la Autoridad Portuaria.\nY también decir que **estamos muy contentos que en este pleno se debata esta cuestión del puerto**, que se había debatido en otros espacios pero no en el Ayuntamiento de Valencia. Nosotros respecto al proyecto, y lo decimos de nuevo, decimos que **no solamente se encuentra completamente desfasado**, sino que responde a una comprensión de las mercancías y del transporte de un tiempo que consideramos que **se debe dejar atrás** y que es **contrario a toda conservación mínimamente efectiva** que se quiera hacer del territorio valenciano.\nLa mayoría de este pleno, y vistas las mociones presentadas que hemos podido tener el detalle de conocer, parece que piensa que **el puerto de Valencia puede crecer de forma ilimitada**. Total, si solamente cuesta 30 millones, como son las reparaciones que se están haciendo actualmente, la regeneración de las playas del sur. Y **esta obsesión sobre el crecimiento económico** consideramos que es digna de estudio.\nPorque al final a la Comisión Ciudad-Puerto les parece que **los límites biofísicos**, que parece que en plenos como este pues no se consideran, es una cosa que sería básica en todas las escuelas. A lo largo de los últimos meses se ha hablado mucho en torno a qué la ampliación del puerto es y no es. Y que a este pleno se debata nos lo demuestra. Si no, no estaríamos hablando sobre la temática.\nLa Comisión del Puerto es clara en este sentido, **ampliar el puerto en la situación de emergencia climática** que tenemos y de escasez de recursos, con la situación que viven las playas del sur, y que actualmente estamos viendo cómo se regeneran, desde hace décadas y a la cantidad de recursos públicos que cabe destacar que se van a destinar a una empresa privada, a MSC, para que la construya, pues pensamos que es **una cosa incoherente, que es ilógica y que es, en definitiva, errónea**.\nEl **coste de oportunidad** de no destinar estos recursos para otros proyectos que sí que sean destinados o estén orientados a una **transición ecológica, justa y socialmente aceptada**, pues pensamos que es muy grande. Siguiendo también con esto, nos cabe decir que el problema de infraestructuras y de presiones logísticas, en definitiva, que está relacionado con los espacios portuarios no es únicamente del caso valenciano.\nNosotros hemos dado apoyo a otras iniciativas como puede ser la paralización del aeropuerto a Barajas, del Prat en Barcelona o de otros casos como los espacios portuarios también en Barcelona, pero sí que es síntoma de un modo de transporte que está cambiando, que está transformándose y que llevamos viéndolo durante la última década y sobre todo durante los últimos años.\nY esta transformación, tal como se está llevando, al final condenando a miles y miles de personas a **respirar un aire contaminado**, a la **degradación social**, ya que respirar un aire limpio y tener unas condiciones que sean climáticamente dignas sea un privilegio para unos pocos.\nCabe recordar con esto que nuestra Constitución, en el artículo 45, estableció **la obligación de preservar y disfrutar de un medio ambiente saludable**, y que instituciones como el Ayuntamiento de Valencia y todos ustedes que están sentados aquí en representación de la ciudadanía valenciana tienen **la obligación constitucional** tanto de preservar como de promover.\nAdemás, es importante tener, porque el debate jurídico también se está poniendo sobre la mesa, que la postura jurídica que versa en torno del proyecto de ampliación actual fue objeto de debate y que fue definida muy bien por la Abogacía del Estado en su escrito de fecha 2 de diciembre del año 2022 a la Autoridad Portuaria. Esa distinción entre **vigencia y validez** que la Abogacía del Estado deja muy claro que no hay ningún organismo que haya dicho que el proyecto es válido actualmente, sino que simplemente es vigente.\n¿Por qué? Porque una declaración de impacto ambiental del años 2007, es decir, de hace 16 años, consideramos que al menos se debería repensar, aunque la Comisión Ciudad-Puerto estemos, como estoy explicando, **en contra de ampliar el puerto**, con DIA o sin DIA.\nEntendemos esto como un problema mucho más general, como un problema que afecta a las infraestructuras valencianas y como un problema que lleva afectando a los vecinos y vecinas de muchos barrios cercanos al puerto desde hace mucho tiempo, que también se suma a otras cuestiones como puede ser el acceso norte, la zona de actividades logísticas que tanto daño ha hecho o, como por ejemplo, la nueva terminal de cruceros. En definitiva, nuestra política de actuación respecto a esto es de sobra conocida y la estamos exponiendo.\nNosotros como movimiento social y que defiende la conservación del medio ambiente, del territorio, en definitiva, la salud de las personas vamos a **dar batalla a todo proyecto que implique una degradación de la salud** de los valencianos y las valencianas por beneficios económicos o por la ampliación de infraestructuras. Simplemente decir que desde el pensamiento global y la actuación local, nosotros, desde Per l'Horta y la Comisión Ciudad-Puerto, **decimos que no queremos ampliar el puerto de Valencia**.\nMuchas gracias.",
+      "text_val": "Bon dia. Gràcies. Mireu, jo volia començar dient els **càrrecs** que ahir coneguérem pels que anaven a declarar el Consell de l'Autoritat Portuària en 2202: **prevaricació administratives**, **assessorament permanent**, **utilització de secrets**, **informació privilegiada**, **frau davant l'administració**, **aprofitament d'informació privilegiada** i **tràfic d'influències**. Aquests són els càrrecs pels quals el Consell de l'Autoritat Portuària de l'any 2022 ha sigut citat a declarar en els propers mesos pel Jutjat d'Instrucció número 17 de València.\nI mirem per on, és que la Comissió Ciutat Port, la qual també represente com a membre de Per l'Horta, **no ens sorprenen açò gens ni miqueta**, ja que són les **pràctiques** que durant aquests últims anys nosaltres hem estat denunciant per part del Consell de l'Autoritat Portuària. I també dir que **estam molt contents que en aquest ple es debata aquesta qüestió del port**, que s'havia debatut en altres espais però no en l'Ajuntament de València.\nNosaltres respecte al projecte, i ho diem de nou, diem que **no solament es troba completament desfasat**, sinó que respon a una comprensió de les mercaderies i del transport d'un temps que considerem que **s'ha de deixar enrere** i que és **contrari a tota conservació mínimamente efectiva** que es vullga fer del territori valencià. La majoria d'aquest ple, i vistes les mocions presentades que hem pogut tindre el detall de conéixer, sembla que pensa que **el port de València pot créixer de forma il·limitada**.\nTotal, si solament costa 30 milions, com són les reparacions que s'estan fent actualment, la regeneració de les platges del sud. I **aquesta obsessió sobre el creixement econòmic** considerem que és digna d'estudi. Perquè al final a la Comissió Ciutat-Port els pareix que **els límits biofísics**, que pareix que en plens com aquest doncs no es consideren, és una cosa que seria bàsica en totes les escoles. Al llarg dels últims mesos s'ha parlat molt entorn de què l'ampliació del port és i no és. I que a aquest ple es debata ens ho demostra.\nSi no, no estaríem parlant sobre la temàtica. La Comissió del Port és clara en aquest sentit, **ampliar el port en la situació d'emergència climàtica** que tenim i d'escassetat de recursos, amb la situació que viuen les platges del sud, i que actualmente estem veient com es regeneren, des de fa dècades i a la quantitat de recursos públics que cal destacar que es van a destinar a una empresa privada, a MSC, perquè la construïsca, doncs pensem que és **una cosa incoherent, que és il·lògica i que és, en definitiva, errònia**.\nEl **cost d'oportunitat** de no destinar aquestos recursos per altres projectes que sí que siguen destinats o estiguen orientats a una **transició ecològica, justa i socialment acceptada**, doncs pensem que és molt gran. Seguint també amb açò, ens cal dir que el problema d'infraestructures i de presions logístiques, en definitiva, que està relacionat amb els espais portuaris no és únicament del cas valencià.\nNosaltres hem donat suport a altres iniciatives com pot ser la paralització i l'ampliació de l'aeroport a Barajas, del Prat a Barcelona o d'altres casos com els espais portuaris també a Barcelona, però sí que és símptoma d'un mode de transport que està canviant, que està transformant-se i que duem veient-ho durant l'última dècada i sobretot durant els últims anys.\nI aquesta transformació, tal com s'està duent, al final condemnant a milers i milers de persones a **respirar un aire contaminat**, a la **degradació social**, ja que respirar un aire net i tindre unes condicions que siguen climàticament dignes siga un privilegi per a uns pocs.\nCal recordar amb açò que la nostra Constitució, en l'article 45, establí **l'obligació de preservar i disfrutar d'un medi ambient saludable**, i que institucions com l'Ajuntament de València i tots vostés que estan assentats ací en representació de la ciutadania valenciana tenen **l'obligació constitucional** tant de preservar com de promoure.\nA més, és important tindre, perquè el debat jurídic també s'està ficant damunt la taula, que la postura jurídica que versa entorn del projecte d'ampliació actual va ser objecte de debat i que va ser definida molt bé per l'Advocacia de l'Estat en el seu escrit de data 2 de desembre de l'any 2022 a l'Autoritat Portuària. Eixa distinció entre **vigència i validesa** que l'Advocacia de l'Estat deixa molt clar que no n'hi ha cap organisme que ha dit que el projecte és vàlid actualment, sinó que simplement és vigent.\nPer què? Perquè una declaració d'impacte ambiental dels anys 2007, és a dir, d'ara fa 16 anys, considerem que almenys s'hauria de repensar, encara que la Comissió Ciutat-Port estem, com estic explicant, **en contra d'ampliar el port**, amb DIA o sense DIA.\nEntenem açò com un problema molt més general, com un problema que afecta a les infraestructures valencianes i com un problema que du afectant els veïns i les veïnes de molts barris propers al port des de fa molt de temps, que també se suma a altres qüestions com pot ser l'accés nord, la zona d'activitats logístiques que tant de mal ha fet o, com per exemple, la nova terminal de creuers. En definitiva, la nostra política d'actuació respecte a açò és de sobres coneguda i l'estem exposant.\nNosaltres com a moviment social i que defensa la conservació del medi ambient, del territori, en definitiva, la salut de les persones anem a **donar batalla a tot projecte que implique una degradació de la salut** dels valencians i les valencianes per beneficis econòmics o per l'ampliació d'infraestructures. Simplement dir que des del pensament global i l'actuació local, nosaltres, des de Per l'Horta i la Comissió Ciutat-Port, **diem que no volem ampliar el port de València**.\nMoltes gràcies.",
+      "temes": [
+        "urbanisme",
+        "infraestructures",
+        "medi_ambient",
+        "economia",
+        "participacio_ciutadana",
+        "barris",
+        "mobilitat"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "usos_turistics"
+        ],
+        "medi_ambient": [
+          "emergencies_climatiques",
+          "contaminacio"
+        ],
+        "drets_i_igualtat": [
+          "drets_humans"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [
+        "El Grau",
+        "Cabanyal-Canyamelar",
+        "La Malva-Rosa"
+      ],
+      "districtes": [
+        "Poblats Marítims"
+      ],
+      "resum_cas": "David Adrià Ibor, en representación de Per l'Horta, rechaza la ampliación del puerto de Valencia argumentando que es incoherente en contexto de emergencia climática y escasez de recursos, además que viola la obligación constitucional de preservar un medio ambiente saludable.",
+      "resum_val": "David Adrià Ibor, en representació de Per l'Horta, rebutja l'ampliació del port de València argumentant que és incoherent en context d'emergència climàtica i escassetat de recursos, a més que viola l'obligació constitucional de preservar un medi ambient saludable.",
+      "cap_subtopics": [
+        1403,
+        705,
+        711,
+        1906
+      ],
+      "cap_major": [
+        7,
+        14,
+        19
+      ]
+    },
+    {
+      "id": "2023-10-24-003",
+      "pleno_id": "2023-10-24",
+      "fecha": "2023-10-24",
+      "mandat_id": "2023-2027",
+      "ordre": 3,
+      "intervinient": "María Orrit Ferrer",
+      "entitat": "Associació de Veïns i Veïnes del Grau",
+      "entitat_id": "associacio-veinats-grau",
+      "tipus_entitat": "av",
+      "barri_o_zona": "El Grau",
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "valenciano",
+      "text_cas": "Buenos días a todos y todas. Saludos a nuestra alcaldesa, María José Català, y a todas las personas que os dedicáis a mejorar la vida de las personas de nuestra ciudad desde vuestras concejalías, tanto desde el gobierno como desde la oposición.\nGracias a la concejala Papi Robles Pérez porque nos ha dado la oportunidad a la Asociación de Vecinas y Vecinos del Grau de dirigirnos a todos vosotros para exponeros **qué nos preocupa, qué nos ilusiona y qué queremos para nuestro barrio** crecido y vivido alrededor del puerto de Valencia. Nuestro barrio, como otros grados valencianos, **se denomina así por su proximidad a la desembocadura del río, al mar y al puerto** de la ciudad. Esta situación ha sido históricamente causa de nuestra **dependencia hacia ese puerto** y toda su actividad económica y marítima y de sufrir las consecuencias de servir principalmente para facilitar esa actividad. Así, hemos vivido a la sombra de una barrera como eran las vías que venían del centro de la ciudad. Hemos vivido rodeados de grandes naves industriales. Hemos visto el crecimiento de ciertos servicios indignantes que servían para dar placer fácil a las personas que venían del mar y que se acercaban al mar desde la ciudad. En nuestras calles durante muchos, muchos años, muchas tiendas y negocios se han dedicado más al abastecimiento de barcos que a las necesidades de la vida de la gente del barrio. Nuestra principal calle, una avenida, debe su nombre a ese puerto y **no es una calle para pasear, con árboles, amplias aceras** y rincones donde sentarse a hablar. **Es una vía de tránsito que facilita a los vehículos el acceso al puerto** y a los barrios marítimos. Pero también somos un barrio que disfruta de todas las posibilidades que nos da ese acceso al mar, al puerto y a la salida hacia el Saler y todos los pueblos marítimos. Podemos pasear, nadar, hacer deporte, disfrutar de la buena cocina marinera, de la habla y de la cultura de la gente de nuestro mar, podemos compartir la educación de nuestros hijos e hijas en nuestras calles y parques, podemos comprar en algunos, pocos, comercios que nos conocen personalmente. Y sobre todo, podemos amar, caminar, vivir el puerto, que es **el centro de nuestra historia y fuente de tanta vitalidad**.\nPor todo esto, por las malas consecuencias que puede traer para nuestro barrio y nuestro entorno, **nosotros decimos no a esa nueva ampliación de las zonas de hormigón del puerto** y, por todo esto, **decimos sí a un puerto más activo, vivo y cercano** a todos nosotros y las personas que vivimos en Valencia. **No queremos ver cómo por el enriquecimiento de unas pocas personas** que tienen el control sobre el tráfico de mercancías en el puerto, **aumenta el tránsito rodado de los motores de combustión** que pasan por delante de nuestras casas, **elevan el nivel de ruido y contaminan el aire que respiramos**. **No queremos ver ese nuevo brazo de cemento** que se adentra hacia nuestras playas del sur y nos hará imposible salir a dar una vuelta en bicicleta o a pie a la orilla del mar porque la destrozará. No queremos ver cómo toda la riqueza que tiene ese **bosque mediterráneo que crece entre la playa y la Albufera** se queda reducida a la costa muerta que se ve desde los contenedores y barcos que se detienen para cargar y descargar. No queremos ver el cielo lleno de humo, ni miles de contenedores sustituyendo pájaros y caminos. Queremos ver el correlimos camanegro, pasear en barca por la Albufera, comer un buen arroz en un bar del barrio, desayunar y cenar en las terrazas, a la orilla de la calle, charlar y caminar con nuestras vecinas y vecinos e ir hasta el espigón del puerto en **un paseo tranquilo**, queremos ir remando, en bici por nuestro puerto.\nNo nos creemos que vayan a aumentar los puestos de trabajo, ni en el puerto ni en los barrios alrededor. No lo creemos porque dicen que no es así los sindicatos y las personas que hoy en día viven de ese trabajo. No creemos que no vaya a afectar a las playas del sur, porque así nos lo dicen esas playas que se quedan sin arena por culpa de la primera ampliación que ya hace tiempo queremos también deshacer. No creemos que nadie pueda encontrar la forma de hacer llegar el aumento de tráfico de mercancías de ninguna manera que no se convierta en el patio de atrás de alguna forma de transporte. Y no creemos que nos aporte ninguna mejora en nuestra forma de vida ese aumento de beneficios de unas pocas manos.\nCreemos que hay **proyectos de mejora del puerto, de su gestión**, de la forma de vivir a su lado y disfrutarlo, que valen muy la pena y que nos benefician a nosotros y a la gente que trabaja allí y que se acerca desde la ciudad.\nPor todo esto, **digamos no a la ampliación, sí a un puerto mejor, más amable**.",
+      "text_val": "Bon dia a totes i tots. Salutacions a la nostra alcaldessa, María José Català, i a totes les persones que vos dediqueu a millorar la vida de les persones de la nostra ciutat des de les seues regidories, tant des del govern com des de l'oposició.\nGràcies a la regidora Papi Robles Pérez perquè ens ha donat l'oportunitat a l'Associació de Veïnes i Veïns del Grau de dirigir-nos a totes vosaltres per exposar-vos **què ens preocupa, què ens il•lusiona i què volem per al nostre barri** crescut i viscut al voltant del port de València. El nostre barri, com altres graus valencians, **s'anomena així per la seua proximitat a la desembocadura del riu, al mar i al port** de la ciutat. Aquesta situació ha estat històricament causa de la nostra **dependència cap a eixe port** i tota la seua activitat económica i marítima i de patir les conseqüències de servir principalment per facilitar eixa activitat. Així, hem viscut a l'ombra d'una barrera com eren les vies que venien del centre de la ciutat. Hem viscut rodejades de grans naus industrials. Hem viscut el creixement de certs serveis indignants que servien per a donar plaer fàcil a les persones que venien del mar i que s'hi acostaven al mar des de la ciutat. Al nostres carrers durant molts, molts anys, moltes tendes i negocis s'han dedicat més a la provisió de vaixells que a les necessitats de la vida de la gent del barri. El nostre principal carrer, una avinguda, deu el seu nom a eixe port i **no és un carrer per passejar, amb arbres, amples voreres** i racons on seure a parlar. **És una via de trànsit que facilita als vehicles l'accés al port** i als barris marítims. Però també som un barri que gaudeix de totes les possibilitats que ens dona eixe accés al mar, al port i a l'eixida cap al Saler i tots els poblats marítims. Podem passejar, nadar, fer esport, gaudir de la bona cuina marinera, de la parla i de la cultura de les gents de la nostra mar, podem compartir l'educació dels nostres fills i filles als nostres carrers i parcs, podem comprar en alguns, pocs, comerços que ens coneixen personalment. I sobretot, podem estimar, caminar, viure el port, que és **el centre de la nostra història i font de tanta vitalitat**.\nPer tot això, per les males conseqüències que pot portar per al nostre barri i el nostre entorn, **nosaltres diem no a eixa nova ampliació de les zones de formigó del port** i, per tot això, **diem sí a un port més actiu, viu i proper** a totes nosaltres i les persones que vivim a València. **No volem veure com per l'enriquiment d'unes poques persones** que tenen el control sobre el tràfic de mercaderies al port, **augmenta el trànsit rodat dels motors de combustió** que passen per davant de les nostres cases, **eleven el nivell de soroll i contaminen l'aire que respirem**. **No volem veure eixe nou braç de ciment** que s'endinsa cap a les nostres platges del sud i ens farà impossible eixir a donar una volta en bicicleta o a peu a la vora de la mar perquè la destrossarà. No volem veure com tota la riquesa que té eixe **bosc mediterrani que creix entre la platja i l'Albufera** es queda reduït a la costa morta que es veu des dels contenidors i vaixells que s'aturen per carregar i descarregar. No volem veure el cel ple de fum, ni milers de contenidors substituint ocells i camins. Volem veure el corriol camanegre, passejar en barca per l'Albufera, menjar un bon arròs a un bar del barri, esmorzar i sopar a les terrasses, a la vora del carrer, xarrar i caminar amb les nostres veïnes i veïns i anant fins a l'espigó del port en **un passeig tranquil**, volem anar fent rem, bici al nostre port.\nNo ens creiem que vagen a augmentant els llocs de treball, ni en el port ni en els barris del voltant. No ho creiem perquè diuen que no és així els sindicats i les persones que hui en dia hi viuen d'eixe treball. No creiem que no vaja a afectar a les platges del sud, perquè així ens ho diuen eixes platges que es queden sense arena per culpa de la primera ampliació que ja fa temps volem també tornar enrere. No creiem que ningú puga trobar la forma de fer arribar l'augment de tràfic de mercaderies de cap manera que no es convertisca en el pati de darrere d'alguna forma de transport. I no creiem que ens aporte cap millora en la nostra forma de vida eixe augment de beneficis d'unes poques mans.\nCreiem que hi ha **projectes de millora del port, de la seua gestió**, de la forma de viure al seu costat i disfrutar-lo, que paguen molt la pena i que ens beneficia a nosaltres i a la gent que hi treballa i que s'hi acosta des de la ciutat.\nPer tot això, **diguem no a l'ampliació del ciment, sí a un port millor, més amable i amb més vida**.",
+      "temes": [
+        "infraestructures",
+        "medi_ambient",
+        "mobilitat",
+        "economia",
+        "patrimoni",
+        "participacio_ciutadana",
+        "barris"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "espai_public"
+        ],
+        "mobilitat": [
+          "mobilitat_activa",
+          "transit"
+        ],
+        "medi_ambient": [
+          "contaminacio",
+          "zones_verdes"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "El Grau"
+      ],
+      "districtes": [
+        "Poblats Marítims"
+      ],
+      "resum_cas": "La Asociación de Vecinos del Grau se opone a la ampliación del puerto por sus consecuencias negativas en la calidad de vida del barrio, contaminación y pérdida de playas, abogando por un puerto más amable, activo y cercano a la ciudadanía.",
+      "resum_val": "L'Associació de Veïns del Grau s'oposa a l'ampliació del port per les seues conseqüències negatives en la qualitat de vida del barri, contaminació i pèrdua de platges, defensant un port més amable, actiu i proper a la ciutadania.",
+      "cap_subtopics": [
+        1010,
+        1002,
+        705,
+        709
+      ],
+      "cap_major": [
+        7,
+        10
+      ]
+    },
+    {
+      "id": "2023-10-24-004",
+      "pleno_id": "2023-10-24",
+      "fecha": "2023-10-24",
+      "mandat_id": "2023-2027",
+      "ordre": 4,
+      "intervinient": "Julio Antonio Moltó Belenguer",
+      "entitat": "Associació de Veïns i Veïnes de Natzaret",
+      "entitat_id": "asociacion-vecinos-nazaret-unido",
+      "tipus_entitat": "av",
+      "barri_o_zona": "Natzaret, Punta, Pinedo, Grau, Marina, Cabanyal-Canyamelar",
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "castellano",
+      "text_cas": "Señoras y señores concejales.\nEl Ayuntamiento financió **la ampliación sur del puerto** sacrificando **la playa de Nazaret**, la desembocadura del Turia y **la huerta de la Punta**, donde vivían más de 100 familias. Incluso quisieron trasladar nuestro barrio para ampliar el puerto. En Nazaret y la Punta ya estamos **muy escarmentados de las ampliaciones antinaturales e insostenibles del puerto**. Nos quitaron la playa **sin declaración de impacto ambiental**, la huerta y el río.\nTienen una deuda y aún no han reparado los daños. La ampliación sur del puerto **destruyó muchos empleos en hostelería, turismo, pesca y agricultura**. Hoy **Nazaret es el barrio con menor renta** de todo el distrito marítimo, **empobrecido por las ampliaciones portuarias**. Ahora el puerto quiere trasladar los cruceros, **esos grandes hoteles flotantes muy contaminantes** de Baleària y MSC, sin declaración de impacto ambiental. Y además quiere **abrir la ZAL que sigue siendo ilegal**, **multiplicando la contaminación atmosférica** con más tráfico. Tráfico que incluirá **todas las mercancías peligrosas** que afectará negativamente **a la salud y seguridad del vecindario**.\nA pesar de nuestras protestas, perdimos la playa. **Las zonas verdes y la solución hidráulica** eran dos de las compensaciones y aún no están resueltas **cuatro décadas después**. El final del Turia sigue contaminado y **el parque de Desembocadura se vuelve a retardar**. Señora alcaldesa, usted se comprometió a **limpiar el río**.\nReparen el daño causado, **descontaminen el río**, agilicen la construcción del parque de Desembocadura y **reclamen la propiedad municipal** de las parcelas sin uso portuario.",
+      "text_val": "Senyores i senyors regidors i regidores.\nL'Ajuntament va finançar **l'ampliació sud del port** sacrificant **la platja de Natzaret**, la desembocadura del Túria i **l'horta de la Punta**, on vivien més de 100 famílies. Fins i tot van voler traslladar el nostre barri per ampliar el port. A Natzaret i la Punta ja estem **molt escarmentats de les ampliacions antinaturals i insostenibles del port**. Ens van treure la platja **sense declaració d'impacte ambiental**, l'horta i el riu.\nTenen una deuta i encara no han reparar els danys. L'ampliació sud del port **va destruir molts empleos en hostaleria, turisme, pesca i agricultura**. Hui **Natzaret és el barri amb menor renda** de tot el districte marítim, **empobreït per les ampliacions portuàries**. Ara el port vol traslladar els creuers, **eixos grans hotels flotants molt contaminants** de Baleària i MSC, sense declaració d'impacte ambiental. I a més vol **obrir la ZAL que segueix sent il·legal**, **multiplicant la contaminació atmosfèrica** amb més tràfic. Tràfic que inclourà **totes les mercaderies perilloses** que afectarà negativament **la salut i la seguretat del veïnatge**.\nMalgrat les nostres protestes, vam perdre la platja. **Les zones verdes i la solució hidràulica** eren dos de les compensacions i ancora no estan resueltes **quatre dècades després**. El final del Túria segueix contaminat i **el parc de Desembocadura es torna a retardar**. Senyora alcaldesa, vosté es va comprometre a **netejar el riu**.\nReparen el dany causat, **descontaminen el riu**, agilitzen la construcció del parc de Desembocadura i **reclamen la propietat municipal** de les parcel·les sense ús portuari.",
+      "temes": [
+        "urbanisme",
+        "medi_ambient",
+        "habitatge",
+        "economia",
+        "infraestructures",
+        "patrimoni",
+        "salut",
+        "seguretat",
+        "participacio_ciutadana"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "espai_public",
+          "patrimoni"
+        ],
+        "medi_ambient": [
+          "contaminacio",
+          "zones_verdes"
+        ],
+        "economia": [
+          "comerc_ocupacio"
+        ]
+      },
+      "ambit": "multi_barri",
+      "zones": [
+        "Natzaret",
+        "La Punta",
+        "El Grau",
+        "Pinedo",
+        "Cabanyal-Canyamelar"
+      ],
+      "districtes": [
+        "Poblats Marítims",
+        "Poblats del Sud",
+        "Quatre Carreres"
+      ],
+      "resum_cas": "El representante de la Asociación de Vecinos de Nazaret protesta por los daños causados por las ampliaciones portuarias históricas y futuras, exigiendo reparación ambiental, limpieza del río Turia y recuperación de espacios municipales.",
+      "resum_val": "El representant de l'Associació de Veïns de Natzaret protesta pels danys causats per les ampliacions portuàries històriques i futures, exigint reparació ambiental, neteja del riu Túria i recuperació d'espais municipals.",
+      "cap_subtopics": [
+        1401,
+        705,
+        1002,
+        1526
+      ],
+      "cap_major": [
+        7,
+        10,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "2023-10-24-005",
+      "pleno_id": "2023-10-24",
+      "fecha": "2023-10-24",
+      "mandat_id": "2023-2027",
+      "ordre": 5,
+      "intervinient": "Daniel Lorenzo Adell Cabrera",
+      "entitat": "Associació de Veïns i Veïnes del Cabanyal-Canyamelar",
+      "entitat_id": "av-cabanyal-canyamelar",
+      "tipus_entitat": "av",
+      "barri_o_zona": "Cabanyal-Canyamelar, Marítim, Malva-rosa, Grau, Nazaret",
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "mixt",
+      "text_cas": "Hola, buenos días. Muchas gracias, señora alcaldesa. Muchas gracias por escuchar la opinión de nuestra asociación a todos los miembros de la corporación. Creo que esto no es solamente una opinión de los vecinos del Marítim, creo que también es una opinión que va más allá de cuál es **el modelo de ciudad que queremos**.\n¿Queremos **un puerto industrial con ciudad que se come la ciudad**? ¿O queremos **una ciudad con un puerto industrial que sea sostenible, que no depreda del territorio**? Creo que es muy importante y les decimos a ustedes que son los gobernantes que piensen si hace falta una ampliación cuando hay **una mentira originaria**, y por eso tenemos un poco de memoria, no tanta como Julio, en Nazaret, pero tenemos un poco de memoria cuando **hace 20 años o más de 20 años**, Rafael Aznar, el presidente de la Autoridad Portuaria, dijo: 'No afectará a las playas'.\nY lo dijo en una entrevista que yo escuché, yo personalmente escuché, y todos los cabanyals escuchamos. 'No afectará a las playas'. **Hace dos semanas estaban sacando arena de Cullera** para ponerla en el Saler y **nuestra playa, la playa del Cabanyal, hace tiempo que está a un kilómetro**. No sé si necesitaremos el EMT para ir del casco histórico del Cabanyal al mar a bañarnos. Porque **sí que ha afectado a las playas**. Esa es la realidad. Por eso **las mentiras al final, después de 20 años, se saben que son mentiras**.\nY por eso nosotros tenemos muchas dudas o certezas. **Tenemos una certeza, el dique norte** que se plantó en medio del puerto, **el dique norte cuya sombra está afectando a las playas del sur y está afectando a las playas del norte**. Ha sido un hecho histórico. Es normal, se ve. Y **afectará a la Devesa y al Parque Natural de la Albufera**.\nPor eso, nosotros, que también tenemos memoria pero también tenemos una manera de ver las cosas que es después de esa depredación, de una ampliación que creo que no está sustanciada porque hay intereses generales que están por encima de los intereses particulares de Valenciaport, porque Valenciaport también es Sagunto, también es Castellón, **¿por qué no se puede hacer una ampliación limitada, de acuerdo con las nuevas leyes medioambientales, en Sagunto?, ¿en Castellón**? ¿Por qué en Valencia? ¿Por qué en Valencia? ¿Por qué tenemos **este modelo de puerto más ciudad, no de ciudad más puerto**? ¿Por qué no hacemos en sentido crítico argumentativo, como hace González Pons o Luis Felipe Martínez, en el PSOE y en el PP? ¿Por qué no pensamos otra manera de hacer desarrollar la industrialidad o la economía de una ciudad y su hinterland? Toda la comarca, toda la provincia, toda la provincia de Castellón, de Sagunto. ¿Por qué el otro día estaban los empresarios del mostrador diciendo: 'Es que necesitaremos **un acceso norte** para no contaminar, para no hacer la vuelta esa por el sur, por la entrada sur'. No, es que al norte vivimos los de la Malva-rosa, los del Cabanyal, los del Canyamelar, los del Grau y los de Nazaret. Somos vecinos de la ciudad, alcaldesa, y queremos repensar este modelo de crecimiento que no se sustancia con argumentos críticos. Porque tenemos Sagunto, porque tenemos Castellón y ¿porque **el acceso norte quién lo va a pagar**? Tenemos muchas dudas. ¿Quién lo va a pagar? ¿Los impuestos de todos? No Valenciaport, no la empresa que es concesionaria, que va a mecanizar los sistemas y supongo que modernizará los sistemas del puerto, sí, pero ¿a costa de qué? ¿A costa también del trabajo, a costa también de un acceso norte que no necesitamos por ahí? Entonces, creo que esta reflexión final, después de escuchar a nuestros vecinos del Grau, de Nazaret, nos dice que argumentemos mejor y no caigamos, ustedes son políticos, no caigamos en que el interés del primero que llama a la puerta o que tiene más poder es un interés general. **El interés general es saber cómo desarrollar una ciudad con puerto, no un puerto con ciudad**. Muchas gracias.",
+      "text_val": "Hola, bon dia. Moltes gràcies, senyora alcaldessa. Moltes gràcies per escoltar l'opinió de la nostra associació a tots els membres de la corporació. Jo crec que això no és solament una opinió dels veïns del Marítim, jo crec que també és una opinió que va més enllà que és **el model de ciutat que volem**.\nVolem **un port industrial amb ciutat que es menja la ciutat**? O volem **una ciutat amb un port industrial que siga sostenible, que no deprede del territori**? Jo crec que és molt important i els diem a vostés que són els governants que pensen en si fa falta una ampliació quan **una mentida primigènia**, i per això tenim un poc de memòria, no tanta com Julio, en Natzaret, pero tenim un poc de memòria quan **fa 20 anys o més de 20 anys**, Rafael Aznar, el president de l'Autoritat Portuària, va dir: 'No afectará las playas'.\nI ho va dir en una entrevista que jo vaig escoltar, jo personalment vaig escoltar, i tots els cabanyalers escoltàrem. 'No afectará a las playas'. **Fa dos setmanes estaven traient sorra de Cullera** per a posar-la al Saler i **la nostra platja, la platja del Cabanyal, fa temps que està a un quilòmetre**. No sé si necessitarem l'EMT per anar del casc històric del Cabanyal al mar a banyar-nos. Perquè **sí que ha afectat a les platges**. Això és la realitat. Per això **les mentides al final, després de 20 anys, se saben que són mentides**.\nI per això nosaltres tenim molts dubtes o certeses. **Tenim una certesa, el dic nord** que es va plantar al bell mig del port, **el dic nord en l'ombra que fa està afectant a les platges del sud i està afectant a les platges del nord**. Ha sigut un fet històric. És normal, es veu. I **afectarà a la Devesa i al Parc Natural de l'Albufera**.\nPer això, nosaltres, que també tenim memòria però també tenim una manera de veure les coses que és després d'eixa depredació, d'una ampliació que no està substantivada perquè n'hi ha interessos generals que estan per damunt dels interessos particulars de Valènciaport, perquè Valènciaport també és Sagunt, també és Castelló, **per què no es pot fer una ampliació limitada, d'acord amb les noves lleis mediambientals, a Sagunt?, a Castelló**? Per què a València? Per què a València? Per què tenim **este model de port més ciutat, no de ciutat més port**? Per què no fem en sentit crític argumentatiu, com fa González Pons o Luis Felipe Martínez, al PSOE i al PP? Per què no pensem una altra manera de fer desenvolupar la industrialitat o l'economia d'una ciutat i el seu hinterland? Tota la comarca, tota la província, tota la província de Castelló, de Sagunt. Per què l'altre dia estaven els empresaris del taulell dient: 'És que necessitarem **un accés nord** per a no contaminar, per a no fer la volteta eixa pel sud, per l'entrada sud'. No, és que al nord vivim els de la Malva-rosa, els del Cabanyal, els del Canyamelar, els del Grau i els de Nazaret. Som veïns de la ciutat, alcaldessa, i volem repensar este model de creixement que no es substantiva amb arguments crítics. Perquè tenim Sagunt, perquè tenim Castelló i perquè **l'accés nord qui el va a pagar**? Tenim molts dubtes. Qui ho va a pagar? Els impostos de tots? No Valenciaport, no l'empresa que és concesionaria, que va a mecanitzar els sistemes i supose que modernitzarà els sistemes del port, sí, però a costa de què? A costa també de treball, a costa també d'un accés nord que no necessitem per ahí. Aleshores, jo crec que esta reflexió final, després d'escoltar als nostres veïns del Grau, de Natzaret, ens diu que argumentem millor i no caiguem, vosaltres sou polítics, no caiguem en què l'interés del primer que crida a la porta o que té més poder és un interés general. **L'interès general és desenvolupar ciutat amb port, no un port amb ciutat**. Moltes gràcies.",
+      "temes": [
+        "urbanisme",
+        "medi_ambient",
+        "infraestructures",
+        "mobilitat",
+        "economia",
+        "patrimoni",
+        "barris"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "usos_turistics"
+        ],
+        "medi_ambient": [
+          "emergencies_climatiques",
+          "zones_verdes"
+        ],
+        "economia": [
+          "comerc_ocupacio"
+        ]
+      },
+      "ambit": "multi_barri",
+      "zones": [
+        "Cabanyal-Canyamelar",
+        "El Grau",
+        "La Malva-Rosa",
+        "Natzaret"
+      ],
+      "districtes": [
+        "Poblats Marítims"
+      ],
+      "resum_cas": "La Asociación de Vecinos del Cabanyal-Canyamelar cuestiona la ampliación portuaria argumentando que ha incumplido promesas históricas de no afectar a las playas y demanda repensar el modelo de ciudad-puerto priorizando los intereses generales sobre los particulares de Valenciaport.",
+      "resum_val": "L'Associació de Veïns del Cabanyal-Canyamelar qüestiona l'ampliació portuaria argumentant que ha incomplert promeses històriques de no afectar les platges i demanda repensar el model de ciutat-port prioritzant els interessos generals sobre els particulars de Valenciaport.",
+      "cap_subtopics": [
+        1403,
+        709,
+        711,
+        1526
+      ],
+      "cap_major": [
+        7,
+        14,
+        15
+      ]
+    }
+  ]
+}

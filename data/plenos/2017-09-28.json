@@ -1,0 +1,158 @@
+{
+  "id": "2017-09-28",
+  "fecha": "2017-09-28",
+  "tipo": "ordinaria",
+  "mandat_id": "2015-2019",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2017-09-28",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20170928_1000_0_firmadoweb.pdf/817d0fc6-3b80-cf8b-1d79-98dfe2690c92?t=1613212697609",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20170928_1000_0_firmadoweb.pdf/e054797f-daff-6040-ef39-f7695d57af8a?t=1613212697060",
+  "url_video": "https://players.cdn.enetres.net/live/1B4DA0F1F28C4AC4BA9AE203080C30C8021",
+  "num_intervencions": 3,
+  "intervencions": [
+    {
+      "id": "2017-09-28-001",
+      "pleno_id": "2017-09-28",
+      "fecha": "2017-09-28",
+      "mandat_id": "2015-2019",
+      "ordre": 1,
+      "intervinient": "Juan Julián Verger Mora",
+      "entitat": "Associació de Veïns Parc Central-Iturbi",
+      "entitat_id": "associacio-veins-parc-central-iturbi",
+      "tipus_entitat": "av",
+      "barri_o_zona": "La Raiosa, distrito Jesús",
+      "punts_ordre_dia": "no especificat",
+      "idioma_original": "castellano",
+      "text_cas": "Voy a animar el cotarro, dicho sea con animus iocandi, por los bostezos, las ausencias, etcétera.\n\nSe ha hablado de Dinamarca, las personas que han hablado de Dinamarca les diría que no tiene ni idea. Y esto se lo dice una persona que ha estado **14 años representando a mi país, a España, en la Embajada de España en Copenhague** y además **hablo danés**.\n\nDinamarca es un país que tiene una bandera, un idioma y una reina, y todo funciona, y cuando un ciudadano danés tiene 65 años ese Estado danés le da algo que se llama **folkepension, pensión del pueblo**. Así que cuando se hable de los países nórdicos, que son unos perfectos desconocidos, por favor **hablen con propiedad**.\n\nBien, el Señor Sarrià recordará sus declaraciones a la prensa, las tengo aquí en la mano, y su llamada relacionada con **el colegio quitado** y su conversación en Madrid con la directora de SEPES, señora Molares, doña Lucía.\n\nAsí las cosas, querido alcalde y concejal, en el mes de septiembre en curso **los alumnos del colegio Santo Ángel de la Guarda continúan recibiendo docencia en las antiguas aulas, barracones y prefabricados de hormigón**.\n\nDesconocemos la razón primera y última de este retraso en la mudanza. Estamos, señor alcalde, en presencia de la **pescadilla que se muerde la cola** como no hay nuevo colegio, **los derribos, includa la retirada del fibrocemento, material cancerígeno**, no se materializa y la nueva escuela continúa en el limbo de los justos, así como las parcelas, propiedad de nuestra particular **oveja negra SEPES** instalada en el no cerril, excuarteles de Ingenieros e Intendencia que son **un auténtico vertedero de basuras y escombros**.\n\n**Numerosos puntos negros existentes en el barrio de La Raiosa, distrito Jesús, solars y ruinas**, ausencia absoluta de **instalaciones municipales deportivas**.\n\nPor elementales razones, el eje que cohesiona nuestro **maltratado barrio** esperando sin demasiada convicción que **las aulas prefabricadas no se eternicen**.",
+      "text_val": "Vaig a animar el cotarro, dit siga amb animus iocandi, pels bostezos, les absències, etcètera.\n\nS'ha parlat de Dinamarca, les persones que han parlat de Dinamarca els diria que no té ni idea. I açò se li diu una persona que ha estat **14 anys representant el meu país, a Espanya, en l'Ambaixada d'Espanya a Copenhague** i a més a més **parle danés**.\n\nDinamarca és un país que té una bandera, una llengua i una reina, i tot funciona, i quan un ciutadà danés té 65 anys eixe Estat danés li dóna quelcom que es diu **folkepension, pensió del poble**. Així que quan es parle dels països nòrdics, que són uns perfectes desconeguts, per favor **parlen amb propietat**.\n\nBé, el Senyor Sarrià recordarà les seues declaracions a la premsa, les tine ací en la mà, i la seua crida relacionada amb **el col·legi tret** i la seua conversa a Madrid amb la directora de SEPES, senyora Molares, donya Lucía.\n\nAsí les coses, estimat alcalde i concejal, en el mes de setembre en curs **els alumnes del col·legi Santo Ángel de la Guarda continuen rebent docència en les antigues aules, barracons i prefabricats de formigó**.\n\nDesconeixem la raó primera i última d'este retard en la mudança. Estem, senyor alcalde, en presència de la **pescadilla que es mossega la cua** com no hi ha nou col·legi, **els enderrocs, inclosa la retirada del fibrocemento, material cancerígeno**, no es materialitza i la nova escola continua en el limbo dels justos, així com les parcel·les, propietat de la nostra particular **ovella negra SEPES** instal·lada en el no cerril, excuartels d'Enginyers i Intendència que són **un autèntic vertidero de basures i escombraries**.\n\n**Nombrosos punts negres existents en el barri de La Raiosa, districte Jesús, solars i ruïnes**, absència absoluta d'**instal·lacions municipals esportives**.\n\nPer elementals raons, l'eix que cohesiona el nostre **maltractat barri** esperant sense massa convicció que **les aules prefabricades no s'eternitzen**.",
+      "temes": [],
+      "temes_v2": {
+        "urbanisme": [
+          "espai_public"
+        ],
+        "serveis_publics": [
+          "educacio",
+          "esports"
+        ],
+        "participacio": [
+          "participacio"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "La Raiosa"
+      ],
+      "districtes": [
+        "Jesús"
+      ],
+      "resum_cas": "El representante de la asociación de vecinos critica el retraso en la construcción del nuevo colegio Santo Ángel de la Guarda y la falta de infraestructuras deportivas y urbanas en el barrio de La Raiosa, señalando la inacción del Ayuntamiento en gestiones con SEPES y la Conselleria de Educación.",
+      "resum_val": "El representant de l'associació de veïns critica el retard en la construcció del nou col·legi Santo Ángel de la Guarda i la falta d'infraestructures esportives i urbanes en el barri de La Raiosa, assenyalant la inacció de l'Ajuntament en gestions amb SEPES i la Conselleria d'Educació.",
+      "cap_subtopics": [
+        602,
+        1401,
+        1526
+      ],
+      "cap_major": [
+        6,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "2017-09-28-002",
+      "pleno_id": "2017-09-28",
+      "fecha": "2017-09-28",
+      "mandat_id": "2015-2019",
+      "ordre": 2,
+      "intervinient": "[***]",
+      "entitat": "Associació de Jubilats d'UGT i de CCOO",
+      "entitat_id": "associacio-jubilats-ugt-ccoo",
+      "tipus_entitat": "sindical",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "moción de adhesión a las marchas convocadas por las centrales sindicales en defensa de las pensiones",
+      "idioma_original": "castellano",
+      "text_cas": "Buenas tardes, señor alcalde, señoras concejalas y señores concejales de este nuestro Ayuntamiento. Permítanme que en primer lugar y el nombre de la **Unión de Jubilados y Pensionistas de UGT** les manifieste nuestra satisfacción porque en este Pleno se debata la **moción de adhesión a las marchas** convocadas por las centrales sindicales Comisiones y UGT **en defensa de las pensiones**. Mociones similares se ha presentado en otros ayuntamientos, entre ellos Burgos, Córdoba y Pamplona, y ayer mismo se aprobó en el **Consejo Valenciano de Personas Mayores**.\n\nLos acuerdos de estas mociones son muy claros y justos, por lo que esperamos contar con la aprobación de todos los grupos municipales presentes en este Pleno. Es necesario que se tome las acciones adecuadas que permitan, primero, **mantenimiento del poder adquisitivo de las pensiones** puesto que ya llevamos **4 años consecutivos con un 0,25 % de incremento anual**; segundo, lograr el **equilibrio financiero del sistema público de pensiones** que lleva varios años siendo deficitario hasta el punto que a finales del año pasado, del 2016, el **déficit subía a 18.000 millones de euros**; tercero, la **hucha o fondo de reserva** se quedaba a 0 este año, por lo que el Gobierno central ha tenido que aportar **10.192 millones de euros a cuenta de deuda pública**, que no creemos que sea la medida adecuada cargar la deuda pública.\n\nEn definitiva, se deben arbitrar las **medidas necesarias para aumentar los ingresos** que permitan la **viabilidad y sostenibilidad del sistema público de pensiones** con unas prestaciones adecuadas y suficientes para el colectivo de pensionistas. Y también exigimos que **hay que derogar la reforma de pensiones de 2013** por el PP que se aprobó sin el acuerdo de los otros grupos políticos ni de los sindicatos.",
+      "text_val": "Bona tarde, senyor alcalde, senyores concejaldes i senyors concejals d'este nuestro Ajuntament. Permítanme que en primer lloc i en nom de la **Unió de Jubilats i Pensionistes d'UGT** els manifeste la nostra satisfacció perquè en este Ple es debate la **moció d'adhesió a les marxes** convocades per les centrals sindicals Comissions i UGT **en defensa de les pensions**. Mocions similars s'ha presentat en altres ajuntaments, entre ells Burgos, Còrdova i Pamplona, i ahir mateix es va aprovar en el **Consell Valencià de Persones Majors**.\n\nEls acords d'aquestes mocions són molt clars i justos, per la qual cosa esperem contar amb l'aprovació de tots els grups municipals presents en este Ple. És necessari que es prenguen les accions adequades que permeten, primer, **manteniment del poder adquisitiu de les pensions** ja que duem **4 anys consecutius amb un 0,25 % d'increment anual**; segon, aconseguir l'**equilibri financer del sistema públic de pensions** que duu varis anys sent deficitari fins al punt que a finals de l'any passat, del 2016, el **dèficit pujava a 18.000 milions d'euros**; tercer, l'**hucha o fons de reserva** es quedava a 0 este any, per la qual cosa el Govern central ha hagut d'aportar **10.192 milions d'euros a compte de deute pública**, que no creiem que siga la mesura adequada caregar la deute pública.\n\nEn definitiva, es deuen arbitrar les **mesures necessàries per a augmentar els ingressos** que permeten la **viabilitat i sostenibilitat del sistema públic de pensions** amb unes prestacions adequades i suficients per al col·lectiu de pensionistes. I també exigim que **cal derogar la reforma de pensions de 2013** pel PP que es va aprovar sense l'acord dels altres grups polítics ni dels sindicats.",
+      "temes": [
+        "gent_major",
+        "economia",
+        "participacio_ciutadana",
+        "serveis_socials"
+      ],
+      "temes_v2": {
+        "persones": [
+          "gent_major"
+        ],
+        "economia": [
+          "pressupostos"
+        ],
+        "drets_i_igualtat": [
+          "drets_humans"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "UGT presenta una moción en defensa de las pensiones, demandando el mantenimiento del poder adquisitivo, el equilibrio financiero del sistema público de pensiones y la derogación de la reforma de pensiones de 2013.",
+      "resum_val": "UGT presenta una moció en defensa de les pensions, demanant el manteniment del poder adquisitiu, l'equilibri financer del sistema públic de pensions i la derogació de la reforma de pensions de 2013.",
+      "cap_subtopics": [
+        204,
+        1300,
+        2000
+      ],
+      "cap_major": [
+        2,
+        13,
+        20
+      ]
+    },
+    {
+      "id": "2017-09-28-003",
+      "pleno_id": "2017-09-28",
+      "fecha": "2017-09-28",
+      "mandat_id": "2015-2019",
+      "ordre": 3,
+      "intervinient": "Pedro García Rabasa",
+      "entitat": "CCOO",
+      "entitat_id": "ccoo-pv",
+      "tipus_entitat": "sindical",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "moció en defensa de les pensions",
+      "idioma_original": "castellano",
+      "text_cas": "Buenas tardes, gracias por permitirnos intervenir en este Pleno. Voy a procurar no repetir casi nada lo que ha hecho la compañera y ceñirme en la medida de lo posible al tiempo que queda. Las movilizaciones que estamos haciendo **los dos sindicatos en defensa de las pensiones** van a tener su visualización en las marchas que partiendo de diferentes puntos del Estado español van a empezar el día 30 de este mes, llegarán el día 2 de octubre frente a las puertas de este Ayuntamiento y confluirán el día 9 de octubre en la concentración en Madrid.\n\nCreemos los dos sindicatos que es **absolutamente necesario mejorar las actuales pensiones**. De hecho, **el 20 % de las contributivas y el 100 % de las no contributivas están ya por debajo del umbral de la pobreza**. **El 43 % de los actuales pensionistas percibe pensiones inferiores a 700 € mensuales**. A pesar de todo, ellos se ha actuado fundamental y casi exclusivamente sobre el gasto en las pensiones recortándolas. Lo previsto según la Comisión Europea es que tras **la reforma del 2013**, que pedimos su supresión, la pensión las nuevas pensiones pasarían del **79 % del último salario percibido a significar el 48 % en el año 2060**.\n\nPor todo ello, y siendo conscientes de que el gobierno está diciendo que estamos saliendo de la crisis, que hay riqueza suficiente, decimos que **sí, que la hay pero que está mal repartido**, que no se le puede decir a las generaciones de trabajadores actuales que aporten sus cotizaciones pero que no recibirán pensiones comparables a las que ahora están financiando, que **los jóvenes no son responsables** de que se les esté explotando y se les ignore y contribuyan poco a los ingresos de la Seguridad Social.\n\n**Las personas mayores deben tener asegurada una pensión suficiente** ahora y en el futuro. Por ello, porque es de justicia, porque es posible, les pedimos el apoyo a esta moción y su acción decidida en apoyo a las personas suficientes y que si es su deseo se sumen a las marchas en defensa de las mismas. Gracias.",
+      "text_val": "Bones tardes, gràcies per permetre'ns intervindre en aquest Ple. Vaig a procurar no repetir gairebé res del que ha fet la companya i cenyir-me en la mesura del possible al temps que queda. Les mobilitzacions que estem fent **els dos sindicats en defensa de les pensions** van a tindre la seua visualització en les marxes que partint de diferents punts de l'Estat espanyol van a començar el dia 30 d'aquest mes, arribaràn el dia 2 d'octubre davant de les portes d'aquest Ajuntament i confluiran el dia 9 d'octubre en la concentració a Madrid.\n\nCreiem els dos sindicats que és **absolutament necessari millorar les actuals pensions**. De fet, **el 20 % de les contributives i el 100 % de les no contributives estan ja per sota del llindar de la pobresa**. **El 43 % dels actuals pensionistes percep pensions inferiors a 700 € mensuals**. Tot i això, s'ha actuado fundamental i gairebé exclusivament sobre la despesa en les pensions retallant-les. El previst segons la Comissió Europea és que després de **la reforma del 2013**, que demantem la seua supressió, la pensió les noves pensions passarien del **79 % de l'últim salari percebut a significar el 48 % en l'any 2060**.\n\nPer tot això, i sent conscients que el govern està dient que estem eixint de la crisi, que hi ha riquesa suficient, diem que **sí, que la hi ha però que està mal repartida**, que no se li pot dir a les generacions de treballadors actuals que aporten les seues cotitzacions però que no rebran pensions comparables a les que ara estan finançant, que **els joves no són responsables** que se'ls estiguen explotant i se'ls ignore i contribuïsquen poc als ingressos de la Seguretat Social.\n\n**Les persones majors han de tindre assegurada una pensió suficient** ara i en el futur. Per això, perquè és de justícia, perquè és possible, els demantem el suport a aquesta moció i la seua acció decidida en suport a les persones suficients i que si és el seu desig se sumen a les marxes en defensa de les mateixes. Gràcies.",
+      "temes": [
+        "serveis_socials",
+        "gent_major",
+        "economia",
+        "joventut",
+        "igualtat",
+        "participacio_ciutadana"
+      ],
+      "temes_v2": {
+        "persones": [
+          "gent_major"
+        ],
+        "economia": [
+          "pressupostos"
+        ],
+        "drets_i_igualtat": [
+          "drets_humans"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "El representante de CCOO expone la necesidad de mejorar las pensiones, señalando que el 20% de las contributivas y el 100% de las no contributivas están por debajo del umbral de pobreza, y solicita apoyo para las movilizaciones y marchas previstas en defensa de pensiones suficientes.",
+      "resum_val": "El representant de CCOO exposa la necessitat de millorar les pensions, assenyalant que el 20% de les contributives i el 100% de les no contributives estan per sota del llindar de pobresa, i sol·licita suport per a les mobilitzacions i marxes previstes en defensa de pensions suficients.",
+      "cap_subtopics": [
+        1303,
+        2000
+      ],
+      "cap_major": [
+        13,
+        20
+      ]
+    }
+  ]
+}

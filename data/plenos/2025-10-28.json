@@ -1,0 +1,276 @@
+{
+  "id": "2025-10-28",
+  "fecha": "2025-10-28",
+  "tipo": "ordinaria",
+  "mandat_id": "2023-2027",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2025-10-28",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20251028_0945_0_firmadoweb.pdf/a256698d-fc31-329f-f65b-969805798cd9?t=1763550910759",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20251028_0945_0_firmadoweb.pdf/75c9db42-d407-3c05-9c7b-f8ae9d9f847c?t=1761808829891",
+  "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-795",
+  "num_intervencions": 5,
+  "intervencions": [
+    {
+      "id": "2025-10-28-001",
+      "pleno_id": "2025-10-28",
+      "fecha": "2025-10-28",
+      "mandat_id": "2023-2027",
+      "ordre": 1,
+      "intervinient": "Cristóbal Aguado Sanchis",
+      "entitat": "AV La Petxina",
+      "entitat_id": "av-la-petxina",
+      "tipus_entitat": "av",
+      "barri_o_zona": "La Petxina",
+      "punts_ordre_dia": "Presupuestos participativos",
+      "idioma_original": "valenciano",
+      "text_cas": "Buenos días, señora alcaldesa. A mí me gustaría, antes de comenzar mi intervención, recordar que mañana hará un año y el homenaje a las víctimas de la dana. Valoramos positivamente innovaciones como **la posibilidad de votar en contra de una propuesta**. Su esencia no es simplemente repartir partidas, sino **dar cabida a aquellas ideas que precisamente por ser tan locales y específicas** no forman parte de los planes generales. **El principio de soberanía ciudadana ejercido con su voto ha de ser intocable**. **La falta de transparencia en el cribado de propuestas**.\nConsideramos urgente que **antes de proceder a las votaciones finales se ha de estipular un período de alegaciones**. **Un criterio desigual no es un criterio justo**. **La propuesta del carril bici en paseo de la Petxina**. **Esta moción se redactó ad hoc una vez se conocían las propuestas populares**. **Aplicar una normativa nueva de manera retroactiva para invalidar la voluntad vecinal**. **La apertura inmediata de alegaciones**. **Los presupuestos participativos son una promesa de democracia directa**. **Respeto a la soberanía del voto vecinal**.",
+      "text_val": "Bon dia, senyora alcaldessa. A mi m'agradaria, abans de començar la meua intervenció, recordar que demà farà un any i l'homenatge a les víctimes de la dana. Valorem positivament innovacions com **la possibilitat de votar en contra d'una proposta**. La seua essència no és simplement repartir partides, sinó **donar cabuda a aquelles idees que precisament per ser tan locals i específiques** no formen part dels plans generals. **El principi de sobirania ciutadana exercit amb el seu vot ha de ser intocable**. **La falta de transparència en el cribratge de propostes**.\nConsiderem urgent que **abans de procedir a les votacions finals s'ha d'estipular un període d'al·legacions**. **Un criteri desigual no és un criterio just**. **La proposta del carril bici en el passeig de la Petxina**. **Esta moció es va redactar ad hoc una vegada es coneixia les propostes populars**. **Aplicar una normativa nova de manera retroactiva per invalidar la voluntat veïnal**. **L'obertura immediata d'un termini d'al·legacions**. **Els pressupostos participatius són una promesa de democràcia directa**. **Respecte a la sobirania del vot veïnal**.",
+      "temes": [
+        "participacio_ciutadana",
+        "urbanisme",
+        "mobilitat"
+      ],
+      "temes_v2": {
+        "participacio": [
+          "processos_participatius",
+          "transparencia"
+        ],
+        "mobilitat": [
+          "mobilitat_activa"
+        ],
+        "economia": [
+          "pressupostos"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "La Petxina"
+      ],
+      "districtes": [
+        "Extramurs"
+      ],
+      "resum_cas": "El representante de la Asociación de Vecinos de La Petxina critica la falta de transparencia en el filtrado de propuestas de presupuestos participativos, denunciando arbitrariedades en la selección y pidiendo la apertura de un período de alegaciones para revisar los rechazos técnicos y una aplicación uniforme de criterios.",
+      "resum_val": "El representant de l'Associació de Veïns de La Petxina critica la falta de transparència en el cribratge de propostes de pressupostos participatius, denunciant arbitrarietats en la selecció i demanant l'obertura d'un termini d'al·legacions per a revisar els rebujos tècnics i una aplicació uniforme de criteris.",
+      "cap_subtopics": [
+        2000,
+        2015,
+        1010,
+        1401
+      ],
+      "cap_major": [
+        10,
+        14,
+        20
+      ]
+    },
+    {
+      "id": "2025-10-28-002",
+      "pleno_id": "2025-10-28",
+      "fecha": "2025-10-28",
+      "mandat_id": "2023-2027",
+      "ordre": 2,
+      "intervinient": "Rafael Guillem Fernández",
+      "entitat": "Asociación de Vecinos de Sant Antoni-Saïdia",
+      "entitat_id": "asociacion-vecinos-san-antonio-zaidia",
+      "tipus_entitat": "av",
+      "barri_o_zona": "Sant Antoni-Saïdia",
+      "punts_ordre_dia": "Presupuestos Participativos 2025-2026",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días. Desde la Asociación de Vecinos de Sant Antoni-Saïdia queremos manifestar nuestra **pequeña disconformidad** con la **fase de viabilidad** en los **Presupuestos Participativos 2025-2026**. Nos referimos concretamente a las propuestas efectuadas por nuestra asociación de vecinos a través de la Junta de Distrito de Trànsits.\nEn concreto, va a ser breve, la propuesta con número 9171 '**Iluminación y mejoras en el entorno de la rotonda**' ha sido **calificada como inviable** dado que existe un proyecto de reforma y ampliación de aceras en la calle Maximiliano Thous aprobado en los anteriores presupuestos del año 2022. Nuestra **extrañeza y disconformidad** con esa valoración de inviable que han calificado los técnicos es porque se alega que para no atender nuestra solicitud hay un proyecto en otra zona de la calle y que **no incluye nuestro proyecto de iluminación**.\nOtra propuesta, la 9181 '**Mejoras en parques infantiles del barrio**' ha sido respondida por los técnicos con unas observaciones, **excluyendo de la propuesta** el jardín de la calle Hermanos Fabrilo. Y lo han rechazado porque existe un proyecto aprobado para su remodelación.\nPero **esta exclusión de dicho jardín nos ha sorprendido**, y mucho, porque el pasado día 4 de septiembre nos reunimos miembros de esta asociación con la Concejalía de Parques y Jardines, y a nuestras preguntas se nos dijo que **no había presupuesto para efectuarlo en el año 2025** y **no tenían previsiones** de incluirlo en los del año 2026. Esto **contradice el informe de los técnicos**. Solicitamos que **se incluya la propuesta del jardín de la calle Hermano Fabrilo**. Por último, la propuesta 9176 se ha asumido en otra propuesta, lo cual nos pareció razonable.\nLo que no entendemos es cómo la parte solicitada y aceptada de nuestro **cambio de nombre de jardín que destacaba la fábrica de Trinaranjus** fue **desestimada por no ser competencia**. Desde nuestra asociación señalamos nuestra **disconformidad** porque **no se ha consultado con el servicio competente**. En general consideramos todo el proceso de los presupuestos participativos de 2025 como **mejorable**. Pero tenemos que **mejorar el proceso** ante la **imposibilidad de refutar algunos informes técnicos**.\nLas juntas de distrito y sus mesas de trabajo son lugares idóneos, pero mejorando su funcionamiento interno para **ser más operativas, más ágiles**.",
+      "text_val": "Buenos días. Des de l'Associació de Veïns de Sant Antoni-Saïdia volem manifestar la nostra **petita disconformitat** amb la **fase de viabilitat** als **Pressupostos Participatius 2025-2026**. Ens referim concretament a les propostes efectuades per la nostra associació de veïns a través de la Junta de Districte de Trànsits.\nEn concret, seré breu, la proposta amb número 9171 '**Il·luminació i millores en l'entorn de la rotonda**' ha sigut **qualificada com a inviable** donat que existeix un projecte de reforma i ampliació de voravies al carrer Maximiliano Thous aprovat als anteriors pressupostos de l'any 2022. La nostra **estranyesa i disconformitat** amb aquesta valoració d'inviable que han qualificat els tècnics és perquè s'al·lega que per no atendre la nostra sol·licitud hi ha un projecte en una altra zona del carrer i que **no inclou el nostre projecte d'il·luminació**.\nUna altra proposta, la 9181 '**Millores en parcs infantils del barri**' ha sigut respondida pels tècnics amb unes observacions, **excloent de la proposta** el jardí del carrer Hermanos Fabrilo. I l'han rebutjat perquè existeix un projecte aprovat per a la seua remodelació.\nPerò **aquesta exclusió de dit jardí ens ha sorprès**, i molt, perquè el passat dia 4 de setembre ens reunírem membres d'aquesta associació amb la Regidoria de Parcs i Jardins, i a les nostres preguntes se'ns va dir que **no hi havia pressupost per a efectuar-lo en l'any 2025** i **no tenien previsió** d'incloure'l als de l'any 2026. Això **contradiu l'informe dels tècnics**. Sol·licitarem que **s'incloga la proposta del jardí del carrer Hermano Fabrilo**. Per últim, la proposta 9176 s'ha assumida en una altra proposta, la qual ens pareixé raonable.\nEl que no entenem és com la part sol·licitada i acceptada del nostre **canvi de nom de jardí que destacava la fàbrica de Trinaranjus** fou **desestimada per no ser competència**. Des de la nostra associació assenyalem la nostra **disconformitat** perquè **no s'ha consultat amb el servei competent**. En general considerem tot el procés dels pressupostos participatius de 2025 com a **millorable**. Però hem de **millorar el procés** davant de la **impossibilitat de refutar alguns informes tècnics**.\nLes juntes de districte i les seues taules de treball són llocs idonis, però millorant el seu funcionament intern per a **ser més operatives, més àgils**.",
+      "temes": [],
+      "temes_v2": {
+        "participacio": [
+          "processos_participatius"
+        ],
+        "economia": [
+          "pressupostos"
+        ],
+        "urbanisme": [
+          "espai_public"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Sant Antoni"
+      ],
+      "districtes": [
+        "La Saïdia"
+      ],
+      "resum_cas": "La Asociación de Vecinos de Sant Antoni-Saïdia manifiesta su disconformidad con la calificación de inviables de varias propuestas en los Presupuestos Participativos 2025-2026, señalando inconsistencias en los criterios técnicos aplicados y solicitando la revisión de las exclusiones realizadas.",
+      "resum_val": "L'Associació de Veïns de Sant Antoni-Saïdia manifesta la seua disconformitat amb la qualificació d'inviables de diverses propostes als Pressupostos Participatius 2025-2026, assenyalant inconsistències en els criteris tècnics aplicats i sol·licitant la revisió de les exclusions realitzades.",
+      "cap_subtopics": [
+        2000,
+        1401,
+        2015
+      ],
+      "cap_major": [
+        14,
+        20
+      ]
+    },
+    {
+      "id": "2025-10-28-003",
+      "pleno_id": "2025-10-28",
+      "fecha": "2025-10-28",
+      "mandat_id": "2023-2027",
+      "ordre": 3,
+      "intervinient": "Rosario González Rodríguez",
+      "entitat": "AV Abastos-Finca Roja",
+      "entitat_id": "av-abastos-finca-roja",
+      "tipus_entitat": "av",
+      "barri_o_zona": "Arrancapins, Extramurs",
+      "punts_ordre_dia": "Presupuestos participativos",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días. Permítanme empezar recordando **un principio básico que guía nuestra asociación: el principio de la duda**. Siempre concedemos el beneficio de la duda, incluso cuando el sentido común nos susurra que quizás no deberíamos. Hace dos años, cuando la actual corporación llegó al poder, muchos nos advirtieron: 'Andad con ojo que estos vienen con otras ideas'. Pero en nuestra junta decidimos ser generosos. Vamos a darles una oportunidad, dijimos. Valoremos los hechos y no los agoreros.\nDos años después y a dos meses del 28 de diciembre **empezamos a preguntarnos si lo que estamos viviendo es una inocentada anticipada o simplemente una broma de mal gusto**, porque **lo del cribado de propuestas ciudadanas de los supuestos presupuestos participativos no tiene otro nombre**. Es decir, una broma. **Cientos de valencianos han dedicado su tiempo, gratis por cierto, a pensar cómo mejorar sus barrios**. Y **el premio a su esfuerzo ha sido ver cómo sus ideas se tiraban a la papelera sin criterio claro**, mientras se dan por buenas ideas que rozan lo absurdo.\nPor ejemplo, en Arrancapins parece que no hay dinero para plantar árboles, mejorar el parque de Albacete-Marvá o pacificar la calle Ángel Guimerá, que es casi una autopista urbana. Pero qué sorpresa, **sí hay 180.000 euros, el 30 por 100 del presupuesto del distrito de Extramurs, para colocar un mástil gigante**. Un mástil que, con todos mis respetos, **no da sombra, no limpia el aire y no arregla una acera**.\nUn poste que solo proporcionará a los vecinos **un tremendo enfado por ver cómo se despilfarra un dinero público** que serviría para mejorar los fondos de varias bibliotecas municipales, plantar árboles en calles que adolecen de ellos o simplemente mejorar servicios públicos. Dicen que falta presupuesto. Pero **lo que falta, señora alcaldesa, es voluntad política y un poco de sentido común**. Además, **faltan criterios técnicos verificables para el rechazo a muy buenas ideas**.\nAsí que, con todo el respeto y un toque de ironía, **lamentamos comunicarle que el principio de la duda ha caducado**. Se lo dimos con ilusión, pero ustedes lo han desaprovechado con creces. Aún están a tiempo de rectificar. **Paren este proceso participativo y escuchen de verdad a sus vecinos**. No ahonden más en la crisis reputacional de las instituciones públicas y tomennos en serio, porque al final **lo que los vecinos pedimos no es mucho**.\nNo necesitamos un mástil para ondear promesas vacías, sino **proyectos que hagan de València una ciudad más verde, más amable y más humana**. Muchas gracias. Y como espero que me quede un minuto de tiempo, para pedirle por favor que le diga a su compañero Mazón que dimita, que es lo más digno para él.",
+      "text_val": "Bon dia. Permeta'm començar recordant **un principi bàsic que guia la nostra associació: el principi de la dubte**. Sempre concedim el benefici de la dubte, fins i tot quan el sentit comú ens susurra que potser no hauríem de fer-ho. Fa dos anys, quan l'actual corporació va arribar al poder, molts ens van advertir: 'Aneu amb ull que aquests venen amb altres idees'. Però en la nostra junta vam decidir ser generosos. Anem a donar-los una oportunitat, vam dir. Valorem els fets i no els agoraners.\nDos anys després i a dos mesos del 28 de desembre **comencem a preguntar-nos si el que estem vivint és una inocentada anticipada o simplement una broma de mal gust**, perquè **el del filtratge de propostes ciutadanes dels suposats pressupostos participatius no té un altre nom**. És a dir, una broma. **Centenars de valencians han dedicat el seu temps, gratis per cert, a pensar com millorar els seus barris**. I **el premi al seu esforç ha estat veure com les seues idees es tirada a la paperera sense criteri clar**, mentre es donen per bones idees que rauen l'absurd.\nPer exemple, a Arrancapins pareix que no hi ha diners per a plantar arbres, millorar el parc d'Albacete-Marvá o pacificar el carrer Ángel Guimerá, que és quasi una autopista urbana. Però quina sorpresa, **sí hi ha 180.000 euros, el 30 per 100 del pressupost del districte d'Extramurs, per a col·locar un màstil gegant**. Un màstil que, amb tots els meus respects, **no dona ombra, no neteja l'aire i no arregla una vorera**.\nUn pal que només proporcionarà als veïns **un tremend enfado per veure com es malgasta diner públic** que serviria per a millorar els fons de varies biblioteques municipals, plantar arbres en carrers que patixen de la seua manca o simplement millorar serveis públics. Diuen que falta pressupost. Però **el que falta, senyora alcaldessa, és voluntat política i una mica de sentit comú**. A més, **falten criteris tècnics verificables objectivament per al rebuig a molt bones idees**.\nAixí que, amb tot el respecte i un toc d'ironia, **lamentem comunicar-li que el principi de la dubte ha caducat**. Li vam donar amb il·lusió, però vostès ho han desaprofitat amb escreix. Encara estan a temps de rectificar. **Paren aquest procés participatiu i escolten de veritat als seus veïns**. No aprofundisquen més en la crisi reputacional de les institucions públiques i ens prenguem en seri, perquè al final **el que els veïns demane no és molt**.\nNo necessitem un màstil per a onejar promeses buides, sinó **projectes que facen de València una ciutat més verda, més amable i més humana**. Moltes gràcies. I com espere que em quede un minut de temps, per a demanar-li per favor que li diga al seu company Mazón que dimita, que és el més digne per a ell.",
+      "temes": [
+        "participacio_ciutadana",
+        "economia",
+        "barris",
+        "urbanisme",
+        "medi_ambient",
+        "infraestructures"
+      ],
+      "temes_v2": {
+        "participacio": [
+          "processos_participatius"
+        ],
+        "economia": [
+          "pressupostos"
+        ],
+        "urbanisme": [
+          "espai_public"
+        ]
+      },
+      "ambit": "multi_barri",
+      "zones": [
+        "Arrancapins"
+      ],
+      "districtes": [
+        "Extramurs"
+      ],
+      "resum_cas": "La asociación de vecinos de Abastos-Finca Roja critica el cribado de propuestas ciudadanas en los presupuestos participativos, denunciando que se han rechazado ideas válidas para mejorar barrios mientras se aprueban proyectos de dudosa utilidad como un mástil de 180.000 euros en Extramurs.",
+      "resum_val": "L'associació de veïns d'Abastos-Finca Roja critica el filtratge de propostes ciutadanes en els pressupostos participatius, denunciant que s'han rebutjat idees vàlides per a millorar barris mentre s'aproven projectes de dubtosa utilitat com un màstil de 180.000 euros a Extramurs.",
+      "cap_subtopics": [
+        2000,
+        1401,
+        1403
+      ],
+      "cap_major": [
+        14,
+        20
+      ]
+    },
+    {
+      "id": "2025-10-28-004",
+      "pleno_id": "2025-10-28",
+      "fecha": "2025-10-28",
+      "mandat_id": "2023-2027",
+      "ordre": 4,
+      "intervinient": "Lluís Vallés Peris",
+      "entitat": "Associació de Veïns del Barri de Sant Marcel·lí",
+      "entitat_id": "av-sant-marcelli",
+      "tipus_entitat": "av",
+      "barri_o_zona": "Sant Marcel·lí",
+      "punts_ordre_dia": "Moció sobre el Corredor Verd",
+      "idioma_original": "valenciano",
+      "text_cas": "Gracias, presidenta, Sra. Ferrer.\nEn el barrio de **Sant Marcelino** celebrábamos en el año 2009 el **soteramiento de las vías** que nos separaban del barrio de Camí Real y que generó un **inmenso descampado** que estaba destinado a ser el llamado **Parque Sur**, dentro del proyecto de **Parque Central**, pero con la diferencia de que este tramo entre el Bulevar Sud y el barrio de Sant Isidro estaba segregado de las cargas urbanísticas del Parque Central y su financiamiento dependía exclusivamente del Ayuntamiento.\nEn este sentido, en el año 2009 nos reunimos con el vicealcalde y concejal de Grandes Proyectos Urbanos, Alfonso Grau, y con el concejal de Urbanismo, Jorge Bellver. En aquella reunión se acordó dotar de un **presupuesto municipal** para realizar un **proyecto conjunto o plan director** para todo el entorno que abarcaría desde el Bulevar Sud hasta el kilómetro 0 de la CV-400 y desde la calle Alcalà de Xivert, de Camí Real, hasta la calle Salvador Perles, del barrio Sant Marcelino, con la realización de un **bulevar con amplios paseos con árboles**, bancos, iluminación, extensas zonas ajardinadas y aparcamientos.\nPero **de lo prometido no se hizo nada**. En lugar de bulevar se hizo una **carretera**. En lugar de **amplios paseos con árboles** y farolas de jardín se hicieron aceras sin árboles, con una **iluminación propia de una carretera**. El resto del entorno son **descampados que en tiempos de lluvia se transforman en lodazales** y en épocas de sequía y viento en molestos polvo. **Dieciséis años después** la zona **no ha mejorado**. Además, esta **ausencia de urbanización** ha favorecido el surgimiento de **infraviviendas**, con un gran asentamiento de gente que vive recogiendo chatarra de la basura.\nEl **proyecto de Corredor Verde** impulsado por el Ayuntamiento en el año 2024 lo acogemos en la Asociación Vecinal del Barrio de Sant Marcelino como una **oportunidad para mejorar con jardines** esta zona congestionada con el tránsito de la CV-400 y que **convertiría en zona verde** el espacio anteriormente ocupado por las vías del tren, tanto en el descampado entre los barrios de Sant Marcelino y Camí Real, como en el desarrollo urbanístico del nuevo PAI de Sant Marcelino. El barrio de Sant Marcelino **necesita de conexiones verdes** que rompan el **cinturón de infraestructuras** que rodean al barrio, como el Bulevar Sud, la V-30, la playa de vías, el cementerio y el crematorio.\nPor eso apoyamos esta **moción** que supondría que el Ayuntamiento **diseñe y ejecute una parte del Corredor Verde** en terrenos que son exclusivamente de competencia municipal, y así dar respuesta a una **antigua reivindicación vecinal** de **unir con zonas verdes** los barrios de Sant Marcelino y Camí Real.\nMuchas gracias.",
+      "text_val": "Gràcies, presidenta, Sra. Ferrer.\nAl barri de **Sant Marcel·lí** celebràvem l'any 2009 el **soterrament de les vies** que ens separaven del barri de Camí Reial i que va generar un **immens descampat** que estava destinat a ser l'anomenat **Parc Sud**, dins del projecte de **Parc Central**, però amb la diferència que aquest tram entre el Bulevard Sud i el barri de Sant Isidre estava segregat de les càrregues urbanístiques del Parc Central i el seu finançament depenia exclusivament de l'Ajuntament.\nEn este sentit, l'any 2009 ens vam reunir amb el vicealcalde i regidor de Grans Projectes Urbans, Alfonso Grau, i amb el regidor d'Urbanisme, Jorge Bellver. En aquella reunió es va acordar dotar d'un **pressupost municipal** per a realitzar un **projecte conjunt o pla director** per a tot l'entorn que abastaria des del Bulevard Sud fins al quilòmetre 0 de la CV-400 i des del carrer Alcalà de Xivert, de Camí Reial, fins al carrer Salvador Perles, del barri Sant Marcel·lí, amb la realització d'un **bulevard amb amplis passejos amb arbres**, bancs, enllumenat, extenses zones enjardinades i aparcaments.\nPero **d'allò promés no se'n va fer res**. En lloc de bulevard es va fer una **carretera**. En lloc d'**amplis passejos amb arbres** i fanals de jardí se van fer voreres sense arbres, amb un **enllumenat propi d'una carretera**. La resta de l'entorn són **descampats que en temps de pluja es transformen en fangars** i en èpoques de sequera i vent en molesta pols. **Setze anys després** la zona **no ha millorat**. A més, aquesta **absència d'urbanització** ha afavorit el sorgiment d'**infravivendes**, amb un gran assentament de gent que viu d'arreplegar ferralla del fem.\nEl **projecte de Corredor Verd** impulsat per l'Ajuntament l'any 2024 l'acollírem en l'Associació Veïnal del Barri de Sant Marcel·lí com una **oportunitat per millorar amb jardins** aquesta zona congestionada amb el trànsit de la CV-400 i que **convertiria en zona verda** l'espai anteriorment ocupat per les vies del tren, tant en el descampat entre els barris de Sant Marcel·lí i Camí Real, com en el desenvolupament urbanístic del nou PAI de Sant Marcel·lí. El barri de Sant Marcel·lí **necessita de connexions verdes** que trenquin el **cinturó d'infraestructures** que envolten al barri, com el Bulevard Sud, la V-30, la platja de vies, el cementeri i el crematori.\nPer això donem suport a aquesta **moció** que suposaria que l'Ajuntament **dissenye i execute una part del Corredor Verd** en terrenys municipals, i així donar resposta a una **antiga reivindicació veïnal** d'**unir amb zones verdes** els barris de Sant Marcel·lí i Camí Reial.\nMoltes gràcies.",
+      "temes": [
+        "urbanisme",
+        "medi_ambient",
+        "participacio_ciutadana",
+        "infraestructures",
+        "barris"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "espai_public",
+          "patrimoni"
+        ],
+        "medi_ambient": [
+          "zones_verdes"
+        ],
+        "mobilitat": [
+          "transit"
+        ]
+      },
+      "ambit": "multi_barri",
+      "zones": [
+        "Sant Marcel.Li",
+        "Cami Real"
+      ],
+      "districtes": [
+        "Jesús"
+      ],
+      "resum_cas": "El representante de la Asociación de Vecinos de Sant Marcelino solicita el apoyo a la moción del Corredor Verde para convertir en zona verde un espacio urbano históricamente descuidado durante 16 años, mejorando la conexión entre barrios y respondiendo a una antigua reivindicación vecinal.",
+      "resum_val": "El representant de l'Associació de Veïns de Sant Marcel·lí demana suport a la moció del Corredor Verd per convertir en zona verda un espai urbà històricament descuidat durant 16 anys, millorant la connexió entre barris i respondent a una antiga reivindicació veïnal.",
+      "cap_subtopics": [
+        1403,
+        709,
+        1002,
+        1401
+      ],
+      "cap_major": [
+        7,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "2025-10-28-005",
+      "pleno_id": "2025-10-28",
+      "fecha": "2025-10-28",
+      "mandat_id": "2023-2027",
+      "ordre": 5,
+      "intervinient": "Miguel Sánchez Valdés",
+      "entitat": "Associació de Veïns de la Roqueta",
+      "entitat_id": "associacio-veinal-roqueta",
+      "tipus_entitat": "av",
+      "barri_o_zona": "La Roqueta",
+      "punts_ordre_dia": "Modificació del PMUS i aprovació de la ZBE (Zona de Baixes Emissions)",
+      "idioma_original": "mixt",
+      "text_cas": "Buenas tardes. Gracias, alcaldesa. Soy Miguel Sánchez, presidente de la Associació Veïnal la Roqueta. Antes de comenzar, solamente expresar el nombre de nuestra asociación y porque mañana será el aniversario, nuestro recuerdo y solidaridad con las **229 víctimas de la dana**, así como con todas las personas afectadas y con quienes trabajan en la recuperación. Siempre las tendremos presentes. Y ahora entrando en el tema de la **ZBE que se va a debatir**, es algo que nos preocupa a todos desde hace años.\nFuimos parte de los **procesos participativos en 2023** previos a la redacción de la ordenanza. Después revisamos y alegamos al primer borrador de la ZBE este año y también la modificación del PMUS que se va a debatir ahora. Las alegaciones presentadas junto con muchas otras asociaciones vecinales y ecologistas de la ciudad fueron en casi su totalidad rechazadas. Y lo que en resumen pedíamos todos era **más ambición y más protección de la salud**. Señor Carbonell, **dos años de trabajo y muy poca visión**.\nDa igual que València haya sido **Capital Verde Europea** y el ejemplo que eso debería implicar. Da igual que la UPV lleve años advirtiéndole que **la calidad del aire empeora**. Da igual que el tráfico esté empeorando y que **el mayor emisor de contaminantes siga siendo el transporte**, junto al puerto, que además está en plena ampliación. Ninguna advertencia le ha servido para replantearse el rumbo.\nEn todas las mesas de movilidad donde nos sentamos vecinos, ecologistas, científicos, comerciantes, transportistas, se lo dijimos, **sin ambición esta ZBE no servirá** para proteger la salud. Pero sí que vamos a admitir algo. Ha convencido a alguien. A sus compañeros de gobierno de Vox, que le acompañan en algo que están en contra en su programa electoral y finalmente parece que van a apoyar esta ZBE suya. Curioso.\nAsí que llegamos hoy a este Pleno con la confirmación de lo que temíamos, porque lo que se aprueba hoy, la modificación del PMUS y de la ZBE, **debe de ser ante todo una herramienta de salud pública**. Pero no lo es porque las proyecciones oficiales del propio Ayuntamiento hablan de **concentraciones de entre 22 y 32 microgramos** por metro cúbico de dióxido de nitrógeno en varios puntos de la ciudad en el horizonte 2030, cuando **la nueva Directiva europea fija un límite de 20 microgramos** para ese año y **la OMS recomienda 10**.\nY no hablamos solo del dióxido de nitrógeno, también con las micropartículas o con los objetivos de descarbonización que quedan lejos de cumplirse incluso en los escenarios más optimistas. Y ya sabemos que este gobierno municipal **no está buscando acercarse a los valores de la OMS**, que es lo que de verdad protegería la salud. Pero es que ni siquiera va a alcanzar los **límites mínimos de la Unión Europea**, límites acordados por los estados miembros que son transitorios y considerados perfectamente alcanzables.\nTodo esto está reflejado en el **estudio de calidad del aire** que usted encargó, en el proyecto técnico que acompaña a la Ordenanza y además se confirma el **informe ambiental de la Generalitat**. Y no lo decimos a los vecinos, también la ley lo deja claro. El artículo 45 de la Constitución, que reconoce el **derecho de todas las personas a un medio ambiente saludable** y obliga a los poderes públicos a protegerlo y mejorarlo.\nLa Ley 7/2021 de Cambio Climático, que establece que las ZBE deben crearse para mejorar la calidad del aire, reducir las emisiones, no para cumplir un trámite o asegurar una subvención. O el propio Real Decreto 1052/2022 en el artículo 4.2, que exige que las ZBE sean adecuadas y suficientes para el cumplimiento de los objetivos de calidad del aire. Si una zona se aprueba sabiendo que no lo va a cumplir, **se vulnera la ley** y la medida queda **jurídicamente impugnable**. Por eso esta ZBE, tal y como se aprueba hoy, **no es insuficiente.\nEs que además es legalmente cuestionable**. Y aun así, la excusa del Ayuntamiento en las respuestas a las alegaciones es que las estimaciones son conservadoras y cabe la posibilidad de que todo vaya mejor de lo modelado. En resumen, cuando los datos gustan se dan por buenos, pero cuando no se dice que son demasiado pesimistas. **Un auténtico brindis al sol, un engaño a la ciudadanía**.\nLa semana pasada el **proyecto Predatics de la UPV**, con más de 200 mediciones en la ciudad entre 2023 y 2025, mostró que **más del 90 % de los puntos superan los futuros límites europeos**, el **98 % exceden los valores recomendados por la OMS**. En 2025 estamos peor que el límite actual. Son **datos actuales, con una ZBE que no va a cambiar nada**. Son los datos de València medidos a pie de calle, en entornos escolares, en cruces, en barrios como el nuestro donde pasan miles de coches cada día.\nY a pesar de todo, se va a aprobar en estas condiciones extraordinarias y de manera deprisa, **sin participación real**. Y suerte que he sido un poco avispado y vi la semana pasada una noticia de que se iba a hablar de esto hoy, porque **no estaba ni tan siquiera en el orden del día** de hoy. Así que lo que hoy se aprueba **no es una política de salud pública, es un trámite administrativo** para no perder una subvención. Y **la contaminación no entiende de plazos presupuestarios, la contaminación mata**.\nMata despacio, de manera silenciosa, con enfermedades respiratorias, cardiovasculares, neurológicas. Y lo peor de todo es que no podemos decir que no lo sabíamos. Si tuviera que resumir un poco lo que se aprueba hoy en un mensaje, y sin ánimo de ofender, por favor, utilizaré un eslogan clásico y reconocible: **'El gobierno de María José Catalá perjudica seriamente la salud'**. Es triste porque València podría tener otro eslogan. Uno que está buscando ahora mismo, uno que inspire, que nos una: **'València, la ciudad que respira y vive'**. Y este se lo regalo yo, señora alcaldesa.\nNo hace falta que lo encargue. Algún día ojalá que lo hagan realidad. Gracias.",
+      "text_val": "Bones tardes. Gràcies, alcaldesa. Soc Miguel Sánchez, president de la Associació Veïnal la Roqueta. Abans de començar, sols expresar el nom de la nostra associació i perquè demà serà l'aniversari, el nostre record i solidaritat amb les **229 víctimes de la dana**, així com amb totes les persones afectades i amb qui treballen en la recuperació. Sempre les tindrem presents. I ara entrant en el tema de la **ZBE que es va a debatre**, és quelcom que ens preocupa a tots des de fa anys. Vam ser part dels **processos participatius en 2023** previs a la redacció de l'ordenança.\nDesprés revisàrem i alegàrem al primer esborrany de la ZBE este any i també la modificació del PMUS que es va a debatre ara. Les al·legacions presentades juntament amb moltes altres associacions veïnals i ecologistes de la ciutat van ser en casi la seua totalitat rebutjades. I el que en resum demanàvem tots era **més ambició i més protecció de la salut**. Senyor Carbonell, **dos anys de treball i molta poca visió**. Da igual que València haja sigut **Capital Verda Europea** i l'exemple que això hauria d'implicar.\nDa igual que la UPV porte anys advertint-li que **la qualitat de l'aire empitjora**. Da igual que el tràfic estige empitjorant i que **el major emisor de contaminants continue sent el transport**, juntament amb el port, que a més està en plena ampliació. Cap advertència li ha servit per a replantejar-se el rumb. En totes les taules de mobilitat on ens vàrem seure veïns, ecologistes, científics, comerciants, transportistes, li ho vàrem dir, **sense ambició esta ZBE no servirà** per a protegir la salut. Però sí que vam a admetre quelcom. Ha convençut a algú.\nAls seus companys de govern de Vox, que li acompanyen en quelcom que estan en contra en el seu programa electoral i finalment pareix que van a suportar esta ZBE seua. Curiós. Així que arribem hui a este Ple amb la confirmació del que temíem, perquè el que s'aprova hui, la modificació del PMUS i de la ZBE, **ha de ser ante tot una ferramenta de salut pública**.\nPerò no ho és perquè les projeccions oficials del propi Ajuntament parlen de **concentracions d'entre 22 i 32 micrograms** per metre cúbic de diòxid de nitrogen en varis punts de la ciutat en l'horitzó 2030, quan **la nova Directiva europea fixa un límit de 20 micrograms** per a eixe any i **l'OMS recomana 10**. I no parlem sols del diòxid de nitrogen, també amb les micropartícules o amb els objectius de descarbonització que queden lluny de complir-se inclús en els escenaris més optimistes.\nI ja sabem que este govern municipal **no està buscant acostar-se als valors de l'OMS**, que és el que de vertader protegeria la salut. Però és que ni tan sols va a aconseguir els **límits mínims de la Unió Europea**, límits acordats pels estats membres que són transitoris i considerats perfectament aconseguibles. Tot açò està reflectit en l'**estudi de qualitat de l'aire** que vosté va encarregar, en el projecte tècnic que acompanya l'Ordenança i a més es confirma l'**informe ambiental de la Generalitat**. I no ho diem als veïns, també la llei ho deixa clar.\nL'article 45 de la Constitució, que reconeix el **dret de totes les persones a un medi ambient saludable** i obliga els poders públics a protegir-lo i millorar-lo. La Llei 7/2021 de Canvi Climàtic, que estableix que les ZBE han de crear-se per a millorar la qualitat de l'aire, reduir les emissions, no per a complir un tràmit o assegurar una subvenció. O el propi Reial Decret 1052/2022 en l'article 4.2, que exigeix que les ZBE siguen adequades i suficients per al compliment dels objectius de qualitat de l'aire.\nSi una zona s'aprova sabent que no ho va a complir, **es vulnera la llei** i la mesura queda **jurídicamente impugnable**. Per això esta ZBE, tal i com s'aprova hui, **no és insuficient. És que a més és legalment qüestionable**. I així i tot, l'excusa de l'Ajuntament en les respostes a les al·legacions és que les estimacions són conservadores i cap la possibilitat que tot vaja millor del que s'ha modelat. En resum, quan les dades agraden es donen per bones, però quan no es diu que són massa pessimistes. **Un autèntic brindis al sol, un engany a la ciutadania**.\nLa setmana passada el **projecte Predatics de la UPV**, amb més de 200 mesuraments en la ciutat entre 2023 i 2025, va mostrar que **més del 90 % dels punts superen els futurs límits europeus**, el **98 % excedeixen els valors recomanats per l'OMS**. En 2025 estem pitjor que el límit actual. Són **dades actuals, amb una ZBE que no va a canviar res**. Són les dades de València mesurades a peu de carrer, en entorns escolars, en cruïlles, en barris com el nostre on passen milers de cotxes cada dia.\nI a pesar de tot, es va a aprovar en estes condicions extraordinàries i de manera depressa, **sense participació real**. I sort que he sigut un poc avispat i vaig veure la setmana passada una notícia que es parlaria d'açò hui, perquè **no estava ni tan sols en l'ordre del dia** d'hui. Així que el que hui s'aprova **no és una política de salut pública, és un tràmit administratiu** per a no perder una subvenció. I **la contaminació no entén de terminis pressupostaris, la contaminació mata**.\nMata lentament, de manera silenciosa, amb malalties respiratòries, cardiovasculars, neurològiques. I el pitjor de tot és que no podem dir que no ho sabíem. Si tingués que resumir un poc el que s'aprova hui en un missatge, i sense ànim d'ofendre, per favor, utilitzaré un eslògan clàssic i reconeixible: **'El govern de María José Catalá perjudica seriosament la salut'**. És trist perquè València podria tindre un altre eslògan. Un que està buscant ara mateix, un que inspire, que ens una: **'València, la ciutat que respira i viu'**. I este se'l regal jo, senyora alcaldesa.\nNo fa falta que l'encargue. Algún dia ojalà que ho facen realitat. Gràcies.",
+      "temes": [
+        "mobilitat",
+        "medi_ambient",
+        "salut",
+        "participacio_ciutadana",
+        "infraestructures",
+        "barris"
+      ],
+      "temes_v2": {
+        "mobilitat": [
+          "zbe"
+        ],
+        "medi_ambient": [
+          "contaminacio",
+          "emergencies_climatiques"
+        ],
+        "participacio": [
+          "processos_participatius"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [
+        "La Roqueta"
+      ],
+      "districtes": [
+        "Extramurs"
+      ],
+      "resum_cas": "Miguel Sánchez Valdés, presidente de la Asociación de Vecinos de La Roqueta, critica la Zona de Bajas Emisiones (ZBE) y la modificación del PMUS aprobadas, argumentando que son insuficientes e ilegales para proteger la salud pública, ya que no alcanzarán los límites mínimos europeos ni los valores recomendados por la OMS. Denuncia que se trata de un mero trámite administrativo para no perder una subvención, sin participación ciudadana real.",
+      "resum_val": "Miguel Sánchez Valdés, president de l'Associació de Veïns de la Roqueta, critica la Zona de Baixes Emissions (ZBE) i la modificació del PMUS aprovades, argumentant que són insuficients i il·legals per protegir la salut pública, ja que no aconseguiran els límits mínims europeus ni els valors recomanats per l'OMS. Denuncia que es tracta d'un mere tràmit administratiu per no perder una subvenció, sense participació ciutadana real.",
+      "cap_subtopics": [
+        1002,
+        705,
+        711
+      ],
+      "cap_major": [
+        7,
+        10
+      ]
+    }
+  ]
+}

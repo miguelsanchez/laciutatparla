@@ -1,0 +1,110 @@
+{
+  "id": "2018-09-27",
+  "fecha": "2018-09-27",
+  "tipo": "ordinaria",
+  "mandat_id": "2015-2019",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2018-09-27",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20180927_1000_0_firmadoweb.pdf/6ef8bf32-d1c5-ad31-5621-8f544c3e2e58?t=1613212919812",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20180927_1000_0_firmadoweb.pdf/23c6bac1-76b4-455f-2b38-9bdc7ba05688?t=1613212918746",
+  "url_video": "https://players.cdn.enetres.net/live/1B4DA0F1F28C4AC4BA9AE203080C30C8021",
+  "num_intervencions": 2,
+  "intervencions": [
+    {
+      "id": "2018-09-27-001",
+      "pleno_id": "2018-09-27",
+      "fecha": "2018-09-27",
+      "mandat_id": "2015-2019",
+      "ordre": 1,
+      "intervinient": "Enrique Asensi Martín",
+      "entitat": "Associació de Cooperació i Estratègia d'Educació (ACOEC) i Coordinadora Valenciana de ONGD",
+      "entitat_id": "acoec",
+      "tipus_entitat": "educacio",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "aprovació del Plan de Cooperación Internacional para el Desarrollo 2019-2022 del Ayuntamiento de València i Estrategia de Educación para la Ciudadanía Global en el ámbito no formal (2018-2021)",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días. Soy enrique Martín, pertenezco a la Asociacion ACOEC y vengo también en representación de la **Coordinadora Valenciana de ONGD**. Voy a leer un comunicado de la Coordinadora: 'Estimadas señoras y señores concejalas y concejales de la ciudadanía de València.\nEs para la Coordinadora Valenciana de ONGD, que representa a **91 organizaciones no gubernamentales para el desarrollo**, un honor estar hoy aquí en el Pleno para la aprobación de las propuestas de **Plan de Cooperación Internacional para el Desarrollo 2019-2022** del Ayuntamiento de València y la **Estrategia de Educación para la Ciudadanía Global** en el ámbito no formal en la ciudad de València (2018-2021). **Por primera vez desde hace 23 años**, desde el año 1995 que empezó a andar la política municipal de cooperación al desarrollo, se ha trabajado en un Plan Municipal de Cooperación al Desarrollo y una primera Estrategia de Educación de manera **participativa, con un proceso participativo inédito** en el que las ONGD hemos trabajado mucho, escuchando y trabajando codo a codo con los agentes de la cooperación, cuyo resultado, además, pone las bases para una **futura política municipal de calidad, consensuada**. Asimismo, queremos reconocer cómo la corporación municipal consolida el impulso dado a la cooperación para el desarrollo en la ciudad de València, que empezó con la **creación en mayo de 2015 de la Concejalía de Cooperación al Desarrollo y Migración**. En este punto, aunque aún estamos lejos de cumplir el compromiso de destinar el **0,7 % de los presupuestos** consolidados del Ayuntamiento a cooperación, **en estos últimos tres años el presupuesto se ha multiplicado por cinco** reflejando el compromiso con la **solidaridad y la lucha contra la pobreza**. Esperamos seguir ese camino y conseguir el **0,7 % comprometido** en los próximos años. Por todo ello, desde las organizaciones no gubernamentales queremos hacer un **llamamiento a todos los grupos y partidos políticos** para que se aprueben por unanimidad estos instrumentos de la política municipal de cooperación al desarrollo que finalmente redundan en **mejoras en los derechos y condiciones de vida** para la ciudadanía tanto de nuestra ciudad, como de las personas de otros municipios en el mundo.' Muchas gracias.",
+      "text_val": "Buenos día. Soc Enrique Martín, pertanc a l'Associació ACOEC i vinc també en representació de la **Coordinadora Valenciana de ONGD**. Vull llig un comunicat de la Coordinadora: 'Estimades senyores i senyors concejales i concejalesses de la ciutadania de València.\nÉs per a la Coordinadora Valenciana de ONGD, que representa **91 organitzacions no governamentals per al desenvolupament**, un honor estar hui ací en el Ple per a l'aprovació de les propostes de **Plan de Cooperació Internacional para el Desenvolupament 2019-2022** del Ajuntament de València i l'**Estratègia d'Educació per a la Ciutadania Global** en l'àmbit no formal en la ciutat de València (2018-2021). **Per primera vegada des de fa 23 anys**, des del any 1995 que va començar a caminar la política municipal de cooperació al desenvolupament, s'ha treballat en un Plan Municipal de Cooperació al Desenvolupament i una primera Estratègia d'Educació de manera **participativa, amb un procés participatiu inèdit** en el qual les ONGD hem treballat molt, escoltant i treballant colze a colze amb els agents de la cooperació, cuix resultat, a més, posa les bases per a una **futura política municipal de qualitat, consensuada**. Volem reconéixer amb aquesta aprovació com la corporació municipal consolida l'impuls donat a la cooperació per al desenvolupament en la ciutat de València, que va començar amb la **creació en maig de 2015 de la Concejalía de Cooperació al Desenvolupament i Migració**. En este punt, encara que encara estàvem lluny de complir el compromís de destinar el **0,7 % dels pressupostos** consolidats de l'Ajuntament a cooperació, **en aquests últims tres anys el pressupost s'ha multiplicat per cinc** reflectint el compromís amb la **solidaritat i la lluita contra la pobresa**. Esperem seguir esse camí i aconseguir el **0,7 % compromés** en els pròxims anys. Por tot ell, des de les organitzacions no governamentals volem fer una **crida a tots els grups i partits polítics** perquè s'aproven per unanimitat estos instruments de la política municipal de cooperació al desenvolupament que finalment redundan en **millores en els drets i condicions de vida** per a la ciutadania tant de la nostra ciutat, com de les persones d'altres municipis en el món.' Moltes gràcies.",
+      "temes": [
+        "economia",
+        "participacio_ciutadana",
+        "serveis_socials",
+        "igualtat"
+      ],
+      "temes_v2": {
+        "participacio": [
+          "processos_participatius"
+        ],
+        "economia": [
+          "comerc_ocupacio"
+        ],
+        "drets_i_igualtat": [
+          "drets_humans"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "La Coordinadora Valenciana de ONGD, representando 91 organizaciones, valora positivamente la aprobación del Plan de Cooperación Internacional para el Desarrollo 2019-2022 y la Estrategia de Educación para la Ciudadanía Global, destacando el proceso participativo inédito y solicitando unanimidad en su aprobación para mejorar derechos y condiciones de vida.",
+      "resum_val": "La Coordinadora Valenciana de ONGD, que representa 91 organitzacions, valora positivament l'aprovació del Plan de Cooperació Internacional per al Desenvolupament 2019-2022 i l'Estratègia d'Educació per a la Ciutadania Global, destacant el procés participatiu inèdit i sol·licitant unanimitat en la seua aprovació.",
+      "cap_subtopics": [
+        1906,
+        2000,
+        1305
+      ],
+      "cap_major": [
+        13,
+        19,
+        20
+      ]
+    },
+    {
+      "id": "2018-09-27-002",
+      "pleno_id": "2018-09-27",
+      "fecha": "2018-09-27",
+      "mandat_id": "2015-2019",
+      "ordre": 2,
+      "intervinient": "Carlos Santana Queremón",
+      "entitat": "UGT (Unión General de Trabajadores) - Sección Sindical de Mercavalencia",
+      "entitat_id": "ugt-mercavalencia",
+      "tipus_entitat": "sindical",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "No especificats",
+      "idioma_original": "mixt",
+      "text_cas": "Voy a leer esto, pero antes quiero decirles que **me he divertido mucho** en este Pleno hoy. No sabía que ustedes fueran tan divertidos, la verdad. Pienso que vendré otras veces.\n\nComo pueden escuchar, **hay afuera una manifestación** de los trabajadores de Mercavalencia. Bueno, voy a leer ya el papel que traigo, en castellano.\n\nMe presento ante ustedes para dar voz a **los trabajadores y trabajadoras** que forman la Sección Sindical de UGT y prestan sus servicios bajo la forma de **una falsa cooperativa** en Mercavalencia.\n\nEn primer lugar, menciono la **comparecencia interesada, llena de falsedades y mentiras** que se produjo en el anterior Pleno a través de un socio de la **cooperativa de falsos autónomos**, así reconocido por **Inspección de Trabajo**, que realiza una labor de pantalla en Mercavalencia. Este compareciente **no representaba a nadie** salvo a sí mismo y al señor Galiana, por supuesto. **La reacción fue de un rechazo unánime** entre el resto de los trabajadores. Prueba de ello son **las 165 firmas** que aquí presento. A día de hoy **el número de afiliados** en la Sección Sindical está alrededor de **200 personas**, que hoy se concentran frente a este Ayuntamiento para pedir **alto y claro que quieren ser trabajadores de pleno derecho**; están ahí afuera, supongo que los oyen.\n\nSin duda, ustedes ya saben el motivo de esta comparecencia: **pedirles que como institución acaten la resolución** del organismo estatal que es Inspección de Trabajo, amparado por el principio de veracidad. En esta resolución se acredita que **Mercavalencia, con el señor Galiana como presidente, ha hecho uso de la figura del falso autónomo** para conseguir una cuenta de resultados y una notoriedad basada en **el fraude**, que la mayoría de ustedes ha apoyado.\n\nLa economía sumergida en España asciende a **168.000 millones de euros** y provoca una pérdida de recaudación de **26.000 millones de euros**. Se cifra en **225.000 el número de falsos autónomos** en España y en **más de 592 millones de euros al año el fraude** para las arcas del Estado. A este fraude, **Mercavalencia hace su aportación con cerca de 7 millones de euros**. Esta forma de actuar es la **herencia recibida de los anteriores gobiernos municipales del Partido Popular**.\n\nSeñores y señoras socialistas, es de suponer que conocen el **Real Decreto aprobado el 3 de agosto** por el que el Gobierno refuerza las actuaciones de Inspección de Trabajo y conocen el **Plan Director por un Trabajo Digno**, elaborado por el Ministerio de Trabajo. Plan en el que se habla de **trabajo digno, trabajo decente**, del refuerzo contra la economía irregular, plan en el que se especifica claramente que **el uso de falsas cooperativas** se utiliza para **competir deslealmente en el mercado** y con un claro objetivo fraudulento. Ustedes han apoyado esto, **250 falsos autónomos en Mercavalencia**, no pueden sentirse orgullosos.\n\nAl parecer, cuando en Madrid dicen blanco ustedes, señores socialistas, **hacen negro**. Estamos como sindicato dando los pasos necesarios para pedir explicaciones al más alto nivel sobre sus actuaciones. Señores de Podemos, han demostrado con su actitud hacia los trabajadores de Mercavalencia su **manifiesta incapacidad** para aplicar el ideario social del que su partido presume. **Manifestamos nuestro enorme agradecimiento** al Grupo Municipal Ciudadanos por su apoyo, su entereza, por su sentido de responsabilidad hacia la gente que se está manifestando a las puertas de este Ayuntamiento. Muchas gracias.\n\nPara concluir, manifestar que **el matadero de Mercavalencia** tiene las instalaciones adecuadas, una plantilla profesional, hay un mercado en el que posicionarse, solo se necesita **una gerencia con la altura necesaria** y capacidad de trabajo para garantizar el futuro de la entidad. **Cambiemos el rumbo**, hoy tenemos la oportunidad de hacerlo.\n\nMuchas gracias.",
+      "text_val": "Me presento ante ustedes para dar voz a los trabajadores y trabajadoras que forman la Sección Sindical de UGT y prestan sus servicios bajo la forma de una falsa cooperativa en Mercavalencia.\n\nMe presente davant vosté per a donar veu als treballadors i treballadores que formen la Secció Sindical d'UGT i presten els seus serveis sota la forma d'una falsa cooperativa a Mercavalència.\n\nEn primer lugar, hago mención a la comparecencia interesada, llena de falsedades y mentiras que se produjo en el anterior Pleno a través de un socio de la cooperativa de trabajo Work Man, que como todos ustedes saben es la cooperativa de falsos autónomos, así reconocido por Inspección de Trabajo, que realiza una labor de pantalla en Mercavalencia. Este compareciente, este señor que habló, no representaba a nadie salvo a sí mismo y al señor Galiana, por supuesto. La reacción fue de un rechazo unánime entre el resto de los trabajadores. Prueba de ello son las 165 firmas que aquí presento. A día de hoy el número de afiliados en la Sección Sindical gracias a esto está alrededor de 200 personas, que hoy se concentran frente a este Ayuntamiento para pedir alto y claro que quieren ser trabajadores de pleno derecho; están ahí fuera, supongo que los oyen.\n\nEn primer lloc, faig menció a la compareixença interessada, plena de falsetats i mentides que es va produir en el Ple anterior a través d'un soci de la cooperativa de treball Work Man, que com tots vosté saben és la cooperativa de falsos autònoms, així reconegut per Inspecció de Treball, que realitza una labor de pantalla a Mercavalència. Este compareixent, este senyor que va parlar, no representava a ningú més que a si mateix i al senyor Galiana, per supuesto. La reacció va ser d'un rebuig unànime entre la resta dels treballadors. Prova d'açò són les 165 firmes que ací presente. A dia de hui el nombre d'afiliats en la Secció Sindical gràcies a açò està al voltant de 200 persones, que hui es concentren davant d'este Ajuntament per a demanar alt i clar que volen ser treballadors de ple dret; estan ahí fora, suppose que els sent.\n\nSin duda, ustedes ya saben el motivo de esta comparecencia: pedirles, una vez más, que como institución acaten la resolución del organismo estatal que es Inspección de Trabajo, amparado por el principio de veracidad. En esta resolución se acredita que Mercavalencia, con el señor Galiana como presidente, ha hecho uso de la figura del falso autónomo para conseguir una cuenta de resultados y una notoriedad basada en el fraude, que la mayoría de ustedes ha apoyado y que viene de mucho tiempo atrás.\n\nSense dubte, vosté ja saben el motiu d'esta compareixença: demanar-los, una vegada més, que com a institució acaten la resolució de l'organisme estatal que és Inspecció de Treball, amparado pel principi de veracitat. En esta resolució s'acredita que Mercavalència, amb el senyor Galiana com a president, ha fet ús de la figura del fals autònom per a aconseguir un compte de resultats i una notorietat basada en el frau, que la majoria de vosté ha suportat i que ve de molt temps enrere.\n\nLa economía sumergida en España asciende a 168.000 millones de euros y provoca una pérdida de recaudación de 26.000 millones de euros. A partir de un estudio sobre los datos de la Encuesta de Población Activa (EPA), se cifra en 225.000 el número de falsos autónomos en España y en más de 592 millones de euros al año el fraude para las arcas del Estado. A este fraude, gracias a usted, señor Galiana, Mercavalencia hace su aportación con cerca de 7 millones de euros. Esta forma de actuar es la herencia recibida de los anteriores gobiernos municipales del Partido Popular.\n\nL'economia submergida a Espanya ascendeix a 168.000 milions d'euros i provoca una pèrdua de recaptació de 26.000 milions d'euros. A partir d'un estudi sobre les dades de l'Enquesta de Població Activa (EPA), es xifra en 225.000 el nombre de falsos autònoms a Espanya i en més de 592 milions d'euros l'any el frau per a les arques de l'Estat. A este frau, gràcies a vosté, senyor Galiana, Mercavalència fa la seua aportació amb prop de 7 milions d'euros. Esta forma d'actuar és l'herència rebuda dels anteriors governs municipals del Partit Popular.\n\nSeñores y señoras socialistas, es de suponer que conocen el Real Decreto aprobado el 3 de agosto del presente por el que el Gobierno refuerza las actuaciones de Inspección de Trabajo y es de suponer que conocen el Plan Director por un Trabajo Digno, elaborado por el Ministerio de Trabajo. Plan en el que se habla de trabajo digno, trabajo decente, del refuerzo contra la economía irregular, plan en el que se especifica claramente que el uso de falsas cooperativas se utiliza para competir deslealmente en el mercado y con un claro objetivo fraudulento. Ustedes han apoyado esto, 250 falsos autónomos en Mercavalencia, no pueden sentirse orgullosos.\n\nSenyores i senyores socialistes, és de suposar que coneixen el Reial Decret aprovat el 3 d'agost del present per el qual el Govern reforça les actuacions d'Inspecció de Treball i és de suposar que coneixen el Pla Director per un Treball Digne, elaborat pel Ministeri de Treball. Pla en el qual es parla de treball digne, treball decent, del reforç contra l'economia irregular, pla en el qual s'especifica clarament que l'ús de falses cooperatives s'utilitza per a competir deslealment en el mercat i amb un clar objectiu fraudulent. Vosté han suportat açò, 250 falsos autònoms a Mercavalència, no poden sentir-se orgullosos.\n\nAl parecer, cuando en Madrid dicen blanco ustedes, señores socialistas, hacen negro. Estamos como sindicato dando los pasos necesarios para pedir explicaciones al más alto nivel sobre sus actuaciones y demostrar que este Plan Director por un Trabajo Digno es para ustedes tan solo papel mojado, a tener en cuenta su línea de actuación contraria a lo que dispone el Gobierno de España. Señores de Podemos, han demostrado con su actitud hacia los trabajadores de Mercavalencia el sentido de su ética, alguien tendrá que responder por ustedes ante su manifiesta incapacidad para aplicar el ideario social del que su partido presume. Manifestamos nuestro enorme agradecimiento al Grupo Municipal Ciudadanos por su apoyo, su entereza, por su sentido de la responsabilidad hacia la gente que en este momento se está manifestando a las puertas de este Ayuntamiento, Señores regidores y regidoras del Grupo Municipal Ciudadanos, muchas gracias.\n\nAl parecer, quan a Madrid diuen blanc vosté, senyores socialistes, fan negre. Estem com a sindicat donant els passos necessaris per a demanar explicacions al més alt nivell sobre les seues actuacions i demostrar que este Pla Director per un Treball Digne és per a vosté tan sols paper mullat, a tindre en compte la seua línia d'actuació contrària a la qual disposa el Govern d'Espanya. Senyores de Podem, han demostrat amb la seua actitud cap als treballadors de Mercavalència el sentit de la seua ètica, algú tindra que respondre per vosté davant la seua manifesta incapacitat per a aplicar l'ideari social del qual el seu partit presumeix. Manifestem el nostre enorme agraïment al Grup Municipal Ciutadans pel seu suport, la seua enteresa, pel seu sentit de la responsabilitat cap a la gent que en este moment s'està manifestant a les portes d'este Ajuntament, Senyores regidors i regidores del Grup Municipal Ciutadans, moltes gràcies.\n\nPara concluir, manifestar que el matadero de Mercavalencia tiene las instalaciones adecuadas, una plantilla profesional, hay un mercado en el que posicionarse, solo se necesita una gerencia con la altura necesaria y capacidad de trabajo para garantizar el futuro de la entidad. Cambiemos el rumbo, hoy tenemos la oportunidad de hacerlo.\n\nPer a concloure, manifestar que el matadero de Mercavalència té les instal·lacions adequades, una plantilla professional, hi ha un mercat en el qual posicionar-se, sols es necessita una gerència amb l'altura necessària i capacitat de treball per a garantir el futur de l'entitat. Canviem el rumb, hui tenim l'oportunitat de fer-ho.",
+      "temes": [
+        "economia",
+        "serveis_socials",
+        "infraestructures",
+        "participacio_ciutadana"
+      ],
+      "temes_v2": {
+        "economia": [
+          "comerc_ocupacio"
+        ],
+        "drets_i_igualtat": [
+          "drets_humans"
+        ],
+        "participacio": [
+          "participacio"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "Representante de UGT denuncia el uso de falsas cooperativas en Mercavalencia para contratar trabajadores como autónomos, incumpliendo resoluciones de Inspección de Trabajo y causando fraude de millones de euros. Exige al Ayuntamiento que acate la legalidad y garantice derechos laborales dignos para los trabajadores.",
+      "resum_val": "Representant d'UGT denuncia l'ús de falses cooperatives a Mercavalència per a contractar treballadors com autònoms, incomplint resolucions d'Inspecció de Treball i causant frau de milions d'euros. Exigeix a l'Ajuntament que acate la legalitat i garantisca drets laborals dignos per als treballadors.",
+      "cap_subtopics": [
+        1521,
+        1906,
+        2000
+      ],
+      "cap_major": [
+        15,
+        19,
+        20
+      ]
+    }
+  ]
+}

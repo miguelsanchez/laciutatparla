@@ -1,0 +1,495 @@
+{
+  "id": "2025-06-26",
+  "fecha": "2025-06-26",
+  "tipo": "ordinaria",
+  "mandat_id": "2023-2027",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2025-06-26",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20250626_0945_0_firmadoweb.pdf/23941aa8-22f5-d5bb-bd71-376555f0bd99?t=1753266839521",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20250626_0945_0_firmadoweb.pdf/89a714d9-ee65-9a86-a0d6-ccb01465f13c?t=1751350225648",
+  "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-772",
+  "num_intervencions": 9,
+  "intervencions": [
+    {
+      "id": "2025-06-26-001",
+      "pleno_id": "2025-06-26",
+      "fecha": "2025-06-26",
+      "mandat_id": "2023-2027",
+      "ordre": 1,
+      "intervinient": "Pilar Page Martín",
+      "entitat": "AV Plaça d'Hondures i Adjacents",
+      "entitat_id": "av-plaça-hondures-adjacents",
+      "tipus_entitat": "av",
+      "barri_o_zona": "Plaça d'Hondures, Ciudad Jardín, Cedro, La Isla, Virgen del Carmen de Beteró, barrio de San José, Xúquer",
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "castellano",
+      "text_cas": "Muchas gracias, alcaldesa. Buenos días. Hace un año nos enteramos por la prensa de la situación denominada **BRT Blasco Ibáñez** tiene por objeto introducir un **carril exprés segregado para los autobuses** y supone la reforma viaria de la avenida de Blasco Ibáñez, actuación **financiada con fondos europeos**. Tras realizar preguntas en el Consejo de la Junta de Distrito Marítimo y pedir participación en la Comisión de Movilidad, fuimos conociendo el proyecto en detalle.\nLa actuación consiste en implementar un carril exprés segregado, con prioridad semafórica para las líneas de autobuses que circulan por la avenida de Blasco Ibáñez. No vamos a entrar en los detalles del mismo, pero sí tenemos que decir que esta actuación supone en su actual planteamiento la **pérdida de aparcamientos**, la **reducción del ancho de los carriles de circulación**, más incomodidades para los usuarios del autobús y probablemente hasta la **pérdida de paradas**.\nIntenta resolver un problema de velocidad de los autobuses que no existe y **perpetúa otro problema de seguridad vial**. **Seis asociaciones vecinales** del entorno de los tres tramos de la avenida de Blasco Ibáñez tras analizar la documentación del proyecto hemos venido manifestando nuestro **total rechazo a la actuación propuesta**. No nos consta que se haya realizado **ningún proceso participativo sobre este proyecto**.\nLas seis asociaciones hemos mantenido reuniones con el actual equipo de gobierno del Ayuntamiento que ha actualizado el proyecto y teniendo en cuenta nuestras aportaciones. nos dirigimos a todos los grupos del Ayuntamiento para solicitarles que entiendan la necesidad de los cambios que pedimos y que respalden las **modificaciones que aquí se plantean**.\nTambién para dejar constancia que las asociaciones de vecinos **no ven viable el proyecto inicial**.",
+      "text_val": "Moltes gràcies, alcaldessa. Buenos días. Fa un any ens vàrem assabentar per la premsa de la situació denominada **BRT Blasco Ibáñez** té per objecte introduir un **carril exprés segregat per als autobusos** i suposa la reforma viària de l'avinguda de Blasco Ibáñez, actuació **finançada amb fons europeus**. Després de realitzar preguntes en el Consell de la Junta de Districte Marítim i demanar participació en la Comissió de Mobilitat, vàrem anar coneixent el projecte en detall.\nL'actuació consisteix a implementar un carril exprés segregat, amb prioritat semafòrica per a les línies d'autobusos que circulen per l'avinguda de Blasco Ibáñez. No entrarem en els detalls del mateix, però sí que hem de dir que aquesta actuació suposa en la seua actual plantejement la **pèrdua d'aparcaments**, la **reducció de l'amplada dels carrils**, més incòmodes per als usuaris de l'autobús i probablement fins la **pèrdua de parades**.\nIntenta resoldre un problema de velocitat dels autobusos que no existeix i **perpetua un altre problema de seguretat vial**. **Sis associacions veïnals** de l'entorn dels tres trams de l'avinguda de Blasco Ibáñez després d'analitzar la documentació del projecte hem vengut manifestant el nostre **total rebuig a l'actuació proposada**. No ens consta que s'haja realitzat **cap procés participatiu sobre aquest projecte**.\nLes sis associacions hem mantingut reunions amb l'actual equip de govern de l'Ajuntament que ha actualitzat el projecte i tenint en compte les nostres aportacions. ens dirigim a tots els grups de l'Ajuntament per a sol·licitar-los que entenguen la necessitat dels canvis que demanem i que recolzen les **modificacions que ací es plantegen**. També per a deixar constància que les associacions de veïns **no veuen viable el projecte inicial**.",
+      "temes": [
+        "mobilitat",
+        "participacio_ciutadana",
+        "seguretat",
+        "urbanisme",
+        "barris"
+      ],
+      "temes_v2": {
+        "mobilitat": [
+          "transit",
+          "mobilitat_activa",
+          "aparcament"
+        ],
+        "participacio": [
+          "participacio",
+          "processos_participatius"
+        ],
+        "urbanisme": [
+          "espai_public"
+        ]
+      },
+      "ambit": "multi_barri",
+      "zones": [
+        "Ciutat Jardi",
+        "Betero",
+        "El Grau",
+        "Montolivet"
+      ],
+      "districtes": [
+        "Algirós",
+        "Poblats Marítims",
+        "Quatre Carreres"
+      ],
+      "resum_cas": "Seis asociaciones vecinales del entorno de Blasco Ibáñez rechazan el proyecto BRT actual y solicitan modificaciones que eviten la pérdida de aparcamientos y problemas de seguridad vial, demandando mayor participación ciudadana en el proceso.",
+      "resum_val": "Sis associacions veïnals de l'entorn de Blasco Ibáñez rebutgen el projecte BRT actual i sol·liciten modificacions que eviten la pèrdua d'aparcaments i problemes de seguretat vial, reclamant més participació ciutadana en el procés.",
+      "cap_subtopics": [
+        1001,
+        1002,
+        1010,
+        2000
+      ],
+      "cap_major": [
+        10,
+        20
+      ]
+    },
+    {
+      "id": "2025-06-26-002",
+      "pleno_id": "2025-06-26",
+      "fecha": "2025-06-26",
+      "mandat_id": "2023-2027",
+      "ordre": 2,
+      "intervinient": "Mª Amparo Ramada Monzón",
+      "entitat": "Peña Valencianista LGTBI",
+      "entitat_id": "pena-valencianista-lgtbi",
+      "tipus_entitat": "av",
+      "barri_o_zona": "La Petxina",
+      "punts_ordre_dia": "",
+      "idioma_original": "mixt",
+      "text_cas": "Señora alcaldesa, señoras y señores, concejales, compañeras y demás presentes. Buenos días a todos, todas y todes. Me presento, soy Amparo Ramada, presidenta de la **Peña Valencianista LGTBI**. Hoy me dirijo a vosotros desde **el corazón del valencianismo**. Somos una asociación, una peña con nombre y apellidos. Somos valencianistas y somos LGTBI.\nOs hablo desde **la pasión que nos une** más allá de las edades, los barrios o los colores políticos, porque ser del València no es solo seguir a un equipo, es sentir unos colores que nos representan, que nos emocionan y que, sobre todo, nos unen. **Mestalla no es solo un estadio, es nuestra casa**. Y como cualquier casa, debe ser **un lugar seguro**. Seguro para toda **expresión y/o identidad de género u orientación sexual**. Porque **la grada, como la vida, es más fuerte cuanto más diversa es**.\nPero hoy **esa seguridad está en riesgo**. **La reforma de la Ley trans valenciana**, ya publicada como todos sabéis en el BOE, **no solo supone un retroceso en derechos, sino un ataque directo a nuestra dignidad**. Esta ley nos coloca como **problema, como molestia**. Que una persona por **el hecho de ser trans** y quizás en un futuro solo por pertenecer al colectivo **LGTBIQA+** pueda ser cuestionada en un vestuario, apartada de una grada o vetada en una competición. Se legitiman que **nos señalen, que nos arinconen**.\nNo debemos olvidar que a día de hoy aún se escuchan en nuestras gradas **insultos machistas, racistas y LGTBIfóbicos**. Familias delante de sus hijos e hijas lanzan verdaderos improperios. Por eso debemos **educar y defender unas gradas limpias, seguras y libres de odio**. Y ahora quienes alientan estos insultos y promueven esta ley tienen **la osadía de organizar un Orgullo VLC, sin nuestras siglas**. **Nos invitan a un orgullo en el que no cabemos**. Han quitado **LGTBIQA+ de los carteles**.\nComo llevan tiempo intentando **borrar nuestras vidas en las aulas, en los centros de salud, en los espacios públicos y también en las gradas de Mestalla**. Pero **nosotros seguimos aquí y aquí seguiremos**. El fútbol es **pasión, es coraje**. **Mestalla debe seguir siendo un espacio para todas las familias**. **Familias diversas, amplias y reales**.\nOs digo **alto y claro que Mestalla será siempre nuestra casa**. **En nuestra casa no hay sitio para el odio ni la exclusión**. **Exigimos a las entidades aquí presentes, a las instituciones que estén a la altura, que no nos invisibilicen**. **Necesitamos instituciones que protejan, no que nos persigan**. **Cuando jugamos unidos nadie nos gana**.",
+      "text_val": "Senyora alcaldesa, senyores i senyors, regidors, companyeres i demés presents. Buenos días a todos, todas y todes. Em presente, soc Amparo Ramada, presidenta de la **Peña Valencianista LGTBI**. Hui em dirigixc a vosotres des del **cor del valencianisme**. Som una associació, una penya amb nom i cognoms. Som valencianistes i som LGTBI.\nOs parle des de **la passió que ens uneix** més allà de les edats, els barris o els colors polítics, perquè ser del València no és sols seguir un equip, és sentir uns colors que ens representen, que ens emocionen i que, sobretot, ens unixen. **Mestalla no és sols un estadi, és la nostra casa**. I com qualsevol casa, ha de ser **un lloc segur**. Segur per a tota **expressió i/o identitat de gènere u orientació sexual**. Perquè **la grada, com la vida, és més forta quant més diversa és**.\nPerò hui **eixa seguretat està en risc**. **La reforma de la Llei trans valenciana**, ja publicada com tots sabeu en el BOE, **no sols suposa un retrocés en drets, sinó un atac directe a la nostra dignitat**. Aquesta llei ens coloca com a **problema, com a molèstia**. Que una persona pel **fet de ser trans** i potser en un futur sols per pertànyer al col·lectiu **LGTBIQA+** puga ser qüestionada en un vestuari, apartada d'una grada o vetada en una competició. Es legitimen que **ens assenyalen, que ens arrinconin**.\nNo hem d'oblidar que a dia de hui encara s'escolten **insults machistes, racistes i LGTBIfòbics**. Famílies davant dels seus fills i d'altres xiquets llancen verdaders improperis. Per això hem d'**educar i defensar unes grades netes, segures i lliures d'odi**. I ara qui alenten aquests insults i promouen aquesta llei tenen **l'osadia d'organitzar un Orgull VLC, sense les nostres sigles**. **Ens conviden a un orgull en el qual no cabem**. Han tret **LGTBIQA+ dels cartells**.\nCom que des de fa temps intenten **esborrar les nostres vides a les aules, en els centres de salut, en els espais públics i també en les grades de Mestalla**. Però **nosaltres seguim ací i ací seguirem**. El futbol és **passió, és coratge**. **Mestalla ha de seguir siendo un espai per a totes les famílies**. **Famílies diverses, àmplies i reals**.\nOs dic **alt i clar que Mestalla serà sempre la nostra casa**. **En la nostra casa no hi ha lloc per a l'odi ni l'exclusió**. **Exigim a les entitats ací presents, a les institucions que estiga a l'alçada, que no ens invisibilitzen**. **Necessitem institucions que protegeixin, no que ens perseguisquen**. **Quan juguem units ningú ens ganya**.",
+      "temes": [
+        "igualtat",
+        "participacio_ciutadana",
+        "esports",
+        "seguretat"
+      ],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "diversitat",
+          "interculturalitat_i_antiracisme",
+          "drets_humans"
+        ],
+        "cultura": [
+          "associacionisme"
+        ],
+        "serveis_publics": [
+          "seguretat"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [
+        "Mestalla"
+      ],
+      "districtes": [
+        "El Pla del Real"
+      ],
+      "resum_cas": "La presidenta de la Peña Valencianista LGTBI denuncia la reforma de la Ley trans valenciana como un retroceso en derechos y exige que Mestalla sea un espacio seguro e inclusivo para todas las personas, rechazando la invisibilización del colectivo LGTBIQA+.",
+      "resum_val": "La presidenta de la Peña Valencianista LGTBI denuncia la reforma de la Llei trans valenciana com un retrocés en drets i exigeix que Mestalla siga un espai segur i inclusiu per a totes les persones, rebutjant la invisibilització del col·lectiu LGTBIQA+.",
+      "cap_subtopics": [
+        202,
+        1201,
+        1906,
+        2300
+      ],
+      "cap_major": [
+        2,
+        12,
+        19,
+        23
+      ]
+    },
+    {
+      "id": "2025-06-26-003",
+      "pleno_id": "2025-06-26",
+      "fecha": "2025-06-26",
+      "mandat_id": "2023-2027",
+      "ordre": 3,
+      "intervinient": "Noelia Rojas Reyes",
+      "entitat": "Consell de la Joventut de València",
+      "entitat_id": "consell-joventut-valencia",
+      "tipus_entitat": "altres",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "moció en defensa dels drets del col·lectiu LGTBIQ+",
+      "idioma_original": "valenciano",
+      "text_cas": "Buenos días a todas y todos. Hoy hablamos como **Consell de la Joventut de València**, la voz colectiva de las entidades juveniles de esta ciudad. Y hoy no venimos aquí a pedir permiso, sino a **exigir responsabilidad**, a plantar cara al **silencio cómplice**, al odio disfrazado de libertad de expresión y a las instituciones que miran hacia otro lado, mientras los **derechos de las personas LGTBIQ+ son atacados**. Hoy este plenario debate una moción en defensa de los derechos del colectivo LGTBIQ+.\nUna moción que es muy necesaria porque la realidad que vivimos es grave: **discursos de odio que se expanden sin control**, agresiones a jóvenes en la calle, censura de contenidos educativos, cuestionamiento de derechos fundamentales y una **escalada de intolerancia**. Y ante esto, la juventud no se quedará callada.\nDenunciamos públicamente el **aumento de discursos y delitos de odio** que afectan directamente a la juventud LGTBIQ+, y exigimos a este ayuntamiento a todas las fuerzas políticas que dejen de jugar con los **derechos humanos** como si fueran moneda de cambio ideológica. Nos preocupa, y mucho, la **normalización de estas actitudes**. Nos preocupa ver cómo lo que hace unos años parecía ganado ahora se pone en duda. Y nos preocupa aún más la **tibieza de algunas instituciones** que eligen el silencio o la neutralidad cuando lo que hace falta es firmeza.\nHoy estamos aquí para exigir **acción y compromiso real**. No nos valen las palabras vacías ni las mociones simbólicas si después no se traducen en hechos. Exigimos que se dé **educación sexual y afectiva en todos los espacios educativos** y sociales, con perspectiva de género y diversa como herramienta esencial para erradicar el odio. Porque **educar salva vidas**. Educar es prevenir la agresión, el suicidio, el acoso, la discriminación. Y no hacerlo es simplemente una irresponsabilidad.\nY denunciamos también cualquier intento de **censura y retroceso**, venga de donde venga, porque negar la existencia del colectivo, invisibilizarlo o criminalizarlo es una forma más de **violencia institucional**. Desde el Consell de la Joventut de València queremos una **ciudad orgullosa de su diversidad**, no una ciudad que da altavoz a quienes lanzan discursos de odio. Queremos **calles seguras para todas**.\nQueremos que ningún joven tenga que volver a armarse de valor para salir de su instituto, para coger de la mano a la persona que ama o para vivir en voz alta y amar a quien quiera. Y os lo decimos claramente, **no consentiremos ningún paso atrás**. Por eso pedimos a este plenario que **actúe ya**, que se posicionen sin ambigüedades, que legislen, que eduquen, que protejan, que cumplan su deber institucional como garantes de los derechos de todas las personas y especialmente de las más vulnerables, de las más jóvenes.\nLa juventud no es el futuro, somos el presente y estamos **organizadas, concienciadas y movilizadas**. No permitiremos que el odio sea tolerado, ni que los derechos sean cuestionados. **València ha de ser una ciudad libre, segura y diversa**. Muchas gracias.",
+      "text_val": "Bon dia a totes i tots. Hui parlem com a **Consell de la Joventut de València**, la veu col·lectiva de les entitats juvenils d'aquesta ciutat. I hui no venim ací a demanar permís, sinó a **exigir responsabilitat**, a plantar cara al **silenci còmplice**, a l'odi disfressat de llibertat d'expressió i a les institucions que miren cap a una altra banda, mentres els **drets de les persones LGTBIQ+ són atacats**. Hui aquest plenari debat una moció en defensa dels drets del col·lectiu LGTBIQ+.\nUna moció que és molt necessària perquè la realitat que vivim és greu: **discursos d'odi que s'escampen sense control**, agressions a joves, censura de continguts educatius, qüestionament de drets fonamentals i una **escalada d'intolerància**. I davant d'això, la joventut no es quedarà callada. Denunciem públicament l'**augment de discursos i delictes d'odi** que afecten directament a la joventut LGTBIQ+, i exigim a aquest ajuntament a totes les forces polítiques que deixen de jugar amb els **drets humans** com si foren moneda de canvi ideològica.\nEns preocupa, i molt, la **normalització d'aquestes actituds**. Ens preocupa veure com el que fa uns anys semblava guanyat ara es posa en dubte. I ens preocupa encara més la **tebiesa d'algunes institucions** que trien el silenci o la neutralitat quan el que cal és fermesa. Hui estem ací per exigir **acció i compromís real**. No ens valen les paraules buides ni les mocions simbòliques si després no es traduixen en fets. Exigim **educació sexual i afectiva en tots els espais educatius** i socials, amb perspectiva de gènere i diversa com a eina essencial per eradicar l'odi.\nPerquè **educar salva vides**. Educar és previndre l'agressió, el suïcidi, l'assetjament, la discriminació. I no fer-ho és simplement una irresponsabilitat. I denunciem també qualsevol intent de **censura i retrocés**, vinga d'on vinga, perquè negar l'existència del col·lectiu, invisibilitzar-lo o criminalitzar-lo és una forma més de **violència institucional**. Des del Consell de la Joventut de València volem una **ciutat orgullosa de la seua diversitat**, no una ciutat que dona altaveu als qui llancen discursos d'odi. Volem **carrers segurs per a totes**.\nVolem que cap jove haja de tornar a armar-se de valor per eixir del seu institut, per agarrar-se de la mà amb la persona que estima o per viure en veu alta i estimar a qui vullga. I vos ho diem clarament, **no consentirem cap pas enrere**. Per això demanem aquest plenari que **actue ja**, que es posicionen sense ambigüitats, que legisle, que eduque, que protegisca, que complisca el seu deure institucional com a garant dels drets de totes les persones i especialment de les més vulnerables, de les més joves.\nLa joventut som el present i estem **organitzades, conscienciades i mobilitzades**. No permetrem que l'odi siga tolerat, ni que els drets siguen qüestionats. **València ha de ser lliure, segura i diversa**. Moltes gràcies.",
+      "temes": [
+        "igualtat",
+        "joventut",
+        "participacio_ciutadana",
+        "educacio",
+        "seguretat"
+      ],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "diversitat",
+          "drets_humans"
+        ],
+        "persones": [
+          "joventut"
+        ],
+        "serveis_publics": [
+          "educacio"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "El Consell de la Joventut de València exige acciones concretas del Ayuntamiento contra los discursos de odio hacia el colectivo LGTBIQ+, incluyendo educación sexual y afectiva en centros educativos y medidas de protección para jóvenes vulnerables.",
+      "resum_val": "El Consell de la Joventut de València exigeix accions concretes de l'Ajuntament contra els discursos d'odi cap al col·lectiu LGTBIQ+, incloent educació sexual i afectiva en centres educatius i mesures de protecció per a joves vulnerables.",
+      "cap_subtopics": [
+        202,
+        207,
+        602,
+        1206,
+        1906
+      ],
+      "cap_major": [
+        2,
+        6,
+        12,
+        19
+      ]
+    },
+    {
+      "id": "2025-06-26-004",
+      "pleno_id": "2025-06-26",
+      "fecha": "2025-06-26",
+      "mandat_id": "2023-2027",
+      "ordre": 4,
+      "intervinient": "Javier Gil Quintana",
+      "entitat": "Club esportiu LGTB+ Samarucs València",
+      "entitat_id": "club-esportiu-samarucs-valencia",
+      "tipus_entitat": "esportiu",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "no especificado",
+      "idioma_original": "castellano",
+      "text_cas": "Sra. Alcaldesa, personalidades de los diferentes grupos políticos. Hace un año, cuando caminaba por la calle Colón como parte de la comitiva del **Orgullo de 2024** rodeado de **banderas de colores**, lemas de protesta por los megáfonos, música de batucada y pancartas, me preguntaba si tenía algún sentido real eso que estaba haciendo. Si tenía sentido el **Día del Orgullo LGTBI**.\n¿Sirve para algo salir a la calle, caminar durante dos horas bajo la solana, gritar frases que intentan rimar e irte a tu casa hasta el año siguiente? ¿Tiene efecto en la vida de las personas que me rodean ese día, en las asociaciones, **las socias de Samarucs**? De repente, mientras me rondaban estos pensamientos, casi me tropiezo. Una **niña trans** de las que forma parte de **la escuela multideporte para menores trans** que tenemos en Samarucs estaba jugando delante mío con un aro y sin darse demasiada cuenta de lo que pasaba a su alrededor.\nDe repente todo empezó a tener un poco de sentido. Sí, **el Orgullo sí que tiene sentido**. Tiene sentido para esa niña, para que pueda jugar tranquila ese día, con ese aro, rodeada de gente desconocida por la calle. **Es una niña. Una niña que quiere jugar y divertirse, sin matones**. Sí, el Orgullo tiene sentido para mostrar **otras realidades menos visibles**. Para que las vecinas de València vean que una de las magias de esta ciudad es **las diferentes formas de vivir en ella**.\nSí, el Orgullo tiene sentido para **pedir públicamente** que nos dejen en paz, que nos dejen vivir como somos, que nos dejen de dar palizas, que nos dejen de insultar, que dejen de burlarse de nuestro aspecto. Sí, el Orgullo tiene sentido para todas las personas LGTBI, para que vean que **pueden salir del armario**. Sí, el Orgullo tiene sentido como **protesta democráticamente legítima**. El Orgullo forma parte de las acciones que ayudan a respirar **entornos de seguridad, de calma, de amabilidad**. Ser niña trans y jugar sin miedo en la calle.\nSer niño y tener novio en la escuela de primaria. Ser anciana y vivir con tu mujer en la casa que habéis comprado las dos. Ser trans y tener una **apariencia no binaria**. Tener pluma de aquí a Alicante y hacer deporte sin miedo. Ser bisexual y besar a tu pareja que se encuentra en la grada. O ser intersexual y cambiarte en un vestuario sin temor. Sí, el Orgullo sirve. También sirve para todas las personas que hoy están aquí, porque todas las personas que hoy estamos aquí, **incluidas ustedes, somos diversas**.\nTenemos **diferentes capacidades, alturas, pesos, edades, colores de piel**. Y esto es importante porque si no somos conscientes de esto, si no lo entendemos y asumimos que somos diferentes y que estamos condenades a vivir en la misma ciudad, va a ser muy difícil que lo hagamos **en paz**.\nPor eso, sí, el Orgullo sí que tiene sentido, para seguir recordándoles a quienes **recortan nuestras leyes**, como lo que hicieron hace un par de semanas, que las asociaciones **vamos a resistir** justamente y conjuntamente con mucho orgullo hacia **cualquier recorte de derechos**.",
+      "text_val": "Sra. Alcaldesa, personalitats dels diferents grups polítics. Fa un any, quan caminava per la carrer Colón com a part de la comitiva de l'**Orgull de 2024** envoltat de **banderes de colors**, lemes de protesta pels megàfons, música de batucada i pancartes, em preguntaba si tenia algun sentit real allò que estava fent. Si tenia sentit el **Dia de l'Orgull LGTBI**.\n¿Servix per a algo eixir a la carrer, caminar durant dos hores baix la solana, cridar frases que intenten rimar i anar-se a casa fins l'any següent? ¿Té efecte en la vida de les persones que m'envolten eixe dia, en les associacions, **les sòcies de Samarucs**? De sobte, mentre em rondaven aquests pensaments, casi em tropidce. Una **nena trans** de les que forma part de **l'escola multideporte per a menors trans** que tenim en Samarucs estava jugant davant meua amb un aro i sense donar-se demasiada compte de allò que passava al seu voltant.\nDe sobte tot va començar a tindre sentit. Sí, **l'Orgull sí que té sentit**. Té sentit per a eixa nena, per a que puga jugar tranquila eixe dia, amb eixe aro, envoltada de gent desconeguda per la carrer. **És una nena. Una nena que vol jugar i divertir-se, sense matons**. Sí, l'Orgull té sentit per a mostrar **altres realitats**. Per a que les veïnes de València vejen que una de les magies d'esta ciutat és **les diferents formes de viure en ella**.\nSí, l'Orgull té sentit per a **demanar públicament** que ens deixaren en pau, que ens deixaren viure com som, que ens deixaren de donar pallisses, que ens deixaren d'insultar, que deixin de burlar-se del nostre aspecte. Sí, l'Orgull té sentit per a totes les persones LGTBI, per a que vejen que **poden eixir de l'armari**. Sí, l'Orgull té sentit com a **protesta democràticament legítima**. L'Orgull forma part de les accions que ajuden a respirar **entorns de seguretat, de calma, de amabilitat**. Ser nena trans i jugar sense temor en la carrer.\nSer nene i tindre nòvia en l'escola de primària. Ser dona gran i viure amb la teua dona en la casa que heu comprat les dues. Ser trans i tindre una **aparença no binaria**. Tindre ploma d'ací a Alacant i fer esports sense temor. Ser bisexual i besar a la teua parella que es troba en la grada. O ser intersexual i canviar-te en un vestidor sense temor. Sí, l'Orgull servix. També servix per a totes les persones que hui estan ací, perquè totes les persones que hui estem ací, **incloses ustés, som diverses**. Tenim **diferents capacitats, altures, pesos, edats, colors de pell**.\nI açò és important perquè si no som conscients d'açò, si no ho entenem i assumim que som diferents i que estam condemnades a viure en la mateixa ciutat, va a ser molt difícil que ho fem **en pau**.\nPer isso, sí, l'Orgull sí que té sentit, per a seguir recordant-los a quins **retallen les nostres lleis**, com allò que varen fer fa un parell de setmanes, que les associacions **anem a resistir** justament i conjuntament amb molt orgull cap a **qualsevol retall de drets**.",
+      "temes": [
+        "igualtat",
+        "participacio_ciutadana",
+        "joventut",
+        "cultura"
+      ],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "diversitat",
+          "drets_humans"
+        ],
+        "cultura": [
+          "festes",
+          "associacionisme"
+        ],
+        "participacio": [
+          "participacio"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "Javier Gil Quintana del Club Samarucs reflexiona sobre el sentido del Orgullo LGTBI, argumentando que es importante como espacio de seguridad para menores trans, visibilización de la diversidad y protesta democrática contra recortes de derechos.",
+      "resum_val": "Javier Gil Quintana del Club Samarucs reflexiona sobre el sentit del Orgull LGTBI, argumentant que és important com a espai de seguretat per a menors trans, visibilització de la diversitat i protesta democràtica contra retalls de drets.",
+      "cap_subtopics": [
+        202,
+        1906,
+        2300
+      ],
+      "cap_major": [
+        2,
+        19,
+        23
+      ]
+    },
+    {
+      "id": "2025-06-26-005",
+      "pleno_id": "2025-06-26",
+      "fecha": "2025-06-26",
+      "mandat_id": "2023-2027",
+      "ordre": 5,
+      "intervinient": "Kristal Calvo Leyba",
+      "entitat": "CCOO PV – Consell Consultiu Trans",
+      "entitat_id": "ccoo-pv",
+      "tipus_entitat": "sindical",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "valenciano",
+      "text_cas": "Soy Kristal Calvo Leyba, representante en el **Consell Consultiu Trans** y también soy administrativa y estudio **educación social**. Y quiero recordarles aquí que hace **77 años** [...] **Derechos humanos** estamos hablando.\nCon las **enmiendas pactadas entre PP y Vox** a la **Ley trans**, una **ley de acompañamiento** que revisa el articulado de otra ley. [...] En el artículo 3, donde decía '**el derecho humano a la autodeterminación de género**' se elimina '**humano**'. [...] se elimina como **garantizado** por **'se promoverá'**. [...] **Negacionismo puro y duro**. [...] **Invisibilización**. [...] Se cambia el nombre '**Consell Consultiu Trans**' por '**Consell Consultiu de la Ley 8/2017**'. [...] **Nos están poniendo un número para no ser personas**. [...] Podrán entrar en el Consell **entidades como el Fórum de la Familia** y las **asociaciones católicas** [...] **contrarias a los derechos de las personas trans**. [...] Artículo 21, **Actuaciones en el ámbito educativo**. [...] **¿De qué menores hablamos?** [...] Y desde **Comisiones** queremos que se aplique el **Real Decreto 1026/2024** [...] **protocolos contra la LGTBIfobia** [...] **en el trabajo sin armarios**.",
+      "text_val": "Sóc Kristal Calvo Leyba, representant al **Consell Consultiu Trans** i també sóc administrativa i estudie **educació social**. I vull recordar-los ací que fa **77 anys** [...] **Drets humans** estem parlant.\nAmb les **esmenes pactades entre PP i Vox** a la **Llei trans**, una **llei d'acompanyament** que revisa l'articulat d'una altra llei. [...] En l'article 3, on deia '**el dret humà a l'autodeterminació de gènere**' s'elimina '**humà**'. [...] s'elimina com a **garantix** per **'es promourà'**. [...] **Negacionisme pur i dur**. [...] **Invisibilització**. [...] Es canvia el nom '**Consell Consultiu Trans**' per '**Consell Consultiu de la Llei 8/2017**'. [...] **Ens estan ficant un número per no ser persones**. [...] Podran entrar en el Consell **entitats com el Fòrum de la Família** i les **associacions catòliques** [...] **contraries als drets de les persones trans**. [...] Article 21, **Actuacions en l'àmbit educatiu**. [...] **De quins menors parlem?** [...] I des de **Comissions** volem que s'aplique el **Reial Decret 1026/2024** [...] **protocols contra l'LGTBIfòbia** [...] **al treball sense armaris**.",
+      "temes": [
+        "igualtat",
+        "educacio",
+        "participacio_ciutadana",
+        "economia"
+      ],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "diversitat",
+          "drets_humans"
+        ],
+        "serveis_publics": [
+          "educacio"
+        ],
+        "economia": [
+          "comerc_ocupacio"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "Kristal Calvo Leyba, representante del Consell Consultiu Trans de CCOO PV, denuncia que las enmiendas pactadas entre PP y Vox a la Ley Trans de la Comunidad Valenciana eliminan garantías de derechos humanos para personas trans, invisibilizan el consejo consultivo y abre la puerta a asociaciones opuestas a estos derechos. Solicita la aplicación del Real Decreto 1026/2024 sobre medidas de igualdad y no discriminación LGTBI en empresas.",
+      "resum_val": "Kristal Calvo Leyba, representant del Consell Consultiu Trans de CCOO PV, denúncia que les esmenes pactades entre PP i Vox a la Llei Trans de la Comunitat Valenciana eliminen garanties de drets humans per a persones trans, invisibilitzen el consell consultiu i obren la porta a associacions oposades a aquests drets. Demanda l'aplicació del Reial Decret 1026/2024 sobre mesures d'igualtat i no discriminació LGTBI a les empreses.",
+      "cap_subtopics": [
+        202,
+        1906,
+        602,
+        1521,
+        1203
+      ],
+      "cap_major": [
+        2,
+        6,
+        12,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "2025-06-26-006",
+      "pleno_id": "2025-06-26",
+      "fecha": "2025-06-26",
+      "mandat_id": "2023-2027",
+      "ordre": 6,
+      "intervinient": "Joan Domínguez Pavía",
+      "entitat": "STA- Intersindical Valenciana",
+      "entitat_id": "sta-intersindical",
+      "tipus_entitat": "sindical",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "Moció de Compromís en defensa d'una educació i formació inclusives i respectuoses amb la diversitat",
+      "idioma_original": "valenciano",
+      "text_cas": "Buenos días. Gracias, alcaldesa. Seré breve.\nInterveno ante esta comisión en nombre de Intersindical Valenciana como **sindicato más representativo del personal funcionario y estatutario** de la Generalitat y como **sindicato mayoritario de la enseñanza pública**. Apoyamos la moción que presenta Compromís en defensa de **una educación y formación inclusivas y respetuosas con la diversidad** por motivos muy sencillos, consideramos que las decisiones que ha tomado el actual gobierno **atentan contra los derechos LGTBI** son **regresivas en materia de derechos sociales e igualdad** y suponen nefastas consecuencias para el conjunto de la población. Nos centraremos en estas. PP y Vox han **eliminado el servicio municipal Infosex**, que ofrecía asesoramiento afectivosexual para jóvenes. Este servicio proporcionaba información sobre prácticas sexuales, métodos anticonceptivos, prevención de enfermedades de transmisión sexual, menstruación, relaciones afectivas, etcétera. ¿Cómo nos podemos permitir prescindir de un servicio como este en un tiempo como los actuales, donde la desinformación está a la orden del día? ¿En manos de quién dejan ustedes la educación afectivosexual de los y de las jóvenes que buscan respuestas o asesoramiento sobre esas materias? ¿A Twitter? ¿A Tiktok? ¿A Youtube? Muchos de esos jóvenes **no tienen el apoyo que necesitan dentro de sus propias casas** y se encuentran perdidos y con miedo. Infosex también realizaba talleres sobre **diversidad sexual, identidades no binarias**, placer y salud sexual. La importancia de encontrar apoyo en este sentido para nuestros jóvenes es incuestionable. No se trata de ideología, sino de **salud pública y bienestar**.\nPor otra parte, en la misma línea, denunciamos que hasta el momento el gobierno de PP y Vox **no ha puesto en marcha nuevas acciones específicas del Plan municipal para la diversidad sexual y de género**, conocido como el **Plan Diversidades**. Plan que fue aprobado bajo el mandato anterior de Compromís y el PSPV. Desde la llegada del nuevo gobierno municipal **no se ha anunciado la continuidad, modificación o implementación activa de ninguna de las 63 acciones** previstas en el plan, que respondían a 11 objetivos estratégicos en torno a la igualdad de trato y no discriminación, la diversidad, la interseccionalidad, la transversalidad, la perspectiva de género y la participación. Este conjunto de actuaciones busca hacer de nuestra ciudad **un municipio más amable, diverso, justo, equitativo, inclusivo, seguro y digno**. ¿Cómo es posible que se haya despreciado una propuesta tan bonita, tan educativa y tan inclusiva para todos y todas? La LOMLOE incorpora de manera explícita el respeto a la diversidad afectivosexual y de género como uno de los principios fundamentales. Educar en este aspecto solo tiene **consecuencias positivas y enriquecedoras para el conjunto de la sociedad** y, por supuesto, para nuestros jóvenes. Se hace **prevención del acoso escolar**, se da difusión de los **protocolos contra la LGTBIfobia**, se fomenta la coeducación y los valores cívicos, se consigue reducir y eliminar los estereotipos sexistas y discriminatorios que tanto estamos viendo en las redes sociales. Hasta cierto punto se puede entender que ustedes no incluyeran en sus programas electorales propuestas respecto a la inclusión y diversidad sexual, pero **desmontar aquello que ya estaba implantado y funcionaba bien** no tiene ningún sentido.\nEn una sociedad que aspira a vivir en libertad, ser plural y democrática, **educar en la diversidad y en la igualdad no es una opción ideológica** ni un lujo progresista, es una **urgencia social, ética y humana**. Lo que está en juego no es solo el futuro de la convivencia, sino la vida emocional, la dignidad y, en muchos casos, la integridad de niños y niñas, jóvenes y adolescentes que cada día atraviesan espacios donde aún se sienten **invisibles, rechazados o confusos**. ¿Qué mensaje estamos lanzando como sociedad si silenciamos esa realidad? Que hay vidas que valen menos, que hay maneras de ser que son incómodas, que la diferencia es algo que debe ocultarse, corregirse o curarse. Ese mensaje repetido entre líneas en cada currículo censurado, en cada taller que se cancela, en cada docente que calla por miedo es una bomba de relojería para la **salud mental y el desarrollo emocional** de muchos menores. El **suicidio es una de las principales causas de muerte entre adolescentes LGTBI** no porque ser LGTBI sea un problema, sino porque lo es crecer sintiéndose invisible o avergonzado. **La administración puede ser refugio o puede ser laberinto. Y la educación es la brújula**.\nAnte sus políticas regresivas, expresamos nuestro apoyo a **un modelo educativo que te forme en libertad, igualdad, espíritu crítico y convivencia democrática**. Apoyamos la moción de Compromís porque creemos que **una sociedad que se priva de educar en el respeto y la diversidad está renunciando a su futuro**.",
+      "text_val": "Bon dia. Gràcies, alcaldessa. Seré breu.\nIntervinc davant d'aquesta comissió el nom d'Intersindical Valenciana com a **sindicat més representatiu del personal funcionari i estatutari** de la Generalitat i com a **sindicat majoritari de l'ensenyament públic**. Donem suport a la moció que presenta Compromís en defensa d'**una educació i formació inclusives i respectuoses amb la diversitat** per uns motius molt senzills, considerem que les decisions que ha pres l'actual govern **atempten contra els drets LGTBI** són **regressives en matèria de drets socials i d'igualtat** i suposen nefastes conseqüències per al conjunt de la població. Ens centrarem en aquestes. PP i Vox han **eliminat el servei municipal Infosex**, que oferia assessorament afectivosexual per a joves. Aquest servei proporcionava informació sobre pràctiques sexuals, mètodes anticonceptius, prevencio de malalties de transmissió sexual, menstruació, relacions afectives, etcètera. Com ens podem permetre prescindir d'un servei com aquest en un temps com els actuals, on la desinformació està a l'ordre del dia? En mans de qui deixen vostés l'educació afectivosexual dels i de les joves que busquen respostes o assessorament sobre eixes matèries? A Twitter? A Tiktok? A Youtube? Molts d'eixos joves **no tenen el suport que necessiten dins de les seues pròpies cases** i es troben perdudes i amb por. Infosex duia a terme tallers sobre **diversitat sexual, identitats no binàries**, plaer i salut sexual. La importància de trobar suport en este sentit per als nostres joves és inqüestionable. No es tracta d'ideologia, sinó de **salut pública i benestar**.\nPer altra banda, en la mateixa línia, denunciem que fins al moment el govern de PP i Vox **no ha posat en marxa accions específiques del Pla municipal per a la diversitat sexual i de gènere**, conegut com el **Pla Diversitats**. Pla que va ser aprovat sota el mandat anterior de Compromís i el PSPV. Des de l'arribada del nou govern municipal **no s'ha anunciat la continuïtat de cap de les 63 accions** previstes al pla, que responien a 11 objectius estratègics al voltant de la igualtat de tracte i no discriminació, la diversitat, la interseccionalitat, la transversalitat, la perspectiva de gènere i la participació. Aquest conjunt d'actuacions busca fer de la nostra ciutat **un municipi més amable, divers, just, equitatiu, inclusiu, segur i digne**. Com és possible que s'haja despreciat una proposta tan xula, tan educativa i tan inclusiva per a tots i totes? La LOMLOE incorpora de manera explícita el respecte a la diversitat afectivosexual i de gènere com un dels principis fonamentals. Educar en aquest aspecte només té **conseqüències positives i enriquidores per al conjunt de la societat** i, per descomptat, per als nostres joves. Es fa **prevenció de l'assetjament escolar**, es dona difusió dels **protocols contra la LGTBIfòbia**, es fomenta la coeducació i els valors cívics, s'aconseguix reduir i eliminar els estereotips sexistes i discriminatoris que tant estem veient a les xarxes socials. Fins a cert punt es pot entendre que vostés no contingueren als seus programes electorals propostes respecte a la inclusió i diversitat sexual, però **desmuntar allò que ja estava implantat i funcionava bé** no té cap sentit.\nEn una societat que aspira a viure en llibertat, ser plural i democràtica, **educar en la diversitat i en la igualtat no és una opció ideològica** ni un luxe progressista, és una **urgència social, ètica i humana**. El que està en joc no és només el futur de la convivència, sinó la vida emocional, la dignitat i, en molts casos, la integritat de xiquets i xiquetes, joves i adolescents que cada dia travessen espais on encara se senten **invisibles, rebutjats o confosos**. Quin missatge estem llançant com a societat si silenciem eixa realitat? Que hi ha vides que valen menys, que hi ha maneres de ser que són incòmodes, que la diferència és una cosa que ha d'ocultar-se, corregir-se o curar-se. Eixe missatge repetit entre línies en cada currículum censurat, en cada taller que es cancel·la, en cada docent que calla per por és una bomba de rellotgeria per a la **salut mental i el desenrotllament emocional** de molts menors. El **suïcidi és una de les principals causes de mort entre adolescents LGTBI** no perquè ser LGTBI siga un problema, sinó perquè ho és créixer sentint-se invisible o avergonyit. **L'administració pot ser refugi o pot ser laberint. I l'educació és la brúixola**.\nDavant de les seues polítiques regressives, expressem el nostre suport a **un model educatiu que et forme en llibertat, igualtat, espirit crític i convivència democràtica**. Donem suport a la moció de Compromís perquè creiem que **una societat que es priva de educar en el respecte i la diversitat està renunciant al seu futur**.",
+      "temes": [
+        "educacio",
+        "igualtat",
+        "joventut",
+        "salut",
+        "participacio_ciutadana"
+      ],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "diversitat",
+          "igualtat_de_genere",
+          "drets_humans"
+        ],
+        "serveis_publics": [
+          "educacio"
+        ],
+        "persones": [
+          "joventut"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "Intersindical Valenciana apoya la moción de Compromís en defensa de una educación inclusiva y respetuosa con la diversidad, denunciando la eliminación del servicio Infosex y la parálisis del Plan Diversidades por el actual gobierno de PP y Vox, considerando estas medidas regresivas en derechos LGTBI y perjudiciales para la salud mental de menores.",
+      "resum_val": "Intersindical Valenciana recolza la moció de Compromís en defensa d'una educació inclusiva i respectuosa amb la diversitat, denunciant l'eliminació del servei Infosex i la paralització del Pla Diversitats pel govern actual de PP i Vox, considerant aquestes mesures regressives en drets LGTBI i perjudicials per a la salut mental de menors.",
+      "cap_subtopics": [
+        202,
+        606,
+        1304
+      ],
+      "cap_major": [
+        2,
+        6,
+        13
+      ]
+    },
+    {
+      "id": "2025-06-26-007",
+      "pleno_id": "2025-06-26",
+      "fecha": "2025-06-26",
+      "mandat_id": "2023-2027",
+      "ordre": 7,
+      "intervinient": "Juan Francisco Fernández Hernández",
+      "entitat": "Col·lectiu Lambda",
+      "entitat_id": "col-lectiu-lambda",
+      "tipus_entitat": "ong",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "Declaració institucional sobre Orgull LGTBI i Llei trans valenciana",
+      "idioma_original": "mixt",
+      "text_cas": "Señora alcaldesa, señores y señores concejales del Partido Socialista, Compromís y Partido Popular. Nos dicen que **València suena a orgullo** y que **la clave es el respeto**, pero lo que se siente desde aquí no es una melodía de respeto ni un **canto a la diversidad**. Suena más bien a canción sintetizada y a remix sin alma. Un playback institucional donde **todo parece estar afinado excepto nuestros derechos**. Porque una vez más **nos sentimos como la canción del verano**. Un mes antes del Orgullo despierta su interés en nosotros y en septiembre **se olvidan de todo**.\nEste año **volverán a no colgar la bandera**. No hay **colectivos en sus actos**. Ustedes generan una agenda de actividades LGTBI, pero **ocultan las iniciativas que nos darían visibilidad**. ¿El Visibles Fest? Oculto en un local. ¿La exposición de referentes? Oculta en un mercado. ¿La manifestación? **Ni mencionarla**. En lugar de ser valientes, **se esconden y nos esconden**. Y sin rubor, piden el sello de **Espacio libre de LGTBIfobia**, en un ejercicio de **hipocresía e endogamia**.\nEl mismo partido que **violenta al colectivo LGTBIQA+** con sus **recortes** es quien se autolegitima. Un acto tan **ridículo y egocéntrico**. Y hablando de espacios libres de LGTBIfobia, **este Ayuntamiento no lo es**. ¿Les parece fuerte? Pues es mucho más suave que **los insultos transfobos** que tuvimos que soportar ante la **pasividad de la alcaldesa**. El año pasado el Ayuntamiento **nos dejó arrastrar** y este año **la alcaldesa nos traiciona otra vez**. Porque PP y Vox **han destrozado la Ley trans valenciana**.\nPorque han **patologizado nuestras identidades**, han impuesto **informes adicionales a nuestros menores**, han **borrado la sensibilización en las aulas**, han **legalizado terapias de conversión encubiertas**. **Torturas legitimadas con sus votos**. La Generalitat lo ha hecho **sin diálogo, sin consenso, sin escuchar a nadie**, por la puerta de atrás, con **cobardía**. Y desde este ayuntamiento no hemos sentido ni una **canción de protesta**, más bien **aplausos**.\nEsto pasa cuando **se vive el Orgullo como una verbena**, cuando **das la espalda** a todas las **entidades LGTBI de la ciudad**. Y **este sábado** ustedes podrán beber y lamentar. Porque en el Orgullo, mientras estas sean sus políticas, **mejor que no**. **No son bienvenidas**. Nuestro Orgullo **suena a rabia, a resistencia, a vivir sin permiso**. Suena a **madres que luchan por las infancias trans**, a **jóvenes que no quieren volver al armario**, a **activistas que no se alquilan**. Porque **el Orgullo no se silencia, no se negocia y no se alquila**.\nEl Orgullo **no es una verbena, es nuestra lucha, nuestra historia, nuestra dignidad, nuestras vidas**.",
+      "text_val": "Senyora alcaldessa, senyores i senyors regidors del Partit Socialista, Compromís i Partit Popular. Ens diuen que **València sona a orgull** i que **la clau és el respecte**, però el que se sent des d'ací no és una melodia de respecte ni un **cant a la diversitat**. Sona més aviat a cançó sintetitzada i a remix sense ànima. Un playback institucional on **tot sembla estar afinat excepte els nostres drets**. Perquè una vegada més **ens sentim com la cançó de l'estiu**. Un mes abans de l'Orgull es desperta el seu interés en nosaltres i al setembre **s'obliden de tot**.\nEnguany **tornaran a no penjar la bandera**. No hi ha **col·lectius en els seus actes**. Vostés generen una agenda d'activitats LGTBI, però **amaguen les iniciatives que ens donarien visibilitat**. El Visibles Fest? Amagat en un local. L'exposició de referents? Amagada en un mercat. La manifestació? **Ni anomenar-la**. En lloc de ser valents, **s'amaguen i ens amaguen**. I sense rubor, demanen el segell d'**Espai lliure de LGTBIfòbia**, en un exercici d'**hipocresia i endogàmia**.\nEl mateix partit que **violenta el col·lectiu LGTBIQA+** amb les seues **retallades** és qui s'autolegitima. Un acte tan **ridícul i egocèntric**. I parlant d'espais lliures de LGTBIfòbia, **aquest Ajuntament no ho és**. Els sembla forta? Doncs és molt més suau que **els insults trànsfobs** que vam haver de suportar davant la **passivitat de l'alcaldessa**. L'any passat l'Ajuntament **ens va deixar arrossegar** i enguany **l'alcaldessa ens traeix una altra vegada**. PP i Vox **han destrossat la Llei trans valenciana**.\nPerquè han **patologitzat les nostres identitats**, han imposat **informes addicionals als nostres menors**, han **esborrat la sensibilització a les aules**, han **legalitzat teràpies de conversió encobertes**. **Tortures legitimades amb els seus vots**. La Generalitat ho ha fet **sense diàleg, sense consens, sense escoltar a ningú**, per la porta de darrere, amb **covardia**. I des d'aquest ajuntament no hem sentit ni una **cançó de protesta**, més aviat **aplaudiments**.\nAçò passa quan **es viu l'Orgull com una verbena**, quan **dones l'esquena** a totes les **entitats LGTBI de la ciutat**. I **aquest dissabte** vostés podran beure i lamentar. Perquè a l'Orgull, mentre aquestes siguen les seues polítiques, **millor que no**. **No són benvingudes**. El nostre Orgull **sona a ràbia, a resistència, a viure sense permís**. Sona a **mares que lluiten per les infàncies trans**, a **joves que no volen tornar a l'armari**, a **activistes que no es lloguen**. Perquè **l'Orgull no es silencia, no es negocia i no es lloga**.\nL'Orgull **no és una verbena, és la nostra lluita, la nostra història, la nostra dignitat, les nostres vides**.",
+      "temes": [
+        "igualtat",
+        "participacio_ciutadana",
+        "barris"
+      ],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "diversitat",
+          "drets_humans"
+        ],
+        "cultura": [
+          "festes"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "El Col·lectiu Lambda critica la hipocresia de l'Ajuntament en les polítiques LGTBI, denunciant l'ocultació d'iniciatives de visibilitat i el suport a retallades de drets del col·lectiu LGTBIQA+, especialment relacionades amb la Llei trans valenciana destruïda pel PP i Vox.",
+      "resum_val": "El Col·lectiu Lambda critica la hipocresia de l'Ajuntament en les polítiques LGTBI, denunciant l'ocultació d'iniciatives de visibilitat i el suport a retallades de drets del col·lectiu LGTBIQA+, especialment relacionades amb la Llei trans valenciana destruïda pel PP i Vox.",
+      "cap_subtopics": [
+        202,
+        1906,
+        2300
+      ],
+      "cap_major": [
+        2,
+        19,
+        23
+      ]
+    },
+    {
+      "id": "2025-06-26-008",
+      "pleno_id": "2025-06-26",
+      "fecha": "2025-06-26",
+      "mandat_id": "2023-2027",
+      "ordre": 8,
+      "intervinient": "Miguel Ayensa Mazo",
+      "entitat": "Club Esportiu LGBTI Dracs València",
+      "entitat_id": "club-esportiu-lgbti-dracs-valencia",
+      "tipus_entitat": "esportiu",
+      "barri_o_zona": "Petxina",
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "castellano",
+      "text_cas": "Señoras y señores del PP-Vox. Represento al Club Esportiu LGTBI+ Dracs de València y vengo a decirles que **tienen ustedes la poca vergüenza** de declarar que respetan a las personas del colectivo LGTBIQA+ **mientras nos recortan los derechos**. Miren, voy a leerles **la barbaridad que han introducido en deporte** en la reforma de autodeterminación de la Ley de Autodeterminación de Género de la Comunitat Valenciana.\nPero para que quede un poquito más claro, porque igual les cuesta, primero se lo digo al castellano y además cambiaré un par de palabritas, para ver si así nos vamos haciendo a la idea el resto de lo que ustedes van haciendo. ¿Vale? Artículo cinco, el deporte. La Generalitat garantizará la plena igualdad y libertad de las personas 'negras' en la práctica deportiva y adoptará las medidas necesarias para eliminar las barreras que la dificultan.\nAhora bien, procurando compatibilizar este derecho con el de las personas 'no negras' que podrían verse discriminadas en las competiciones deportivas por las características físicas de sus competidores. ¿Qué tal queda? Artículo seis, que también modifica en educación. Ahí está.\nSe garantizará el acceso y el uso de las instalaciones del centro de acuerdo con 'el color de piel' sentido, haciendo compatibles los derechos de quienes se manifiesten como 'negras' con los del resto de la comunidad educativa en el uso de espacios públicos, aseos, duchas comunes, etcétera. **Qué vergüenza**. Asimismo, se velará por la privacidad de los menores que pudieran sentirse intimidados por las personas 'negras'.\n¿A que al sustituir personas trans por personas negras, **identidad de género por color de piel**, queda un poquito más claro lo injusto y lo violento de lo que ustedes han tramitado? **Lo que han redactado no es otra cosa que transfobia vestida de lenguaje jurídico**. Son como las leyes de Estados Unidos, esas, las que establecían segregación racial legal, basada en supuestas diferencias biológicas, las que ustedes comentan.\nEstas leyes obligaban a tener baños, vestuarios, fuentes, vagones de tren, escuelas, restaurantes separados, para no vulnerar los derechos de las personas 'no negras', segregadas y por supuesto, de peor calidad. ¿Vale? ¿Y qué es eso de las personas trans y no trans? **Es que no existen las personas no trans. Son personas cis**. Es que no saben ni el lenguaje básico de identidad de género. Es que es una vergüenza en una ley. Esto es increíble. Personas cis. Y hombre, Rocío.\nRocío Gil. **Señora Rocío Gil, ¿se acuerda de mí?** Aquella tarde en la Petxina, que estábais patrocinando los Gay Games, los gallogaymes estos que estáis montando. ¿Vale? **Bajaste apresuradamente al ver que repartíamos folletos alertando** de que vuestro partido iba a recortar los derechos de las personas trans en el deporte. Guau. **Usted me aseguró que no tocarían esos derechos, ni los de las infancias trans. Es mentira tras mentira**.\nHoy pregunto sobre estos juegos, **¿para qué juego sin derechos?** ¿Por qué este pinkwashing? ¿Cómo justifican que la inscripción se gestione en una plataforma estadounidense a la que fluye el dinero de las inscripciones? Y luego,¿por qué **hablan de inclusión en el deporte mientras aprueban leyes que nos excluyen?** **Su contrarreforma y sus acciones segregan, recortan y estigmatizan**. Sean conscientes de ello. Nuestro deporte, nuestra sociedad y sobre todo nuestra juventud merecen exactamente lo contrario, **inclusión, igualdad y verdad que es lo que es el Orgullo**.\nY no vamos a rendirnos. **Devuelvan los derechos que nos han borrado**, saquen su transfobia de nuestras leyes y saquen su transfobia de nuestras instituciones.",
+      "text_val": "Senyores i senyors del PP-Vox. Represente al Club Esportiu LGTBI+ Dracs de València i vinc a dir-los que **tienen la poca vergüenza** de declarar que respecten a les persones del col·lectiu LGTBIQA+ **mentre ens retallen els drets**. Miren, vaig a llegir-los **la barbaritat que han introduït en esport** en la reforma d'autodeterminació de la Llei d'Autodeterminació de Gènere de la Comunitat Valenciana.\nPerò perquè quede un poquit més clar, perquè igual els costa, primer se'ls ho dic al castellà i a més canviaré un parell de paraules, per a veure si així ens vam fent a la idea la resta del que vostès van fent. ¿Val? Article cinc, l'esport. La Generalitat garantirà la plena igualtat i llibertat de les persones 'negres' en la pràctica esportiva i adoptarà les mesures necessàries per a eliminar les barreres que la dificulten.\nAra bé, procurant compatibilitzar aquest dret amb el de les persones 'no negres' que podrien veure's discriminades en les competicions esportives per les característiques físiques dels seus competidors. ¿Què tal queda? Article sis, que també modifica en educació. Ací està. Es garantirà l'accés i l'ús de les instal·lacions del centre d'acord amb 'el color de pell' sentit, fent compatibles els drets de qui es manifeste com a 'negres' amb els de la resta de la comunitat educativa en l'ús d'espais públics, aiguamans, dutxes comunes, etcètera. **Què vergonya**.\nAixí mateix, es vetllarà per la privacitat dels menors que pogueren sentir-se intimidats per les persones 'negres'. ¿A que en substituir persones trans per persones negres, **identitat de gènere per color de pell**, queda un poquit més clar l'injust i el violent del que vostès han tramitat? **Lo que han redactado no és altra cosa que transfòbia revestida de llenguatge jurídic**. Són com les lleis dels Estats Units, les que establien segregació racial legal, basada en suposades diferències biològiques, les que vostès comenten.\nEstes lleis obligaven a tindre banys, vestuaris, fonts, vagons de tren, escoles, restaurants separats, per a no vulnerar els drets de les persones 'no negres', segregades i per supusat, de pitjor qualitat. ¿Val? ¿I què és això de les persones trans i no trans? **És que no existixen les persones no trans. Són persones cis**. És que no saben ni el llenguatge bàsic d'identitat de gènere. És que és una vergonya en una llei. Això és increïble. Persones cis. I home, Rocío.\nRocío Gil. **Senyora Rocío Gil, es recorda de mi?** Aquella vesprada en la Petxina, que estàveu patrocinant els Gay Games, els gallogaymes estos que esteu muntant. ¿Val? **Baixares apresuradamente al veure que repartíem fulletons alertant** de que el vostre partit anava a retaller els drets de les persones trans en l'esport. Guau. **Usted me aseguró que no tocarían esos derechos, ni los de las infancias trans. És mentida darrere mentida**.\nHui pregunt sobre estos jocs, **¿per a què joc sense drets?** ¿Per què este pinkwashing? ¿Com justifiquen que la inscripció es gestione en una plataforma nord-americana a la que fluïx el diner de les inscripcions? I després,¿**per què parlen d'inclusió en l'esport mentre aproven lleis que ens exclouen?** **La seua contrarreforma i les seues accions segreguen, retallen i estigmatitzen**. Siga conscients d'açò. El nostre esport, la nostra societat i sobretot la nostra joventut mereixen exactament lo contrari, **inclusió, igualtat i veritat que és lo que és l'Orgull**.\nI no anem a rendirnos. **Devolgan els drets que ens han esborrat**, trauen la seua transfòbia de les nostres lleis i trauen la seua transfòbia de les nostres institucions.",
+      "temes": [
+        "esports",
+        "educacio",
+        "igualtat",
+        "joventut",
+        "participacio_ciutadana"
+      ],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "diversitat",
+          "drets_humans"
+        ],
+        "serveis_publics": [
+          "esports",
+          "educacio"
+        ],
+        "persones": [
+          "joventut"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "La Petxina"
+      ],
+      "districtes": [
+        "Extramurs"
+      ],
+      "resum_cas": "El representante del Club Esportiu LGBTI Dracs de València critica duramente la reforma de la Ley de Autodeterminación de Género de la Comunitat Valenciana, acusando al PP-Vox de transfobia vestida de lenguaje jurídico que segrega y recorta derechos de personas trans en deporte y educación, comparándola con leyes de segregación racial estadounidenses.",
+      "resum_val": "El representant del Club Esportiu LGBTI Dracs de València critica durament la reforma de la Llei d'Autodeterminació de Gènere de la Comunitat Valenciana, acusant el PP-Vox de transfòbia revestida de llenguatge jurídic que segrega i retalla drets de persones trans en esport i educació, comparant-la amb lleis de segregació racial nord-americanes.",
+      "cap_subtopics": [
+        202,
+        1526,
+        606
+      ],
+      "cap_major": [
+        2,
+        6,
+        15
+      ]
+    },
+    {
+      "id": "2025-06-26-009",
+      "pleno_id": "2025-06-26",
+      "fecha": "2025-06-26",
+      "mandat_id": "2023-2027",
+      "ordre": 9,
+      "intervinient": "Encarna Álvarez Narváez",
+      "entitat": "Asociación Chrysallis Comunitat Valenciana de Menores y Adolescentes Trans",
+      "entitat_id": "chrysallis-comunitat-valenciana",
+      "tipus_entitat": "ong",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "No especificado",
+      "idioma_original": "castellano",
+      "text_cas": "Actúo en nombre y representación de la **Asociación Chrysallis Comunitat Valenciana de Menores y Adolescentes Trans**. Estamos aquí como **madres, padres y familias**. Acompañamos a nuestras **hijas, hijos e hijes trans**. Venimos a hablar de **sus vidas, no de una ideología**. Es **su realidad, su dignidad y sus derechos**. Dignidad que desde este consistorio **nos la han querido arrebatar**. **Derechos que han sido robados**. Vidas que **corren peligro**.\nUstedes están convirtiendo a nuestros menores que sean **atacados por las calles de València**. **Vidas condicionadas al permiso de personas tránsfobas**. Infancias que **quieren y merecen ser felices**. Las instituciones deben **proteger y defender, no atacar**. Como madres nos sentimos **decepcionadas, estafadas y traicionadas**. **Han dejado a nuestras hijas e hijos desprotegidos**. **Celebrar recortes a derechos no es hacer política, es hacer crueldad institucional**. La **Ley trans valenciana salvó y ha salvado vidas**.\nHa permitido que nuestres hijes **viven con autenticidad, con dignidad, con apoyo**. Pedimos que **actúe con firmeza y valentía**. Que se **manifieste públicamente en defensa de la Ley trans**. Que **rechace los recortes aprobados**. Que **garantice que los edificios municipales sean seguros para todes**. Que demuestre que **València sigue siendo una ciudad orgullosa de su diversidad**. **Nuestras hijas, hijos e hijes no son una amenaza**.\nLo único que piden es **vivir en paz**.",
+      "text_val": "Actuïsc en nom i representació de l'**Associació Chrysallis Comunitat Valenciana de Menors i Adolescents Trans**. Estam aquí com a **mares, pares i famílies**. Acompanyam les nostres **filles, fills e fijes trans**. Venim a parlar de **les seues vides, no d'una ideologia**. És **la seua realitat, la seua dignitat i els seus drets**. Dignitat que des d'aquest consistori **ens la han volgut arrebatar**. **Drets que han sigut robats**. Vides que **corren perill**.\nVosaltres esteu convertint als nostres menors que siguen **atacats pels carrers de València**. **Vides condicionades al permís de persones transfòbiques**. Infàncies que **volen i mereixen ser feliç**. Les institucions han de **protegir i defensar, no atacar**. Com a mares ens sentim **decepcionades, estafades i traïdes**. **Han deixat les nostres filles i fills desprotegits**. **Celebrar retalls a drets no és fer política, és fer crueltat institucional**. La **Llei trans valenciana va salvar i ha salvat vides**.\nHa permés que les nostres fijes **visquen amb autenticitat, amb dignitat, amb suport**. Demanem que **actúe amb fermesa i valentía**. Que es **manifeste públicament en defensa de la Llei trans**. Que **rebutge els retalls aprovats**. Que **garantisca que els edificis municipals siguen segurs per a totes**. Que demuestre que **València continua sent una ciutat orgullosa de la seua diversitat**. **Les nostres filles, fills e fijes no són una amenaça**.\nL'únic que demanen és **viure en pau**.",
+      "temes": [
+        "igualtat",
+        "joventut",
+        "participacio_ciutadana",
+        "serveis_socials",
+        "seguretat",
+        "educacio",
+        "salut"
+      ],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "diversitat",
+          "drets_humans"
+        ],
+        "persones": [
+          "joventut"
+        ],
+        "serveis_publics": [
+          "educacio",
+          "salut",
+          "seguretat"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "Una madre de la asociación Chrysallis denuncia los recortes a la Ley trans valenciana y pide al ayuntamiento que defienda públicamente los derechos de menores y adolescentes trans, rechazando la crueldad institucional y garantizando espacios seguros para toda la diversidad.",
+      "resum_val": "Una mare de l'associació Chrysallis denúncia els retalls a la Llei trans valenciana i demana a l'ajuntament que defensa públicament els drets de menors i adolescents trans, rebutjant la crueltat institucional i garantint espais segurs per a tota la diversitat.",
+      "cap_subtopics": [
+        202,
+        204,
+        1304,
+        1401,
+        2000
+      ],
+      "cap_major": [
+        2,
+        13,
+        14,
+        20
+      ]
+    }
+  ]
+}

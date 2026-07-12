@@ -1,0 +1,698 @@
+{
+  "La Seu": {
+    "votos_totales": 348,
+    "votantes": 78,
+    "votos_positivos": 331,
+    "votantes_pos": 78,
+    "votos_negativos": 17,
+    "votantes_neg": 17
+  },
+  "La Xerea": {
+    "votos_totales": 312,
+    "votantes": 85,
+    "votos_positivos": 296,
+    "votantes_pos": 84,
+    "votos_negativos": 16,
+    "votantes_neg": 16
+  },
+  "El Carme": {
+    "votos_totales": 1047,
+    "votantes": 215,
+    "votos_positivos": 1007,
+    "votantes_pos": 211,
+    "votos_negativos": 40,
+    "votantes_neg": 40
+  },
+  "El Pilar": {
+    "votos_totales": 684,
+    "votantes": 133,
+    "votos_positivos": 643,
+    "votantes_pos": 130,
+    "votos_negativos": 41,
+    "votantes_neg": 41
+  },
+  "El Mercat": {
+    "votos_totales": 480,
+    "votantes": 100,
+    "votos_positivos": 452,
+    "votantes_pos": 100,
+    "votos_negativos": 28,
+    "votantes_neg": 28
+  },
+  "Sant Francesc": {
+    "votos_totales": 386,
+    "votantes": 101,
+    "votos_positivos": 369,
+    "votantes_pos": 100,
+    "votos_negativos": 17,
+    "votantes_neg": 17
+  },
+  "Russafa": {
+    "votos_totales": 2322,
+    "votantes": 601,
+    "votos_positivos": 2186,
+    "votantes_pos": 597,
+    "votos_negativos": 136,
+    "votantes_neg": 136
+  },
+  "El Pla Del Remei": {
+    "votos_totales": 487,
+    "votantes": 143,
+    "votos_positivos": 455,
+    "votantes_pos": 141,
+    "votos_negativos": 32,
+    "votantes_neg": 32
+  },
+  "La Gran Via": {
+    "votos_totales": 984,
+    "votantes": 282,
+    "votos_positivos": 931,
+    "votantes_pos": 278,
+    "votos_negativos": 53,
+    "votantes_neg": 53
+  },
+  "El Botanic": {
+    "votos_totales": 1858,
+    "votantes": 272,
+    "votos_positivos": 1730,
+    "votantes_pos": 269,
+    "votos_negativos": 128,
+    "votantes_neg": 128
+  },
+  "La Roqueta": {
+    "votos_totales": 879,
+    "votantes": 177,
+    "votos_positivos": 794,
+    "votantes_pos": 176,
+    "votos_negativos": 85,
+    "votantes_neg": 85
+  },
+  "La Petxina": {
+    "votos_totales": 3983,
+    "votantes": 569,
+    "votos_positivos": 3710,
+    "votantes_pos": 565,
+    "votos_negativos": 273,
+    "votantes_neg": 273
+  },
+  "Arrancapins": {
+    "votos_totales": 3920,
+    "votantes": 600,
+    "votos_positivos": 3618,
+    "votantes_pos": 587,
+    "votos_negativos": 302,
+    "votantes_neg": 302
+  },
+  "Campanar": {
+    "votos_totales": 1574,
+    "votantes": 348,
+    "votos_positivos": 1508,
+    "votantes_pos": 345,
+    "votos_negativos": 66,
+    "votantes_neg": 66
+  },
+  "Les Tendetes": {
+    "votos_totales": 412,
+    "votantes": 92,
+    "votos_positivos": 394,
+    "votantes_pos": 92,
+    "votos_negativos": 18,
+    "votantes_neg": 18
+  },
+  "El Calvari": {
+    "votos_totales": 109,
+    "votantes": 37,
+    "votos_positivos": 105,
+    "votantes_pos": 37,
+    "votos_negativos": 4,
+    "votantes_neg": 4
+  },
+  "Sant Pau": {
+    "votos_totales": 3405,
+    "votantes": 745,
+    "votos_positivos": 3252,
+    "votantes_pos": 739,
+    "votos_negativos": 153,
+    "votantes_neg": 153
+  },
+  "Marxalenes": {
+    "votos_totales": 1006,
+    "votantes": 160,
+    "votos_positivos": 981,
+    "votantes_pos": 160,
+    "votos_negativos": 25,
+    "votantes_neg": 25
+  },
+  "Morvedre": {
+    "votos_totales": 2633,
+    "votantes": 351,
+    "votos_positivos": 2551,
+    "votantes_pos": 350,
+    "votos_negativos": 82,
+    "votantes_neg": 82
+  },
+  "Trinitat": {
+    "votos_totales": 1756,
+    "votantes": 275,
+    "votos_positivos": 1713,
+    "votantes_pos": 275,
+    "votos_negativos": 43,
+    "votantes_neg": 43
+  },
+  "Tormos": {
+    "votos_totales": 734,
+    "votantes": 137,
+    "votos_positivos": 705,
+    "votantes_pos": 137,
+    "votos_negativos": 29,
+    "votantes_neg": 29
+  },
+  "Sant Antoni": {
+    "votos_totales": 2082,
+    "votantes": 295,
+    "votos_positivos": 2015,
+    "votantes_pos": 293,
+    "votos_negativos": 67,
+    "votantes_neg": 67
+  },
+  "Exposicio": {
+    "votos_totales": 978,
+    "votantes": 221,
+    "votos_positivos": 929,
+    "votantes_pos": 218,
+    "votos_negativos": 49,
+    "votantes_neg": 49
+  },
+  "Mestalla": {
+    "votos_totales": 1687,
+    "votantes": 365,
+    "votos_positivos": 1610,
+    "votantes_pos": 365,
+    "votos_negativos": 77,
+    "votantes_neg": 77
+  },
+  "Jaume Roig": {
+    "votos_totales": 672,
+    "votantes": 126,
+    "votos_positivos": 646,
+    "votantes_pos": 124,
+    "votos_negativos": 26,
+    "votantes_neg": 26
+  },
+  "Ciutat Universitaria": {
+    "votos_totales": 308,
+    "votantes": 68,
+    "votos_positivos": 289,
+    "votantes_pos": 68,
+    "votos_negativos": 19,
+    "votantes_neg": 19
+  },
+  "Nou Moles": {
+    "votos_totales": 2870,
+    "votantes": 505,
+    "votos_positivos": 2772,
+    "votantes_pos": 504,
+    "votos_negativos": 98,
+    "votantes_neg": 98
+  },
+  "Soternes": {
+    "votos_totales": 556,
+    "votantes": 189,
+    "votos_positivos": 538,
+    "votantes_pos": 187,
+    "votos_negativos": 18,
+    "votantes_neg": 18
+  },
+  "Tres Forques": {
+    "votos_totales": 567,
+    "votantes": 115,
+    "votos_positivos": 553,
+    "votantes_pos": 114,
+    "votos_negativos": 14,
+    "votantes_neg": 14
+  },
+  "La Fontsanta": {
+    "votos_totales": 188,
+    "votantes": 86,
+    "votos_positivos": 186,
+    "votantes_pos": 86,
+    "votos_negativos": 2,
+    "votantes_neg": 2
+  },
+  "La Llum": {
+    "votos_totales": 337,
+    "votantes": 86,
+    "votos_positivos": 330,
+    "votantes_pos": 85,
+    "votos_negativos": 7,
+    "votantes_neg": 7
+  },
+  "Patraix": {
+    "votos_totales": 4748,
+    "votantes": 622,
+    "votos_positivos": 4621,
+    "votantes_pos": 614,
+    "votos_negativos": 127,
+    "votantes_neg": 127
+  },
+  "Sant Isidre": {
+    "votos_totales": 2378,
+    "votantes": 521,
+    "votos_positivos": 2283,
+    "votantes_pos": 519,
+    "votos_negativos": 95,
+    "votantes_neg": 95
+  },
+  "Vara De Quart": {
+    "votos_totales": 1594,
+    "votantes": 262,
+    "votos_positivos": 1551,
+    "votantes_pos": 261,
+    "votos_negativos": 43,
+    "votantes_neg": 43
+  },
+  "Safranar": {
+    "votos_totales": 2578,
+    "votantes": 391,
+    "votos_positivos": 2497,
+    "votantes_pos": 389,
+    "votos_negativos": 81,
+    "votantes_neg": 81
+  },
+  "Favara": {
+    "votos_totales": 334,
+    "votantes": 71,
+    "votos_positivos": 321,
+    "votantes_pos": 71,
+    "votos_negativos": 13,
+    "votantes_neg": 13
+  },
+  "La Raiosa": {
+    "votos_totales": 1869,
+    "votantes": 320,
+    "votos_positivos": 1829,
+    "votantes_pos": 317,
+    "votos_negativos": 40,
+    "votantes_neg": 40
+  },
+  "L'Hort De Senabre": {
+    "votos_totales": 1393,
+    "votantes": 245,
+    "votos_positivos": 1349,
+    "votantes_pos": 245,
+    "votos_negativos": 44,
+    "votantes_neg": 44
+  },
+  "La Creu Coberta": {
+    "votos_totales": 712,
+    "votantes": 101,
+    "votos_positivos": 693,
+    "votantes_pos": 99,
+    "votos_negativos": 19,
+    "votantes_neg": 19
+  },
+  "Sant Marcel.Li": {
+    "votos_totales": 800,
+    "votantes": 143,
+    "votos_positivos": 785,
+    "votantes_pos": 143,
+    "votos_negativos": 15,
+    "votantes_neg": 15
+  },
+  "Cami Real": {
+    "votos_totales": 683,
+    "votantes": 133,
+    "votos_positivos": 671,
+    "votantes_pos": 133,
+    "votos_negativos": 12,
+    "votantes_neg": 12
+  },
+  "Montolivet": {
+    "votos_totales": 2426,
+    "votantes": 371,
+    "votos_positivos": 2350,
+    "votantes_pos": 368,
+    "votos_negativos": 76,
+    "votantes_neg": 76
+  },
+  "En Corts": {
+    "votos_totales": 1308,
+    "votantes": 250,
+    "votos_positivos": 1265,
+    "votantes_pos": 249,
+    "votos_negativos": 43,
+    "votantes_neg": 43
+  },
+  "Malilla": {
+    "votos_totales": 6005,
+    "votantes": 991,
+    "votos_positivos": 5833,
+    "votantes_pos": 990,
+    "votos_negativos": 172,
+    "votantes_neg": 172
+  },
+  "La Fonteta S.Lluis": {
+    "votos_totales": 241,
+    "votantes": 114,
+    "votos_positivos": 235,
+    "votantes_pos": 114,
+    "votos_negativos": 6,
+    "votantes_neg": 6
+  },
+  "Na Rovella": {
+    "votos_totales": 513,
+    "votantes": 75,
+    "votos_positivos": 503,
+    "votantes_pos": 73,
+    "votos_negativos": 10,
+    "votantes_neg": 10
+  },
+  "La Punta": {
+    "votos_totales": 444,
+    "votantes": 196,
+    "votos_positivos": 434,
+    "votantes_pos": 196,
+    "votos_negativos": 10,
+    "votantes_neg": 10
+  },
+  "Ciutat De Les Arts I De Les Ciencies": {
+    "votos_totales": 1610,
+    "votantes": 320,
+    "votos_positivos": 1567,
+    "votantes_pos": 318,
+    "votos_negativos": 43,
+    "votantes_neg": 43
+  },
+  "El Grau": {
+    "votos_totales": 749,
+    "votantes": 169,
+    "votos_positivos": 723,
+    "votantes_pos": 169,
+    "votos_negativos": 26,
+    "votantes_neg": 26
+  },
+  "Cabanyal-Canyamelar": {
+    "votos_totales": 1644,
+    "votantes": 322,
+    "votos_positivos": 1576,
+    "votantes_pos": 317,
+    "votos_negativos": 68,
+    "votantes_neg": 68
+  },
+  "La Malva-Rosa": {
+    "votos_totales": 1049,
+    "votantes": 210,
+    "votos_positivos": 1015,
+    "votantes_pos": 210,
+    "votos_negativos": 34,
+    "votantes_neg": 34
+  },
+  "Betero": {
+    "votos_totales": 793,
+    "votantes": 167,
+    "votos_positivos": 768,
+    "votantes_pos": 166,
+    "votos_negativos": 25,
+    "votantes_neg": 25
+  },
+  "Natzaret": {
+    "votos_totales": 310,
+    "votantes": 67,
+    "votos_positivos": 296,
+    "votantes_pos": 67,
+    "votos_negativos": 14,
+    "votantes_neg": 14
+  },
+  "Aiora": {
+    "votos_totales": 2560,
+    "votantes": 509,
+    "votos_positivos": 2478,
+    "votantes_pos": 504,
+    "votos_negativos": 82,
+    "votantes_neg": 82
+  },
+  "Albors": {
+    "votos_totales": 953,
+    "votantes": 213,
+    "votos_positivos": 925,
+    "votantes_pos": 211,
+    "votos_negativos": 28,
+    "votantes_neg": 28
+  },
+  "La Creu Del Grau": {
+    "votos_totales": 1846,
+    "votantes": 415,
+    "votos_positivos": 1782,
+    "votantes_pos": 413,
+    "votos_negativos": 64,
+    "votantes_neg": 64
+  },
+  "Cami Fondo": {
+    "votos_totales": 671,
+    "votantes": 138,
+    "votos_positivos": 654,
+    "votantes_pos": 138,
+    "votos_negativos": 17,
+    "votantes_neg": 17
+  },
+  "Penya-Roja": {
+    "votos_totales": 1854,
+    "votantes": 542,
+    "votos_positivos": 1768,
+    "votantes_pos": 536,
+    "votos_negativos": 86,
+    "votantes_neg": 86
+  },
+  "L'Illa Perduda": {
+    "votos_totales": 627,
+    "votantes": 149,
+    "votos_positivos": 601,
+    "votantes_pos": 148,
+    "votos_negativos": 26,
+    "votantes_neg": 26
+  },
+  "Ciutat Jardi": {
+    "votos_totales": 1598,
+    "votantes": 330,
+    "votos_positivos": 1528,
+    "votantes_pos": 325,
+    "votos_negativos": 70,
+    "votantes_neg": 70
+  },
+  "L'Amistat": {
+    "votos_totales": 550,
+    "votantes": 103,
+    "votos_positivos": 525,
+    "votantes_pos": 102,
+    "votos_negativos": 25,
+    "votantes_neg": 25
+  },
+  "La Vega Baixa": {
+    "votos_totales": 533,
+    "votantes": 139,
+    "votos_positivos": 507,
+    "votantes_pos": 138,
+    "votos_negativos": 26,
+    "votantes_neg": 26
+  },
+  "La Carrasca": {
+    "votos_totales": 477,
+    "votantes": 104,
+    "votos_positivos": 457,
+    "votantes_pos": 103,
+    "votos_negativos": 20,
+    "votantes_neg": 20
+  },
+  "Benimaclet": {
+    "votos_totales": 4088,
+    "votantes": 604,
+    "votos_positivos": 3967,
+    "votantes_pos": 599,
+    "votos_negativos": 121,
+    "votantes_neg": 121
+  },
+  "Cami De Vera": {
+    "votos_totales": 1461,
+    "votantes": 201,
+    "votos_positivos": 1425,
+    "votantes_pos": 200,
+    "votos_negativos": 36,
+    "votantes_neg": 36
+  },
+  "Els Orriols": {
+    "votos_totales": 2677,
+    "votantes": 324,
+    "votos_positivos": 2567,
+    "votantes_pos": 322,
+    "votos_negativos": 110,
+    "votantes_neg": 110
+  },
+  "Torrefiel": {
+    "votos_totales": 2092,
+    "votantes": 367,
+    "votos_positivos": 2028,
+    "votantes_pos": 366,
+    "votos_negativos": 64,
+    "votantes_neg": 64
+  },
+  "Sant Llorens": {
+    "votos_totales": 2452,
+    "votantes": 381,
+    "votos_positivos": 2381,
+    "votantes_pos": 380,
+    "votos_negativos": 71,
+    "votantes_neg": 71
+  },
+  "Benicalap": {
+    "votos_totales": 4933,
+    "votantes": 1032,
+    "votos_positivos": 4675,
+    "votantes_pos": 1029,
+    "votos_negativos": 258,
+    "votantes_neg": 258
+  },
+  "Ciutat Fallera": {
+    "votos_totales": 442,
+    "votantes": 74,
+    "votos_positivos": 425,
+    "votantes_pos": 74,
+    "votos_negativos": 17,
+    "votantes_neg": 17
+  },
+  "Benifaraig": {
+    "votos_totales": 315,
+    "votantes": 93,
+    "votos_positivos": 293,
+    "votantes_pos": 93,
+    "votos_negativos": 22,
+    "votantes_neg": 22
+  },
+  "Poble Nou": {
+    "votos_totales": 120,
+    "votantes": 58,
+    "votos_positivos": 115,
+    "votantes_pos": 58,
+    "votos_negativos": 5,
+    "votantes_neg": 5
+  },
+  "Carpesa": {
+    "votos_totales": 266,
+    "votantes": 144,
+    "votos_positivos": 247,
+    "votantes_pos": 144,
+    "votos_negativos": 19,
+    "votantes_neg": 19
+  },
+  "Les Cases De Barcena": {
+    "votos_totales": 19,
+    "votantes": 15,
+    "votos_positivos": 18,
+    "votantes_pos": 14,
+    "votos_negativos": 1,
+    "votantes_neg": 1
+  },
+  "Mahuella-Tauladella": {
+    "votos_totales": 0,
+    "votantes": 0,
+    "votos_positivos": 0,
+    "votantes_pos": 0,
+    "votos_negativos": 0,
+    "votantes_neg": 0
+  },
+  "Massarrojos": {
+    "votos_totales": 340,
+    "votantes": 141,
+    "votos_positivos": 322,
+    "votantes_pos": 141,
+    "votos_negativos": 18,
+    "votantes_neg": 18
+  },
+  "Borboto": {
+    "votos_totales": 113,
+    "votantes": 68,
+    "votos_positivos": 105,
+    "votantes_pos": 68,
+    "votos_negativos": 8,
+    "votantes_neg": 8
+  },
+  "Benimamet": {
+    "votos_totales": 1519,
+    "votantes": 286,
+    "votos_positivos": 1448,
+    "votantes_pos": 284,
+    "votos_negativos": 71,
+    "votantes_neg": 71
+  },
+  "Beniferri": {
+    "votos_totales": 263,
+    "votantes": 63,
+    "votos_positivos": 248,
+    "votantes_pos": 63,
+    "votos_negativos": 15,
+    "votantes_neg": 15
+  },
+  "El Forn D'Alcedo": {
+    "votos_totales": 240,
+    "votantes": 68,
+    "votos_positivos": 231,
+    "votantes_pos": 68,
+    "votos_negativos": 9,
+    "votantes_neg": 9
+  },
+  "Castellar-L'Oliveral": {
+    "votos_totales": 928,
+    "votantes": 150,
+    "votos_positivos": 899,
+    "votantes_pos": 149,
+    "votos_negativos": 29,
+    "votantes_neg": 29
+  },
+  "Pinedo": {
+    "votos_totales": 511,
+    "votantes": 143,
+    "votos_positivos": 484,
+    "votantes_pos": 139,
+    "votos_negativos": 27,
+    "votantes_neg": 27
+  },
+  "El Saler": {
+    "votos_totales": 726,
+    "votantes": 155,
+    "votos_positivos": 696,
+    "votantes_pos": 155,
+    "votos_negativos": 30,
+    "votantes_neg": 30
+  },
+  "El Palmar": {
+    "votos_totales": 234,
+    "votantes": 72,
+    "votos_positivos": 231,
+    "votantes_pos": 72,
+    "votos_negativos": 3,
+    "votantes_neg": 3
+  },
+  "El Perellonet": {
+    "votos_totales": 167,
+    "votantes": 70,
+    "votos_positivos": 158,
+    "votantes_pos": 68,
+    "votos_negativos": 9,
+    "votantes_neg": 9
+  },
+  "La Torre": {
+    "votos_totales": 680,
+    "votantes": 109,
+    "votos_positivos": 656,
+    "votantes_pos": 109,
+    "votos_negativos": 24,
+    "votantes_neg": 24
+  },
+  "Faitanar": {
+    "votos_totales": 402,
+    "votantes": 77,
+    "votos_positivos": 380,
+    "votantes_pos": 77,
+    "votos_negativos": 22,
+    "votantes_neg": 22
+  }
+}

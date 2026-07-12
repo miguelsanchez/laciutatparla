@@ -1,0 +1,69 @@
+{
+  "id": "2021-09-30",
+  "fecha": "2021-09-30",
+  "tipo": "ordinaria",
+  "mandat_id": "2019-2023",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2021-09-30",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20210930_0945_0_firmadoweb.pdf/4b8ef4af-fc39-0d89-888a-432a01bc004d?t=1635492100137",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20210930_0945_0_firmadoweb.pdf/50a133dc-6d79-7a3c-9098-359ec5c2d2b8?t=1633331333524",
+  "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-174",
+  "num_intervencions": 1,
+  "intervencions": [
+    {
+      "id": "2021-09-30-001",
+      "pleno_id": "2021-09-30",
+      "fecha": "2021-09-30",
+      "mandat_id": "2019-2023",
+      "ordre": 1,
+      "intervinient": "[***]",
+      "entitat": "Associació de Veïns de Penya-roja / Plataforma Vecinal Barrio de Penya-roja",
+      "entitat_id": "plataforma-vecinal-penyaroja",
+      "tipus_entitat": "plataforma",
+      "barri_o_zona": "Penya-roja, Marítim",
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "mixt",
+      "text_cas": "Bon dia. Excel·lentíssim senyor alcalde, senyores regidores i senyors regidors. Mi nombre es [*] y vengo a este Pleno en representación de la **Plataforma Vecinal Barrio de Penya-roja** para tratar un tema que **afecta a toda la ciudad**, pero especialmente al **distrito Marítimo** al que nosotros pertenecemos. Desde hace tiempo, **Penya-roja viene sufriendo un incremento de la inseguridad ciudadana**. Como en su día denunciamos, **han tratado de ocupar en dos ocasiones el solar**, han ocupado la parte inferior del puente del Ángel Custodio.\nAdemás, hemos padecido durante la pandemia **botellones masivos** tanto en el camino de Penya-roja como en la calle 3 de Abril y varias viviendas en la avenida de Francia **han sido objeto de robos y violencia**. Pedimos entonces y volvemos a pedir **una patrulla de la Policía Local asignada a Penya-roja** y un **retén de la Policía Local**, así como el **incremento general de los efectivos policiales**.\nPor todo ello, cuando la Asociación Zero Incívics nos pidió colaboración para intervenir en este Pleno sobre la **grave situación que atraviesa el Cabanyal**, accedimos de inmediato pues creemos que es necesario **una acción directa y contundente** para evitar que esta ciudad evolucione hacia **un estado de inseguridad general**, teniendo en cuenta que **tenemos derecho a vivir en una ciudad limpia y segura**.\nDit això, passe la paraula a la portaveu de Zero Incívics, [*].",
+      "text_val": "Bon dia. Excel·lentíssim senyor alcalde, senyores regidores i senyors regidors. El meu nom és [***] i vinc a aquest Ple en representació de la Plataforma Veïnal Barri de Penya-roja per a tractar un tema que afecta a tota la ciutat, però especialment al districte Marítim al que nosaltres pertanyem. Des de fa temps, Penya-roja ve patint un increment de la inseguretat ciutadana. Com en el seu dia denunciàrem, han tractat d'ocupar en dos ocasions el solar del camí de Penya-roja, han ocupat la part inferior del pont de l'Àngel Custodi.\nA més, hem patit durant la pandèmia botellons massius tant en el camí de Penya-roja com en el carrer 3 d'Abril i diverses vivendes en l'avinguda de França han sigut objecte de robos i violència en els últims mesos. Demanàvem aleshores i tornarem a demanar una patrulla de la Policia Local assignada a Penya-roja i un retén de la Policia Local, així com l'increment general dels efectius policials.\nPer tot això, quan l'Associació Zero Incívics ens va demanar col·laboració per a intervindre en aquest Ple sobre la greu situació que travessa el Cabanyal, accedírem de seguida perquè creiem que és necessària una acció directa i contundent per a evitar que esta ciutat evolucione cap a un estat d'inseguretat general, tenint en compte que tenim dret a viure en una ciutat neta i segura.\nDit açò, passe la paraula a la portaveu de Zero Incívics, [***].",
+      "temes": [
+        "seguretat",
+        "mobilitat",
+        "barris",
+        "participacio_ciutadana",
+        "altres"
+      ],
+      "temes_v2": {
+        "serveis_publics": [
+          "seguretat"
+        ],
+        "urbanisme": [
+          "espai_public"
+        ],
+        "drets_i_igualtat": [
+          "drets_humans"
+        ]
+      },
+      "ambit": "multi_barri",
+      "zones": [
+        "Penya-Roja",
+        "Cabanyal-Canyamelar"
+      ],
+      "districtes": [
+        "Camins al Grau",
+        "Poblats Marítims"
+      ],
+      "resum_cas": "Representante de Penya-roja denuncia incremento de inseguridad ciudadana, ocupaciones ilegales, botellones masivos y robos, pidiendo patrullas de Policía Local asignadas y aumento de efectivos. Apoya la intervención de Zero Incívics sobre problemas similares en el Cabanyal.",
+      "resum_val": "Representant de Penya-roja denúncia l'increment d'inseguretat ciutadana, ocupacions il·legals, botellons massius i robos, demanant patrulles de Policia Local assignades i increment d'efectius. Recolza la intervenció de Zero Incívics sobre problemes similars al Cabanyal.",
+      "cap_subtopics": [
+        1201,
+        1401,
+        1906
+      ],
+      "cap_major": [
+        12,
+        14,
+        19
+      ]
+    }
+  ]
+}

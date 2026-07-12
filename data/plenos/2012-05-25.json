@@ -1,0 +1,57 @@
+{
+  "id": "2012-05-25",
+  "fecha": "2012-05-25",
+  "tipo": "ordinaria",
+  "mandat_id": "2011-2015",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2012-05-25",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20120525_1045_0_firmadoweb.pdf/57154516-75dc-1d33-fd47-83ce498842ae?t=1613212327206",
+  "url_orden_dia": null,
+  "url_video": "https://players.cdn.enetres.net/live/1B4DA0F1F28C4AC4BA9AE203080C30C8021",
+  "num_intervencions": 1,
+  "intervencions": [
+    {
+      "id": "2012-05-25-001",
+      "pleno_id": "2012-05-25",
+      "fecha": "2012-05-25",
+      "mandat_id": "2011-2015",
+      "ordre": 1,
+      "intervinient": "[***]",
+      "entitat": "Col·lectiu Lambda",
+      "entitat_id": "col-lectiu-lambda",
+      "tipus_entitat": "ong",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "Moció sobre drets i protecció del col·lectiu LGTBI",
+      "idioma_original": "valenciano",
+      "text_cas": "Señora alcaldesa, regidores, regidores.\n\nDesde el Col·lectiu Lambda queremos pedir el voto a favor de esta moción. En términos parecidos es lo que aprobó el Consejo de Ministros hace dos semanas o ayer mismo el Parlamento europeo, así como otros ayuntamientos y cortes autonómicas de todo el Estado español.\n\n**Ser lesbiana, gay, transexual o bisexual continúa siendo motivo de discriminación y persecución** en todo el mundo. Continuamos teniendo noticias a diario sobre **asesinatos por motivo de orientación sexual e identidad de género**, como el caso del joven gay Daniel Zamudio en Chile o la transexual Agnès Torres en México. O de **suicidios debido al acoso**, como Kenneth Weishuhn en EUA. **En cinco países se nos condena a muerte** por el único motivo de ser como somos.\n\nPero no hemos de irnos tan lejos. En España, **los estudios dicen que más del 60% de los jóvenes gays, lesbianas, transexuales y bisexuales** afirman haber sufrido **agresiones físicas o psicológicas** en sus institutos. Cifras que, como sociedad que lucha por el bienestar de toda la ciudadanía, no podemos permitir.\n\nPor eso, **la implicación de las Administraciones públicas es fundamental** para acabar con esta lacra social que supone **un ataque frontal al derecho constitucional** al ejercicio de la libre personalidad. Además, en un momento de crisis como el que estamos viviendo no podemos permitir que nuestro colectivo, como **población vulnerable**, sufra en primera persona recortes en políticas que tienen por objetivo avanzar en el reconocimiento de la diversidad sexual en nuestra sociedad y acabar con tantas situaciones de exclusión y discriminación que continuamos viviendo.\n\nPara muchos adolescentes gays, lesbianas y bisexuales, para la marginada población de mujeres y hombres transexuales, **saber que las instituciones están de nuestro lado** y se comprometen con nuestro bienestar supone una inyección de optimismo y autoafirmación muy importante. **La lucha contra la homofobia, la transfobia y la bifobia** debe ser una lucha conjunta y por eso esperamos de este Ayuntamiento **una posición clara y firme** en este sentido.\n\nMuchas gracias.",
+      "text_val": "Senyora alcaldessa, regidores, regidors.\n\nDes del Col·lectiu Lambda volem demanar el vot a favor d'aquesta moció. En termes pareguts és el què va aprovar el Consell de Ministres fa dues setmanes o ahir mateix el Parlament europeu, així com d'altres ajuntaments i corts autonòmiques de tot l'Estat espanyol.\n\n**Ser lesbiana, gai, transsexual o bisexual continua sent motiu de discriminació i persecució** arreu de tot el món. Continuem tenint notícies a diari sobre **assassinats per motiu d'orientació sexual i identitat de gènere**, com el cas del jove gai Daniel Zamudio a Xile o la transsexual Agnès Torres a Mèxic. O de **suïcidis degut a l'assetjament**, com Kenneth Weishuhn als EUA. **En cinc països se'ns condemna a mort** per l'únic motiu de ser com som.\n\nPerò no hem d'anar-nos tan lluny. En Espanya, **els estudis diuen que més del 60% dels joves gais, lesbianes, transsexuals i bisexuals** afirmen haver patit **agressions físiques o psicològiques** en els seus instituts. Xifres que, com a societat que lluita pel benestar de tota la ciutadania, no podem permetre.\n\nPer això, **la implicació de les Administracions públiques és fonamental** per acabar amb aquesta xacra social que suposa **un atac frontal al dret constitucional** a l'exercici de la lliure personalitat. A més, en un moment de crisis com el que estem vivint no podem permetre que el nostre col·lectiu, com a **població vulnerable**, patisca en primera persona retallades en polítiques que tenen per objectiu avançar en el reconeixement de la diversitat sexual a la nostra societat i acabar amb tantes situacions d'exclusió i discriminació que continuem vivint.\n\nPer a molts adolescents gais, lesbianes i bisexuals, per a la marginada població de dones i homes transsexuals, **saber que les institucions estan del nostre costat** i es comprometen amb el nostre benestar suposa una injecció d'optimisme i autoafirmació molt important. **La lluita contra l'homofòbia, la transfòbia i la bifòbia** ha de ser una lluita conjunta i per això esperem d'aquest Ajuntament **una posició clara i ferma** en aquest sentit.\n\nMoltes gràcies.",
+      "temes": [],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "diversitat",
+          "interculturalitat_i_antiracisme"
+        ],
+        "persones": [
+          "joventut"
+        ],
+        "serveis_publics": [
+          "seguretat"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "El Col·lectiu Lambda demana vot a favor d'una moció sobre protecció del col·lectiu LGTBI, destacant la discriminació, violència i suïcidis que pateix aquest col·lectiu tant a nivell mundial com a Espanya, i reclamant l'implicació clara de les administracions públiques.",
+      "resum_val": "El Col·lectiu Lambda demana vot a favor d'una moció sobre protecció del col·lectiu LGTBI, destacant la discriminació, violència i suïcidis que pateix aquest col·lectiu tant a nivell mundial com a Espanya, i reclamant la implicació clara de les administracions públiques.",
+      "cap_subtopics": [
+        202,
+        205,
+        1304
+      ],
+      "cap_major": [
+        2,
+        13
+      ]
+    }
+  ]
+}

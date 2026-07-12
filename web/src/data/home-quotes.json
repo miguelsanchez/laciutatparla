@@ -1,0 +1,436 @@
+[
+  {
+    "text": "El vecindario hemos dejado de ser el protagonista.",
+    "text_val": "El veïnat hem deixat de ser el protagonista.",
+    "entity": "Plataforma per Russafa",
+    "location": "Russafa",
+    "year": "2026"
+  },
+  {
+    "text": "No es solo una cuestión urbanística, es una cuestión social, ambiental, política y de derechos.",
+    "text_val": "No és només una qüestió urbanística, és una qüestió social, ambiental, política i de drets.",
+    "entity": "Plataforma per Russafa",
+    "location": "Russafa",
+    "year": "2026"
+  },
+  {
+    "text": "Implantar mecanismos de participación real.",
+    "text_val": "Implantar mecanismes de participació real.",
+    "entity": "Plataforma per Russafa",
+    "location": "Russafa",
+    "year": "2026"
+  },
+  {
+    "text": "Valencia ha de ser para las personas, no para los coches.",
+    "text_val": "València ha de ser per a les persones, no per als cotxes.",
+    "entity": "Intersindical Valenciana",
+    "location": "",
+    "year": "2026"
+  },
+  {
+    "text": "Del 2011 al 2014 se perdieron más de 6.000 empleos.",
+    "text_val": "Del 2011 al 2014 es van perdre més de 6.000 llocs de treball.",
+    "entity": "Intersindical Valenciana",
+    "location": "",
+    "year": "2026"
+  },
+  {
+    "text": "Se eliminaron 277 unidades de educación infantil.",
+    "text_val": "Es van eliminar 277 unitats d'educació infantil.",
+    "entity": "Intersindical Valenciana",
+    "location": "",
+    "year": "2026"
+  },
+  {
+    "text": "Fueron los vecinos y las vecinas quienes sacaron el barro de las calles.",
+    "text_val": "Van ser els veïns i les veïnes els que van traure el fang dels carrers.",
+    "entity": "Asociación de Víctimas de la DANA 29 d'Octubre",
+    "location": "La Torre",
+    "year": "2026"
+  },
+  {
+    "text": "Fue la ciudadanía organizada quien dio la primera respuesta cuando las instituciones no llegaban.",
+    "text_val": "Va ser la ciutadania organitzada qui va donar la primera resposta quan les institucions no arribaven.",
+    "entity": "Asociación de Víctimas de la DANA 29 d'Octubre",
+    "location": "La Torre",
+    "year": "2026"
+  },
+  {
+    "text": "La reconstrucción no puede hacerse de espaldas a quien estuvo al pie de la calle.",
+    "text_val": "La reconstrucció no pot fer-se d'esquena a qui va estar al peu del carrer.",
+    "entity": "Asociación de Víctimas de la DANA 29 d'Octubre",
+    "location": "La Torre",
+    "year": "2026"
+  },
+  {
+    "text": "Todo para el pueblo, pero sin el pueblo.",
+    "text_val": null,
+    "entity": "AV Cultural i de Consumidors de Patraix",
+    "location": "Patraix",
+    "year": "2026"
+  },
+  {
+    "text": "El movimiento vecinal forma parte esencial de esta democracia desde hace más de 50 años.",
+    "text_val": null,
+    "entity": "AV Cultural i de Consumidors de Patraix",
+    "location": "Patraix",
+    "year": "2026"
+  },
+  {
+    "text": "València se ha convertido en una ciudad caótica.",
+    "text_val": "València s'ha convertit en una ciutat caòtica.",
+    "entity": "AV Abastos-Finca Roja",
+    "location": "",
+    "year": "2026"
+  },
+  {
+    "text": "La vida de la ciudad se construye democráticamente.",
+    "text_val": "La vida de la ciutat es construïx democràticament.",
+    "entity": "AV Abastos-Finca Roja",
+    "location": "",
+    "year": "2026"
+  },
+  {
+    "text": "Nos piden que seamos sus ojos en la ciudad.",
+    "text_val": "Ens demanen que siguem els seus ulls a la ciutat.",
+    "entity": "Associació Cuidem la Raiosa",
+    "location": "La Raiosa",
+    "year": "2026"
+  },
+  {
+    "text": "No se puede aceptar nuestra utilidad cuando conviene.",
+    "text_val": "No es pot acceptar la nostra utilitat quan convé.",
+    "entity": "Associació Cuidem la Raiosa",
+    "location": "La Raiosa",
+    "year": "2026"
+  },
+  {
+    "text": "Botellón tres noches por semana, gorrillas que intimidan a los vecinos, robos, peleas, suciedad, ratas.",
+    "text_val": "Botellón tres nits per setmana, gorilles que intimiden els veïns, robatoris, baralles, brutícia, rates.",
+    "entity": "Associació Veïnal la Roqueta",
+    "location": "La Roqueta",
+    "year": "2026"
+  },
+  {
+    "text": "Los movimientos vecinales llevamos décadas construyendo esta ciudad.",
+    "text_val": "Els moviments veïnals portem dècades construint esta ciutat.",
+    "entity": "Associació Veïnal la Roqueta",
+    "location": "La Roqueta",
+    "year": "2026"
+  },
+  {
+    "text": "Las asociaciones vecinales no somos un obstáculo para gobernar.",
+    "text_val": "Les associacions veïnals no som un obstacle per a governar.",
+    "entity": "Associació Veïnal la Roqueta",
+    "location": "La Roqueta",
+    "year": "2026"
+  },
+  {
+    "text": "Gobernar de espaldas a las asociaciones no es gobernar.",
+    "text_val": "Governar d'esquena a les associacions no és governar.",
+    "entity": "Associació de Veïnes i Veïns la Torre",
+    "location": "La Torre",
+    "year": "2026"
+  },
+  {
+    "text": "Nadie conoce mejor las necesidades de un barrio que quienes lo habitan.",
+    "text_val": "Ningú coneix millor les necessitats d'un barri que qui l'habita.",
+    "entity": "AV Torrefiel",
+    "location": "Torrefiel",
+    "year": "2026"
+  },
+  {
+    "text": "Es para estar orgullosos que una ciudad tenga tantas asociaciones vecinales.",
+    "text_val": "És per a estar orgullosos que una ciutat tenga tantes associacions veïnals.",
+    "entity": "Confederació d'Associacions Veïnals de la CV",
+    "location": "",
+    "year": "2026"
+  },
+  {
+    "text": "Los barrios tienen que ser parte imprescindible de la solución.",
+    "text_val": "Els barris han de ser part imprescindible de la solució.",
+    "entity": "AV Dehesa D26",
+    "location": "Castellar-L'Oliveral",
+    "year": "2026"
+  },
+  {
+    "text": "En las asociaciones de vecinos creemos en el valor de la sociedad civil y la participación ciudadana en busca de un bien común.",
+    "text_val": null,
+    "entity": "Asociación de Vecinos de San Antonio-Zaidía",
+    "location": "Sant Antoni",
+    "year": "2026"
+  },
+  {
+    "text": "Las asociaciones vecinales son una auténtica escuela de democracia.",
+    "text_val": "Les associacions veïnals són una autèntica escola de democràcia.",
+    "entity": "AV Barri de Sant Marcel·lí",
+    "location": "Sant Marcel·lí",
+    "year": "2026"
+  },
+  {
+    "text": "El movimiento vecinal es una centinela.",
+    "text_val": "El moviment veïnal és una sentinella.",
+    "entity": "AV Barri de Sant Marcel·lí",
+    "location": "Sant Marcel·lí",
+    "year": "2026"
+  },
+  {
+    "text": "La democracia es proporcional a la posibilidad de control real.",
+    "text_val": "La democràcia és proporcional a la possibilitat de control real.",
+    "entity": "AV Barri de Sant Marcel·lí",
+    "location": "Sant Marcel·lí",
+    "year": "2026"
+  },
+  {
+    "text": "Denunciamos la cultura de la violación.",
+    "text_val": "Denunciem la cultura de la violació.",
+    "entity": "Coordinadora Feminista de València",
+    "location": "",
+    "year": "2026"
+  },
+  {
+    "text": "Ni la explotación reproductiva ni el sistema prostitucional.",
+    "text_val": "Ni l'explotació reproductiva ni el sistema prostitucional.",
+    "entity": "Coordinadora Feminista de València",
+    "location": "",
+    "year": "2026"
+  },
+  {
+    "text": "Rechazamos que se convierta en un bulevar de tráfico rodado.",
+    "text_val": "Rebutgem que es convertisca en un bulevard de trànsit rodat.",
+    "entity": "AV Arrancapins-la Petxina",
+    "location": "La Petxina",
+    "year": "2026"
+  },
+  {
+    "text": "Exigimos políticas y medidas que reduzcan el uso del coche.",
+    "text_val": "Exigim polítiques i mesures que reduïsquen l'ús del cotxe.",
+    "entity": "AV Arrancapins-la Petxina",
+    "location": "La Petxina",
+    "year": "2026"
+  },
+  {
+    "text": "La indignación vecinal es máxima contra la reforma de la avenida de Pérez Galdós.",
+    "text_val": "La indignació veïnal és màxima contra la reforma de l'avinguda de Pérez Galdós.",
+    "entity": "AV Arrancapins-la Petxina",
+    "location": "La Petxina",
+    "year": "2026"
+  },
+  {
+    "text": "La participación real implica procesos previos, abiertos.",
+    "text_val": "La participació real implica processos previs, oberts.",
+    "entity": "Associació de Veïns i Comerciants Amics del Carme",
+    "location": "",
+    "year": "2026"
+  },
+  {
+    "text": "La migración es un derecho fundamental.",
+    "text_val": "La migració és un dret fonamental.",
+    "entity": "Associació de Mujeres Separadas y Divorciadas del País Valencià",
+    "location": "",
+    "year": "2026"
+  },
+  {
+    "text": "Los derechos humanos tienen que ser universales.",
+    "text_val": "Els drets humans han de ser universals.",
+    "entity": "Associació de Mujeres Separadas y Divorciadas del País Valencià",
+    "location": "",
+    "year": "2026"
+  },
+  {
+    "text": "La dignidad y la igualdad de las personas no es objeto de transacción.",
+    "text_val": "La dignitat i la igualtat de les persones no és objecte de transacció.",
+    "entity": "Associació de Mujeres Separadas y Divorciadas del País Valencià",
+    "location": "",
+    "year": "2026"
+  },
+  {
+    "text": "La diversidad cultural y lingüística no es un problema a resolver.",
+    "text_val": "La diversitat cultural i lingüística no és un problema a resoldre.",
+    "entity": "Consell de la Joventut de València",
+    "location": "",
+    "year": "2026"
+  },
+  {
+    "text": "Condicionar derechos básicos a la procedencia no es constitucionalismo, es exclusión.",
+    "text_val": "Condicionar drets bàsics a la procedència no és constitucionalisme, és exclusió.",
+    "entity": "FAMPA València",
+    "location": "",
+    "year": "2026"
+  },
+  {
+    "text": "Señalar a las familias migrantes es una forma cómoda de desviar responsabilidades políticas.",
+    "text_val": "Assenyalar les famílies migrants és una forma còmoda de desviar responsabilitats polítiques.",
+    "entity": "FAMPA València",
+    "location": "",
+    "year": "2026"
+  },
+  {
+    "text": "Un barrio diverso donde conviven más de 50 nacionalidades.",
+    "text_val": "Un barri divers on conviuen més de 50 nacionalitats.",
+    "entity": "Orriols Conviu",
+    "location": "Els Orriols",
+    "year": "2026"
+  },
+  {
+    "text": "La irregularidad administrativa genera precariedad.",
+    "text_val": "La irregularitat administrativa genera precarietat.",
+    "entity": "Orriols Conviu",
+    "location": "Els Orriols",
+    "year": "2026"
+  },
+  {
+    "text": "Los derechos no se defienden excluyendo, sino ampliándolos.",
+    "text_val": "Els drets no es defensen excloent, sinó ampliant-los.",
+    "entity": "STEPV-Intersindical",
+    "location": "",
+    "year": "2026"
+  },
+  {
+    "text": "La convivencia no se protege excluyendo, sino integrando.",
+    "text_val": "La convivència no es protegeix excloent, sinó integrant.",
+    "entity": "Asociación Intercultural Candombe",
+    "location": "",
+    "year": "2026"
+  },
+  {
+    "text": "Regulación y ordenación efectiva para frenar la especulación.",
+    "text_val": "Regulació i ordenació efectiva per frenar l'especulació.",
+    "entity": "Consell de la Joventut de València",
+    "location": "",
+    "year": "2025"
+  },
+  {
+    "text": "La declaración de la ciudad como zona tensionada es imprescindible.",
+    "text_val": "La declaració de la ciutat com a zona tensionada és imprescindible.",
+    "entity": "Consell de la Joventut de València",
+    "location": "",
+    "year": "2025"
+  },
+  {
+    "text": "El derecho a la vivienda, el medio ambiente y la salud.",
+    "text_val": "El dret a l'habitatge, el medi ambient i la salut.",
+    "entity": "Federació d'Associacions de Veïns de València",
+    "location": "",
+    "year": "2025"
+  },
+  {
+    "text": "No tenemos garantizada la asistencia sanitaria en 48 horas.",
+    "text_val": "No tenim garantida l'assistència sanitària en 48 hores.",
+    "entity": "Asociación Ciudadana para la Defensa de la Sanidad Pública (ACDESA)",
+    "location": "",
+    "year": "2025"
+  },
+  {
+    "text": "Nuestra ciudad ahora mismo está cumpliendo un marco normativo que de aquí a cuatro años dejará de cumplir.",
+    "text_val": "La nostra ciutat ara mateix compleix un marc normatiu que d'ací a quatre anys deixarà de complir.",
+    "entity": "Plataforma València per l'Aire",
+    "location": "",
+    "year": "2025"
+  },
+  {
+    "text": "Aumentará el tráfico, la contaminación se incrementará.",
+    "text_val": "Augmentarà el trànsit, la contaminació s'incrementarà.",
+    "entity": "Asociación de Vecinos de la Malvarrosa",
+    "location": "La Malva-Rosa",
+    "year": "2025"
+  },
+  {
+    "text": "Su partido no ha estado a la altura de la tragedia.",
+    "text_val": "El seu partit no ha estat a l'altura de la tragèdia.",
+    "entity": "Sindicat de Treballadores de les Administracions i Serveis Públics",
+    "location": "La Torre",
+    "year": "2025"
+  },
+  {
+    "text": "La memoria no se puede sustituir ni instrumentalizar.",
+    "text_val": "La memòria no es pot substituir ni instrumentalitzar.",
+    "entity": "Sindicat de Treballadores de les Administracions i Serveis Públics",
+    "location": "La Torre",
+    "year": "2025"
+  },
+  {
+    "text": "La vivienda no es un lujo, es un derecho.",
+    "text_val": "L'habitatge no és un luxe, és un dret.",
+    "entity": "Associació de Llogaters de Vivenda Pública de la CV",
+    "location": "",
+    "year": "2025"
+  },
+  {
+    "text": "Rentas que suben sin explicación, bonificaciones que nunca se aplican, gastos desorbitados e injustificados.",
+    "text_val": "Rendes que pugen sense explicació, bonificacions que mai s'apliquen, despeses desorbitades i injustificades.",
+    "entity": "Associació de Llogaters de Vivenda Pública de la CV",
+    "location": "",
+    "year": "2025"
+  },
+  {
+    "text": "Queremos viviendas para descansar, no para tener pesadillas.",
+    "text_val": "Volem habitatges per a descansar, no per a tindre malsons.",
+    "entity": "Associació de Llogaters de Vivenda Pública de la CV",
+    "location": "",
+    "year": "2025"
+  },
+  {
+    "text": "Persisten decisiones judiciales y periciales que ignoran el interés superior del menor.",
+    "text_val": "Persistixen decisions judicials i pericials que ignoren l'interès superior del menor.",
+    "entity": "Associació Alanna",
+    "location": "",
+    "year": "2025"
+  },
+  {
+    "text": "Ningún procedimiento técnico puede justificar la separación forzada de una madre.",
+    "text_val": "Cap procediment tècnic no pot justificar la separació forçada d'una mare.",
+    "entity": "Associació Alanna",
+    "location": "",
+    "year": "2025"
+  },
+  {
+    "text": "Cientos de valencianos han dedicado su tiempo, gratis, a pensar cómo mejorar sus barrios.",
+    "text_val": "Centenars de valencians han dedicat el seu temps, gratis, a pensar com millorar els seus barris.",
+    "entity": "AV Abastos-Finca Roja",
+    "location": "Arrancapins",
+    "year": "2025"
+  },
+  {
+    "text": "El principio de soberanía ciudadana ejercido con su voto ha de ser intocable.",
+    "text_val": "El principi de sobirania ciutadana exercit amb el seu vot ha de ser intocable.",
+    "entity": "AV La Petxina",
+    "location": "La Petxina",
+    "year": "2025"
+  },
+  {
+    "text": "Un criterio desigual no es un criterio justo.",
+    "text_val": "Un criteri desigual no és un criteri just.",
+    "entity": "AV La Petxina",
+    "location": "La Petxina",
+    "year": "2025"
+  },
+  {
+    "text": "No teníamos ningún policía, ni bomberos, ni nada.",
+    "text_val": "No teníem cap policia, ni bombers, ni res.",
+    "entity": "AMPA CP Padre Manjón",
+    "location": "La Torre",
+    "year": "2025"
+  },
+  {
+    "text": "El bulevar de Xàtiva-Guillén de Castro, guardado en un cajón.",
+    "text_val": "El bulevard de Xàtiva-Guillén de Castro, guardat en un calaix.",
+    "entity": "Associació de Veïns de la Roqueta",
+    "location": "La Roqueta",
+    "year": "2025"
+  },
+  {
+    "text": "El centro sigue igual de gris, igual de seco y poco preparado para el futuro.",
+    "text_val": "El centre continua igual de gris, igual d'eixut i poc preparat per al futur.",
+    "entity": "Associació de Veïns de la Roqueta",
+    "location": "La Roqueta",
+    "year": "2025"
+  },
+  {
+    "text": "Más de 65.000 personas palestinas asesinadas.",
+    "text_val": "Més de 65.000 persones palestines assassinades.",
+    "entity": "Associació Intercultural Candombe",
+    "location": "El Grau",
+    "year": "2025"
+  }
+]

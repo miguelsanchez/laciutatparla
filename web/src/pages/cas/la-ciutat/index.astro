@@ -1,0 +1,77 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { ContextoExplorer } from '../../../components/ContextoExplorer.tsx';
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
+
+const lang = 'cas';
+const dataDir = resolve(process.cwd(), '..', 'data');
+
+let vulnerabilidad: any = {};
+let barriPoblacion: any = {};
+let barris: any[] = [];
+let intervencions: any[] = [];
+let presupuesto: any = { years: [], categories: [], by_year: {}, totals_by_year: {} };
+let obras: any[] = [];
+try {
+  vulnerabilidad = JSON.parse(readFileSync(`${dataDir}/vulnerabilidad.json`, 'utf-8'));
+  barriPoblacion = JSON.parse(readFileSync(`${dataDir}/raw/barri_poblacion.json`, 'utf-8'));
+  barris = JSON.parse(readFileSync(`${dataDir}/raw/barris_referencia.json`, 'utf-8'));
+  intervencions = JSON.parse(readFileSync(`${dataDir}/intervencions.json`, 'utf-8'));
+  presupuesto = JSON.parse(readFileSync(`${dataDir}/presupuesto_gastos.json`, 'utf-8'));
+  obras = JSON.parse(readFileSync(`${dataDir}/obras_ejecutadas.json`, 'utf-8'));
+} catch {}
+
+const barriToDistrict: Record<string, string> = {};
+for (const b of barris) {
+  barriToDistrict[b.nom] = b.districte_nom;
+}
+
+const slimIvs = intervencions.map((iv: any) => ({
+  id: iv.id, districtes: iv.districtes || [], zones: iv.zones || [],
+  temes: Object.keys(iv.temes_v2 || {}),
+}));
+---
+
+<Base title="La ciudad en cifras" fullWidth={true}>
+
+  <!-- Hero -->
+  <section style="background: #1e1e1e; color: #fff; padding: 3rem 1rem 2.5rem;">
+    <div class="max-w-5xl mx-auto">
+      <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #6366f1; margin-bottom: 0.75rem;">
+        La ciudad en cifras
+      </p>
+      <h1 style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 1rem;">
+        Radiografía social y económica de València
+      </h1>
+      <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 1rem; color: #aaa; max-width: 48rem; line-height: 1.6;">
+        Antes de leer qué dicen los vecinos en los plenos, conviene entender <strong style="color: #fff;">dónde viven y cómo viven</strong>. Esta página dibuja el mapa social de la ciudad usando datos oficiales — vulnerabilidad, demografía y presupuesto — y al final pregunta: <strong style="color: #fff;">¿las intervenciones ciudadanas nacen donde más se necesitan?</strong>
+      </p>
+    </div>
+  </section>
+
+  <ContextoExplorer
+    client:load
+    vulnerabilidad={vulnerabilidad}
+    barriPoblacion={barriPoblacion}
+    barriToDistrict={barriToDistrict}
+    intervencions={slimIvs}
+    presupuesto={presupuesto}
+    obras={obras}
+    lang={lang}
+  />
+
+  <!-- Fuentes -->
+  <section style="padding: 2rem 1rem; background: #fafafa; border-top: 1px solid #eee;">
+    <div class="max-w-5xl mx-auto" style="font-family: 'Outfit', system-ui, sans-serif; color: #666; font-size: 0.78rem; line-height: 1.6;">
+      <p style="margin-bottom: 0.5rem;"><strong style="color: #666;">Fuentes:</strong></p>
+      <ul style="margin: 0; padding-left: 1.2rem; color: #666;">
+        <li><em>Vulnerabilidad por barrios 2021</em> — Portal de Datos Abiertos, Ajuntament de València (70 barrios).</li>
+        <li><em>Padrón Municipal de Habitantes</em> — Oficina d'Estadística, fichas por barrio (series 1991-2025).</li>
+        <li><em>Estado de liquidación de gastos 2021-2026</em> — Portal de Datos Abiertos, Ajuntament de València.</li>
+        <li><em>Intervenciones ciudadanas en los plenos</em> — La Ciutat Parla, extracción propia de actas municipales.</li>
+      </ul>
+    </div>
+  </section>
+
+</Base>

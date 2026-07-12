@@ -1,0 +1,75 @@
+{
+  "id": "2016-09-20",
+  "fecha": "2016-09-20",
+  "tipo": "extraordinaria",
+  "mandat_id": "2015-2019",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2016-09-20",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20160920_1000_0_firmadoweb.pdf/9a1c4a38-6763-47d8-9068-539d322eaa4e?t=1613212559056",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20160920_1000_0_firmadoweb.pdf/f5aadd93-2127-11be-6092-ee800f25c755?t=1613212558993",
+  "url_video": "https://players.cdn.enetres.net/live/1B4DA0F1F28C4AC4BA9AE203080C30C8021",
+  "num_intervencions": 1,
+  "intervencions": [
+    {
+      "id": "2016-09-20-001",
+      "pleno_id": "2016-09-20",
+      "fecha": "2016-09-20",
+      "mandat_id": "2015-2019",
+      "ordre": 1,
+      "intervinient": "[***]",
+      "entitat": "Associació de Comerciants del Centre Històric de València",
+      "entitat_id": "asociacion-comerciantes-centro-historico-valencia",
+      "tipus_entitat": "empresa",
+      "barri_o_zona": "Centre Històric",
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días. Gracias por dejarnos asistir. Seré rápido porque creo que **solo tenemos tres minutos**. Hablo en nombre de **todos los comerciantes de la ciudad**. Valencia es la **tercera capital de España**, pero quisiera preguntaros si realmente pensamos que comercialmente lo es. **El comercio es el escaparate de la ciudad** a través del cual se transmite el pulso y la calidad de vida de los habitantes. Hemos **perdido fuelle como capital comercial**.\n¿Qué debe ofrecer Valencia para **diferenciarse**? Urge **definir un modelo comercial de ciudad**, reforzando los atractivos, la singularidad, que se haga de esta ciudad **algo especial, diferente**. ¿**Vamos a seguir acelerando la clonación de la ciudad**? **El binomio indisoluble del comercio y del turismo**. **Seguridad y limpieza**. Es necesario fomentar **la seguridad en los itinerarios comerciales** por medio de **cámaras de seguridad**. **Un no rotundo a la clonación**.\nNo hay que **sobredimensionar la oferta comercial repetitiva y anodina**. **Queremos apoyo y no asfixia a las empresas**. No hay que asfixiarlas con **impuestos desmedidos**. **Microempresa** con menos de 10 trabajadores. ¿**Por qué no sacamos los recursos persiguiendo el fraude**? Pasemos por encima de los posicionamientos y **ayúdenos, por favor**.",
+      "text_val": "Buenos días. Gràcies per deixar-nos assistir. Seré ràpid perquè crec que **només tenim tres minuts**. Parle en nom de **tots els comerciants de la ciutat**. València és la **tercera capital d'Espanya**, però voldria preguntar-vos si realment pensem que comercialment ho és. **El comerç és l'aparador de la ciutat** a través del qual es transmet el pols i la qualitat de vida dels habitants. Hem **perdut embranzida com a capital comercial**.\n¿Què ha d'oferir València per a **diferenciar-se**? Urgeteix **definir un model comercial de ciutat**, reforçant els atractius, la singularitat, que es faça d'aquesta ciutat **quelcom especial, diferent**. ¿**Anem a continuar accelerant la clonació de la ciutat**? **El binomi indisoluble del comerç i del turisme**. **Seguretat i neteja**. És necessari fomentar **la seguretat en els itineraris comercials** per mitjà de **càmeres de seguretat**. **Un no rotund a la clonació**.\nNo hai que **sobredimensionar l'oferta comercial repetitiva i anodina**. **Volem apoio i no asfixia a les empreses**. No hai que asfixiar-les amb **impostos desmesurats**. **Microempresa** amb menys de 10 treballadors. ¿**Per què no sacam els recursos perseguint el frau**? Passem per damunt dels posicionaments i **ajudeu-nos, per favor**.",
+      "temes": [
+        "economia",
+        "urbanisme",
+        "turisme",
+        "comercio",
+        "seguretat",
+        "infraestructures",
+        "mobilitat"
+      ],
+      "temes_v2": {
+        "economia": [
+          "comerc_ocupacio"
+        ],
+        "urbanisme": [
+          "espai_public"
+        ],
+        "mobilitat": [
+          "transit"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [
+        "La Seu",
+        "La Xerea",
+        "El Carme",
+        "El Pilar",
+        "El Mercat",
+        "Sant Francesc"
+      ],
+      "districtes": [
+        "Ciutat Vella"
+      ],
+      "resum_cas": "Los comerciantes del Centro Histórico de Valencia reclaman una estrategia comercial diferenciadora, conexiones urbanísticas adecuadas, seguridad y limpieza en los itinerarios comerciales, coordinación entre turismo y comercio, y una reducción de la presión fiscal sobre las microempresas.",
+      "resum_val": "Els comerciants del Centre Històric de València reclamen una estratègia comercial diferenciadora, connexions urbanístiques adequades, seguretat i neteja en els itineraris comercials, coordinació entre turisme i comerç, i una reducció de la pressió fiscal sobre les microempreses.",
+      "cap_subtopics": [
+        1500,
+        1521,
+        1002,
+        1401
+      ],
+      "cap_major": [
+        10,
+        14,
+        15
+      ]
+    }
+  ]
+}

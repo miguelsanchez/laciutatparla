@@ -1,0 +1,56 @@
+{
+  "id": "2016-03-31",
+  "fecha": "2016-03-31",
+  "tipo": "ordinaria",
+  "mandat_id": "2015-2019",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2016-03-31",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20160331_1000_0_firmadoweb.pdf/4f885200-8ca0-9153-9e92-bb51cefba8d9?t=1613212514394",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20160331_1000_0_firmadoweb.pdf/7fd2c247-df94-67c0-d1d3-8805003ca82d?t=1613212513906",
+  "url_video": "https://players.cdn.enetres.net/live/1B4DA0F1F28C4AC4BA9AE203080C30C8021",
+  "num_intervencions": 1,
+  "intervencions": [
+    {
+      "id": "2016-03-31-001",
+      "pleno_id": "2016-03-31",
+      "fecha": "2016-03-31",
+      "mandat_id": "2015-2019",
+      "ordre": 1,
+      "intervinient": "[***]",
+      "entitat": "Associació de Víctimes del Terrorisme de la Comunitat Valenciana (AVTCV)",
+      "entitat_id": "associacio-victimes-terrorisme-comunitat-valenciana",
+      "tipus_entitat": "av",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "moció de reconeixement memorial de víctimes del terrorisme",
+      "idioma_original": "mixt",
+      "text_cas": "Buenos días,\nSeñor alcalde de Valencia, señor secretario, concejales y todo el público en general.\n\nCompartiré estos tres minutos con el representante de la AVT que tengo a mi lado. Soy el actual presidente de la AVTCV, que **desde principios de siglo -2002-** estamos en la Comunidad Valenciana. Esta Asociación la componen **221 socios**, entre heridos y familiares, así como los familiares de los muertos. **Las víctimas directas –socios- son 108**. Hay más, no todos están asociados como es natural. Víctimas del **Grapo, de ETA, del Yihadismo y de Terra Lliure**, principalmente.\n\nApoyamos esta moción por el **reconocimiento que supone un memorial**. Veamos, las víctimas del terrorismo sufrimos como cualquier ser humano pero las circunstancias que rodean el fenómeno terrorista hacen que el **sufrimiento, el dolor se renueve** con demasiada frecuencia al contemplar como son excarcelados algunos asesinos y gozan de la misericordia que ellos no tuvieron.\n\nCon demasiada frecuencia **se insulta a las víctimas** por personas, públicas o no, con el anonimato que, aún, ofrecen las redes sociales o amparándose en la mal entendida libertad de expresión, cuando no salen algunos pseudo artistas del monólogo, de los títeres, o algunos cantantes, **dando vivas a ETA** y burlándose de las víctimas.\n\nCreo que un reconocimiento como el que se presenta en esta moción en la **Capital del Reino volvería en parte la dignidad, la memoria**. Y pensamos que **es de justicia en esta ciudad**.\n\nMuchas gracias.",
+      "text_val": "Bon dia.\nSenyor alcalde de València, senyor secretari, regidors i tot el públic en general.\n\nCompartiré aquests tres minuts amb el representant de la AVT que tinc al meu costat. Sóc l'actual president de l'AVTCV, que des de principis de segle -2002- som a la Comunitat Valenciana. Aquesta Associació la componen 221 socis, entre ferits i familiars, així com els familiars dels morts. Les víctimes directes –socis- són 108. N'hi ha més, no tots estan associats com és natural. Víctimes del Grapo, d'ETA, del Gihadisme i de Terra Lliure, principalment.\n\nRecolzem aquesta moció pel reconeixement que suposa un memorial d'aquestes característiques. Vegem, les víctimes del terrorisme patim com qualsevol ésser humà però les circumstàncies que envolten el fenomen terrorista fan que el sofriment, el dolor es renove amb massa freqüència en contemplar com són excarcerades alguns assassins i gaudeixen de la misericòrdia que ells no van tenir amb les preses que van caçar amb bombes i pistoles.\n\nAb massa freqüència s'insulta les víctimes per persones, públiques o no, amb l'anonimitat que, encara, oferixen les xarxes socials o amparant-se en la mal interpretada llibertat d'expressió, quan no surten alguns pseudo artistes del monòleg, dels titelles, o alguns cantants, donant vives a ETA i burlant-se de les víctimes.\n\nCrec que un reconeixement com el que es presenta en aquesta moció en la Capital del Regne tornaria en part la dignitat, la memòria. I pensem que és de justícia en aquesta ciutat.\n\nMoltes gràcies.",
+      "temes": [
+        "memoria_historica",
+        "seguretat",
+        "participacio_ciutadana"
+      ],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "drets_humans"
+        ],
+        "participacio": [
+          "participacio"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "El presidente de la AVTCV apoya la moción de reconocimiento memorial de víctimas del terrorismo, destacando que la asociación representa a 221 socios afectados y reclama dignidad y memoria para las víctimas.",
+      "resum_val": "El president de l'AVTCV recolza la moció de reconeixement memorial de víctimes del terrorisme, destacant que l'associació representa 221 socis afectats i reclama dignitat i memòria per a les víctimes.",
+      "cap_subtopics": [
+        1906,
+        2000
+      ],
+      "cap_major": [
+        19,
+        20
+      ]
+    }
+  ]
+}

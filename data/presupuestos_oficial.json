@@ -1,0 +1,3037 @@
+{
+  "_meta": {
+    "fuente": "Oficina d'Estadística, Ajuntament de València",
+    "informes": [
+      {
+        "nombre": "Análisis de la participación ciudadana en las ocho ediciones celebradas de Presupuestos Participativos",
+        "paginas": 23,
+        "firma": "04/02/2026",
+        "url": "https://vlcparticipa.valencia.es/docs/analisis-participacion-ciudadana-ocho-ediciones-presupuestos-participativos.pdf"
+      },
+      {
+        "nombre": "Modificación de la Distribución presupuestaria Presupuestos Participativos 2025",
+        "paginas": 6,
+        "url": "https://vlcparticipa.valencia.es/docs/modificacion-informe-distribucion-presupuestos-participativos-2025.pdf"
+      }
+    ],
+    "ediciones": {
+      "1": "2015/16",
+      "2": "2016/17",
+      "3": "2017/18",
+      "4": "2018/19",
+      "5": "2019/20",
+      "6": "2020/21",
+      "7": "2022/23",
+      "8": "2025/26"
+    }
+  },
+  "headline": {
+    "total_personas_unicas": 80091,
+    "pct_pob_16_mas": 11.63,
+    "pct_pob_total": 10.0,
+    "distribucion_ediciones": {
+      "1": 45906,
+      "2": 15127,
+      "3": 7918,
+      "4": 4467,
+      "5": 2967,
+      "6": 2071,
+      "7": 1270,
+      "8": 365
+    },
+    "distribucion_ediciones_por_fase": {
+      "alguna": {
+        "total": 80091,
+        "por_n_ediciones": {
+          "1": 45906,
+          "2": 15127,
+          "3": 7918,
+          "4": 4467,
+          "5": 2967,
+          "6": 2071,
+          "7": 1270,
+          "8": 365
+        }
+      },
+      "proponen": {
+        "total": 5574,
+        "por_n_ediciones": {
+          "1": 4461,
+          "2": 748,
+          "3": 221,
+          "4": 80,
+          "5": 31,
+          "6": 27,
+          "7": 5,
+          "8": 1
+        }
+      },
+      "apoyan": {
+        "total": 47783,
+        "por_n_ediciones": {
+          "1": 34848,
+          "2": 8173,
+          "3": 2825,
+          "4": 1162,
+          "5": 452,
+          "6": 235,
+          "7": 88
+        }
+      },
+      "votan": {
+        "total": 63297,
+        "por_n_ediciones": {
+          "1": 35823,
+          "2": 12174,
+          "3": 6420,
+          "4": 3573,
+          "5": 2541,
+          "6": 1628,
+          "7": 892,
+          "8": 246
+        }
+      }
+    },
+    "por_sexo": {
+      "mujer": 43834,
+      "hombre": 36249,
+      "pct_mujer": 54.7,
+      "pct_hombre": 45.3,
+      "RR_mujer_vs_hombre": 1.069
+    },
+    "por_edad": {
+      "16-24": 5100,
+      "25-34": 10959,
+      "35-44": 21035,
+      "45-54": 19993,
+      "55-64": 12280,
+      "65-74": 7633,
+      "75+": 3082
+    },
+    "por_nacionalidad": {
+      "espanola": 76641,
+      "extranjera": 3472,
+      "pct_espanola": 95.7,
+      "pct_extranjera": 3.5
+    }
+  },
+  "participantes_por_edicion": {
+    "1": {
+      "participantes": 5196,
+      "presentado": 324,
+      "apoyado": null,
+      "votado": 5010
+    },
+    "2": {
+      "participantes": 15337,
+      "presentado": 574,
+      "apoyado": 5453,
+      "votado": 12407
+    },
+    "3": {
+      "participantes": 17553,
+      "presentado": 546,
+      "apoyado": 8986,
+      "votado": 12987
+    },
+    "4": {
+      "participantes": 15906,
+      "presentado": 540,
+      "apoyado": 3858,
+      "votado": 14463
+    },
+    "5": {
+      "participantes": 20090,
+      "presentado": 607,
+      "apoyado": 10453,
+      "votado": 14530
+    },
+    "6": {
+      "participantes": 26489,
+      "presentado": 1275,
+      "apoyado": 14193,
+      "votado": 20611
+    },
+    "7": {
+      "participantes": 27809,
+      "presentado": 1543,
+      "apoyado": 10296,
+      "votado": 23445
+    },
+    "8": {
+      "participantes": 28473,
+      "presentado": 1891,
+      "apoyado": 15364,
+      "votado": 20955
+    }
+  },
+  "participantes_por_distrito": {
+    "Ciutat Vella": {
+      "por_edicion": {
+        "1": 242,
+        "2": 783,
+        "3": 747,
+        "4": 681,
+        "5": 786,
+        "6": 969,
+        "7": 1078,
+        "8": 1098
+      },
+      "total_ediciones": 3042,
+      "pct_pob_16": 12.6
+    },
+    "L'Eixample": {
+      "por_edicion": {
+        "1": 126,
+        "2": 792,
+        "3": 942,
+        "4": 939,
+        "5": 1239,
+        "6": 1550,
+        "7": 1607,
+        "8": 1491
+      },
+      "total_ediciones": 4367,
+      "pct_pob_16": 11.89
+    },
+    "Extramurs": {
+      "por_edicion": {
+        "1": 197,
+        "2": 1066,
+        "3": 1168,
+        "4": 1060,
+        "5": 1486,
+        "6": 1909,
+        "7": 2375,
+        "8": 2102
+      },
+      "total_ediciones": 5526,
+      "pct_pob_16": 13.07
+    },
+    "Campanar": {
+      "por_edicion": {
+        "1": 127,
+        "2": 644,
+        "3": 900,
+        "4": 658,
+        "5": 1057,
+        "6": 1390,
+        "7": 1540,
+        "8": 1573
+      },
+      "total_ediciones": 3902,
+      "pct_pob_16": 12.04
+    },
+    "La Saïdia": {
+      "por_edicion": {
+        "1": 297,
+        "2": 807,
+        "3": 1298,
+        "4": 1092,
+        "5": 1257,
+        "6": 1687,
+        "7": 1777,
+        "8": 1753
+      },
+      "total_ediciones": 4880,
+      "pct_pob_16": 11.86
+    },
+    "El Pla del Real": {
+      "por_edicion": {
+        "1": 76,
+        "2": 406,
+        "3": 510,
+        "4": 439,
+        "5": 706,
+        "6": 859,
+        "7": 912,
+        "8": 1120
+      },
+      "total_ediciones": 2738,
+      "pct_pob_16": 10.57
+    },
+    "L'Olivereta": {
+      "por_edicion": {
+        "1": 136,
+        "2": 503,
+        "3": 731,
+        "4": 619,
+        "5": 820,
+        "6": 1168,
+        "7": 1390,
+        "8": 1317
+      },
+      "total_ediciones": 3576,
+      "pct_pob_16": 8.35
+    },
+    "Patraix": {
+      "por_edicion": {
+        "1": 414,
+        "2": 1398,
+        "3": 1237,
+        "4": 1434,
+        "5": 1699,
+        "6": 2258,
+        "7": 2231,
+        "8": 2464
+      },
+      "total_ediciones": 6534,
+      "pct_pob_16": 13.0
+    },
+    "Jesús": {
+      "por_edicion": {
+        "1": 475,
+        "2": 849,
+        "3": 785,
+        "4": 1087,
+        "5": 1108,
+        "6": 1447,
+        "7": 1259,
+        "8": 1318
+      },
+      "total_ediciones": 4415,
+      "pct_pob_16": 9.65
+    },
+    "Quatre Carreres": {
+      "por_edicion": {
+        "1": 320,
+        "2": 837,
+        "3": 1558,
+        "4": 1306,
+        "5": 1768,
+        "6": 2443,
+        "7": 2824,
+        "8": 3070
+      },
+      "total_ediciones": 7562,
+      "pct_pob_16": 11.85
+    },
+    "Poblats Marítims": {
+      "por_edicion": {
+        "1": 369,
+        "2": 615,
+        "3": 852,
+        "4": 793,
+        "5": 806,
+        "6": 1179,
+        "7": 1239,
+        "8": 1387
+      },
+      "total_ediciones": 3941,
+      "pct_pob_16": 8.19
+    },
+    "Camins al Grau": {
+      "por_edicion": {
+        "1": 291,
+        "2": 953,
+        "3": 1184,
+        "4": 1178,
+        "5": 1740,
+        "6": 2212,
+        "7": 2301,
+        "8": 2424
+      },
+      "total_ediciones": 6355,
+      "pct_pob_16": 11.32
+    },
+    "Algirós": {
+      "por_edicion": {
+        "1": 161,
+        "2": 821,
+        "3": 742,
+        "4": 741,
+        "5": 878,
+        "6": 1179,
+        "7": 1364,
+        "8": 1129
+      },
+      "total_ediciones": 3526,
+      "pct_pob_16": 10.9
+    },
+    "Benimaclet": {
+      "por_edicion": {
+        "1": 367,
+        "2": 771,
+        "3": 811,
+        "4": 801,
+        "5": 915,
+        "6": 1292,
+        "7": 1250,
+        "8": 1084
+      },
+      "total_ediciones": 3457,
+      "pct_pob_16": 13.72
+    },
+    "Rascanya": {
+      "por_edicion": {
+        "1": 182,
+        "2": 859,
+        "3": 1030,
+        "4": 796,
+        "5": 882,
+        "6": 1362,
+        "7": 1264,
+        "8": 1432
+      },
+      "total_ediciones": 4185,
+      "pct_pob_16": 9.19
+    },
+    "Benicalap": {
+      "por_edicion": {
+        "1": 116,
+        "2": 518,
+        "3": 787,
+        "4": 586,
+        "5": 973,
+        "6": 1260,
+        "7": 1399,
+        "8": 1506
+      },
+      "total_ediciones": 3901,
+      "pct_pob_16": 9.74
+    },
+    "Poblats del Nord": {
+      "por_edicion": {
+        "1": 702,
+        "2": 1236,
+        "3": 759,
+        "4": 516,
+        "5": 409,
+        "6": 582,
+        "7": 460,
+        "8": 612
+      },
+      "total_ediciones": 2733,
+      "pct_pob_16": 48.41
+    },
+    "Poblats de l'Oest": {
+      "por_edicion": {
+        "1": 107,
+        "2": 357,
+        "3": 496,
+        "4": 434,
+        "5": 576,
+        "6": 618,
+        "7": 547,
+        "8": 515
+      },
+      "total_ediciones": 1645,
+      "pct_pob_16": 16.33
+    },
+    "Poblats del Sud": {
+      "por_edicion": {
+        "1": 491,
+        "2": 1122,
+        "3": 1016,
+        "4": 744,
+        "5": 985,
+        "6": 1125,
+        "7": 992,
+        "8": 1077
+      },
+      "total_ediciones": 3803,
+      "pct_pob_16": 20.94
+    }
+  },
+  "participantes_por_barri": {
+    "La Seu": {
+      "por_edicion": {
+        "1": 34,
+        "2": 76,
+        "3": 76,
+        "4": 67,
+        "5": 77,
+        "6": 98,
+        "7": 98,
+        "8": 119
+      },
+      "total_ediciones": 319,
+      "pct_pob_16": 11.89
+    },
+    "La Xerea": {
+      "por_edicion": {
+        "1": 20,
+        "2": 49,
+        "3": 53,
+        "4": 42,
+        "5": 63,
+        "6": 82,
+        "7": 97,
+        "8": 121
+      },
+      "total_ediciones": 307,
+      "pct_pob_16": 8.88
+    },
+    "El Carme": {
+      "por_edicion": {
+        "1": 101,
+        "2": 274,
+        "3": 240,
+        "4": 214,
+        "5": 263,
+        "6": 292,
+        "7": 345,
+        "8": 337
+      },
+      "total_ediciones": 951,
+      "pct_pob_16": 16.41
+    },
+    "El Pilar": {
+      "por_edicion": {
+        "1": 43,
+        "2": 150,
+        "3": 157,
+        "4": 161,
+        "5": 145,
+        "6": 218,
+        "7": 210,
+        "8": 201
+      },
+      "total_ediciones": 566,
+      "pct_pob_16": 13.98
+    },
+    "El Mercat": {
+      "por_edicion": {
+        "1": 28,
+        "2": 140,
+        "3": 126,
+        "4": 116,
+        "5": 122,
+        "6": 148,
+        "7": 156,
+        "8": 168
+      },
+      "total_ediciones": 464,
+      "pct_pob_16": 14.47
+    },
+    "Sant Francesc": {
+      "por_edicion": {
+        "1": 16,
+        "2": 94,
+        "3": 95,
+        "4": 81,
+        "5": 116,
+        "6": 131,
+        "7": 172,
+        "8": 152
+      },
+      "total_ediciones": 435,
+      "pct_pob_16": 8.78
+    },
+    "Russafa": {
+      "por_edicion": {
+        "1": 84,
+        "2": 561,
+        "3": 691,
+        "4": 681,
+        "5": 815,
+        "6": 1031,
+        "7": 1035,
+        "8": 874
+      },
+      "total_ediciones": 2702,
+      "pct_pob_16": 13.14
+    },
+    "El Pla Del Remei": {
+      "por_edicion": {
+        "1": 13,
+        "2": 66,
+        "3": 84,
+        "4": 78,
+        "5": 142,
+        "6": 194,
+        "7": 191,
+        "8": 220
+      },
+      "total_ediciones": 567,
+      "pct_pob_16": 9.43
+    },
+    "La Gran Via": {
+      "por_edicion": {
+        "1": 29,
+        "2": 165,
+        "3": 167,
+        "4": 180,
+        "5": 282,
+        "6": 325,
+        "7": 381,
+        "8": 397
+      },
+      "total_ediciones": 1098,
+      "pct_pob_16": 10.8
+    },
+    "El Botanic": {
+      "por_edicion": {
+        "1": 52,
+        "2": 278,
+        "3": 214,
+        "4": 228,
+        "5": 274,
+        "6": 316,
+        "7": 347,
+        "8": 355
+      },
+      "total_ediciones": 895,
+      "pct_pob_16": 15.55
+    },
+    "La Roqueta": {
+      "por_edicion": {
+        "1": 13,
+        "2": 95,
+        "3": 85,
+        "4": 90,
+        "5": 119,
+        "6": 172,
+        "7": 243,
+        "8": 216
+      },
+      "total_ediciones": 514,
+      "pct_pob_16": 12.75
+    },
+    "La Petxina": {
+      "por_edicion": {
+        "1": 50,
+        "2": 289,
+        "3": 342,
+        "4": 301,
+        "5": 447,
+        "6": 667,
+        "7": 779,
+        "8": 731
+      },
+      "total_ediciones": 1776,
+      "pct_pob_16": 13.77
+    },
+    "Arrancapins": {
+      "por_edicion": {
+        "1": 82,
+        "2": 404,
+        "3": 527,
+        "4": 441,
+        "5": 646,
+        "6": 754,
+        "7": 1006,
+        "8": 800
+      },
+      "total_ediciones": 2341,
+      "pct_pob_16": 11.96
+    },
+    "Campanar": {
+      "por_edicion": {
+        "1": 66,
+        "2": 220,
+        "3": 243,
+        "4": 235,
+        "5": 309,
+        "6": 457,
+        "7": 464,
+        "8": 451
+      },
+      "total_ediciones": 1197,
+      "pct_pob_16": 11.88
+    },
+    "Les Tendetes": {
+      "por_edicion": {
+        "1": 17,
+        "2": 74,
+        "3": 90,
+        "4": 59,
+        "5": 99,
+        "6": 126,
+        "7": 129,
+        "8": 119
+      },
+      "total_ediciones": 364,
+      "pct_pob_16": 7.79
+    },
+    "El Calvari": {
+      "por_edicion": {
+        "1": 5,
+        "2": 29,
+        "3": 42,
+        "4": 44,
+        "5": 41,
+        "6": 79,
+        "7": 60,
+        "8": 54
+      },
+      "total_ediciones": 203,
+      "pct_pob_16": 4.6
+    },
+    "Sant Pau": {
+      "por_edicion": {
+        "1": 39,
+        "2": 321,
+        "3": 525,
+        "4": 320,
+        "5": 608,
+        "6": 728,
+        "7": 887,
+        "8": 949
+      },
+      "total_ediciones": 2138,
+      "pct_pob_16": 16.15
+    },
+    "Marxalenes": {
+      "por_edicion": {
+        "1": 35,
+        "2": 127,
+        "3": 191,
+        "4": 172,
+        "5": 187,
+        "6": 243,
+        "7": 250,
+        "8": 229
+      },
+      "total_ediciones": 732,
+      "pct_pob_16": 7.69
+    },
+    "Morvedre": {
+      "por_edicion": {
+        "1": 77,
+        "2": 200,
+        "3": 342,
+        "4": 314,
+        "5": 327,
+        "6": 518,
+        "7": 458,
+        "8": 484
+      },
+      "total_ediciones": 1286,
+      "pct_pob_16": 14.37
+    },
+    "Trinitat": {
+      "por_edicion": {
+        "1": 53,
+        "2": 164,
+        "3": 169,
+        "4": 202,
+        "5": 267,
+        "6": 345,
+        "7": 395,
+        "8": 357
+      },
+      "total_ediciones": 970,
+      "pct_pob_16": 14.14
+    },
+    "Tormos": {
+      "por_edicion": {
+        "1": 32,
+        "2": 141,
+        "3": 314,
+        "4": 160,
+        "5": 177,
+        "6": 225,
+        "7": 235,
+        "8": 276
+      },
+      "total_ediciones": 778,
+      "pct_pob_16": 10.54
+    },
+    "Sant Antoni": {
+      "por_edicion": {
+        "1": 100,
+        "2": 175,
+        "3": 282,
+        "4": 244,
+        "5": 299,
+        "6": 356,
+        "7": 439,
+        "8": 407
+      },
+      "total_ediciones": 1114,
+      "pct_pob_16": 13.2
+    },
+    "Exposicio": {
+      "por_edicion": {
+        "1": 12,
+        "2": 64,
+        "3": 90,
+        "4": 82,
+        "5": 175,
+        "6": 230,
+        "7": 192,
+        "8": 297
+      },
+      "total_ediciones": 681,
+      "pct_pob_16": 11.97
+    },
+    "Mestalla": {
+      "por_edicion": {
+        "1": 40,
+        "2": 200,
+        "3": 268,
+        "4": 229,
+        "5": 345,
+        "6": 418,
+        "7": 486,
+        "8": 530
+      },
+      "total_ediciones": 1325,
+      "pct_pob_16": 10.59
+    },
+    "Jaume Roig": {
+      "por_edicion": {
+        "1": 14,
+        "2": 72,
+        "3": 100,
+        "4": 82,
+        "5": 116,
+        "6": 137,
+        "7": 145,
+        "8": 187
+      },
+      "total_ediciones": 461,
+      "pct_pob_16": 8.59
+    },
+    "Ciutat Universitaria": {
+      "por_edicion": {
+        "1": 10,
+        "2": 70,
+        "3": 52,
+        "4": 46,
+        "5": 70,
+        "6": 74,
+        "7": 89,
+        "8": 106
+      },
+      "total_ediciones": 271,
+      "pct_pob_16": 11.62
+    },
+    "Nou Moles": {
+      "por_edicion": {
+        "1": 97,
+        "2": 299,
+        "3": 400,
+        "4": 370,
+        "5": 447,
+        "6": 698,
+        "7": 857,
+        "8": 706
+      },
+      "total_ediciones": 1997,
+      "pct_pob_16": 8.68
+    },
+    "Soternes": {
+      "por_edicion": {
+        "1": 6,
+        "2": 71,
+        "3": 143,
+        "4": 65,
+        "5": 152,
+        "6": 221,
+        "7": 257,
+        "8": 234
+      },
+      "total_ediciones": 634,
+      "pct_pob_16": 14.9
+    },
+    "Tres Forques": {
+      "por_edicion": {
+        "1": 16,
+        "2": 69,
+        "3": 97,
+        "4": 91,
+        "5": 110,
+        "6": 133,
+        "7": 150,
+        "8": 158
+      },
+      "total_ediciones": 438,
+      "pct_pob_16": 5.41
+    },
+    "La Fontsanta": {
+      "por_edicion": {
+        "1": 4,
+        "2": 19,
+        "3": 23,
+        "4": 38,
+        "5": 27,
+        "6": 34,
+        "7": 52,
+        "8": 96
+      },
+      "total_ediciones": 195,
+      "pct_pob_16": 6.49
+    },
+    "La Llum": {
+      "por_edicion": {
+        "1": 13,
+        "2": 45,
+        "3": 68,
+        "4": 55,
+        "5": 84,
+        "6": 82,
+        "7": 74,
+        "8": 123
+      },
+      "total_ediciones": 312,
+      "pct_pob_16": 7.0
+    },
+    "Patraix": {
+      "por_edicion": {
+        "1": 145,
+        "2": 519,
+        "3": 479,
+        "4": 579,
+        "5": 635,
+        "6": 874,
+        "7": 872,
+        "8": 881
+      },
+      "total_ediciones": 2460,
+      "pct_pob_16": 11.51
+    },
+    "Sant Isidre": {
+      "por_edicion": {
+        "1": 53,
+        "2": 186,
+        "3": 238,
+        "4": 188,
+        "5": 343,
+        "6": 459,
+        "7": 437,
+        "8": 589
+      },
+      "total_ediciones": 1292,
+      "pct_pob_16": 15.2
+    },
+    "Vara De Quart": {
+      "por_edicion": {
+        "1": 70,
+        "2": 408,
+        "3": 250,
+        "4": 337,
+        "5": 326,
+        "6": 402,
+        "7": 317,
+        "8": 358
+      },
+      "total_ediciones": 1153,
+      "pct_pob_16": 12.52
+    },
+    "Safranar": {
+      "por_edicion": {
+        "1": 93,
+        "2": 218,
+        "3": 193,
+        "4": 253,
+        "5": 285,
+        "6": 385,
+        "7": 478,
+        "8": 548
+      },
+      "total_ediciones": 1259,
+      "pct_pob_16": 15.88
+    },
+    "Favara": {
+      "por_edicion": {
+        "1": 53,
+        "2": 67,
+        "3": 77,
+        "4": 77,
+        "5": 110,
+        "6": 138,
+        "7": 127,
+        "8": 88
+      },
+      "total_ediciones": 370,
+      "pct_pob_16": 11.46
+    },
+    "La Raiosa": {
+      "por_edicion": {
+        "1": 41,
+        "2": 228,
+        "3": 231,
+        "4": 251,
+        "5": 310,
+        "6": 421,
+        "7": 412,
+        "8": 429
+      },
+      "total_ediciones": 1198,
+      "pct_pob_16": 8.85
+    },
+    "L'Hort De Senabre": {
+      "por_edicion": {
+        "1": 89,
+        "2": 231,
+        "3": 230,
+        "4": 303,
+        "5": 361,
+        "6": 433,
+        "7": 352,
+        "8": 362
+      },
+      "total_ediciones": 1241,
+      "pct_pob_16": 8.31
+    },
+    "La Creu Coberta": {
+      "por_edicion": {
+        "1": 154,
+        "2": 125,
+        "3": 99,
+        "4": 156,
+        "5": 159,
+        "6": 184,
+        "7": 141,
+        "8": 156
+      },
+      "total_ediciones": 637,
+      "pct_pob_16": 11.92
+    },
+    "Sant Marcel.Li": {
+      "por_edicion": {
+        "1": 167,
+        "2": 194,
+        "3": 138,
+        "4": 198,
+        "5": 169,
+        "6": 248,
+        "7": 199,
+        "8": 193
+      },
+      "total_ediciones": 850,
+      "pct_pob_16": 9.65
+    },
+    "Cami Real": {
+      "por_edicion": {
+        "1": 24,
+        "2": 71,
+        "3": 87,
+        "4": 179,
+        "5": 109,
+        "6": 161,
+        "7": 155,
+        "8": 178
+      },
+      "total_ediciones": 489,
+      "pct_pob_16": 15.6
+    },
+    "Montolivet": {
+      "por_edicion": {
+        "1": 61,
+        "2": 205,
+        "3": 284,
+        "4": 391,
+        "5": 398,
+        "6": 573,
+        "7": 635,
+        "8": 517
+      },
+      "total_ediciones": 1602,
+      "pct_pob_16": 9.59
+    },
+    "En Corts": {
+      "por_edicion": {
+        "1": 22,
+        "2": 130,
+        "3": 256,
+        "4": 165,
+        "5": 246,
+        "6": 377,
+        "7": 332,
+        "8": 333
+      },
+      "total_ediciones": 938,
+      "pct_pob_16": 8.97
+    },
+    "Malilla": {
+      "por_edicion": {
+        "1": 90,
+        "2": 287,
+        "3": 537,
+        "4": 389,
+        "5": 700,
+        "6": 769,
+        "7": 982,
+        "8": 1263
+      },
+      "total_ediciones": 2725,
+      "pct_pob_16": 14.42
+    },
+    "La Fonteta S.Lluis": {
+      "por_edicion": {
+        "1": 31,
+        "2": 17,
+        "3": 24,
+        "4": 27,
+        "5": 40,
+        "6": 41,
+        "7": 82,
+        "8": 145
+      },
+      "total_ediciones": 246,
+      "pct_pob_16": 9.46
+    },
+    "Na Rovella": {
+      "por_edicion": {
+        "1": 9,
+        "2": 34,
+        "3": 86,
+        "4": 55,
+        "5": 74,
+        "6": 127,
+        "7": 114,
+        "8": 100
+      },
+      "total_ediciones": 333,
+      "pct_pob_16": 5.04
+    },
+    "La Punta": {
+      "por_edicion": {
+        "1": 89,
+        "2": 70,
+        "3": 72,
+        "4": 67,
+        "5": 59,
+        "6": 98,
+        "7": 160,
+        "8": 248
+      },
+      "total_ediciones": 498,
+      "pct_pob_16": 21.84
+    },
+    "Ciutat De Les Arts I De Les Ciencies": {
+      "por_edicion": {
+        "1": 18,
+        "2": 94,
+        "3": 299,
+        "4": 212,
+        "5": 251,
+        "6": 458,
+        "7": 519,
+        "8": 464
+      },
+      "total_ediciones": 1220,
+      "pct_pob_16": 19.59
+    },
+    "El Grau": {
+      "por_edicion": {
+        "1": 25,
+        "2": 130,
+        "3": 142,
+        "4": 169,
+        "5": 185,
+        "6": 241,
+        "7": 296,
+        "8": 278
+      },
+      "total_ediciones": 783,
+      "pct_pob_16": 9.76
+    },
+    "Cabanyal-Canyamelar": {
+      "por_edicion": {
+        "1": 65,
+        "2": 201,
+        "3": 324,
+        "4": 246,
+        "5": 264,
+        "6": 394,
+        "7": 359,
+        "8": 437
+      },
+      "total_ediciones": 1260,
+      "pct_pob_16": 7.55
+    },
+    "La Malva-Rosa": {
+      "por_edicion": {
+        "1": 117,
+        "2": 112,
+        "3": 141,
+        "4": 188,
+        "5": 167,
+        "6": 291,
+        "7": 292,
+        "8": 307
+      },
+      "total_ediciones": 855,
+      "pct_pob_16": 7.58
+    },
+    "Betero": {
+      "por_edicion": {
+        "1": 113,
+        "2": 102,
+        "3": 130,
+        "4": 131,
+        "5": 152,
+        "6": 197,
+        "7": 233,
+        "8": 239
+      },
+      "total_ediciones": 700,
+      "pct_pob_16": 10.07
+    },
+    "Natzaret": {
+      "por_edicion": {
+        "1": 49,
+        "2": 70,
+        "3": 115,
+        "4": 59,
+        "5": 38,
+        "6": 56,
+        "7": 59,
+        "8": 126
+      },
+      "total_ediciones": 343,
+      "pct_pob_16": 6.63
+    },
+    "Aiora": {
+      "por_edicion": {
+        "1": 162,
+        "2": 336,
+        "3": 409,
+        "4": 377,
+        "5": 491,
+        "6": 688,
+        "7": 676,
+        "8": 710
+      },
+      "total_ediciones": 2003,
+      "pct_pob_16": 9.27
+    },
+    "Albors": {
+      "por_edicion": {
+        "1": 24,
+        "2": 97,
+        "3": 168,
+        "4": 205,
+        "5": 339,
+        "6": 297,
+        "7": 305,
+        "8": 304
+      },
+      "total_ediciones": 885,
+      "pct_pob_16": 11.57
+    },
+    "La Creu Del Grau": {
+      "por_edicion": {
+        "1": 73,
+        "2": 336,
+        "3": 270,
+        "4": 363,
+        "5": 498,
+        "6": 462,
+        "7": 627,
+        "8": 560
+      },
+      "total_ediciones": 1546,
+      "pct_pob_16": 12.16
+    },
+    "Cami Fondo": {
+      "por_edicion": {
+        "1": 11,
+        "2": 38,
+        "3": 92,
+        "4": 60,
+        "5": 104,
+        "6": 166,
+        "7": 156,
+        "8": 177
+      },
+      "total_ediciones": 419,
+      "pct_pob_16": 10.57
+    },
+    "Penya-Roja": {
+      "por_edicion": {
+        "1": 21,
+        "2": 146,
+        "3": 245,
+        "4": 173,
+        "5": 308,
+        "6": 599,
+        "7": 537,
+        "8": 673
+      },
+      "total_ediciones": 1502,
+      "pct_pob_16": 14.72
+    },
+    "L'Illa Perduda": {
+      "por_edicion": {
+        "1": 24,
+        "2": 81,
+        "3": 149,
+        "4": 126,
+        "5": 146,
+        "6": 258,
+        "7": 250,
+        "8": 218
+      },
+      "total_ediciones": 675,
+      "pct_pob_16": 8.98
+    },
+    "Ciutat Jardi": {
+      "por_edicion": {
+        "1": 57,
+        "2": 233,
+        "3": 238,
+        "4": 276,
+        "5": 317,
+        "6": 419,
+        "7": 499,
+        "8": 449
+      },
+      "total_ediciones": 1247,
+      "pct_pob_16": 11.74
+    },
+    "L'Amistat": {
+      "por_edicion": {
+        "1": 28,
+        "2": 88,
+        "3": 128,
+        "4": 120,
+        "5": 142,
+        "6": 155,
+        "7": 199,
+        "8": 135
+      },
+      "total_ediciones": 498,
+      "pct_pob_16": 7.88
+    },
+    "La Vega Baixa": {
+      "por_edicion": {
+        "1": 28,
+        "2": 208,
+        "3": 135,
+        "4": 135,
+        "5": 163,
+        "6": 191,
+        "7": 236,
+        "8": 189
+      },
+      "total_ediciones": 616,
+      "pct_pob_16": 12.84
+    },
+    "La Carrasca": {
+      "por_edicion": {
+        "1": 24,
+        "2": 211,
+        "3": 92,
+        "4": 84,
+        "5": 110,
+        "6": 156,
+        "7": 180,
+        "8": 138
+      },
+      "total_ediciones": 490,
+      "pct_pob_16": 15.9
+    },
+    "Benimaclet": {
+      "por_edicion": {
+        "1": 189,
+        "2": 572,
+        "3": 604,
+        "4": 595,
+        "5": 722,
+        "6": 965,
+        "7": 954,
+        "8": 822
+      },
+      "total_ediciones": 2570,
+      "pct_pob_16": 12.58
+    },
+    "Cami De Vera": {
+      "por_edicion": {
+        "1": 178,
+        "2": 199,
+        "3": 207,
+        "4": 206,
+        "5": 193,
+        "6": 327,
+        "7": 296,
+        "8": 262
+      },
+      "total_ediciones": 887,
+      "pct_pob_16": 18.67
+    },
+    "Els Orriols": {
+      "por_edicion": {
+        "1": 57,
+        "2": 179,
+        "3": 192,
+        "4": 161,
+        "5": 144,
+        "6": 307,
+        "7": 240,
+        "8": 426
+      },
+      "total_ediciones": 1014,
+      "pct_pob_16": 7.11
+    },
+    "Torrefiel": {
+      "por_edicion": {
+        "1": 81,
+        "2": 420,
+        "3": 525,
+        "4": 359,
+        "5": 424,
+        "6": 601,
+        "7": 540,
+        "8": 513
+      },
+      "total_ediciones": 1872,
+      "pct_pob_16": 8.28
+    },
+    "Sant Llorens": {
+      "por_edicion": {
+        "1": 44,
+        "2": 260,
+        "3": 313,
+        "4": 276,
+        "5": 314,
+        "6": 454,
+        "7": 484,
+        "8": 493
+      },
+      "total_ediciones": 1299,
+      "pct_pob_16": 15.04
+    },
+    "Benicalap": {
+      "por_edicion": {
+        "1": 106,
+        "2": 475,
+        "3": 716,
+        "4": 521,
+        "5": 845,
+        "6": 1130,
+        "7": 1277,
+        "8": 1401
+      },
+      "total_ediciones": 3544,
+      "pct_pob_16": 10.13
+    },
+    "Ciutat Fallera": {
+      "por_edicion": {
+        "1": 10,
+        "2": 43,
+        "3": 71,
+        "4": 65,
+        "5": 128,
+        "6": 130,
+        "7": 122,
+        "8": 105
+      },
+      "total_ediciones": 357,
+      "pct_pob_16": 7.04
+    },
+    "Benifaraig": {
+      "por_edicion": {
+        "1": 329,
+        "2": 170,
+        "3": 227,
+        "4": 108,
+        "5": 72,
+        "6": 131,
+        "7": 73,
+        "8": 112
+      },
+      "total_ediciones": 565,
+      "pct_pob_16": 66.39
+    },
+    "Poble Nou": {
+      "por_edicion": {
+        "1": 17,
+        "2": 23,
+        "3": 45,
+        "4": 23,
+        "5": 36,
+        "6": 54,
+        "7": 33,
+        "8": 67
+      },
+      "total_ediciones": 178,
+      "pct_pob_16": 22.45
+    },
+    "Carpesa": {
+      "por_edicion": {
+        "1": 147,
+        "2": 295,
+        "3": 45,
+        "4": 78,
+        "5": 92,
+        "6": 115,
+        "7": 107,
+        "8": 162
+      },
+      "total_ediciones": 585,
+      "pct_pob_16": 56.03
+    },
+    "Les Cases De Barcena": {
+      "por_edicion": {
+        "1": 2,
+        "2": 11,
+        "3": 25,
+        "4": 49,
+        "5": 10,
+        "6": 17,
+        "7": 17,
+        "8": 30
+      },
+      "total_ediciones": 84,
+      "pct_pob_16": 26.58
+    },
+    "Mahuella-Tauladella": {
+      "por_edicion": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 4,
+        "5": 1,
+        "6": 0,
+        "7": 0,
+        "8": 0
+      },
+      "total_ediciones": 2,
+      "pct_pob_16": 3.85
+    },
+    "Massarrojos": {
+      "por_edicion": {
+        "1": 68,
+        "2": 474,
+        "3": 207,
+        "4": 181,
+        "5": 136,
+        "6": 176,
+        "7": 148,
+        "8": 72
+      },
+      "total_ediciones": 818,
+      "pct_pob_16": 41.65
+    },
+    "Borboto": {
+      "por_edicion": {
+        "1": 139,
+        "2": 263,
+        "3": 210,
+        "4": 73,
+        "5": 62,
+        "6": 89,
+        "7": 82,
+        "8": 409
+      },
+      "total_ediciones": 501,
+      "pct_pob_16": 80.03
+    },
+    "Benimamet": {
+      "por_edicion": {
+        "1": 104,
+        "2": 336,
+        "3": 474,
+        "4": 414,
+        "5": 539,
+        "6": 542,
+        "7": 479,
+        "8": 106
+      },
+      "total_ediciones": 1451,
+      "pct_pob_16": 12.76
+    },
+    "Beniferri": {
+      "por_edicion": {
+        "1": 3,
+        "2": 21,
+        "3": 22,
+        "4": 20,
+        "5": 37,
+        "6": 76,
+        "7": 68,
+        "8": 85
+      },
+      "total_ediciones": 194,
+      "pct_pob_16": 20.02
+    },
+    "El Forn D'Alcedo": {
+      "por_edicion": {
+        "1": 55,
+        "2": 156,
+        "3": 83,
+        "4": 99,
+        "5": 32,
+        "6": 94,
+        "7": 63,
+        "8": 218
+      },
+      "total_ediciones": 357,
+      "pct_pob_16": 32.9
+    },
+    "Castellar-L'Oliveral": {
+      "por_edicion": {
+        "1": 122,
+        "2": 315,
+        "3": 292,
+        "4": 203,
+        "5": 332,
+        "6": 335,
+        "7": 269,
+        "8": 176
+      },
+      "total_ediciones": 946,
+      "pct_pob_16": 16.22
+    },
+    "Pinedo": {
+      "por_edicion": {
+        "1": 15,
+        "2": 255,
+        "3": 52,
+        "4": 87,
+        "5": 98,
+        "6": 146,
+        "7": 149,
+        "8": 194
+      },
+      "total_ediciones": 569,
+      "pct_pob_16": 25.69
+    },
+    "El Saler": {
+      "por_edicion": {
+        "1": 36,
+        "2": 96,
+        "3": 141,
+        "4": 105,
+        "5": 175,
+        "6": 190,
+        "7": 156,
+        "8": 76
+      },
+      "total_ediciones": 554,
+      "pct_pob_16": 34.13
+    },
+    "El Palmar": {
+      "por_edicion": {
+        "1": 1,
+        "2": 1,
+        "3": 50,
+        "4": 15,
+        "5": 148,
+        "6": 55,
+        "7": 87,
+        "8": 92
+      },
+      "total_ediciones": 215,
+      "pct_pob_16": 32.19
+    },
+    "El Perellonet": {
+      "por_edicion": {
+        "1": 20,
+        "2": 10,
+        "3": 33,
+        "4": 37,
+        "5": 25,
+        "6": 42,
+        "7": 53,
+        "8": 142
+      },
+      "total_ediciones": 195,
+      "pct_pob_16": 15.53
+    },
+    "La Torre": {
+      "por_edicion": {
+        "1": 204,
+        "2": 214,
+        "3": 271,
+        "4": 129,
+        "5": 101,
+        "6": 174,
+        "7": 133,
+        "8": 94
+      },
+      "total_ediciones": 723,
+      "pct_pob_16": 17.19
+    },
+    "Faitanar": {
+      "por_edicion": {
+        "1": 38,
+        "2": 75,
+        "3": 94,
+        "4": 69,
+        "5": 74,
+        "6": 89,
+        "7": 82,
+        "8": 1
+      },
+      "total_ediciones": 244,
+      "pct_pob_16": 19.09
+    }
+  },
+  "funnel_propuestas": {
+    "1": {
+      "presentadas": {
+        "total": 619,
+        "particulares": 324,
+        "grupos": 179,
+        "ayuntamiento": 116
+      },
+      "desest_apoyo": null,
+      "desest_viabilidad": {
+        "total": 384,
+        "particulares": 237,
+        "grupos": 144,
+        "ayuntamiento": 3
+      },
+      "votadas": {
+        "total": 235,
+        "particulares": 87,
+        "grupos": 35,
+        "ayuntamiento": 113
+      },
+      "seleccionadas": {
+        "total": 109,
+        "particulares": 38,
+        "grupos": 20,
+        "ayuntamiento": 51
+      }
+    },
+    "2": {
+      "presentadas": {
+        "total": 585,
+        "particulares": 471,
+        "grupos": 114,
+        "ayuntamiento": 0
+      },
+      "desest_apoyo": {
+        "total": 319,
+        "particulares": 319,
+        "grupos": 0,
+        "ayuntamiento": 0
+      },
+      "desest_viabilidad": {
+        "total": 157,
+        "particulares": 98,
+        "grupos": 59,
+        "ayuntamiento": 0
+      },
+      "votadas": {
+        "total": 115,
+        "particulares": 59,
+        "grupos": 56,
+        "ayuntamiento": 0
+      },
+      "seleccionadas": {
+        "total": 71,
+        "particulares": 34,
+        "grupos": 37,
+        "ayuntamiento": 0
+      }
+    },
+    "3": {
+      "presentadas": {
+        "total": 562,
+        "particulares": 546,
+        "grupos": 0,
+        "ayuntamiento": 16
+      },
+      "desest_apoyo": {
+        "total": 468,
+        "particulares": 462,
+        "grupos": 0,
+        "ayuntamiento": 6
+      },
+      "desest_viabilidad": {
+        "total": 47,
+        "particulares": 47,
+        "grupos": 0,
+        "ayuntamiento": 0
+      },
+      "votadas": {
+        "total": 47,
+        "particulares": 37,
+        "grupos": 0,
+        "ayuntamiento": 10
+      },
+      "seleccionadas": {
+        "total": 11,
+        "particulares": 6,
+        "grupos": 0,
+        "ayuntamiento": 5
+      }
+    },
+    "4": {
+      "presentadas": {
+        "total": 540,
+        "particulares": 413,
+        "grupos": 127,
+        "ayuntamiento": 0
+      },
+      "desest_apoyo": {
+        "total": 165,
+        "particulares": 165,
+        "grupos": 0,
+        "ayuntamiento": 0
+      },
+      "desest_viabilidad": {
+        "total": 173,
+        "particulares": 131,
+        "grupos": 42,
+        "ayuntamiento": 0
+      },
+      "votadas": {
+        "total": 202,
+        "particulares": 117,
+        "grupos": 85,
+        "ayuntamiento": 0
+      },
+      "seleccionadas": {
+        "total": 103,
+        "particulares": 55,
+        "grupos": 48,
+        "ayuntamiento": 0
+      }
+    },
+    "5": {
+      "presentadas": {
+        "total": 632,
+        "particulares": 607,
+        "grupos": 0,
+        "ayuntamiento": 25
+      },
+      "desest_apoyo": {
+        "total": 486,
+        "particulares": 473,
+        "grupos": 0,
+        "ayuntamiento": 13
+      },
+      "desest_viabilidad": {
+        "total": 83,
+        "particulares": 82,
+        "grupos": 0,
+        "ayuntamiento": 1
+      },
+      "votadas": {
+        "total": 63,
+        "particulares": 52,
+        "grupos": 0,
+        "ayuntamiento": 11
+      },
+      "seleccionadas": {
+        "total": 21,
+        "particulares": 16,
+        "grupos": 0,
+        "ayuntamiento": 5
+      }
+    },
+    "6": {
+      "presentadas": {
+        "total": 1284,
+        "particulares": 1249,
+        "grupos": 26,
+        "ayuntamiento": 9
+      },
+      "desest_apoyo": {
+        "total": 478,
+        "particulares": 478,
+        "grupos": 0,
+        "ayuntamiento": 0
+      },
+      "desest_viabilidad": {
+        "total": 523,
+        "particulares": 509,
+        "grupos": 10,
+        "ayuntamiento": 4
+      },
+      "votadas": {
+        "total": 283,
+        "particulares": 262,
+        "grupos": 16,
+        "ayuntamiento": 5
+      },
+      "seleccionadas": {
+        "total": 139,
+        "particulares": 131,
+        "grupos": 5,
+        "ayuntamiento": 3
+      }
+    },
+    "7": {
+      "presentadas": {
+        "total": 1567,
+        "particulares": 1440,
+        "grupos": 103,
+        "ayuntamiento": 24
+      },
+      "desest_apoyo": {
+        "total": 815,
+        "particulares": 815,
+        "grupos": 0,
+        "ayuntamiento": 0
+      },
+      "desest_viabilidad": {
+        "total": 431,
+        "particulares": 389,
+        "grupos": 42,
+        "ayuntamiento": 0
+      },
+      "votadas": {
+        "total": 321,
+        "particulares": 236,
+        "grupos": 61,
+        "ayuntamiento": 24
+      },
+      "seleccionadas": {
+        "total": 146,
+        "particulares": 115,
+        "grupos": 21,
+        "ayuntamiento": 10
+      }
+    },
+    "8": {
+      "presentadas": {
+        "total": 2776,
+        "particulares": 2626,
+        "grupos": 150,
+        "ayuntamiento": 0
+      },
+      "desest_apoyo": {
+        "total": 1335,
+        "particulares": 1262,
+        "grupos": 73,
+        "ayuntamiento": 0
+      },
+      "desest_viabilidad": {
+        "total": 983,
+        "particulares": 946,
+        "grupos": 37,
+        "ayuntamiento": 0
+      },
+      "votadas": {
+        "total": 458,
+        "particulares": 418,
+        "grupos": 40,
+        "ayuntamiento": 0
+      },
+      "seleccionadas": {
+        "total": 250,
+        "particulares": 231,
+        "grupos": 19,
+        "ayuntamiento": 0
+      }
+    }
+  },
+  "edicion8_seleccion_por_distrito": {
+    "Ciutat Vella": {
+      "votadas": {
+        "total": 17,
+        "particulares": 12,
+        "grupos": 5
+      },
+      "seleccionadas": {
+        "total": 10,
+        "particulares": 6,
+        "grupos": 4
+      }
+    },
+    "L'Eixample": {
+      "votadas": {
+        "total": 11,
+        "particulares": 11,
+        "grupos": 0
+      },
+      "seleccionadas": {
+        "total": 7,
+        "particulares": 7,
+        "grupos": 0
+      }
+    },
+    "Extramurs": {
+      "votadas": {
+        "total": 23,
+        "particulares": 22,
+        "grupos": 1
+      },
+      "seleccionadas": {
+        "total": 15,
+        "particulares": 14,
+        "grupos": 1
+      }
+    },
+    "Campanar": {
+      "votadas": {
+        "total": 24,
+        "particulares": 22,
+        "grupos": 2
+      },
+      "seleccionadas": {
+        "total": 9,
+        "particulares": 8,
+        "grupos": 1
+      }
+    },
+    "La Saïdia": {
+      "votadas": {
+        "total": 32,
+        "particulares": 30,
+        "grupos": 2
+      },
+      "seleccionadas": {
+        "total": 22,
+        "particulares": 20,
+        "grupos": 2
+      }
+    },
+    "El Pla del Real": {
+      "votadas": {
+        "total": 23,
+        "particulares": 23,
+        "grupos": 0
+      },
+      "seleccionadas": {
+        "total": 13,
+        "particulares": 13,
+        "grupos": 0
+      }
+    },
+    "L'Olivereta": {
+      "votadas": {
+        "total": 14,
+        "particulares": 12,
+        "grupos": 2
+      },
+      "seleccionadas": {
+        "total": 11,
+        "particulares": 10,
+        "grupos": 1
+      }
+    },
+    "Patraix": {
+      "votadas": {
+        "total": 41,
+        "particulares": 35,
+        "grupos": 6
+      },
+      "seleccionadas": {
+        "total": 17,
+        "particulares": 14,
+        "grupos": 3
+      }
+    },
+    "Jesús": {
+      "votadas": {
+        "total": 14,
+        "particulares": 12,
+        "grupos": 2
+      },
+      "seleccionadas": {
+        "total": 14,
+        "particulares": 12,
+        "grupos": 2
+      }
+    },
+    "Quatre Carreres": {
+      "votadas": {
+        "total": 50,
+        "particulares": 45,
+        "grupos": 5
+      },
+      "seleccionadas": {
+        "total": 26,
+        "particulares": 22,
+        "grupos": 4
+      }
+    },
+    "Poblats Marítims": {
+      "votadas": {
+        "total": 29,
+        "particulares": 25,
+        "grupos": 4
+      },
+      "seleccionadas": {
+        "total": 12,
+        "particulares": 11,
+        "grupos": 1
+      }
+    },
+    "Camins al Grau": {
+      "votadas": {
+        "total": 29,
+        "particulares": 28,
+        "grupos": 1
+      },
+      "seleccionadas": {
+        "total": 8,
+        "particulares": 8,
+        "grupos": 0
+      }
+    },
+    "Algirós": {
+      "votadas": {
+        "total": 18,
+        "particulares": 18,
+        "grupos": 0
+      },
+      "seleccionadas": {
+        "total": 12,
+        "particulares": 12,
+        "grupos": 0
+      }
+    },
+    "Benimaclet": {
+      "votadas": {
+        "total": 24,
+        "particulares": 21,
+        "grupos": 3
+      },
+      "seleccionadas": {
+        "total": 11,
+        "particulares": 10,
+        "grupos": 1
+      }
+    },
+    "Rascanya": {
+      "votadas": {
+        "total": 15,
+        "particulares": 14,
+        "grupos": 1
+      },
+      "seleccionadas": {
+        "total": 13,
+        "particulares": 13,
+        "grupos": 0
+      }
+    },
+    "Benicalap": {
+      "votadas": {
+        "total": 22,
+        "particulares": 22,
+        "grupos": 0
+      },
+      "seleccionadas": {
+        "total": 9,
+        "particulares": 9,
+        "grupos": 0
+      }
+    },
+    "Poblats del Nord": {
+      "votadas": {
+        "total": 19,
+        "particulares": 18,
+        "grupos": 1
+      },
+      "seleccionadas": {
+        "total": 10,
+        "particulares": 10,
+        "grupos": 0
+      }
+    },
+    "Poblats de l'Oest": {
+      "votadas": {
+        "total": 22,
+        "particulares": 17,
+        "grupos": 5
+      },
+      "seleccionadas": {
+        "total": 11,
+        "particulares": 9,
+        "grupos": 2
+      }
+    },
+    "Poblats del Sud": {
+      "votadas": {
+        "total": 31,
+        "particulares": 31,
+        "grupos": 0
+      },
+      "seleccionadas": {
+        "total": 18,
+        "particulares": 18,
+        "grupos": 0
+      }
+    }
+  },
+  "edicion8_votos_por_barri": {
+    "La Seu": {
+      "votos_totales": 348,
+      "votantes": 78,
+      "votos_positivos": 331,
+      "votantes_pos": 78,
+      "votos_negativos": 17,
+      "votantes_neg": 17
+    },
+    "La Xerea": {
+      "votos_totales": 312,
+      "votantes": 85,
+      "votos_positivos": 296,
+      "votantes_pos": 84,
+      "votos_negativos": 16,
+      "votantes_neg": 16
+    },
+    "El Carme": {
+      "votos_totales": 1047,
+      "votantes": 215,
+      "votos_positivos": 1007,
+      "votantes_pos": 211,
+      "votos_negativos": 40,
+      "votantes_neg": 40
+    },
+    "El Pilar": {
+      "votos_totales": 684,
+      "votantes": 133,
+      "votos_positivos": 643,
+      "votantes_pos": 130,
+      "votos_negativos": 41,
+      "votantes_neg": 41
+    },
+    "El Mercat": {
+      "votos_totales": 480,
+      "votantes": 100,
+      "votos_positivos": 452,
+      "votantes_pos": 100,
+      "votos_negativos": 28,
+      "votantes_neg": 28
+    },
+    "Sant Francesc": {
+      "votos_totales": 386,
+      "votantes": 101,
+      "votos_positivos": 369,
+      "votantes_pos": 100,
+      "votos_negativos": 17,
+      "votantes_neg": 17
+    },
+    "Russafa": {
+      "votos_totales": 2322,
+      "votantes": 601,
+      "votos_positivos": 2186,
+      "votantes_pos": 597,
+      "votos_negativos": 136,
+      "votantes_neg": 136
+    },
+    "El Pla Del Remei": {
+      "votos_totales": 487,
+      "votantes": 143,
+      "votos_positivos": 455,
+      "votantes_pos": 141,
+      "votos_negativos": 32,
+      "votantes_neg": 32
+    },
+    "La Gran Via": {
+      "votos_totales": 984,
+      "votantes": 282,
+      "votos_positivos": 931,
+      "votantes_pos": 278,
+      "votos_negativos": 53,
+      "votantes_neg": 53
+    },
+    "El Botanic": {
+      "votos_totales": 1858,
+      "votantes": 272,
+      "votos_positivos": 1730,
+      "votantes_pos": 269,
+      "votos_negativos": 128,
+      "votantes_neg": 128
+    },
+    "La Roqueta": {
+      "votos_totales": 879,
+      "votantes": 177,
+      "votos_positivos": 794,
+      "votantes_pos": 176,
+      "votos_negativos": 85,
+      "votantes_neg": 85
+    },
+    "La Petxina": {
+      "votos_totales": 3983,
+      "votantes": 569,
+      "votos_positivos": 3710,
+      "votantes_pos": 565,
+      "votos_negativos": 273,
+      "votantes_neg": 273
+    },
+    "Arrancapins": {
+      "votos_totales": 3920,
+      "votantes": 600,
+      "votos_positivos": 3618,
+      "votantes_pos": 587,
+      "votos_negativos": 302,
+      "votantes_neg": 302
+    },
+    "Campanar": {
+      "votos_totales": 1574,
+      "votantes": 348,
+      "votos_positivos": 1508,
+      "votantes_pos": 345,
+      "votos_negativos": 66,
+      "votantes_neg": 66
+    },
+    "Les Tendetes": {
+      "votos_totales": 412,
+      "votantes": 92,
+      "votos_positivos": 394,
+      "votantes_pos": 92,
+      "votos_negativos": 18,
+      "votantes_neg": 18
+    },
+    "El Calvari": {
+      "votos_totales": 109,
+      "votantes": 37,
+      "votos_positivos": 105,
+      "votantes_pos": 37,
+      "votos_negativos": 4,
+      "votantes_neg": 4
+    },
+    "Sant Pau": {
+      "votos_totales": 3405,
+      "votantes": 745,
+      "votos_positivos": 3252,
+      "votantes_pos": 739,
+      "votos_negativos": 153,
+      "votantes_neg": 153
+    },
+    "Marxalenes": {
+      "votos_totales": 1006,
+      "votantes": 160,
+      "votos_positivos": 981,
+      "votantes_pos": 160,
+      "votos_negativos": 25,
+      "votantes_neg": 25
+    },
+    "Morvedre": {
+      "votos_totales": 2633,
+      "votantes": 351,
+      "votos_positivos": 2551,
+      "votantes_pos": 350,
+      "votos_negativos": 82,
+      "votantes_neg": 82
+    },
+    "Trinitat": {
+      "votos_totales": 1756,
+      "votantes": 275,
+      "votos_positivos": 1713,
+      "votantes_pos": 275,
+      "votos_negativos": 43,
+      "votantes_neg": 43
+    },
+    "Tormos": {
+      "votos_totales": 734,
+      "votantes": 137,
+      "votos_positivos": 705,
+      "votantes_pos": 137,
+      "votos_negativos": 29,
+      "votantes_neg": 29
+    },
+    "Sant Antoni": {
+      "votos_totales": 2082,
+      "votantes": 295,
+      "votos_positivos": 2015,
+      "votantes_pos": 293,
+      "votos_negativos": 67,
+      "votantes_neg": 67
+    },
+    "Exposicio": {
+      "votos_totales": 978,
+      "votantes": 221,
+      "votos_positivos": 929,
+      "votantes_pos": 218,
+      "votos_negativos": 49,
+      "votantes_neg": 49
+    },
+    "Mestalla": {
+      "votos_totales": 1687,
+      "votantes": 365,
+      "votos_positivos": 1610,
+      "votantes_pos": 365,
+      "votos_negativos": 77,
+      "votantes_neg": 77
+    },
+    "Jaume Roig": {
+      "votos_totales": 672,
+      "votantes": 126,
+      "votos_positivos": 646,
+      "votantes_pos": 124,
+      "votos_negativos": 26,
+      "votantes_neg": 26
+    },
+    "Ciutat Universitaria": {
+      "votos_totales": 308,
+      "votantes": 68,
+      "votos_positivos": 289,
+      "votantes_pos": 68,
+      "votos_negativos": 19,
+      "votantes_neg": 19
+    },
+    "Nou Moles": {
+      "votos_totales": 2870,
+      "votantes": 505,
+      "votos_positivos": 2772,
+      "votantes_pos": 504,
+      "votos_negativos": 98,
+      "votantes_neg": 98
+    },
+    "Soternes": {
+      "votos_totales": 556,
+      "votantes": 189,
+      "votos_positivos": 538,
+      "votantes_pos": 187,
+      "votos_negativos": 18,
+      "votantes_neg": 18
+    },
+    "Tres Forques": {
+      "votos_totales": 567,
+      "votantes": 115,
+      "votos_positivos": 553,
+      "votantes_pos": 114,
+      "votos_negativos": 14,
+      "votantes_neg": 14
+    },
+    "La Fontsanta": {
+      "votos_totales": 188,
+      "votantes": 86,
+      "votos_positivos": 186,
+      "votantes_pos": 86,
+      "votos_negativos": 2,
+      "votantes_neg": 2
+    },
+    "La Llum": {
+      "votos_totales": 337,
+      "votantes": 86,
+      "votos_positivos": 330,
+      "votantes_pos": 85,
+      "votos_negativos": 7,
+      "votantes_neg": 7
+    },
+    "Patraix": {
+      "votos_totales": 4748,
+      "votantes": 622,
+      "votos_positivos": 4621,
+      "votantes_pos": 614,
+      "votos_negativos": 127,
+      "votantes_neg": 127
+    },
+    "Sant Isidre": {
+      "votos_totales": 2378,
+      "votantes": 521,
+      "votos_positivos": 2283,
+      "votantes_pos": 519,
+      "votos_negativos": 95,
+      "votantes_neg": 95
+    },
+    "Vara De Quart": {
+      "votos_totales": 1594,
+      "votantes": 262,
+      "votos_positivos": 1551,
+      "votantes_pos": 261,
+      "votos_negativos": 43,
+      "votantes_neg": 43
+    },
+    "Safranar": {
+      "votos_totales": 2578,
+      "votantes": 391,
+      "votos_positivos": 2497,
+      "votantes_pos": 389,
+      "votos_negativos": 81,
+      "votantes_neg": 81
+    },
+    "Favara": {
+      "votos_totales": 334,
+      "votantes": 71,
+      "votos_positivos": 321,
+      "votantes_pos": 71,
+      "votos_negativos": 13,
+      "votantes_neg": 13
+    },
+    "La Raiosa": {
+      "votos_totales": 1869,
+      "votantes": 320,
+      "votos_positivos": 1829,
+      "votantes_pos": 317,
+      "votos_negativos": 40,
+      "votantes_neg": 40
+    },
+    "L'Hort De Senabre": {
+      "votos_totales": 1393,
+      "votantes": 245,
+      "votos_positivos": 1349,
+      "votantes_pos": 245,
+      "votos_negativos": 44,
+      "votantes_neg": 44
+    },
+    "La Creu Coberta": {
+      "votos_totales": 712,
+      "votantes": 101,
+      "votos_positivos": 693,
+      "votantes_pos": 99,
+      "votos_negativos": 19,
+      "votantes_neg": 19
+    },
+    "Sant Marcel.Li": {
+      "votos_totales": 800,
+      "votantes": 143,
+      "votos_positivos": 785,
+      "votantes_pos": 143,
+      "votos_negativos": 15,
+      "votantes_neg": 15
+    },
+    "Cami Real": {
+      "votos_totales": 683,
+      "votantes": 133,
+      "votos_positivos": 671,
+      "votantes_pos": 133,
+      "votos_negativos": 12,
+      "votantes_neg": 12
+    },
+    "Montolivet": {
+      "votos_totales": 2426,
+      "votantes": 371,
+      "votos_positivos": 2350,
+      "votantes_pos": 368,
+      "votos_negativos": 76,
+      "votantes_neg": 76
+    },
+    "En Corts": {
+      "votos_totales": 1308,
+      "votantes": 250,
+      "votos_positivos": 1265,
+      "votantes_pos": 249,
+      "votos_negativos": 43,
+      "votantes_neg": 43
+    },
+    "Malilla": {
+      "votos_totales": 6005,
+      "votantes": 991,
+      "votos_positivos": 5833,
+      "votantes_pos": 990,
+      "votos_negativos": 172,
+      "votantes_neg": 172
+    },
+    "La Fonteta S.Lluis": {
+      "votos_totales": 241,
+      "votantes": 114,
+      "votos_positivos": 235,
+      "votantes_pos": 114,
+      "votos_negativos": 6,
+      "votantes_neg": 6
+    },
+    "Na Rovella": {
+      "votos_totales": 513,
+      "votantes": 75,
+      "votos_positivos": 503,
+      "votantes_pos": 73,
+      "votos_negativos": 10,
+      "votantes_neg": 10
+    },
+    "La Punta": {
+      "votos_totales": 444,
+      "votantes": 196,
+      "votos_positivos": 434,
+      "votantes_pos": 196,
+      "votos_negativos": 10,
+      "votantes_neg": 10
+    },
+    "Ciutat De Les Arts I De Les Ciencies": {
+      "votos_totales": 1610,
+      "votantes": 320,
+      "votos_positivos": 1567,
+      "votantes_pos": 318,
+      "votos_negativos": 43,
+      "votantes_neg": 43
+    },
+    "El Grau": {
+      "votos_totales": 749,
+      "votantes": 169,
+      "votos_positivos": 723,
+      "votantes_pos": 169,
+      "votos_negativos": 26,
+      "votantes_neg": 26
+    },
+    "Cabanyal-Canyamelar": {
+      "votos_totales": 1644,
+      "votantes": 322,
+      "votos_positivos": 1576,
+      "votantes_pos": 317,
+      "votos_negativos": 68,
+      "votantes_neg": 68
+    },
+    "La Malva-Rosa": {
+      "votos_totales": 1049,
+      "votantes": 210,
+      "votos_positivos": 1015,
+      "votantes_pos": 210,
+      "votos_negativos": 34,
+      "votantes_neg": 34
+    },
+    "Betero": {
+      "votos_totales": 793,
+      "votantes": 167,
+      "votos_positivos": 768,
+      "votantes_pos": 166,
+      "votos_negativos": 25,
+      "votantes_neg": 25
+    },
+    "Natzaret": {
+      "votos_totales": 310,
+      "votantes": 67,
+      "votos_positivos": 296,
+      "votantes_pos": 67,
+      "votos_negativos": 14,
+      "votantes_neg": 14
+    },
+    "Aiora": {
+      "votos_totales": 2560,
+      "votantes": 509,
+      "votos_positivos": 2478,
+      "votantes_pos": 504,
+      "votos_negativos": 82,
+      "votantes_neg": 82
+    },
+    "Albors": {
+      "votos_totales": 953,
+      "votantes": 213,
+      "votos_positivos": 925,
+      "votantes_pos": 211,
+      "votos_negativos": 28,
+      "votantes_neg": 28
+    },
+    "La Creu Del Grau": {
+      "votos_totales": 1846,
+      "votantes": 415,
+      "votos_positivos": 1782,
+      "votantes_pos": 413,
+      "votos_negativos": 64,
+      "votantes_neg": 64
+    },
+    "Cami Fondo": {
+      "votos_totales": 671,
+      "votantes": 138,
+      "votos_positivos": 654,
+      "votantes_pos": 138,
+      "votos_negativos": 17,
+      "votantes_neg": 17
+    },
+    "Penya-Roja": {
+      "votos_totales": 1854,
+      "votantes": 542,
+      "votos_positivos": 1768,
+      "votantes_pos": 536,
+      "votos_negativos": 86,
+      "votantes_neg": 86
+    },
+    "L'Illa Perduda": {
+      "votos_totales": 627,
+      "votantes": 149,
+      "votos_positivos": 601,
+      "votantes_pos": 148,
+      "votos_negativos": 26,
+      "votantes_neg": 26
+    },
+    "Ciutat Jardi": {
+      "votos_totales": 1598,
+      "votantes": 330,
+      "votos_positivos": 1528,
+      "votantes_pos": 325,
+      "votos_negativos": 70,
+      "votantes_neg": 70
+    },
+    "L'Amistat": {
+      "votos_totales": 550,
+      "votantes": 103,
+      "votos_positivos": 525,
+      "votantes_pos": 102,
+      "votos_negativos": 25,
+      "votantes_neg": 25
+    },
+    "La Vega Baixa": {
+      "votos_totales": 533,
+      "votantes": 139,
+      "votos_positivos": 507,
+      "votantes_pos": 138,
+      "votos_negativos": 26,
+      "votantes_neg": 26
+    },
+    "La Carrasca": {
+      "votos_totales": 477,
+      "votantes": 104,
+      "votos_positivos": 457,
+      "votantes_pos": 103,
+      "votos_negativos": 20,
+      "votantes_neg": 20
+    },
+    "Benimaclet": {
+      "votos_totales": 4088,
+      "votantes": 604,
+      "votos_positivos": 3967,
+      "votantes_pos": 599,
+      "votos_negativos": 121,
+      "votantes_neg": 121
+    },
+    "Cami De Vera": {
+      "votos_totales": 1461,
+      "votantes": 201,
+      "votos_positivos": 1425,
+      "votantes_pos": 200,
+      "votos_negativos": 36,
+      "votantes_neg": 36
+    },
+    "Els Orriols": {
+      "votos_totales": 2677,
+      "votantes": 324,
+      "votos_positivos": 2567,
+      "votantes_pos": 322,
+      "votos_negativos": 110,
+      "votantes_neg": 110
+    },
+    "Torrefiel": {
+      "votos_totales": 2092,
+      "votantes": 367,
+      "votos_positivos": 2028,
+      "votantes_pos": 366,
+      "votos_negativos": 64,
+      "votantes_neg": 64
+    },
+    "Sant Llorens": {
+      "votos_totales": 2452,
+      "votantes": 381,
+      "votos_positivos": 2381,
+      "votantes_pos": 380,
+      "votos_negativos": 71,
+      "votantes_neg": 71
+    },
+    "Benicalap": {
+      "votos_totales": 4933,
+      "votantes": 1032,
+      "votos_positivos": 4675,
+      "votantes_pos": 1029,
+      "votos_negativos": 258,
+      "votantes_neg": 258
+    },
+    "Ciutat Fallera": {
+      "votos_totales": 442,
+      "votantes": 74,
+      "votos_positivos": 425,
+      "votantes_pos": 74,
+      "votos_negativos": 17,
+      "votantes_neg": 17
+    },
+    "Benifaraig": {
+      "votos_totales": 315,
+      "votantes": 93,
+      "votos_positivos": 293,
+      "votantes_pos": 93,
+      "votos_negativos": 22,
+      "votantes_neg": 22
+    },
+    "Poble Nou": {
+      "votos_totales": 120,
+      "votantes": 58,
+      "votos_positivos": 115,
+      "votantes_pos": 58,
+      "votos_negativos": 5,
+      "votantes_neg": 5
+    },
+    "Carpesa": {
+      "votos_totales": 266,
+      "votantes": 144,
+      "votos_positivos": 247,
+      "votantes_pos": 144,
+      "votos_negativos": 19,
+      "votantes_neg": 19
+    },
+    "Les Cases De Barcena": {
+      "votos_totales": 19,
+      "votantes": 15,
+      "votos_positivos": 18,
+      "votantes_pos": 14,
+      "votos_negativos": 1,
+      "votantes_neg": 1
+    },
+    "Mahuella-Tauladella": {
+      "votos_totales": 0,
+      "votantes": 0,
+      "votos_positivos": 0,
+      "votantes_pos": 0,
+      "votos_negativos": 0,
+      "votantes_neg": 0
+    },
+    "Massarrojos": {
+      "votos_totales": 340,
+      "votantes": 141,
+      "votos_positivos": 322,
+      "votantes_pos": 141,
+      "votos_negativos": 18,
+      "votantes_neg": 18
+    },
+    "Borboto": {
+      "votos_totales": 113,
+      "votantes": 68,
+      "votos_positivos": 105,
+      "votantes_pos": 68,
+      "votos_negativos": 8,
+      "votantes_neg": 8
+    },
+    "Benimamet": {
+      "votos_totales": 1519,
+      "votantes": 286,
+      "votos_positivos": 1448,
+      "votantes_pos": 284,
+      "votos_negativos": 71,
+      "votantes_neg": 71
+    },
+    "Beniferri": {
+      "votos_totales": 263,
+      "votantes": 63,
+      "votos_positivos": 248,
+      "votantes_pos": 63,
+      "votos_negativos": 15,
+      "votantes_neg": 15
+    },
+    "El Forn D'Alcedo": {
+      "votos_totales": 240,
+      "votantes": 68,
+      "votos_positivos": 231,
+      "votantes_pos": 68,
+      "votos_negativos": 9,
+      "votantes_neg": 9
+    },
+    "Castellar-L'Oliveral": {
+      "votos_totales": 928,
+      "votantes": 150,
+      "votos_positivos": 899,
+      "votantes_pos": 149,
+      "votos_negativos": 29,
+      "votantes_neg": 29
+    },
+    "Pinedo": {
+      "votos_totales": 511,
+      "votantes": 143,
+      "votos_positivos": 484,
+      "votantes_pos": 139,
+      "votos_negativos": 27,
+      "votantes_neg": 27
+    },
+    "El Saler": {
+      "votos_totales": 726,
+      "votantes": 155,
+      "votos_positivos": 696,
+      "votantes_pos": 155,
+      "votos_negativos": 30,
+      "votantes_neg": 30
+    },
+    "El Palmar": {
+      "votos_totales": 234,
+      "votantes": 72,
+      "votos_positivos": 231,
+      "votantes_pos": 72,
+      "votos_negativos": 3,
+      "votantes_neg": 3
+    },
+    "El Perellonet": {
+      "votos_totales": 167,
+      "votantes": 70,
+      "votos_positivos": 158,
+      "votantes_pos": 68,
+      "votos_negativos": 9,
+      "votantes_neg": 9
+    },
+    "La Torre": {
+      "votos_totales": 680,
+      "votantes": 109,
+      "votos_positivos": 656,
+      "votantes_pos": 109,
+      "votos_negativos": 24,
+      "votantes_neg": 24
+    },
+    "Faitanar": {
+      "votos_totales": 402,
+      "votantes": 77,
+      "votos_positivos": 380,
+      "votantes_pos": 77,
+      "votos_negativos": 22,
+      "votantes_neg": 22
+    }
+  },
+  "distribucion_presupuestaria_2025": {
+    "presupuesto_total_euros": 16000000,
+    "criterios": [
+      "suelo mínimo por distrito (160k€; pedanías ajustadas)",
+      "50% por población ≥16 años",
+      "50% inversamente proporcional a renta media"
+    ],
+    "por_distrito": {
+      "Ciutat Vella": {
+        "pob_total": 30002,
+        "pob_16": 26547,
+        "renta_media": 20593,
+        "asignacion_inicial": 160000,
+        "por_poblacion": 222990,
+        "por_renta": 12663,
+        "inversion_total": 395154,
+        "eur_habitante": 13.2
+      },
+      "L'Eixample": {
+        "pob_total": 44631,
+        "pob_16": 38590,
+        "renta_media": 21841,
+        "asignacion_inicial": 160000,
+        "por_poblacion": 324150,
+        "por_renta": 1744,
+        "inversion_total": 485894,
+        "eur_habitante": 10.9
+      },
+      "Extramurs": {
+        "pob_total": 50643,
+        "pob_16": 44234,
+        "renta_media": 18232,
+        "asignacion_inicial": 160000,
+        "por_poblacion": 371558,
+        "por_renta": 109030,
+        "inversion_total": 640588,
+        "eur_habitante": 12.6
+      },
+      "Campanar": {
+        "pob_total": 40917,
+        "pob_16": 34459,
+        "renta_media": 16542,
+        "asignacion_inicial": 160000,
+        "por_poblacion": 289450,
+        "por_renta": 173937,
+        "inversion_total": 623387,
+        "eur_habitante": 15.2
+      },
+      "La Saïdia": {
+        "pob_total": 48383,
+        "pob_16": 42431,
+        "renta_media": 14173,
+        "asignacion_inicial": 160000,
+        "por_poblacion": 356413,
+        "por_renta": 405544,
+        "inversion_total": 921957,
+        "eur_habitante": 19.1
+      },
+      "El Pla del Real": {
+        "pob_total": 31020,
+        "pob_16": 26259,
+        "renta_media": 22403,
+        "asignacion_inicial": 160000,
+        "por_poblacion": 220571,
+        "por_renta": 0,
+        "inversion_total": 380571,
+        "eur_habitante": 12.3
+      },
+      "L'Olivereta": {
+        "pob_total": 51474,
+        "pob_16": 45046,
+        "renta_media": 12338,
+        "asignacion_inicial": 160000,
+        "por_poblacion": 378379,
+        "por_renta": 645299,
+        "inversion_total": 1183678,
+        "eur_habitante": 23.0
+      },
+      "Patraix": {
+        "pob_total": 59417,
+        "pob_16": 52238,
+        "renta_media": 14906,
+        "asignacion_inicial": 160000,
+        "por_poblacion": 438790,
+        "por_renta": 413267,
+        "inversion_total": 1012058,
+        "eur_habitante": 17.0
+      },
+      "Jesús": {
+        "pob_total": 53582,
+        "pob_16": 47125,
+        "renta_media": 12877,
+        "asignacion_inicial": 160000,
+        "por_poblacion": 395842,
+        "por_renta": 601708,
+        "inversion_total": 1157550,
+        "eur_habitante": 21.6
+      },
+      "Quatre Carreres": {
+        "pob_total": 80266,
+        "pob_16": 69238,
+        "renta_media": 13810,
+        "asignacion_inicial": 160000,
+        "por_poblacion": 581588,
+        "por_renta": 733444,
+        "inversion_total": 1475031,
+        "eur_habitante": 18.4
+      },
+      "Poblats Marítims": {
+        "pob_total": 56843,
+        "pob_16": 49757,
+        "renta_media": 12958,
+        "asignacion_inicial": 160000,
+        "por_poblacion": 417950,
+        "por_renta": 627518,
+        "inversion_total": 1205469,
+        "eur_habitante": 21.2
+      },
+      "Camins al Grau": {
+        "pob_total": 67453,
+        "pob_16": 58261,
+        "renta_media": 15067,
+        "asignacion_inicial": 160000,
+        "por_poblacion": 489383,
+        "por_renta": 449227,
+        "inversion_total": 1098609,
+        "eur_habitante": 16.3
+      },
+      "Algirós": {
+        "pob_total": 36266,
+        "pob_16": 32515,
+        "renta_media": 16560,
+        "asignacion_inicial": 160000,
+        "por_poblacion": 273121,
+        "por_renta": 153221,
+        "inversion_total": 586341,
+        "eur_habitante": 16.2
+      },
+      "Benimaclet": {
+        "pob_total": 28541,
+        "pob_16": 25253,
+        "renta_media": 16141,
+        "asignacion_inicial": 160000,
+        "por_poblacion": 212121,
+        "por_renta": 138497,
+        "inversion_total": 510618,
+        "eur_habitante": 17.9
+      },
+      "Rascanya": {
+        "pob_total": 56703,
+        "pob_16": 48451,
+        "renta_media": 12489,
+        "asignacion_inicial": 160000,
+        "por_poblacion": 406980,
+        "por_renta": 689683,
+        "inversion_total": 1256663,
+        "eur_habitante": 22.2
+      },
+      "Benicalap": {
+        "pob_total": 50152,
+        "pob_16": 42790,
+        "renta_media": 12699,
+        "asignacion_inicial": 160000,
+        "por_poblacion": 359429,
+        "por_renta": 584434,
+        "inversion_total": 1103863,
+        "eur_habitante": 22.0
+      },
+      "Poblats del Nord": {
+        "pob_total": 7009,
+        "pob_16": 6012,
+        "renta_media": 15925,
+        "asignacion_inicial": 373506,
+        "por_poblacion": null,
+        "por_renta": null,
+        "inversion_total": 373506,
+        "eur_habitante": 53.3
+      },
+      "Poblats de l'Oest": {
+        "pob_total": 15261,
+        "pob_16": 13063,
+        "renta_media": 11884,
+        "asignacion_inicial": 692676,
+        "por_poblacion": null,
+        "por_renta": null,
+        "inversion_total": 692676,
+        "eur_habitante": 45.4
+      },
+      "Poblats del Sud": {
+        "pob_total": 22043,
+        "pob_16": 18960,
+        "renta_media": 13080,
+        "asignacion_inicial": 896387,
+        "por_poblacion": null,
+        "por_renta": null,
+        "inversion_total": 896387,
+        "eur_habitante": 40.7
+      }
+    }
+  }
+}

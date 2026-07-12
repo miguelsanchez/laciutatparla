@@ -1,0 +1,642 @@
+{
+  "id": "2025-01-28",
+  "fecha": "2025-01-28",
+  "tipo": "ordinaria",
+  "mandat_id": "2023-2027",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2025-01-28",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20250128_0945_0_firmadoweb.pdf/5cbc7cff-76a7-ad0d-83ba-34e92e3c199e?t=1740644053698",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20250128_0945_0_firmadoweb.pdf/f31f5389-b3fc-9f11-af65-0dee08fc1547?t=1738228314376",
+  "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-737",
+  "num_intervencions": 11,
+  "intervencions": [
+    {
+      "id": "2025-01-28-001",
+      "pleno_id": "2025-01-28",
+      "fecha": "2025-01-28",
+      "mandat_id": "2023-2027",
+      "ordre": 1,
+      "intervinient": "Isabel Valentín Pedro",
+      "entitat": "Associació de Veïns de Torrefiel",
+      "entitat_id": "associacio-veins-torrefiel",
+      "tipus_entitat": "av",
+      "barri_o_zona": "Torrefiel",
+      "punts_ordre_dia": "Sant Miquel dels Reis",
+      "idioma_original": "valenciano",
+      "text_cas": "Buenos días. Nuestra intervención es en relación con lo de **Sant Miquel dels Reis** que sí que estamos de acuerdo con su **rehabilitación**, lo que no estoy de acuerdo es en la **construcción de las torres** que quieren hacer de **15, 10 y 9 alturas** en nuestro barrio, en las **únicas parcelas** que nos quedan para poder hacer **espacios verdes, polideportivos o jardines**. También vemos que es **inapropiado tanta masificación** cuando tenemos todos los **servicios públicos súper masificados** como el centro de salud, los colegios, los institutos.\nY que solo supondría una **especulación de vivienda**. Y que aunque ahora ha subido, ahí ya sería aún mucho más en que sería una **vivienda inaccesible** en nuestro barrio. También queríamos comentar que quieren hacer el **campo de fútbol cruzando la Ronda Norte**, el cual nos parece muy **peligroso**. Y lo que estaba ya planeado que era **ampliar el campo de fútbol** donde está ya situado, en el camino de Montcada, está ya aprobado, consensuado con los vecinos y no entendemos por qué no se hace allí como está ya planificado.\nNada más.",
+      "text_val": "Bon dia. La nostra intervenció és en relació amb lo de **Sant Miquel dels Reis** que sí que estem d'acord amb la seua **rehabilitació**, el que no estic d'acord és en la **construcció de les torres** que volen fer de **15, 10 i 9 altures** en el nostre barri, en les **úniques parcel·les** que ens queden per a poder fer **espais verds, poliesportius o jardins**. També veiem que és **inapropiat tanta massificació** quan tenim tots els **serveis públics súper massificats** com el centre de salut, els col·legis, els instituts. I que només suposaria una **especulació de vivenda**.\nI que encara que ara ha pujat, ahí ja seria encara molt més en que seria una **vivenda inaccessible** al nostre barri. També volíem comentar que volen fer el **camp de futbol creuant la Ronda Nord**, el qual ens pareix molt **perillós**. I el que estava ja planejat que era **ampliar el camp de futbol** on està ja ficat, en el camí de Montcada, està ja aprovat, consensuat amb els veïns i no entenem perquè no es fa allí com està ja planificat.\nRes més.",
+      "temes": [
+        "urbanisme",
+        "habitatge",
+        "esports",
+        "infraestructures",
+        "barris",
+        "participacio_ciutadana"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "espai_public",
+          "habitatge"
+        ],
+        "serveis_publics": [
+          "educacio",
+          "salut",
+          "esports"
+        ],
+        "medi_ambient": [
+          "zones_verdes"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Torrefiel"
+      ],
+      "districtes": [
+        "Rascanya"
+      ],
+      "resum_cas": "La Asociación de Vecinos de Torrefiel se opone a la construcción de torres de 15, 10 y 9 plantas en las parcelas destinadas a espacios verdes, considerando que causaría masificación, especulación inmobiliaria y falta de accesibilidad en viviendas, además de cuestionar la ubicación del nuevo campo de fútbol.",
+      "resum_val": "L'Associació de Veïns de Torrefiel s'oposa a la construcció de torres de 15, 10 i 9 altures en les parcel·les destinades a espais verds, considerant que causaria massificació, especulació immobiliària i falta d'accessibilitat en habitatges, a més de qüestionar la ubicació del nou camp de futbol.",
+      "cap_subtopics": [
+        1403,
+        1001,
+        1526,
+        709
+      ],
+      "cap_major": [
+        7,
+        10,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "2025-01-28-002",
+      "pleno_id": "2025-01-28",
+      "fecha": "2025-01-28",
+      "mandat_id": "2023-2027",
+      "ordre": 2,
+      "intervinient": "Norman Ortells Miragall",
+      "entitat": "AV La Torre",
+      "entitat_id": "av-la-torre",
+      "tipus_entitat": "av",
+      "barri_o_zona": "La Torre-Faitanar",
+      "punts_ordre_dia": "Moció sobre la creació dels comitès de seguiment",
+      "idioma_original": "valenciano",
+      "text_cas": "Bien, buenos días. Hace dos horas o dos horas y media que ha comenzado el Pleno y no querría olvidar que **mañana hará tres meses que muchas personas y muchos vecinos nuestros faltaron**. Y por tanto, un recuerdo para todos ellos. Bien, el punto que se ha de hablar ahora, **la moción sobre la creación de los comités de seguimiento**, yo antes no querría dejar al menos de ocupar la mitad del tiempo que tengo para **denunciar una serie de irregularidades**.\nLa presidenta de la asociación que yo represento, aquí presente, que me acompaña, **recibe insultos por la tarea que como presidenta de la asociación hace**. Creemos que esto es **inaceptable**. Ni tenemos la boca llena de mierda, ni somos unos mentirosos. Bien, aprovecharé para, además de denunciar eso que pienso que sería necesaria **una disculpa o una rectificación**, vengo a explicar un poco **quiénes somos y qué hacemos en la asociación**. La asociación nos reunimos cada jueves de tarde en **unas juntas vecinales de carácter abierto**.\nLo que hacemos es **hablar de los problemas que son más inmediatos, a largo plazo**. Nosotros lo que pretendemos es **colaborar en la gestión**. Lo que pedimos sobre todo con la creación de los comités de seguimiento es **la comunicación fluida**. Tenemos un grupo de trabajo que se está encargando como podéis ver en este mapa, **hemos parcelado toda la zona de La Torre-Faitanar en seis zonas** y voluntarios miembros de la asociación, **se están vertiendo residuos, se está vertiendo lodo y eso se ha de limpiar**. Quién tiene la competencia es el Ayuntamiento.\nLo que hace la asociación simplemente es **una tarea de estar en primera mano con los vecinos** y de ser **altavoz y de vínculo entre el Ayuntamiento**, los grupos parlamentarios y el consejo de gobierno. **Nos reunimos, os damos los mapas y empezamos a tramitar**. Gracias por la atención.",
+      "text_val": "Bé, bon dia. Fa dos hores o dos hores i mitja que ha començat el Ple i no voldria oblidar que **demà farà tres mesos que moltes persones i molts veïns nostres van faltar**. I per tant, un record per a tots ells. Bé, el punt que s'ha de parlar ara, **la moció sobre la creació dels comitès de seguiment**, jo abans no voldria deixar almenys d'ocupar la meitat del temps que tinc per a **denunciar una sèrie d'irregularitats**. La presidenta de l'associació que jo represente, ací present, que m'acompanya, **rep insults per la tasca que com a presidenta de l'associació fa**.\nCreiem que això és **inacceptable**. Ni tenim la boca plena de merda, ni som uns mentiders. Bé, aprofitaré per a, a banda de denunciar açò que pense que caldria **una disculpa o una rectificació**, vinc a explicar una mica **qui som i què fem en l'associació**. L'associació ens reunim cada dijous de vesprada en **unes juntes veïnals de caràcter obert**. El que fem és **parlar dels problemes que són més immediats, a llarg termini**. Nosaltres el que pretenem és **col·laborar en la gestió**.\nEl que demanem sobretot amb la creació dels comitès de seguiment és **la comunicació fluida**. Tenim un grup de treball que s'està encarregant com podeu vore en este mapa, **hem parcel·lat tota la zona de La Torre-Faitanar en sis zones** i voluntaris membres de l'associació, **s'estan abocant residus, s'està abocant fang i això s'ha de netejar**. Qui té la competència és l'Ajuntament.\nEl que fa l'associació simplement és **una faena d'estar en primera mà amb els veïns** i de ser **altaveu i de vincle entre l'Ajuntament**, els grups parlamentaris i el consell de govern. **Ens reunim, vos donem els mapes i comencem a tramitar**. Gràcies per l'atenció.",
+      "temes": [
+        "participacio_ciutadana",
+        "urbanisme",
+        "medi_ambient",
+        "barris",
+        "serveis_socials"
+      ],
+      "temes_v2": {
+        "participacio": [
+          "participacio",
+          "processos_participatius"
+        ],
+        "medi_ambient": [
+          "contaminacio"
+        ],
+        "serveis_publics": [
+          "seguretat"
+        ]
+      },
+      "ambit": "multi_barri",
+      "zones": [
+        "La Torre",
+        "Faitanar"
+      ],
+      "districtes": [
+        "Poblats del Sud"
+      ],
+      "resum_cas": "El portavoz de la AV La Torre denuncia insultos recibidos por la presidenta y él mismo, defiende el trabajo de la asociación como intermediaria entre vecinos y administración, y propone la creación de comités de seguimiento con comunicación fluida para mejorar la gestión del barrio, presentando como ejemplo un proyecto de cartografía de parcelas para identificar problemas de residuos.",
+      "resum_val": "El portaveu de l'AV La Torre denuncia els insults rebuts per la presidenta i ell mateix, defensa la tasca de l'associació com a intermediaria entre veïns i administració, i proposa la creació de comitès de seguiment amb comunicació fluida per a millorar la gestió del barri, presentant com a exemple un projecte de cartografia de parcel·les per a identificar problemes de residus.",
+      "cap_subtopics": [
+        2000,
+        1401,
+        705,
+        1305
+      ],
+      "cap_major": [
+        7,
+        13,
+        14,
+        20
+      ]
+    },
+    {
+      "id": "2025-01-28-003",
+      "pleno_id": "2025-01-28",
+      "fecha": "2025-01-28",
+      "mandat_id": "2023-2027",
+      "ordre": 3,
+      "intervinient": "Rocío Teófila Sáez Yáñez",
+      "entitat": "AV Forn d'Alcedo",
+      "entitat_id": "associacio-veins-forn-alcedo",
+      "tipus_entitat": "av",
+      "barri_o_zona": "Forn d'Alcedo",
+      "punts_ordre_dia": "no especificat",
+      "idioma_original": "castellano",
+      "text_cas": "Gracias. Buenos días.\n\nEn primer lugar quería comentarles que en nuestra pedanía nos consideramos afortunados porque el día 29 **no tuvimos que lamentar ninguna víctima mortal**, al contrario que Castellar o La Torre-Faitanar. Hacia ellos **toda nuestra solidaridad**. Sin embargo, como pedanía, **las pérdidas materiales fueron catastróficas** tanto en el núcleo urbano como en las alquerías y en lo poco de huerta que todavía nos queda.\n\nLes voy a hacer una pequeña introducción. **Nuestras quejas vienen de muy lejos**, desde el inicio de las obras del Plan Sur, 1965. Esta gran obra salvó a la capital, es cierto, pero a nosotros **nos condenaron**. Nuestra pedanía quedó dividida en dos, separada por **un gran monstruo que es el nuevo cauce del Turia**. La huerta desapareció en gran medida. Las alquerías y la forma de vida que teníamos. Las promesas que nos hicieron también vienen desde entonces. 'No os preocupéis', dijeron a nuestros mayores. 'Tendréis un puente para poder ir a vuestro núcleo urbano, a vuestra iglesia, a la tienda donde siempre habéis ido'. **Mentían**. Ahora con los efectos de la riada hemos sido conscientes más que nunca de que **es necesaria una pasarela que nos comunique con València**. Nuestra pedanía es singular. Es verdad que somos pocos, pero encima **estamos atrapados por dos grandes vías rápidas**. Por quien no lo conozca, está la V-30 y la V-31 **Contaminación acústica, ambiental, lumínica**. Pero además **tenemos el único polígono industrial de la ciudad de València**. Y me dirán, Vara de Quart también. No tiene nada que ver con nuestro polígon. Pero además, este polígono nos regala también **contaminación ambiental, lumínica y acústica**. Todos estos factores han ayudado a que los efectos de esta riada hayan sido peores sobre nuestro territorio, pero además **nos impiden crecer urbanísticamente**. Creemos que va siendo hora de que esto se revierta.\n\nNuestra sorpresa mayúscula ha sido al ver las inversiones previstas que ustedes publicaron para nuestra pedanía. Nos dan 3.970.542 euros. Bien. Pero no, **no es cierto. Un 85 % de este presupuesto va para el polígono industrial** de Horno de Alcedo y **solo un 15 % para el resto de la pedanía**. Parece una burla, pero es así. Nuestra pedanía carece de muchas infraestructuras. Bueno, tenemos una zona deportiva aproximadamente de 140 metros cuadrados. No es broma, es así. Tampoco tenemos caminos peatonales que nos conecten con algo. No un trozo de camino que nos lleva a la nada, no. Algo que nos conecte. Tampoco tenemos zonas arboladas. A lo mejor es por esto que consideran que solo tienen que dedicar un 15 % a la reconstrucción, porque hay muy poco. Pero mire, los vecinos y vecinas de Horno de Alcedo creemos que tenemos muchas mejoras donde invertir de verdad 3.970.542 euros.\n\nAhora sí que consideramos que hay **una serie de reivindicaciones irrenunciables**. **Modificación de la inversión publicada el 23 de enero**, **creación de una pasarela que nos una con el barrio de Malilla**, **paralización de la ampliación del polígono industrial** y cambio de uso de suelo de industrial a suelo residencial, la realización de **drenajes y/o desagües en el muro de casi ocho metros de alto** que cuando realizaron el puente sobre la V-31 construyeron y han provocado que las casas hayan sido anegadas durante esta riada y que por poco ha costado la vida de los que residen allí.\n\nCreemos que **es de justicia que se nos tenga en cuenta**. Somos muy pocos.\n\nHoy, cuando he venido a este pleno que he llegado tarde, porque es verdad, vivimos en Horno de Alcedo y **dependemos de autobuses**, disculpen que se me seca la boca, la persona, el taxista que me ha traído me ha dicho: 'A veces pienso que hay alguien que les tiene mucha manía porque **no es justo lo que pasa con Horno de Alcedo**'.\n\nGracias a todos y a todas.",
+      "text_val": "Gràcies. Buenos días.\n\nEn primer lloc volia comentar-los que en la nostra pedania ens considerem afortunats perquè el dia 29 **no vàrem tenir que lamentar cap víctima mortal**, al contrari que Castellar o que La Torre-Faitanar. Cap a ells **tota la nostra solidaritat**. No obstant això, com a pedania, **les pèrdues materials varen ser catastròfiques** tant en el nucli urbà com en les alqueries i en el poc de huerta que ainda ens queda.\n\nLs vull fer una xicoteta introducció. **Les nostres queixes venen de molt lluny**, des de l'inici de les obres del Pla Sud, 1965. Esta gran obra va salvar la capital, és cert, però a nosaltres **ens van condemnar**. La nostra pedania va quedar dividida en dos, separada per **un gran monstre que és el nou caix del Túria**. La huerta va desaparéixer en gran mesura. Les alqueries i la forma de vida que teníem. Les promeses que ens varen fer también venen des de llavors. 'No us preocupeu', varen dir als nostres majors. 'Tindreu un pont per poder anar al vostre nucli urbà, a la vostra església, a la botiga on sempre heu anat'. **Mentien**. Ara amb els efectes de la riuada hem sigut conscients més que mai que **és necessària una passarel·la que ens comunique amb València**. La nostra pedania és singular. És veritat que som pocs, però a més a més **estem atrapats per dos grans vies ràpides**. Per a qui no ho conega, está la V-30 i la V-31. **Contaminació acústica, ambiental, lumínica**. Però a més a més **tenim l'únic polígon industrial de la ciutat de València**. I me diran, Vara de Quart també. No té res a veure amb el nostre polígon. Però a més a més, este polígon ens regala también **contaminació ambiental, lumínica i acústica**. Tots estos factors han ajudat a que els efectes d'esta riuada hagen sigut pitjors sobre el nostre territori, però a més a més **ens impidixen créixer urbanísticament**. Creiem que va sent hora de que este revierta.\n\nLa nostra sorpresa majúscula ha sigut al veure les inversions previstes que vostés van publicar per a la nostra pedania. Ens donen 3.970.542 euros. Bé. Però no, **no és cert. Un 85 % d'este pressupost va per al polígon industrial** de Horno de Alcedo i **només un 15 % per al rest de la pedania**. Pareix una burla, però és així. La nostra pedania careix de moltes infraestructures. Bé, tenim una zona esportiva aproximadament de 140 metres quadrats. No és broma, és així. Tampoc no tenim camins peatonals que ens conecten amb algo. No un tros de camí que ens porta a la nada, no. Algo que ens conecte. Tampoc no tenim zones arborades. Potser és per açò que consideren que només han de dedicar un 15 % a la reconstrucció, perquè hi ha molt poc. Però mire, els veïns i veïnes de Horno de Alcedo creiem que tenim moltes millores on invertir de veritat 3.970.542 euros.\n\nAra sí que considerem que hi ha **una sèrie de reivindicacions irrenunciables**. **Modificació de la inversió publicada el 23 de gener**, **creació d'una passarel·la que ens una amb el barri de Malilla**, **paralització de l'ampliació del polígon industrial** i canvi d'ús de sòl de industrial a sòl residencial, la realització de **drenatges i/o desaigües en el mur de quasi huit metres** d'alt que quan varen realitzar el pont sobre la V-31 varen construir i han provocat que les cases hagen sigut anegades durant esta riuada i que per poc ha costat la vida dels que residixen allà.\n\nCreiem que **és de justícia que se'ns tenga en compte**. Som molt pocs.\n\nHuí, quan he vingut a este ple que he arribat tard, perquè és veritat, vivim en Horno de Alcedo i **depenim d'autobusos**, disculpeu que se me xuga la boca, la persona, el taxista que me ha portat me ha dit: 'A vegades pense que hi ha algú que los té mucha manía perquè **no és just el que passa amb Horno de Alcedo**'.\n\nGràcies a tots i totes.",
+      "temes": [
+        "dana_emergencies",
+        "urbanisme",
+        "infraestructures",
+        "mobilitat",
+        "medi_ambient",
+        "participacio_ciutadana"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "espai_public",
+          "habitatge"
+        ],
+        "medi_ambient": [
+          "dana_2024",
+          "contaminacio"
+        ],
+        "mobilitat": [
+          "mobilitat_activa",
+          "transport_public"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "El Forn D'Alcedo"
+      ],
+      "districtes": [
+        "Poblats del Sud"
+      ],
+      "resum_cas": "La representante de la pedanía de Forn d'Alcedo denuncia que el 85% del presupuesto de reconstrucción de 3.970.542 euros se destina al polígono industrial, dejando solo el 15% para el resto de la pedanía, y reclama reivindicaciones irrenunciables como una pasarela hacia Malilla, paralización de la ampliación industrial y solución de drenajes en muros que causaron inundaciones.",
+      "resum_val": "La representant de la pedania de Forn d'Alcedo denúncia que el 85% del pressupost de reconstrucció de 3.970.542 euros es destina al polígon industrial, deixant només el 15% per al rest de la pedania, i reclama reivindicacions irrenunciables com una passarel·la cap a Malilla, paralització de l'ampliació industrial i solució de drenatges en murs que varen causar inundacions.",
+      "cap_subtopics": [
+        711,
+        705,
+        1010,
+        1001,
+        1403,
+        1406
+      ],
+      "cap_major": [
+        7,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "2025-01-28-004",
+      "pleno_id": "2025-01-28",
+      "fecha": "2025-01-28",
+      "mandat_id": "2023-2027",
+      "ordre": 4,
+      "intervinient": "Piedad Ruiz",
+      "entitat": "San Juan de Dios-Servicios Sociales",
+      "entitat_id": "san-juan-de-dios-servicios-sociales",
+      "tipus_entitat": "ong",
+      "barri_o_zona": "La Torre",
+      "punts_ordre_dia": "no especificat",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días, señora alcaldesa. Mi nombre es Piedad Ruiz, de La Torre, y vengo a destacar las actuaciones realizadas por el Ayuntamiento de València en la **fatídica riada ocurrida el 29 de octubre de 2024** en la pedanía de La Torre. Desde el primer momento pude ver la **presencia de nuestro ayuntamiento mediante la rápida actuación del Cuerpo de Bomberos** y Protección Civil. El jueves 31 de octubre, fui testigo de un **despliegue de medios difícil de olvidar**.\nEl Ayuntamiento de València, el ayuntamiento de la pedanía de La Torre, la **Orden de San Juan de Dios y la comunidad parroquial** pudiéramos cubrir las **necesidades básicas y urgentes** de todos los vecinos. La **gestión del Ayuntamiento abarcaba cualquier necesidad que iba surgiendo** y dando respuesta a todo con gran agilidad. Llegaban todos los días **casi mil raciones de menús calientes de la World Central Kitchen**. El Ayuntamiento de la pedanía **instaló cocinas en la plaza de La Torre**, ampliando la elección de la comida.\nEn total, **más de 26.000 raciones y cerca de 8.000 barras de pan**. La **atención a los domicilios se cuidó especialmente desde el primer momento**, siendo esta **la actuación prioritaria**. Una **atención individualizada y realizada con el máximo esmero y delicadeza** para que cada una de las personas lo recibiera de acuerdo a sus necesidades. La **coordinación era absolutamente perfecta**. Los productos necesarios para la limpieza de las viviendas estaban a disposición de todos los afectados y **voluntarios que llegaban a raudales por el puente de la Solidaridad**.\nFui personalmente colaboradora de un **censo realizado escrupulosamente** entre el Ayuntamiento, Servicios Sociales y Cáritas Parroquial. La **entrega de electrodomésticos, tarjetas monedero y la concesión de ayudas** siguen siendo actuaciones diarias. La **colaboración y coordinación del Ayuntamiento, Servicios Sociales, Cáritas y la parroquia** es un hecho que va más allá de la dotación de enseres o cosas materiales. Cabe destacar también la actuación de la **Cruz Roja**, que ha atendido a **más de 1.300 personas**.\nEl Ayuntamiento estuvo y está presente atendiendo **ayudas de emergencia, ayudas a los comerciantes, realojo de viviendas**. **Próximamente Servicios Sociales tendrá su sede en La Torre**.",
+      "text_val": "Buenos dias, senyora alcaldessa. El meu nom és Piedad Ruiz, de La Torre, i vinc a destacar les actuacions realitzades per l'Ajuntament de València en la **fatídica riuada ocorreguda el 29 d'octubre de 2024** en la pedania de La Torre. Des del primer moment vaig poder veure la **presència del nostre ajuntament mitjançant la ràpida actuació del Cos de Bombers** i Protecció Civil. El dijous 31 d'octubre, vaig ser testimoni d'un **desplegament de mitjans difícil d'oblidar**.\nL'Ajuntament de València, l'ajuntament de la pedania de La Torre, la **Orde de Sant Joan de Déu i la comunitat parroquial** poguérem cobrir les **necessitats bàsiques i urgents** de tots els veïns. La **gestió de l'Ajuntament abarcava qualsevol necessitat que anava sorgint** i donant resposta a tot amb gran agilitat. Arribaven tots els dies **quasi mil racions de menús calents de la World Central Kitchen**. L'Ajuntament de la pedania **va instal·lar cuines en la plaça de La Torre**, ampliant l'elecció de la menjar.\nEn total, **més de 26.000 racions i prop de 8.000 barres de pa**. L'**atenció als domicilis es va cuidar especialment des del primer moment**, sent aquesta **l'actuació prioritària**. Una **atenció individualitzada i realitzada amb el màxim esmero i delicadesa** perquè cadascuna de les persones la rebera d'acord a les seues necessitats. La **coordinació era absolutament perfecta**. Els productes necessaris per a la neteja de les vivendes estaven a disposició de tots els afectats i **voluntaris que arribaven a raudals pel pont de la Solidaritat**.\nVaig ser personalment col·laboradora d'un **cens realitzat escrupolosament** entre l'Ajuntament, Serveis Socials i Càritas Parroquial. La **lliurament d'electrodomèstics, targetes moneder i la concessió d'ajudes** segueixen sent actuacions diàries. La **col·laboració i coordinació de l'Ajuntament, Serveis Socials, Càritas i la parròquia** és un fet que va més allà de la dotació d'estris o coses materials. Cal destacar també l'actuació de la **Creu Roja**, que ha atès a **més de 1.300 persones**.\nL'Ajuntament va estar i està present atenent **ajudes d'emergència, ajudes als comerciants, reallogament de vivendes**. **Pròximament Serveis Socials tindrà la seua seu a La Torre**.",
+      "temes": [
+        "dana_emergencies",
+        "serveis_socials",
+        "infraestructures",
+        "participacio_ciutadana"
+      ],
+      "temes_v2": {
+        "serveis_publics": [
+          "serveis_socials"
+        ],
+        "medi_ambient": [
+          "dana_2024"
+        ],
+        "cultura": [
+          "associacionisme"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "La Torre"
+      ],
+      "districtes": [
+        "Poblats del Sud",
+        "Quatre Carreres"
+      ],
+      "resum_cas": "Piedad Ruiz destaca la labor del Ayuntamiento de València en la respuesta a la riada del 29 de octubre de 2024 en La Torre, incluyendo la distribución de alimentos (26.000 raciones), asistencia domiciliaria, reparto de productos de limpieza y coordnación con servicios sociales y organizaciones. Agradece el despliegue de medios y la presencia continua de la administración en la recuperación de la pedanía.",
+      "resum_val": "Piedad Ruiz destaca la labor de l'Ajuntament de València en la resposta a la riuada del 29 d'octubre de 2024 a La Torre, inclosa la distribució d'aliments (26.000 racions), assistència domiciliària, repartiment de productes de neteja i coordinació amb serveis socials i organitzacions. Agraeix el desplegament de mitjans i la presència contínua de l'administració en la recuperació de la pedania.",
+      "cap_subtopics": [
+        1300,
+        711,
+        1305
+      ],
+      "cap_major": [
+        7,
+        13
+      ]
+    },
+    {
+      "id": "2025-01-28-005",
+      "pleno_id": "2025-01-28",
+      "fecha": "2025-01-28",
+      "mandat_id": "2023-2027",
+      "ordre": 5,
+      "intervinient": "Jorge Guillot Artes",
+      "entitat": "Asociación Cultural Cruces de Mayo – La Torre",
+      "entitat_id": "cruces-mayo-la-torre",
+      "tipus_entitat": "cultural",
+      "barri_o_zona": "La Torre",
+      "punts_ordre_dia": "no s'especifica",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días, alcaldesa, miembros del Pleno. Pues yo contar un poco mi pequeña historia y la he cambiado bastante después de oíros en este Pleno a todas las partes. Evidentemente, desde el primer día muchos que estáis sentados sois amigos y nos conocemos de muchas batallas y de muchas noches y eventos juntos. Desde el primer día **agradecer de verdad** al Ayuntamiento porque los miembros de los **Cuerpos y Fuerzas de Seguridad del Estado** fuimos de los primeros en aparecer en aquella zona. Y si no hubiera sido por parte del Ayuntamiento **ese apoyo logístico**, sobre todo para el ciudadano, hubiera sido creo que imposible el que nosotros hubiéramos podido funcionar.\n\nYo voy a ser bastante breve porque os digo, de verdad he cambiado. Esta noche he estado pensando qué iba a deciros, pero todos sabéis **la magnitud de lo que ha sucedido allí**. Evidentemente, creo que todos los que estamos viviendo allí pues tenemos **un grave problema de comunicación por parte del Consorcio**. Se habla del Ayuntamiento, se habla de la Generalitat, de la Diputación, pero del Consorcio es donde nosotros **no sabemos** y estamos un poco con una **indefensión**. **Cuándo nos devuelven ese coche, esa moto, esa casa**, porque al final tú tienes que tener una inversión propia y seguir comprándote ese coche para poder trabajar. Lo que queremos, te digo de verdad, **el ciudadano de a pie** es que eso nos lo solucionéis, que ese consorcio nos dé pronto **esa economía para poder comprar ese coche**.\n\nAquí habéis hablado de muchos ceros y **yo hoy me he considerado un cero**. ¿Por qué no sumáis esos ceros todos? Y no quiero ser un diez, pero **por lo menos ser un uno**. Un uno para poder **volver a vivir y tener esa vida**. No voy a extenderme más. Sólo os pido que penséis en **lo que nos ha pasado allí**.",
+      "text_val": "Buenos días, alcaldesa, regidors del Ple. Doncs jo contar una mica la meva xicotet història i l'he canviada bastant després d'oír-vos en aquest Ple a totes les parts. Evidentment, des del primer dia molts que esteu asseguts sou amics i ens coneixem de moltes batalles i de moltes nits i events junts. Des del primer dia **agrair de veres** a l'Ajuntament perquè els membres dels **Cossos i Forces de Seguretat de l'Estat** vam ser dels primers en apareixer en aquella zona. I si no haguera sigut per part de l'Ajuntament **aquell suport logístic**, sobretot per al ciutadà, haguera sigut crec que impossible que nosaltres haguérem pogut funcionar.\n\nJo vaig a ser bastant breu perquè vos dic, de veres he canviat. Esta nit he estat pensant què os anava a dir-vos, però tots sabeu **la magnitud del que ha succeït allí**. Evidentment, crec que tots els que estem vivint allí pues tenim **un greu problema de comunicació per part del Consorci**. Es parla de l'Ajuntament, es parla de la Generalitat, de la Diputació, però del Consorci és on nosaltres **no sabem** i estam una mica amb una **indefensió**. **Quan ens devuelvan aquell cotxe, aquella moto, aquella casa**, perquè al final tu tens que tindre una inversió pròpia i seguir comprant-te aquell cotxe per a poder treballar. Lo que volem, te dic de veres, **el ciutadà de a peu** és que eixe ens lo solucioneu, que aquell consorci ens done prompte **aquella economia per a poder comprar aquell cotxe**.\n\nAquí heu parlat de molts zeros i **jo hui m'he considerat un zero**. ¿Per què no sumeu aquells zeros tots? I no vull ser un deu, però **per lo menys ser un**. Un per a poder **tornar a viure i tindre aquella vida**. No me vaig a estendre més. Només os demane que penseu en **lo que ens ha passat allí**.",
+      "temes": [
+        "dana_emergencies",
+        "economia",
+        "participacio_ciutadana",
+        "serveis_socials"
+      ],
+      "temes_v2": {
+        "medi_ambient": [
+          "dana_2024"
+        ],
+        "economia": [
+          "pressupostos"
+        ],
+        "serveis_publics": [
+          "seguretat"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "La Torre"
+      ],
+      "districtes": [
+        "Poblats del Sud"
+      ],
+      "resum_cas": "Representante de la Asociación Cultural Cruces de Mayo de La Torre agradece el apoyo municipal en la emergencia pero denuncia los problemas de comunicación del Consorcio y la falta de agilidad en la devolución de bienes y compensaciones económicas a los ciudadanos afectados por la dana.",
+      "resum_val": "Representant de l'Associació Cultural Cruces de Mayo de La Torre agraeix el suport municipal en l'emergència però denuncia els problemes de comunicació del Consorci i la falta d'agilitat en la devolució de béns i compensacions econòmiques als ciutadans afectats per la dana.",
+      "cap_subtopics": [
+        711,
+        1200,
+        1403
+      ],
+      "cap_major": [
+        7,
+        12,
+        14
+      ]
+    },
+    {
+      "id": "2025-01-28-006",
+      "pleno_id": "2025-01-28",
+      "fecha": "2025-01-28",
+      "mandat_id": "2023-2027",
+      "ordre": 6,
+      "intervinient": "Francisco Arce Ortega",
+      "entitat": "AVA-ASAJA (Associació Valenciana de Llauradors)",
+      "entitat_id": "ava-asaja",
+      "tipus_entitat": "altres",
+      "barri_o_zona": "Castellar-l'Oliveral",
+      "punts_ordre_dia": "No especificats",
+      "idioma_original": "valenciano",
+      "text_cas": "Gracias, alcaldesa y resto del Pleno. Soy Paco Ortega, **labrador de Castellar** y delegado de AVA, de la Asociación Valenciana de Labradores, de Castellar-l'Oliveral, la pedanía de Castellar-l'Oliveral. Agradecer el interés de la señora alcaldesa y del Ayuntamiento por estas **visitas al pueblo** para ver las inquietudes y necesidades que tenemos después de **este desastre de la dana**.\nY recuerdo que en la última mesa redonda estuvimos comentando todas las necesidades que tenemos todos los sectores y saqué yo el tema de cuál es el problema que tenemos con la **Ley de la huerta protegida**, que creo que para lo que se creó en el 2018 **no ha funcionado**. Al revés, creo que **nos ha perjudicado** bastante, y más en este tema de la dana. Creo que es algo que **se debería revisar** porque en verdad si pasáis Castellar veréis que el **75 por ciento de la huerta está perdida, abandonada**. Y de ese 75 abandonada, la mitad perdida.\nLos que tenemos maquinaria aún vamos y damos un labrantío porque no se pierda, que no haya broza y maleza, pero la gente que no tiene herramientas y no tiene mecanismos para trabajarla está dejándola perdida. Y un campo perdido por desgracia la gente lo gasta como basurero y está **lleno de ratas y lleno de trastos**. Creo que es algo que no está funcionando. Habría que revisar esa ley. Y por eso creo que voy a pasarle la palabra a mi compañero Miguel Minguet, también de la Junta de AVA de Valencia y también de Castellar.\nGracias.",
+      "text_val": "Gràcies, alcaldessa i resta del Ple. Sóc Paco Ortega, **llaurador de Castellar** i delegat d'AVA, de l'Associació Valenciana de Llauradors, de Castellar-l'Oliveral, la pedania de Castellar-l'Oliveral. Agrair l'interés de la senyora alcaldessa i de l'Ajuntament per estes **visites al poble** per vore les inquietuds i necessitats que tenim després d'**este desastre de la dana**.\nI recorde que en l'última taula redona estiguérem comentant totes les necessitats que tenim tots els sectors i vaig traure jo el tema del que és el problema que tenim amb la **Llei de l'horta protegida**, que crec que per a allò que es creà en el 2018 **no ha funcionat**. Al revés, crec que **ens ha perjudicat** i prou, i més en el tema este de la dana. Crec que és algo que **s'hauria de revisar** perquè en veritat si passeu Castellar vereu que el **75 per cent de l'horta està perduda, abandonada**. I d'eixe 75 abandonada, la meitat perduda.\nEls que tenim màquinaria encara anem i peguem un llauronet perquè no es perga, que no n'hi haja brosa i malesa, però la gent que no té ferramenta i no té mecanismes per a treballar-la està deixant-la perduda. I un camp perdut per desgràcia la gent el gasta com a escombrera i està **ple de rates i ple de trastos**. Crec que és algo que no està funcionant. Hauria de revisar eixa llei. I per això crec que vaig a passar-li la paraula al meu company Miguel Minguet, també de la Junta d'AVA de València i també de Castellar.\nGràcies.",
+      "temes": [
+        "economia",
+        "agricultura",
+        "dana_emergencies",
+        "infraestructures",
+        "barris"
+      ],
+      "temes_v2": {
+        "economia": [
+          "agricultura"
+        ],
+        "medi_ambient": [
+          "dana_2024"
+        ],
+        "participacio": [
+          "participacio"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Castellar-L'Oliveral"
+      ],
+      "districtes": [
+        "Poblats del Sud"
+      ],
+      "resum_cas": "El representante de AVA-ASAJA solicita la revisión de la Ley de la Huerta Protegida de 2018, alegando que ha perjudicado a los agricultores y que el 75% de la huerta en Castellar-l'Oliveral está abandonada, situación agravada por los daños de la dana.",
+      "resum_val": "El representant d'AVA-ASAJA sol·licita la revisió de la Llei de l'horta protegida de 2018, adduint que ha perjudicat els llauradors i que el 75% de l'horta a Castellar-l'Oliveral està abandonada, situació agravada pels danys de la dana.",
+      "cap_subtopics": [
+        400,
+        711,
+        1305
+      ],
+      "cap_major": [
+        4,
+        7,
+        13
+      ]
+    },
+    {
+      "id": "2025-01-28-007",
+      "pleno_id": "2025-01-28",
+      "fecha": "2025-01-28",
+      "mandat_id": "2023-2027",
+      "ordre": 7,
+      "intervinient": "Miguel Minguet Gimeno",
+      "entitat": "AVA-ASAJA",
+      "entitat_id": "ava-asaja",
+      "tipus_entitat": "altres",
+      "barri_o_zona": "Castellar",
+      "punts_ordre_dia": "no especificat",
+      "idioma_original": "valenciano",
+      "text_cas": "Gracias. Buenos días a todos. Gracias por invitarnos y gracias por darnos unos minutos para expresarnos. Bueno, yo también soy **labrador** y soy de Castellar. Y bueno, tengo una opinión similar a la de Paco. Pienso que **Valencia tiene un término municipal que agrícola mente debería ser muy rico**, que tradicionalmente lo ha sido y que **se está abandonando a una velocidad muy grande**. Yo sé que en la **dana** todos ponemos la vista en los municipios o en las pedanías sobre todo, que son los afectados.\nAfortunadamente la mía, las pérdidas más grandes han sido en vidas que hemos tenido muertos, pero las pérdidas materiales han sido menores que en otras como en la Torre, como Horno de Alcedo. Pero los campos se han visto afectados y **llueve sobre mojado**. Y **cada agricultor que abandona, cada labrador que abandona es un labrador que no tendremos**. Como decía Paco, hay que pensar en el futuro y necesitamos, y esto venimos a pediros, que **el Ayuntamiento piense en los labradores**. La **Ley de la Huerta fue una ley impuesta**.\nFue una ley **para los labradores sin los labradores**. No ha funcionado, **burocratiza**. Nosotros estamos absolutamente a la disposición. **Somos los que estamos a pie de campo**. Y pensamos que **hacen falta acciones decididas, hacen falta acciones valientes y hacen falta acciones inmediatas**, porque **se nos está yendo de las manos tanto la Huerta de Valencia como la Albufera**.",
+      "text_val": "Gràcies. Bon dia a tots. Gràcies per convidar-nos i gràcies per donar-nos uns minuts per a expressar-nos. Bé, jo també sóc **llaurador** i sóc de Castellar. I bé, tinc una opinió semblant a la de Paco. Pense que **València té un terme municipal que agrícolament deuria ser molt ric**, que tradicionalment ho ha sigut i que **està abandonant-se a una velocitat molt gran**. Jo sé que en la **dana** tots posem la vista en els municipis o en les pedanies sobretot, que són les afectades.\nAfortunadament la meua, les pèrdues més grans han sigut en vides que hem tingut morts, però les pèrdues materials han sigut menors que en altres com en la Torre, com Forn d'Alcedo. Però els camps s'han vist afectats i **plou sobre banyat**. I **cada agricultor que abandona és un llaurador que no tindrem**. Com deia Paco, hi ha que pensar en el futur i necessitem, i això venim a demanar-vos, que **l'Ajuntament pense en els llauradors**. La **Llei de l'horta va ser una llei imposada**. Va ser una llei **per als llauradors sense els llauradors**. No ha funcionat, **burocratitza**.\nNosaltres estem absolutament a la disposició. **Som els que estem a peu de camp**. I pensem que **fan falta accions decidides, fan falta accions valentes i fan falta accions immediates**, perquè **se'ns està anant de les mans tant l'horta de València com l'Albufera**.",
+      "temes": [
+        "economia",
+        "agricultura",
+        "dana_emergencies",
+        "barris",
+        "infraestructures"
+      ],
+      "temes_v2": {
+        "economia": [
+          "agricultura"
+        ],
+        "medi_ambient": [
+          "dana_2024"
+        ],
+        "participacio": [
+          "participacio"
+        ]
+      },
+      "ambit": "multi_barri",
+      "zones": [
+        "Castellar-L'Oliveral",
+        "La Torre",
+        "El Forn D'Alcedo"
+      ],
+      "districtes": [
+        "Poblats del Sud"
+      ],
+      "resum_cas": "Un agricultor de Castellar perteneciente a AVA-ASAJA solicita al Ayuntamiento que no abandone el sector agrícola tras la dana, criticando la Ley de la Huerta por ser impuesta y burocrática, y demandando acciones decididas e inmediatas para preservar la Huerta de Valencia y la Albufera.",
+      "resum_val": "Un llaurador de Castellar d'AVA-ASAJA demana a l'Ajuntament que no abandone el sector agrícola després de la dana, criticant la Llei de l'Horta per imposada i burocràtica, i sol·licitant accions decidides i immediates per a preservar l'Horta de València i l'Albufera.",
+      "cap_subtopics": [
+        400,
+        711,
+        1403
+      ],
+      "cap_major": [
+        4,
+        7,
+        14
+      ]
+    },
+    {
+      "id": "2025-01-28-008",
+      "pleno_id": "2025-01-28",
+      "fecha": "2025-01-28",
+      "mandat_id": "2023-2027",
+      "ordre": 8,
+      "intervinient": "Pilar Martínez Escot",
+      "entitat": "Plataforma Orriols en Lucha",
+      "entitat_id": "plataforma-orriols-en-lucha",
+      "tipus_entitat": "plataforma",
+      "barri_o_zona": "Orriols",
+      "punts_ordre_dia": "no especificat",
+      "idioma_original": "castellano",
+      "text_cas": "Gracias. Buenos días. Señora alcaldesa, señoras y señores concejales. Hoy vengo a hablarles como **vecina de Orriols y representante de la Plataforma Orriols en Lucha**.\nDespués de mucho tiempo esperando actuaciones para solucionar los problemas de nuestro barrio y de recibir pocas o ninguna respuesta satisfactoria, estamos aquí para recordarles que en Orriols **seguimos peleando por ser ciudadanos de primera** y que **nuestro barrio esté al mismo nivel que el resto de barrios de la ciudad**. **Promesas incumplidas** como la convocatoria de las mesas Interconcejalías, los proyectos de jardinería ya aprobados que han quedado en suspenso, la **esperada reubicación de la biblioteca**.\nTambién podemos hablar de los **prometidos servicios sociales exclusivos** para atender las múltiples necesidades del barrio que no han llegado todavía. ¿Tiene el Ayuntamiento alguna propuesta para rehabilitar el barrio? De momento parece que no. En cuanto al tema de seguridad, **Orriols huele mal** y no es algo figurado. Es por la permisividad de un ayuntamiento que tolera el incivismo de la ciudadanía. Y como en Orriols no solamente no solucionan sino que además nos quitan servicios, **desde hace siete meses el polideportivo en nuestro barrio permanece cerrado**.\nTenemos claro que en este tema la culpabilidad es compartida. Dicho esto, no ser los únicos culpables no les exime de ser los **únicos responsables actualmente**. ¿Por qué no se ha buscado una **solución preventiva**? Creemos que no era necesario un **cierre total de la instalación** que ha dejado sin servicio a cientos de personas, **especialmente a personas mayores** y muchas de ellas con movilidad reducida. **¿Tiene València barrios de primera y de segunda?** Evidentemente, para ustedes sí. Son **medidas paliativas**.\n¿Les parece a ustedes un plazo breve siete meses para hacer la liquidación? Queremos saber si hay un proyecto, si se va a hacer un polideportivo nuevo o se va a remodelar el que hay. A nosotros nos parece que **lo único claro es que nos hemos quedado sin un elemento público esencial**. Exigimos soluciones y contar con las mateixes prestaciones y servicios que el resto de barrios. **Orriols es el barrio con uno de los mayores tejidos asociativos de València**. Somos un **barrio multicultural** y queremos serlo.\nSomos un barrio con personas mayores que tienen el mismo derecho a vivir con seguridad. Somos un barrio con infancia que tiene el derecho a crecer en un entorno seguro. **No queremos cambiar de barrio. Queremos que el barrio cambie**, que cambie hacia un **barrio seguro, diverso y digno**.",
+      "text_val": "Gràcies. Buenos días. Senyora alcaldessa, senyores i senyors regidors. Hui vengo a parlar-los com a **veïna d'Orriols i representant de la Plataforma Orriols en Lluita**.\nDesprés de molt de temps esperant actuacions per a solucionar els problemes del nostre barri i de rebre poques o cap resposta satisfactòria, estem ací per a recordar-los que a Orriols **seguim lluitant per ser ciutadans de primera** i que **el nostre barri estiga al mateix nivell que la resta de barris de la ciutat**. **Promeses incomplides** com la convocatòria de les meses Interconcejalies, els projectes de jardineria ja aprovats que han quedat en suspenso, la **esperada ubicació de la biblioteca**.\nTambé podem parlar dels **prometuts serveis socials exclusius** per a atendre les múltiples necessitats del barri que no han arribat encara. ¿Té l'Ajuntament alguna proposta per a rehabilitar el barri? De moment pareix que no. Quant al tema de seguretat, **Orriols huele mal** i no és algo figurado. És per la permissivitat d'un ajuntament que tolera l'incivisme de la ciutadania. I com a Orriols no solament no solucionen sinó que a més nos quiten servicios, **fa set mesos el poliesportiu en el nostre barri roman tancat**.\nTenim clar que en aquest tema la culpabilitat és compartida. Dit això, no ser els únics culpables no els exmeix de ser els **únics responsables actualment**. ¿Per quoi no s'ha buscat una **solució preventiva**? Creiem que no era necessari un **tancament total de la instal·lació** que ha deixat sense servei a centenars de persones, **especialment a persones majors** i moltes d'elles amb mobilitat reduïda. **¿Té València ciutadania de primera i de segona?** Evidentment, per a vostés sí. Són **mesures paliatives**.\n¿Los parece a ustedes un plazo breve siete mesos para hacer la liquidación? Volem saber si hi ha un projecte, si es va a fer un poliesportiu nou o es va a remodelar el que hi ha. A nosotros nos parece que **lo único claro es que nos hemos quedado sin un elemento público esencial**. Exigim solucions i comptar amb les mateixes prestacions i serveis que la resta de barris. **Orriols és el barri amb un dels majors teixits associatius de València**. Som un **barri multicultural** i volem ser-ho. Som un barri amb persones majors que tenen el mateix dret a viure amb seguretat.\nSom un barri amb infancia que té el dret a créixer en un entorn segur. **No volem canviar de barri. Volem que el barri canvie**, que canvie cap a un **barri segur, divers i dignificat**.",
+      "temes": [
+        "urbanisme",
+        "habitatge",
+        "esports",
+        "cultura",
+        "infraestructures",
+        "participacio_ciutadana",
+        "seguretat",
+        "serveis_socials",
+        "medi_ambient",
+        "gent_major",
+        "joventut",
+        "igualtat",
+        "barris"
+      ],
+      "temes_v2": {
+        "serveis_publics": [
+          "educacio",
+          "salut",
+          "serveis_socials",
+          "seguretat",
+          "esports"
+        ],
+        "urbanisme": [
+          "espai_public",
+          "habitatge"
+        ],
+        "drets_i_igualtat": [
+          "diversitat",
+          "interculturalitat_i_antiracisme"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Els Orriols"
+      ],
+      "districtes": [
+        "Rascanya"
+      ],
+      "resum_cas": "Representante de la Plataforma Orriols en Lucha denuncia incumplimiento de promesas municipales en temas de servicios sociales, urbanismo, seguridad y cierre prolongado del polideportivo, reclamando igualdad de servicios y dignidad para el barrio.",
+      "resum_val": "La representant de la Plataforma Orriols en Lluita denuncia l'incompliment de promeses municipals en temes de serveis socials, urbanisme, seguretat i el tancament prolongat del poliesportiu, reclamant igualtat de serveis i dignitat per al barri.",
+      "cap_subtopics": [
+        1304,
+        1401,
+        1201,
+        1526,
+        602,
+        1303
+      ],
+      "cap_major": [
+        6,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "2025-01-28-009",
+      "pleno_id": "2025-01-28",
+      "fecha": "2025-01-28",
+      "mandat_id": "2023-2027",
+      "ordre": 9,
+      "intervinient": "Antonio Puchades Cuevas",
+      "entitat": "Associació Veïnal Arrancapins-La Petxina",
+      "entitat_id": "av-la-petxina",
+      "tipus_entitat": "av",
+      "barri_o_zona": "La Petxina",
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "valenciano",
+      "text_cas": "Buenos días a todos. Gracias, señora alcaldesa.\nEl asunto que vamos a exponerle es **un ejemplo de la labor de mediación** que hacen las asociaciones vecinales entre los vecinos de los barrios y su ayuntamiento, siempre con el objetivo compartido de **mejorar su calidad de vida**. En diciembre, una vecina se puso en contacto con nosotros para denunciar que **habían cerrado el Complex Esportiu Cultural Petxina** y que habían obligado a trasladarse a toda la gente usuaria al polideportivo de Nou Moles recientemente inaugurado, sin darles mayor explicación del motivo. Comenzaron una búsqueda hablando con la Fundación Deportiva Municipal y con la Federación de Natación encargada de la gestión.\nParalelamente, las personas afectadas organizaban **una concentración el 2 de enero** bajo el lema **'Queremos volver a la Petxina'**, donde acudió una representación de la Fundación y acordaron que nuestra asociación vecinal sería la representante de las personas usuarias. El lunes 13 de enero nos convocaron a una reunión en el Complex Esportiu Cultural Petxina con la Fundación Deportiva Municipal y la concejala delegada de Deportes -permita, señora alcaldesa, que le expresemos a la señora Rocío Gil la enhorabuena- quien nos informó que **debido a unas obras en la cubierta de la piscina** tuvieron que trasladar en octubre a la Federación de Natación que gestionaba el complex la Petxina al nuevo complex polideportivo Nou Moles. Las obras de la cubierta ya han sido finalizadas, pero su actividad no se ha recuperado ni en piscina ni en fitness, ya que **ahora no hay nadie que gestione el centro**.\nEntendemos que ha habido **una falta de planificación** a la cual se ha sumado que la piscina de Nou Moles ha tenido que cerrar casi todo este tiempo por un fallo en las instalaciones. Ha habido **unas decisiones muy cuestionables** que nos ha llevado a esta situación. Se ha forzado el traslado de la Federación de Natación para la gestión de Nou Moles como consecuencia de las prisas por inaugurar el centro, ya que su licitación había quedado desierta. A pesar de que las obras no afectaban las salas fitness, se ha dejado vacía **toda la actividad fitness de la Petxina**. No se ha aprovechado el tiempo de dos meses que duraron las obras de la cubierta de la piscina para buscar una solución. Ahora que están ya acabadas, tenemos **todo el centro sin actividad** porque no se ha previsto cómo se gestionará. No ha tomado la Fundación la gestión provisional con su personal, al menos hasta que se llegue a un nuevo acuerdo con la Federación.\nAnte nuestra insistencia y preocupación, **la concejala delegada de Deportes y la Fundación Deportiva se han comprometido** con nosotros a cumplir los siguientes puntos:\n1. Reunirse con la Federación de Natación lo antes posible para llegar a un acuerdo que puedan volver a hacerse cargo de la gestión de la piscina.\n2. En caso de no llegar a un acuerdo con la Federación, la misma Fundación se hará cargo de la gestión del centro.\n3. Solicitar un informe técnico que avale el estado de las instalaciones de la piscina de la Petxina para saber si después de haber reformado la cubierta se puede volver a abrir, al menos durante el próximo año, hasta que se liciten y comiencen las nuevas obras para el cambio de las instalaciones.\n4. Mantener informada a la asociación vecinal para hacer un seguimiento del estado de la licitación, proyecto y de las obras pendientes para sustituir las instalaciones de la piscina.\n5. Establecer **una comisión deportiva** en la cual incluirán a la asociación vecinal para estudiar y debatir propuestas de actividades y mejorar la oferta deportiva para el barrio.\nDesde nuestra asociación vecinal queremos manifestar **la gran importancia que tiene el Complex Esportiu Cultural Petxina** para nuestro barrio y para la salud de la gente usuaria del centro que han visto afectadas sus actividades deportivas.\nPor tanto, **solicitamos que abran las salas fitness** para la práctica de las diferentes actividades ya que el no verse afectadas por las obras actualmente no hay motivos técnicos porque estén cerradas. **Que se retome la actividad en la piscina** ya que la reparación de la cubierta ha finalizado y a falta de que lo ratifique el informe técnico, consideramos que las instalaciones están en buen estado para su reapertura. Que solo se vuelvan a cerrar cuando vayan a iniciar las nuevas obras ya que durante el tiempo que dura la contratación, adjudicación y redacción del proyecto consideramos que la piscina no debe estar cerrada.\nDesde la Asociación Vecinal de la Petxina estaremos atentos porque se vuelva a la actividad lo antes posible y porque las obras previstas en el Complex Esportiu Cultural Petxina se cumplan dentro del plazo.\nMuchas gracias por su atención.",
+      "text_val": "Bon dia a tots. Gràcies, senyora alcaldessa.\nL'assumpte que anem a exposar-li és **un exemple de la llavor de mediació** que fan les associacions veïnals entre els veïns dels barris i el seu ajuntament, sempre amb l'objectiu compartit de **millorar la seua qualitat de vida**. En desembre, una veïna es va posar en contacte amb nosaltres per a denunciar que **havien tancat el Complex Esportiu Cultural Petxina** i que havien obligat a traslladar-se a tota la gent usuària al poliesportiu de Nou Moles recentment inaugurat, sense donar-los major explicació del motiu. Van començar una recerca parlant amb la Fundació Esportiva Municipal i amb la Federació de Natació encarregada de la gestió.\nParal·lelament, les persones afectades organitzaven **una concentració el 2 de gener** sota el lema **'Volem tornar a la Petxina'**, on va acudir una representació de la Fundació i van acordar que la nostra associació veïnal seria la representant de les persones usuàries. El dilluns 13 de gener ens convocaren a una reunió en el Complex Esportiu Cultural Petxina amb la Fundació Esportiva Municipal i la regidora delegada d'Esports -permeta, senyora alcaldessa, que li expressem a la senyora Rocío Gil l'enhorabona- qui ens va informar que **a causa d'unes obres en la coberta de la piscina** van haver de traslladar en octubre a la Federació de Natació que gestionava el complex la Petxina al nou complex poliesportiu Nou Moles. Les obres de la coberta ja han estat finalitzades, però la seua activitat no s'ha recuperat ni en piscina ni en fitness, ja que **ara no hi ha ningú que gestione el centre**.\nEntenem que hi ha hagut **una falta de planificació** a la qual se li ha sumat que la piscina de Nou Moles ha hagut de tancar quasi tot aquest temps per una fallada en les instal·lacions. Hi ha hagut **unes decisions molt qüestionables** que ens ha portat a aquesta situació. S'ha forçat el trasllat de la Federació per a la gestió de Nou Moles com a conseqüència de les presses per inaugurar el centre, ja que la seua licitació havia quedat deserta. A pesar que les obres no afectaven les sales fitness, s'ha deixat vacant **tota l'activitat fitness de la Petxina**. No s'ha aprofitat el temps de dos mesos que han durat les obres de la coberta de la piscina per a buscar una solució. Ara que estan ja acabades, tenim **tot el centre sense activitat** perquè no s'ha previst com es gestionarà. No ha pres la Fundació la gestió provisional amb el seu personal, almenys fins que s'arribe a un nou acord amb la Federació.\nDavant la nostra insistència i preocupació, **la regidora delegada d'Esports i la Fundació Esportiva s'han compromés** amb nosaltres a complir els següents punts:\n1. Reunir-se amb la Federació de Natació el més aviat possible per arribar a un acord que puguen tornar a fer-se càrrec de la gestió de la piscina.\n2. En cas de no arribar a un acord amb la Federació, la mateixa Fundació es farà càrrec de la gestió del centre.\n3. Sol·licitar un informe tècnic que avale l'estat de les instal·lacions de la piscina de la Petxina per a saber si després d'haver reformat la coberta es pot tornar a obrir, almenys durante el pròxim any, fins que es liciten i comencen les noves obres per al canvi de les instal·lacions.\n4. Mantenir informada a l'associació veïnal per a fer un seguiment de l'estat de la licitació, projecte i de les obres pendents per a substituir les instal·lacions de la piscina.\n5. Establir **una comissió esportiva** en la qual inclouran a l'associació veïnal per a estudiar i debatre propostes d'activitats i millorar l'oferta esportiva per al barri.\nDes de la nostra associació veïnal volem manifestar **la gran importància que té el Complex Esportiu Cultural Petxina** per al nostre barri i per a la salut de la gent usuària del centre que han vist afectades les seues activitats esportives.\nPer tant, **sol·licitem que òibriguen les sales fitness** per a la pràctica de les diferents activitats ja que el no veure's afectades per les obres actualment no hi ha motius tècnics perquè estiguen tancades. **Que es reprenga l'activitat en la piscina** ja que la reparació de la coberta ha finalitzat i a falta que ho ratifique el informe tècnic, considerem que les instal·lacions estan en bon estat per a la seua reobertura. Que només es tornen a tancar quan vagen a iniciar les noves obres ja que durante el temps que dura la contractació, adjudicació i redacció del projecte considerem que la piscina no ha d'estar tancada.\nDes de l'Associació Veïnal de la Petxina estarem atents perquè es torne a l'activitat el més aviat possible i perquè les obres previstes en el Complex Esportiu Cultural Petxina es complisquen dins del termini.\nMoltes gràcies per la seua atenció.",
+      "temes": [
+        "esports",
+        "participacio_ciutadana",
+        "infraestructures",
+        "barris"
+      ],
+      "temes_v2": {
+        "serveis_publics": [
+          "esports"
+        ],
+        "cultura": [
+          "associacionisme"
+        ],
+        "participacio": [
+          "participacio"
+        ]
+      },
+      "ambit": "multi_barri",
+      "zones": [
+        "La Petxina",
+        "Nou Moles"
+      ],
+      "districtes": [
+        "Extramurs",
+        "L'Olivereta"
+      ],
+      "resum_cas": "La Asociación Vecinal de La Petxina solicita la reapertura inmediata del Complex Esportiu Cultural Petxina, cerrado por obras de reparación de la cubierta de la piscina, destacando que las salas de fitness no fueron afectadas y que la falta de planificación ha dejado el centro sin gestión.",
+      "resum_val": "L'Associació Veïnal de la Petxina sol·licita la reobertura immediata del Complex Esportiu Cultural Petxina, tancat per obres de reparació de la coberta de la piscina, destacant que les sales fitness no van ser afectades i que la falta de planificació ha deixat el centre sense gestió.",
+      "cap_subtopics": [
+        1526,
+        1305
+      ],
+      "cap_major": [
+        13,
+        15
+      ]
+    },
+    {
+      "id": "2025-01-28-010",
+      "pleno_id": "2025-01-28",
+      "fecha": "2025-01-28",
+      "mandat_id": "2023-2027",
+      "ordre": 10,
+      "intervinient": "Norman Ortells Miragall",
+      "entitat": "Associació de Veïns de la Torre",
+      "entitat_id": "av-la-torre",
+      "tipus_entitat": "av",
+      "barri_o_zona": "La Torre",
+      "punts_ordre_dia": "no especificat",
+      "idioma_original": "valenciano",
+      "text_cas": "Buenas tardes. Hace mucho calor, creo que todos lo notamos.\nBueno, vamos, **el tema de las viviendas**. El tema de las viviendas es un tema complejo como no los hay. Creo que todos los que estamos aquí lo podemos saber. Esta mañana, conclusiones. Parece que **se están abriendo ya los caminos** y que a partir de ahora colaboraremos entre todos. Lo repito porque creo que es muy importante **la participación tanto del Ayuntamiento y de las asociaciones**, sobre todo de los Pueblos del Sur que somos un distrito que por extensión y por todo tenemos una morfología un tanto especial, sobre todo por la Albufera y otras cosas. Bueno, el tema de la vivienda, el tema de la vivienda se ha hecho famoso nuestro listado. Esta mañana han intervenido unos compañeros de Sant Joan de Déu y han dicho que tenían un censo. Qué bien, esta tarde tocará ver si nos lo podemos pasar o podemos cruzar datos porque parece que ahora hay cuatro o cinco listas. Bueno, nosotros lo que hemos hecho, tal como explicaba esta mañana en la moción de los comités, es, pues efectivamente, escuchar lo que dicen los vecinos. Y en materia de vivienda, pues lo que elaboramos es una serie de nombres y apellidos sobre las personas que más urgentemente necesitan un realojamiento. En la Torre, claro, **mucha gente, sobre todo la gente de los bajos, ahora mismo hay gente que vive** en **condiciones inhumanas**, con humedades o tienen el colchón en tierra y tal. Claro, toda esta gente sabemos que **se ha instalado una Oficina DANA** y que hay gente trabajando, y todo lo que aquí se afirma hasta cierto punto es así y no tenemos nada que objetar. Lo que pasa es que muchas veces la reflexión que yo quiero hacer es que **las ayudas, la gente no debe ir a la oficina**. Es decir, **la oficina debe ir a las personas** porque hay mucha gente que está viviendo, porque lo sabemos y de hecho nos lo dicen cada día cuando los encontramos por la calle, están viviendo en condiciones. Y ahí es necesario que vayan los técnicos a ver si realmente esa vivienda se debe rehabilitar, si realmente pueden vivir ahí. Lo que la gente no se explica es que habiendo pisos como los hay en una finca en Sociópolis y la otra que se acaba de construir, que solo se han realojado en los tres primeros pisos, **la gente se pregunta cómo es posible que la gente esté durmiendo en condiciones poco óptimas habiendo pisos vacíos**. Por tanto, **la reclamación en materia de vivienda es muy clara**. Es que se haga una radiografía, empezando por ser posible los grupos que es donde más plantas bajas hay y donde sabemos que hay gente cuyas viviendas no están en las condiciones óptimas. Y que, en definitiva, como ya tenemos algunos casos de éxito, pues que **se estudien caso por caso** y que se tomen las decisiones correspondientes en esa materia. Hablo de los grupos porque también sabemos que mucha de la gente que está viviendo en estas plantas bajas en condiciones poco óptimas, sabemos que están recibiendo ya ofertas de **fondos buitre** que les están ofreciendo cantidades de dinero. Claro, la gente tiene problemas y viene y te dice: 'Te compro el piso por tanto', y la gente se va.\nClaro, no quiero irme a otro tema, pero aquí debemos hacer la reflexión cuando hablamos de vivienda que es hasta qué punto **el Ayuntamiento de Valencia ha dado ayudas de dinero**. Sabemos que hay la convocatoria [...], se hablaba esta mañana sobre hostelería, autónomos y tal, pero **no hay una convocatoria concreta de ayudas de dinero para las personas**. Como digo, hablo sobre todo de los grupos y gente de planta baja, pero **desde el día siguiente de la DANA mucha gente** [...] han empezado a huir, en el sentido de que conozco cuatro o cinco casos de personas mayores que están en un piso que han alquilado rápidamente en Sant Isidre o en Fontsanta o han ido al chalet de unos amigos a Montroi. Quiero decir, que **hay mucha gente del barrio que ahora mismo no viven en el barrio**. Toda esta gente podría ser que tuvieran un realojamiento en la Torre, que es donde hacen vida, donde tienen la familia y en definitiva son. Quiero decir, como he comenzado la intervención, es un tema muy complejo, pero **las cosas complejas también tienen solución** y pienso que **se deben estudiar de manera global** desde ya, analizando finca por finca, casa por casa, vivienda por vivienda qué es lo que ocurre. Porque hay familias que aunque no van a la Oficina DANA o si van, no lo presentan todo, **aún necesitan ayuda**. Simplemente mi voz es **un clamor por todas esas personas que aún están entre la espada y la pared**.\nMuchas gracias.",
+      "text_val": "Bona vesprada. Fa molta calor, crec que tots ho notem.\nBé, a vore, **el tema de les vivendes**. El tema de les vivendes és un tema complex com no n'hi ha. Crec que tots els que estem ací ho podem saber. Este matí, conclusions. Sembla que **s'estan obrint ja els camins** i que a partir d'ara col·laborarem entre tots. Ho repetisc perquè crec que és molt important **la participació tant de l'Ajuntament i de les associacions**, sobretot dels Pobles del Sud que som un districte que per extensió i per tot tenim una morfologia un tant especial, sobretot per l'Albufera i altres coses. Bé, el tema de la vivenda, el tema de la vivenda s'ha fet famós el nostre llistat. Este matí han intervingut uns companys de Sant Joan de Déu i han dit que tenien un cens. Què bé, esta vesprada tocaré a vore si ens el podem passar o podem creuar dades perquè sembla que ara n'hi ha quatre o cinc llistes. Bé, nosaltres el que hem fet, tal com explicava este matí en la moció dels comités, és, doncs efectivament, escoltar el que diuen els veïns. I en matèria de vivenda, doncs el que vam elaborar és una sèrie de noms i cognoms sobre les persones que més urgentment necessiten un reallotjament. A la Torre, clar, **molta gent, sobretot la gent dels baixos, ara mateix hi ha gent que viu** en **condicions infrahumanes**, amb humitats o tenen el matalàs en terra i tal. Clar, tota esta gent sabem que **s'ha instal·lat una Oficina Dana** i que hi ha gent treballant, i tot el que el que ací s'afirma fins a cert punt és així i no tenim cap cosa. El que passa que moltes vegades la reflexió que jo vull fer és que **les ajudes, la gent no ha d'anar a l'oficina**. És a dir, **l'oficina ha d'anar a les persones** perquè hi ha molta gent que està vivint, perquè ho sabem i de fet ens ho diuen cada dia quan nes els troben pel carrer, estan vivint en condicions. I ahí cal que vagen els tècnics a vore si realment eixa vivenda s'ha de rehabilitar, si realment poden viure ahí. La gent el que no s'explica és que havent pisos com n'hi ha en una finca en Sociòpolis i l'altra que s'acaba de construir, que només s'han reallotjat en els tres primers pisos, **la gent es pregunta com és posible que la gent estiga dormint en condicions poc òptimes havent pisos buits**. Per tant, **la reclama en matèria de vivenda és molt clara**. És que es faça una radiografia, començant a ser possible pels grups que és on més plantes baixes n'hi ha i on sabem que n'hi ha gent que les vivendes no estan en les condicions òptimes. I que, en definitiva, com ja tenim alguns casos d'èxit, doncs que **s'estudien cas per cas** i que es prenguen les decisions corresponents en eixa materia. Parle dels grups perquè també sabem que molta de la gent que està vivint en estes plantes baixes en condicions poc òptimes, sabem que estan rebent ja ofertes de **fons voltor** que els estan oferint quantitats de diners. Clar, la gent té problemes i ve i et diu: 'Et compre el pis per tant', i la gent se'n va.\nClar, no vull anar-me'n d'un altre tema, però ací hem de fer la reflexió quan parlem de vivenda que és fins a quin punt **l'Ajuntament de València ha donat ajudes de diners**. Sabem que hi ha la convocatòria [...], es parlava este matí sobre hostaleria, autònoms i tal, però **no hi ha una convocatòria concreta d'ajudes de diners per a les persones**. Com dic, parle sobretot dels grups i gent de planta baixa, però **des de l'endemà de la dana molta gent** [...] han pegat a fugir, en el sentit jo conec quatre o cinc casos de persones majors que estan en un pis que han llogat ràpidament en Sant Isidre o en la Fontsanta o han anat al xalet d'uns amics a Montroi. Vull dir, que **n'hi ha molta gent del barri que ara mateix no viuen al barri**. Tota esta gent podria ser que tingueren un reallotjament en la Torre, que és on fan vida, on tenen la família i en definitiva són. Vull dir, com he començat la intervenció, és un tema molt complex, però **les coses complexes també tenen solució** i pense que **s'han d'estudiar de manera global** des de ja, analitzant finca per finca, casa per casa, vivenda per venda què és el que ocorre. Perquè hi ha famílies que encara que no van a l'Oficina Dana o si van, no ho presenten tot, **encara necessiten ajuda**. Simplement la meua veu és **un reclam per a totes eixes persones que ainda estan entre l'espasa i la paret**.\nMoltes gràcies.",
+      "temes": [
+        "habitatge",
+        "dana_emergencies",
+        "barris",
+        "serveis_socials",
+        "participacio_ciutadana"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "habitatge"
+        ],
+        "medi_ambient": [
+          "dana_2024"
+        ],
+        "participacio": [
+          "participacio"
+        ]
+      },
+      "ambit": "multi_barri",
+      "zones": [
+        "La Torre",
+        "El Palmar",
+        "Sant Isidre",
+        "La Fontsanta"
+      ],
+      "districtes": [
+        "L'Olivereta",
+        "Patraix",
+        "Poblats del Sud"
+      ],
+      "resum_cas": "El representante de la Asociación de Vecinos de la Torre demanda un estudio integral de las necesidades de vivienda en el barrio, especialmente en plantas bajas con condiciones infrahumanas, y critica la falta de ayudas económicas directas del Ayuntamiento para realojamientos y rehabilitación tras la DANA.",
+      "resum_val": "El representant de l'Associació de Veïns de la Torre reclama un estudi integral de les necessitats d'habitatge al barri, especialment en plantes baixes amb condicions infrahumanes, i critica la falta d'ajudes econòmiques directes de l'Ajuntament per a realojaments i rehabilitació després de la DANA.",
+      "cap_subtopics": [
+        1400,
+        1406,
+        1409,
+        711
+      ],
+      "cap_major": [
+        7,
+        14
+      ]
+    },
+    {
+      "id": "2025-01-28-011",
+      "pleno_id": "2025-01-28",
+      "fecha": "2025-01-28",
+      "mandat_id": "2023-2027",
+      "ordre": 11,
+      "intervinient": "Norman Ortells Miragall",
+      "entitat": "Associació de Veïns de la Torre",
+      "entitat_id": "av-la-torre",
+      "tipus_entitat": "av",
+      "barri_o_zona": "La Torre",
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "valenciano",
+      "text_cas": "Bien, no me canso nunca de hablar. Haré una bromita, pero esto me sirve porque si hubierais convocado un pleno extraordinario en el que se hubiera hablado solo de la **dana** no habría estado aquí todo el día esperando otros debates.\nBien, tema del transporte. Veamos, **problemas de frecuencias**. El primer problema, las frecuencias. Tenemos un problema de frecuencias. Entiendo que quizás ahora cuando respondan dirán que nuevos conductores, que se ha licitado un contrato de nuevos autobuses, todo lo que ya sabemos que se publica en las notas de prensa. **Las frecuencias son un grave problema**, especialmente la **línea 27** que es la que los de la Torre sobre todo gastamos y que pasa por la calle de San Vicente, muy transitada por los accesos con los coches que saben que están..., tutti quanti puede entrar, y porque todos los autobuses lanzadera que van a las poblaciones afectadas que no tienen metro también van por esta calle. Bien, **las frecuencias es la reclamación infinita**.\nEn segundo lugar, quiero hablar de lo que se ha vendido como un éxito que es esta tarjeta **EMT contigo**. Es un título vigente de la EMT que ahora se ha prorrogado la normativa para el 2025 para las poblaciones afectadas. Claro, **60 viajes al mes**. ¿No hay opciones para que no se limiten los viajes? Yo para venir aquí y volver a la Torre ya he gastado 2, 2 por 30, 60. Por tanto, solo me permite hacer un viaje al mes. Quiero decir, parece que aún tenemos que dar las gracias. **Esta tarjeta no es gratuidad** como se anunció.\nPero es que para poder hablar de otros temas, anoche a última hora salía una nota de prensa de la Generalitat. Tengo aquí la nota, dice: 'La tarjeta transporte **Recuperem València**, de la Generalitat, estará disponible en 31 municipios y los grandes barrios afectados por las inundaciones. El conseller Martínez Murs destaca la necesidad de facilitar el transporte a los más afectados por la catástrofe del 29 de octubre y la solicitud del nuevo título se hará en los ayuntamientos y permitirá viajar de forma gratuita en Metrovalència, Rodalies, EMT, Metrobús y autobuses autonómicos'. Yo leo con atención la nota de prensa, como cada documento que se publica en cualquier institución, y resulta que en los municipios elegidos **Valencia no está**. Estamos ante lo mismo que ha pasado con las ayudas de Amancio Ortega, ¿que aún la gente se pregunta por qué no las habéis podido gestionar o por qué no os han llegado?\nBien, hablemos de frecuencias, hablemos de esta tarjeta que es insuficiente y veremos si esta nueva tarjeta que aparece hoy en la prensa tenemos acceso o no. Y después, en último lugar, querría hablar de una **propuesta** porque desde la **asociación**, y por eso la **importancia de la participación**, desde la asociación también diseñamos cosas y tenemos ideas porque los temas van apareciendo cada semana y al final, pues, hacemos diseños. Nosotros tenemos el diseño de una línea y esto lo hablaremos las veces que haga falta, lo repetimos en la Junta de Distrito del día 10 de febrero. Quiero decir, **una nueva línea transversal de los pueblos del Sur**. La alcaldesa, de hecho, cuando hablamos en el despacho, ella tiene el dibujo que hicimos. Se trata de una línea transversal que conecte los pueblos del sur. Hasta ahora digamos que tenemos tres corredores verticales. Uno que es el de la Torre, calle de San Vicente-Real de Madrid, líneas 27 y 9. Después tenemos el corredor de Castellar, línea 14. Y el corredor de la carretera del Saler, líneas 24 y 25. Si queremos fomentar los pueblos del sur y queremos la reconstrucción y toda la pesca, **los pueblos del sur tienen que estar interconectados**. Por tanto, nuestra **propuesta de línea**, que se debe estar estudiando o lo que sea, sería una línea que iría desde Pinedo hasta el intercambiador de Valencia Sur que se está reconstruyendo ahora, donde están las centrales de Metrovalència. Sería una línea que conectaría todos los pueblos del sur, daría acceso a todos los pueblos al mar y a la vez daría acceso a Metrovalència. Y además, muchas zonas, que es histórico y está reclamado, muchas zonas que no han tenido transporte, como por ejemplo Sociopolis, que parece que se continuarán haciendo pisos y que cada vez seremos más gente y el censo aumentará, pues también tendrían conexión con las otras líneas.\nEn definitiva, puedo decir también si queréis que el transporte es un tema complejo para daros entrada a la respuesta que me haga y decir que es muy complejo. Pero esto de las frecuencias naturalmente ahora hay un caos en el tránsito, pero creo que se debe estudiar esto lo de la línea, sobre todo, y **lo más urgente**, el tema de la tarjeta EMT contigo, porque si resulta que Alfafar, Benetúser y Sedaví que los tenemos a tres minutos a pie ahora tendrán una **tarjeta ilimitada** para viajar en todo el transporte público del País Valenciano. Nosotros, que somos habitantes de la capital, ¿solo tenemos **60 viajes al mes en líneas saturadas**?\nGracias.",
+      "text_val": "Bé, jo no em canse mai de parlar. Faré un poquet de broma, però que això em servix perquè si haguéreu convocat un ple extraordinari en què s'haguera parlant només de la **dana** jo no hauria d'estar ací tot el dia esperant uns altres debats.\nBé, tema del transport. A veure, **problemes de freqüències**. El primer problema, les freqüències. Tenim un problema de freqüències. Jo entenc que potser ara quan responguen diran que nous conductors, que s'ha licitat un contracte de nous autobusos, tot el que ja sabem que es publica en les notes de premsa. **Les freqüències són un greu problema**, especialment la **línia 27** que és la que els de la Torre sobretot gastem i que passa pel carrer de Sant Vicent, molt transitat pels accessos amb els cotxes que saben que estan..., tutti quanti pot entrar, i perquè tots els autobusos llançadera que van a les poblacions afectades que no tenen metro també van per este carrer. Bé, **les freqüències és la reclama infinita**.\nEn segon lloc, jo vull parlar del que s'ha venut com un èxit que és esta targeta que jo ja tinc que és l'**EMT amb tu**. És un títol vigent l'EMT que ara s'ha prorrogat la normativa per al 2025 per a les poblacions afectades. Clar, **60 viatges al mes**. No hi ha opcions que no es limiten els viatges? Jo per a vindre ací i tornar a la Torre ja n'he gastar 2, 2 per 30, 60. Per tant, només em permet fer un viatge al més. Vull dir, sembla que encara hem de donar les gràcies. **Esta targeta no és gratuïtat** com es va anunciat.\nPero és que per poder parlar d'altres temes, anit a última hora eixia una nota de premsa de la Generalitat. Tinc ací la nota, diu: 'La targeta transport **Recuperem València**, de la Generalitat, estarà disponible en 31 municipis i els grans barris afectats per les inundacions. El conseller Martínez Murs destaca la necessitat de facilitar el transport als més afectats per la catàstrofe del 29 d'octubre i la sol·licitud del nou títol es farà els ajuntaments i permetrà viatjar de forma gratuïta en Metrovalència, Rodalies, EMT, Metrobús i autobusos autonòmics'. Jo llig amb atenció a la nota de premsa, com cada document que es publica en qualsevol institució, i resulta que en els municipis escollits **València no està**. Estam davant del mateix que ha passat amb les ajudes d'Amancio Ortega, que encara la gent es pregunta per què no les heu pogut gestionar o per què no vos han arribat?\nBé, parlem de freqüències, parlem d'esta targeta que és insuficient i veurem si esta nova targeta que apareix hui en la premsa tenim accés o no. I després, en darrer lloc, voldria parlar d'una **proposta** perquè des de l'**associació**, i per això la **importància de la participació**, des de l'associació també dissenyam coses i tenim idees perquè els temes van apareixent cada setmana i al final, doncs, fem dissenys. Nosaltres tenim el disseny d'una línia i això ho parlarem les vegades que faça falta, ho repetim en la Junta de Districte del dia 10 de febrer. Vull dir, **una nova línia transversal dels pobles del Sud**. L'alcaldessa, de fet, quan vam parlar en el despatx, ella té el dibuix que vam fer. Es tracta d'una línea transversal que connecte els pobles del sud. Fins ara diguem que tenim tres corredors verticals. Un que és el de la Torre, carrer de San Vicent-Real de Madrid, línies 27 i 9. Després tenim el corredor de Castellar, línia 14. I el corredor de la carretera del Saler, línies 24 i 25. Si volem fomentar els pobles del sud i volem la reconstrucció i tota la pesca, **els pobles del sud han d'estar interconnectats**. Per tant, la nostra **proposta de línia**, que s'ho deu estar estudiant o el que siga, seria una línia anara des de Pinedo fins a l'intercanviador de València Sud que s'està reconstruint ara, on estan les centrals de Metrovalència. Seria una línia que connectaria tots els pobles del sud, donaria accés a tots els pobles a la mar i alhora donaria accés a Metrovalència. I a més, moltes zones, que és històric i està reclamat, moltes zones que no han tingut transport, com ara Sociòpolis, que sembla que es continuaran fent pisos i que cada vegada serem més gent i el cens augmentarà, doncs també tindran connexió amb les altres línies.\nEn definitiva, puc dir també si voleu que el transport és un tema complex per donar-vos l'entrada a la resposta que em feu i dir que és molt complex. Pero això de les freqüències naturalment ara hi ha un caos en el trànsit, pero jo crec que s'ha d'estudiar això la de la línia, sobretot, i **el més urgent**, el tema de la targeta EMT amb tu, perquè si resulta que Alfafar, Benetússer i Sedaví que els tenim a tres minuts a peu ara tindran una **targeta il·limitada** per a viatjar en tot el transport públic del País Valencià. Nosaltres, que som habitants de la capital, només tenim **60 viatges al mes en línies saturades**?\nGràcies.",
+      "temes": [
+        "mobilitat",
+        "barris",
+        "dana_emergencies",
+        "participacio_ciutadana"
+      ],
+      "temes_v2": {
+        "mobilitat": [
+          "transport_public"
+        ],
+        "medi_ambient": [
+          "dana_2024"
+        ],
+        "participacio": [
+          "participacio"
+        ]
+      },
+      "ambit": "multi_barri",
+      "zones": [
+        "La Torre",
+        "Pinedo",
+        "El Palmar",
+        "El Perellonet",
+        "Castellar-L'Oliveral",
+        "El Saler"
+      ],
+      "districtes": [
+        "Poblats del Sud",
+        "Quatre Carreres"
+      ],
+      "resum_cas": "El representante de la Asociación de Vecinos de La Torre critica la insuficiencia de frecuencias en transporte público, especialmente en la línea 27, y cuestiona la limitación de 60 viajes mensuales de la tarjeta EMT con tu. Propone una nueva línea transversal que conecte los pueblos del sur de la ciudad desde Pinedo hasta el intercambiador de Valencia Sur.",
+      "resum_val": "El representant de l'Associació de Veïns de la Torre critica la insuficiència de freqüències en transport públic, especialment en la línia 27, i qüestiona la limitació de 60 viatges mensuals de la targeta EMT amb tu. Proposa una nova línia transversal que connecte els pobles del sud de la ciutat des de Pinedo fins a l'intercanviador de València Sud.",
+      "cap_subtopics": [
+        1001,
+        711,
+        1305
+      ],
+      "cap_major": [
+        7,
+        10,
+        13
+      ]
+    }
+  ]
+}

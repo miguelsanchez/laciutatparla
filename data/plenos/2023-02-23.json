@@ -1,0 +1,70 @@
+{
+  "id": "2023-02-23",
+  "fecha": "2023-02-23",
+  "tipo": "ordinaria",
+  "mandat_id": "2019-2023",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2023-02-23",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20230223_0945_0_firmadoweb.pdf/a039249e-1934-189f-e0f3-36a733f56d19?t=1680177749758",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20230223_0945_0_firmadoweb.pdf/d580e4a7-9659-e902-ee4c-639e890a5136?t=1677245588715",
+  "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-551",
+  "num_intervencions": 1,
+  "intervencions": [
+    {
+      "id": "2023-02-23-001",
+      "pleno_id": "2023-02-23",
+      "fecha": "2023-02-23",
+      "mandat_id": "2019-2023",
+      "ordre": 1,
+      "intervinient": "[***]",
+      "entitat": "SOS Racisme PV / Federación Unión Africana España",
+      "entitat_id": "sos-racisme-unio-africana",
+      "tipus_entitat": "ong",
+      "barri_o_zona": "Benimaclet",
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "mixt",
+      "text_cas": "Muchas gracias a todas las **33 concejalas**. Desde la Federación Unión Africana España, hoy es un día muy importante para toda la **comunidad inmigrante de València**. Reclamamos la **declaración de emergencia habitacional** del asentamiento la antigua fábrica de leche El Prado en la avenida de Cataluña. **El año pasado murieron cuatro personas** en este asentamiento. Ahora, hay un **inmigrante muy enfermo**. La Generalitat Valenciana ha dado un **piso social** al Ayuntamiento de València. Lo único que pedimos es una **declaración de emergencia habitacional**.\nNo es la propuesta de Ciudadanos, es la **propuesta de asociación de inmigrante**. Los Servicios Sociales del Ajuntament de Benimaclet lo han trabajado **diez años, desde 2013**. No se puede seguir trabajando así cuando se trata de **vida humana**. **Votar en contra de los inmigrantes** es votar contra la humanidad. Pido la **responsabilidad de cada concejala**, no de grupo o de color político.",
+      "text_val": "Moltes gràcies a totes les **33 regidores**. Desde la Federació Unió Africana Espanya, hui és un dia molt important per a tota la **comunitat immigrada de València**. Reclamem la **declaració d'emergència habitacional** de l'assentament l'antiga fàbrica de llet El Prado en l'avinguda de Catalunya. **L'any passat van morir quatre persones** en aquest assentament. Ara, hi ha un **immigrat molt malalt**. La Generalitat Valenciana ha donat un **pis social** a l'Ajuntament de València. L'únic que demantem és una **declaració d'emergència habitacional**.\nNo és la proposta de Ciudadanos, és la **proposta d'associació d'immigrat**. Els Serveis Socials de l'Ajuntament de Benimaclet ho han treballat **deu anys, des de 2013**. No es pot seguir treballant així quan es tracta de **vida humana**. **Votar en contra dels immigrats** és votar contra la humanitat. Demanc la **responsabilitat de cada regidora**, no de grup o de color polític.",
+      "temes": [
+        "habitatge",
+        "serveis_socials",
+        "participacio_ciutadana",
+        "igualtat",
+        "barris"
+      ],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "interculturalitat_i_antiracisme",
+          "drets_humans"
+        ],
+        "serveis_publics": [
+          "serveis_socials"
+        ],
+        "urbanisme": [
+          "habitatge"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Benimaclet"
+      ],
+      "districtes": [
+        "Benimaclet"
+      ],
+      "resum_cas": "Representante de la Federación Unión Africana España reclama la declaración de emergencia habitacional del asentamiento de la antigua fábrica El Prado en avenida de Cataluña, donde han muerto cuatro personas y hay otra enferma, exigiendo responsabilidad individual de los concejales.",
+      "resum_val": "Representant de la Federació Unió Africana Espanya reclama la declaració d'emergència habitacional de l'assentament de l'antiga fàbrica El Prado en avinguda de Catalunya, on han mort quatre persones i n'hi ha una altra enferma, exigint responsabilitat individual dels regidors.",
+      "cap_subtopics": [
+        1406,
+        1300,
+        900,
+        1906
+      ],
+      "cap_major": [
+        9,
+        13,
+        14,
+        19
+      ]
+    }
+  ]
+}

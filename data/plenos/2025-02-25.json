@@ -1,0 +1,215 @@
+{
+  "id": "2025-02-25",
+  "fecha": "2025-02-25",
+  "tipo": "ordinaria",
+  "mandat_id": "2023-2027",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2025-02-25",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20250225_0945_0_firmadoweb.pdf/a51e1189-e34a-e34e-2dac-d2e707c2aa7a?t=1743062300036",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20250225_0945_0_firmadoweb.pdf/6f7e26c5-1a9c-9efe-f970-af61a93348c6?t=1741075637369",
+  "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-748",
+  "num_intervencions": 4,
+  "intervencions": [
+    {
+      "id": "2025-02-25-001",
+      "pleno_id": "2025-02-25",
+      "fecha": "2025-02-25",
+      "mandat_id": "2023-2027",
+      "ordre": 1,
+      "intervinient": "Fernando del Molino Écija",
+      "entitat": "Federació Sindical del Taxi de València",
+      "entitat_id": "federacio-taxi",
+      "tipus_entitat": "empresa",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "punts 11 a 13",
+      "idioma_original": "castellano",
+      "text_cas": "Hola, buenos días. Bueno, lo primero agradecer la posibilidad de participar hoy aquí y poder exponer **la situación del taxi** y agradecer a todos los grupos políticos, incluido al del gobierno municipal, **el apoyo que ha sentido siempre el taxi**. Y esperamos que luego eso no solo se quede en palabras sino que se traslade a las normas, en este caso **la ordenanza municipal**. Sabemos que hay **una sentencia** que al final pues delimita lo que es proporcional o lo que no por parte del Supremo. Pero hay gente que habla de que hay **un vacío legal**.\nNosotros entendemos que **no existe ningún vacío legal**. **La Ley de Ordenación de los Transportes Terrestres** deja muy claro que **las VTC solo tienen autorización para hacer transporte interurbano**. A nosotros nos gustaría pues que los distintos gobiernos municipales fueran trasladando eso también.\nYa que esa protección que intentó el anterior gobierno no ha podido ser, que se traslade lo que dice la LOTT. **La VTC solo puede hacer transporte interurbano** y para tener una licencia urbana como tiene el taxi pues debería haber **un concurso público** y no darle a empresas que al final vienen a llevarse el dinero fuera. Cuando el taxi estamos hablando de **patrimonio**, en este caso de València, de **autónomos que están trabajando aquí**.\nY yo creo que el gobierno municipal si tiene que hacer algo, desde luego tiene que buscar **esa protección** de lo que es necesario en València que es **un transporte público, un servicio público de interés general**. Y si hay que hacer algo será mejorarlo, no buscar un atajo que favorece a cuatro empresas y que va a perjudicar al ciudadano finalmente.",
+      "text_val": "Hola, bons dies. Bé, lo primer agrair la possibilitat de participar ací i poder exposar **la situació del taxi** i agrair a tots els grups polítics, incluent la del govern municipal, **el suport que sempre ha sentit el taxi**. I esperem que després això no només es reste en paraules sinó que es traslade a les normes, en aquest cas **l'ordenança municipal**. Sabem que hi ha **una sentència** que al final delimita el que és proporcional o el que no per part del Suprem. Però hi ha gent que parla de que hi ha **un buit legal**.\nNosaltres entenem que **no existeix cap buit legal**. **La Llei d'Ordenació dels Transports Terrestres** deixa molt clar que **les VTC només autoritzades per transport interurbà**. A nosaltres ens agradaria que els distints governs municipals foren trasladant això també.\nJa que aquesta protecció que va intentar el govern anterior no ha pogut ser, que es traslade el que diu la LOTT. **La VTC només pot fer transport interurbà** i per a tenir una llicència urbana com té el taxi doncs hauria d'haver **un concurs públic** i no donar-li a empreses que al final venen a llevarse els diners fora. Quan el taxi estem parlant de **patrimoni**, en aquest cas de València, d'**autònoms que estan treballant ací**.\nI jo crec que el govern municipal si té que fer alguna cosa, desde luego té que buscar **aquesta protecció** del que és necessari a València que és **un transport públic, un servei públic d'interès general**. I si hi ha que fer alguna cosa serà millorar-ho, no buscar una drecera que afavoreix a quatre empreses i que va a perjudicar al ciutadà finalment.",
+      "temes": [
+        "mobilitat",
+        "economia",
+        "participacio_ciutadana"
+      ],
+      "temes_v2": {
+        "mobilitat": [
+          "transport_public"
+        ],
+        "economia": [
+          "comerc_ocupacio"
+        ],
+        "participacio": [
+          "participacio"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "El representante del sector del taxi solicita que el Ayuntamiento traslade la regulación de la LOTT para que las VTC solo realicen transporte interurbano, exigiendo un concurso público para las licencias urbanas y evitando que empresas externas se lleven beneficios, protegiéndose así este servicio público de interés general.",
+      "resum_val": "El representant del sector del taxi sol·licita que l'Ajuntament traslade la regulació de la LOTT perquè les VTC només realitzen transports interurbans, exigint un concurs públic per a les llicències urbanes i evitant que empreses externes es duen beneficis, protegint-se així aquest servei públic d'interès general.",
+      "cap_subtopics": [
+        1001,
+        1521
+      ],
+      "cap_major": [
+        10,
+        15
+      ]
+    },
+    {
+      "id": "2025-02-25-002",
+      "pleno_id": "2025-02-25",
+      "fecha": "2025-02-25",
+      "mandat_id": "2023-2027",
+      "ordre": 2,
+      "intervinient": "José Manuel Felisi Herrero",
+      "entitat": "Asociación Mesura",
+      "entitat_id": "plataforma-valencia-aire",
+      "tipus_entitat": "plataforma",
+      "barri_o_zona": "València (general), Oliveral, Cabanyal",
+      "punts_ordre_dia": "Aprobación de la zona de bajas emisiones",
+      "idioma_original": "mixt",
+      "text_cas": "Muchas gracias por la invitación, intentaré hacerlo corto y si después me das un minutito te lo agradeceré. Sé que rompe el protocolo, pero vamos a intentarlo.\nMuy rápido. **El tránsito está subiendo** en la ciudad de València. No voy a invertir mucho en datos, pero sube en los anillos, en las rondas, entradas y salidas, y también en el interior. **Está aumentando el tránsito en todos los barrios** de la ciudad de València. Son datos vuestros, del Ayuntamiento. Datos abiertos. **La contaminación también está subiendo**, especialmente porque tenemos dos estaciones más: Archiduque Carlos y avenida del Cid. **El tránsito del puerto está aumentando**. Tampoco voy a abrumar aquí con cifras, pero os recomiendo que cojáis la V-30 a las 7 de la mañana, a las 8, a las 9, a las 10, a las 11, **perdéis un día de vuestra vida**. **Está colapsada** por el tránsito. Cuando pasó esto de la dana, que hicisteis una restricción a los camiones del puerto, **se podía fluir por la V-30**. **El tránsito del puerto invade la conexión de la V-30**. Hay una **externalización de los costos** de todas las empresas. **El puerto está cogiendo más espacio**. Es una cuestión de dinero. **El puerto está siendo un problema**.\nEntonces, quería haceros **cuatro propuestas**. La primera es **comisión de seguimiento de la zona de bajas emisiones** y llevarla a Europa, a la Agencia Medioambiental Europea. Pensamos que **la zona de bajas emisiones es tan de mínimos**.\nLa segunda, una conexión con el MITECO para **evalúen si se está cumpliendo el Real decreto** de la zona de bajas emisiones.\nY la tercera, **aranceles al puerto**. Los aranceles protegen los territorios. **¿Por qué no le metemos mano al puerto**? **El puerto tiene un abuso de territorio**. Vamos a **proteger el territorio con aranceles**. Y se llama **regular, como lo estáis haciendo en los pisos turísticos**.\nY la cuarta, **estacionamiento prioritario a los vecinos** que viven en València, no los que vienen de fuera a **ocupar nuestro territorio, a contaminar nuestro territorio**.",
+      "text_val": "Moltes gràcies per la invitació, intentaré fer-ho curt i si després em dones un minutet t'ho agrairé. Sé que trenca el protocol, però ho anem a intentar.\nMolt ràpid. **El trànsit està pujant** en la ciutat de **València**. No vaig a invertir massa en dades, però puja en els anells, en les rondes, entrades i eixides, i també a l'interior. És a dir, està augmentant el trànsit per tots els barris de la ciutat de València. Són dades vostres, de l'Ajuntament. Dades obertes. **La contaminació també està pujant**, especialment perquè tenim dos estacions més: **Arxiduc Carles** i **avinguda del Cid**. **El trànsit del port està augmentant**. Tampoc vaig a abrumar ací amb xifres, però vos recomane que agafeu la **V-30** a les 7 de matí, a les 8, a les 9, a les 10, a les 11, perdeu un dia de la vostra vida, de la vostra feina i aneu a la V-30. Està col·lapsada pel trànsit. Quan passà això de la dana, que vàreu fer una restricció als camions del port, es podia fluir per la V-30. És una qüestió que vosaltres si no aneu als polígons molt, no s'adoneu. El trànsit del port invaïx la connexió de la V-30 amb el port sec de la ZAL seca del polígon de l'Oliveral. És a dir, hi ha una externalització dels costos de totes les empreses que treballen al voltant de l'àrea de València perquè el port està agafant més espai del que toca. Es una qüestió de pasta. No és una qüestió de qualitat ambiental. **El port és un problema econòmic**.\nAleshores, volia fer-vos quatre propostes. La primera és, per a no ser el cap i casal del trànsit, si voleu, com aneu a aprovar la **zona de baixes emissions** vos proposem des de València per l'Aire-Mesura fer una **comissió de seguiment** de la zona de baixes emissions i portar-la a **Europa**, a l'Agència Mediambiental Europea. És a dir, les paraules que ací aneu a proposar anem a fer un seguiment de si el que proposeu va a tindre un impacte o no, perquè per a este viatge no fa falta tanta alforja, ¿veritat? Pensem que la zona de baixes emissions és tan de mínims que poden fer el ridícul a l'Agència Mediambiental Europea. Però bé, si voleu fem esta comissió de seguiment. És una proposta molt concreta.\nLa segona, en el **MITECO**, bé, en el MITECO n'hi ha menys que rascar. Però estaria bé també tindre una connexió amb ells perquè avaluen si està complint-se els mínims que demana el **Reial decret** de la zona de baixes emissions. La mateixa comissió podia també anar al MITECO a valorar si estem complint el Reial decret de la zona de baixes emissions.\nI la tercera, **aranzels al port**. Com veríeu aranzels al port. És a dir, els aranzels protegeixen els territoris, ¿no? Això ens diuen des dels **Estats Units**. ¿Per què no li metem mà ací? És a dir, ¿per què no li metem mà al port? No va de prohibir el port. No va de res. Simplement el port té un abús de territori. Anem a protegir el territori amb aranzels, com ho està fent Trump als Estats Units. Aleshores esta proposta m'agradaria també que la valorárais. I es diu **regular**, com ho esteu fent en els pisos turístics. Esta és la tercera. I la quarta, **estacionament**. Levantaríem bastant el peu si deixárais l'estacionament prioritari als veïns que viuen a València i us centrarais en els veïns que viuen a València, no els que venen de fora a ocupar el nostre territori, a contaminar el nostre territori i a usar els seus vehicles ocupant el nostre espai, el dels barris de València.\nMoltes gràcies.",
+      "temes": [
+        "mobilitat",
+        "medi_ambient",
+        "economia",
+        "infraestructures",
+        "barris"
+      ],
+      "temes_v2": {
+        "mobilitat": [
+          "transit",
+          "zbe"
+        ],
+        "medi_ambient": [
+          "contaminacio"
+        ],
+        "economia": [
+          "comerc_ocupacio"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "Representante de Asociación Mesura presenta análisis de incremento de tráfico y contaminación en València, y propone cuatro medidas concretas: crear comisión de seguimiento de la zona de bajas emisiones, coordinar con MITECO, establecer aranceles portuarios y priorizar estacionamiento para residentes locales.",
+      "resum_val": "Representant d'Associació Mesura presenta anàlisi de l'increment de trànsit i contaminació a València, i proposa quatre mesures concretes: crear comissió de seguiment de la zona de baixes emissions, coordinar amb MITECO, establir aranzels portuaris i prioritzar l'estacionament per a residents locals.",
+      "cap_subtopics": [
+        1002,
+        705,
+        1010,
+        1526
+      ],
+      "cap_major": [
+        7,
+        10,
+        15
+      ]
+    },
+    {
+      "id": "2025-02-25-003",
+      "pleno_id": "2025-02-25",
+      "fecha": "2025-02-25",
+      "mandat_id": "2023-2027",
+      "ordre": 3,
+      "intervinient": "Clodoaldo Roldán, Josep Benlloch, Lucía Senabre",
+      "entitat": "Associació de Veïns de Campanar",
+      "entitat_id": "avv-campanar",
+      "tipus_entitat": "av",
+      "barri_o_zona": "Campanar",
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días y gracias por ofrecernos esta tribuna para exponer las **reivindicaciones del barrio de Campanar**. Considerando los parámetros de población territorial, social, económico, político y cultural que la red València Activa ha presentado recientemente, **Campanar ocupa la tercera posición** en el ranking entre los barrios de la ciudad de València. A pesar de esto, Campanar viene arrastrando un **déficit de infraestructuras** que desde la Asociación de Vecinos y Vecinas de Campanar queremos exponer ante este pleno.\nEn primer lugar, es necesario un **centro cívico de titularidad municipal** que aporte a las actividades de las diversas asociaciones del barrio que se desarrollen **programas de carácter educativo, cultural y social**. Este centro permitirá realizar reuniones, conferencias, proyecciones, teatro, música, etcétera, que actualmente tienen lugar en **locales que no son los idóneos**. Se ha creado una plataforma en la que hay registradas **una veintena de entidades culturales** de toda índole y que se verían beneficiadas con este centro cívico.\nPor otra parte, reivindicamos la **creación de un centro de la Universidad Popular** que, paralelamente al centro cívico y vinculado con él, constituya un **espacio sociocultural que vertebre el barrio**, reforzando el tejido asociativo ciudadano y su capacidad de intervención y participación en el devenir diario de la comunidad.\nLa anterior corporación compró para crear la Universidad Popular en Campanar unos bajos en la calle Escultor García Mas, pero hasta la actualidad **no se ha realizado ninguna actuación** en los mismos.",
+      "text_val": "Sr. Roldán:\n«Bon dia i gràcies per oferir-nos esta tribuna per a exposar les **reivindicacions del barri de Campanar**. Considerant els paràmetres de població territorial, social, econòmic, polític i cultural que la xarxa València Activa ha presentat recentment, **Campanar ocupa la tercera posició** en el rànquing entre els barris de la ciutat de València. A pesar d'açò, **Campanar ve arrossegant des de fa anys un dèficit d'infraestructures** que des de l'Associació de Veïns i Veïnes de Campanar volem exposar davant d'este ple. En primer lloc, és necessari **un centre cívic de titularitat municipal** que aporte a les activitats de les diverses associacions del barri que es desenvolupen programes de caràcter educatiu, cultural i social. Este centre permetrà realitzar **reunions, conferències, projeccions, teatre, música**, etcètera, que actualment tenen lloc en locals que no són els idonis per a les mateixes. **S'ha creat una plataforma amb una vintena d'entitats culturals** de tota índole i que es veurien beneficiades amb este centre cívic. D'altra banda, reivindiquem **la creació d'un centre de la Universitat Popular** que, paral·lelament al centre cívic i vinculat amb ell, constituïsca un espai sociocultural que vertebre el barri, reforçant el teixit associatiu ciutadà i la seua capacitat d'intervenció i participació en el devenir diari de la comunitat. **L'anterior corporació va comprar per a crear la Universitat Popular** a Campanar uns baixos al **carrer Escultor García Mas**, però fins a l'actualitat no s'ha realitzat cap actuació en els mateixos.»\n\nSra. Senabre:\n«Bé, també volíem parlar del tema de la **Biblioteca Municipal de Campanar**. Si no ho saben, suposo que no sé si algú hi heu estat, és **una biblioteca molt xicoteta**, amb una capacitat molt xicoteta i amb unes infraestructures que no estan aptes per a la necessitat actual que hi ha, per exemple, **d'endolls mínimament d'ordinadors** per als joves o per a qualsevol persona que vaja a estudiar. No tenim **una biblioteca municipal apta**, la més propera és la de la Petxina i no és especialment a prop. I molts de nosaltres hem d'anar-nos a **altres barris, fins i tot a Burjassot**, perquè no hi ha ni un horari suficient ni una capacitat suficient. Després, d'altra banda, també volia parlar del tema dels **centres municipals de Joventut, del tema que es van a reduir les hores**. I jo de veritat demane que per favor no es faça. O siga, **no tenim espais municipals a Campanar**. L'únic que tenim és la biblioteca i com he dit té una capacitat molt xicoteta. I l'altre que tenim és el Centre Municipal de Joventut. **Si cap dels dos té hores suficients i cap dels dos té espai suficient, no tenim res més**.»\n\nSr. Benlloch:\n«Bon dia, gràcies per donar-nos la paraula. **Campanar, tret d'una IDE i mitja, no té cap instal·lació esportiva**. Dic mitja perquè està **dos anys parada l'ampliació de la segona IDE**, la que es denomina de Reina Violant. Amb el pla del Nou Mestalla aparegué **una taca groga a on anaven a anar la compensació esportiva pel Nou Mestalla**. Eixa taca groga que estava posada en l'horta ha desaparegut i les dotacions esportives han quedat com els dic en eixa IDE i mitja. Totes estes reivindicacions que han fet els meus companys i les que presente jo **tenen un especial interés en la revisió del Pla General d'Ordenació Urbana**. **És la darrera oportunitat** que tenim de configurar unes dotacions culturals i esportives per al barri de Campanar. Pensem que esta revisió, a part d'estes dotacions, deu de complir un fet molt fonamental i és que, per que jo diria un al·lucine del govern municipal canvià l'entrada del carrer Mossén Rausell i la urbanització d'eixes cases, els veïns pergueren les cases, les cases s'enderrocaren. I ara, per alçar-les es demana que participen en un PAI que tenen que pagar els jardins? Perdone, **derrocaren les cases, provocaren el derrocament l'Ajuntament**. No deuen de pagar més diners que el d'alçar la seua casa. Pensem que **açò que ja porta arrastrant-se més de 30 anys** té que ser compensat i té que dur-se a terme. I **volem que els costos estos dels veïns siguen zero**. Miren, han sigut les festes patronals del poble de Campanar. Regidors i regidores han vingut a mascletaes, a missa major i a les processons. Pues bueno, a Dios rogando y con el mazo dando. Gràcies.»",
+      "temes": [
+        "infraestructures",
+        "cultura",
+        "educacio",
+        "participacio_ciutadana",
+        "barris"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "espai_public"
+        ],
+        "serveis_publics": [
+          "educacio",
+          "esports"
+        ],
+        "cultura": [
+          "associacionisme"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Campanar",
+        "Les Tendetes",
+        "El Calvari",
+        "Sant Pau"
+      ],
+      "districtes": [
+        "Campanar"
+      ],
+      "resum_cas": "La Asociación de Vecinos de Campanar reclama la creación de un centro cívico municipal y un centro de Universidad Popular para paliar el déficit de infraestructuras culturales y educativas del barrio.",
+      "resum_val": "L'Associació de Veïns de Campanar reclama la creació d'un centre cívic municipal i un centre de Universitat Popular per a pal·liar el dèficit d'infraestructures culturals i educatives del barri.",
+      "cap_subtopics": [
+        2300,
+        600,
+        1526,
+        1401
+      ],
+      "cap_major": [
+        6,
+        14,
+        15,
+        23
+      ]
+    },
+    {
+      "id": "2025-02-25-004",
+      "pleno_id": "2025-02-25",
+      "fecha": "2025-02-25",
+      "mandat_id": "2023-2027",
+      "ordre": 4,
+      "intervinient": "José Casermeiro Castro, Bernardo Marcos Pastor",
+      "entitat": "FAMPA València",
+      "entitat_id": "fampa-valencia",
+      "tipus_entitat": "educacio",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "No especificado",
+      "idioma_original": "mixt",
+      "text_cas": "Bon dia. Gracias a todos y a todas y sobre todo por darnos voz a **FAMPA València**, que somos **representante de las familias de la escuela pública valenciana**. Somos **representante mayoritario**. Y lo recuerdo porque cuando hablamos de temas de educación hay un foro municipal que se llama **Consejo Escolar de València**, donde es donde deberíamos tratar esos temas de consenso, temas de la votación concretamente de **la lengua vehicular** y no aquí. Nosotros estamos **en contra de que se vote la lengua vehicular**. Hoy **las competencias en valenciano y castellano son similares**. Se está **reforzando la enseñanza en valenciano** porque es **la lengua minorizada**. **El castellano no está en peligro**. Una oportunidad tener **dos lenguas simultáneas**. Mi hijo tiene 15 años, lleva 12, 13 estudiando en la escuela pública valenciana. Es **totalmente competente en valenciano**. Estoy **orgullosísimo de que la escuela valenciana dé ese resultado**. Cuando se entra en un colegio público se sabe en qué idioma se va a estudiar. Ahora, si se vota, **eso cambiará cada año**. \n\nSr. Marcos Pastor: Yo nací en un **entorno bilingüe**. Mi padre era militar, así que estudié en castellano. Cuando en 1983 ese colegio pasó a ser público, **se empezó a impartir clases en valenciano**. He trabajado en diversos sitios donde he podido comunicarme con personas en su **lengua materna o de acogida**. **La lengua es la puerta de la cultura**. Para aprender una lengua es necesaria **la inmersión**. **La inmersión en español está garantizada**. **La del valenciano, no**. Votar castellano o valenciano es para mí como preguntarle a un niño a quién quiere más, a su padre o a su madre. **Aprender valenciano dará más posibilidades** a nuestros hijos e hijas. **Las decisiones técnicas sobre educación** creo que es mejor que la tomen los expertos. **FAMPA València representa a 122 AMPA** de la ciudad sobre un total de 167. **Tiene un 73 % de representatividad**. Me gustaría que tuvieran en cuenta nuestra opinión. **Las lenguas son una riqueza**.",
+      "text_val": "Sr. Casermeiro:\n«Bon dia. Gràcies a tots i a totes i sobretot per donar-nos veu a **FAMPA València**, que som **representants de les famílies de l'escola pública valenciana**. Som **representant majoritari**. I ho recorde perquè quan parlem de temes d'educació hi ha un fòrum municipal que s'anomena **Consell Escolar de València**, on és on hauríem de tractar eixos temes de consens, temes de la votació concretament de **la llengua vehicular** i no ací. No ací, que ací simplement venim a exposar una cosa i a queixar-nos, oi? Açò és una cosa que tenim ja un fòrum en el qual hi ha tota la comunitat educativa, on cada representant de la comunitat educativa diu la seua opinió i es pot consensuar.\n**Nosaltres estem en contra que es vote la llengua vehicular**. Açò sembla una bogeria, oi?, que estiguem en contra que es vote alguna cosa, que ho voten les famílies, si som representants de les famílies. Però és que **pensem que no cal canviar alguna cosa que funciona**. Hui **les competències en valencià i en castellà són similars**. Són similars perquè on fa falta s'està reforçant l'ensenyament en valencià perquè **és la llengua minoritzada** i és la llengua que menys es parla, es parla menys al carrer i es parla en família perquè depèn de la família. El castellà no està en perill. Jo no sé d'on ix allò de tindre que elegir. Jo si ho contara a la meua terra, a **Andalusia**, que cal votar a **València** si s'ensenya, si s'aprén en castellà o en valencià, doncs jo crec que em mirarien amb cara rara. O siga, una oportunitat tindre ací **dos llengües simultànies**, aprenen dos llengües. El meu fill té **15 anys**, porta doncs **12, 13 estudiant a l'escola pública valenciana**. **És totalment competent en valencià**, a pesar que no el parle a casa i no el parle al carrer. Jo crec que estic orgullosíssim que l'escola valenciana done eixe resultat. Aleshores, canviar açò per a qué? A més, quan s'entra en un col·legi públic se sap en quin idioma s'anirà a estudiar. Ara, si es vota, **açò canviarà cada any** i no se sabrà. Fins i tot pot que s'estudie en l'idioma que no has elegit.»\n\nSr. Marcos Pastor:\n«Bon dia. Bé, jo crec que **la part tècnica i experta**, diguem, crec que ha quedat clara un poc amb **la moció presentada**, amb l'aportació del meu company i amb algunes exposicions d'experts com la de la **Universitat de València**, per exemple. Així que jo em centraria un poquet més amb el temps que em queda, que no el veig ¿un minut?, dos minuts, més en una part un poquet més emocional o subjectiva. Jo **vaig nàixer en un entorn bilingüe**. En la meua família es parlava més valencià encara que tothom dominava el castellà, no així el valencià. Mon pare era militar, de manera que quan vaig estudiar des de primera infància ho vaig fer en castellà, concretament en un col·legi nacional d'ací de **València**, en el **col·legi nacional Sector Aeri**. Era un col·le per a fills i filles de militars, policies i guàrdies civils on s'estudiava únicament en castellà. Quan el **1983** eixe col·legi **va passar a ser públic**, es va comenzar a impartir classes en valencià, es van comenzar a impartir. En principi de forma residual. Açò em va permetre aprendre regles gramaticals i altres parts de l'idioma que sumades a la meua immersió lingüística des de la infància em van permetre dominar l'idioma. He treballat en l'empresa privada a **Aldaia, Chiva, Riba-roja, Torrent, a Picanya, València** i algun lloc més, i en tots eixos llocs he pogut comunicar-me amb persones en la seua llengua materna o d'acollida. He treballat en l'administració, on també em comunique tant en castellà com en valencià. He aprés i parlat altres llengües com el **francés o l'anglès**, xafardeige alguna més. I a tot açò m'ha ajudat també saber valencià. Disfrute parlant valencià i també el castellà, és clar que sí. Igual. Conec a fons i aprecio per igual les dos llengües. M'agradaria que les meues filles també ho pogueren fer.\nAlgunes conclusions que trec són que **preferixc conéixer dos cultures**. Preferixc cinc que quatre també si tinc que elegir. **La llengua és la porta de la cultura**. Si no possibilitem el seu aprenentatge, tanquem l'accés a la cultura. **Per a aprendre una llengua és necessària la immersió**. **La immersió en espanyol està garantida**. La del valencià, no. **Votar castellà o valencià** és per a mi com preguntar-li a un xiquet a qui vol més, al seu pare o a la seua mare. Doncs segurament vol als dos. I si hi ha un en situació de precarietat, doncs cal donar-li més suport. Açò crec que també ho compartim tots. Aprendre hui valencià i dominar-lo donarà més possibilitats als nostres fills i filles i açò els garantirà més llibertat en el futur. **Les decisions tècniques sobre l'educació** jo crec que és millor que les prenguen els experts, com en molts sectors, que les coneixen més i les han estudiat més. I açò ho diem, com ha dit **José Manuel**, els representants i les representants de les famílies que som una part important de la comunitat educativa. **FAMPA València representa a 122 AMPA** de la ciutat sobre un total de **167**. És a dir, té un **73 % de representativitat**. Bastant més que qualsevol dels partits polítics ací presents. M'agradaria que tingueren en compte la nostra opinió, igual que la de la resta de la comunitat educativa. **Les llengües són una riquesa**. Facilitem entre tots que l'alumnat tinga accés a eixa riquesa. Gràcies.»",
+      "temes": [
+        "educacio",
+        "cultura"
+      ],
+      "temes_v2": {
+        "serveis_publics": [
+          "educacio"
+        ],
+        "drets_i_igualtat": [
+          "drets_linguistics"
+        ],
+        "participacio": [
+          "consells_sectorials"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "FAMPA València se opone a votar sobre la lengua vehicular en las escuelas públicas, considerando que el sistema actual de enseñanza bilingüe funciona correctamente y permite a los alumnos competencias similares en valenciano y castellano.",
+      "resum_val": "FAMPA València s'oposa a votar sobre la llengua vehicular a les escoles públiques, considerant que el sistema actual d'ensenyança bilingüe funciona correctament i permet als alumnes competències similars en valencià i castellà.",
+      "cap_subtopics": [
+        600,
+        207,
+        2000
+      ],
+      "cap_major": [
+        2,
+        6,
+        20
+      ]
+    }
+  ]
+}

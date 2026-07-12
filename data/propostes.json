@@ -1,0 +1,1947 @@
+{
+  "total": {
+    "presentadas": 5795,
+    "pasa_apoyo": 2444,
+    "pasa_viabilidad": 1266,
+    "seleccionadas": 601,
+    "apoyos_total": 179584,
+    "votos_total": 416815,
+    "presupuesto_seleccionadas": 58439041
+  },
+  "editions": {
+    "1": {
+      "label": "2015/16",
+      "totals": {
+        "presentadas": 619,
+        "pasa_apoyo": 0,
+        "pasa_viabilidad": 235,
+        "seleccionadas": 109,
+        "apoyos_total": 0,
+        "votos_total": 10763,
+        "presupuesto_seleccionadas": 7000000
+      },
+      "by_district": {
+        "Campanar": {
+          "presentadas": 27,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 10,
+          "seleccionadas": 5,
+          "apoyos_total": 0,
+          "votos_total": 285,
+          "presupuesto_seleccionadas": 277447
+        },
+        "Jesús": {
+          "presentadas": 29,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 7,
+          "seleccionadas": 3,
+          "apoyos_total": 0,
+          "votos_total": 1081,
+          "presupuesto_seleccionadas": 450629
+        },
+        "Poblats Marítims": {
+          "presentadas": 38,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 8,
+          "seleccionadas": 2,
+          "apoyos_total": 0,
+          "votos_total": 740,
+          "presupuesto_seleccionadas": 409590
+        },
+        "Extramurs": {
+          "presentadas": 36,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 7,
+          "seleccionadas": 5,
+          "apoyos_total": 0,
+          "votos_total": 402,
+          "presupuesto_seleccionadas": 374458
+        },
+        "El Pla del Real": {
+          "presentadas": 33,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 21,
+          "seleccionadas": 10,
+          "apoyos_total": 0,
+          "votos_total": 169,
+          "presupuesto_seleccionadas": 246571
+        },
+        "Patraix": {
+          "presentadas": 43,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 18,
+          "seleccionadas": 12,
+          "apoyos_total": 0,
+          "votos_total": 1000,
+          "presupuesto_seleccionadas": 414537
+        },
+        "Benicalap": {
+          "presentadas": 16,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 6,
+          "seleccionadas": 2,
+          "apoyos_total": 0,
+          "votos_total": 258,
+          "presupuesto_seleccionadas": 463024
+        },
+        "Algirós": {
+          "presentadas": 16,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 10,
+          "seleccionadas": 7,
+          "apoyos_total": 0,
+          "votos_total": 358,
+          "presupuesto_seleccionadas": 315806
+        },
+        "La Saïdia": {
+          "presentadas": 30,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 8,
+          "seleccionadas": 6,
+          "apoyos_total": 0,
+          "votos_total": 518,
+          "presupuesto_seleccionadas": 344598
+        },
+        "Quatre Carreres": {
+          "presentadas": 33,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 7,
+          "seleccionadas": 6,
+          "apoyos_total": 0,
+          "votos_total": 533,
+          "presupuesto_seleccionadas": 429757
+        },
+        "Benimaclet": {
+          "presentadas": 22,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 9,
+          "seleccionadas": 1,
+          "apoyos_total": 0,
+          "votos_total": 728,
+          "presupuesto_seleccionadas": 303453
+        },
+        "L'Eixample": {
+          "presentadas": 36,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 19,
+          "seleccionadas": 6,
+          "apoyos_total": 0,
+          "votos_total": 329,
+          "presupuesto_seleccionadas": 321629
+        },
+        "Ciutat Vella": {
+          "presentadas": 46,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 11,
+          "seleccionadas": 1,
+          "apoyos_total": 0,
+          "votos_total": 560,
+          "presupuesto_seleccionadas": 148433
+        },
+        "Camins al Grau": {
+          "presentadas": 29,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 9,
+          "seleccionadas": 4,
+          "apoyos_total": 0,
+          "votos_total": 722,
+          "presupuesto_seleccionadas": 468966
+        },
+        "Poblats del Sud": {
+          "presentadas": 41,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 9,
+          "seleccionadas": 4,
+          "apoyos_total": 0,
+          "votos_total": 852,
+          "presupuesto_seleccionadas": 288851
+        },
+        "Rascanya": {
+          "presentadas": 59,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 26,
+          "seleccionadas": 11,
+          "apoyos_total": 0,
+          "votos_total": 384,
+          "presupuesto_seleccionadas": 515223
+        },
+        "L'Olivereta": {
+          "presentadas": 40,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 20,
+          "seleccionadas": 8,
+          "apoyos_total": 0,
+          "votos_total": 304,
+          "presupuesto_seleccionadas": 366108
+        },
+        "Poblats de l'Oest": {
+          "presentadas": 25,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 21,
+          "seleccionadas": 11,
+          "apoyos_total": 0,
+          "votos_total": 311,
+          "presupuesto_seleccionadas": 488542
+        },
+        "Poblats del Nord": {
+          "presentadas": 20,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 9,
+          "seleccionadas": 5,
+          "apoyos_total": 0,
+          "votos_total": 1229,
+          "presupuesto_seleccionadas": 372378
+        }
+      },
+      "by_barri": {},
+      "by_tipo": {
+        "persona_fisica": {
+          "presentadas": 324,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 87,
+          "seleccionadas": 38,
+          "apoyos_total": 0,
+          "votos_total": 4640,
+          "presupuesto_seleccionadas": 2626857
+        },
+        "persona_juridica": {
+          "presentadas": 295,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 148,
+          "seleccionadas": 71,
+          "apoyos_total": 0,
+          "votos_total": 6123,
+          "presupuesto_seleccionadas": 4373143
+        }
+      }
+    },
+    "2": {
+      "label": "2016/17",
+      "totals": {
+        "presentadas": 591,
+        "pasa_apoyo": 272,
+        "pasa_viabilidad": 115,
+        "seleccionadas": 71,
+        "apoyos_total": 15728,
+        "votos_total": 25870,
+        "presupuesto_seleccionadas": 6999999
+      },
+      "by_district": {
+        "Rascanya": {
+          "presentadas": 33,
+          "pasa_apoyo": 16,
+          "pasa_viabilidad": 8,
+          "seleccionadas": 6,
+          "apoyos_total": 976,
+          "votos_total": 1531,
+          "presupuesto_seleccionadas": 480147
+        },
+        "Ciutat Vella": {
+          "presentadas": 34,
+          "pasa_apoyo": 15,
+          "pasa_viabilidad": 7,
+          "seleccionadas": 3,
+          "apoyos_total": 827,
+          "votos_total": 1100,
+          "presupuesto_seleccionadas": 142178
+        },
+        "L'Olivereta": {
+          "presentadas": 23,
+          "pasa_apoyo": 8,
+          "pasa_viabilidad": 6,
+          "seleccionadas": 5,
+          "apoyos_total": 518,
+          "votos_total": 859,
+          "presupuesto_seleccionadas": 411581
+        },
+        "L'Eixample": {
+          "presentadas": 36,
+          "pasa_apoyo": 18,
+          "pasa_viabilidad": 3,
+          "seleccionadas": 3,
+          "apoyos_total": 1731,
+          "votos_total": 1045,
+          "presupuesto_seleccionadas": 316480
+        },
+        "Benimaclet": {
+          "presentadas": 28,
+          "pasa_apoyo": 18,
+          "pasa_viabilidad": 5,
+          "seleccionadas": 3,
+          "apoyos_total": 702,
+          "votos_total": 1152,
+          "presupuesto_seleccionadas": 297986
+        },
+        "El Pla del Real": {
+          "presentadas": 21,
+          "pasa_apoyo": 6,
+          "pasa_viabilidad": 2,
+          "seleccionadas": 1,
+          "apoyos_total": 546,
+          "votos_total": 470,
+          "presupuesto_seleccionadas": 242038
+        },
+        "Jesús": {
+          "presentadas": 25,
+          "pasa_apoyo": 12,
+          "pasa_viabilidad": 5,
+          "seleccionadas": 4,
+          "apoyos_total": 937,
+          "votos_total": 895,
+          "presupuesto_seleccionadas": 474977
+        },
+        "Poblats del Sud": {
+          "presentadas": 43,
+          "pasa_apoyo": 24,
+          "pasa_viabilidad": 12,
+          "seleccionadas": 5,
+          "apoyos_total": 1333,
+          "votos_total": 2965,
+          "presupuesto_seleccionadas": 347011
+        },
+        "Camins al Grau": {
+          "presentadas": 19,
+          "pasa_apoyo": 10,
+          "pasa_viabilidad": 5,
+          "seleccionadas": 3,
+          "apoyos_total": 343,
+          "votos_total": 1067,
+          "presupuesto_seleccionadas": 407731
+        },
+        "Extramurs": {
+          "presentadas": 50,
+          "pasa_apoyo": 16,
+          "pasa_viabilidad": 6,
+          "seleccionadas": 1,
+          "apoyos_total": 1112,
+          "votos_total": 986,
+          "presupuesto_seleccionadas": 342318
+        },
+        "Patraix": {
+          "presentadas": 41,
+          "pasa_apoyo": 18,
+          "pasa_viabilidad": 9,
+          "seleccionadas": 6,
+          "apoyos_total": 1552,
+          "votos_total": 3977,
+          "presupuesto_seleccionadas": 447305
+        },
+        "Algirós": {
+          "presentadas": 29,
+          "pasa_apoyo": 10,
+          "pasa_viabilidad": 5,
+          "seleccionadas": 4,
+          "apoyos_total": 449,
+          "votos_total": 981,
+          "presupuesto_seleccionadas": 337735
+        },
+        "Campanar": {
+          "presentadas": 26,
+          "pasa_apoyo": 15,
+          "pasa_viabilidad": 6,
+          "seleccionadas": 3,
+          "apoyos_total": 611,
+          "votos_total": 799,
+          "presupuesto_seleccionadas": 289860
+        },
+        "La Saïdia": {
+          "presentadas": 35,
+          "pasa_apoyo": 13,
+          "pasa_viabilidad": 7,
+          "seleccionadas": 1,
+          "apoyos_total": 733,
+          "votos_total": 878,
+          "presupuesto_seleccionadas": 347394
+        },
+        "Poblats Marítims": {
+          "presentadas": 28,
+          "pasa_apoyo": 11,
+          "pasa_viabilidad": 6,
+          "seleccionadas": 4,
+          "apoyos_total": 615,
+          "votos_total": 1258,
+          "presupuesto_seleccionadas": 418027
+        },
+        "Quatre Carreres": {
+          "presentadas": 31,
+          "pasa_apoyo": 14,
+          "pasa_viabilidad": 8,
+          "seleccionadas": 8,
+          "apoyos_total": 446,
+          "votos_total": 2101,
+          "presupuesto_seleccionadas": 474675
+        },
+        "Benicalap": {
+          "presentadas": 39,
+          "pasa_apoyo": 19,
+          "pasa_viabilidad": 4,
+          "seleccionadas": 3,
+          "apoyos_total": 873,
+          "votos_total": 645,
+          "presupuesto_seleccionadas": 454941
+        },
+        "Poblats de l'Oest": {
+          "presentadas": 27,
+          "pasa_apoyo": 13,
+          "pasa_viabilidad": 6,
+          "seleccionadas": 5,
+          "apoyos_total": 818,
+          "votos_total": 1100,
+          "presupuesto_seleccionadas": 477332
+        },
+        "Poblats del Nord": {
+          "presentadas": 23,
+          "pasa_apoyo": 16,
+          "pasa_viabilidad": 5,
+          "seleccionadas": 3,
+          "apoyos_total": 606,
+          "votos_total": 2061,
+          "presupuesto_seleccionadas": 290283
+        }
+      },
+      "by_barri": {},
+      "by_tipo": {
+        "persona_fisica": {
+          "presentadas": 476,
+          "pasa_apoyo": 157,
+          "pasa_viabilidad": 59,
+          "seleccionadas": 34,
+          "apoyos_total": 12550,
+          "votos_total": 13336,
+          "presupuesto_seleccionadas": 3671554
+        },
+        "grupo_trabajo": {
+          "presentadas": 115,
+          "pasa_apoyo": 115,
+          "pasa_viabilidad": 56,
+          "seleccionadas": 37,
+          "apoyos_total": 3178,
+          "votos_total": 12534,
+          "presupuesto_seleccionadas": 3328445
+        }
+      }
+    },
+    "3": {
+      "label": "2017/18",
+      "totals": {
+        "presentadas": 562,
+        "pasa_apoyo": 94,
+        "pasa_viabilidad": 47,
+        "seleccionadas": 11,
+        "apoyos_total": 29891,
+        "votos_total": 72001,
+        "presupuesto_seleccionadas": 7000000
+      },
+      "by_district": {},
+      "by_barri": {},
+      "by_tipo": {
+        "ayuntamiento": {
+          "presentadas": 16,
+          "pasa_apoyo": 10,
+          "pasa_viabilidad": 10,
+          "seleccionadas": 5,
+          "apoyos_total": 6464,
+          "votos_total": 22869,
+          "presupuesto_seleccionadas": 2917676
+        },
+        "persona_fisica": {
+          "presentadas": 546,
+          "pasa_apoyo": 84,
+          "pasa_viabilidad": 37,
+          "seleccionadas": 6,
+          "apoyos_total": 23427,
+          "votos_total": 49132,
+          "presupuesto_seleccionadas": 4082324
+        }
+      }
+    },
+    "4": {
+      "label": "2018/19",
+      "totals": {
+        "presentadas": 540,
+        "pasa_apoyo": 375,
+        "pasa_viabilidad": 202,
+        "seleccionadas": 104,
+        "apoyos_total": 14131,
+        "votos_total": 38437,
+        "presupuesto_seleccionadas": 8439042
+      },
+      "by_district": {
+        "El Pla del Real": {
+          "presentadas": 15,
+          "pasa_apoyo": 8,
+          "pasa_viabilidad": 4,
+          "seleccionadas": 3,
+          "apoyos_total": 364,
+          "votos_total": 774,
+          "presupuesto_seleccionadas": 274385
+        },
+        "Poblats Marítims": {
+          "presentadas": 21,
+          "pasa_apoyo": 16,
+          "pasa_viabilidad": 9,
+          "seleccionadas": 5,
+          "apoyos_total": 571,
+          "votos_total": 1810,
+          "presupuesto_seleccionadas": 914741
+        },
+        "Camins al Grau": {
+          "presentadas": 21,
+          "pasa_apoyo": 13,
+          "pasa_viabilidad": 5,
+          "seleccionadas": 5,
+          "apoyos_total": 413,
+          "votos_total": 1896,
+          "presupuesto_seleccionadas": 470749
+        },
+        "L'Eixample": {
+          "presentadas": 31,
+          "pasa_apoyo": 22,
+          "pasa_viabilidad": 13,
+          "seleccionadas": 3,
+          "apoyos_total": 975,
+          "votos_total": 2154,
+          "presupuesto_seleccionadas": 360928
+        },
+        "Poblats del Nord": {
+          "presentadas": 48,
+          "pasa_apoyo": 39,
+          "pasa_viabilidad": 27,
+          "seleccionadas": 14,
+          "apoyos_total": 726,
+          "votos_total": 1018,
+          "presupuesto_seleccionadas": 309685
+        },
+        "Poblats de l'Oest": {
+          "presentadas": 31,
+          "pasa_apoyo": 25,
+          "pasa_viabilidad": 12,
+          "seleccionadas": 7,
+          "apoyos_total": 871,
+          "votos_total": 1647,
+          "presupuesto_seleccionadas": 559263
+        },
+        "L'Olivereta": {
+          "presentadas": 18,
+          "pasa_apoyo": 12,
+          "pasa_viabilidad": 7,
+          "seleccionadas": 6,
+          "apoyos_total": 314,
+          "votos_total": 1209,
+          "presupuesto_seleccionadas": 491230
+        },
+        "Rascanya": {
+          "presentadas": 25,
+          "pasa_apoyo": 16,
+          "pasa_viabilidad": 9,
+          "seleccionadas": 6,
+          "apoyos_total": 528,
+          "votos_total": 2538,
+          "presupuesto_seleccionadas": 581573
+        },
+        "Poblats del Sud": {
+          "presentadas": 66,
+          "pasa_apoyo": 53,
+          "pasa_viabilidad": 32,
+          "seleccionadas": 16,
+          "apoyos_total": 1135,
+          "votos_total": 1609,
+          "presupuesto_seleccionadas": 332627
+        },
+        "Quatre Carreres": {
+          "presentadas": 41,
+          "pasa_apoyo": 23,
+          "pasa_viabilidad": 11,
+          "seleccionadas": 8,
+          "apoyos_total": 1241,
+          "votos_total": 3765,
+          "presupuesto_seleccionadas": 540998
+        },
+        "La Saïdia": {
+          "presentadas": 22,
+          "pasa_apoyo": 17,
+          "pasa_viabilidad": 11,
+          "seleccionadas": 1,
+          "apoyos_total": 753,
+          "votos_total": 2163,
+          "presupuesto_seleccionadas": 411285
+        },
+        "Jesús": {
+          "presentadas": 30,
+          "pasa_apoyo": 24,
+          "pasa_viabilidad": 12,
+          "seleccionadas": 6,
+          "apoyos_total": 956,
+          "votos_total": 2474,
+          "presupuesto_seleccionadas": 535780
+        },
+        "Benicalap": {
+          "presentadas": 13,
+          "pasa_apoyo": 11,
+          "pasa_viabilidad": 2,
+          "seleccionadas": 2,
+          "apoyos_total": 508,
+          "votos_total": 447,
+          "presupuesto_seleccionadas": 520610
+        },
+        "Campanar": {
+          "presentadas": 20,
+          "pasa_apoyo": 12,
+          "pasa_viabilidad": 7,
+          "seleccionadas": 1,
+          "apoyos_total": 376,
+          "votos_total": 1090,
+          "presupuesto_seleccionadas": 297641
+        },
+        "Patraix": {
+          "presentadas": 30,
+          "pasa_apoyo": 23,
+          "pasa_viabilidad": 14,
+          "seleccionadas": 6,
+          "apoyos_total": 1014,
+          "votos_total": 6366,
+          "presupuesto_seleccionadas": 537049
+        },
+        "Extramurs": {
+          "presentadas": 20,
+          "pasa_apoyo": 16,
+          "pasa_viabilidad": 12,
+          "seleccionadas": 5,
+          "apoyos_total": 859,
+          "votos_total": 2946,
+          "presupuesto_seleccionadas": 400705
+        },
+        "Ciutat Vella": {
+          "presentadas": 19,
+          "pasa_apoyo": 14,
+          "pasa_viabilidad": 6,
+          "seleccionadas": 3,
+          "apoyos_total": 758,
+          "votos_total": 1258,
+          "presupuesto_seleccionadas": 162397
+        },
+        "Benimaclet": {
+          "presentadas": 14,
+          "pasa_apoyo": 12,
+          "pasa_viabilidad": 5,
+          "seleccionadas": 4,
+          "apoyos_total": 683,
+          "votos_total": 2144,
+          "presupuesto_seleccionadas": 353644
+        },
+        "Algirós": {
+          "presentadas": 8,
+          "pasa_apoyo": 7,
+          "pasa_viabilidad": 4,
+          "seleccionadas": 3,
+          "apoyos_total": 179,
+          "votos_total": 1129,
+          "presupuesto_seleccionadas": 383752
+        }
+      },
+      "by_barri": {
+        "Les Cases De Barcena": {
+          "presentadas": 5,
+          "pasa_apoyo": 3,
+          "pasa_viabilidad": 3,
+          "seleccionadas": 1,
+          "apoyos_total": 37,
+          "votos_total": 49,
+          "presupuesto_seleccionadas": 19922
+        },
+        "Benimamet": {
+          "presentadas": 29,
+          "pasa_apoyo": 23,
+          "pasa_viabilidad": 10,
+          "seleccionadas": 6,
+          "apoyos_total": 871,
+          "votos_total": 1631,
+          "presupuesto_seleccionadas": 510455
+        },
+        "Massarrojos": {
+          "presentadas": 20,
+          "pasa_apoyo": 14,
+          "pasa_viabilidad": 10,
+          "seleccionadas": 3,
+          "apoyos_total": 303,
+          "votos_total": 414,
+          "presupuesto_seleccionadas": 102810
+        },
+        "La Torre": {
+          "presentadas": 11,
+          "pasa_apoyo": 10,
+          "pasa_viabilidad": 6,
+          "seleccionadas": 4,
+          "apoyos_total": 268,
+          "votos_total": 715,
+          "presupuesto_seleccionadas": 73049
+        },
+        "Pinedo": {
+          "presentadas": 8,
+          "pasa_apoyo": 8,
+          "pasa_viabilidad": 6,
+          "seleccionadas": 4,
+          "apoyos_total": 176,
+          "votos_total": 208,
+          "presupuesto_seleccionadas": 41627
+        },
+        "Mahuella-Tauladella": {
+          "presentadas": 3,
+          "pasa_apoyo": 3,
+          "pasa_viabilidad": 1,
+          "seleccionadas": 1,
+          "apoyos_total": 23,
+          "votos_total": 3,
+          "presupuesto_seleccionadas": 6976
+        },
+        "El Palmar": {
+          "presentadas": 3,
+          "pasa_apoyo": 2,
+          "pasa_viabilidad": 1,
+          "seleccionadas": 1,
+          "apoyos_total": 6,
+          "votos_total": 20,
+          "presupuesto_seleccionadas": 15975
+        },
+        "El Forn D'Alcedo": {
+          "presentadas": 14,
+          "pasa_apoyo": 10,
+          "pasa_viabilidad": 6,
+          "seleccionadas": 1,
+          "apoyos_total": 255,
+          "votos_total": 92,
+          "presupuesto_seleccionadas": 22453
+        },
+        "Faitanar": {
+          "presentadas": 3,
+          "pasa_apoyo": 3,
+          "pasa_viabilidad": 2,
+          "seleccionadas": 1,
+          "apoyos_total": 19,
+          "votos_total": 71,
+          "presupuesto_seleccionadas": 20342
+        },
+        "El Saler": {
+          "presentadas": 11,
+          "pasa_apoyo": 10,
+          "pasa_viabilidad": 6,
+          "seleccionadas": 1,
+          "apoyos_total": 226,
+          "votos_total": 163,
+          "presupuesto_seleccionadas": 30117
+        },
+        "El Perellonet": {
+          "presentadas": 11,
+          "pasa_apoyo": 6,
+          "pasa_viabilidad": 2,
+          "seleccionadas": 1,
+          "apoyos_total": 123,
+          "votos_total": 25,
+          "presupuesto_seleccionadas": 25345
+        },
+        "Borboto": {
+          "presentadas": 4,
+          "pasa_apoyo": 4,
+          "pasa_viabilidad": 3,
+          "seleccionadas": 1,
+          "apoyos_total": 90,
+          "votos_total": 84,
+          "presupuesto_seleccionadas": 35306
+        },
+        "Beniferri": {
+          "presentadas": 2,
+          "pasa_apoyo": 2,
+          "pasa_viabilidad": 2,
+          "seleccionadas": 1,
+          "apoyos_total": 0,
+          "votos_total": 16,
+          "presupuesto_seleccionadas": 48808
+        },
+        "Benifaraig": {
+          "presentadas": 6,
+          "pasa_apoyo": 5,
+          "pasa_viabilidad": 4,
+          "seleccionadas": 3,
+          "apoyos_total": 77,
+          "votos_total": 236,
+          "presupuesto_seleccionadas": 47621
+        },
+        "Poble Nou": {
+          "presentadas": 3,
+          "pasa_apoyo": 3,
+          "pasa_viabilidad": 2,
+          "seleccionadas": 2,
+          "apoyos_total": 86,
+          "votos_total": 42,
+          "presupuesto_seleccionadas": 40938
+        },
+        "Carpesa": {
+          "presentadas": 7,
+          "pasa_apoyo": 7,
+          "pasa_viabilidad": 4,
+          "seleccionadas": 3,
+          "apoyos_total": 110,
+          "votos_total": 190,
+          "presupuesto_seleccionadas": 56112
+        },
+        "Castellar-L'Oliveral": {
+          "presentadas": 5,
+          "pasa_apoyo": 4,
+          "pasa_viabilidad": 3,
+          "seleccionadas": 3,
+          "apoyos_total": 62,
+          "votos_total": 315,
+          "presupuesto_seleccionadas": 103719
+        }
+      },
+      "by_tipo": {
+        "persona_fisica": {
+          "presentadas": 413,
+          "pasa_apoyo": 248,
+          "pasa_viabilidad": 117,
+          "seleccionadas": 57,
+          "apoyos_total": 14131,
+          "votos_total": 22075,
+          "presupuesto_seleccionadas": 5445760
+        },
+        "grupo_trabajo": {
+          "presentadas": 127,
+          "pasa_apoyo": 127,
+          "pasa_viabilidad": 85,
+          "seleccionadas": 47,
+          "apoyos_total": 0,
+          "votos_total": 16362,
+          "presupuesto_seleccionadas": 2993282
+        }
+      }
+    },
+    "5": {
+      "label": "2019/20",
+      "totals": {
+        "presentadas": 632,
+        "pasa_apoyo": 146,
+        "pasa_viabilidad": 63,
+        "seleccionadas": 21,
+        "apoyos_total": 33775,
+        "votos_total": 129973,
+        "presupuesto_seleccionadas": 8000000
+      },
+      "by_district": {},
+      "by_barri": {},
+      "by_tipo": {
+        "ayuntamiento": {
+          "presentadas": 25,
+          "pasa_apoyo": 12,
+          "pasa_viabilidad": 11,
+          "seleccionadas": 5,
+          "apoyos_total": 4848,
+          "votos_total": 26540,
+          "presupuesto_seleccionadas": 3760100
+        },
+        "persona_fisica": {
+          "presentadas": 607,
+          "pasa_apoyo": 134,
+          "pasa_viabilidad": 52,
+          "seleccionadas": 16,
+          "apoyos_total": 28927,
+          "votos_total": 103433,
+          "presupuesto_seleccionadas": 4239900
+        }
+      }
+    },
+    "6": {
+      "label": "2020/21",
+      "totals": {
+        "presentadas": 1284,
+        "pasa_apoyo": 805,
+        "pasa_viabilidad": 283,
+        "seleccionadas": 139,
+        "apoyos_total": 50578,
+        "votos_total": 63803,
+        "presupuesto_seleccionadas": 8000000
+      },
+      "by_district": {
+        "Extramurs": {
+          "presentadas": 79,
+          "pasa_apoyo": 49,
+          "pasa_viabilidad": 26,
+          "seleccionadas": 8,
+          "apoyos_total": 2997,
+          "votos_total": 4615,
+          "presupuesto_seleccionadas": 386710
+        },
+        "Quatre Carreres": {
+          "presentadas": 126,
+          "pasa_apoyo": 69,
+          "pasa_viabilidad": 37,
+          "seleccionadas": 10,
+          "apoyos_total": 4427,
+          "votos_total": 7310,
+          "presupuesto_seleccionadas": 521510
+        },
+        "La Saïdia": {
+          "presentadas": 75,
+          "pasa_apoyo": 36,
+          "pasa_viabilidad": 12,
+          "seleccionadas": 5,
+          "apoyos_total": 3116,
+          "votos_total": 3768,
+          "presupuesto_seleccionadas": 416395
+        },
+        "L'Eixample": {
+          "presentadas": 83,
+          "pasa_apoyo": 49,
+          "pasa_viabilidad": 13,
+          "seleccionadas": 7,
+          "apoyos_total": 3139,
+          "votos_total": 3036,
+          "presupuesto_seleccionadas": 353386
+        },
+        "Poblats de l'Oest": {
+          "presentadas": 60,
+          "pasa_apoyo": 45,
+          "pasa_viabilidad": 13,
+          "seleccionadas": 7,
+          "apoyos_total": 1889,
+          "votos_total": 1655,
+          "presupuesto_seleccionadas": 371339
+        },
+        "Benimaclet": {
+          "presentadas": 54,
+          "pasa_apoyo": 33,
+          "pasa_viabilidad": 9,
+          "seleccionadas": 3,
+          "apoyos_total": 2769,
+          "votos_total": 1832,
+          "presupuesto_seleccionadas": 297915
+        },
+        "Camins al Grau": {
+          "presentadas": 80,
+          "pasa_apoyo": 52,
+          "pasa_viabilidad": 14,
+          "seleccionadas": 9,
+          "apoyos_total": 3838,
+          "votos_total": 4556,
+          "presupuesto_seleccionadas": 472017
+        },
+        "Rascanya": {
+          "presentadas": 39,
+          "pasa_apoyo": 23,
+          "pasa_viabilidad": 7,
+          "seleccionadas": 4,
+          "apoyos_total": 1455,
+          "votos_total": 1444,
+          "presupuesto_seleccionadas": 635888
+        },
+        "Patraix": {
+          "presentadas": 79,
+          "pasa_apoyo": 51,
+          "pasa_viabilidad": 20,
+          "seleccionadas": 11,
+          "apoyos_total": 3827,
+          "votos_total": 10100,
+          "presupuesto_seleccionadas": 543932
+        },
+        "Ciutat Vella": {
+          "presentadas": 53,
+          "pasa_apoyo": 30,
+          "pasa_viabilidad": 10,
+          "seleccionadas": 5,
+          "apoyos_total": 1873,
+          "votos_total": 1627,
+          "presupuesto_seleccionadas": 155536
+        },
+        "Campanar": {
+          "presentadas": 47,
+          "pasa_apoyo": 28,
+          "pasa_viabilidad": 12,
+          "seleccionadas": 8,
+          "apoyos_total": 2303,
+          "votos_total": 4070,
+          "presupuesto_seleccionadas": 330301
+        },
+        "Poblats del Sud": {
+          "presentadas": 94,
+          "pasa_apoyo": 80,
+          "pasa_viabilidad": 22,
+          "seleccionadas": 12,
+          "apoyos_total": 2917,
+          "votos_total": 1298,
+          "presupuesto_seleccionadas": 385146
+        },
+        "Poblats Marítims": {
+          "presentadas": 72,
+          "pasa_apoyo": 47,
+          "pasa_viabilidad": 14,
+          "seleccionadas": 8,
+          "apoyos_total": 3274,
+          "votos_total": 3273,
+          "presupuesto_seleccionadas": 453510
+        },
+        "L'Olivereta": {
+          "presentadas": 62,
+          "pasa_apoyo": 38,
+          "pasa_viabilidad": 20,
+          "seleccionadas": 8,
+          "apoyos_total": 2052,
+          "votos_total": 3216,
+          "presupuesto_seleccionadas": 483122
+        },
+        "Poblats del Nord": {
+          "presentadas": 66,
+          "pasa_apoyo": 45,
+          "pasa_viabilidad": 12,
+          "seleccionadas": 9,
+          "apoyos_total": 1660,
+          "votos_total": 517,
+          "presupuesto_seleccionadas": 458977
+        },
+        "El Pla del Real": {
+          "presentadas": 46,
+          "pasa_apoyo": 22,
+          "pasa_viabilidad": 11,
+          "seleccionadas": 5,
+          "apoyos_total": 1320,
+          "votos_total": 1800,
+          "presupuesto_seleccionadas": 286068
+        },
+        "Jesús": {
+          "presentadas": 43,
+          "pasa_apoyo": 29,
+          "pasa_viabilidad": 12,
+          "seleccionadas": 9,
+          "apoyos_total": 2388,
+          "votos_total": 4208,
+          "presupuesto_seleccionadas": 548892
+        },
+        "Benicalap": {
+          "presentadas": 73,
+          "pasa_apoyo": 43,
+          "pasa_viabilidad": 10,
+          "seleccionadas": 6,
+          "apoyos_total": 3055,
+          "votos_total": 3461,
+          "presupuesto_seleccionadas": 508168
+        },
+        "Algirós": {
+          "presentadas": 52,
+          "pasa_apoyo": 36,
+          "pasa_viabilidad": 9,
+          "seleccionadas": 5,
+          "apoyos_total": 2279,
+          "votos_total": 2017,
+          "presupuesto_seleccionadas": 391188
+        }
+      },
+      "by_barri": {
+        "Benimamet": {
+          "presentadas": 45,
+          "pasa_apoyo": 34,
+          "pasa_viabilidad": 11,
+          "seleccionadas": 5,
+          "apoyos_total": 1563,
+          "votos_total": 1596,
+          "presupuesto_seleccionadas": 336800
+        },
+        "El Saler": {
+          "presentadas": 13,
+          "pasa_apoyo": 13,
+          "pasa_viabilidad": 2,
+          "seleccionadas": 1,
+          "apoyos_total": 678,
+          "votos_total": 158,
+          "presupuesto_seleccionadas": 35807
+        },
+        "Beniferri": {
+          "presentadas": 15,
+          "pasa_apoyo": 11,
+          "pasa_viabilidad": 2,
+          "seleccionadas": 2,
+          "apoyos_total": 326,
+          "votos_total": 59,
+          "presupuesto_seleccionadas": 34539
+        },
+        "El Perellonet": {
+          "presentadas": 7,
+          "pasa_apoyo": 5,
+          "pasa_viabilidad": 2,
+          "seleccionadas": 2,
+          "apoyos_total": 115,
+          "votos_total": 46,
+          "presupuesto_seleccionadas": 28064
+        },
+        "Castellar-L'Oliveral": {
+          "presentadas": 17,
+          "pasa_apoyo": 14,
+          "pasa_viabilidad": 4,
+          "seleccionadas": 1,
+          "apoyos_total": 759,
+          "votos_total": 281,
+          "presupuesto_seleccionadas": 116697
+        },
+        "Les Cases De Barcena": {
+          "presentadas": 6,
+          "pasa_apoyo": 1,
+          "pasa_viabilidad": 1,
+          "seleccionadas": 1,
+          "apoyos_total": 28,
+          "votos_total": 11,
+          "presupuesto_seleccionadas": 27803
+        },
+        "Poble Nou": {
+          "presentadas": 13,
+          "pasa_apoyo": 8,
+          "pasa_viabilidad": 2,
+          "seleccionadas": 1,
+          "apoyos_total": 196,
+          "votos_total": 36,
+          "presupuesto_seleccionadas": 63360
+        },
+        "El Palmar": {
+          "presentadas": 9,
+          "pasa_apoyo": 9,
+          "pasa_viabilidad": 1,
+          "seleccionadas": 1,
+          "apoyos_total": 156,
+          "votos_total": 64,
+          "presupuesto_seleccionadas": 17582
+        },
+        "Mahuella-Tauladella": {
+          "presentadas": 1,
+          "pasa_apoyo": 1,
+          "pasa_viabilidad": 1,
+          "seleccionadas": 1,
+          "apoyos_total": 0,
+          "votos_total": 1,
+          "presupuesto_seleccionadas": 8220
+        },
+        "Massarrojos": {
+          "presentadas": 21,
+          "pasa_apoyo": 15,
+          "pasa_viabilidad": 3,
+          "seleccionadas": 2,
+          "apoyos_total": 492,
+          "votos_total": 182,
+          "presupuesto_seleccionadas": 158114
+        },
+        "Benifaraig": {
+          "presentadas": 8,
+          "pasa_apoyo": 6,
+          "pasa_viabilidad": 1,
+          "seleccionadas": 1,
+          "apoyos_total": 471,
+          "votos_total": 119,
+          "presupuesto_seleccionadas": 68706
+        },
+        "Borboto": {
+          "presentadas": 11,
+          "pasa_apoyo": 8,
+          "pasa_viabilidad": 2,
+          "seleccionadas": 2,
+          "apoyos_total": 244,
+          "votos_total": 78,
+          "presupuesto_seleccionadas": 51507
+        },
+        "Faitanar": {
+          "presentadas": 7,
+          "pasa_apoyo": 6,
+          "pasa_viabilidad": 1,
+          "seleccionadas": 1,
+          "apoyos_total": 136,
+          "votos_total": 8,
+          "presupuesto_seleccionadas": 28901
+        },
+        "La Torre": {
+          "presentadas": 14,
+          "pasa_apoyo": 13,
+          "pasa_viabilidad": 5,
+          "seleccionadas": 3,
+          "apoyos_total": 430,
+          "votos_total": 421,
+          "presupuesto_seleccionadas": 85102
+        },
+        "Pinedo": {
+          "presentadas": 20,
+          "pasa_apoyo": 14,
+          "pasa_viabilidad": 5,
+          "seleccionadas": 1,
+          "apoyos_total": 402,
+          "votos_total": 189,
+          "presupuesto_seleccionadas": 47225
+        },
+        "El Forn D'Alcedo": {
+          "presentadas": 7,
+          "pasa_apoyo": 6,
+          "pasa_viabilidad": 2,
+          "seleccionadas": 2,
+          "apoyos_total": 241,
+          "votos_total": 131,
+          "presupuesto_seleccionadas": 25768
+        },
+        "Carpesa": {
+          "presentadas": 6,
+          "pasa_apoyo": 6,
+          "pasa_viabilidad": 2,
+          "seleccionadas": 1,
+          "apoyos_total": 229,
+          "votos_total": 90,
+          "presupuesto_seleccionadas": 81267
+        }
+      },
+      "by_tipo": {
+        "persona_fisica": {
+          "presentadas": 1248,
+          "pasa_apoyo": 770,
+          "pasa_viabilidad": 262,
+          "seleccionadas": 131,
+          "apoyos_total": 50578,
+          "votos_total": 60437,
+          "presupuesto_seleccionadas": 7655584
+        },
+        "grupo_trabajo": {
+          "presentadas": 26,
+          "pasa_apoyo": 26,
+          "pasa_viabilidad": 16,
+          "seleccionadas": 5,
+          "apoyos_total": 0,
+          "votos_total": 2730,
+          "presupuesto_seleccionadas": 212310
+        },
+        "ayuntamiento": {
+          "presentadas": 9,
+          "pasa_apoyo": 9,
+          "pasa_viabilidad": 5,
+          "seleccionadas": 3,
+          "apoyos_total": 0,
+          "votos_total": 636,
+          "presupuesto_seleccionadas": 132106
+        },
+        "otro": {
+          "presentadas": 1,
+          "pasa_apoyo": 0,
+          "pasa_viabilidad": 0,
+          "seleccionadas": 0,
+          "apoyos_total": 0,
+          "votos_total": 0,
+          "presupuesto_seleccionadas": 0
+        }
+      }
+    },
+    "7": {
+      "label": "2022/23",
+      "totals": {
+        "presentadas": 1567,
+        "pasa_apoyo": 752,
+        "pasa_viabilidad": 321,
+        "seleccionadas": 146,
+        "apoyos_total": 35481,
+        "votos_total": 75968,
+        "presupuesto_seleccionadas": 13000000
+      },
+      "by_district": {
+        "Benimaclet": {
+          "presentadas": 54,
+          "pasa_apoyo": 28,
+          "pasa_viabilidad": 11,
+          "seleccionadas": 7,
+          "apoyos_total": 1336,
+          "votos_total": 3977,
+          "presupuesto_seleccionadas": 417129
+        },
+        "Ciutat Vella": {
+          "presentadas": 71,
+          "pasa_apoyo": 38,
+          "pasa_viabilidad": 11,
+          "seleccionadas": 7,
+          "apoyos_total": 1828,
+          "votos_total": 2582,
+          "presupuesto_seleccionadas": 309143
+        },
+        "Poblats de l'Oest": {
+          "presentadas": 45,
+          "pasa_apoyo": 30,
+          "pasa_viabilidad": 18,
+          "seleccionadas": 13,
+          "apoyos_total": 745,
+          "votos_total": 2669,
+          "presupuesto_seleccionadas": 692676
+        },
+        "Campanar": {
+          "presentadas": 100,
+          "pasa_apoyo": 42,
+          "pasa_viabilidad": 13,
+          "seleccionadas": 6,
+          "apoyos_total": 2273,
+          "votos_total": 3380,
+          "presupuesto_seleccionadas": 636135
+        },
+        "Patraix": {
+          "presentadas": 137,
+          "pasa_apoyo": 53,
+          "pasa_viabilidad": 21,
+          "seleccionadas": 8,
+          "apoyos_total": 2518,
+          "votos_total": 6472,
+          "presupuesto_seleccionadas": 693635
+        },
+        "Jesús": {
+          "presentadas": 63,
+          "pasa_apoyo": 26,
+          "pasa_viabilidad": 10,
+          "seleccionadas": 4,
+          "apoyos_total": 1044,
+          "votos_total": 2950,
+          "presupuesto_seleccionadas": 1004664
+        },
+        "Poblats del Sud": {
+          "presentadas": 127,
+          "pasa_apoyo": 90,
+          "pasa_viabilidad": 41,
+          "seleccionadas": 16,
+          "apoyos_total": 2234,
+          "votos_total": 1946,
+          "presupuesto_seleccionadas": 896387
+        },
+        "Extramurs": {
+          "presentadas": 115,
+          "pasa_apoyo": 51,
+          "pasa_viabilidad": 21,
+          "seleccionadas": 1,
+          "apoyos_total": 2809,
+          "votos_total": 5610,
+          "presupuesto_seleccionadas": 411993
+        },
+        "Algirós": {
+          "presentadas": 88,
+          "pasa_apoyo": 35,
+          "pasa_viabilidad": 21,
+          "seleccionadas": 8,
+          "apoyos_total": 1990,
+          "votos_total": 3968,
+          "presupuesto_seleccionadas": 453094
+        },
+        "Quatre Carreres": {
+          "presentadas": 145,
+          "pasa_apoyo": 63,
+          "pasa_viabilidad": 31,
+          "seleccionadas": 12,
+          "apoyos_total": 3705,
+          "votos_total": 12411,
+          "presupuesto_seleccionadas": 1273806
+        },
+        "L'Eixample": {
+          "presentadas": 67,
+          "pasa_apoyo": 25,
+          "pasa_viabilidad": 9,
+          "seleccionadas": 4,
+          "apoyos_total": 1311,
+          "votos_total": 2717,
+          "presupuesto_seleccionadas": 452231
+        },
+        "La Saïdia": {
+          "presentadas": 104,
+          "pasa_apoyo": 43,
+          "pasa_viabilidad": 22,
+          "seleccionadas": 9,
+          "apoyos_total": 2576,
+          "votos_total": 6883,
+          "presupuesto_seleccionadas": 572522
+        },
+        "L'Olivereta": {
+          "presentadas": 61,
+          "pasa_apoyo": 31,
+          "pasa_viabilidad": 21,
+          "seleccionadas": 8,
+          "apoyos_total": 1660,
+          "votos_total": 4061,
+          "presupuesto_seleccionadas": 710698
+        },
+        "El Pla del Real": {
+          "presentadas": 44,
+          "pasa_apoyo": 12,
+          "pasa_viabilidad": 4,
+          "seleccionadas": 2,
+          "apoyos_total": 871,
+          "votos_total": 437,
+          "presupuesto_seleccionadas": 372127
+        },
+        "Rascanya": {
+          "presentadas": 47,
+          "pasa_apoyo": 25,
+          "pasa_viabilidad": 11,
+          "seleccionadas": 9,
+          "apoyos_total": 1219,
+          "votos_total": 2817,
+          "presupuesto_seleccionadas": 871040
+        },
+        "Camins al Grau": {
+          "presentadas": 77,
+          "pasa_apoyo": 39,
+          "pasa_viabilidad": 16,
+          "seleccionadas": 9,
+          "apoyos_total": 2259,
+          "votos_total": 6419,
+          "presupuesto_seleccionadas": 803756
+        },
+        "Benicalap": {
+          "presentadas": 82,
+          "pasa_apoyo": 43,
+          "pasa_viabilidad": 13,
+          "seleccionadas": 9,
+          "apoyos_total": 2235,
+          "votos_total": 4296,
+          "presupuesto_seleccionadas": 1095851
+        },
+        "Poblats del Nord": {
+          "presentadas": 56,
+          "pasa_apoyo": 41,
+          "pasa_viabilidad": 14,
+          "seleccionadas": 9,
+          "apoyos_total": 1151,
+          "votos_total": 316,
+          "presupuesto_seleccionadas": 373507
+        },
+        "Poblats Marítims": {
+          "presentadas": 84,
+          "pasa_apoyo": 37,
+          "pasa_viabilidad": 13,
+          "seleccionadas": 5,
+          "apoyos_total": 1717,
+          "votos_total": 2057,
+          "presupuesto_seleccionadas": 959606
+        }
+      },
+      "by_barri": {
+        "Benimamet": {
+          "presentadas": 38,
+          "pasa_apoyo": 24,
+          "pasa_viabilidad": 15,
+          "seleccionadas": 12,
+          "apoyos_total": 666,
+          "votos_total": 2616,
+          "presupuesto_seleccionadas": 631868
+        },
+        "Faitanar": {
+          "presentadas": 6,
+          "pasa_apoyo": 6,
+          "pasa_viabilidad": 4,
+          "seleccionadas": 1,
+          "apoyos_total": 106,
+          "votos_total": 44,
+          "presupuesto_seleccionadas": 66522
+        },
+        "Massarrojos": {
+          "presentadas": 15,
+          "pasa_apoyo": 9,
+          "pasa_viabilidad": 2,
+          "seleccionadas": 1,
+          "apoyos_total": 308,
+          "votos_total": 68,
+          "presupuesto_seleccionadas": 107307
+        },
+        "El Saler": {
+          "presentadas": 14,
+          "pasa_apoyo": 10,
+          "pasa_viabilidad": 6,
+          "seleccionadas": 1,
+          "apoyos_total": 264,
+          "votos_total": 327,
+          "presupuesto_seleccionadas": 89110
+        },
+        "El Palmar": {
+          "presentadas": 15,
+          "pasa_apoyo": 12,
+          "pasa_viabilidad": 7,
+          "seleccionadas": 2,
+          "apoyos_total": 206,
+          "votos_total": 215,
+          "presupuesto_seleccionadas": 39795
+        },
+        "Carpesa": {
+          "presentadas": 9,
+          "pasa_apoyo": 9,
+          "pasa_viabilidad": 3,
+          "seleccionadas": 1,
+          "apoyos_total": 216,
+          "votos_total": 77,
+          "presupuesto_seleccionadas": 64857
+        },
+        "El Forn D'Alcedo": {
+          "presentadas": 15,
+          "pasa_apoyo": 7,
+          "pasa_viabilidad": 3,
+          "seleccionadas": 1,
+          "apoyos_total": 155,
+          "votos_total": 44,
+          "presupuesto_seleccionadas": 55970
+        },
+        "La Torre": {
+          "presentadas": 22,
+          "pasa_apoyo": 10,
+          "pasa_viabilidad": 2,
+          "seleccionadas": 2,
+          "apoyos_total": 398,
+          "votos_total": 207,
+          "presupuesto_seleccionadas": 193516
+        },
+        "Beniferri": {
+          "presentadas": 7,
+          "pasa_apoyo": 6,
+          "pasa_viabilidad": 3,
+          "seleccionadas": 1,
+          "apoyos_total": 79,
+          "votos_total": 53,
+          "presupuesto_seleccionadas": 60808
+        },
+        "Castellar-L'Oliveral": {
+          "presentadas": 21,
+          "pasa_apoyo": 17,
+          "pasa_viabilidad": 9,
+          "seleccionadas": 5,
+          "apoyos_total": 376,
+          "votos_total": 922,
+          "presupuesto_seleccionadas": 276285
+        },
+        "Pinedo": {
+          "presentadas": 18,
+          "pasa_apoyo": 15,
+          "pasa_viabilidad": 4,
+          "seleccionadas": 1,
+          "apoyos_total": 494,
+          "votos_total": 122,
+          "presupuesto_seleccionadas": 109036
+        },
+        "Borboto": {
+          "presentadas": 13,
+          "pasa_apoyo": 9,
+          "pasa_viabilidad": 4,
+          "seleccionadas": 2,
+          "apoyos_total": 188,
+          "votos_total": 87,
+          "presupuesto_seleccionadas": 44760
+        },
+        "El Perellonet": {
+          "presentadas": 16,
+          "pasa_apoyo": 13,
+          "pasa_viabilidad": 6,
+          "seleccionadas": 3,
+          "apoyos_total": 235,
+          "votos_total": 65,
+          "presupuesto_seleccionadas": 66153
+        },
+        "Benifaraig": {
+          "presentadas": 8,
+          "pasa_apoyo": 8,
+          "pasa_viabilidad": 2,
+          "seleccionadas": 2,
+          "apoyos_total": 255,
+          "votos_total": 61,
+          "presupuesto_seleccionadas": 60523
+        },
+        "Poble Nou": {
+          "presentadas": 5,
+          "pasa_apoyo": 4,
+          "pasa_viabilidad": 1,
+          "seleccionadas": 1,
+          "apoyos_total": 137,
+          "votos_total": 20,
+          "presupuesto_seleccionadas": 54838
+        },
+        "Mahuella-Tauladella": {
+          "presentadas": 2,
+          "pasa_apoyo": 1,
+          "pasa_viabilidad": 1,
+          "seleccionadas": 1,
+          "apoyos_total": 8,
+          "votos_total": 0,
+          "presupuesto_seleccionadas": 12966
+        },
+        "Les Cases De Barcena": {
+          "presentadas": 4,
+          "pasa_apoyo": 1,
+          "pasa_viabilidad": 1,
+          "seleccionadas": 1,
+          "apoyos_total": 39,
+          "votos_total": 3,
+          "presupuesto_seleccionadas": 28256
+        }
+      },
+      "by_tipo": {
+        "persona_fisica": {
+          "presentadas": 1440,
+          "pasa_apoyo": 625,
+          "pasa_viabilidad": 236,
+          "seleccionadas": 115,
+          "apoyos_total": 35481,
+          "votos_total": 60352,
+          "presupuesto_seleccionadas": 10655094
+        },
+        "grupo_trabajo": {
+          "presentadas": 103,
+          "pasa_apoyo": 103,
+          "pasa_viabilidad": 61,
+          "seleccionadas": 21,
+          "apoyos_total": 0,
+          "votos_total": 14589,
+          "presupuesto_seleccionadas": 1986822
+        },
+        "ayuntamiento": {
+          "presentadas": 24,
+          "pasa_apoyo": 24,
+          "pasa_viabilidad": 24,
+          "seleccionadas": 10,
+          "apoyos_total": 0,
+          "votos_total": 1027,
+          "presupuesto_seleccionadas": 358084
+        }
+      }
+    }
+  },
+  "by_district": {
+    "Campanar": {
+      "presentadas": 220,
+      "pasa_apoyo": 97,
+      "pasa_viabilidad": 48,
+      "seleccionadas": 23,
+      "apoyos_total": 5563,
+      "votos_total": 9624,
+      "presupuesto_seleccionadas": 1831384
+    },
+    "Jesús": {
+      "presentadas": 190,
+      "pasa_apoyo": 91,
+      "pasa_viabilidad": 46,
+      "seleccionadas": 26,
+      "apoyos_total": 5325,
+      "votos_total": 11608,
+      "presupuesto_seleccionadas": 3014942
+    },
+    "Poblats Marítims": {
+      "presentadas": 243,
+      "pasa_apoyo": 111,
+      "pasa_viabilidad": 50,
+      "seleccionadas": 24,
+      "apoyos_total": 6177,
+      "votos_total": 9138,
+      "presupuesto_seleccionadas": 3155474
+    },
+    "Extramurs": {
+      "presentadas": 300,
+      "pasa_apoyo": 132,
+      "pasa_viabilidad": 72,
+      "seleccionadas": 20,
+      "apoyos_total": 7777,
+      "votos_total": 14559,
+      "presupuesto_seleccionadas": 1916184
+    },
+    "El Pla del Real": {
+      "presentadas": 159,
+      "pasa_apoyo": 48,
+      "pasa_viabilidad": 42,
+      "seleccionadas": 21,
+      "apoyos_total": 3101,
+      "votos_total": 3650,
+      "presupuesto_seleccionadas": 1421189
+    },
+    "Patraix": {
+      "presentadas": 330,
+      "pasa_apoyo": 145,
+      "pasa_viabilidad": 82,
+      "seleccionadas": 43,
+      "apoyos_total": 8911,
+      "votos_total": 27915,
+      "presupuesto_seleccionadas": 2636458
+    },
+    "Benicalap": {
+      "presentadas": 223,
+      "pasa_apoyo": 116,
+      "pasa_viabilidad": 35,
+      "seleccionadas": 22,
+      "apoyos_total": 6671,
+      "votos_total": 9107,
+      "presupuesto_seleccionadas": 3042594
+    },
+    "Algirós": {
+      "presentadas": 193,
+      "pasa_apoyo": 88,
+      "pasa_viabilidad": 49,
+      "seleccionadas": 27,
+      "apoyos_total": 4897,
+      "votos_total": 8453,
+      "presupuesto_seleccionadas": 1881575
+    },
+    "La Saïdia": {
+      "presentadas": 266,
+      "pasa_apoyo": 109,
+      "pasa_viabilidad": 60,
+      "seleccionadas": 22,
+      "apoyos_total": 7178,
+      "votos_total": 14210,
+      "presupuesto_seleccionadas": 2092194
+    },
+    "Quatre Carreres": {
+      "presentadas": 376,
+      "pasa_apoyo": 169,
+      "pasa_viabilidad": 94,
+      "seleccionadas": 44,
+      "apoyos_total": 9819,
+      "votos_total": 26120,
+      "presupuesto_seleccionadas": 3240746
+    },
+    "Benimaclet": {
+      "presentadas": 172,
+      "pasa_apoyo": 91,
+      "pasa_viabilidad": 39,
+      "seleccionadas": 18,
+      "apoyos_total": 5490,
+      "votos_total": 9833,
+      "presupuesto_seleccionadas": 1670127
+    },
+    "L'Eixample": {
+      "presentadas": 253,
+      "pasa_apoyo": 114,
+      "pasa_viabilidad": 57,
+      "seleccionadas": 23,
+      "apoyos_total": 7156,
+      "votos_total": 9281,
+      "presupuesto_seleccionadas": 1804654
+    },
+    "Ciutat Vella": {
+      "presentadas": 223,
+      "pasa_apoyo": 97,
+      "pasa_viabilidad": 45,
+      "seleccionadas": 19,
+      "apoyos_total": 5286,
+      "votos_total": 7127,
+      "presupuesto_seleccionadas": 917687
+    },
+    "Camins al Grau": {
+      "presentadas": 226,
+      "pasa_apoyo": 114,
+      "pasa_viabilidad": 49,
+      "seleccionadas": 30,
+      "apoyos_total": 6853,
+      "votos_total": 14660,
+      "presupuesto_seleccionadas": 2623219
+    },
+    "Poblats del Sud": {
+      "presentadas": 371,
+      "pasa_apoyo": 247,
+      "pasa_viabilidad": 116,
+      "seleccionadas": 53,
+      "apoyos_total": 7619,
+      "votos_total": 8670,
+      "presupuesto_seleccionadas": 2250022
+    },
+    "Rascanya": {
+      "presentadas": 203,
+      "pasa_apoyo": 80,
+      "pasa_viabilidad": 61,
+      "seleccionadas": 36,
+      "apoyos_total": 4178,
+      "votos_total": 8714,
+      "presupuesto_seleccionadas": 3083871
+    },
+    "L'Olivereta": {
+      "presentadas": 204,
+      "pasa_apoyo": 89,
+      "pasa_viabilidad": 74,
+      "seleccionadas": 35,
+      "apoyos_total": 4544,
+      "votos_total": 9649,
+      "presupuesto_seleccionadas": 2462739
+    },
+    "Poblats de l'Oest": {
+      "presentadas": 188,
+      "pasa_apoyo": 113,
+      "pasa_viabilidad": 70,
+      "seleccionadas": 43,
+      "apoyos_total": 4323,
+      "votos_total": 7382,
+      "presupuesto_seleccionadas": 2589152
+    },
+    "Poblats del Nord": {
+      "presentadas": 213,
+      "pasa_apoyo": 141,
+      "pasa_viabilidad": 67,
+      "seleccionadas": 40,
+      "apoyos_total": 4143,
+      "votos_total": 5141,
+      "presupuesto_seleccionadas": 1804830
+    }
+  },
+  "by_barri": {
+    "Les Cases De Barcena": {
+      "presentadas": 15,
+      "pasa_apoyo": 5,
+      "pasa_viabilidad": 5,
+      "seleccionadas": 3,
+      "apoyos_total": 104,
+      "votos_total": 63,
+      "presupuesto_seleccionadas": 75981
+    },
+    "Benimamet": {
+      "presentadas": 112,
+      "pasa_apoyo": 81,
+      "pasa_viabilidad": 36,
+      "seleccionadas": 23,
+      "apoyos_total": 3100,
+      "votos_total": 5843,
+      "presupuesto_seleccionadas": 1479123
+    },
+    "Massarrojos": {
+      "presentadas": 56,
+      "pasa_apoyo": 38,
+      "pasa_viabilidad": 15,
+      "seleccionadas": 6,
+      "apoyos_total": 1103,
+      "votos_total": 664,
+      "presupuesto_seleccionadas": 368231
+    },
+    "La Torre": {
+      "presentadas": 47,
+      "pasa_apoyo": 33,
+      "pasa_viabilidad": 13,
+      "seleccionadas": 9,
+      "apoyos_total": 1096,
+      "votos_total": 1343,
+      "presupuesto_seleccionadas": 351667
+    },
+    "Pinedo": {
+      "presentadas": 46,
+      "pasa_apoyo": 37,
+      "pasa_viabilidad": 15,
+      "seleccionadas": 6,
+      "apoyos_total": 1072,
+      "votos_total": 519,
+      "presupuesto_seleccionadas": 197888
+    },
+    "El Saler": {
+      "presentadas": 38,
+      "pasa_apoyo": 33,
+      "pasa_viabilidad": 14,
+      "seleccionadas": 3,
+      "apoyos_total": 1168,
+      "votos_total": 648,
+      "presupuesto_seleccionadas": 155034
+    },
+    "Beniferri": {
+      "presentadas": 24,
+      "pasa_apoyo": 19,
+      "pasa_viabilidad": 7,
+      "seleccionadas": 4,
+      "apoyos_total": 405,
+      "votos_total": 128,
+      "presupuesto_seleccionadas": 144155
+    },
+    "El Perellonet": {
+      "presentadas": 34,
+      "pasa_apoyo": 24,
+      "pasa_viabilidad": 10,
+      "seleccionadas": 6,
+      "apoyos_total": 473,
+      "votos_total": 136,
+      "presupuesto_seleccionadas": 119562
+    },
+    "Castellar-L'Oliveral": {
+      "presentadas": 43,
+      "pasa_apoyo": 35,
+      "pasa_viabilidad": 16,
+      "seleccionadas": 9,
+      "apoyos_total": 1197,
+      "votos_total": 1518,
+      "presupuesto_seleccionadas": 496701
+    },
+    "Poble Nou": {
+      "presentadas": 21,
+      "pasa_apoyo": 15,
+      "pasa_viabilidad": 5,
+      "seleccionadas": 4,
+      "apoyos_total": 419,
+      "votos_total": 98,
+      "presupuesto_seleccionadas": 159136
+    },
+    "El Palmar": {
+      "presentadas": 27,
+      "pasa_apoyo": 23,
+      "pasa_viabilidad": 9,
+      "seleccionadas": 4,
+      "apoyos_total": 368,
+      "votos_total": 299,
+      "presupuesto_seleccionadas": 73352
+    },
+    "Mahuella-Tauladella": {
+      "presentadas": 6,
+      "pasa_apoyo": 5,
+      "pasa_viabilidad": 3,
+      "seleccionadas": 3,
+      "apoyos_total": 31,
+      "votos_total": 4,
+      "presupuesto_seleccionadas": 28162
+    },
+    "Faitanar": {
+      "presentadas": 16,
+      "pasa_apoyo": 15,
+      "pasa_viabilidad": 7,
+      "seleccionadas": 3,
+      "apoyos_total": 261,
+      "votos_total": 123,
+      "presupuesto_seleccionadas": 115765
+    },
+    "Carpesa": {
+      "presentadas": 22,
+      "pasa_apoyo": 22,
+      "pasa_viabilidad": 9,
+      "seleccionadas": 5,
+      "apoyos_total": 555,
+      "votos_total": 357,
+      "presupuesto_seleccionadas": 202236
+    },
+    "El Forn D'Alcedo": {
+      "presentadas": 36,
+      "pasa_apoyo": 23,
+      "pasa_viabilidad": 11,
+      "seleccionadas": 4,
+      "apoyos_total": 651,
+      "votos_total": 267,
+      "presupuesto_seleccionadas": 104191
+    },
+    "Benifaraig": {
+      "presentadas": 22,
+      "pasa_apoyo": 19,
+      "pasa_viabilidad": 7,
+      "seleccionadas": 6,
+      "apoyos_total": 803,
+      "votos_total": 416,
+      "presupuesto_seleccionadas": 176850
+    },
+    "Borboto": {
+      "presentadas": 28,
+      "pasa_apoyo": 21,
+      "pasa_viabilidad": 9,
+      "seleccionadas": 5,
+      "apoyos_total": 522,
+      "votos_total": 249,
+      "presupuesto_seleccionadas": 131573
+    }
+  },
+  "barri_to_district": {
+    "Les Cases De Barcena": "Poblats del Nord",
+    "Benimamet": "Poblats de l'Oest",
+    "Massarrojos": "Poblats del Nord",
+    "La Torre": "Poblats del Sud",
+    "Pinedo": "Poblats del Sud",
+    "El Saler": "Poblats del Sud",
+    "Beniferri": "Poblats de l'Oest",
+    "El Perellonet": "Poblats del Sud",
+    "Castellar-L'Oliveral": "Poblats del Sud",
+    "Poble Nou": "Poblats del Nord",
+    "El Palmar": "Poblats del Sud",
+    "Mahuella-Tauladella": "Poblats del Nord",
+    "Faitanar": "Poblats del Sud",
+    "Carpesa": "Poblats del Nord",
+    "El Forn D'Alcedo": "Poblats del Sud",
+    "Benifaraig": "Poblats del Nord",
+    "Borboto": "Poblats del Nord"
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "2023-2027",
+    "legislatura": "2023–2027",
+    "inici": "2023-06-17",
+    "fi": null,
+    "alcalde": "María José Catalá Verdet",
+    "alcalde_titol_cas": "Alcaldesa",
+    "alcalde_titol_val": "Alcaldessa",
+    "constitucio": "2023-06-17"
+  },
+  {
+    "id": "2019-2023",
+    "legislatura": "2019–2023",
+    "inici": "2019-06-15",
+    "fi": "2023-06-14",
+    "alcalde": "Joan Ribó Canut",
+    "alcalde_titol_cas": "Alcalde",
+    "alcalde_titol_val": "Alcalde",
+    "constitucio": "2019-06-15"
+  },
+  {
+    "id": "2015-2019",
+    "legislatura": "2015–2019",
+    "inici": "2015-06-13",
+    "fi": "2019-06-14",
+    "alcalde": "Joan Ribó Canut",
+    "alcalde_titol_cas": "Alcalde",
+    "alcalde_titol_val": "Alcalde",
+    "constitucio": "2015-06-13"
+  },
+  {
+    "id": "2011-2015",
+    "legislatura": "2011–2015",
+    "inici": "2011-06-11",
+    "fi": "2015-06-12",
+    "alcalde": "Rita Barberá Nolla",
+    "alcalde_titol_cas": "Alcaldesa",
+    "alcalde_titol_val": "Alcaldessa",
+    "constitucio": "2011-06-11"
+  }
+]

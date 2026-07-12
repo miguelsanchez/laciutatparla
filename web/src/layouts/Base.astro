@@ -1,0 +1,152 @@
+---
+import { t, getLangFromUrl, switchLangUrl, type Lang } from '../i18n/index.ts';
+
+interface Props {
+  title?: string;
+  description?: string;
+  fullWidth?: boolean;
+}
+
+const lang = getLangFromUrl(Astro.url) as Lang;
+const { title, description, fullWidth } = Astro.props;
+const pageTitle = title ? `${title} — ${t(lang, 'site_title')}` : t(lang, 'site_title');
+const pageDesc = description ?? t(lang, 'site_description');
+const altLang = lang === 'cas' ? 'val' : 'cas';
+const altUrl = switchLangUrl(Astro.url, altLang);
+const siteBase = 'https://laciutatparla.es';
+const currentAbsUrl = new URL(Astro.url.pathname, siteBase).href;
+const altAbsUrl = new URL(altUrl, siteBase).href;
+---
+
+<!doctype html>
+<html lang={lang === 'val' ? 'ca' : 'es'}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={pageDesc} />
+    <link rel="alternate" hreflang={lang === 'val' ? 'ca' : 'es'} href={currentAbsUrl} />
+    <link rel="alternate" hreflang={altLang === 'val' ? 'ca' : 'es'} href={altAbsUrl} />
+    <link rel="alternate" hreflang="x-default" href={`${siteBase}/cas/`} />
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600&display=swap" /></noscript>
+    <title>{pageTitle}</title>
+  </head>
+  <body class="min-h-screen" style="background: #fafafa; color: #1e1e1e; font-family: 'Outfit', system-ui, sans-serif; -webkit-font-smoothing: antialiased;">
+
+    <!-- Skip to content -->
+    <a href="#main-content" style="position: absolute; left: -9999px; top: 0; z-index: 100; padding: 8px 16px; background: #bf4115; color: #fff; font-size: 0.875rem; font-weight: 600;" onfocus="this.style.left='0'" onblur="this.style.left='-9999px'">
+      {lang === 'cas' ? 'Saltar al contenido' : 'Anar al contingut'}
+    </a>
+
+    <!-- Header -->
+    <header style="background: #fff; border-bottom: 1px solid #eee;" class="sticky top-0 z-50">
+      <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
+        <a href={`/${lang}/`} class="hover:opacity-70 transition-all no-underline flex-shrink-0" style="font-family: 'Sora', system-ui, sans-serif; font-size: 1.1rem; font-weight: 800; color: #1e1e1e; letter-spacing: -0.04em;">
+          La Ciutat Parla<span style="color: #e8562a;">.</span>
+        </a>
+        <!-- Desktop nav -->
+        <nav class="hidden md:flex items-center gap-5" style="font-family: 'Outfit', system-ui, sans-serif;">
+          <a href={`/${lang}/plens/`} class="text-sm font-medium hover:text-stone-900 transition-colors no-underline" style="color: #666;">
+            {t(lang, 'nav_plens')}
+          </a>
+          <a href={`/${lang}/entitats/`} class="text-sm font-medium hover:text-stone-900 transition-colors no-underline" style="color: #666;">
+            {t(lang, 'nav_entitats')}
+          </a>
+          <a href={`/${lang}/intervencions/`} class="text-sm font-medium hover:text-stone-900 transition-colors no-underline" style="color: #666;">
+            {t(lang, 'nav_intervencions')}
+          </a>
+          <a href={`/${lang}/mapa/`} class="text-sm font-medium hover:text-stone-900 transition-colors no-underline" style="color: #666;">
+            {lang === 'cas' ? 'Mapa' : 'Mapa'}
+          </a>
+          <a href={`/${lang}/${lang === 'cas' ? 'otras-voces' : 'altres-veus'}/`} class="text-sm font-medium hover:text-stone-900 transition-colors no-underline" style="color: #666;">
+            {lang === 'cas' ? 'Otras voces' : 'Altres veus'}
+          </a>
+          <a
+            href={altUrl}
+            class="text-xs font-semibold hover:opacity-80 transition-all no-underline"
+            style="background: #1e1e1e; color: #fff; padding: 5px 14px; border-radius: 100px; letter-spacing: 0.02em;"
+          >
+            {t(lang, 'switch_lang')}
+          </a>
+        </nav>
+        <!-- Mobile menu button -->
+        <button
+          id="mobile-menu-btn"
+          class="md:hidden flex flex-col gap-1 p-1"
+          aria-label={lang === 'cas' ? 'Abrir menú de navegación' : 'Obrir menú de navegació'}
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          style="border: none; background: none; cursor: pointer;"
+        >
+          <span style="display: block; width: 18px; height: 2px; background: #1e1e1e; border-radius: 2px;"></span>
+          <span style="display: block; width: 18px; height: 2px; background: #1e1e1e; border-radius: 2px;"></span>
+          <span style="display: block; width: 12px; height: 2px; background: #1e1e1e; border-radius: 2px;"></span>
+        </button>
+      </div>
+      <!-- Mobile nav -->
+      <nav id="mobile-menu" class="md:hidden hidden" style="font-family: 'Outfit', system-ui, sans-serif; border-top: 1px solid #f0f0f0; padding: 0.75rem 1rem;">
+        <div class="flex flex-col gap-3">
+          <a href={`/${lang}/plens/`} class="text-sm font-medium no-underline" style="color: #999;">{t(lang, 'nav_plens')}</a>
+          <a href={`/${lang}/entitats/`} class="text-sm font-medium no-underline" style="color: #999;">{t(lang, 'nav_entitats')}</a>
+          <a href={`/${lang}/intervencions/`} class="text-sm font-medium no-underline" style="color: #999;">{t(lang, 'nav_intervencions')}</a>
+          <a href={`/${lang}/mapa/`} class="text-sm font-medium no-underline" style="color: #999;">Mapa</a>
+          <a href={`/${lang}/${lang === 'cas' ? 'otras-voces' : 'altres-veus'}/`} class="text-sm font-medium no-underline" style="color: #999;">{lang === 'cas' ? 'Otras voces' : 'Altres veus'}</a>
+          <a href={altUrl} class="text-xs font-semibold no-underline" style="color: #c94420;">{t(lang, 'switch_lang')}</a>
+        </div>
+      </nav>
+    </header>
+    <script is:inline>
+      document.getElementById('mobile-menu-btn')?.addEventListener('click', function() {
+        var menu = document.getElementById('mobile-menu');
+        var isHidden = menu?.classList.contains('hidden');
+        menu?.classList.toggle('hidden');
+        this.setAttribute('aria-expanded', isHidden ? 'true' : 'false');
+        if (isHidden) menu?.querySelector('a')?.focus();
+      });
+    </script>
+
+    <!-- Main content -->
+    {fullWidth ? (
+      <main id="main-content">
+        <slot />
+      </main>
+    ) : (
+      <main id="main-content" class="max-w-6xl mx-auto px-4 py-8">
+        <slot />
+      </main>
+    )}
+
+    <!-- Footer -->
+    <footer style="border-top: 1px solid #eee; background: #fff;">
+      <div class="max-w-6xl mx-auto px-4 py-6 flex items-center justify-between">
+        <span style="font-family: 'Sora', system-ui, sans-serif; font-weight: 700; font-size: 0.8rem; color: #767676; letter-spacing: -0.03em;">
+          La Ciutat Parla<span style="color: #e8562a;">.</span>
+        </span>
+        <div class="flex items-center gap-4 text-xs" style="color: #767676;">
+          <a href={`/${lang}/${lang === 'cas' ? 'datos' : 'dades'}/`} class="hover:text-stone-900 transition-colors no-underline" style="color: inherit;">
+            {lang === 'cas' ? 'Datos abiertos' : 'Dades obertes'}
+          </a>
+          <a href={`/${lang}/${lang === 'cas' ? 'analisis' : 'analisi'}/`} class="hover:text-stone-900 transition-colors no-underline" style="color: inherit;">
+            {lang === 'cas' ? 'Análisis' : 'Anàlisi'}
+          </a>
+          <a href={`/${lang}/metodologia/`} class="hover:text-stone-900 transition-colors no-underline" style="color: inherit;">
+            {lang === 'cas' ? 'Metodología' : 'Metodologia'}
+          </a>
+          <a href={`/${lang}/legal/`} class="hover:text-stone-900 transition-colors no-underline" style="color: inherit;">
+            {t(lang, 'nav_legal')}
+          </a>
+          <a href={altUrl} class="hover:text-stone-900 transition-colors no-underline" style="color: inherit;">
+            {t(lang, 'switch_lang')}
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  @import "tailwindcss";
+</style>

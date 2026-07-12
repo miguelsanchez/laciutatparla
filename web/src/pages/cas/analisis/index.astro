@@ -1,0 +1,358 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { t } from '../../../i18n/index.ts';
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
+
+const lang = 'cas';
+const dataDir = resolve(process.cwd(), '..', 'data');
+const intervencions: any[] = JSON.parse(readFileSync(`${dataDir}/intervencions.json`, 'utf-8'));
+const entitats: any[] = JSON.parse(readFileSync(`${dataDir}/entitats.json`, 'utf-8'));
+
+// --- By mandate ---
+const mandatIds = ['2011-2015', '2015-2019', '2019-2023', '2023-2027'];
+const mandatYears: Record<string, number> = { '2011-2015': 4, '2015-2019': 4, '2019-2023': 4, '2023-2027': 3 };
+const mandatLabels: Record<string, string> = {
+  '2011-2015': 'Rita Barberá · PP',
+  '2015-2019': 'Joan Ribó · Compromís (I)',
+  '2019-2023': 'Joan Ribó · Compromís (II)',
+  '2023-2027': 'María José Catalá · PP',
+};
+
+const byMandat: Record<string, any[]> = Object.fromEntries(mandatIds.map(m => [m, []]));
+for (const iv of intervencions) {
+  if (byMandat[iv.mandat_id]) byMandat[iv.mandat_id].push(iv);
+}
+
+const mandatStats = mandatIds.map(m => ({
+  id: m,
+  label: mandatLabels[m],
+  total: byMandat[m].length,
+  perYear: Math.round(byMandat[m].length / mandatYears[m]),
+}));
+const maxPerYear = Math.max(...mandatStats.map(s => s.perYear));
+const maxTotal = Math.max(...mandatStats.map(s => s.total));
+
+// --- Themes by mandate ---
+const cats = ['serveis_publics', 'drets_i_igualtat', 'urbanisme', 'participacio',
+              'medi_ambient', 'economia', 'mobilitat', 'cultura', 'persones'];
+const catLabels: Record<string, string> = {
+  serveis_publics: 'Servicios públicos', drets_i_igualtat: 'Derechos e igualdad',
+  urbanisme: 'Urbanismo', participacio: 'Participación', medi_ambient: 'Medio ambiente',
+  economia: 'Economía', mobilitat: 'Movilidad', cultura: 'Cultura', persones: 'Personas',
+};
+const catByMandat: Record<string, Record<string, number>> = {};
+for (const m of mandatIds) {
+  catByMandat[m] = Object.fromEntries(cats.map(c => [c, 0]));
+  for (const iv of byMandat[m]) {
+    for (const cat of Object.keys(iv.temes_v2 || {})) {
+      if (cat in catByMandat[m]) catByMandat[m][cat]++;
+    }
+  }
+}
+
+const mandatTotals: Record<string, number> = Object.fromEntries(
+  mandatIds.map(m => [m, byMandat[m].length])
+);
+
+// --- Language by mandate ---
+const idiomaByMandat: Record<string, Record<string, number>> = {};
+for (const m of mandatIds) idiomaByMandat[m] = { valenciano: 0, castellano: 0, mixt: 0 };
+for (const iv of intervencions) {
+  const m = iv.mandat_id;
+  const idioma = iv.idioma_original as string;
+  if (idiomaByMandat[m] && idioma in idiomaByMandat[m]) idiomaByMandat[m][idioma]++;
+}
+
+// --- Top entities ---
+const topEntitats = [...entitats]
+  .sort((a, b) => (b.num_intervencions || 0) - (a.num_intervencions || 0))
+  .slice(0, 12);
+const maxEntCount = topEntitats[0]?.num_intervencions || 1;
+
+// --- Entity loyalty (3+ mandates) ---
+const entityMandatSet: Record<string, Set<string>> = {};
+for (const iv of intervencions) {
+  const eid = iv.entitat_id;
+  const m = iv.mandat_id;
+  if (eid && mandatIds.includes(m)) {
+    if (!entityMandatSet[eid]) entityMandatSet[eid] = new Set();
+    entityMandatSet[eid].add(m);
+  }
+}
+const loyalEntitats = entitats
+  .map(e => ({ ...e, mandats: [...(entityMandatSet[e.id] || new Set())].sort() }))
+  .filter(e => e.mandats.length >= 3)
+  .sort((a, b) => b.mandats.length - a.mandats.length || (b.num_intervencions || 0) - (a.num_intervencions || 0));
+
+// --- Top zones ---
+const zoneCounts: Record<string, number> = {};
+for (const iv of intervencions) {
+  for (const z of iv.zones || []) zoneCounts[z] = (zoneCounts[z] || 0) + 1;
+}
+const topZones = Object.entries(zoneCounts).sort((a, b) => b[1] - a[1]).slice(0, 10);
+const maxZone = topZones[0]?.[1] || 1;
+---
+
+<Base title="Análisis" description="Qué revelan 15 años de intervenciones ciudadanas en los plenos de València. Evolución por mandato, temas, entidades más activas y barrios con más presencia.">
+
+  <!-- Hero -->
+  <section style="background: #1e1e1e; color: #fff; padding: 3rem 1rem 2.5rem;">
+    <div class="max-w-5xl mx-auto">
+      <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #e8562a; margin-bottom: 0.75rem;">
+        Análisis
+      </p>
+      <h1 style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 1rem;">
+        Qué revelan<br/>15 años de datos.
+      </h1>
+      <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 1rem; color: #aaa; max-width: 48rem; line-height: 1.6;">
+        570 intervenciones ciudadanas en 4 mandatos y 15 años. Esto es lo que los datos dicen sobre cómo, quién y de qué habla la ciudadanía de València en sus plenos municipales.
+      </p>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section style="background: #f5f5f5; border-bottom: 1px solid #eee; padding: 1.5rem 1rem;">
+    <div class="max-w-5xl mx-auto" style="display: flex; flex-wrap: wrap; gap: 2rem;">
+      {[
+        { n: '×4.7', label: 'más intervenciones/año en el mandato actual' },
+        { n: '×7.8', label: 'más menciones al medio ambiente (vs. 2011)' },
+        { n: '5',    label: 'entidades presentes en los 4 mandatos' },
+        { n: '41',   label: 'intervenciones sobre Cabanyal-Canyamelar' },
+      ].map(({ n, label }) => (
+        <div>
+          <span style="font-family: 'Sora', sans-serif; font-size: 1.75rem; font-weight: 800; color: #e8562a; letter-spacing: -0.03em;">{n}</span>
+          <span style="font-family: 'Outfit', sans-serif; font-size: 0.82rem; color: #666; display: block; max-width: 10rem; line-height: 1.3;">{label}</span>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <div class="max-w-5xl mx-auto px-4 py-10" style="font-family: 'Outfit', system-ui, sans-serif;">
+
+    <!-- 1. Participación por mandato -->
+    <section style="margin-bottom: 3.5rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.4rem;">La participación se dispara</h2>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 2rem; max-width: 52rem; line-height: 1.6;">
+        El mandato actual (2023–2027) registra <strong style="color:#1e1e1e;">87 intervenciones por año</strong>, frente a las 19-29 de los mandatos anteriores. La cifra es especialmente significativa porque el mandato lleva solo 3 años de los 4 previstos.
+      </p>
+
+      <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+        {mandatStats.map(({ id, label, total, perYear }) => (
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.4rem; gap: 1rem; flex-wrap: wrap;">
+              <span style="font-size: 0.88rem; font-weight: 600; color: #1e1e1e;">{id}</span>
+              <span style="font-size: 0.8rem; color: #666;">{label}</span>
+            </div>
+            <div style="display: flex; gap: 0.75rem; align-items: center;">
+              <div style="flex: 1; height: 10px; background: #f0f0f0; border-radius: 100px; overflow: hidden;">
+                <div style={`height: 100%; border-radius: 100px; background: ${id === '2023-2027' ? '#e8562a' : '#1e1e1e'}; width: ${(perYear / maxPerYear) * 100}%; opacity: ${id === '2023-2027' ? 1 : 0.4};`}></div>
+              </div>
+              <span style="font-family: 'Sora', sans-serif; font-size: 0.85rem; font-weight: 800; color: #1e1e1e; min-width: 5rem; text-align: right;">
+                {total} <span style="font-weight: 400; color: #aaa; font-size: 0.75rem;">({perYear}/año)</span>
+              </span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- 2. Idioma de la participación -->
+    <section style="margin-bottom: 3.5rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.4rem;">El idioma de la participación</h2>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; max-width: 52rem; line-height: 1.6;">
+        El castellano predomina en todos los mandatos. El porcentaje de intervenciones en valenciano no sigue una tendencia lineal ni correlaciona con el signo político del gobierno: alcanzó su máximo en el primer mandato de Ribó (30%), bajó en el segundo (19%) y se recuperó parcialmente con Catalá (27%).
+        El porcentaje de intervenciones mixtas se mantiene notablemente estable en torno al 17%.
+      </p>
+
+      <!-- Legend -->
+      <div style="display: flex; gap: 1.5rem; margin-bottom: 1.25rem; flex-wrap: wrap; font-size: 0.8rem; font-weight: 500; color: #555;">
+        <span style="display: flex; align-items: center; gap: 0.4rem;"><span style="display: inline-block; width: 12px; height: 12px; border-radius: 3px; background: #e8562a; flex-shrink: 0;"></span> Valenciano</span>
+        <span style="display: flex; align-items: center; gap: 0.4rem;"><span style="display: inline-block; width: 12px; height: 12px; border-radius: 3px; background: #64748b; flex-shrink: 0;"></span> Castellano</span>
+        <span style="display: flex; align-items: center; gap: 0.4rem;"><span style="display: inline-block; width: 12px; height: 12px; border-radius: 3px; background: #d4d4d4; flex-shrink: 0;"></span> Mixt / no detectado</span>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+        {mandatIds.map(m => {
+          const d = idiomaByMandat[m];
+          const total = d.valenciano + d.castellano + d.mixt;
+          if (total === 0) return null;
+          const pVal = (d.valenciano / total) * 100;
+          const pCas = (d.castellano / total) * 100;
+          const pMix = (d.mixt / total) * 100;
+          return (
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem; gap: 1rem; flex-wrap: wrap;">
+                <span style="font-size: 0.88rem; font-weight: 600; color: #1e1e1e;">{m}</span>
+                <span style="font-size: 0.8rem; color: #666;">{mandatLabels[m]}</span>
+              </div>
+              <div style="display: flex; height: 28px; border-radius: 6px; overflow: hidden;">
+                <div style={`width: ${pVal.toFixed(1)}%; background: #e8562a; display: flex; align-items: center; justify-content: center; flex-shrink: 0;`}>
+                  {pVal >= 10 && <span style="font-size: 0.7rem; font-weight: 700; color: #fff; white-space: nowrap;">{Math.round(pVal)}%</span>}
+                </div>
+                <div style={`width: ${pCas.toFixed(1)}%; background: #64748b; display: flex; align-items: center; justify-content: center; flex-shrink: 0;`}>
+                  {pCas >= 10 && <span style="font-size: 0.7rem; font-weight: 700; color: #fff; white-space: nowrap;">{Math.round(pCas)}%</span>}
+                </div>
+                <div style={`width: ${pMix.toFixed(1)}%; background: #d4d4d4; display: flex; align-items: center; justify-content: center; flex-shrink: 0;`}>
+                  {pMix >= 10 && <span style="font-size: 0.7rem; font-weight: 700; color: #888; white-space: nowrap;">{Math.round(pMix)}%</span>}
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+      <p style="font-size: 0.75rem; color: #bbb; margin-top: 0.75rem;">Una intervención puede contener fragmentos en ambas lenguas (mixt). La clasificación es automática y puede contener errores.</p>
+    </section>
+
+    <!-- 3. Temas por mandato (heatmap) -->
+    <section style="margin-bottom: 3.5rem;">
+      <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 0.4rem; flex-wrap: wrap;">
+        <h2 style="font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em;">De qué habla cada mandato</h2>
+        <button id="heatmap-toggle" style="font-family: 'Outfit', sans-serif; font-size: 0.78rem; font-weight: 600; padding: 5px 14px; border: 1px solid #ddd; border-radius: 100px; background: #fff; cursor: pointer; color: #555; transition: all 0.15s; flex-shrink: 0;">
+          % de cada mandato
+        </button>
+      </div>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 0.75rem; max-width: 52rem; line-height: 1.6;">
+        Número de intervenciones que mencionan cada tema en cada mandato. Cada intervención puede clasificarse en hasta 3 temas distintos, por lo que los totales por columna superan el número de intervenciones del mandato y en modo porcentaje la suma supera el 100%.
+      </p>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; max-width: 52rem; line-height: 1.6;">
+        La tabla se lee mejor en horizontal: permite detectar qué temas han ganado o perdido presencia entre mandatos. El caso más llamativo es el del <strong style="color:#1e1e1e;">medio ambiente</strong>, que pasa de 15 intervenciones en 2011–2015 a 117 en 2023–2027, impulsado en parte por la DANA 2024 y las emergencias climáticas.
+      </p>
+      <div style="overflow-x: auto;">
+        <table id="heatmap-table" style="width: 100%; border-collapse: collapse; font-size: 0.82rem; min-width: 500px;">
+          <thead>
+            <tr>
+              <th style="text-align: left; padding: 6px 10px; font-family: 'Sora', sans-serif; font-weight: 700; color: #1e1e1e; white-space: nowrap; width: 38%;">Tema</th>
+              {mandatIds.map(m => (
+                <th style="text-align: center; padding: 6px 8px; font-family: 'Sora', sans-serif; font-weight: 700; color: #1e1e1e; white-space: nowrap;">{m}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {cats.map((cat, ri) => {
+              const rowMax = Math.max(...mandatIds.map(m => catByMandat[m][cat]));
+              const rowMaxPct = Math.max(...mandatIds.map(m => mandatTotals[m] > 0 ? catByMandat[m][cat] / mandatTotals[m] : 0));
+              return (
+                <tr style={`background: ${ri % 2 === 0 ? '#fafafa' : '#fff'};`}>
+                  <td style="padding: 7px 10px; font-weight: 500; color: #444;">{catLabels[cat]}</td>
+                  {mandatIds.map(m => {
+                    const val = catByMandat[m][cat];
+                    const pct = mandatTotals[m] > 0 ? val / mandatTotals[m] : 0;
+                    const intensityAbs = rowMax > 0 ? val / rowMax : 0;
+                    const intensityPct = rowMaxPct > 0 ? pct / rowMaxPct : 0;
+                    const bgAbs = val === 0 ? '#f5f5f5' : `rgba(232, 86, 42, ${(0.08 + intensityAbs * 0.72).toFixed(3)})`;
+                    const bgPct = val === 0 ? '#f5f5f5' : `rgba(232, 86, 42, ${(0.08 + intensityPct * 0.72).toFixed(3)})`;
+                    const colorAbs = intensityAbs > 0.55 ? '#fff' : '#1e1e1e';
+                    const colorPct = intensityPct > 0.55 ? '#fff' : '#1e1e1e';
+                    return (
+                      <td
+                        data-bg-abs={bgAbs}
+                        data-color-abs={colorAbs}
+                        data-bg-pct={bgPct}
+                        data-color-pct={colorPct}
+                        style={`text-align: center; padding: 7px 8px; background: ${bgAbs}; color: ${colorAbs}; font-family: 'Sora', sans-serif; font-weight: 700; font-size: 0.85rem; border-radius: 4px;`}
+                      >
+                        <span class="val-abs">{val > 0 ? val : '—'}</span>
+                        <span class="val-pct" style="display:none;">{val > 0 ? Math.round(pct * 100) + '%' : '—'}</span>
+                      </td>
+                    );
+                  })}
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size: 0.75rem; color: #bbb; margin-top: 0.75rem;">La intensidad del color refleja el valor relativo dentro de cada fila (tema), no entre temas distintos.</p>
+    </section>
+
+    <!-- 3. Entidades más activas -->
+    <section style="margin-bottom: 3.5rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.4rem;">Las entidades más activas</h2>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; max-width: 52rem; line-height: 1.6;">
+        Las 12 entidades con más intervenciones en el total del dataset. Las asociaciones vecinales y plataformas de barrio dominan el ranking.
+      </p>
+      <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+        {topEntitats.map((e: any, i: number) => (
+          <a href={`/${lang}/entitats/${e.id}/`} style="display: flex; align-items: center; gap: 0.75rem; text-decoration: none; color: inherit; padding: 0.5rem 0;" class="hover:opacity-70 transition-opacity">
+            <span style="font-family: 'Sora', sans-serif; font-size: 0.8rem; font-weight: 800; color: #ccc; min-width: 1.5rem; text-align: right; flex-shrink: 0;">{i + 1}</span>
+            <div style="flex: 1; min-width: 0;">
+              <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.3rem;">
+                <span style="font-size: 0.9rem; font-weight: 500; color: #1e1e1e; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{e.nom_cas || e.nom || e.id}</span>
+              </div>
+              <div style="height: 5px; background: #f0f0f0; border-radius: 100px; overflow: hidden;">
+                <div style={`height: 100%; border-radius: 100px; background: ${i === 0 ? '#e8562a' : '#1e1e1e'}; width: ${(e.num_intervencions / maxEntCount) * 100}%; opacity: ${i === 0 ? 1 : 0.3 + (1 - i / 12) * 0.5};`}></div>
+              </div>
+            </div>
+            <span style="font-family: 'Sora', sans-serif; font-size: 0.85rem; font-weight: 800; color: #666; min-width: 2rem; text-align: right; flex-shrink: 0;">{e.num_intervencions}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- 4. Fidelidad: entidades en 3+ mandatos -->
+    <section style="margin-bottom: 3.5rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.4rem;">Presencia constante</h2>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; max-width: 52rem; line-height: 1.6;">
+        Solo {loyalEntitats.filter((e: any) => e.mandats.length === 4).length} entidades han intervenido en los 4 mandatos desde 2011. {loyalEntitats.filter((e: any) => e.mandats.length === 3).length} más aparecen en 3 de los 4.
+      </p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.75rem;">
+        {loyalEntitats.map((e: any) => (
+          <a href={`/${lang}/entitats/${e.id}/`} style="display: block; border: 1px solid #e5e5e5; border-radius: 10px; padding: 1rem 1.25rem; background: #fff; text-decoration: none; color: inherit;" class="hover:border-stone-400 transition-colors">
+            <p style="font-weight: 600; font-size: 0.88rem; color: #1e1e1e; margin-bottom: 0.5rem; line-height: 1.4;">{e.nom_cas || e.nom || e.id}</p>
+            <div style="display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.5rem;">
+              {mandatIds.map(m => (
+                <span style={`font-size: 0.65rem; font-weight: 700; padding: 2px 7px; border-radius: 4px; ${e.mandats.includes(m) ? 'background: #1e1e1e; color: #fff;' : 'background: #f0f0f0; color: #ccc;'}`}>
+                  {m}
+                </span>
+              ))}
+            </div>
+            <span style="font-size: 0.78rem; color: #aaa;">{e.num_intervencions} intervenciones</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- 5. Barrios más mencionados -->
+    <section style="margin-bottom: 3rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.4rem;">Los barrios que más aparecen</h2>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; max-width: 52rem; line-height: 1.6;">
+        Barrios citados explícitamente en las intervenciones, normalizados con la nomenclatura oficial de los 88 barrios del Ajuntament. Cabanyal-Canyamelar lidera con 41 menciones.
+      </p>
+      <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+        {topZones.map(([zone, count], i) => (
+          <div style="display: flex; align-items: center; gap: 0.75rem;">
+            <span style="font-size: 0.85rem; color: #444; min-width: 11rem; text-align: right; flex-shrink: 0;">{zone}</span>
+            <div style="flex: 1; height: 7px; background: #f0f0f0; border-radius: 100px; overflow: hidden;">
+              <div style={`height: 100%; border-radius: 100px; background: ${i === 0 ? '#e8562a' : '#1e1e1e'}; width: ${(count / maxZone) * 100}%; opacity: ${i === 0 ? 1 : 0.35 + (1 - i / 10) * 0.45};`}></div>
+            </div>
+            <span style="font-family: 'Sora', sans-serif; font-size: 0.82rem; font-weight: 800; color: #666; min-width: 2rem; text-align: right; flex-shrink: 0;">{count}</span>
+          </div>
+        ))}
+      </div>
+      <p style="font-size: 0.75rem; color: #bbb; margin-top: 1rem;">Una intervención puede citar más de un barrio.</p>
+    </section>
+
+  </div>
+
+  <script>
+    const btn = document.getElementById('heatmap-toggle') as HTMLButtonElement | null;
+    const table = document.getElementById('heatmap-table') as HTMLTableElement | null;
+    let isPct = false;
+    btn?.addEventListener('click', () => {
+      isPct = !isPct;
+      btn.textContent = isPct ? 'Valores absolutos' : '% de cada mandato';
+      btn.style.background = isPct ? '#1e1e1e' : '#fff';
+      btn.style.color = isPct ? '#fff' : '#555';
+      btn.style.borderColor = isPct ? '#1e1e1e' : '#ddd';
+      table?.querySelectorAll<HTMLTableCellElement>('td[data-bg-abs]').forEach(td => {
+        td.style.background = isPct ? (td.dataset.bgPct ?? '') : (td.dataset.bgAbs ?? '');
+        td.style.color = isPct ? (td.dataset.colorPct ?? '') : (td.dataset.colorAbs ?? '');
+        const absEl = td.querySelector<HTMLElement>('.val-abs');
+        const pctEl = td.querySelector<HTMLElement>('.val-pct');
+        if (absEl) absEl.style.display = isPct ? 'none' : '';
+        if (pctEl) pctEl.style.display = isPct ? '' : 'none';
+      });
+    });
+  </script>
+</Base>

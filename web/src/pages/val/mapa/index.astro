@@ -1,0 +1,59 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { t } from '../../../i18n/index.ts';
+import { getCatLabels, getSubLabels, getAmbitLabels } from '../../../utils/labels.ts';
+import { MapExplorer } from '../../../components/MapExplorer.tsx';
+import { withCanonicalEntitat } from '../../../utils/format.ts';
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
+
+const lang = 'val';
+const dataDir = resolve(process.cwd(), '..', 'data');
+let intervencions: any[] = [];
+let mandats: any[] = [];
+let entitats: any[] = [];
+try { intervencions = JSON.parse(readFileSync(`${dataDir}/intervencions.json`, 'utf-8')); } catch {}
+try { mandats = JSON.parse(readFileSync(`${dataDir}/mandats.json`, 'utf-8')); } catch {}
+try { entitats = JSON.parse(readFileSync(`${dataDir}/entitats.json`, 'utf-8')); } catch {}
+intervencions = withCanonicalEntitat(intervencions, entitats, lang);
+
+const tipus_labels: Record<string, string> = {
+  av: t(lang, 'entitats_tipus_av'),
+  plataforma: t(lang, 'entitats_tipus_plataforma'),
+  ong: t(lang, 'entitats_tipus_ong'),
+  sindical: t(lang, 'entitats_tipus_sindical'),
+  cultural: t(lang, 'entitats_tipus_cultural'),
+  educacio: t(lang, 'entitats_tipus_educacio'),
+  esportiu: t(lang, 'entitats_tipus_esportiu'),
+  empresa: t(lang, 'entitats_tipus_empresa'),
+  particular: t(lang, 'entitats_tipus_particular'),
+  altres: t(lang, 'entitats_tipus_altres'),
+};
+const temes_labels: Record<string, string> = {};
+const modal_labels = {
+  idioma_valenciano: t(lang, 'intervencio_idioma_valenciano'),
+  idioma_castellano: t(lang, 'intervencio_idioma_castellano'),
+  idioma_mixt: t(lang, 'intervencio_idioma_mixt'),
+  ver_texto: t(lang, 'intervencio_ver_texto'),
+  ocultar_texto: t(lang, 'intervencio_ocultar_texto'),
+  traduccion: t(lang, 'intervencio_traduccion_label'),
+  original: t(lang, 'intervencio_original_label'),
+  punts: t(lang, 'intervencio_punts'),
+  en_representacio: t(lang, 'intervencio_en_representacio'),
+  ambit_labels: getAmbitLabels(lang),
+};
+---
+
+<Base title="Mapa" fullWidth={true}>
+  <MapExplorer
+    client:load
+    intervencions={intervencions}
+    mandats={mandats}
+    lang={lang}
+    cat_labels={getCatLabels(lang)}
+    sub_labels={getSubLabels(lang)}
+    tipus_labels={tipus_labels}
+    temes_labels={temes_labels}
+    modal_labels={modal_labels}
+  />
+</Base>

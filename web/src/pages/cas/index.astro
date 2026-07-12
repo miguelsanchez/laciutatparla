@@ -1,0 +1,409 @@
+---
+import Base from '../../layouts/Base.astro';
+import { t } from '../../i18n/index.ts';
+import { formatIntervinient } from '../../utils/format';
+import { DistrictMap } from '../../components/DistrictMap.tsx';
+import { HomeQuoteRotator } from '../../components/HomeQuoteRotator.tsx';
+import { HomeThemeBubbles } from '../../components/HomeThemeBubbles.tsx';
+import { HomeMandateChart } from '../../components/HomeMandateChart.tsx';
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
+
+const lang = 'cas';
+const dataDir = resolve(process.cwd(), '..', 'data');
+
+let plenos: any[] = [];
+let intervencions: any[] = [];
+let entitats: any[] = [];
+let mandats: any[] = [];
+
+try {
+  plenos = JSON.parse(readFileSync(`${dataDir}/plenos.json`, 'utf-8'));
+  intervencions = JSON.parse(readFileSync(`${dataDir}/intervencions.json`, 'utf-8'));
+  entitats = JSON.parse(readFileSync(`${dataDir}/entitats.json`, 'utf-8'));
+  mandats = JSON.parse(readFileSync(`${dataDir}/mandats.json`, 'utf-8'));
+} catch {}
+
+const plenosWithIV = plenos.filter((p: any) => p.num_intervencions > 0).length;
+
+// Quote pool: loaded from src/data/home-quotes.json — edit that file to add/remove/modify quotes
+import quotesPool from '../../data/home-quotes.json';
+
+// Category counts
+const catCounts: Record<string, number> = {};
+for (const iv of intervencions) {
+  for (const cat of Object.keys(iv.temes_v2 || {})) {
+    catCounts[cat] = (catCounts[cat] || 0) + 1;
+  }
+}
+const topCats = Object.entries(catCounts).sort((a, b) => b[1] - a[1]);
+
+const catLabels: Record<string, string> = {
+  urbanisme: t(lang, 'cat_urbanisme'),
+  mobilitat: t(lang, 'cat_mobilitat'),
+  medi_ambient: t(lang, 'cat_medi_ambient'),
+  serveis_publics: t(lang, 'cat_serveis_publics'),
+  economia: t(lang, 'cat_economia'),
+  drets_i_igualtat: t(lang, 'cat_drets_i_igualtat'),
+  persones: t(lang, 'cat_persones'),
+  cultura: t(lang, 'cat_cultura'),
+  participacio: t(lang, 'cat_participacio'),
+};
+
+const subLabels: Record<string, string> = {
+  espai_public: t(lang, 'sub_espai_public'),
+  habitatge: t(lang, 'sub_habitatge'),
+  patrimoni: t(lang, 'sub_patrimoni'),
+  usos_turistics: t(lang, 'sub_usos_turistics'),
+  transit: t(lang, 'sub_transit'),
+  transport_public: t(lang, 'sub_transport_public'),
+  zbe: t(lang, 'sub_zbe'),
+  mobilitat_activa: t(lang, 'sub_mobilitat_activa'),
+  aparcament: t(lang, 'sub_aparcament'),
+  contaminacio: t(lang, 'sub_contaminacio'),
+  zones_verdes: t(lang, 'sub_zones_verdes'),
+  emergencies_climatiques: t(lang, 'sub_emergencies_climatiques'),
+  dana_2024: t(lang, 'sub_dana_2024'),
+  benestar_animal: t(lang, 'sub_benestar_animal'),
+  educacio: t(lang, 'sub_educacio'),
+  salut: t(lang, 'sub_salut'),
+  serveis_socials: t(lang, 'sub_serveis_socials'),
+  seguretat: t(lang, 'sub_seguretat'),
+  esports: t(lang, 'sub_esports'),
+  festes: t(lang, 'sub_festes'),
+  patrimoni_cultural: t(lang, 'sub_patrimoni_cultural'),
+  associacionisme: t(lang, 'sub_associacionisme'),
+  pressupostos: t(lang, 'sub_pressupostos'),
+  comerc_ocupacio: t(lang, 'sub_comerc_ocupacio'),
+  agricultura: t(lang, 'sub_agricultura'),
+  diversitat: t(lang, 'sub_diversitat'),
+  interculturalitat_i_antiracisme: t(lang, 'sub_interculturalitat_i_antiracisme'),
+  igualtat_de_genere: t(lang, 'sub_igualtat_de_genere'),
+  drets_humans: t(lang, 'sub_drets_humans'),
+  drets_linguistics: t(lang, 'sub_drets_linguistics'),
+  joventut: t(lang, 'sub_joventut'),
+  gent_major: t(lang, 'sub_gent_major'),
+  participacio: t(lang, 'sub_participacio'),
+  processos_participatius: t(lang, 'sub_processos_participatius'),
+  transparencia: t(lang, 'sub_transparencia'),
+  consells_sectorials: t(lang, 'sub_consells_sectorials'),
+};
+
+// Subcategory counts per category
+const subCounts: Record<string, Record<string, number>> = {};
+for (const iv of intervencions) {
+  const tv2 = iv.temes_v2 || {};
+  for (const [cat, subs] of Object.entries(tv2)) {
+    if (!subCounts[cat]) subCounts[cat] = {};
+    for (const sub of (subs as string[])) {
+      subCounts[cat][sub] = (subCounts[cat][sub] || 0) + 1;
+    }
+  }
+}
+
+const bubbleCategories = topCats.map(([key, count]) => ({
+  key,
+  label: catLabels[key] ?? key,
+  count,
+  subcategories: Object.entries(subCounts[key] || {})
+    .sort((a, b) => b[1] - a[1])
+    .map(([subKey, subCount]) => ({ key: subKey, label: subLabels[subKey] ?? subKey, count: subCount })),
+}));
+
+// Mandate data (from actual dataset)
+const mandatCounts: Record<string, number> = {};
+for (const iv of intervencions) {
+  const m = iv.mandat_id || '';
+  mandatCounts[m] = (mandatCounts[m] || 0) + 1;
+}
+const mandateData = [
+  { range: '2011–2015', alcalde: 'Rita Barberá', count: mandatCounts['2011-2015'] || 75 },
+  { range: '2015–2019', alcalde: 'Joan Ribó I',  count: mandatCounts['2015-2019'] || 116 },
+  { range: '2019–2023', alcalde: 'Joan Ribó II', count: mandatCounts['2019-2023'] || 115 },
+  { range: '2023–2027', alcalde: 'María José Catalá', count: mandatCounts['2023-2027'] || 262 },
+];
+
+// Top entities
+const topEntitats = [...entitats]
+  .sort((a: any, b: any) => (b.num_intervencions || 0) - (a.num_intervencions || 0))
+  .slice(0, 10);
+
+// Ticker items (top 20 entities by count, for the marquee)
+const tickerEntities = [...entitats]
+  .sort((a: any, b: any) => (b.num_intervencions || 0) - (a.num_intervencions || 0))
+  .slice(0, 20)
+  .map((e: any) => e.nom_cas || e.nom_val || '');
+
+// Geo counts for map
+const districtCounts: Record<string, number> = {};
+const barriCounts: Record<string, number> = {};
+for (const iv of intervencions) {
+  for (const d of iv.districtes || []) districtCounts[d] = (districtCounts[d] || 0) + 1;
+  for (const z of iv.zones || []) barriCounts[z] = (barriCounts[z] || 0) + 1;
+}
+
+const recent = intervencions.slice(0, 4);
+---
+
+<Base fullWidth={true}>
+
+  <!-- ═══ HERO ═══ -->
+  <section style="background: #1a1a1a; font-family: 'Outfit', system-ui, sans-serif; position: relative; overflow: hidden;">
+    <!-- Subtle grid texture -->
+    <div style="position: absolute; inset: 0; background-image: radial-gradient(circle at 1px 1px, #2a2a2a 1px, transparent 0); background-size: 32px 32px; pointer-events: none; opacity: 0.6;" aria-hidden="true"></div>
+    <!-- Orange glow top-right -->
+    <div style="position: absolute; top: -6rem; right: -6rem; width: 28rem; height: 28rem; background: radial-gradient(circle, rgba(232,86,42,0.12) 0%, transparent 70%); pointer-events: none;" aria-hidden="true"></div>
+
+    <div class="max-w-5xl mx-auto px-4 pt-16 pb-14" style="position: relative;">
+      <div style="max-width: 38rem; margin-bottom: 2rem;">
+        <h1 style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(2.8rem, 7.5vw, 4.5rem); font-weight: 800; line-height: 0.95; letter-spacing: -0.045em; color: #fff; margin-bottom: 1.5rem;">
+          La ciutat<br/>parla<span style="color: #e8562a;">.</span>
+        </h1>
+
+        <!-- Quote rotator -->
+        <HomeQuoteRotator client:load quotesPool={quotesPool} lang={lang} />
+      </div>
+
+      <!-- Stats with animated counters -->
+      <div class="grid grid-cols-3 gap-3 md:gap-4 mb-8" style="max-width: 40rem;">
+        <div style="background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.07); border-radius: 16px; padding: 1.25rem 1.5rem;" class="md:py-7 md:px-6">
+          <span
+            class="block stat-counter"
+            data-counter
+            data-target={intervencions.length}
+            style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(1.75rem, 5vw, 3rem); font-weight: 800; color: #e8562a; line-height: 1; letter-spacing: -0.04em;"
+          >{intervencions.length}</span>
+          <span class="block mt-1" style="font-size: clamp(0.7rem, 1.5vw, 0.85rem); color: #777;">intervenciones</span>
+        </div>
+        <div style="background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.07); border-radius: 16px; padding: 1.25rem 1.5rem;" class="md:py-7 md:px-6">
+          <span
+            class="block stat-counter"
+            data-counter
+            data-target={entitats.length}
+            style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(1.75rem, 5vw, 3rem); font-weight: 800; color: #fff; line-height: 1; letter-spacing: -0.04em;"
+          >{entitats.length}</span>
+          <span class="block mt-1" style="font-size: clamp(0.7rem, 1.5vw, 0.85rem); color: #777;">entidades</span>
+        </div>
+        <div style="background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.07); border-radius: 16px; padding: 1.25rem 1.5rem;" class="md:py-7 md:px-6">
+          <span
+            class="block stat-counter"
+            data-counter
+            data-target={plenosWithIV}
+            style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(1.75rem, 5vw, 3rem); font-weight: 800; color: #fff; line-height: 1; letter-spacing: -0.04em;"
+          >{plenosWithIV}</span>
+          <span class="block mt-1" style="font-size: clamp(0.7rem, 1.5vw, 0.85rem); color: #777;">plenos</span>
+        </div>
+      </div>
+
+      <!-- Search + CTAs -->
+      <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center;">
+        <form action={`/${lang}/intervencions/`} method="get" style="display: flex; align-items: center; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: 100px; overflow: hidden; transition: border-color 0.2s;" class="focus-within:border-orange-500">
+          <input
+            type="text"
+            name="q"
+            placeholder="Busca entitat, tema, barri..."
+            style="background: transparent; border: none; outline: none; padding: 10px 16px; font-family: 'Outfit', system-ui, sans-serif; font-size: 0.88rem; color: #ddd; width: 13rem; min-width: 0;"
+            class="placeholder-gray-600"
+          />
+          <button
+            type="submit"
+            style="background: #e8562a; border: none; padding: 10px 18px; cursor: pointer; color: #fff; font-family: 'Outfit', system-ui, sans-serif; font-size: 0.82rem; font-weight: 600; white-space: nowrap; transition: background 0.15s;"
+            class="hover:bg-orange-600"
+          >Buscar</button>
+        </form>
+        <a href={`/${lang}/plens/`} style="display: inline-block; padding: 10px 20px; border: 1px solid rgba(255,255,255,0.15); color: #888; font-size: 0.88rem; font-weight: 500; text-decoration: none; border-radius: 100px; transition: all 0.2s;" class="hover:text-white hover:border-white/30">
+          Ver plenos
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ TICKER ═══ -->
+  <div style="background: #1e1e1e; border-top: 1px solid #2a2a2a; border-bottom: 1px solid #2a2a2a; padding: 0.65rem 0; overflow: hidden;" aria-hidden="true">
+    <div class="ticker-track" style="display: flex; gap: 0; width: max-content; animation: ticker-scroll 55s linear infinite;">
+      {[...tickerEntities, ...tickerEntities].map((name, i) => (
+        <span key={i} style="display: inline-flex; align-items: center; gap: 1.5rem; padding: 0 2.5rem; font-family: 'Outfit', system-ui, sans-serif; font-size: 0.78rem; color: #555; white-space: nowrap;">
+          <span style="color: #e8562a; font-size: 0.55rem;">●</span>
+          {name}
+        </span>
+      ))}
+    </div>
+  </div>
+
+  <!-- ═══ CONTENT ═══ -->
+  <div class="max-w-5xl mx-auto px-4" style="font-family: 'Outfit', system-ui, sans-serif;">
+
+    <!-- Mandate timeline -->
+    <section class="reveal" style="padding: 3rem 0 2.5rem;">
+      <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.5rem;">
+        <div>
+          <h2 style="font-family: 'Sora', system-ui, sans-serif; font-size: 1.4rem; font-weight: 700; color: #1e1e1e; letter-spacing: -0.03em; margin-bottom: 0.2rem;">
+            15 años de voces ciudadanas
+          </h2>
+          <p style="font-size: 0.88rem; color: #888;">Intervenciones por mandato municipal</p>
+        </div>
+        <a href={`/${lang}/analisis/`} style="font-size: 0.85rem; font-weight: 500; color: #c94420; text-decoration: none;" class="hover:opacity-70 transition-all">Ver análisis completo →</a>
+      </div>
+      <HomeMandateChart client:visible mandates={mandateData} lang={lang} />
+    </section>
+
+    <!-- Theme bubbles -->
+    <section class="reveal" style="padding: 0 0 3rem;">
+      <div style="border-top: 1px solid #eee; padding-top: 2.5rem; margin-bottom: 1.5rem;">
+        <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 0.3rem;">
+          <h2 style="font-family: 'Sora', system-ui, sans-serif; font-size: 1.4rem; font-weight: 700; color: #1e1e1e; letter-spacing: -0.03em;">
+            Temas que preocupan
+          </h2>
+          <a href={`/${lang}/intervencions/`} style="font-size: 0.85rem; font-weight: 500; color: #c94420; text-decoration: none;" class="hover:opacity-70 transition-all">Ver todas →</a>
+        </div>
+        <p style="font-size: 0.85rem; color: #888; margin-bottom: 1.5rem;">Haz clic en una categoría para explorar sus intervenciones</p>
+      </div>
+      <HomeThemeBubbles client:visible categories={bubbleCategories} lang={lang} />
+    </section>
+
+    <!-- District map -->
+    <section class="reveal" style="padding-bottom: 3rem;">
+      <div style="border-top: 1px solid #eee; padding-top: 2.5rem; margin-bottom: 1.25rem;">
+        <h2 style="font-family: 'Sora', system-ui, sans-serif; font-size: 1.4rem; font-weight: 700; color: #1e1e1e; letter-spacing: -0.03em;">
+          Desde dónde habla la ciudad
+        </h2>
+      </div>
+      <DistrictMap client:visible districtCounts={districtCounts} barriCounts={barriCounts} lang={lang} />
+    </section>
+
+    <!-- Two columns -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 reveal" style="padding-bottom: 3rem;">
+
+      <!-- Top entities -->
+      <section style="background: #fff; border-radius: 16px; padding: 1.5rem; border: 1px solid #eee;">
+        <div class="flex items-baseline justify-between" style="margin-bottom: 1rem;">
+          <h2 style="font-family: 'Sora', system-ui, sans-serif; font-size: 1.15rem; font-weight: 700; color: #1e1e1e; letter-spacing: -0.02em;">Entidades más activas</h2>
+          <a href={`/${lang}/entitats/`} style="font-size: 0.85rem; font-weight: 500; color: #c94420; text-decoration: none;" class="hover:opacity-70 transition-all">Ver todas →</a>
+        </div>
+        <div>
+          {topEntitats.map((e: any, i: number) => (
+            <a href={`/${lang}/entitats/${e.id}/`} style={`display: flex; align-items: center; gap: 0.75rem; padding: 0.6rem 0; text-decoration: none; color: inherit; ${i < topEntitats.length - 1 ? 'border-bottom: 1px solid #f5f5f5;' : ''} transition: opacity 0.15s;`} class="hover:opacity-60">
+              <span style="font-family: 'Sora', system-ui, sans-serif; font-size: 0.85rem; font-weight: 800; color: #c0c0c0; min-width: 1.25rem; text-align: center;">{i + 1}</span>
+              <span style="font-size: 0.95rem; font-weight: 500; color: #1e1e1e; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{e.nom_cas}</span>
+              <span style="font-family: 'Sora', system-ui, sans-serif; font-size: 0.8rem; font-weight: 700; color: #999; white-space: nowrap;">{e.num_intervencions}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <!-- Recent interventions -->
+      <section style="background: #fff; border-radius: 16px; padding: 1.5rem; border: 1px solid #eee;">
+        <div class="flex items-baseline justify-between" style="margin-bottom: 1rem;">
+          <h2 style="font-family: 'Sora', system-ui, sans-serif; font-size: 1.15rem; font-weight: 700; color: #1e1e1e; letter-spacing: -0.02em;">Últimas intervenciones</h2>
+          <a href={`/${lang}/intervencions/`} style="font-size: 0.85rem; font-weight: 500; color: #c94420; text-decoration: none;" class="hover:opacity-70 transition-all">Ver todas →</a>
+        </div>
+        <div>
+          {recent.map((iv: any, i: number) => (
+            <article style={`padding: 0.65rem 0; ${i < recent.length - 1 ? 'border-bottom: 1px solid #f5f5f5;' : ''}`}>
+              <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.25rem;">
+                <span style="font-size: 0.75rem; font-weight: 600; color: #b83a14; background: #fef1ec; padding: 1px 8px; border-radius: 100px; white-space: nowrap; flex-shrink: 0;">{iv.fecha}</span>
+                <span style="font-size: 0.8rem; color: #888; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0;">{formatIntervinient(iv.intervinient, lang)}</span>
+              </div>
+              <h3 style="font-family: 'Sora', system-ui, sans-serif; font-size: 1rem; font-weight: 600; color: #1e1e1e; margin-bottom: 0.2rem; letter-spacing: -0.02em;">
+                <a href={`/${lang}/entitats/${iv.entitat_id}/`} style="color: inherit; text-decoration: none;" class="hover:text-orange-600 transition-colors">{iv.entitat}</a>
+              </h3>
+              <p style="font-size: 0.88rem; line-height: 1.6; color: #777; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                {iv.resum_cas}
+              </p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Insights teaser -->
+    <section class="reveal" style="padding: 0 0 3.5rem;">
+      <div style="border-top: 1px solid #eee; padding-top: 2.5rem;">
+        <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 1.25rem; flex-wrap: wrap;">
+          <h2 style="font-family: 'Sora', system-ui, sans-serif; font-size: 1.4rem; font-weight: 700; color: #1e1e1e; letter-spacing: -0.03em;">Lo que revelan los datos</h2>
+          <a href={`/${lang}/analisis/`} style="font-size: 0.85rem; font-weight: 500; color: #c94420; text-decoration: none;" class="hover:opacity-70 transition-all">Ver análisis completo →</a>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 0.75rem;">
+          {[
+            { n: '×4.7', label: 'más intervenciones por año en el mandato actual (2023–) que en 2011–2015' },
+            { n: '×7.8', label: 'más menciones al medio ambiente en el mandato actual que en 2011–2015' },
+            { n: '5',    label: 'entidades que llevan interviniendo en todos los mandatos desde 2011' },
+            { n: '41',   label: 'veces que Cabanyal-Canyamelar aparece en las intervenciones — el barrio más citado' },
+          ].map(({ n, label }) => (
+            <div style="background: #fafafa; border: 1px solid #eee; border-radius: 12px; padding: 1.25rem 1.5rem; transition: border-color 0.2s, box-shadow 0.2s;" class="hover:border-orange-200 hover:shadow-sm">
+              <span style="font-family: 'Sora', sans-serif; font-size: 1.75rem; font-weight: 800; color: #e8562a; letter-spacing: -0.03em; display: block; line-height: 1; margin-bottom: 0.4rem;">{n}</span>
+              <span style="font-size: 0.82rem; color: #777; line-height: 1.5;">{label}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+</Base>
+
+<style>
+  @keyframes ticker-scroll {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(22px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  .reveal.visible {
+    opacity: 1;
+    transform: none;
+  }
+
+  .placeholder-gray-600::placeholder {
+    color: #555;
+  }
+</style>
+
+<script>
+  // Animated counters
+  function animateCounter(el: HTMLElement, target: number, duration = 1400) {
+    const start = performance.now();
+    const update = (now: number) => {
+      const t = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - t, 3);
+      el.textContent = Math.floor(eased * target).toString();
+      if (t < 1) requestAnimationFrame(update);
+      else el.textContent = target.toString();
+    };
+    requestAnimationFrame(update);
+  }
+
+  const counterObs = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const el = entry.target as HTMLElement;
+        const target = parseInt(el.dataset.target || '0', 10);
+        animateCounter(el, target);
+        counterObs.unobserve(el);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  document.querySelectorAll('[data-counter]').forEach(el => counterObs.observe(el));
+
+  // Scroll reveal
+  const revealObs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        revealObs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.reveal').forEach((el, i) => {
+    (el as HTMLElement).style.transitionDelay = `${i * 0.04}s`;
+    revealObs.observe(el);
+  });
+</script>

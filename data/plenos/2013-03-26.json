@@ -1,0 +1,95 @@
+{
+  "id": "2013-03-26",
+  "fecha": "2013-03-26",
+  "tipo": "ordinaria",
+  "mandat_id": "2011-2015",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2013-03-26",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20130326_1045_0_firmadoweb.pdf/a58b2aa0-b6e2-503c-c46b-9186421b4ee6?t=1613212361722",
+  "url_orden_dia": null,
+  "url_video": "https://players.cdn.enetres.net/live/1B4DA0F1F28C4AC4BA9AE203080C30C8021",
+  "num_intervencions": 2,
+  "intervencions": [
+    {
+      "id": "2013-03-26-001",
+      "pleno_id": "2013-03-26",
+      "fecha": "2013-03-26",
+      "mandat_id": "2011-2015",
+      "ordre": 1,
+      "intervinient": "[***]",
+      "entitat": "Acció Ecologista-Agró / Valencia en Bici",
+      "entitat_id": "accio-ecologista-agro",
+      "tipus_entitat": "plataforma",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "Moció conjunta dels tres grups de l'oposició sobre modificació del Reglament de Circulació relatiu a l'obligatorietat del casc per a ciclistes i la segregació de la bicicleta a la dreta del carril",
+      "idioma_original": "castellano",
+      "text_cas": "Muchas gracias. Buenos días a todos y todas.\n\nDesde Valencia en Bici agradecemos y apoyamos la moción presentada por los tres grupos en la oposición porque tenemos claro que **la obligatoriedad del casco y la segregación de la bicicleta a la derecha del carril no son medidas adecuadas** para nuestra mayor seguridad. En la mayoría de los países europeos también lo tienen claro y por eso **apoyan y facilitan el uso de la bicicleta** pacificando el tráfico, mejorando las infraestructuras ciclistas necesarias y apostando por ciudades amables y para las personas.\n\n**La bicicleta no es peligrosa ni molesta** sino todo lo contrario. **Es un vehículo limpio y sostenible** que ayuda a mejorar la salud y la calidad de vida colectiva; y por lo tanto, **salva vidas**. Sin embargo, **el casco obligatorio mataría a la bicicleta** o, en el mejor de los casos, frenaría su desarrollo. En el caso de nuestra ciudad, además, **la obligación del casco ciclista podría afectar muy negativamente al turismo** y haría disminuir el número de abonados a Valenbisi hasta poner en riesgo la viabilidad del propio sistema del préstamo. **El dilema está claro: más bicicletas o casco obligatorio**. Es responsabilidad de ustedes, como gestores políticos de nuestra ciudad, responder a ese dilema.\n\nDesde Valencia en Bici esperamos que lo hagan **apostando de forma clara por las bicicletas**, sumándose a la moción que presentan hoy los tres grupos conjuntamente, lo cual agradecemos y mucho, y **entrando a formar parte como Ayuntamiento de la Red de Ciudades por la Bicicleta y de la Iniciativa Europea Ciudad 30**. Por responsabilidad social y política no podemos permitirnos dar más pasos atrás. **Las bicicletas han vuelto al espacio público, para quedarse**.\n\nMuchas gracias por su atención y nosotros y todos seguimos pedaleando.",
+      "text_val": "Moltes gràcies. Buenos días a tots i totes.\n\nDesde Valencia en Bici agraïm i recolzem la moció presentada pels tres grups en l'oposició perquè tenim clar que **l'obligatorietat del casc i la segregació de la bicicleta a la dreta del carril no són mesures adequades** per a la nostra major seguretat. A la majoria dels països europeus també ho tenen clar i per això **recolzen i faciliten l'ús de la bicicleta** pacificant el trànsit, millorant les infraestructures ciclistes necessàries i apostant per ciutats amables i per a les persones.\n\n**La bicicleta no és perillosa ni molesta** sinó tot el contrari. **És un vehicle net i sostenible** que ajuda a millorar la salut i la qualitat de vida col·lectiva; i per tant, **salva vides**. No obstant això, **el casc obligatori mataria la bicicleta** o, en el millor dels casos, frenaría el seu desenvolupament. En el cas de la nostra ciutat, a més, **l'obligació del casc ciclista podría afectar molt negativament al turisme** i faria disminuir el nombre d'abonats a Valenbici fins a posar en risc la viabilitat del propi sistema de préstec. **El dilema està clar: més bicicletes o casc obligatori**. És responsabilitat vostra, com a gestors polítics de la nostra ciutat, respondre a esse dilema.\n\nDesde Valencia en Bici esperem que ho feu **apostant de manera clara per les bicicletes**, sumant-vos a la moció que presenten avui els tres grups conjuntament, cosa que agraïm i molt, i **entrant a formar part com a Ajuntament de la Xarxa de Ciutats per la Bicicleta i de la Iniciativa Europea Ciutat 30**. Per responsabilitat social i política no podem permetre'ns donar més passos enrere. **Les bicicletes han tornat a l'espai públic, per a quedar-se**.\n\nMoltes gràcies per la vostra atenció i nosaltres i tots seguim pedalejant.",
+      "temes": [],
+      "temes_v2": {
+        "mobilitat": [
+          "mobilitat_activa"
+        ],
+        "medi_ambient": [
+          "contaminacio"
+        ],
+        "economia": [
+          "comerc_ocupacio"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "Valencia en Bici apoya la moción conjunta de los tres grupos de oposición contra la obligatoriedad del casco para ciclistas y la segregación de la bicicleta a la derecha, argumentando que estas medidas son contraproducentes, ilegales y perjudiciales para el turismo y la viabilidad de Valenbisi, y propone en su lugar pacificar el tráfico y fomentar la mobilidad sostenible.",
+      "resum_val": "Acció Ecologista-Agró / Valencia en Bici recolza la moció conjunta dels tres grups d'oposició contra l'obligatorietat del casc per a ciclistes i la segregació de la bicicleta a la dreta, argumentant que aquestes mesures són contraproduents, il·legals i perjudicials per al turisme i la viabilitat de Valenbici, i proposa pacificar el trànsit i fomentar la mobilitat sostenible.",
+      "cap_subtopics": [
+        1010,
+        705,
+        1526
+      ],
+      "cap_major": [
+        7,
+        10,
+        15
+      ]
+    },
+    {
+      "id": "2013-03-26-002",
+      "pleno_id": "2013-03-26",
+      "fecha": "2013-03-26",
+      "mandat_id": "2011-2015",
+      "ordre": 2,
+      "intervinient": "[***]",
+      "entitat": "Federación de Asociaciones de Familias y Personas con Enfermedades Mentales",
+      "entitat_id": "federacio-associacions-malalties-mentals",
+      "tipus_entitat": "av",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "Situación de personas con discapacidad y enfermedades mentales respecto a prestaciones farmacéuticas y ortoprotésicas; supresión de exenciones de copago por la Generalitat Valenciana",
+      "idioma_original": "castellano",
+      "text_cas": "Muchas gracias.\n\nEn nombre de las personas discapacitadas y de las que tienen enfermedad mental en particular, queremos informar a este Pleno del Excelentísimo Ayuntamiento de Valencia sobre la **situación patética** a la que nos enfrentamos muchos vecinos de esta ciudad, los que vemos recortados bajo el pretexto de la crisis económica no solamente **derechos sanitarios** sino la propia vida o la de nuestros familiares directos, sean padres, hijos o hermanos.\n\nComo se sabe, el Real Decreto-Ley 16/2012, introdujo el copago farmacéutico. Pero textualmente también dice que: 'Estarán exentos de aportación los usuarios y sus beneficiarios que pertenezcan a una de las siguientes categorías: a) afectados de síndrome tóxico y personas con discapacidad en los supuestos contemplados en su normativa específica…'. Esa normativa específica en nuestro caso es la **Ley valenciana 11/2003**, sobre el Estatuto de las Personas con Discapacidad, por la que: 'La Generalidad Valenciana garantizará la **financiación gratuita** para los productos incluidos en la prestación farmacéutica, el catálogo ortoprotésico y ayudas técnicas, a los pacientes menores de 18 años con discapacidad diagnosticada con un grado de minusvalía igual o superior al 33%, siendo extensible esta prestación a los mayores de 18 años diagnosticados con un grado de minusvalía igual o superior al 65%'. Y así venía sucediendo hasta ahora.\n\nEsto permitía acogerse a la exención estatal, pero con un afán de recorte aún mayor que el estatal el Gobierno valenciano ha **suprimido subrepticiamente** el párrafo anterior por medio de la **Ley Presupuestaria valenciana 10**, de 21 de diciembre de 2012. Con esta precipitación, yo creo que crematística, se crea además una **inseguridad jurídica** contradictoria al mantener por ejemplo otra ley valenciana, la 8/2008, sobre los Derechos de la Salud de Niños y Adolescentes, por la que: 'La Generalitat asumirá gratuitamente la prestación farmacéutica de los menores con un grado de minusvalía igual o superior al 33%'. ¿Se asume o no se asume?\n\nAsí que, para no atender las exenciones del propio Decreto-Ley estatal, la Conselleria de Sanidad ha quitado a los discapacitados **todas las tarjetas** que les eximían y nos obliga a abonar el **40, 50 o 60%** de sus prestaciones farmacéuticas y ortoprotésicas. Pero no sólo pagan los 45.000 discapacitados registrados por la Conselleria de Bienestar Social según la Ley de Dependencia sino **todos y entre ellos los más de 100.000 residentes discapacitados** que hay en nuestra ciudad. No basta con retirar los apoyos de esa Ley de Dependencia y con eliminar las subvenciones a los centros y asociaciones de familiares que hemos venido asumiendo obligaciones de mantenimiento y de rehabilitación correspondientes a los gobiernos. Ahora, al exigir el pago de una **medicación inasumible** por quienes no ganan dinero y sí un mayor sufrimiento, a muchos de nosotros se nos condena a sacrificarlo todo por un nuevo gasto que puede subir a **cientos de euros mensuales**. Esto llega incluso a que no pocos enfermos no puedan medicarse, como saben los médicos y farmacéuticos a quienes se dirigen en su desesperación y a quienes hemos consultado. Y a esta situación general, se añade en los discapacitados con enfermedad mental un mayor peligro ya que su conocida resistencia a medicarse tiene así una mayor coartada.\n\nNuestros representantes informaron de esta situación jurídica y social el 12 de marzo a la consellera de Bienestar Social y al conseller de Sanidad, que prometió estudiar la rectificación de este pago no exigido por la normativa estatal. Desde aquí instamos a que este Ayuntamiento, en defensa de esos cientos de miles de vecinos afectados y de sus familiares, analice la contradictoria situación legislativa que hemos presentado y a que **incite al Consell** para que **devuelva las tarjetas SIP** con la exención de pago prevista en el Decreto-Ley estatal para las personas discapacitadas; todo ello con la **urgencia política, administrativa y legislativa** que minimice una situación que no tardará en convertirse en fatal e irreversible para demasiadas personas.\n\nMuchas gracias.",
+      "text_val": "Moltes gràcies.\n\nEn nom de les persones discapacitades i de les que tenen malaltia mental en particular, volem informar a aquest Ple de l'Excel·lentíssim Ajuntament de València sobre la **situació patètica** a la qual ens enfrontem molts veïns d'aquesta ciutat, els que veiem retallats sota el pretext de la crisi econòmica no solament **drets sanitaris** sinó la pròpia vida o la dels nostres familiars directes, siguen pares, fills o germans.\n\nCom és sabut, el Reial Decret-Llei 16/2012, va introduir el copagament farmacèutic. Però textualment també diu que: 'Estaran exempts d'aportació els usuaris i els seus beneficiaris que pertanyen a una de les següents categories: a) afectats de síndrome tòxic i persones amb discapacitat en els supòsits contemplats en la seua normativa específica…'. Eixa normativa específica en el nostre cas és la **Llei valenciana 11/2003**, sobre l'Estatut de les Persones amb Discapacitat, per la qual: 'La Generalitat Valenciana garantirà la **financiació gratuïta** per als productes inclosos en la prestació farmacèutica, el catàleg ortoprotèsic i ajudes tècniques, als pacients menors de 18 anys amb discapacitat diagnosticada amb un grau de minusvalidesa igual o superior al 33%, sent extensible aquesta prestació als majors de 18 anys diagnosticats amb un grau de minusvalidesa igual o superior al 65%'. I així venia succeint fins ara.\n\nAixò permetia acollir-se a l'exempció estatal, però amb un afany de retall encara major que l'estatal el Govern valencià ha **suprimit subreptíciament** el paràgraf anterior per mitjà de la **Llei Pressupostària valenciana 10**, de 21 de desembre de 2012. Amb aquesta precipitació, jo crec que crematística, es crea a més una **inseguretat jurídica** contradictòria en mantindre per exemple una altra llei valenciana, la 8/2008, sobre els Drets de la Salut de Xiquets i Adolescents, per la qual: 'La Generalitat assumirà gratuitament la prestació farmacèutica dels menors amb un grau de minusvalidesa igual o superior al 33%'. S'assumeix o no s'assumeix?\n\nAixí que, per a no atendre les exempcions del propi Decret-Llei estatal, la Conselleria de Sanitat ha tret als discapacitats **totes les targetes** que els eximien i ens obliga a abonar el **40, 50 o 60%** de les seues prestacions farmacèutiques i ortoprotèsiques. Però no solament paguen els 45.000 discapacitats registrats per la Conselleria de Benestar Social segons la Llei de Dependència sinó **tots i entre ells els més de 100.000 residents discapacitats** que hi ha en la nostra ciutat. No basta amb retirar els suports d'eixa Llei de Dependència i amb eliminar les subvencions als centres i associacions de familiars que hem vingut assumint obligacions de manteniment i de rehabilitació corresponents als governs. Ara, en exigir el pagament d'una **medicació inasumible** per a qui no guanya diners i sí un major sofriment, a molts de nosaltres se'ns condemna a sacrificar-ho tot per una nova despesa que pot pujar a **centenars d'euros mensuals**. Això arriba fins al punt que no pocs malalts no puxen medicarse, com saben els metges i farmacèutics a qui es dirigixen en la seua desesperació i a qui hem consultat. I a aquesta situació general, s'afig en els discapacitats amb malaltia mental un major perill ja que la seua coneguda resistència a medicarse té així una major coartada.\n\nEls nostres representants van informar d'aquesta situació jurídica i social el 12 de març a la consellera de Benestar Social i al conseller de Sanitat, que va prometre estudiar la rectificació d'aquest pagament no exigit per la normativa estatal. Des d'ací instam que aquest Ajuntament, en defensa d'eixes centenars de milers de veïns afectats i dels seus familiars, analitze la contradictòria situació legislativa que hem presentat i que **incite al Consell** perquè **devuelga les targetes SIP** amb l'exempció de pagament prevista en el Decret-Llei estatal per a les persones discapacitades; tot això amb la **urgència política, administrativa i legislativa** que minimice una situació que no tardarà en convertir-se en fatal i irreversible per a massa persones.\n\nMoltes gràcies.",
+      "temes": [],
+      "temes_v2": {
+        "serveis_publics": [
+          "salut",
+          "serveis_socials"
+        ],
+        "drets_i_igualtat": [
+          "drets_humans"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "Denuncia de la supresión de exenciones de copago farmacéutico para más de 100.000 personas discapacitadas en Valencia, eliminadas por la Ley Presupuestaria de la Generalitat, lo que obliga a pagar entre el 40-60% de medicinas y prótesis esenciales, solicitando al Ayuntamiento que presione para restablecer las tarjetas SIP de exención.",
+      "resum_val": "Denúncia de la supressió d'exencions de copagament farmacèutic per a més de 100.000 persones discapacitades a València, eliminades per la Llei Pressupostària de la Generalitat, el que obliga a pagar entre el 40-60% de medicaments i pròtesis essencials, sol·licitant a l'Ajuntament que pressione per a restablir les targetes SIP d'exempció.",
+      "cap_subtopics": [
+        1304,
+        1303
+      ],
+      "cap_major": [
+        13
+      ]
+    }
+  ]
+}

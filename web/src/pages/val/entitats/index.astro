@@ -1,0 +1,58 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { t } from '../../../i18n/index.ts';
+import { EntitatsBrowser } from '../../../components/EntitatsBrowser.tsx';
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
+
+const lang = 'val';
+const dataDir = resolve(process.cwd(), '..', 'data');
+let entitats: any[] = [];
+try { entitats = JSON.parse(readFileSync(`${dataDir}/entitats.json`, 'utf-8')); } catch {}
+
+const temesLabels: Record<string, string> = {
+  urbanisme: t(lang, 'temes_urbanisme'), habitatge: t(lang, 'temes_habitatge'),
+  medi_ambient: t(lang, 'temes_medi_ambient'), mobilitat: t(lang, 'temes_mobilitat'),
+  esports: t(lang, 'temes_esports'), cultura: t(lang, 'temes_cultura'),
+  educacio: t(lang, 'temes_educacio'), salut: t(lang, 'temes_salut'),
+  seguretat: t(lang, 'temes_seguretat'), serveis_socials: t(lang, 'temes_serveis_socials'),
+  participacio_ciutadana: t(lang, 'temes_participacio_ciutadana'),
+  infraestructures: t(lang, 'temes_infraestructures'), economia: t(lang, 'temes_economia'),
+  dana_emergencies: t(lang, 'temes_dana_emergencies'), patrimoni: t(lang, 'temes_patrimoni'),
+  joventut: t(lang, 'temes_joventut'), gent_major: t(lang, 'temes_gent_major'),
+  igualtat: t(lang, 'temes_igualtat'), barris: t(lang, 'temes_barris'),
+  memoria_historica: t(lang, 'temes_memoria_historica'), agricultura: t(lang, 'temes_agricultura'),
+  turisme: t(lang, 'temes_turisme'), altres: t(lang, 'temes_altres'),
+};
+const tipusLabels: Record<string, string> = {
+  av: t(lang, 'entitats_tipus_av'),
+  plataforma: t(lang, 'entitats_tipus_plataforma'),
+  ong: t(lang, 'entitats_tipus_ong'),
+  sindical: t(lang, 'entitats_tipus_sindical'),
+  cultural: t(lang, 'entitats_tipus_cultural'),
+  educacio: t(lang, 'entitats_tipus_educacio'),
+  esportiu: t(lang, 'entitats_tipus_esportiu'),
+  empresa: t(lang, 'entitats_tipus_empresa'),
+  particular: t(lang, 'entitats_tipus_particular'),
+  altres: t(lang, 'entitats_tipus_altres'),
+};
+const browserLabels = {
+  entitats_intervencions: t(lang, 'entitats_intervencions'),
+  sort_az: t(lang, 'entitats_sort_az'),
+  sort_count: t(lang, 'entitats_sort_count'),
+  search_placeholder: t(lang, 'entitats_search_placeholder'),
+};
+---
+
+<Base title={t(lang, 'entitats_title')}>
+  <h1 class="text-2xl font-bold text-stone-900 mb-6">{t(lang, 'entitats_title')}</h1>
+  <EntitatsBrowser
+    client:load
+    entitats={entitats}
+    lang={lang}
+    labels={browserLabels}
+    tipus_labels={tipusLabels}
+    temes_labels={temesLabels}
+    entitats_path={`/${lang}/entitats/`}
+  />
+</Base>

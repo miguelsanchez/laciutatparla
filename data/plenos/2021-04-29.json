@@ -1,0 +1,407 @@
+{
+  "id": "2021-04-29",
+  "fecha": "2021-04-29",
+  "tipo": "ordinaria",
+  "mandat_id": "2019-2023",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2021-04-29",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20210429_0945_0_firmadoweb.pdf/7844e05f-1a2d-ad1a-26b0-a59ae1045a32?t=1622204803476",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20210429_0945_0_firmadoweb.pdf/d361f56b-f403-d6f2-5be2-ab5fe2d8fae1?t=1620121746652",
+  "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-205",
+  "num_intervencions": 8,
+  "intervencions": [
+    {
+      "id": "2021-04-29-001",
+      "pleno_id": "2021-04-29",
+      "fecha": "2021-04-29",
+      "mandat_id": "2019-2023",
+      "ordre": 1,
+      "intervinient": "[***]",
+      "entitat": "Asociación Salvem Tabacalera",
+      "entitat_id": "salvem-tabacalera",
+      "tipus_entitat": "plataforma",
+      "barri_o_zona": "Tabacalera",
+      "punts_ordre_dia": "no especificats",
+      "idioma_original": "castellano",
+      "text_cas": "Estoy aquí como partícipe de la Asociación Salvem Tabacalera, un grupo de ciudadanos que llevó a los tribunales y luchó hasta conseguir **la nulidad de un pelotazo urbanístico** en esta ciudad. Operación urbanística iniciada en 2005, tras la firma de un convenio entre Guadalmedina y el Ayuntamiento, al que la Generalitat dio su consentimiento y cobertura legal con **inaudita rapidez en 2006**. Recordemos, 1999 el Estado adjudica a Altadis la antigua fábrica de tabacos y esta empresa transmite parte de su patrimonio inmobiliario valenciano a Guadalmedina.\nCon la disculpa de obtener **la casi la totalidad de la parcela de Tabacalera para oficinas municipales**, el Ayuntamiento entregaba al promotor, previa modificación del planeamiento, la propiedad del edificio de la plaza América, aumentando suelo, altura y edificabilidad. El valor del conjunto residía en **el carácter industrial** y como tal fue propuesto por Rita Barberá para su inclusión en **la lista de Patrimonio Industrial de España**. Desde una primera sentencia desestimatoria, estimado por el Supremo, **el Tribunal Superior valenciano fallaba en 2015 a nuestro favor**.\nLa sentencia declaraba **ilegal y anulaba tanto la parte urbanística como el convenio** que la impulsaba. Año 2021, **bajo la falacia de ejecución de sentencia** solo se pretende legalizar y beneficiar a unos propietarios y al promotor. ¿Se tiene **la misma sensibilidad ante viviendas fuera de ordenación de barrios más humildes**? La tercera capital de España **no puede permitir que un pelotazo urbanístico siente ejemplo y precedente**. **No se pueden blanquear estos delitos, ni a quienes los cometen**.\nHasta donde conozco **no se ha responsabilizado a nadie de este fraude**. **No puede premiarse a los infractores** y dejar que siga siendo el poder económico especulativo quien decida nuestra ciudad.",
+      "text_val": "Estic ací com partícip de l'Associació Salvem Tabacalera, un grup de ciutadans que va portar als tribunals i va lluitar fins a aconseguir **la nul·litat d'un pelotaç urbanístic** en aquesta ciutat. Operació urbanística iniciada el 2005, després de la firma d'un conveni entre Guadalmedina i l'Ajuntament, al que la Generalitat va donar el seu consentiment i cobertura legal amb **inaudita rapidesa el 2006**. Recordem, 1999 l'Estat adjudica a Altadis l'antiga fàbrica de tabacs i aquesta empresa transmet part del seu patrimoni immobiliari valencià a Guadalmedina.\nAmb la disculpa d'obtindre **quasi la totalitat de la parcel·la de Tabacalera per a oficines municipals**, l'Ajuntament entregava al promotor, prèvia modificació del planejament, la propietat de l'edifici de la plaça Amèrica, augmentant sòl, alçada i edificabilitat. El valor del conjunt residia en **el caràcter industrial** i com a tal va ser proposat per Rita Barberá per a la seua inclusió en **la llista de Patrimoni Industrial d'Espanya**. Des d'una primera sentència desestimadora, estimat pel Suprem, **el Tribunal Superior valencià fallava el 2015 a nostre favor**.\nLa sentència declarava **il·legal i anul·lava tant la part urbanística com el conveni** que la impulsava. Any 2021, **sota la falàcia d'execució de sentència** només es pretén legalitzar i beneficiar a uns propietaris i al promotor. ¿S'té **la mateixa sensibilitat davant vivendes fora d'ordenació de barris més humils**? La tercera capital d'Espanya **no pot permetre que un pelotaç urbanístic sente exemple i precedent**. **No es poden blanquejar aquests delictes, ni a qui els cometen**.\nFins on coneix **no s'ha responsabilitzat a nadie d'aquest frau**. **No pot premiar-se als infractors** i deixar que continue sent el poder econòmic especulatiu qui decidixca la nostra ciutat.",
+      "temes": [
+        "urbanisme",
+        "patrimoni",
+        "memoria_historica",
+        "participacio_ciutadana"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "patrimoni",
+          "habitatge"
+        ],
+        "drets_i_igualtat": [
+          "drets_humans"
+        ],
+        "participacio": [
+          "transparencia"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "Intervención de Salvem Tabacalera denunciando un pelotazo urbanístico en el conjunto de la antigua fábrica de tabacos que fue anulado en 2015, pero ahora se pretende legalizar y beneficiar a los promotores e infractores bajo la falsa ejecución de sentencia.",
+      "resum_val": "Intervenció de Salvem Tabacalera denunciant un pelotaç urbanístic en el conjunt de l'antiga fàbrica de tabacs que va ser anul·lat el 2015, però ara es pretén legalitzar i beneficiar als promotors i infractors sota la falsa execució de sentència.",
+      "cap_subtopics": [
+        1403,
+        1401,
+        2000,
+        1906
+      ],
+      "cap_major": [
+        14,
+        19,
+        20
+      ]
+    },
+    {
+      "id": "2021-04-29-002",
+      "pleno_id": "2021-04-29",
+      "fecha": "2021-04-29",
+      "mandat_id": "2019-2023",
+      "ordre": 2,
+      "intervinient": "[***]",
+      "entitat": "Plataforma Veïnal del Barri de Penya-roja",
+      "entitat_id": "plataforma-vecinal-penyaroja",
+      "tipus_entitat": "plataforma",
+      "barri_o_zona": "Tabacalera",
+      "punts_ordre_dia": "Recalificación del Plan General de Ordenación Urbana de Tabacalera",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días. Como ha indicado Doña [*], **la recalificación que ustedes han aprobado** no coincide con **la sentencia del Tribunal Superior de Justicia** que declaró nula la modificación del Plan General de Ordenación Urbana de Tabacalera y el convenio entre el Ayuntamiento y Guadalmedina. Y es importante lo que ha dicho porque ustedes llevan diciendo que hacen todo esto porque les obliga una sentencia. ¿De qué sentencia estamos hablando?\n\nNosotros llevamos desde el **22 de febrero de 2019** intentando que no volvieran a cometer el mismo error y lo han cometido con el agravante de que ustedes no solo eran **perfectos conocedores de que estaba mal** lo que hacían, sino que lo criticaron fervientemente cuando estaban en la oposición, ¿recuerdan?\n\nNunca hemos pretendido perjudicar a ningún vecino y como asociación vecinal que somos más bien al contrario, hemos aportado siempre soluciones que nunca han agraviado a nadie y es **vergonzoso** que vaya a **quitar el suelo público de un colegio y un jardín** a un **barrio de gente trabajadora**. Acabo, señor presidente.\n\nEn resumen, **todos ustedes son responsables solidarios** de lo que ha sucedido aquí; Vicent Sarrià por impulsar esta recalificación; los funcionarios de urbanismo por permitirlo, Sandra Gómez por **continuar negando cualquier oportunidad de diálogo** y los demás miembros del gobierno, especialmente el señor alcalde, por permitir que esto suceda sin tener la valentía de dar un paso adelante para detener esta locura.\n\nTermino. No caeremos en el típico tópico de que a ustedes les juzgará la historia, no. Antes les juzgará los Tribunales en cuya justicia confiamos y a los que solicitamos que no permitan que prosiga **esta recalificación ilegal, innecesaria, injusta y también altamente impopular**.",
+      "text_val": "Buenos días. Com ha indicat Doña [***], la recalificació que vostès han aprovat no coincideix amb la sentència del Tribunal Superior de Justícia que va declarar nula la modificació del Pla General d'Ordenació Urbana de Tabacalera i el conveni entre l'Ajuntament i Guadalmedina. I és important el que ha dit perquè vostès porten dient que fan tot això perquè els obliga una sentència. A la vista del exposat hui aquí, ¿de quina sentència estem parlant?\n\nNosaltres portem des del 22 de febrer de 2019 intentant que no tornaren a cometre el mateix error i l'han comet amb l'agreujant que vostès no sols eren perfectes coneixedors de que estava malament el que feien, sinó que ho van criticar fervorosament quan estaven en l'oposició, ¿es recorden?\n\nNunca hem pretès perjudicar a cap veí i com a associació vecinal que som més aviat al contrari, hem aportat sempre solucions que mai han agraïat a ningú i és vergonyós, Senyora Gómez, que vaig a treure el sòl públic d'una escola i un jardí a un barri de gent treballadora. Acabe, senyor president.\n\nEn resum, tots vostès són responsables solidaris del que ha succeït ací; Vicent Sarrià per impulsar aquesta recalificació; els funcionaris d'urbanisme per permetre-ho, Sandra Gómez per continuar negant qualsevol oportunitat de diàleg i els demés membres del govern, especialment el senyor alcalde, per permetre que això succeïsca sense tindre la valentia de donar un pas avant per a detenir aquesta bogeria.\n\nTermine. No caure en el típic tòpic que a vostès els jutjarà la història, no. Abans els jutjarà els Tribunals en la justícia dels quals confiem i als quals sollicitem que no permitan que prosiga aquesta recalificació il·legal, innecessària, injusta i també altament impopular.",
+      "temes": [
+        "urbanisme",
+        "habitatge",
+        "patrimoni",
+        "participacio_ciutadana",
+        "infraestructures",
+        "barris"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "habitatge",
+          "espai_public"
+        ],
+        "drets_i_igualtat": [
+          "drets_humans"
+        ],
+        "participacio": [
+          "transparencia"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Penya-Roja"
+      ],
+      "districtes": [
+        "Camins al Grau"
+      ],
+      "resum_cas": "La asociación vecinal critica la recalificación urbanística de Tabacalera que no se ajusta a la sentencia del Tribunal Superior de Justicia y denuncia que el gobierno municipal cometió el mismo error que ya había criticado en oposición, además de afectar negativamente al barrio eliminando suelo público de un colegio y jardín.",
+      "resum_val": "L'associació vecinal critica la recalificació urbanística de Tabacalera que no s'ajusta a la sentència del Tribunal Superior de Justícia i denuncia que el govern municipal ha comès el mateix error que ja havia criticat en oposició, a més d'afectar negativament al barri eliminant sòl públic d'una escola i jardí.",
+      "cap_subtopics": [
+        1403,
+        1401,
+        2000,
+        1906
+      ],
+      "cap_major": [
+        14,
+        19,
+        20
+      ]
+    },
+    {
+      "id": "2021-04-29-003",
+      "pleno_id": "2021-04-29",
+      "fecha": "2021-04-29",
+      "mandat_id": "2019-2023",
+      "ordre": 3,
+      "intervinient": "[***]",
+      "entitat": "Metges Sense Fronteres (MSF)",
+      "entitat_id": "metges-sense-fronteres",
+      "tipus_entitat": "ong",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "moció per l'accés universal a les vacunes COVID",
+      "idioma_original": "valenciano",
+      "text_cas": "Buenos días. Excelentísimo alcalde, señoras y señores concejales.\n\nGracias, compañeros de ACOEP por invitarme a hablar de esta moción.\n\nSoy [*], delegada de **Médicos Sin Fronteras**. Es un placer y un orgullo para mí estar aquí hablándoos y siendo testigo de un hecho importante para millones de personas como es **esta moción por el acceso universal a las vacunas COVID**.\n\nAhora mismo, esta misma mañana mis padres **están siendo vacunados** en su centro de salud aquí en Valencia. La sensación de tranquilidad que nos da es enorme. Seguro que muchos de ustedes la habrán sentido cuando la vacuna ha llegado a nuestros mayores. Y es una sensación que solo los que vivimos en **países ricos** tenemos.\n\nA finales de los años noventa yo estaba trabajando con Médicos Sin Fronteras en Kenia. Eran los años en que **la epidemia del VIH**, del virus de la inmunodeficiencia humana, el Sida, hacía estragos en el África Subsahariana.\n\nMis compañeras médicas veían con desesperación cómo aunque ya existían tratamientos para sus pacientes, estos eran tan caros que era **imposible acceder a ellos**. Recuerdo la impotencia con que vivían aquella situación cuando volvían a casa después de todo el día en el hospital, habían estado testando a personas y casi dándoles una sentencia de muerte sin poder hacer mucho más que recomendarles que continuaran viniendo a la clínica pero sabiendo que no podrían darles nada más que tratamientos paliativos.\n\nLos **antirretrovirales estaban patentados** y las farmacéuticas que ostentaban el monopolio cobraban **diez mil dólares por paciente y año** por el triple cóctel de medicamentos, un precio completamente inaccesible para las personas con VIH en países de bajos recursos.\n\nPara hacer frente a semejante **injusticia surgió un movimiento global** en contra del dominio de las patentes sobre medicamentos vitales. Los pioneros de esta lucha, organizaciones de la sociedad civil, sobre todo personas con VIH, estos pacientes de mis compañeras **se enfrentaron al abuso de la industria farmacéutica** y a la inacción de los Gobiernos, y abrieron el camino para que hoy haya versiones genéricas más asequibles de los antirretrovirales.\n\nAl superar los monopolios sobre estos medicamentos y fomentar la producción y la competencia de los genéricos, **el precio cayó un noventa y nueve por ciento en diez años**; en 2019, **veintiséis millones ya estaban recibiendo antirretrovirales** y el coste del tratamiento se sitúa por debajo de **setenta dólares por persona y año**.\n\nEsta **historia de éxito** nos gustaría que se repitiese, esta fuerza que tiene la sociedad civil que nos gustaría también movilizar ahora. Y esta moción es un ejemplo.\n\nDurante esta pandemia hemos visto cómo la respuesta frente a la COVID dependía mucho en diferentes partes del mundo porque incidía de manera diferente, pero también por la capacidad de respuesta de los propios países. Y sobre todo lo vemos ahora si nos centramos en qué está pasando con la **vacuna de la COVID**.\n\nEn tiempo récord se ha encontrado una vacuna, menos de un año. Los estados se han volcado apoyando a la industria farmacéutica para encontrar una solución a esta pandemia. Mucha inversión pública pero sin requisitos.\n\nEl sistema actual de vacunas no es un sistema que tenga como principal objetivo **la salud pública** o evitar muertes sino que son otros **condicionantes económicos y comerciales**.\n\nEs claro que **en tiempos de pandemia no valen las leyes del mercado**. La industria farmacéutica tiene el poder, pero podríamos quitárselo.\n\n**La desigualdad en el acceso a vacunas es evidente**, el sistema actual no es equitativo y como ciudadanos nos toca ser conscientes y hacer lo que sea a nuestro alcance para cambiarlo. Desde la sociedad civil lo estamos intentando, organizaciones como Amnistía Internacional también nos acompañan. Y esta moción es un paso adelante para el cambio.\n\nSi algo no tenemos no tenemos en esta pandemia es tiempo, vamos permanentemente detrás de ella. Es fundamental **acelerar los ritmos de fabricación y producción de vacunas** y **asegurar un acceso equitativo a todo el mundo**, no solo a los países de rentas altas. Porque frente a una pandemia mundial **hasta que no estemos todos vacunados nadie estaremos fuera de peligro**.\n\nMuchas gracias.",
+      "text_val": "Bon dia. Excel·lentíssim alcalde, senyores i senyors regidors.\n\nGràcies, companys d'ACOEP per convidar-me a parlar d'aquesta moció.\n\nSóc [***], delegada de Metges Sense Fronteres. És un plaer i un orgull per mi estar ací parlant-vos i sent testimoni d'un fet important per milions de persones com és aquesta moció per l'accés universal a les vacunes COVID.\n\nAra mateixa, aquest mateix matí els meus pares estan sent vacunats al seu centre de salut ací a València. La sensació de tranquil·litat que ens dona és enorme. Segur que molts de vostés l'hauran sentit quan la vacuna ha arribat als nostres majors. I és una sensació que sols els que vivim en països rics tenim.\n\nA la fi dels any noranta jo estava treballant amb Metges Sense Fronteres a Kenya. Eren els anys en què l'epidèmia del VIH, del virus de la immunodeficiència humana, la Sida, feia estralls a l'Àfrica Subsahariana.\n\nLes meues companyes mèdiques veuen amb desesperació com encara que ja existien tractaments per als seus pacients, aquest eres tan cars que era impossible accedir a ells. Recorde la impotència amb què vivien aquella situació quan tornaven a casa després de tot el dia a l'hospital, havien estat testant a persones i gairebé donant-los una sentència de mort sense poder fer molt més que recomanar-los que continuessin venint a la clínica però sabent que no podrien donar-los res més que tractaments pal·liatius.\n\nEls antiretrovirals estaven patentats i les farmacèutiques que ostentaven el monopoli cobraven deu mil dòlars per pacient i any pel triple còctel de medicaments, un preu del tot inassolible per a les persones amb VIH en països de baixos recursos.\n\nPer a fer front a semblant injustícia va sorgir un moviment global enfront del domini de les patents sobre medicaments vitals. Els pioners d'aquesta lluita, organitzacions de la societat civil, sobretot persones amb VIH, aquests pacients de les meues companyes es van enfrontar a l'abús d ela indústria farmacèutica i a la inacció dels Governs, i van obrir el camí perquè avui hi haja versions genèriques més assequibles dels antiretrovirals.\n\nEn superar els monopolis sobre aquests medicaments i fomenta la producció i la competència dels genèrics, el preu dels medicaments antiretrovirals va caure un noranta nou per cent en deu anys; en 2019, vint-i-sis milions ja estaven rebent antiretrovirals i els cost del tractament se situa per sota del setanta dòlars per persona i any.\n\nAquesta història d'èxit ens agradaria que es repetís, aquesta força que te la societat civil que ens agradaria també mobilitzar ara. I aquesta moció és un exemple.\n\nDurant aquesta pandèmia hem vist com la resposta enfront de la COVID depenia molt en diferents parts del món perquè incidia de manera diferent, però també per la capacitat de resposta dels propis països. I sobretot ho veiem ara si ens centrem en què està passant amb la vacuna de la COVID.\n\nEn temps rècord s'ha trobat una vacuna, menys d'un any. Els estats s'han bolcat recolzant a la indústria farmacèutica per a trobar una solució a aquesta pandèmia. Molta inversió pública però sense requisits.\n\nEl sistema actual de vacunes no és un sistema que tingue com a principal objectiu la salut pública o evitar morts sinó que són altres condicionants econòmics i comercials.\n\nÉs clar que en temps de pandèmia no valen les lleis del mercat. La indústria farmacèutica té el poder, però podríem llevar-li'l.\n\nLa desigualtat en l'accés a vacunes ésevident, el sistema actual no és equitatiu i com a ciutadans ens toca ser conscients i fer el que sigui a les nostres mans per a canviar-ho. Des de la societat civil ho estem intentant, organitzacions com Amnistia Internacional també ens acompanyen. I aquesta moció és un pas endavant per al canvi.\n\nSi alguna cosa no tenim no tenim en aquest pandèmia és temps, anem permanentment darrere d'ella. És fonamental accelerar els ritmes de fabricació-i e producció de vacunes i assegurar un accés equitatiu a tot el món, no sols als països de rendes altes. Perquè enfront d'una pandèmia mundial fins que no estiguem tots vacunats ningú estarem fora de perill.\n\nMoltes gràcies.",
+      "temes": [
+        "salut",
+        "participacio_ciutadana",
+        "economia"
+      ],
+      "temes_v2": {
+        "serveis_publics": [
+          "salut"
+        ],
+        "drets_i_igualtat": [
+          "drets_humans"
+        ],
+        "economia": [
+          "pressupostos"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "Delegada de Médicos Sin Fronteras expone la necesidad de garantizar acceso universal a las vacunas COVID, comparando con el movimiento histórico para democratizar los medicamentos antirretrovirales, y enfatiza que la desigualdad en el acceso a vacunas es injusta y afecta la salud global.",
+      "resum_val": "Delegada de Metges Sense Fronteres exposa la necessitat de garantir accés universal a les vacunes COVID, comparant amb el moviment històric per democratitzar els medicaments antiretrovirals, i emfatitza que la desigualtat en l'accés a vacunes és injusta i afecta la salut global.",
+      "cap_subtopics": [
+        300,
+        1906,
+        1500
+      ],
+      "cap_major": [
+        3,
+        15,
+        19
+      ]
+    },
+    {
+      "id": "2021-04-29-004",
+      "pleno_id": "2021-04-29",
+      "fecha": "2021-04-29",
+      "mandat_id": "2019-2023",
+      "ordre": 4,
+      "intervinient": "Luis Vañó Gisbert",
+      "entitat": "CERMI-CV",
+      "entitat_id": "cermi-cv",
+      "tipus_entitat": "av",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "moció presentada per Ciudadanos",
+      "idioma_original": "mixt",
+      "text_cas": "Muchas gracias a todos y a todas por habernos aceptado esta comparecencia nuestra como manifestación y que lo sepan de la moción presentada por Ciudadanos.\n\nLa **discapacidad como circunstancia en la vida** de las personas es un elemento más que refleja la **diversidad y la riqueza** de los seres humanos. Reconocerla implica **suprimir connotaciones interpretativas** al hecho de la discapacidad y actuar desde el **compromiso de la inclusión con plena igualdad de oportunidades**. La discapacidad no es una circunstancia estanca sino que forma parte del crisol de la sociedad. En definitiva, la **diversidad define la riqueza de la sociedad**. Dentro de cualquiera de los públicos objetivos que trata el Ayuntamiento siempre habrá personas con discapacidad. Y por tanto, reconocerlas lleva consigo, un **discurso y un trato coherente y adecuado**.\n\nY por esta plasmación es tan importante **establecer un programa de formación, información, comunicación y sensibilización específica** en trato adecuado a personas con discapacidad dentro del Ayuntamiento de Valencia; para impartirlo a personal que tratan con la ciudadanía: **policías locales, funcionarios de atención directa, agencias de turismo municipal, Protección Civil municipal, conductores de la EMT**, etc. Esta formación para el trato adecuado a personas con discapacidad, que recordemos que es **el sector de la sociedad más diverso que hay** pues cada discapacidad tiene sus particularidades específicas de trato y atención. **Evitar el lenguaje discriminatorio y estigmatizante** que pone el énfasis en la discapacidad por delante de la condición de persona, ya que **el lenguaje condiciona la representación mental** de cualquier realidad.\n\nEn esta formación se muestran a las personas con discapacidad en **situaciones cotidianas diversas** para subrayar sus capacidades y favorecer una **visión normalizada**. Comprender que cuando hablamos de personas con discapacidad no estamos hablando de **un otro, una otra que está del otro lado**, no existe un universo diferenciado para las personas con discapacidad y para las personas sin discapacidad, sino un único en el cual **interactuamos absolutamente todos y todas**. **Diversidad no es un término que le compete a alguien** por tener una característica diferente a la mayoría.\n\nLa propuesta de esta formación constan de **10 protocolos y 12 vídeos de material audiovisual** de trato adecuado que abarcan a todas las clases de discapacidad, hará que se **supriman las barreras actitudinales** hacia la discapacidad que hacen que no haya **accesibilidad en la comunicación** y que son aquellas conductas, palabras, frases, expresiones, sentimientos, puntos de vista, ideas, expectativas, creencias, preconcepciones o estigmas que impiden u obstaculizan el acceso de las personas con discapacidad a **la inclusión y participación en los ámbitos de la sociedad**.\n\nLas **barreras actitudinales están basadas en estereotipos y el estigma**, que construyen el sistema de creencias sobre las personas con discapacidad que posteriormente condiciona el comportamiento de los individuos. El resultado de este comportamiento basado en estereotipos y perjuicios conduce a **la falta de autoestima, la discriminación, la exclusión social, el déficit de participación y la desigualdad**.\n\nEn definitiva, es **formar en el procedimiento adecuado o correcto** para una mejor calidad de vida para todos y todas y saber perfectamente una serie de **protocolos de atención adecuados** hacia la heterogeneidad de la discapacidad, para poder así **eliminar las barreras actitudinales**.\n\n**No nos conviertas en héroes, heroínas, víctimas o culpables** por nuestro tipo de discapacidad. Comprende, conoce, empatiza con esa discapacidad. **Trátanos como seres humanos únicos, iguales que tú, con las mismas aspiraciones y derechos**. **Seamos accesibles porque el acceso a los derechos** no es solo una rampa, **el acceso al derecho puedes ser tú mismo**.",
+      "text_val": "Moltes gràcies a tots i a totes per haver-nos acceptat aquesta compareixença nostra com a manifestació i que ho sàpiguen de la moció presentada per Ciudadanos.\n\nLa **discapacitat com a circumstància en la vida** de les persones és un element més que reflecteix la **diversitat i la riquesa** dels éssers humans. Reconèixer-la implica **suprimir connotacions interpretatives** al fet de la discapacitat i actuar desde el **compromís de la inclusió amb plena igualtat d'oportunitats**. La discapacitat no és una circumstància estanca sinó que forma part del cresol de la societat. En definitiva, la **diversitat definix la riquesa de la societat**. Dins de qualsevol dels públics objectius que tracta l'Ajuntament sempre hi haurà persones amb discapacitat. I per tant, reconèixer-les duu consigo, un **discurs i un tracte coherent i adequat**.\n\nI per aquesta plasmació és tan important **establir un programa de formació, informació, comunicació i sensibilització específica** en tracte adequat a persones amb discapacitat dins de l'Ajuntament de València; per a impartir-lo a personal que tracten amb la ciutadania: **policies locals, funcionaris d'atenció directa, agències de turisme municipal, Protecció Civil municipal, conductors de l'EMT**, etc. Aquesta formació per al tracte adequat a persones amb discapacitat, que recordem que és **el sector més divers que hi ha** ja que cada discapacitat té les seues particularitats específiques de tracte i atenció. **Evitar el llenguatge discriminatori i estigmatitzant** que posa l'èmfasi en la discapacitat per davant de la condició de persona, ja que **el llenguatge condiciona la representació mental** de qualsevol realitat.\n\nEn aquesta formació es mostren a les persones amb discapacitat en **situacions quotidianes diverses** per a subratllar les seues capacitats i fomentar una **visió normalitzada**. Comprendre que quan parlem de persones amb discapacitat no estem parlant d'**un altre, una altra que està de l'altre costat**, no existix un univers diferenciat per a les persones amb discapacitat i per a les persones sense discapacitat, sinó un de sol en el qual **interactuem absolutament tots i totes**. **Diversitat no és un terme que li competix a algú** per tindre una característica diferent a la majoria.\n\nLa proposta d'aquesta formació constan de **10 protocols i 12 vídeos de material audiovisual** de tracte adequat que abasten a totes les classes de discapacitat, farà que es **suprimixen les barreres actitudinals** cap a la discapacitat que fan que no hi haja **accessibilitat en la comunicació** i que són aquelles conductes, paraules, frases, expressions, sentiments, punts de vista, idees, expectatives, creences, preconcepcions o estigmes que impedixen o obstaculitzen l'accés de les persones amb discapacitat a **la inclusió i participació en els àmbits de la societat**.\n\nLes **barreres actitudinals estan basades en estereotips i l'estigma**, que construixen el sistema de creences sobre les persones amb discapacitat que posteriorment condiciona el comportament dels individus. I el resultat d'aquest comportament basat en estereotips i perjudicis conduïx a **la manca d'autoestimes, la discriminació, l'exclusió social, el dèficit de participació i la desigualtat**.\n\nEn definitiva, és **formar en el procediment adequat o correcte** per a una millor qualitat de vida per a tots i totes i saber perfectament una sèrie de **protocols d'atenció adequats** cap a l'heterogeneïtat de la discapacitat, per a poder així **eliminar les barreres actitudinals**.\n\n**No ens convertisques en herois, heroïnes, víctimes o culpables** per la nostra mena de discapacitat. Comprén, coneix, empatitza amb essa discapacitat. **Tracta'ns com a éssers humans únics, iguals que tu, amb les mateixes aspiracions i drets**. **Siga accessibles perquè l'accés als drets** no és només una rampa, **l'accés al dret pots ser tu mateix**.",
+      "temes": [
+        "igualtat",
+        "participacio_ciutadana",
+        "serveis_socials",
+        "educacio"
+      ],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "diversitat",
+          "drets_humans"
+        ],
+        "serveis_publics": [
+          "seguretat"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "CERMI-CV solicita la implementación de un programa de formación en trato adecuado a personas con discapacidad dirigido a empleados municipales para eliminar barreras actitudinales y promover inclusión y accesibilidad comunicativa.",
+      "resum_val": "CERMI-CV sol·licita la implantació d'un programa de formació en tracte adequat a persones amb discapacitat dirigit a empleats municipals per eliminar barreres actitudinals i promoure inclusió i accessibilitat comunicativa.",
+      "cap_subtopics": [
+        201,
+        1200,
+        1401
+      ],
+      "cap_major": [
+        2,
+        12,
+        14
+      ]
+    },
+    {
+      "id": "2021-04-29-005",
+      "pleno_id": "2021-04-29",
+      "fecha": "2021-04-29",
+      "mandat_id": "2019-2023",
+      "ordre": 5,
+      "intervinient": "[***]",
+      "entitat": "Col·lectiu Lambda",
+      "entitat_id": "col-lectiu-lambda",
+      "tipus_entitat": "ong",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "Votació sobre declaració institucional de condemna de la violència contra col·lectius LGTB+",
+      "idioma_original": "mixt",
+      "text_cas": "Buenas tardes.\n\nQuiero comenzar esta intervención agradeciendo que se permita nuestra participación en el Pleno.\n\nSabemos que es nuestro derecho pero como **activista por los derechos LGTB**, que son **derechos humanos**, efectivamente comprobar que esta es la casa de todos y todas es un orgullo.\n\nMi nombre es [*], soy el **nuevo coordinador general de Lambda**, el **colectivo LGTB+ por la diversidad sexual, de género y familiar**. Para quien no lo sepa, soy de un pueblo de Albacete, soy docente de Ciencias, soy creyente y sobre todo soy activista. Quizás alguna de estas vertientes salga a lo largo de mi intervención. Hoy se somete a votación una cuestión que para mí **no debería ser necesario votar en una sociedad democrática**, pero cuando la **cizaña infecta un espacio** se acaba teniendo que votar si un ayuntamiento como institución **condena o no la violencia** contra personas y colectivos que son el ejemplo de la diversidad de esta ciudad. La cizaña es una planta de color verde, se parece mucho al trigo y por eso se cuela en los campos. Y de manera similar se ha colado en nuestra sociedad el **odio y el fascismo** que legitima a determinadas personas para hacer **pintadas a nuestras compañeras antirracistas**, para **poner silicona a nuestras puertas**, para **insultar deportistas**, para **romper tabiques nasales y fémures**. Y es que así como la cizaña suelta la semilla tóxica allá donde arraigas, el **discurso de odio intoxica las sociedades** y culturas donde se les da cabida.\n\nSeñor alcalde, señoras y señores concejales y concejalas de Compromís, del PSPV, de Ciudadanos, del PP, desde los **colectivos LGTB+** mantenemos con algunas de sus formaciones **ideas diametralmente opuestas** pero hoy no queremos poner en valor los desacuerdos, hoy lo que necesitamos es **centrar el debate en la defensa de la esencia de la democracia**. Y la democracia no puede florecer mientras la cizaña no sea extirpada. Hasta que no fumiguemos contra el odio y condenemos la violencia contra entidades y personas que son ejemplo de diversidad nunca nuestra democracia dará fruto.\n\nPara ir terminando, me gustaría dirigirme a cada uno de los concejales y concejalas, pero por tiempo me dirigiré a quienes nos representan: Joan, Sergi, Sandra, Carlos, Fernando, Mª José, **apelo a vosotros como ayuntamiento**, pero me dirijo a vosotros por vuestro nombre porque **esto va más allá de las siglas, esto va de personas**. Os pido **altura moral**, **unidad**, **un frente común sin fisuras**, que ponga **negro sobre blanco quién defiende la palabra y quién ampara la violencia**. Y os pido que este **compromiso sea coherente**, aquí, en Madrid o en Albacete. Porque como dice un dicho alemán, si nueve personas están en la misma mesa que un fascista se alzan diez fascistas. Y quien dice mesa dice gobierno.\n\nY un mensajito en castellano para evitar que algunos no se den por aludidos porque digan que no me entienden dado el manifiesto desprecio que muestran hacia el valenciano, que por cierto también es mi lengua. **Ustedes son la cizaña** y desde que entraron en este Ayuntamiento **no ha vuelto a salir adelante una declaración institucional en favor de los derechos humanos**. Así que no voy a gastar saliva, no espero nada de ustedes. Mientras no entiendan que **los ataques a la democracia** en forma de pintadas, en forma de silicona, en forma de balas, en sobres, en forma de navajas, en forma de huesos rotos, **se deben condenar sin ambages**. Sigan haciendo como hasta ahora, nada. Sigan cobrando un sueldo por no hacer nada. Sigan aportando lo que aportan a la sociedad, nada. Sigan aportando lo mismo que hasta ahora a la democracia, nada. Hagan como la cizaña, pónganse secar al sol, que es lo suyo, y sigan haciendo la fotosíntesis.\n\nAl resto, por favor, **manténganse en el lado bueno de la historia**.\n\nMuchas gracias.",
+      "text_val": "Bona vesprada ja.\n\nVull començar aquesta intervenció agraint que es permeta la nostra participació al Ple.\n\nSabem que és el nostre dret però com a activista pels drets LGTB, que són drets humans, efectivament comprovar que aquesta és la casa de totes i tots és un orgull.\n\nEl meu nom és [***], sóc el nou coordinador general de Lambda, el col·lectiu LGTB+ per la diversitat sexual, de gènere i familiar. Per a qui no ho sàpiga, sóc d'un poble d'Albacete, sóc docent de Ciències, sóc creient i sobretot sóc activista. Potser alguna d'estes vessants isca al llarg de la meua intervenció. Hui se sotmet a votació una qüestió que per a mi no hauria de ser necessari votar en una societat democràtica, però quan la zitzània -la cizaña, en castellano- infecta un espai s'acaba havent de votar si un ajuntament com a institució condemna o no la violència contra persones i col·lectius que són l'exemple de la diversitat d'aquesta ciutat. La zitzània es una planta de color verd, s'assembla molt al blat i per això es cola en els camps. I de manera similar s'ha colat a la nostra societat l'odi i el feixisme que legitima a determinades persones per a fer pintades a les nostres companyes antiracistes, per a posar silicona a les nostres portes, per a insultar esportistes, per a trencar tabics nasals i fèmurs. I és que així com la zitzània solta la llavor tòxica allà on arrela, el discurs d'odi intoxica les societats i cultures on se'ls dona cabuda.\n\nSenyor alcalde, senyores i senyors regidors i regidores de Compromís, del PSPV, de Ciutadans, del PP, des dels col·lectius LGTB+ mantenim amb algunes de les seues formacions idees diametralment oposades però hui no volem posar en valor els desacords, hui el que necessitem és centrar el debat en la defensa de l'essència de la democràcia. I la democràcia no pot florir mentre la zitzània no siga extirpada. Fins que no fumiguem contra l'odi i condemnem la violència contra entitats i persones que són exemple de diversitat mai la nostra democràcia donarà fruit.\n\nPer anar acabant, m'agradaria dirigir-me a cadascun dels regidors i regidores, però per temps m'adreçaré als qui ens representen: Joan, Sergi, Sandra, Carlos, Fernando, Mª José, apel·le a vosaltres com a ajuntament i com a portaveus dels vostres grups municipals, però em dirigisc a vosaltres pel vostre nom perquè açò va més enllà de les sigles, açò va de persones. Us demane altura moral, us demane unitat, us demane un front comú sense fissures, que pose negre sobre blanc qui defensa la paraula i qui empara la violència. I us demane que aquest compromís siga coherent, ací, a Madrid o a Albacete. Perquè com diu una dita alemanya, si nou persones estan a la mateixa taula que un feixista s'alçaran deu feixistes. I qui diu taula diu govern.\n\nY un mensajito en castellano para evitar que algunos no se den por aludidos porque digan que no me entienden dado el manifiesto desprecio que muestran hacia el valenciano, que por cierto también es mi lengua. Ustedes son la cizaña y desde que entraron en este Ayuntamiento no ha vuelto a salir adelante una declaración institucional en favor de los derechos humanos. Así que no voy a gastar saliva, no espero nada de ustedes. Mientras no entiendan que los ataques a la democracia en forma de pintadas, en forma de silicona, en forma de balas, en sobres, en forma de navajas, en forma de huesos rotos, se deben condenar sin ambages. Sigan haciendo como hasta ahora, nada. Sigan cobrando un sueldo por no hacer nada. Sigan aportando lo que aportan a la sociedad, nada. Sigan aportando lo mismo que hasta ahora a la democracia, nada. Hagan como la cizaña, pónganse secar al sol, que es lo suyo, y sigan haciendo la fotosíntesis.\n\nA la resta, per favor, mantingeu-vos en el costat bode la història.\n\nMoltes gràcies.",
+      "temes": [
+        "igualtat",
+        "participacio_ciutadana",
+        "seguretat",
+        "memoria_historica"
+      ],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "diversitat",
+          "interculturalitat_i_antiracisme",
+          "drets_humans"
+        ],
+        "participacio": [
+          "participacio",
+          "transparencia"
+        ],
+        "cultura": [
+          "associacionisme"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "El coordinador general de Lambda reclama una declaración institucional de condena de la violencia contra el colectivo LGTB+, criticando la inacción de ciertos grupos políticos y apelando a la unidad democrática frente al odio y el fascismo.",
+      "resum_val": "El coordinador general de Lambda reclama una declaració institucional de condemna de la violència contra el col·lectiu LGTB+, criticant la inacció de certs grups polítics i apel·lant a la unitat democràtica front a l'odi i el feixisme.",
+      "cap_subtopics": [
+        201,
+        1906,
+        2000,
+        2015
+      ],
+      "cap_major": [
+        2,
+        19,
+        20
+      ]
+    },
+    {
+      "id": "2021-04-29-006",
+      "pleno_id": "2021-04-29",
+      "fecha": "2021-04-29",
+      "mandat_id": "2019-2023",
+      "ordre": 6,
+      "intervinient": "[***]",
+      "entitat": "Federació Unió Africana Espanya / SOS Racisme País Valencià",
+      "entitat_id": "sos-racisme-unio-africana",
+      "tipus_entitat": "ong",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "no especificat",
+      "idioma_original": "valenciano",
+      "text_cas": "Buenas tardes a todos y todas, soy [*], de la **Federación Unión Africana España**; una asociación nacional representada en toda España y que tiene su sede nacional aquí en el País Valenciano.\n\nHoy queremos seguir en el valioso mensaje del alcalde de Valencia, Joan Ribó, para **trabajar la cohesión social y rechazar el odio** en el País Valenciano. Queremos también agradecer a los grupos políticos de Compromís y del PSOE por brindarnos la oportunidad de **rechazar el racismo y la xenofobia**. Pensamos que la ciudad de la luz, del arroz y tartana; de Joaquim Sorolla, de Tirant lo Blanc entre otras eminencias valencianas no merece el odio. El tuit del alcalde de Valencia lo guardaremos para la memoria histórica. **Rechazamos las pintadas** en nuestro local con palabras como «Africanos a África», «Fuera traidores e invasores» y **las agresiones al Colectivo LAMBDA** no caben en el País Valenciano.\n\nPero, a los intolerantes queremos decirles: si tienes odio dentro, abre un libro y cúrate. Adelina Cortina, valenciana catedrática de ética dice: «**Necesitamos todas las culturas** para resolver los problemas sociales que tenemos como seres humanos». Lo que quiere decir que la **población local valenciana necesita el catorce por ciento de la población inmigrante** que forma parte del vecindario valenciano y viceversa para una **sociedad intercultural, diversa e más igualitaria**.\n\nAl mismo tiempo, para finalizar, quiero compartir con ustedes un **proverbio africano de Senegal**, Ben lokho do taccu, lo que quiere decir: «Una mano no aplaude, **necesitamos dos manos para aplaudir**».\n\nMuchas gracias a todos y todas.",
+      "text_val": "Bona vesprada a totes i tots, sóc [***], de la Federació Unió Africana Espanya; una associació nacional representada a tota Espanya i que té la seua seu nacional aquí al País Valencià.\n\nAvui volem seguir en el valuós missatge de l'alcalde de València, Joan Ribó, per a treballar la cohesió social i rebutjar l'odi al País Valencià. Volem també agrair als grups polítics de Compromís i del PSOE per brindar-nos l'oportunitat de rebutjar el racisme i la xenofòbia. Pensem que la ciutat de la llum, d'arròs i tartana; de Joaquim Sorolla, de Tirant lo Blanc entre altres eminències valencians no menyscabe l'odi. El tuit de l'alcalde de València el guardarem per la memòria històrica. Rebutgem les pintades en el nostre local amb paraules com «Africans a l'Àfrica», «Fora traïdors i invasors» i les agressions al Col·lectiu LAMBDA no caben al País Valencià.\n\nPerò, als intolerants volem dir-los: si tens odi dins, obri un llibre i cura't. Adelina Cortina, valenciana catedràtica d'ètica diu: «Necessitem totes les cultures per resoldre els problemes socials que tenim com a éssers humans». El que vol dir que la població local valenciana necessita el catorze per cent de la població immigrant que forma part del veïnat valencià i viceversa per una societat intercultural, diversa i més igualitària.\n\nAl mateix temps, per finalitzar, vull compartir amb vostés un proverbi africà de Senegal, Ben lokho do taccu, el que vol dir: «Una mà no aplaudeix, necessitem dues mans per aplaudir».\n\nMoltes gràcies a totes i tots.",
+      "temes": [
+        "igualtat",
+        "memoria_historica",
+        "participacio_ciutadana",
+        "seguretat"
+      ],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "interculturalitat_i_antiracisme",
+          "diversitat",
+          "drets_humans"
+        ],
+        "cultura": [
+          "associacionisme"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "Representante de la Federación Unión Africana España rechaza el racismo y la xenofobia en Valencia, apoyando el mensaje del alcalde sobre cohesión social e interculturalismo.",
+      "resum_val": "Representant de la Federació Unió Africana Espanya rebutja el racisme i la xenofòbia a València, donant suport al missatge de l'alcalde sobre cohesió social i interculturalisme.",
+      "cap_subtopics": [
+        201,
+        1906,
+        900,
+        2300
+      ],
+      "cap_major": [
+        2,
+        9,
+        19,
+        23
+      ]
+    },
+    {
+      "id": "2021-04-29-007",
+      "pleno_id": "2021-04-29",
+      "fecha": "2021-04-29",
+      "mandat_id": "2019-2023",
+      "ordre": 7,
+      "intervinient": "[***]",
+      "entitat": "Agrupación de Peñas Valencianista y Aficiones Unidas",
+      "entitat_id": "penas-valencianista",
+      "tipus_entitat": "esportiu",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "acuerdo sobre rechazo a la violencia, racismo, xenofobia e intolerancia en el ámbito deportivo",
+      "idioma_original": "castellano",
+      "text_cas": "Buenas tardes. Vicealcaldesa, vicealcalde y resto de la corporación municipal. Muchas gracias por darme la posibilidad de participar en este Pleno.\n\nImportantes son los motivos por los cuales participo hoy con ustedes como **presidente de la Agrupación de Peñas Valencianista**, representado a **trescientos cincuenta y siete peñas y más de veinte mil peñistas** repartidos por toda nuestra comunidad, por el territorio nacional y el resto del mundo. Asimismo, como directivo de **Aficiones Unidas**, asociación que agrupa a todas las federaciones de peñas del fútbol profesional y segunda B en España.\n\nHoy aquí se propone **un acuerdo imprescindible para nuestra sociedad**: la **manifestación constante de rechazo absoluto a la violencia**, de cualquier índole al **racismo, la xenofobia y la intolerancia** en el ámbito deportivo y resto de ellos.\n\nEn los estatutos de las dos asociaciones que represento tenemos como uno de nuestros fines todo lo mencionado hace unos instantes y también el **fomento de la afición al fútbol y cultura deportiva** en general.\n\nQuiero dejar constancia, y tras los hechos acontecidos el **pasado cuatro de abril con nuestro jugador Diakhaby**, al cual manifestamos nuestro **apoyo incondicional**, públicamente, porque en aquel partido algo sucedió, seguro, todos creo que lo tenemos claro. Nuestro apoyo a la **propuesta de acuerdo** que hoy espero que aprueben ustedes. Aprovecho este momento para solicitar a la **Liga de Fútbol Profesional, a la Real Federación Española de Fútbol y al Consejo Superior del Deporte** que **continúen las investigaciones** sobre los casos que estamos observando últimamente, que se **creen protocolos y normativas** contra este tipo de hechos y consignamos **erradicar estas acciones racistas, xenófobas, intolerantes y todo tipo de violencia**.\n\nPara finalizar, he sido breve, darles de nuevo las gracias por poder estar aquí hoy y pedirles que **se sensibilicen con la preocupación existente** en la ciudadanía y en el valencianismo sobre los **problemas actuales de nuestro València CF**.\n\nUn saludo a todos y muchísimas gracias por escucharme.",
+      "text_val": "Bones tardes. Vicealcaldesa, vicealcalde i resta de la corporació municipal. Moltes gràcies per donar-me la possibilitat de participar en aquest Ple.\n\nImportants són els motius pels quals participo hui amb vosaltres com a **president de l'Agrupació de Penya Valencianista**, representant a **tres-cents cinquanta-set penyistes i més de vint mil aficionats** repartits per tota la nostra comunitat, pel territori nacional i la resta del món. Així mateix, com a directiu d'**Aficiones Unidas**, associació que agrupa totes les federacions de penyistes del futbol professional i segona B a Espanya.\n\nHui ací es proposa **un acord imprescindible per a la nostra societat**: la **manifestació constant de rebuig absolut a la violència** de qualsevol tipus, al **racisme, la xenofòbia i la intolerància** en l'àmbit esportiu i la resta.\n\nEn els estatuts de les dos associacions que represente tenim com a un dels nostres fins tot allò esmentat fa uns instants i també el **foment de l'afició al futbol i la cultura esportiva** en general.\n\nVull deixar constància, i després dels fets succehits el **passat quatre d'abril amb el nostre jugador Diakhaby**, al qual manifestem el nostre **suport incondicional** públicament, perquè en aquell partit algo va passar, segur, crec que tots ho tenim clar. El nostre suport a la **proposta d'acord** que hui espere que aproven vosaltres. Aprofite aquest moment per a sol·licitar a la **Lliga de Futbol Professional, a la Reial Federació Espanyola de Futbol i al Consell Superior de l'Esport** que **continúen les investigacions** sobre els casos que estem observant últimament, que es **creen protocols i normatives** contra este tipus de fets i ens consignem **eradicar aquestes accions racistes, xenòfobes, intolerantes i tot tipus de violència**.\n\nPer a finalitzar, he sigut breu, donar-vos de nou les gràcies per poder estar ací hui i demanar-vos que **us sensibilitzeu amb la preocupació existent** en la ciutadania i en el valencianisme sobre els **problemes actuals del nostre València CF**.\n\nUn salutació a tots i moltes gràcies per escoltar-me.",
+      "temes": [
+        "esports",
+        "seguretat",
+        "igualtat"
+      ],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "interculturalitat_i_antiracisme",
+          "drets_humans"
+        ],
+        "serveis_publics": [
+          "esports"
+        ],
+        "cultura": [
+          "associacionisme"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "El presidente de la Agrupación de Peñas Valencianista y de Aficiones Unidas manifiesta apoyo al acuerdo municipal contra la violencia, racismo y xenofobia en el deporte, solicitando investigaciones sobre incidentes racistas recientes y protocolos de prevención.",
+      "resum_val": "El president de l'Agrupació de Penya Valencianista i d'Aficiones Unides mostra suport a l'acord municipal contra la violència, el racisme i la xenofòbia en l'esport, sol·licitant investigacions sobre incidents racistes recents i protocols de prevenció.",
+      "cap_subtopics": [
+        202,
+        1526,
+        1906,
+        2300
+      ],
+      "cap_major": [
+        2,
+        15,
+        19,
+        23
+      ]
+    },
+    {
+      "id": "2021-04-29-008",
+      "pleno_id": "2021-04-29",
+      "fecha": "2021-04-29",
+      "mandat_id": "2019-2023",
+      "ordre": 8,
+      "intervinient": "[***]",
+      "entitat": "Federación de Natación de la Comunitat Valenciana",
+      "entitat_id": "federacio-natacio-cv",
+      "tipus_entitat": "esportiu",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "no especificado",
+      "idioma_original": "mixt",
+      "text_cas": "Se agradece. Buenas tardes.\n\nRepresento a la **Federación de Natación de la Comunitat Valenciana** y queremos compartir con el Pleno de esta ciudad en la que estamos ubicados como sede un comunicado que ya hicimos partícipes a toda la comunidad de la natación de la Comunidad Valenciana:\n\nEntendemos la **diversidad como la capacidad** que tiene nuestra sociedad de ser diferentes y plural, y en consecuencia, lo que la convierte en una sociedad enriquecedora. Es por ello, que desde esta **Vocalía de Transparencia y Diversidad** de la Federación de Natación de la CV estamos trabajando para fomentar el respeto y conseguir entre todos que esta **integración sea real**, haciendo de este modo que todos nuestros deportistas puedan practicar todos nuestros deportes acuáticos **sin ningún tipo de discriminación** y de modo seguro. Dicho esto, queremos poner de manifiesto que desde la Federación de Natación de la Comunitat Valenciana **serán rechazadas todas las actitudes y actos discriminatorios** sean de la índole que sean.\n\nComo punto de arranque, desde esta Vocalía y su grupo de trabajo nos proponemos **potenciar e impulsar el respeto al colectivo LGTB+** teniendo como objetivo alcanzar un **compromiso de clubes, entrenadores y deportistas** en el trabajo por la **igualdad del colectivo LGTB** de forma activa. En primer lugar, animamos a todos los que estamentos federativos y deportistas a que tengan **gestos de solidaridad** y **eviten los comportamientos homófobos, tránfobos o bífodos** para que se pueda crear el **ambiente adecuado donde todos se encuentren en igualdad** y puedan disfrutar de su vida privada independientemente de su orientación sexual o identidad de género. Se informará a clubes, entrenadores y demás estamentos en la **diversidad de expresión de género, identidad de género y orientación afectivo-sexual**. Asimismo, se formará al colectivo arbitral que pida a las y los árbitros que recojan en las actas arbitrales las **actuaciones LGTBifobas** en las competiciones que esta Federación organice. Pudiendo quedar estas actuaciones sujetas al **régimen disciplinario federativo**.\n\nMuchas gracias por su atención, buenas tardes.",
+      "text_val": "**Moltes gràcies. Bona tarda.**\n\nRepresento la **Federació de Natació de la Comunitat Valenciana** i volem compartir amb el Ple d'aquesta ciutat en la que estem ubicats com a seu un comunicat que ja vam fer partícips tota la comunitat de la natació de la Comunitat Valenciana:\n\nEntenem la **diversitat** com la capacitat que té la nostra societat de ser diferents i plural, i en conseqüència, la que la converteix en una **societat enriquidora**. Per això, des d'aquesta **Vocalía de Transparència i Diversitat** de la Federació de Natació de la CV estem treballant per a fomentar el respecte i aconseguir entre tots que aquesta integració siga real, fent d'aquest mode que tots els nostres esportistes puguen practicar tots els nostres esports aquàtics **sense cap tipus de discriminació** i de manera segura. Dit això, volem posar de manifest que des de la Federació de Natació de la Comunitat Valenciana seran **rebutjades totes les actituds i actes discriminatoris** siguen de la índole que siguen.\n\nCom a punt de partida, des d'aquesta Vocalía i el seu grup de treball ens proposem potenciar i impulsar el respecte al col·lectiu **LGTB+** tenint com a objectiu aconseguir un **compromís de clubs, entrenadors i entrenadoras, jutges i jutgesses, i esportistes** en el treball per a la igualtat del col·lectiu LGTB de forma activa. En primer lloc, animem a tots els que estaments federatius i esportistes que tingueren **gests de solidaritat** i eviten els comportaments i comentaris **homòfobs, tránfobs o bífobs** per a que es puga crear l'ambient adequat on tots els companys i companyes es troven en igualtat i puguen gaudir de la seua vida privada independentment de la seua orientació sexual o identitat de gènere. S'informarà a clubs, entrenadors i demés estaments en la **diversitat d'expressió de gènere, identitat de gènere i orientació afectiu-sexual**. Així mateix, es formarà al col·lectiu arbitral que demane als i als àrbitres que recullen en les actes arbitrals les **actuacions LGTBifòbiques** en les competicions que aquesta Federació organitze. Podent quedar aquestes actuacions subjectes al **règim disciplinari federatiu**.\n\nMoltes gràcies per la vostra atenció, bona tarda.",
+      "temes": [
+        "esports",
+        "igualtat",
+        "participacio_ciutadana"
+      ],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "diversitat",
+          "igualtat_de_genere"
+        ],
+        "serveis_publics": [
+          "esports"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "La Federación de Natación de la Comunitat Valenciana presenta un comunicado sobre diversidad e igualdad, comprometiéndose a rechazar actos discriminatorios y a impulsar el respeto al colectivo LGTB+ en el deporte acuático mediante formación y medidas disciplinarias.",
+      "resum_val": "La Federació de Natació de la Comunitat Valenciana presenta un comunicat sobre diversitat i igualtat, comprometent-se a rebutjar actes discriminatoris i a impulsar el respecte al col·lectiu LGTB+ en l'esport aquàtic mitjançant formació i mesures disciplinàries.",
+      "cap_subtopics": [
+        202,
+        1526
+      ],
+      "cap_major": [
+        2,
+        15
+      ]
+    }
+  ]
+}

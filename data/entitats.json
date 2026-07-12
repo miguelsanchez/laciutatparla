@@ -1,0 +1,4358 @@
+[
+  {
+    "id": "favv",
+    "nom_cas": "Federación de Asociaciones Vecinales de Valencia (FAVV)",
+    "nom_val": "Federació d'Associacions de Veïns de València (FAVV)",
+    "tipus": "av",
+    "variants": [
+      "FAVV (Federación de Asociaciones Vecinales de València)",
+      "Federació d'Associacions de Veïns de València",
+      "Federació d'Associacions de Veïns i Veïnes de València",
+      "Federación de Asociaciones de Vecinos",
+      "Federación de Asociaciones de Vecinos de Valencia",
+      "Federación de Asociaciones de Vecinos de València",
+      "Federación y movimiento vecinal"
+    ],
+    "num_intervencions": 18,
+    "barri": "Cabanyal, Velluters, Malvarrosa, Nazaret, Cabanyal-Canyamelar, Ciutat Vella, Velluters",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "serveis_socials",
+      "mobilitat"
+    ]
+  },
+  {
+    "id": "plataforma-vecinal-penyaroja",
+    "nom_cas": "Plataforma Vecinal Barrio Penya-roja",
+    "nom_val": "Plataforma Veïnal Barri Penya-roja",
+    "tipus": "plataforma",
+    "variants": [
+      "Asociación de Vecinos de Penya-roja",
+      "Associació de Veïns de Penya-roja / Plataforma Vecinal Barrio de Penya-roja",
+      "Associació de Veïns del Barri de Penya-roja",
+      "Plataforma Vecinal Barrio Penya-roja / Asociación de Vecinos de Penya-roja",
+      "Plataforma Vecinal Barrio de Penya-roja",
+      "Plataforma Vecinal Barrio de Penyaroja",
+      "Plataforma Veïnal Barri Penya-roja",
+      "Plataforma Veïnal Barri de Penya-roja",
+      "Plataforma Veïnal Penya-roja",
+      "Plataforma Veïnal del Barri de Penya-Roja",
+      "Plataforma Veïnal del Barri de Penya-roja",
+      "Plataforma de Vecinos de Penya-roja"
+    ],
+    "num_intervencions": 15,
+    "barri": "Barrio de Penyaroja, Penya-Roja, Penya-roja, Penya-roja, Grao, Nazaret, La Punta, Penya-roja, Marítim, Penya-roja, plaza Músico López Chávarri, Torrecalap, Tabacalera",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "barris",
+      "urbanisme"
+    ]
+  },
+  {
+    "id": "associacio-veinal-roqueta",
+    "nom_cas": "Asociación Vecinal La Roqueta",
+    "nom_val": "Associació Veïnal La Roqueta",
+    "tipus": "av",
+    "variants": [
+      "Asociación Vecinal La Roqueta",
+      "Asociación de Vecinos La Roqueta",
+      "Associació Veïnal la Roqueta",
+      "Associació de Veïns La Roqueta",
+      "Associació de Veïns de la Roqueta",
+      "Associación Veïnal la Roqueta"
+    ],
+    "num_intervencions": 12,
+    "barri": "La Roqueta, La Roqueta, Extramurs, Pérez Galdós-Giorgeta, Petxina, Arrancapins, la Roqueta",
+    "temes_principals": [
+      "mobilitat",
+      "medi_ambient",
+      "barris"
+    ]
+  },
+  {
+    "id": "asociacion-intercultural-candombe",
+    "nom_cas": "Asociación Intercultural Candombe",
+    "nom_val": "Associació Intercultural Candombe",
+    "tipus": "ong",
+    "variants": [
+      "Asociación Intercultural Candombe",
+      "Asociación Intercultural Candombe / Campaña por el Cierre de los CIE",
+      "Asociación Intercultural Candombe / Campaña por el Cierre de los Centros de Internamiento para Extranjeros (CIE)",
+      "Associació Cultural Candombé / Movimiento ¡Regularización Ya! / Plataforma Esenciales",
+      "Associació Intercultural Candombe",
+      "Associació Intercultural Candombe / Campaña por el Cierre de los Centros de Internamiento de Extranjeros"
+    ],
+    "num_intervencions": 12,
+    "barri": "València, null",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "igualtat",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "av-la-torre",
+    "nom_cas": "Asociación de Vecinas y Vecinos de La Torre",
+    "nom_val": "Associació de Veïnes i Veïns de La Torre",
+    "tipus": "av",
+    "variants": [
+      "AV La Torre",
+      "AVV La Torre",
+      "Asociación de Vecinos La Torre",
+      "Asociación de Vecinos Sociópolis-La Torre-Faitanar",
+      "Associació de Veïnes i Veïns de la Torre-Faitanar",
+      "Associació de Veïnes i Veïns la Torre",
+      "Associació de Veïns de la Torre"
+    ],
+    "num_intervencions": 11,
+    "barri": "La Torre, La Torre-Faitanar, Sociópolis, Torre-Faitanar",
+    "temes_principals": [
+      "barris",
+      "participacio_ciutadana",
+      "dana_emergencies"
+    ]
+  },
+  {
+    "id": "av-la-petxina",
+    "nom_cas": "Asociación Vecinal de La Petxina",
+    "nom_val": "Associació Veïnal de La Petxina",
+    "tipus": "av",
+    "variants": [
+      "AV Arrancapins-la Petxina",
+      "AV La Petxina",
+      "AV la Petxina",
+      "Asociación de Vecinos Arrancapins-La Petxina",
+      "Associació Veïnal Arrancapins-La Petxina",
+      "Associació de Veïns Arrancapins-La Petxina",
+      "Associació de Veïns de la Petxina / Plataforma del Corredor Verd"
+    ],
+    "num_intervencions": 10,
+    "barri": "Arrancapins-La Petxina, Arrancapins-la Petxina, La Petxina, Petxina, la Petxina",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "urbanisme",
+      "mobilitat"
+    ]
+  },
+  {
+    "id": "col-lectiu-lambda",
+    "nom_cas": "Colectivo Lambda",
+    "nom_val": "Col·lectiu Lambda",
+    "tipus": "ong",
+    "variants": [
+      "Col·lectiu Lambda"
+    ],
+    "num_intervencions": 10,
+    "barri": null,
+    "temes_principals": [
+      "igualtat",
+      "participacio_ciutadana",
+      "cultura"
+    ]
+  },
+  {
+    "id": "asociacion-vecinos-nazaret-unido",
+    "nom_cas": "Asociación de Vecinos Nazaret Unido",
+    "nom_val": "Associació de Veïns Nazaret Unit",
+    "tipus": "av",
+    "variants": [
+      "AV Nazaret Unido",
+      "Asociación de Vecinos Nazaret Unido",
+      "Asociación de Vecinos de Natzaret",
+      "Associació de Veïns I Veïnes de Natzaret",
+      "Associació de Veïns i Veïnes de Natzaret"
+    ],
+    "num_intervencions": 10,
+    "barri": "Natzaret, Natzaret, Grau, Moreres, Punta, Canyamelar, Natzaret, Punta, Pinedo, Grau, Marina, Cabanyal-Canyamelar, Nazaret",
+    "temes_principals": [
+      "urbanisme",
+      "infraestructures",
+      "mobilitat"
+    ]
+  },
+  {
+    "id": "consell-joventut-valencia",
+    "nom_cas": "Consell de la Joventut de València",
+    "nom_val": "Consell de la Joventut de València",
+    "tipus": "altres",
+    "variants": [
+      "Consell de la Joventut de València",
+      "Consell de la Joventut de la Ciutat de València"
+    ],
+    "num_intervencions": 9,
+    "barri": null,
+    "temes_principals": [
+      "joventut",
+      "participacio_ciutadana",
+      "economia"
+    ]
+  },
+  {
+    "id": "fampa-valencia",
+    "nom_cas": "FAMPA València",
+    "nom_val": "FAMPA València",
+    "tipus": "educacio",
+    "variants": [
+      "FAMPA València",
+      "FAMPA València (Federación de Familias de la ciudad de València)",
+      "Federació d'Associacions de Mares, Pares i Persones Tutores d'alumnat de la Província de València – FAMPA València"
+    ],
+    "num_intervencions": 8,
+    "barri": "Castellar-Oliveral, Forn d'Alcedo, La Torre",
+    "temes_principals": [
+      "educacio",
+      "participacio_ciutadana",
+      "igualtat"
+    ]
+  },
+  {
+    "id": "federacio-taxi",
+    "nom_cas": "Federación del Taxi",
+    "nom_val": "Federació del Taxi",
+    "tipus": "empresa",
+    "variants": [
+      "Federació Sindical del Taxi de València",
+      "Federació del Taxi",
+      "Federación Sindical del Taxi de Valencia",
+      "Federación Sindical del Taxi de València",
+      "Federación del Taxi"
+    ],
+    "num_intervencions": 8,
+    "barri": null,
+    "temes_principals": [
+      "mobilitat",
+      "economia",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "av-abastos-finca-roja",
+    "nom_cas": "Asociación Vecinal Abastos-Finca Roja",
+    "nom_val": "Associació Veïnal Abastos-Finca Roja",
+    "tipus": "av",
+    "variants": [
+      "AV Abastos-Finca Roja",
+      "Asociación de Vecinos Abastos-Finca Roja",
+      "Asociación de Vecinos Abastos-Finca Roja / Colectivo Fuera Túnel",
+      "Asociación de Vecinos de Abastos – Finca Roja"
+    ],
+    "num_intervencions": 7,
+    "barri": "Abastos, Abastos-Finca Roja, Arrancapins, Arrancapins, Extramurs",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "barris",
+      "urbanisme"
+    ]
+  },
+  {
+    "id": "cuidem-la-raiosa",
+    "nom_cas": "Asociación Vecinal y Cultural Cuidem La Raïosa",
+    "nom_val": "Associació Veïnal i Cultural Cuidem La Raïosa",
+    "tipus": "av",
+    "variants": [
+      "Asociación Cuidem La Raïosa",
+      "Asociación Cuidem la Raïosa",
+      "Associació Cuidem la Raiosa",
+      "Associació Cuidem la Raïosa"
+    ],
+    "num_intervencions": 7,
+    "barri": "La Raiosa, La Raïosa, La Torre, pedanías del Sur",
+    "temes_principals": [
+      "barris",
+      "participacio_ciutadana",
+      "medi_ambient"
+    ]
+  },
+  {
+    "id": "asociacion-comerciantes-centro-historico-valencia",
+    "nom_cas": "Asociación de Comerciantes del Centro Histórico de València",
+    "nom_val": "Associació de Comerciants del Centre Històric de València",
+    "tipus": "empresa",
+    "variants": [
+      "Asociación de Comerciantes del Centro Histórico de València",
+      "Associació de Comerciants del Centre Històric",
+      "Associació de Comerciants del Centre Històric de València"
+    ],
+    "num_intervencions": 7,
+    "barri": "Centre Històric, Centre Històric (Ciutat Vella), calle Colón, Centro Histórico, Ensanche",
+    "temes_principals": [
+      "economia",
+      "seguretat",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "accio-ecologista-agro",
+    "nom_cas": "Acción Ecologista-Agró",
+    "nom_val": "Acció Ecologista-Agró",
+    "tipus": "plataforma",
+    "variants": [
+      "Acció Ecologista-Agró",
+      "Acció Ecologista-Agró / Valencia en Bici",
+      "Acció Ecologista-Agró, València en Bici",
+      "Associació Acció Ecologista Agró / Plataforma Ciudadana Tanquem Cofrents",
+      "Associació Acció Ecologista-Agró",
+      "Associació Acció Ecologista-Agró / València en Bici"
+    ],
+    "num_intervencions": 7,
+    "barri": "Albufera, Nazaret, litoral sud, Saler",
+    "temes_principals": [
+      "medi_ambient",
+      "participacio_ciutadana",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "plataforma-valencia-aire",
+    "nom_cas": "Plataforma Valencia por el Aire",
+    "nom_val": "Plataforma València per l'Aire",
+    "tipus": "plataforma",
+    "variants": [
+      "Asociación Mesura",
+      "Asociación Mesura / CAVECOVA / València per l'aire",
+      "Associació Mesura / Fundació per la Justícia",
+      "Associació Mesura / Plataforma València per l'Aire",
+      "Plataforma València per l'Aire, Mesura"
+    ],
+    "num_intervencions": 6,
+    "barri": "Patraix, València (general), Oliveral, Cabanyal",
+    "temes_principals": [
+      "medi_ambient",
+      "mobilitat",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "avv-campanar",
+    "nom_cas": "Asociación de Vecinos de Campanar",
+    "nom_val": "Associació de Veïns de Campanar",
+    "tipus": "av",
+    "variants": [
+      "AV Campanar",
+      "AVV Campanar",
+      "Asociación de Vecinos de Campanar",
+      "Associació de Veïns de Campanar"
+    ],
+    "num_intervencions": 6,
+    "barri": "Campanar",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "barris",
+      "urbanisme"
+    ]
+  },
+  {
+    "id": "jovesolides",
+    "nom_cas": "Jóvenes hacia la Solidaridad y el Desarrollo",
+    "nom_val": "Joves cap a la Solidaritat i el Desenvolupament",
+    "tipus": "ong",
+    "variants": [
+      "Jovesólides / Casa Marruecos",
+      "Jóvenes hacia la Solidaridad y el Desarrollo",
+      "Jóvenes hacia la Solidaridad y el Desarrollo / Casa Marruecos",
+      "Jóvenes hacia la Solidaridad y el Desarrollo-Jovesolides",
+      "Jóvenes hacia la Solidaridad y el Desarrollo-Jovesolides, plataforma València amb Palestina, Casa Marruecos, Comunidad Palestina de València"
+    ],
+    "num_intervencions": 6,
+    "barri": "València",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "igualtat",
+      "dana_emergencies"
+    ]
+  },
+  {
+    "id": "asociacion-vecinos-san-antonio-zaidia",
+    "nom_cas": "Asociación de Vecinos de San Antonio-Zaidía",
+    "nom_val": "Associació de Veïns de Sant Antoni-Saïdia",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos de San Antonio-Zaidía",
+      "Asociación de Vecinos de Sant Antoni-Saïdia",
+      "Asociación de Vecinos del Barrio de San Antonio",
+      "Asociación de Vecinos del barrio de San Antonio"
+    ],
+    "num_intervencions": 6,
+    "barri": "San Antonio, San Antonio, distrito de Zaidia, Sant Antoni, Sant Antoni-Saïdia, barrio con calle de Guatla",
+    "temes_principals": [
+      "urbanisme",
+      "patrimoni",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "associacio-veinal-benimaclet",
+    "nom_cas": "Asociación Vecinal de Benimaclet",
+    "nom_val": "Associació Veïnal de Benimaclet",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos de Benimaclet",
+      "Associació Veïnal de Benimaclet / Plataforma de Entitats Veïnals de Benimaclet",
+      "Associació de Veïns de Benimaclet"
+    ],
+    "num_intervencions": 6,
+    "barri": "Benimaclet",
+    "temes_principals": [
+      "urbanisme",
+      "participacio_ciutadana",
+      "barris"
+    ]
+  },
+  {
+    "id": "sta-intersindical",
+    "nom_cas": "STA-Intersindical",
+    "nom_val": "STA-Intersindical",
+    "tipus": "sindical",
+    "variants": [
+      "STA- Intersindical Valenciana",
+      "STA-Intersindical",
+      "Sindicat de Treballadores i Treballadors de les Administracions i els Serveis Publics-Intersindical",
+      "Sindicat de Treballadores i Treballadors de les Administracions i els Serveis Públics-Intersindical Valenciana"
+    ],
+    "num_intervencions": 5,
+    "barri": "Castellar-l'Oliveral, La Torre, Forn d'Alcedo, Torre, Castellar-Oliveral, Forn d'Alcedo, el Tremolar",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "dana_emergencies",
+      "barris"
+    ]
+  },
+  {
+    "id": "associacio-veinats-cultural-consumidors-patraix",
+    "nom_cas": "Asociación de Vecinos, Cultural y de Consumidores Patraix",
+    "nom_val": "Associació de Veïns, Cultural i de Consumidors Patraix",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns, Cultura i de Consumidors Patraix",
+      "Associació de Veïns, Cultural i de Consumidors Patraix",
+      "Associació de Veïns, Cultural i de Consumidors Patraix / ASEBLAC",
+      "Associació de Veïns, Cultural i de Consumidors de Patraix",
+      "Associció de Veïns, Cultural i de Consumidors de Patraix"
+    ],
+    "num_intervencions": 5,
+    "barri": "Patraix",
+    "temes_principals": []
+  },
+  {
+    "id": "ccoo-pv",
+    "nom_cas": "CCOO PV",
+    "nom_val": "CCOO PV",
+    "tipus": "sindical",
+    "variants": [
+      "CCOO",
+      "CCOO PV",
+      "CCOO PV – Consell Consultiu Trans",
+      "Comisiones Obreras (CC.OO.) - Administración Local",
+      "Comisiones Obreras (CCOO) Ajuntament de València"
+    ],
+    "num_intervencions": 5,
+    "barri": null,
+    "temes_principals": [
+      "igualtat",
+      "participacio_ciutadana",
+      "economia"
+    ]
+  },
+  {
+    "id": "spplb-sindical",
+    "nom_cas": "Sindicato Profesional de Policías Locales y Bomberos",
+    "nom_val": "Sindicat Professional de Policia Local i Bombers",
+    "tipus": "sindical",
+    "variants": [
+      "SPPLB",
+      "SPPLB (Sindicat de Professorat de la Banda Municipal de València)",
+      "SPPLB (Sindicato Profesional de Policías Locales y Bomberos)",
+      "SPPLB / InterinosVLC por la Fijeza Ya",
+      "SPPLB-CV (Sindicato de Policías Profesionales de la Localidad)"
+    ],
+    "num_intervencions": 5,
+    "barri": "Eixample",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "economia",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "av-sant-marcelli",
+    "nom_cas": "Asociación Vecinal del Barrio de Sant Marcel·lí",
+    "nom_val": "Associació Veïnal del Barri de Sant Marcel·lí",
+    "tipus": "av",
+    "variants": [
+      "AVV de Sant Marcel·lí",
+      "Asociación Veïnal del barrio de Sant Marcel·lí",
+      "Associació de Veïns de Sant Marcel·lí",
+      "Associació de Veïns del Barri de Sant Marcel·lí"
+    ],
+    "num_intervencions": 4,
+    "barri": "Sant Jordi / Torre / Horta de Sant Jordi / Faitanar, Sant Marcel·lí, Sant Marcel·lí, Sociópolis",
+    "temes_principals": [
+      "barris",
+      "urbanisme",
+      "medi_ambient"
+    ]
+  },
+  {
+    "id": "asociacion-inquilinos-vivienda-publica",
+    "nom_cas": "Asociación de Inquilinos de Vivienda Pública de la Comunitat Valenciana",
+    "nom_val": "Associació d'Inquilins d'Habitatge Públic de la Comunitat Valenciana",
+    "tipus": "plataforma",
+    "variants": [
+      "Asociación de Inquilinos de Vivienda Pública",
+      "Asociación de Inquilinos de Vivienda Pública de la CV",
+      "Asociación de Inquilinos de Vivienda Pública de la Comunitat Valenciana",
+      "Associació de Llogaters de Vivenda Pública de la CV / Asociación de Inquilinos de Vivienda Pública de la CV"
+    ],
+    "num_intervencions": 4,
+    "barri": "Sant Isidre, València Antiga, Virgen de los Desamparados, Ocho de Marzo",
+    "temes_principals": [
+      "habitatge",
+      "economia",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "plataforma-orriols-en-lucha",
+    "nom_cas": "Plataforma Orriols en Lucha",
+    "nom_val": "Plataforma Orriols en Lluita",
+    "tipus": "plataforma",
+    "variants": [
+      "Asociación Plataforma Orriols en Lucha",
+      "Orriols en Lucha",
+      "Plataforma Orriols en Lucha"
+    ],
+    "num_intervencions": 4,
+    "barri": "Orriols",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "barris",
+      "habitatge"
+    ]
+  },
+  {
+    "id": "asociacion-plataforma-intercultural-espana",
+    "nom_cas": "Plataforma Intercultural de España",
+    "nom_val": "Plataforma Intercultural d'Espanya",
+    "tipus": "plataforma",
+    "variants": [
+      "Asociación Plataforma Intercultural de España",
+      "Associació de Veïns Plataforma Intercultural d'Espanya",
+      "Plataforma Intercultural de España"
+    ],
+    "num_intervencions": 4,
+    "barri": null,
+    "temes_principals": [
+      "participacio_ciutadana",
+      "igualtat",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "av-devesa-saler",
+    "nom_cas": "Asociación de Vecinos Devesa-El Saler",
+    "nom_val": "Associació de Veïns Devesa-El Saler",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos Dehesa D.26",
+      "Asociación de Vecinos Devesa-El Saler",
+      "Associació de Veïns Mont de la Devesa del Saler",
+      "Associació de Veïns de la Devesa del Saler"
+    ],
+    "num_intervencions": 4,
+    "barri": "Castellar-l'Oliveral, Horta Sud, Devesa del Saler",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "infraestructures",
+      "medi_ambient"
+    ]
+  },
+  {
+    "id": "ampa-cp-padre-manjón",
+    "nom_cas": "AMPA CP Padre Manjón",
+    "nom_val": "AMPA CP Padre Manjón",
+    "tipus": "educacio",
+    "variants": [
+      "AMPA CP Padre Manjón"
+    ],
+    "num_intervencions": 4,
+    "barri": "La Torre",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "dana_emergencies",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "ava-asaja",
+    "nom_cas": "AVA-ASAJA",
+    "nom_val": "AVA-ASAJA",
+    "tipus": "altres",
+    "variants": [
+      "AVA-ASAJA",
+      "AVA-ASAJA (Associació Valenciana de Llauradors)",
+      "Associació Valenciana d'Agricultors (AVA-ASAJA)"
+    ],
+    "num_intervencions": 4,
+    "barri": "Albufera, Castellar, Castellar-l'Oliveral",
+    "temes_principals": [
+      "economia",
+      "agricultura",
+      "dana_emergencies"
+    ]
+  },
+  {
+    "id": "associacio-venedors-mercat-central",
+    "nom_cas": "Asociación de Vendedores del Mercado Central",
+    "nom_val": "Associació de Venedors del Mercat Central",
+    "tipus": "empresa",
+    "variants": [
+      "Associació de Venedors del Mercat Central"
+    ],
+    "num_intervencions": 4,
+    "barri": "Centre Històric, Ciutat Vella, centre històric",
+    "temes_principals": [
+      "economia",
+      "participacio_ciutadana",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "associacio-veins-torrefiel",
+    "nom_cas": "Asociación de Vecinos de Torrefiel",
+    "nom_val": "Associació de Veïns de Torrefiel",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos de Torrefiel",
+      "Associació de Veïns de Torrefiel",
+      "Associació de Veïns de Torrefiel, sindicats CCOO, UGT i CSIF"
+    ],
+    "num_intervencions": 4,
+    "barri": "Torrefiel",
+    "temes_principals": [
+      "habitatge",
+      "infraestructures",
+      "esports"
+    ]
+  },
+  {
+    "id": "plataforma-salvem-cabanyal",
+    "nom_cas": "Plataforma Salvem el Cabanyal",
+    "nom_val": "Plataforma Salvem el Cabanyal",
+    "tipus": "plataforma",
+    "variants": [
+      "Plataforma Salvem el Cabanyal",
+      "Plataforma Salvem el Cabanyal-el Canyamelar-Cap de França"
+    ],
+    "num_intervencions": 4,
+    "barri": "Cabanyal, Cabanyal-Canyamelar, Cabanyal-el Canyamelar-Cap de França",
+    "temes_principals": [
+      "habitatge",
+      "participacio_ciutadana",
+      "barris"
+    ]
+  },
+  {
+    "id": "asociacion-vecinos-fuensanta",
+    "nom_cas": "Asociación de Vecinos de la Fuensanta",
+    "nom_val": "Associació de Veïns de la Fuensanta",
+    "tipus": "av",
+    "variants": [
+      "AVV Fuensanta",
+      "Asociación de Vecinos de la Fuensanta",
+      "Asociación de Veíns Plaça de Múrcia / Asociación Vecinal Fuensanta"
+    ],
+    "num_intervencions": 3,
+    "barri": "Fuensanta, La Fuensanta",
+    "temes_principals": [
+      "infraestructures",
+      "barris",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "av-del-palmar",
+    "nom_cas": "Asociación Vecinal El Palmar",
+    "nom_val": "Associació Veïnal El Palmar",
+    "tipus": "av",
+    "variants": [
+      "AV del Palmar"
+    ],
+    "num_intervencions": 3,
+    "barri": "El Palmar, La Torre, pedanías del sur, Palmar, Pobles del Sud de València",
+    "temes_principals": [
+      "dana_emergencies",
+      "participacio_ciutadana",
+      "barris"
+    ]
+  },
+  {
+    "id": "associacio-veinats-cabanyal-canyamelar",
+    "nom_cas": "Asociación de Vecinos del Cabanyal-el Canyamelar",
+    "nom_val": "Associació de Veïns del Cabanyal-el Canyamelar",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns del Cabanyal-el Canyamelar",
+      "Associació de Veïns del Cabanyal-el Canyamelar / Grup Zero Incívics",
+      "Associació de Veïns del Cabanyal-el Canyamelar i Plataforma Salvem el Cabanyal"
+    ],
+    "num_intervencions": 3,
+    "barri": "Cabanyal, Canyamelar, Cap de França, Poble Nou de la Mar, Cabanyal-el Canyamelar",
+    "temes_principals": [
+      "seguretat",
+      "serveis_socials",
+      "barris"
+    ]
+  },
+  {
+    "id": "sos-racisme-pais-valencia",
+    "nom_cas": "SOS Racismo País Valenciano",
+    "nom_val": "SOS Racisme País Valencià",
+    "tipus": "ong",
+    "variants": [
+      "SOS Racisme",
+      "SOS Racisme País Valencià"
+    ],
+    "num_intervencions": 3,
+    "barri": "Natzaret, Orriols, Torrefiel",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "igualtat",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "unio-consumidors-valencia",
+    "nom_cas": "Unión de Consumidores de Valencia",
+    "nom_val": "Unió de Consumidors de València",
+    "tipus": "av",
+    "variants": [
+      "Unió de Consumidors de València / Secció Sindical d'UGT",
+      "Unión de Consumidores de Valencia",
+      "Unión de Consumidores de València"
+    ],
+    "num_intervencions": 3,
+    "barri": null,
+    "temes_principals": [
+      "economia",
+      "participacio_ciutadana",
+      "habitatge"
+    ]
+  },
+  {
+    "id": "por-ti-mujer",
+    "nom_cas": "Asociación Por Ti, Mujer",
+    "nom_val": "Associació Per a Ti, Dona",
+    "tipus": "ong",
+    "variants": [
+      "Asociación Por Ti, Mujer",
+      "Asociación Por ti Mujer"
+    ],
+    "num_intervencions": 3,
+    "barri": "Sociópolis, La Torre",
+    "temes_principals": [
+      "igualtat",
+      "participacio_ciutadana",
+      "dana_emergencies"
+    ]
+  },
+  {
+    "id": "valencia-acull",
+    "nom_cas": "Asociación València Acull",
+    "nom_val": "Associació València Acull",
+    "tipus": "ong",
+    "variants": [
+      "Asociación València Acull",
+      "Associació València Acull",
+      "València Acull"
+    ],
+    "num_intervencions": 3,
+    "barri": "Orriols, Rascanya, Aiora, pedanías de València",
+    "temes_principals": [
+      "barris",
+      "igualtat",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "asociacion-vecinos-favara",
+    "nom_cas": "Asociación de Vecinos de Favara",
+    "nom_val": "Associació de Veïns de Favara",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos de Favara",
+      "Asociación de Vecinos de Favara / AMPA del CEIP Eliseo Vidal"
+    ],
+    "num_intervencions": 3,
+    "barri": "Favara, Patraix",
+    "temes_principals": []
+  },
+  {
+    "id": "asociacion-vecinos-marxalenes",
+    "nom_cas": "Asociación de Vecinos de Marxalenes",
+    "nom_val": "Associació de Veïns de Marxalenes",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos de Marxalenes"
+    ],
+    "num_intervencions": 3,
+    "barri": "Marxalenes",
+    "temes_principals": [
+      "urbanisme",
+      "patrimoni",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "asociacion-vecinos-malvarrosa",
+    "nom_cas": "Asociación de Vecinos de la Malvarrosa",
+    "nom_val": "Associació de Veïns de la Malvarrosa",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos de la Malvarrosa",
+      "Asociación de Vecinos y Amigos de la Malva"
+    ],
+    "num_intervencions": 3,
+    "barri": "La Malva-Rosa, Malvarrosa, Poblats Marítims > La Malva-Rosa",
+    "temes_principals": [
+      "mobilitat",
+      "medi_ambient",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "associacio-veins-benimamet",
+    "nom_cas": "Asociación de Vecinos de Benimámet",
+    "nom_val": "Associació de Veïns de Benimàmet",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns de Benimàmet"
+    ],
+    "num_intervencions": 3,
+    "barri": "Benimàmet",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "barris",
+      "urbanisme"
+    ]
+  },
+  {
+    "id": "associacio-veins-malilla",
+    "nom_cas": "Asociación de Vecinos de Malilla",
+    "nom_val": "Associació de Veïns de Malilla",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos de Malilla",
+      "Associació de Veïns de Malilla"
+    ],
+    "num_intervencions": 3,
+    "barri": "Malilla",
+    "temes_principals": [
+      "urbanisme",
+      "participacio_ciutadana",
+      "barris"
+    ]
+  },
+  {
+    "id": "associacio-veinats-carme",
+    "nom_cas": "Asociación de Vecinos y Comerciantes Amigos del Carme",
+    "nom_val": "Associació de Veïns i Comerciants Amics del Carme",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns i Amics del Carme",
+      "Associació de Veïns i Comerciants Amics del Carme"
+    ],
+    "num_intervencions": 3,
+    "barri": "Carme, Carme, Benimaclet, Tres Forques, Grau, Ciutat Vella, El Carme",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "habitatge",
+      "barris"
+    ]
+  },
+  {
+    "id": "cermi-cv",
+    "nom_cas": "Comité Español de Representantes de Personas con Discapacidad de la Comunidad Valenciana",
+    "nom_val": "Comité Espanyol de Representants de Persones amb Discapacitat de la Comunitat Valenciana",
+    "tipus": "av",
+    "variants": [
+      "CERMI CV",
+      "CERMI-CV"
+    ],
+    "num_intervencions": 3,
+    "barri": null,
+    "temes_principals": [
+      "igualtat",
+      "participacio_ciutadana",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "fanucova",
+    "nom_cas": "Federación de Asociaciones de Familias Numerosas de la Comunidad Valenciana",
+    "nom_val": "Federació d'Associacions de Famílies Nombroses de la Comunitat Valenciana",
+    "tipus": "av",
+    "variants": [
+      "FANUCOVA (Familias Numerosas de la Comunidad Valenciana)",
+      "Federació d'Associacions de Famílies Nombroses de la Comunitat Valenciana (FANUCOVA)"
+    ],
+    "num_intervencions": 3,
+    "barri": null,
+    "temes_principals": [
+      "habitatge",
+      "serveis_socials",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "fapa-valencia-federacio-ampa",
+    "nom_cas": "Federación de Asociaciones de Padres y Madres de Alumnos de Valencia",
+    "nom_val": "Federació d'Associacions de Pares i Mares d'Alumnat de València",
+    "tipus": "educacio",
+    "variants": [
+      "FAPA-Valencia",
+      "FAPA-Valencia (Federació d'Ampa de València)",
+      "FAPA-València"
+    ],
+    "num_intervencions": 3,
+    "barri": null,
+    "temes_principals": []
+  },
+  {
+    "id": "fehv",
+    "nom_cas": "Federación Empresarial de Hostelería de Valencia",
+    "nom_val": "Federació Empresarial d'Hostaleria de València",
+    "tipus": "empresa",
+    "variants": [
+      "Federació Empresarial d'Hostaleria de València (FEHV)",
+      "Federació d'Empresaris d'Hostaleria de València",
+      "Federació d'Empresaris d'Hosteleria de València"
+    ],
+    "num_intervencions": 3,
+    "barri": "Carmen, Ruzafa, Cabanyal, centre de la ciutat, zona centre",
+    "temes_principals": [
+      "economia",
+      "urbanisme",
+      "medi_ambient"
+    ]
+  },
+  {
+    "id": "federacio-mercats-tradicionals-abastiments-cv",
+    "nom_cas": "Federación de Mercados Tradicionales de Abastos de la Comunidad Valenciana",
+    "nom_val": "Federació de Mercats Tradicionals d'Abastiments CV",
+    "tipus": "empresa",
+    "variants": [
+      "Federació de Mercats Tradicionals d'Abastimentos de la CV-CONFEMERCATS",
+      "Federació de Mercats Tradicionals d'Abastiments CV (Comfemercat)",
+      "Federación de Mercados Tradicionales de Abastos de la Comunidad Valenciana (Confemercats)"
+    ],
+    "num_intervencions": 3,
+    "barri": "Mercado de Colón",
+    "temes_principals": [
+      "economia",
+      "infraestructures",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "intersindical-valenciana",
+    "nom_cas": "Intersindical Valenciana",
+    "nom_val": "Intersindical Valenciana",
+    "tipus": "sindical",
+    "variants": [
+      "Intersindical",
+      "Intersindical Valenciana"
+    ],
+    "num_intervencions": 3,
+    "barri": null,
+    "temes_principals": [
+      "educacio",
+      "salut",
+      "joventut"
+    ]
+  },
+  {
+    "id": "mi-tierra-comunidad-valenciana",
+    "nom_cas": "Mi Tierra Comunidad Valenciana",
+    "nom_val": "La Meua Terra Comunitat Valenciana",
+    "tipus": "altres",
+    "variants": [
+      "Mi Tierra CV",
+      "Mi Tierra Comunidad Valenciana / España 2000",
+      "Mi Tierra-Comunidad Valenciana"
+    ],
+    "num_intervencions": 3,
+    "barri": "Penya-roja, Orriols, Malvarosa, Punta, Ciudad Jardín, Benimaclet",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "memoria_historica",
+      "mobilitat"
+    ]
+  },
+  {
+    "id": "svpap",
+    "nom_cas": "Sociedad Valenciana Protectora de Animales y Plantas",
+    "nom_val": "Societat Valenciana Protectora d'Animals i Plantes",
+    "tipus": "ong",
+    "variants": [
+      "Societat Valenciana Protectora d'Animals i Plantes",
+      "Societat Valenciana Protectora d'Animals i Plantes (SVPAP)",
+      "Societat Valenciana Protectora d'Animals i Plantes / AnimaNaturalis"
+    ],
+    "num_intervencions": 3,
+    "barri": null,
+    "temes_principals": [
+      "medi_ambient",
+      "cultura",
+      "patrimoni"
+    ]
+  },
+  {
+    "id": "stop-accidents",
+    "nom_cas": "Stop Accidents",
+    "nom_val": "Stop Accidents",
+    "tipus": "altres",
+    "variants": [
+      "Associació Stop Accidents",
+      "Stop Accidents"
+    ],
+    "num_intervencions": 3,
+    "barri": "Avenida Archiduque Carlos",
+    "temes_principals": [
+      "seguretat",
+      "mobilitat",
+      "memoria_historica"
+    ]
+  },
+  {
+    "id": "avacu",
+    "nom_cas": "Asociación Valenciana de Consumidores y Usuarios (AVACU)",
+    "nom_val": "Associació Valenciana de Consumidors i Usuaris (AVACU)",
+    "tipus": "altres",
+    "variants": [
+      "AVACU",
+      "Asociación Valenciana de Consumidores y Usuarios-AVACU"
+    ],
+    "num_intervencions": 2,
+    "barri": null,
+    "temes_principals": [
+      "economia",
+      "participacio_ciutadana",
+      "mobilitat"
+    ]
+  },
+  {
+    "id": "associacio-veins-forn-alcedo",
+    "nom_cas": "Asociación de Vecinos del Forn d'Alcedo",
+    "nom_val": "Associació de Veïns del Forn d'Alcedo",
+    "tipus": "av",
+    "variants": [
+      "AV Forn d'Alcedo",
+      "Associació de Veïns del Forn d'Alcedo"
+    ],
+    "num_intervencions": 2,
+    "barri": "Forn d'Alcedo",
+    "temes_principals": [
+      "dana_emergencies",
+      "urbanisme",
+      "mobilitat"
+    ]
+  },
+  {
+    "id": "club-esportiu-samarucs-valencia",
+    "nom_cas": "Club Esportiu LGTB+ Samarucs Valencia",
+    "nom_val": "Club Esportiu LGTB+ Samarucs València",
+    "tipus": "esportiu",
+    "variants": [
+      "Club esportiu LGTB+ Samarucs València",
+      "Samarucs"
+    ],
+    "num_intervencions": 2,
+    "barri": null,
+    "temes_principals": [
+      "igualtat",
+      "participacio_ciutadana",
+      "joventut"
+    ]
+  },
+  {
+    "id": "asociacion-mujeres-separadas-divorciadas",
+    "nom_cas": "Asociación de Mujeres Separadas y Divorciadas del País Valenciano",
+    "nom_val": "Associació de Dones Separades i Divorciades del País Valencià",
+    "tipus": "altres",
+    "variants": [
+      "Asociación de Mujeres Separadas y Divorciadas del País Valencià",
+      "Associació de Mujeres Separadas y Divorciadas del País Valencià"
+    ],
+    "num_intervencions": 2,
+    "barri": null,
+    "temes_principals": [
+      "participacio_ciutadana",
+      "igualtat",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "asociacion-mujeres-voces-resistencias",
+    "nom_cas": "Asociación Mujeres, Voces y Resistencia",
+    "nom_val": "Associació Dones, Veus i Resistència",
+    "tipus": "ong",
+    "variants": [
+      "Asociación Mujeres Voces y Resistencias",
+      "Asociación Mujeres, Voces y Resistencia"
+    ],
+    "num_intervencions": 2,
+    "barri": null,
+    "temes_principals": [
+      "participacio_ciutadana",
+      "igualtat",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "asociacion-tdah-mas-16",
+    "nom_cas": "Asociación TDAH MAS 16 València",
+    "nom_val": "Associació TDAH MAS 16 València",
+    "tipus": "ong",
+    "variants": [
+      "Asociación TDAH MAS 16 València",
+      "Associació TDAH MAS 16 València"
+    ],
+    "num_intervencions": 2,
+    "barri": "Huerta Sur de València, entre Paiporta, La Torre, La Torre de Faitanar, La Torre",
+    "temes_principals": [
+      "dana_emergencies",
+      "barris",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "cruces-mayo-la-torre",
+    "nom_cas": "Asociación Cultural Cruces de Mayo La Torre",
+    "nom_val": "Associació Cultural Creus de Maig La Torre",
+    "tipus": "cultural",
+    "variants": [
+      "Asociación Cultural Cruces de Mayo La Torre",
+      "Asociación Cultural Cruces de Mayo – La Torre"
+    ],
+    "num_intervencions": 2,
+    "barri": "La Torre, Sociópolis, La Torre",
+    "temes_principals": [
+      "dana_emergencies",
+      "barris",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "sos-racisme-unio-africana",
+    "nom_cas": "SOS Racismo PV / Federación Unión Africana España",
+    "nom_val": "SOS Racisme PV / Federació Unió Africana Espanya",
+    "tipus": "ong",
+    "variants": [
+      "Federació Unió Africana Espanya / SOS Racisme País Valencià",
+      "SOS Racisme PV / Federación Unión Africana España"
+    ],
+    "num_intervencions": 2,
+    "barri": "Benimaclet",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "igualtat",
+      "habitatge"
+    ]
+  },
+  {
+    "id": "acicom",
+    "nom_cas": "Asociación Ciudadanía y Comunicación",
+    "nom_val": "Associació Ciutadania i Comunicació",
+    "tipus": "altres",
+    "variants": [
+      "Associació Ciutadania i Comunicació",
+      "Associació Ciutadania i Comunicació (ACICOM) i Consell de Transparència, Bon Govern i Participació Ciutadana de la Comunitat Valenciana"
+    ],
+    "num_intervencions": 2,
+    "barri": "Ciutat Vella",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "infraestructures",
+      "habitatge"
+    ]
+  },
+  {
+    "id": "aice",
+    "nom_cas": "Agrupación Integral de Comerciantes (AICE)",
+    "nom_val": "Agrupació Integral de Comercians (AICE)",
+    "tipus": "empresa",
+    "variants": [
+      "Agrupació Integral de Comerciants (AICE)",
+      "Agrupació Integral de Comerciants sense Establiment"
+    ],
+    "num_intervencions": 2,
+    "barri": null,
+    "temes_principals": [
+      "economia",
+      "participacio_ciutadana",
+      "comercio"
+    ]
+  },
+  {
+    "id": "chrysallis-comunitat-valenciana",
+    "nom_cas": "Asociación Chrysallis Comunidad Valenciana",
+    "nom_val": "Associació Chrysallis Comunitat Valenciana",
+    "tipus": "ong",
+    "variants": [
+      "Asociación Chrysallis Comunitat Valenciana",
+      "Asociación Chrysallis Comunitat Valenciana de Menores y Adolescentes Trans"
+    ],
+    "num_intervencions": 2,
+    "barri": null,
+    "temes_principals": [
+      "igualtat",
+      "joventut",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "hispanos-sin-fronteras-valencia",
+    "nom_cas": "Asociación Hispanos sin Fronteras en València",
+    "nom_val": "Associació Hispanos sense Fronteres a València",
+    "tipus": "ong",
+    "variants": [
+      "Asociación Hispanos sin Fronteras en València"
+    ],
+    "num_intervencions": 2,
+    "barri": null,
+    "temes_principals": [
+      "participacio_ciutadana",
+      "cultura",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "asociacion-vecinos-benimamet",
+    "nom_cas": "Asociación de Vecinos de Benimàmet",
+    "nom_val": "Associació de Veïns de Benimàmet",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos de Benimàmet"
+    ],
+    "num_intervencions": 2,
+    "barri": "Benimamet",
+    "temes_principals": []
+  },
+  {
+    "id": "asociacion-vecinos-patraix",
+    "nom_cas": "Asociación de Vecinos, Cultural y de Consumidores de Patraix",
+    "nom_val": "Associació de Veïns, Cultural i de Consumidors de Patraix",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos, Cultural y de Consumidores de Patraix"
+    ],
+    "num_intervencions": 2,
+    "barri": "Patraix",
+    "temes_principals": []
+  },
+  {
+    "id": "per-l-horta",
+    "nom_cas": "Asociación Por la Huerta",
+    "nom_val": "Associació Per l'Horta",
+    "tipus": "av",
+    "variants": [
+      "Associació Per l'Horta",
+      "Associació Per l'horta / Plataforma ciutadana Horta és futur-No a la ZAL"
+    ],
+    "num_intervencions": 2,
+    "barri": "Horta, Horta, Alboraia, litoral",
+    "temes_principals": [
+      "urbanisme",
+      "medi_ambient",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "associacio-veinal-grau-port",
+    "nom_cas": "Asociación de Vecinos Grau-Port",
+    "nom_val": "Associació de Veïns Grau-Port",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns Grau-Port",
+      "Associació de Veïns Grau-Port, Associació de Veïns de la Punta, la Unificadora, les Casetes de la Punta i la Plataforma el Litoral per al Poble"
+    ],
+    "num_intervencions": 2,
+    "barri": "Grau, la Punta, Natzaret, Pinedo, Marítim",
+    "temes_principals": [
+      "urbanisme",
+      "participacio_ciutadana",
+      "barris"
+    ]
+  },
+  {
+    "id": "associacio-veins-pavimar",
+    "nom_cas": "Asociación de Vecinos Pavimar",
+    "nom_val": "Associació de Veïns Pavimar",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos Pavimar",
+      "Associació de Veïns Pavimar"
+    ],
+    "num_intervencions": 2,
+    "barri": "Cabanyal-Banya, Cabanyal-Canyamelar",
+    "temes_principals": []
+  },
+  {
+    "id": "associacio-veins-cabanyal-canyamelar",
+    "nom_cas": "Asociación de Vecinos del Cabanyal-Canyamelar",
+    "nom_val": "Associació de Veïns del Cabanyal-Canyamelar",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos del Cabanyal-Canyamelar",
+      "Associació de Veïns del Cabanyal-Canyamelar"
+    ],
+    "num_intervencions": 2,
+    "barri": "Cabanyal-Canyamelar",
+    "temes_principals": [
+      "urbanisme",
+      "habitatge",
+      "patrimoni"
+    ]
+  },
+  {
+    "id": "associacio-veinats-beniferri",
+    "nom_cas": "Asociación de Vecinos y Vecinas de Beniferri",
+    "nom_val": "Associació de Veïns i Veïnes de Beniferri",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos y Vecinas de Beniferri",
+      "Associació de Veïns i Veïnes de Beniferri"
+    ],
+    "num_intervencions": 2,
+    "barri": "Beniferri",
+    "temes_principals": [
+      "urbanisme",
+      "esports",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "bds-pais-valencia",
+    "nom_cas": "BDS País Valenciano",
+    "nom_val": "BDS País Valencià",
+    "tipus": "plataforma",
+    "variants": [
+      "BDS País Valencià",
+      "BDS País Valencià / Associació Intercultural Candombe"
+    ],
+    "num_intervencions": 2,
+    "barri": "Benimaclet",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "altres"
+    ]
+  },
+  {
+    "id": "cd-apolo",
+    "nom_cas": "Club Deportivo Apolo",
+    "nom_val": "Club Deportiu Apolo",
+    "tipus": "esportiu",
+    "variants": [
+      "CD Apolo i Asociación de Vecinos Afectados del Carril Bici del Tremolar",
+      "Club Deportivo Apolo / Asociación de Vecinos Afectados del Carril Bici del Tremolar"
+    ],
+    "num_intervencions": 2,
+    "barri": "Tremolar, Pinedo, Tremolar, Pinedo, Castellar-l'Oliveral",
+    "temes_principals": [
+      "mobilitat",
+      "seguretat",
+      "urbanisme"
+    ]
+  },
+  {
+    "id": "centre-recursos-just-ramirez",
+    "nom_cas": "Centro de Recursos Just Ramírez",
+    "nom_val": "Centre de Recursos Just Ramírez",
+    "tipus": "altres",
+    "variants": [
+      "Centre de Recursos Just Ramirez",
+      "Centre de Recursos Just Ramírez / Per l'Horta"
+    ],
+    "num_intervencions": 2,
+    "barri": "Alboraia, Poblats Marítims, Grau",
+    "temes_principals": [
+      "urbanisme",
+      "medi_ambient",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "comissio-promotora-nou-municipi-benimamet",
+    "nom_cas": "Comisión Promotora Nuevo Municipio de Benimámet",
+    "nom_val": "Comissió Promotora Nou Municipi de Benimàmet",
+    "tipus": "plataforma",
+    "variants": [
+      "Comissió Promotora Nou Municipi de Benimàmet",
+      "Comissió Promotora del Nou Municipi de Benimàmet"
+    ],
+    "num_intervencions": 2,
+    "barri": "Benimàmet",
+    "temes_principals": [
+      "barris",
+      "participacio_ciutadana",
+      "urbanisme"
+    ]
+  },
+  {
+    "id": "coordinadora-ensenyament-valencia",
+    "nom_cas": "Coordinadora de Alumnos, Padres y Profesores por la Enseñanza Pública en Valenciano",
+    "nom_val": "Coordinadora d'Alumnes, Pares i Professors per l'Ensenyament Públic en Valencià",
+    "tipus": "educacio",
+    "variants": [
+      "Coordinadora d'Alumnes, Pares i Professors per l'Ensenyament Públic en Valencià",
+      "Coordinadora d'Alumnes, Pares i Professors per l'Ensenyament en Valencià (CAPPEPV) i Escola Valenciana"
+    ],
+    "num_intervencions": 2,
+    "barri": null,
+    "temes_principals": [
+      "educacio",
+      "cultura",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "discobol-la-torre-atletc-club",
+    "nom_cas": "Discóbolo La Torre Atlético Club",
+    "nom_val": "Discòbol La Torre Atlètic Club",
+    "tipus": "esportiu",
+    "variants": [
+      "Discóbolo La Torre Atlétic Club",
+      "Discóbolo-Latorre Athletic Club"
+    ],
+    "num_intervencions": 2,
+    "barri": "La Torre",
+    "temes_principals": [
+      "esports",
+      "dana_emergencies",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "federacio-families-nombroses-cv",
+    "nom_cas": "Federación de Familias Numerosas de la Comunidad Valenciana",
+    "nom_val": "Federació de Famílies Nombroses de la Comunitat Valenciana",
+    "tipus": "av",
+    "variants": [
+      "Federació de Famílies Nombroses de la Comunitat Valenciana"
+    ],
+    "num_intervencions": 2,
+    "barri": null,
+    "temes_principals": [
+      "habitatge",
+      "economia",
+      "igualtat"
+    ]
+  },
+  {
+    "id": "fundacio-acm",
+    "nom_cas": "Fundación ACM",
+    "nom_val": "Fundació ACM",
+    "tipus": "ong",
+    "variants": [
+      "Fundació ACM",
+      "Fundació ACM (Assemblea de Ciutadans i Ciutadanes del Mediterrani)"
+    ],
+    "num_intervencions": 2,
+    "barri": null,
+    "temes_principals": [
+      "patrimoni",
+      "memoria_historica",
+      "educacio"
+    ]
+  },
+  {
+    "id": "juntes-habitatge",
+    "nom_cas": "Juntes per l'Habitatge",
+    "nom_val": "Juntes per l'Habitatge",
+    "tipus": "plataforma",
+    "variants": [
+      "Juntes per l'Habitatge (plataforma de moviments socials, veïnals i sindicals)",
+      "Juntes per l'Habitatge i PAH València (intervé utilitzant el nom de l'Associació de Veïns i Veïnes de la Torre)"
+    ],
+    "num_intervencions": 2,
+    "barri": "València, la Torre",
+    "temes_principals": [
+      "habitatge",
+      "serveis_socials",
+      "economia"
+    ]
+  },
+  {
+    "id": "lambda",
+    "nom_cas": "LAMBDA",
+    "nom_val": "LAMBDA",
+    "tipus": "av",
+    "variants": [
+      "LAMBDA",
+      "Lambda, col·lectiu de lesbianes, gais, transsexuals i bisexuals"
+    ],
+    "num_intervencions": 2,
+    "barri": null,
+    "temes_principals": []
+  },
+  {
+    "id": "per-horta",
+    "nom_cas": "Por la Huerta",
+    "nom_val": "Per l'Horta",
+    "tipus": "av",
+    "variants": [
+      "Per l'Horta"
+    ],
+    "num_intervencions": 2,
+    "barri": "La Torre, Faitanar",
+    "temes_principals": [
+      "medi_ambient",
+      "infraestructures",
+      "barris"
+    ]
+  },
+  {
+    "id": "plataforma-russafa",
+    "nom_cas": "Plataforma por Russafa",
+    "nom_val": "Plataforma per Russafa",
+    "tipus": "plataforma",
+    "variants": [
+      "Plataforma per Russafa"
+    ],
+    "num_intervencions": 2,
+    "barri": "Russafa",
+    "temes_principals": []
+  },
+  {
+    "id": "sociedad-civil-valenciana",
+    "nom_cas": "Sociedad Civil Valenciana",
+    "nom_val": "Societat Civil Valenciana",
+    "tipus": "altres",
+    "variants": [
+      "Sociedad Civil Valenciana",
+      "Societat Civil Valenciana"
+    ],
+    "num_intervencions": 2,
+    "barri": "Albufera, Penya-roja, Tres de abril",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "medi_ambient",
+      "urbanisme"
+    ]
+  },
+  {
+    "id": "associacio-veins-nou-moles",
+    "nom_cas": "Asociación de Vecinos de Nou Moles",
+    "nom_val": "Associació de Veïns de Nou Moles",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns de Nou Moles",
+      "Associació de Veïns i Veïnes de Nou Moles / Asociación de Vecinos de Tres Forques y Nou Moles"
+    ],
+    "num_intervencions": 2,
+    "barri": "Nou Moles, Nou Moles, Tres Forques, Campanar",
+    "temes_principals": [
+      "barris",
+      "seguretat",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "av-maritim-ayora",
+    "nom_cas": "Asociación de Vecinos del barrio de Ayora",
+    "nom_val": "Associació de Veïnats del barri de Ayora",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns i Veïns de Marítim-Aiora",
+      "Vecinos del barrio de Ayora / AV de Marítim-Ayora"
+    ],
+    "num_intervencions": 2,
+    "barri": "Ayora, Malvarrosa",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "serveis_socials",
+      "seguretat"
+    ]
+  },
+  {
+    "id": "associacio-cultural-consumidors-patraix",
+    "nom_cas": "Asociación Cultural y de Consumidores Patraix",
+    "nom_val": "Associació Cultural i de Consumidors Patraix",
+    "tipus": "cultural",
+    "variants": [
+      "Associació Cultural i de Consumidors Patraix",
+      "Associació de Veïns Cultural i de Consumidors Patraix / Coordinadora Feminista de València"
+    ],
+    "num_intervencions": 2,
+    "barri": "Faitanar, La Torre, Patraix",
+    "temes_principals": [
+      "igualtat",
+      "serveis_socials",
+      "salut"
+    ]
+  },
+  {
+    "id": "orriols-conviu",
+    "nom_cas": "Orriols Conviu",
+    "nom_val": "Orriols Conviu",
+    "tipus": "plataforma",
+    "variants": [
+      "Orriols Conviu"
+    ],
+    "num_intervencions": 1,
+    "barri": "Orriols",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "habitatge",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "cear",
+    "nom_cas": "Comisión Española de Ayuda al Refugiado (CEAR)",
+    "nom_val": "Comissió Espanyola d'Ajuda al Refugiat (CEAR)",
+    "tipus": "ong",
+    "variants": [
+      "Comissió Española de Ayuda al Refugiado (CEAR) i Fundació CEPAIM"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "participacio_ciutadana",
+      "igualtat",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "coordinadora-ong-desarrollo-cv",
+    "nom_cas": "Coordinadora de Organizaciones No Gubernamentales para el Desarrollo de la Comunidad Valenciana",
+    "nom_val": "Coordinadora d'Organitzacions No Governamentals per al Desenvolupament de la Comunitat Valenciana",
+    "tipus": "plataforma",
+    "variants": [
+      "Coordinadora de Organizaciones No Gubernamentales para el Desarrollo de la Comunidad Valenciana"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "participacio_ciutadana",
+      "economia",
+      "dana_emergencies"
+    ]
+  },
+  {
+    "id": "aavv-benimàmet",
+    "nom_cas": "Asociación de Vecinos Benimámet",
+    "nom_val": "Associació de Veïns Benimàmet",
+    "tipus": "av",
+    "variants": [
+      "AA.VV. Benimàmet"
+    ],
+    "num_intervencions": 1,
+    "barri": "Benimàmet",
+    "temes_principals": []
+  },
+  {
+    "id": "aavv-sant-marcelí",
+    "nom_cas": "Asociación de Vecinos Sant Marcel·lí",
+    "nom_val": "Associació de Veïns Sant Marcel·lí",
+    "tipus": "av",
+    "variants": [
+      "AA.VV. Sant Marcel·lí"
+    ],
+    "num_intervencions": 1,
+    "barri": "Sant Marcel·lí",
+    "temes_principals": []
+  },
+  {
+    "id": "ampa-ceip-rafael-altamira",
+    "nom_cas": "AMPA CEIP Rafael Altamira",
+    "nom_val": "AMPA CEIP Rafael Altamira",
+    "tipus": "educacio",
+    "variants": [
+      "AMPA CEIP Rafael Altamira"
+    ],
+    "num_intervencions": 1,
+    "barri": "La Llum",
+    "temes_principals": []
+  },
+  {
+    "id": "ampa-ceip-torrefiel",
+    "nom_cas": "AMPA CEIP Torrefiel",
+    "nom_val": "AMPA CEIP Torrefiel",
+    "tipus": "educacio",
+    "variants": [
+      "AMPA CEIP Torrefiel"
+    ],
+    "num_intervencions": 1,
+    "barri": "Torrefiel",
+    "temes_principals": []
+  },
+  {
+    "id": "ampa-cp-cervantes",
+    "nom_cas": "AMPA CP Cervantes",
+    "nom_val": "AMPA CP Cervantes",
+    "tipus": "educacio",
+    "variants": [
+      "AMPA CP Cervantes"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": []
+  },
+  {
+    "id": "ampa-colegio-nuestra-señora-loreto",
+    "nom_cas": "AMPA Colegio Nuestra Señora de Loreto",
+    "nom_val": "AMPA Col·legi Nostra Senyora de Loreto",
+    "tipus": "educacio",
+    "variants": [
+      "AMPA Colegio Nuestra Señora de Loreto"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "mobilitat",
+      "seguretat",
+      "educacio"
+    ]
+  },
+  {
+    "id": "ampa-col·legi-sagrada-familia",
+    "nom_cas": "AMPA Colegio Sagrada Familia",
+    "nom_val": "AMPA Col·legi Sagrada Família",
+    "tipus": "educacio",
+    "variants": [
+      "AMPA Col·legi Sagrada Família"
+    ],
+    "num_intervencions": 1,
+    "barri": "Benimaclet",
+    "temes_principals": []
+  },
+  {
+    "id": "ampa-ceip-cavite",
+    "nom_cas": "AMPA del CEIP Cavite / FAPA-València",
+    "nom_val": "AMPA del CEIP Cavite / FAPA-València",
+    "tipus": "educacio",
+    "variants": [
+      "AMPA del CEIP Cavite / FAPA-València"
+    ],
+    "num_intervencions": 1,
+    "barri": "Patraix",
+    "temes_principals": []
+  },
+  {
+    "id": "ampa-cp-benimaclet",
+    "nom_cas": "AMPA del CP Benimaclet",
+    "nom_val": "AMPA del CP Benimaclet",
+    "tipus": "educacio",
+    "variants": [
+      "AMPA del CP Benimaclet"
+    ],
+    "num_intervencions": 1,
+    "barri": "Benimaclet",
+    "temes_principals": [
+      "educacio",
+      "infraestructures",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "ampa-cp-blasco-ibáñez",
+    "nom_cas": "AMPA del CP Blasco Ibáñez",
+    "nom_val": "AMPA del CP Blasco Ibáñez",
+    "tipus": "educacio",
+    "variants": [
+      "AMPA del CP Blasco Ibáñez"
+    ],
+    "num_intervencions": 1,
+    "barri": "Poblats Marítims > La Malva-Rosa",
+    "temes_principals": []
+  },
+  {
+    "id": "ampa-cp-fernando-de-los-ríos",
+    "nom_cas": "AMPA del CP Fernando de los Ríos",
+    "nom_val": "AMPA del CP Fernando de los Ríos",
+    "tipus": "educacio",
+    "variants": [
+      "AMPA del CP Fernando de los Ríos"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "educacio",
+      "igualtat",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "ampa-cp-giner-de-los-ríos",
+    "nom_cas": "AMPA del CP Giner de los Ríos",
+    "nom_val": "AMPA del CP Giner de los Ríos",
+    "tipus": "educacio",
+    "variants": [
+      "AMPA del CP Giner de los Ríos"
+    ],
+    "num_intervencions": 1,
+    "barri": "Campanar",
+    "temes_principals": []
+  },
+  {
+    "id": "av-barri-sant-marcelí",
+    "nom_cas": "Asociación de Vecinos Barri de Sant Marcel·lí",
+    "nom_val": "Associació de Veïns Barri de Sant Marcel·lí",
+    "tipus": "av",
+    "variants": [
+      "AV Barri de Sant Marcel·lí"
+    ],
+    "num_intervencions": 1,
+    "barri": "Sant Marcel·lí",
+    "temes_principals": []
+  },
+  {
+    "id": "av-cultural-consumidors-patraix",
+    "nom_cas": "Asociación de Vecinos Cultural i de Consumidors de Patraix",
+    "nom_val": "Associació de Veïns Cultural i de Consumidors de Patraix",
+    "tipus": "av",
+    "variants": [
+      "AV Cultural i de Consumidors de Patraix"
+    ],
+    "num_intervencions": 1,
+    "barri": "Patraix",
+    "temes_principals": []
+  },
+  {
+    "id": "av-dehesa-d26",
+    "nom_cas": "Asociación de Vecinos Dehesa D26",
+    "nom_val": "Associació de Veïns Dehesa D26",
+    "tipus": "av",
+    "variants": [
+      "AV Dehesa D26"
+    ],
+    "num_intervencions": 1,
+    "barri": "Castellar-L'Oliveral",
+    "temes_principals": []
+  },
+  {
+    "id": "av-malilla",
+    "nom_cas": "Asociación de Vecinos Malilla",
+    "nom_val": "Associació de Veïns Malilla",
+    "tipus": "av",
+    "variants": [
+      "AV Malilla"
+    ],
+    "num_intervencions": 1,
+    "barri": "Malilla",
+    "temes_principals": []
+  },
+  {
+    "id": "av-plaça-hondures-adjacents",
+    "nom_cas": "Asociación de Vecinos Plaça d'Hondures i Adjacents",
+    "nom_val": "Associació de Veïns Plaça d'Hondures i Adjacents",
+    "tipus": "av",
+    "variants": [
+      "AV Plaça d'Hondures i Adjacents"
+    ],
+    "num_intervencions": 1,
+    "barri": "Plaça d'Hondures, Ciudad Jardín, Cedro, La Isla, Virgen del Carmen de Beteró, barrio de San José, Xúquer",
+    "temes_principals": [
+      "mobilitat",
+      "participacio_ciutadana",
+      "seguretat"
+    ]
+  },
+  {
+    "id": "av-torrefiel",
+    "nom_cas": "Asociación de Vecinos Torrefiel",
+    "nom_val": "Associació de Veïns Torrefiel",
+    "tipus": "av",
+    "variants": [
+      "AV Torrefiel"
+    ],
+    "num_intervencions": 1,
+    "barri": "Torrefiel",
+    "temes_principals": []
+  },
+  {
+    "id": "actors-actrius-professionals-valencians",
+    "nom_cas": "Actors y Actrices Profesionales Valencianos",
+    "nom_val": "Actors i Actrius Professionals Valencians",
+    "tipus": "cultural",
+    "variants": [
+      "Actors i Actrius Professionals Valencians"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": []
+  },
+  {
+    "id": "aicse-workman",
+    "nom_cas": "Agrupación Integral de Comerciantes sin Establecimiento (AICSE) / Cooperativa de trabajo asociado Workman",
+    "nom_val": "Agrupació Integral de Comercians sense Establiment (AICSE) / Cooperativa de trabajo asociado Workman",
+    "tipus": "empresa",
+    "variants": [
+      "Agrupació Integral de Comercians sense Establiment (AICSE) / Cooperativa de trabajo asociado Workman"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "economia",
+      "participacio_ciutadana",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "agrupacions-falles-festes",
+    "nom_cas": "Agrupación de Falles la Seu-Xerea-el Mercat, Agrupación de Falles del Barrio del Carmen, Agrupación Pilar-Sant Francesc y otras entidades culturales",
+    "nom_val": "Agrupació de Falles la Seu-Xerea-el Mercat, Agrupació de Falles del Barrio del Carmen, Agrupació Pilar-Sant Francesc i altres entitats culturals",
+    "tipus": "cultural",
+    "variants": [
+      "Agrupació de Falles la Seu-Xerea-el Mercat, Agrupació de Falles del Barrio del Carmen, Agrupación Pilar-Sant Francesc i altres entitats culturals"
+    ],
+    "num_intervencions": 1,
+    "barri": "Ciutat Vella",
+    "temes_principals": [
+      "cultura",
+      "participacio_ciutadana",
+      "mobilitat"
+    ]
+  },
+  {
+    "id": "penas-valencianista",
+    "nom_cas": "Agrupación de Peñas Valencianista y Aficiones Unidas",
+    "nom_val": "Agrupació de Penya Valencianista i Aficions Unides",
+    "tipus": "esportiu",
+    "variants": [
+      "Agrupación de Peñas Valencianista y Aficiones Unidas"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "esports",
+      "seguretat",
+      "igualtat"
+    ]
+  },
+  {
+    "id": "ampa-ceip-103",
+    "nom_cas": "AMPA del CEIP 103",
+    "nom_val": "AMPA del CEIP 103",
+    "tipus": "educacio",
+    "variants": [
+      "Ampa del CEIP 103"
+    ],
+    "num_intervencions": 1,
+    "barri": "Ciutat de les Arts i de les Ciencies",
+    "temes_principals": []
+  },
+  {
+    "id": "anima-naturalis",
+    "nom_cas": "Anima Naturalis",
+    "nom_val": "Anima Naturalis",
+    "tipus": "ong",
+    "variants": [
+      "Anima Naturalis (cedida la paraula per Joves amb Iniciativa del Poble Valencià-Iniciativa Jove)"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "medi_ambient",
+      "cultura",
+      "igualtat"
+    ]
+  },
+  {
+    "id": "appeat",
+    "nom_cas": "Asociación Aceras para Peatones (APPEAT)",
+    "nom_val": "Associació Aceres per a Vianants (APPEAT)",
+    "tipus": "av",
+    "variants": [
+      "Asociación Aceras para Peatones (APPEAT)"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "mobilitat",
+      "seguretat",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "amics-malva",
+    "nom_cas": "Asociación Amics de la Malva",
+    "nom_val": "Associació Amics de la Malva",
+    "tipus": "cultural",
+    "variants": [
+      "Asociación Amics de la Malva"
+    ],
+    "num_intervencions": 1,
+    "barri": "Poblats Marítims > La Malva-Rosa",
+    "temes_principals": []
+  },
+  {
+    "id": "acdesa",
+    "nom_cas": "Asociación Ciudadana para la Defensa de la Sanidad Pública del País Valencià (ACDESA)",
+    "nom_val": "Associació Ciutadana per a la Defensa de la Sanitat Pública del País Valencià (ACDESA)",
+    "tipus": "plataforma",
+    "variants": [
+      "Asociación Ciudadana para la Defensa de la Sanidad Pública del País Valencià (ACDESA)"
+    ],
+    "num_intervencions": 1,
+    "barri": "Benimaclet",
+    "temes_principals": [
+      "salut",
+      "medi_ambient",
+      "habitatge"
+    ]
+  },
+  {
+    "id": "via-vicentius-valentiae",
+    "nom_cas": "Asociación Cultural Vía Vicentius Valentiae",
+    "nom_val": "Associació Cultural Vía Vicentius Valentiae",
+    "tipus": "cultural",
+    "variants": [
+      "Asociación Cultural Vía Vicentius Valentiae"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "patrimoni",
+      "turisme",
+      "memoria_historica"
+    ]
+  },
+  {
+    "id": "aesco",
+    "nom_cas": "Asociación Cultural y Social Iberoamericana de Valencia (AESCO)",
+    "nom_val": "Associació Cultural i Social Iberoamericana de València (AESCO)",
+    "tipus": "cultural",
+    "variants": [
+      "Asociación Cultural y Social Iberoamericana de València (AESCO)"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "participacio_ciutadana",
+      "igualtat",
+      "habitatge"
+    ]
+  },
+  {
+    "id": "alba-discapacidad-psiquica",
+    "nom_cas": "Asociación Familiar y Profesional de Integración del Discapacitado Psíquico Alba",
+    "nom_val": "Associació Familiar i Professional d'Integració del Discapacitat Psíquic Alba",
+    "tipus": "ong",
+    "variants": [
+      "Asociación Familiar y Profesional de Integración del Discapacitado Psíquico Alba"
+    ],
+    "num_intervencions": 1,
+    "barri": "El Carme",
+    "temes_principals": []
+  },
+  {
+    "id": "foro-cultural-roqueta-san-vicente",
+    "nom_cas": "Asociación Foro Cultural La Roqueta – San Vicente Mártir",
+    "nom_val": "Associació Foro Cultural La Roqueta – San Vicente Mártir",
+    "tipus": "cultural",
+    "variants": [
+      "Asociación Foro Cultural La Roqueta – San Vicente Mártir"
+    ],
+    "num_intervencions": 1,
+    "barri": "La Roqueta, San Vicente Mártir",
+    "temes_principals": []
+  },
+  {
+    "id": "asociacion-intercultural-mundo-solidario",
+    "nom_cas": "Asociación Intercultural Mundo Solidario",
+    "nom_val": "Associació Intercultural Món Solidari",
+    "tipus": "ong",
+    "variants": [
+      "Asociación Intercultural Mundo Solidario"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "participacio_ciutadana",
+      "igualtat",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "asociacion-proted",
+    "nom_cas": "Asociación Proted",
+    "nom_val": "Associació Proted",
+    "tipus": "ong",
+    "variants": [
+      "Asociación Proted"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": []
+  },
+  {
+    "id": "salvem-tabacalera",
+    "nom_cas": "Asociación Salvem Tabacalera",
+    "nom_val": "Associació Salvem Tabacalera",
+    "tipus": "plataforma",
+    "variants": [
+      "Asociación Salvem Tabacalera"
+    ],
+    "num_intervencions": 1,
+    "barri": "Tabacalera",
+    "temes_principals": [
+      "urbanisme",
+      "patrimoni",
+      "memoria_historica"
+    ]
+  },
+  {
+    "id": "asociacion-valenciana-agricultores",
+    "nom_cas": "Asociación Valenciana de Agricultores",
+    "nom_val": "Associació Valenciana d'Agricultors",
+    "tipus": "av",
+    "variants": [
+      "Asociación Valenciana de Agricultores"
+    ],
+    "num_intervencions": 1,
+    "barri": "horta de València",
+    "temes_principals": [
+      "economia",
+      "agricultura",
+      "urbanisme"
+    ]
+  },
+  {
+    "id": "asociacion-valenciana-amistad-cuba-jose-marti",
+    "nom_cas": "Asociación Valenciana de Amistad con Cuba José Martí",
+    "nom_val": "Associació Valenciana d'Amistat amb Cuba José Martí",
+    "tipus": "ong",
+    "variants": [
+      "Asociación Valenciana de Amistad con Cuba José Martí"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": []
+  },
+  {
+    "id": "asociacion-valenciana-start-ups",
+    "nom_cas": "Asociación Valenciana de Start Ups",
+    "nom_val": "Associació Valenciana de Start Ups",
+    "tipus": "empresa",
+    "variants": [
+      "Asociación Valenciana de Start Ups"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "economia",
+      "participacio_ciutadana",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "asociacion-valenciana-circo",
+    "nom_cas": "Asociación Valenciana del Circo",
+    "nom_val": "Associació Valenciana del Circ",
+    "tipus": "cultural",
+    "variants": [
+      "Asociación Valenciana del Circo / Observatori Valencià d'Arts Escèniques"
+    ],
+    "num_intervencions": 1,
+    "barri": "Cabanyal-Canyamelar",
+    "temes_principals": []
+  },
+  {
+    "id": "asociacion-vecinal-pla-remei-gran-via",
+    "nom_cas": "Asociación Vecinal Pla Del Remei-Gran Via",
+    "nom_val": "Associació Veïnal Pla Del Remei-Gran Via",
+    "tipus": "av",
+    "variants": [
+      "Asociación Vecinal Pla Del Remei-Gran Via"
+    ],
+    "num_intervencions": 1,
+    "barri": "Pla del Remei, Gran Vía, Ensanche de València",
+    "temes_principals": []
+  },
+  {
+    "id": "asociacion-vecinal-cultural-tres-forques",
+    "nom_cas": "Asociación Vecinal y Cultural Tres Forques",
+    "nom_val": "Associació Veïnal i Cultural Tres Forques",
+    "tipus": "av",
+    "variants": [
+      "Asociación Vecinal y Cultural Tres Forques"
+    ],
+    "num_intervencions": 1,
+    "barri": "Tres Forques, Vara de Quart",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "barris",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "voluntades-unidas-inclusion",
+    "nom_cas": "Asociación Voluntades Unidas para la Inclusión",
+    "nom_val": "Associació Voluntats Unides per a la Inclusió",
+    "tipus": "ong",
+    "variants": [
+      "Asociación Voluntades Unidas para la Inclusión / Federación de Asociaciones Venezolanas en la Comunidad Valenciana"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "participacio_ciutadana",
+      "economia",
+      "igualtat"
+    ]
+  },
+  {
+    "id": "asociacion-galeristas-arte-contemporaneo",
+    "nom_cas": "Asociación de Galeristas de Arte Contemporáneo de la Comunidad Valenciana",
+    "nom_val": "Associació de Galeristes d'Art Contemporani de la Comunitat Valenciana",
+    "tipus": "cultural",
+    "variants": [
+      "Asociación de Galeristas de Arte Contemporáneo de la Comunidad Valenciana / Valenciana de Críticos de Arte / Asociación de Artistas Visuales de Alicante, Castellón y Valencia / Plataforma Valenciana por la Cultura"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": []
+  },
+  {
+    "id": "asociacion-hosteleria-ocio-russafa",
+    "nom_cas": "Asociación de Hostelería y Ocio de Russafa",
+    "nom_val": "Associació d'Hostaleria i Oci de Russafa",
+    "tipus": "empresa",
+    "variants": [
+      "Asociación de Hostelería y Ocio de Russafa / Asociación de Vecinos de Russafa-Gran Vía"
+    ],
+    "num_intervencions": 1,
+    "barri": "Russafa-Gran Vía",
+    "temes_principals": [
+      "seguridad",
+      "barrios",
+      "participacio_ciudadana"
+    ]
+  },
+  {
+    "id": "asociacion-mestres-campaners",
+    "nom_cas": "Asociación de Mestres Campaners",
+    "nom_val": "Associació de Mestres Campaners",
+    "tipus": "cultural",
+    "variants": [
+      "Asociación de Mestres Campaners"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "patrimoni",
+      "cultura"
+    ]
+  },
+  {
+    "id": "asociacion-trabajadores-autonomos",
+    "nom_cas": "Asociación de Trabajadores Autónomos",
+    "nom_val": "Associació de Treballadors Autònoms",
+    "tipus": "sindical",
+    "variants": [
+      "Asociación de Trabajadores Autónomos (ATA)"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": []
+  },
+  {
+    "id": "asociacion-vecinos-monteolivete",
+    "nom_cas": "Asociación de Vecinos Cultural del Barrio de Monteolivete",
+    "nom_val": "Associació de Veïns Cultural del Barri de Monteolivete",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos Cultural del Barrio de Monteolivete"
+    ],
+    "num_intervencions": 1,
+    "barri": "Monteolivete",
+    "temes_principals": []
+  },
+  {
+    "id": "asociacion-vecinos-maritim-aiora",
+    "nom_cas": "Asociación de Vecinos Marítim-Aiora",
+    "nom_val": "Associació de Veïns Marítim-Aiora",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos Marítim-Aiora"
+    ],
+    "num_intervencions": 1,
+    "barri": "Ayora",
+    "temes_principals": [
+      "esports",
+      "salut",
+      "gent_major"
+    ]
+  },
+  {
+    "id": "asociacion-vecinos-polo-peirolon",
+    "nom_cas": "Asociación de Vecinos Polo y Peirolón",
+    "nom_val": "Associació de Veïns Polo i Peirolón",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos Polo y Peirolón"
+    ],
+    "num_intervencions": 1,
+    "barri": "Polo y Peirolón",
+    "temes_principals": [
+      "infraestructures",
+      "mobilitat",
+      "medi_ambient"
+    ]
+  },
+  {
+    "id": "asociacion-vecinos-beniferri",
+    "nom_cas": "Asociación de Vecinos de Beniferri",
+    "nom_val": "Associació de Veïns de Beniferri",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos de Beniferri"
+    ],
+    "num_intervencions": 1,
+    "barri": "Beniferri",
+    "temes_principals": [
+      "urbanisme",
+      "barris",
+      "patrimoni"
+    ]
+  },
+  {
+    "id": "asociacion-vecinos-creu-coberta",
+    "nom_cas": "Asociación de Vecinos de Creu Coberta",
+    "nom_val": "Associació de Veïns de Creu Coberta",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos de Creu Coberta"
+    ],
+    "num_intervencions": 1,
+    "barri": "Creu Coberta",
+    "temes_principals": []
+  },
+  {
+    "id": "asociacion-vecinos-malilla",
+    "nom_cas": "Asociación de Vecinos de Malilla",
+    "nom_val": "Associació de Veïns de Malilla",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos y Vecinas de Malilla"
+    ],
+    "num_intervencions": 1,
+    "barri": "Malilla",
+    "temes_principals": [
+      "joventut",
+      "cultura",
+      "urbanisme"
+    ]
+  },
+  {
+    "id": "asociacion-vecinos-turianova",
+    "nom_cas": "Asociación de Vecinos de Turianova",
+    "nom_val": "Associació de Veïns de Turianova",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos de Turianova"
+    ],
+    "num_intervencions": 1,
+    "barri": "Turianova",
+    "temes_principals": [
+      "infraestructures",
+      "medi_ambient",
+      "mobilitat"
+    ]
+  },
+  {
+    "id": "asociacion-vecinos-carmen",
+    "nom_cas": "Asociación de Vecinos del Carmen",
+    "nom_val": "Associació de Veïns del Carmen",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos del Carmen"
+    ],
+    "num_intervencions": 1,
+    "barri": "El Carme",
+    "temes_principals": []
+  },
+  {
+    "id": "asociacion-vecinos-castellar-oliveral",
+    "nom_cas": "Asociación de Vecinos del Distrito 26 de Castellar-Oliveral",
+    "nom_val": "Associació de Veïns del Districte 26 de Castellar-Oliveral",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos del Distrito 26 de Castellar-Oliveral"
+    ],
+    "num_intervencions": 1,
+    "barri": "Castellar-L'Oliveral",
+    "temes_principals": []
+  },
+  {
+    "id": "asociacion-victimas-mortales-dana",
+    "nom_cas": "Asociación de Víctimas Mortales 29 de Octubre i Associació de Víctimes de la Dana 29 d'Octubre de 2024",
+    "nom_val": "Associació de Víctimes Mortals 29 d'Octubre i Associació de Víctimes de la Dana 29 d'Octubre de 2024",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Víctimas Mortales 29 de Octubre i Associació de Víctimes de la Dana 29 d'Octubre de 2024"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": []
+  },
+  {
+    "id": "assemblea-cooperacio-pau",
+    "nom_cas": "Assemblea de Cooperación por la Paz",
+    "nom_val": "Assemblea de Cooperació per la Pau",
+    "tipus": "plataforma",
+    "variants": [
+      "Assemblea de Cooperació per la Pau"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "participacio_ciutadana",
+      "economia",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "albarca",
+    "nom_cas": "Asociación ALBARCA",
+    "nom_val": "Associació ALBARCA",
+    "tipus": "altres",
+    "variants": [
+      "Associació ALBARCA"
+    ],
+    "num_intervencions": 1,
+    "barri": "Ciutat Vella",
+    "temes_principals": [
+      "urbanisme",
+      "mobilitat",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "al-adala-valencia",
+    "nom_cas": "Asociación Al-Adala Valencia",
+    "nom_val": "Associació Al-Adala València",
+    "tipus": "altres",
+    "variants": [
+      "Associació Al-Adala València"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "memoria_historica",
+      "participacio_ciutadana",
+      "igualtat"
+    ]
+  },
+  {
+    "id": "alanna",
+    "nom_cas": "Asociación Alanna",
+    "nom_val": "Associació Alanna",
+    "tipus": "altres",
+    "variants": [
+      "Associació Alanna"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "igualtat",
+      "salut",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "cabanyal-reviu",
+    "nom_cas": "Asociación Cabanyal Reviu",
+    "nom_val": "Associació Cabanyal Reviu",
+    "tipus": "plataforma",
+    "variants": [
+      "Associació Cabanyal Reviu"
+    ],
+    "num_intervencions": 1,
+    "barri": "Cabanyal-Canyameral",
+    "temes_principals": [
+      "habitatge",
+      "urbanisme",
+      "turisme"
+    ]
+  },
+  {
+    "id": "asociacion-catolica-pares-purisima",
+    "nom_cas": "Asociación Católica de Padres La Purísima",
+    "nom_val": "Associació Catòlica de Pares La Puríssima",
+    "tipus": "educacio",
+    "variants": [
+      "Associació Catòlica de Pares La Puríssima"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "educacio",
+      "participacio_ciutadana",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "falla-av-malvarrosa-antoni-pons-cavite",
+    "nom_cas": "Asociación Cultural Falla Av. Malvarrosa-Antoni Pons-Cavite",
+    "nom_val": "Associació Cultural Falla Av. Malvarrosa-Antoni Pons-Cavite",
+    "tipus": "cultural",
+    "variants": [
+      "Associació Cultural Falla Av. Malvarrosa-Antoni Pons-Cavite / Societat Marina Auxiliant"
+    ],
+    "num_intervencions": 1,
+    "barri": "Poblats Marítims, Cabanyal",
+    "temes_principals": [
+      "habitatge",
+      "patrimoni",
+      "barris"
+    ]
+  },
+  {
+    "id": "penya-taurina-el-carpesano",
+    "nom_cas": "Asociación Cultural Peña Taurina el Carpesano",
+    "nom_val": "Associació Cultural Penya Taurina el Carpesano",
+    "tipus": "cultural",
+    "variants": [
+      "Associació Cultural Penya Taurina el Carpesano"
+    ],
+    "num_intervencions": 1,
+    "barri": "pedanies de València",
+    "temes_principals": [
+      "cultura",
+      "tradicio",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "placa-de-la-tenda",
+    "nom_cas": "Asociación Cultural Plaza de la Tienda",
+    "nom_val": "Associació Cultural Plaça de la Tenda",
+    "tipus": "cultural",
+    "variants": [
+      "Associació Cultural Plaça de la Tenda"
+    ],
+    "num_intervencions": 1,
+    "barri": "Benimàmet-Beniferri",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "barris",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "la-demana",
+    "nom_cas": "Asociación Cultural la Demanà",
+    "nom_val": "Associació Cultural la Demanà",
+    "tipus": "cultural",
+    "variants": [
+      "Associació Cultural la Demanà"
+    ],
+    "num_intervencions": 1,
+    "barri": "Saler",
+    "temes_principals": [
+      "medi_ambient",
+      "infraestructures",
+      "esports"
+    ]
+  },
+  {
+    "id": "dret-a-morir-dignament",
+    "nom_cas": "Asociación Derecho a Morir Dignamente de la Comunidad Valenciana",
+    "nom_val": "Associació Dret a Morir Dignament de la Comunitat Valenciana",
+    "tipus": "ong",
+    "variants": [
+      "Associació Dret a Morir Dignament de la Comunitat Valenciana"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "salut",
+      "participacio_ciutadana",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "fester-crist-benimaclet",
+    "nom_cas": "Asociación Fester Crist de Benimaclet",
+    "nom_val": "Associació Fester Crist de Benimaclet",
+    "tipus": "cultural",
+    "variants": [
+      "Associació Fester Crist de Benimaclet"
+    ],
+    "num_intervencions": 1,
+    "barri": "Benimaclet",
+    "temes_principals": [
+      "habitatge",
+      "urbanisme",
+      "patrimoni"
+    ]
+  },
+  {
+    "id": "gaviota-poblado-sud-perellonet",
+    "nom_cas": "Asociación Gaviota Poblado Sud Perellonet",
+    "nom_val": "Associació Gaviota Poblado Sud Perellonet",
+    "tipus": "av",
+    "variants": [
+      "Associació Gaviota Poblado Sud Perellonet / Plataforma Veïnal en Defensa de la CV500"
+    ],
+    "num_intervencions": 1,
+    "barri": "Perellonet, Perelló, Palmar, Devesa del Saler, Pinedo, Saler",
+    "temes_principals": [
+      "mobilitat",
+      "infraestructures",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "gent-de-benimaclet",
+    "nom_cas": "Asociación Gent de Benimaclet",
+    "nom_val": "Associació Gent de Benimaclet",
+    "tipus": "av",
+    "variants": [
+      "Associació Gent de Benimaclet"
+    ],
+    "num_intervencions": 1,
+    "barri": "Benimaclet",
+    "temes_principals": []
+  },
+  {
+    "id": "aicse",
+    "nom_cas": "Asociación Integral de Comerciantes Sin Establecimiento",
+    "nom_val": "Associació Integral de Comerciants Sense Establiment",
+    "tipus": "av",
+    "variants": [
+      "Associació Integral de Comerciants Sense Establiment (AICSE)"
+    ],
+    "num_intervencions": 1,
+    "barri": "Penya-roja",
+    "temes_principals": [
+      "urbanisme",
+      "habitatge",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "valencia-movement",
+    "nom_cas": "Asociación Juvenil València Movement",
+    "nom_val": "Associació Juvenil València Movement",
+    "tipus": "cultural",
+    "variants": [
+      "Associació Juvenil València Movement"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "joventut",
+      "cultura",
+      "esports"
+    ]
+  },
+  {
+    "id": "mares-pares-ceip-angel-guarda",
+    "nom_cas": "Asociación Madres y Padres del CEIP Ángel de la Guarda",
+    "nom_val": "Associació Mares i Pares del CEIP Àngel de la Guarda",
+    "tipus": "educacio",
+    "variants": [
+      "Associació Mares i Pares del CEIP Àngel de la Guarda"
+    ],
+    "num_intervencions": 1,
+    "barri": "Raiosa",
+    "temes_principals": [
+      "educacio",
+      "barris",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "mi-tierra-cv",
+    "nom_cas": "Asociación Mi Tierra CV",
+    "nom_val": "Associació Mi Tierra CV",
+    "tipus": "av",
+    "variants": [
+      "Associació Mi Tierra CV / Hablamos Español"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": []
+  },
+  {
+    "id": "psima",
+    "nom_cas": "Asociación PSIMA",
+    "nom_val": "Associació PSIMA",
+    "tipus": "altres",
+    "variants": [
+      "Associació PSIMA"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "serveis_socials",
+      "participacio_ciutadana",
+      "salut"
+    ]
+  },
+  {
+    "id": "tyrius-el-palmar",
+    "nom_cas": "Asociación Tyrius El Palmar",
+    "nom_val": "Associació Tyrius El Palmar",
+    "tipus": "cultural",
+    "variants": [
+      "Associació Tyrius El Palmar"
+    ],
+    "num_intervencions": 1,
+    "barri": "El Palmar, Pobles del Sud, Albufera",
+    "temes_principals": [
+      "infraestructures",
+      "mobilitat",
+      "medi_ambient"
+    ]
+  },
+  {
+    "id": "avc-consumidors-usuaris",
+    "nom_cas": "Asociación Valenciana de Consumidores y Usuarios",
+    "nom_val": "Associació Valenciana de Consumidors i Usuaris",
+    "tipus": "ong",
+    "variants": [
+      "Associació Valenciana de Consumidors i Usuaris"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "agricultura",
+      "economia",
+      "seguretat"
+    ]
+  },
+  {
+    "id": "valencia-cultural",
+    "nom_cas": "Asociación València Cultural",
+    "nom_val": "Associació València Cultural",
+    "tipus": "cultural",
+    "variants": [
+      "Associació València Cultural - Via Augusta i Camí de Sant Vicent Màrtir"
+    ],
+    "num_intervencions": 1,
+    "barri": "Monasterio de la Roqueta",
+    "temes_principals": []
+  },
+  {
+    "id": "valencia-laica",
+    "nom_cas": "Asociación València Laica",
+    "nom_val": "Associació València Laica",
+    "tipus": "ong",
+    "variants": [
+      "Associació València Laica-Europa Laica / Federació d'Associacions de Veïns de València"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "participacio_ciutadana",
+      "igualtat"
+    ]
+  },
+  {
+    "id": "associacio-victimes-metro-3-juliol",
+    "nom_cas": "Asociación Víctimas del Metro 3 de Julio",
+    "nom_val": "Associació Víctimes del Metro 3 de Juliol",
+    "tipus": "av",
+    "variants": [
+      "Associació Víctimes del Metro 3 de Juliol / Associació Integra2mundo"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "seguretat",
+      "infraestructures",
+      "dana_emergencies"
+    ]
+  },
+  {
+    "id": "associacio-zero-incivics",
+    "nom_cas": "Asociación Zero Incívicos",
+    "nom_val": "Associació Zero Incívics",
+    "tipus": "av",
+    "variants": [
+      "Associació Zero Incívics"
+    ],
+    "num_intervencions": 1,
+    "barri": "Cabanyal",
+    "temes_principals": [
+      "seguretat",
+      "serveis_socials",
+      "barris"
+    ]
+  },
+  {
+    "id": "associacio-amics-malva",
+    "nom_cas": "Asociación de Amigos de la Malva",
+    "nom_val": "Associació d'Amics de la Malva",
+    "tipus": "cultural",
+    "variants": [
+      "Associació d'Amics de la Malva / Escola Valenciana"
+    ],
+    "num_intervencions": 1,
+    "barri": "La Malva-Rosa",
+    "temes_principals": []
+  },
+  {
+    "id": "associacio-aturats-orriols-torrefiel",
+    "nom_cas": "Asociación de Desempleados de Orriols-Torrefiel",
+    "nom_val": "Associació d'Aturats i Aturades d'Orriols-Torrefiel",
+    "tipus": "av",
+    "variants": [
+      "Associació d'Aturats i Aturades d'Orriols-Torrefiel"
+    ],
+    "num_intervencions": 1,
+    "barri": "Orriols-Torrefiel",
+    "temes_principals": []
+  },
+  {
+    "id": "associacio-hemofilia-cv",
+    "nom_cas": "Asociación de Hemofilia de la Comunitat Valenciana y CERMI CV",
+    "nom_val": "Associació d'Hemofília de la Comunitat Valenciana i CERMI CV",
+    "tipus": "ong",
+    "variants": [
+      "Associació d'Hemofília de la Comunitat Valenciana i CERMI CV (Comité d'entitats representants de persones amb discapacitat de la Comunitat Valenciana)"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "participacio_ciutadana",
+      "igualtat",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "associacio-comerciants-professionals-alboraia",
+    "nom_cas": "Asociación de Comerciantes y Profesionales de la calle Alboraia",
+    "nom_val": "Associació de Comerciants i Professionals del carrer d'Alboraia",
+    "tipus": "empresa",
+    "variants": [
+      "Associació de Comerciants i Professionals del carrer d'Alboraia i adjacents"
+    ],
+    "num_intervencions": 1,
+    "barri": "carrer d'Alboraia i zona adjacents (Viveros)",
+    "temes_principals": [
+      "mobilitat",
+      "gent_major",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "acoec",
+    "nom_cas": "Asociación de Cooperación y Estrategia de Educación",
+    "nom_val": "Associació de Cooperació i Estratègia d'Educació",
+    "tipus": "educacio",
+    "variants": [
+      "Associació de Cooperació i Estratègia d'Educació (ACOEC) i Coordinadora Valenciana de ONGD"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "economia",
+      "participacio_ciutadana",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "associacio-families-ceip-pare-catala",
+    "nom_cas": "Asociación de Familias del CEIP Pare Català",
+    "nom_val": "Associació de Famílies del CEIP Pare Català",
+    "tipus": "educacio",
+    "variants": [
+      "Associació de Famílies del CEIP Pare Català"
+    ],
+    "num_intervencions": 1,
+    "barri": "Benimaclet",
+    "temes_principals": [
+      "seguretat",
+      "memoria_historica",
+      "barris"
+    ]
+  },
+  {
+    "id": "associacio-jubilats-ugt-ccoo",
+    "nom_cas": "Asociación de Jubilados de UGT y de CCOO",
+    "nom_val": "Associació de Jubilats d'UGT i de CCOO",
+    "tipus": "sindical",
+    "variants": [
+      "Associació de Jubilats d'UGT i de CCOO"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "gent_major",
+      "economia",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "associacio-mares-pares-saler",
+    "nom_cas": "Asociación de Madres y Padres de Alumnos El Saler",
+    "nom_val": "Associació de Mares i Pares d'Alumnes el Saler",
+    "tipus": "educacio",
+    "variants": [
+      "Associació de Mares i Pares d'Alumnes el Saler"
+    ],
+    "num_intervencions": 1,
+    "barri": "el Saler, la Devesa, el Palmar",
+    "temes_principals": [
+      "educacio",
+      "infraestructures",
+      "mobilitat"
+    ]
+  },
+  {
+    "id": "associacio-veinal-raiosa",
+    "nom_cas": "Asociación de Vecinos la Raïosa",
+    "nom_val": "Associació de Veïns la Raïosa",
+    "tipus": "av",
+    "variants": [
+      "Associació de Vecinos la Raïosa"
+    ],
+    "num_intervencions": 1,
+    "barri": "Raïosa",
+    "temes_principals": [
+      "serveis_socials",
+      "educacio",
+      "salut"
+    ]
+  },
+  {
+    "id": "associacio-veinal-castellar-oliverar",
+    "nom_cas": "Asociación de Vecinos de Castellar-l'Oliverar",
+    "nom_val": "Associació de Veïnes i Veïns de Castellar-l'Oliverar",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïnes i Veïns de Castellar-l'Oliverar"
+    ],
+    "num_intervencions": 1,
+    "barri": "Castellar-l'Oliverar, l'Horta Sud, El Palmar",
+    "temes_principals": [
+      "urbanisme",
+      "medi_ambient",
+      "mobilitat"
+    ]
+  },
+  {
+    "id": "associacio-veinal-la-isla",
+    "nom_cas": "Asociación de Vecinos La Isla",
+    "nom_val": "Associació de Veïns La Isla",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns La Isla"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "salut",
+      "serveis_socials",
+      "economia"
+    ]
+  },
+  {
+    "id": "associacio-veinal-la-unio-punta",
+    "nom_cas": "Asociación de Vecinos La Unión de la Punta",
+    "nom_val": "Associació de Veïns La Unió, de la Punta",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns La Unió, de la Punta"
+    ],
+    "num_intervencions": 1,
+    "barri": "La Punta",
+    "temes_principals": [
+      "barris",
+      "infraestructures",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "associacio-veins-parc-central-iturbi",
+    "nom_cas": "Asociación de Vecinos Parque Central-Iturbi",
+    "nom_val": "Associació de Veïns Parc Central-Iturbi",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns Parc Central-Iturbi"
+    ],
+    "num_intervencions": 1,
+    "barri": "La Raiosa, distrito Jesús",
+    "temes_principals": []
+  },
+  {
+    "id": "associacio-veins-polo-peyrolon-poetes-units",
+    "nom_cas": "Asociación de Vecinos Polo y Peyrolón-Poetas Unidos",
+    "nom_val": "Associació de Veïns Polo y Peyrolón-Poetes Units",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns Polo y Peyrolón-Poetes Units"
+    ],
+    "num_intervencions": 1,
+    "barri": "Polo y Peyrolón",
+    "temes_principals": []
+  },
+  {
+    "id": "associacio-veins-natzaret-xarxa-col-lectius-entrebarris",
+    "nom_cas": "Asociación de Vecinos de Natzaret / Red de Colectivos Entrebarrios",
+    "nom_val": "Associació de Veïns de Natzaret / Xarxa de Col·lectius Entrebarris",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns de Natzaret / Xarxa de Col·lectius Entrebarris"
+    ],
+    "num_intervencions": 1,
+    "barri": "Natzaret, Saïdia, Cabanyal",
+    "temes_principals": [
+      "habitatge",
+      "serveis_socials",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "associacio-veins-patraix",
+    "nom_cas": "Asociación de Vecinos de Patraix",
+    "nom_val": "Associació de Veïns de Patraix",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns de Patraix"
+    ],
+    "num_intervencions": 1,
+    "barri": "Patraix",
+    "temes_principals": [
+      "patrimoni",
+      "urbanisme",
+      "memoria_historica"
+    ]
+  },
+  {
+    "id": "associacio-veins-pinedo",
+    "nom_cas": "Asociación de Vecinos de Pinedo",
+    "nom_val": "Associació de Veïns de Pinedo",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns de Pinedo"
+    ],
+    "num_intervencions": 1,
+    "barri": "Pinedo, Poblats del Sud",
+    "temes_principals": [
+      "medi_ambient",
+      "patrimoni",
+      "mobilitat"
+    ]
+  },
+  {
+    "id": "associacio-veins-sant-antoni-saidia",
+    "nom_cas": "Asociación de Vecinos de Sant Antoni-la Saïdia",
+    "nom_val": "Associació de Veïns de Sant Antoni-la Saïdia",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns de Sant Antoni-la Saïdia"
+    ],
+    "num_intervencions": 1,
+    "barri": "Sant Antoni-Saïdia",
+    "temes_principals": [
+      "urbanisme",
+      "habitatge",
+      "patrimoni"
+    ]
+  },
+  {
+    "id": "associacio-veins-sant-vicent-paul-adjacents",
+    "nom_cas": "Asociación de Vecinos de Sant Vicente de Paul y adyacentes",
+    "nom_val": "Associació de Veïns de Sant Vicent de Paul i adjacents",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns de Sant Vicent de Paul i adjacents"
+    ],
+    "num_intervencions": 1,
+    "barri": "Orriols",
+    "temes_principals": [
+      "urbanisme",
+      "serveis_socials",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "associacio-veins-creu-coberta",
+    "nom_cas": "Asociación de Vecinos de la Cruz Cubierta",
+    "nom_val": "Associació de Veïns de la Creu Coberta",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns de la Creu Coberta"
+    ],
+    "num_intervencions": 1,
+    "barri": "Creu Coberta",
+    "temes_principals": [
+      "barris",
+      "seguretat",
+      "habitatge"
+    ]
+  },
+  {
+    "id": "associacio-veins-font-sant-lluis",
+    "nom_cas": "Asociación de Vecinos de la Fuente de Sant Luis",
+    "nom_val": "Associació de Veïns de la Font de Sant Lluís",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns de la Font de Sant Lluís"
+    ],
+    "num_intervencions": 1,
+    "barri": "Devesa-Fuente de San Luis",
+    "temes_principals": [
+      "infraestructures",
+      "urbanisme",
+      "esports"
+    ]
+  },
+  {
+    "id": "associacio-veins-placa-murcia",
+    "nom_cas": "Asociación de Vecinos de la Plaza de Múrcia",
+    "nom_val": "Associació de Veïns de la Plaça de Múrcia",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns de la Plaça de Múrcia"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "salut",
+      "infraestructures",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "associacio-veinats-palmar-perellonet-devesa-saler",
+    "nom_cas": "Asociación de Vecinos del Palmar y el Perellonet la Devesa del Saler",
+    "nom_val": "Associació de Veïns del Palmar i el Perellonet la Devesa del Saler",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns del Palmar i el Perellonet la Devesa del Saler"
+    ],
+    "num_intervencions": 1,
+    "barri": "Palmar, Perellonet, Saler, Pobles del Sud",
+    "temes_principals": [
+      "urbanisme",
+      "habitatge",
+      "medi_ambient"
+    ]
+  },
+  {
+    "id": "associacio-veinats-rovella-font-sant-lluis",
+    "nom_cas": "Asociación de Vecinos y Vecinas de Rovella-Font de Sant Lluís",
+    "nom_val": "Associació de Veïns i Veïnes de Rovella-Font de Sant Lluís",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns i Veïnes de Rovella-Font de Sant Lluís"
+    ],
+    "num_intervencions": 1,
+    "barri": "Rovella-Font de Sant Lluís",
+    "temes_principals": [
+      "medi_ambient",
+      "patrimoni",
+      "turisme"
+    ]
+  },
+  {
+    "id": "associacio-veinats-orriols-rascanya",
+    "nom_cas": "Asociación de Vecinos y Vecinas del Barri dels Orriols-Rascanya",
+    "nom_val": "Associació de Veïns i Veïnes del Barri dels Orriols-Rascanya",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns i Veïnes del Barri dels Orriols-Rascanya"
+    ],
+    "num_intervencions": 1,
+    "barri": "Orriols-Rascanya",
+    "temes_principals": []
+  },
+  {
+    "id": "associacio-veinats-grau",
+    "nom_cas": "Asociación de Vecinos y Vecinas del Grau",
+    "nom_val": "Associació de Veïns i Veïnes del Grau",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns i Veïnes del Grau"
+    ],
+    "num_intervencions": 1,
+    "barri": "El Grau",
+    "temes_principals": [
+      "infraestructures",
+      "medi_ambient",
+      "mobilitat"
+    ]
+  },
+  {
+    "id": "associacio-veinats-grau-port",
+    "nom_cas": "Asociación de Vecinos y de Vecinas Grau-Port",
+    "nom_val": "Associació de Veïns i de Veïnes Grau-Port",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns i de Veïnes Grau-Port"
+    ],
+    "num_intervencions": 1,
+    "barri": "El Grau",
+    "temes_principals": []
+  },
+  {
+    "id": "associacio-veinats-amistat",
+    "nom_cas": "Asociación de Vecinos l'Amistat",
+    "nom_val": "Associació de Veïns l'Amistat",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns l'Amistat"
+    ],
+    "num_intervencions": 1,
+    "barri": "L'Amistat",
+    "temes_principals": []
+  },
+  {
+    "id": "associacio-veinats-cercle-obert-benicalap",
+    "nom_cas": "Asociación de Vecinos y Cultural Cercle Obert de Benicalap",
+    "nom_val": "Associació de Veïns i Cultural Cercle Obert de Benicalap",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns i Cultural Cercle Obert de Benicalap / Plataforma Auditoria Ciutadana del Deute"
+    ],
+    "num_intervencions": 1,
+    "barri": "Benicalap",
+    "temes_principals": []
+  },
+  {
+    "id": "associacio-victimes-terrorisme-comunitat-valenciana",
+    "nom_cas": "Asociación de Víctimas del Terrorismo de la Comunidad Valenciana",
+    "nom_val": "Associació de Víctimes del Terrorisme de la Comunitat Valenciana",
+    "tipus": "av",
+    "variants": [
+      "Associació de Víctimes del Terrorisme de la Comunitat Valenciana (AVTCV)"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "memoria_historica",
+      "seguretat",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "associacio-placa-debats",
+    "nom_cas": "Asociación la Plaça Debats",
+    "nom_val": "Associació la Plaça Debats",
+    "tipus": "av",
+    "variants": [
+      "Associació la Plaça Debats"
+    ],
+    "num_intervencions": 1,
+    "barri": "Benimàmet",
+    "temes_principals": [
+      "patrimoni",
+      "urbanisme",
+      "barris"
+    ]
+  },
+  {
+    "id": "banc-aliments",
+    "nom_cas": "Banco de Alimentos",
+    "nom_val": "Banc d'Aliments",
+    "tipus": "ong",
+    "variants": [
+      "Banc d'Aliments"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "serveis_socials",
+      "economia",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "cocemfe",
+    "nom_cas": "COCEMFE Federación de Asociaciones de Personas con Discapacidad Física y Orgánica de la Provincia de Valencia",
+    "nom_val": "COCEMFE Federació d'Associacions de Persones amb Discapacitat Física i Orgànica de la Província de València",
+    "tipus": "av",
+    "variants": [
+      "COCEMFE (Federación de Asociaciones de Personas con Discapacidad Física y Orgánica de la Provincia de Valencia)"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "igualtat",
+      "participacio_ciutadana",
+      "urbanisme"
+    ]
+  },
+  {
+    "id": "cd-safranar",
+    "nom_cas": "Club Deportivo Safranar",
+    "nom_val": "Club Deportiu Safranar",
+    "tipus": "esportiu",
+    "variants": [
+      "Club Deportivo Safranar"
+    ],
+    "num_intervencions": 1,
+    "barri": "Patraix",
+    "temes_principals": [
+      "esports",
+      "infraestructures",
+      "joventut"
+    ]
+  },
+  {
+    "id": "club-esportiu-lgbti-dracs-valencia",
+    "nom_cas": "Club Deportivo LGBTI Dracs Valencia",
+    "nom_val": "Club Esportiu LGBTI Dracs València",
+    "tipus": "esportiu",
+    "variants": [
+      "Club Esportiu LGBTI Dracs València"
+    ],
+    "num_intervencions": 1,
+    "barri": "Petxina",
+    "temes_principals": [
+      "esports",
+      "educacio",
+      "igualtat"
+    ]
+  },
+  {
+    "id": "club-ajedrez-benicalap",
+    "nom_cas": "Club de Ajedrez de Benicalap",
+    "nom_val": "Club d'Escacs de Benicalap",
+    "tipus": "esportiu",
+    "variants": [
+      "Club de Ajedrez de Benicalap / FSIE (sindicato independiente de enseñanza)"
+    ],
+    "num_intervencions": 1,
+    "barri": "Benicalap",
+    "temes_principals": []
+  },
+  {
+    "id": "ud-benicalap",
+    "nom_cas": "Club de Fútbol Benicalap",
+    "nom_val": "Club de Futbol Benicalap",
+    "tipus": "esportiu",
+    "variants": [
+      "Club de Futbol Benicalap (UD Benicalap)"
+    ],
+    "num_intervencions": 1,
+    "barri": "Benicalap",
+    "temes_principals": [
+      "esports",
+      "infraestructures",
+      "barris"
+    ]
+  },
+  {
+    "id": "colectivo-fuera-tunel",
+    "nom_cas": "Colectivo Fuera Túnel",
+    "nom_val": "Col·lectiu Fora Túnel",
+    "tipus": "plataforma",
+    "variants": [
+      "Colectivo Fuera Túnel"
+    ],
+    "num_intervencions": 1,
+    "barri": "Abastos-Finca Roja, Petxina, La Roqueta, Patraix",
+    "temes_principals": [
+      "urbanisme",
+      "mobilitat",
+      "medi_ambient"
+    ]
+  },
+  {
+    "id": "colectivo-animalista-independiente",
+    "nom_cas": "Colectivo Animalista Independiente",
+    "nom_val": "Col·lectiu Animalista Independent",
+    "tipus": "av",
+    "variants": [
+      "Col·lectivo Animalista Independiente"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "medi_ambient",
+      "cultura",
+      "bienestar_animal"
+    ]
+  },
+  {
+    "id": "comision-civica-hospital-la-fe",
+    "nom_cas": "Comisión Cívica para el Retorno del Hospital La Fe a Campanar",
+    "nom_val": "Comissió Cívica per al Retorn de l'Hospital La Fe a Campanar",
+    "tipus": "plataforma",
+    "variants": [
+      "Comisión Cívica para el Retorno del Hospital La Fe a Campanar"
+    ],
+    "num_intervencions": 1,
+    "barri": "Campanar",
+    "temes_principals": []
+  },
+  {
+    "id": "confederacio-associacions-veinals-cv",
+    "nom_cas": "Confederación de Asociaciones Vecinales de la Comunidad Valenciana",
+    "nom_val": "Confederació d'Associacions Veïnals de la Comunitat Valenciana",
+    "tipus": "av",
+    "variants": [
+      "Confederació d'Associacions Veïnals de la CV"
+    ],
+    "num_intervencions": 1,
+    "barri": "Benicalap",
+    "temes_principals": []
+  },
+  {
+    "id": "coordinadora-feminista-valencia",
+    "nom_cas": "Coordinadora Feminista de Valencia",
+    "nom_val": "Coordinadora Feminista de València",
+    "tipus": "plataforma",
+    "variants": [
+      "Coordinadora Feminista de València"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "cultura",
+      "economia",
+      "educacio"
+    ]
+  },
+  {
+    "id": "coordinadora-estiba-port-valencia",
+    "nom_cas": "Coordinadora Solidaria de la Estiba del Puerto de Valencia",
+    "nom_val": "Coordinadora Solidària de l'Estiba del Port de València",
+    "tipus": "sindical",
+    "variants": [
+      "Coordinadora Solidària de l'Estiba del Port de València"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "economia",
+      "infraestructures",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "caritas-diocesana",
+    "nom_cas": "Cáritas Diocesana",
+    "nom_val": "Càritas Diocesana",
+    "tipus": "ong",
+    "variants": [
+      "Cáritas Diocesana"
+    ],
+    "num_intervencions": 1,
+    "barri": "La Torre, Forn d'Alcedo, Castellar-l'Oliveral",
+    "temes_principals": [
+      "dana_emergencies",
+      "serveis_socials",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "delegacio-penyes-llevant-ue",
+    "nom_cas": "Delegación de Peñas del Llevant Unión Esportiva",
+    "nom_val": "Delegació de Penyes del Llevant Unió Esportiva",
+    "tipus": "esportiu",
+    "variants": [
+      "Delegació de Penyes del Llevant Unió Esportiva"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "economia",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "delegacion-saharaui-frente-polisario",
+    "nom_cas": "Delegación Saharaui en la Comunidad Valenciana / Dirección del Frente Polisario",
+    "nom_val": "Delegació Saharauí a la Comunitat Valenciana / Direcció del Front Polisario",
+    "tipus": "altres",
+    "variants": [
+      "Delegación Saharaui en la Comunidad Valenciana / Dirección del Frente Polisario"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "memoria_historica",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "dones-progressistes-moviment-feminista-abolicionista",
+    "nom_cas": "Dones Progressistes CV, Movimiento Feminista de Valencia, Frente Abolicionista del País Valenciano, Women's Declaration Internacional",
+    "nom_val": "Dones Progressistes CV, Moviment Feminista de València, Front Abolicionista del País Valencià, Women's Declaration Internacional",
+    "tipus": "plataforma",
+    "variants": [
+      "Dones Progressistes CV, Moviment Feminista de València, Front Abolicionista del País Valencià, Women's Declaration Internacional"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "igualtat",
+      "participacio_ciutadana",
+      "seguretat"
+    ]
+  },
+  {
+    "id": "plataforma-educacion-publica-valencia",
+    "nom_cas": "FAPA Valencia / AMPA del Instituto Benimàmet / Plataforma en Defensa de la Enseñanza Pública",
+    "nom_val": "FAPA València / AMPA de l'Institut Benimàmet / Plataforma en Defensa de l'Ensenyament Públic",
+    "tipus": "plataforma",
+    "variants": [
+      "FAPA Valencia / AMPA del Instituto Benimàmet / Plataforma en Defensa de l'Ensenyament Públic"
+    ],
+    "num_intervencions": 1,
+    "barri": "Benimaclet",
+    "temes_principals": []
+  },
+  {
+    "id": "fcud-benicalap",
+    "nom_cas": "FCUD Benicalap (Unión Deportiva Benicalap)",
+    "nom_val": "FCUD Benicalap (Unió Esportiva Benicalap)",
+    "tipus": "esportiu",
+    "variants": [
+      "FCUD Benicalap (Unión Deportiva Benicalap)"
+    ],
+    "num_intervencions": 1,
+    "barri": "Benicalap",
+    "temes_principals": [
+      "esports",
+      "infraestructures",
+      "manteniment"
+    ]
+  },
+  {
+    "id": "fesord-cv",
+    "nom_cas": "Federación de Personas Sordas de la Comunidad Valenciana",
+    "nom_val": "Federació de Persones Sordes de la Comunitat Valenciana",
+    "tipus": "ong",
+    "variants": [
+      "FESORD, CV (Federació de Persones Sordes de la Comunitat Valenciana)"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "participacio_ciutadana",
+      "igualtat",
+      "accessibilitat"
+    ]
+  },
+  {
+    "id": "families-pel-valencia",
+    "nom_cas": "Familias por el Valenciano",
+    "nom_val": "Famílies pel Valencià",
+    "tipus": "av",
+    "variants": [
+      "Famílies pel Valencià"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "educacio",
+      "cultura",
+      "igualtat"
+    ]
+  },
+  {
+    "id": "federacio-educacio-ccoo-pais-valencia",
+    "nom_cas": "Federación de Educación de Comisiones Obreras del País Valenciano / Orriols en Lluita",
+    "nom_val": "Federació d'Educació de Comissions Obreres del País Valencià / Orriols en Lluita",
+    "tipus": "sindical",
+    "variants": [
+      "Federació d'Educació de Comissions Obreres del País Valencià / Orriols en Lluita"
+    ],
+    "num_intervencions": 1,
+    "barri": "Orriols",
+    "temes_principals": [
+      "educacio",
+      "igualtat",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "fotur",
+    "nom_cas": "Federación de Ocio y Turismo de la Comunidad Valenciana",
+    "nom_val": "Federació d'oci i Turisme de la Comunitat Valenciana",
+    "tipus": "empresa",
+    "variants": [
+      "Federació d'oci i Turisme de la Comunitat Valenciana (FOTUR)"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "turisme",
+      "economia",
+      "seguretat"
+    ]
+  },
+  {
+    "id": "feceval",
+    "nom_cas": "Federación de Centros de Enseñanza",
+    "nom_val": "Federació de Centres d'Ensenyament",
+    "tipus": "educacio",
+    "variants": [
+      "Federació de Centres d'Ensenyament (FECEVAL)"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "educacio",
+      "economia",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "federacio-penyes-bous-carrer",
+    "nom_cas": "Federación de Peñas de Bous al Carrer",
+    "nom_val": "Federació de Penyes de Bous al Carrer",
+    "tipus": "cultural",
+    "variants": [
+      "Federació de Penyes de Bous al Carrer"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "cultura",
+      "participacio_ciutadana",
+      "memoria_historica"
+    ]
+  },
+  {
+    "id": "federacio-serveis-ciutadania-ccoo",
+    "nom_cas": "Federación de Servicios a la Ciudadanía de CCOO País Valenciano",
+    "nom_val": "Federació de Serveis a la Ciutadania de CCOO País Valencià",
+    "tipus": "sindical",
+    "variants": [
+      "Federació de Serveis a la Ciutadania de CCOO País Valencià"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "economia",
+      "participacio_ciutadana",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "federacio-lgtbi-estatal",
+    "nom_cas": "Federación Estatal LGTBI+",
+    "nom_val": "Federació Estatal LGTBI+",
+    "tipus": "av",
+    "variants": [
+      "Federación Estatal LGTBI+"
+    ],
+    "num_intervencions": 1,
+    "barri": "la Petxina",
+    "temes_principals": [
+      "igualtat",
+      "joventut",
+      "educacio"
+    ]
+  },
+  {
+    "id": "federacio-associacions-malalties-mentals",
+    "nom_cas": "Federación de Asociaciones de Familias y Personas con Enfermedades Mentales",
+    "nom_val": "Federació d'Associacions de Famílies i Persones amb Malalties Mentals",
+    "tipus": "av",
+    "variants": [
+      "Federación de Asociaciones de Familias y Personas con Enfermedades Mentales"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": []
+  },
+  {
+    "id": "federacio-associacions-pares-alumnes-valencia",
+    "nom_cas": "Federación de Asociaciones de Padres de Alumnos de Valencia",
+    "nom_val": "Federació d'Associacions de Pares d'Alumnes de València",
+    "tipus": "educacio",
+    "variants": [
+      "Federación de Asociaciones de Padres de Alumnos de Valencia"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": []
+  },
+  {
+    "id": "federacio-hosteleria",
+    "nom_cas": "Federación de Hostelería",
+    "nom_val": "Federació d'Hosteleria",
+    "tipus": "empresa",
+    "variants": [
+      "Federación de Hostelería"
+    ],
+    "num_intervencions": 1,
+    "barri": "Centre Històric",
+    "temes_principals": []
+  },
+  {
+    "id": "federacio-natacio-cv",
+    "nom_cas": "Federación de Natación de la Comunidad Valenciana",
+    "nom_val": "Federació de Natació de la Comunitat Valenciana",
+    "tipus": "esportiu",
+    "variants": [
+      "Federación de Natación de la Comunitat Valenciana"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "esports",
+      "igualtat",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "frente-obrero-espanya-casa-poble-valencia",
+    "nom_cas": "Frente Obrero España / Casa del Pueblo de Valencia",
+    "nom_val": "Front Obrer Espanya / Casa del Poble de València",
+    "tipus": "altres",
+    "variants": [
+      "Frente Obrero España / Casa del Pueblo de València"
+    ],
+    "num_intervencions": 1,
+    "barri": "Patraix",
+    "temes_principals": [
+      "seguretat",
+      "serveis_socials",
+      "economia"
+    ]
+  },
+  {
+    "id": "front-abolicionista-pais-valencia",
+    "nom_cas": "Frente Abolicionista del País Valenciano",
+    "nom_val": "Front Abolicionista del País Valencià",
+    "tipus": "plataforma",
+    "variants": [
+      "Front Abolicionista del País Valencià"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "igualtat",
+      "serveis_socials",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "fundacio-anima-naturalis",
+    "nom_cas": "Fundación Anima Naturalis",
+    "nom_val": "Fundació Anima Naturalis",
+    "tipus": "ong",
+    "variants": [
+      "Fundació Anima Naturalis"
+    ],
+    "num_intervencions": 1,
+    "barri": "Pobla de Farnals",
+    "temes_principals": [
+      "cultura",
+      "seguretat",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "fundacio-cepaim",
+    "nom_cas": "Fundación CEPAIM",
+    "nom_val": "Fundació CEPAIM",
+    "tipus": "ong",
+    "variants": [
+      "Fundació CEPAIM"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "fundacio-valencia-diversitat",
+    "nom_cas": "Fundación Valencia Diversidad",
+    "nom_val": "Fundació València Diversitat",
+    "tipus": "ong",
+    "variants": [
+      "Fundación València Diversitat"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "igualtat",
+      "participacio_ciutadana",
+      "esports"
+    ]
+  },
+  {
+    "id": "fundacio-justicia",
+    "nom_cas": "Fundación por la Justicia",
+    "nom_val": "Fundació per la Justícia",
+    "tipus": "ong",
+    "variants": [
+      "Fundación por la Justicia"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "participacio_ciutadana",
+      "igualtat"
+    ]
+  },
+  {
+    "id": "germandat-sant-antoni-abat",
+    "nom_cas": "Cofradía de Sant Antoni Abat",
+    "nom_val": "Germandat de Sant Antoni Abat",
+    "tipus": "cultural",
+    "variants": [
+      "Germandat de Sant Antoni Abat"
+    ],
+    "num_intervencions": 1,
+    "barri": "Sant Antoni",
+    "temes_principals": [
+      "cultura",
+      "patrimoni",
+      "turisme"
+    ]
+  },
+  {
+    "id": "grup-accio-valencianista",
+    "nom_cas": "Grupo de Acción Valencianista",
+    "nom_val": "Grup d'Acció Valencianista",
+    "tipus": "altres",
+    "variants": [
+      "Grup d'Acció Valencianista (GAV)"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "patrimoni",
+      "memoria_historica",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "insigne-capitul-almoina-sant-jordi",
+    "nom_cas": "Insigne Capítul de l'Almoina de Sant Jordi de Cavallers del Centenar de la Ploma",
+    "nom_val": "Insigne Capítul de l'Almoina de Sant Jordi de Cavallers del Centenar de la Ploma",
+    "tipus": "cultural",
+    "variants": [
+      "Insigne Capítul de l'Almoina de Sant Jordi de Cavallers del Centenar de la Ploma / Plataforma Salvem Vinatea"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "patrimoni",
+      "memoria_historica",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "intermon-oxfam",
+    "nom_cas": "Intermón Oxfam",
+    "nom_val": "Intermón Oxfam",
+    "tipus": "ong",
+    "variants": [
+      "Intermón Oxfam"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "economia",
+      "participacio_ciutadana",
+      "igualtat"
+    ]
+  },
+  {
+    "id": "jupol",
+    "nom_cas": "JUPOL (Sindicato Unitario de la Policía Nacional)",
+    "nom_val": "JUPOL (Sindicat Unitari de la Policia Nacional)",
+    "tipus": "sindical",
+    "variants": [
+      "JUPOL (Sindicato Unitario de la Policía Nacional) / Lo Rat Penat"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "seguretat",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "metges-sense-fronteres",
+    "nom_cas": "Médicos sin Fronteras",
+    "nom_val": "Metges Sense Fronteres",
+    "tipus": "ong",
+    "variants": [
+      "Metges Sense Fronteres (MSF)"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "salut",
+      "participacio_ciutadana",
+      "economia"
+    ]
+  },
+  {
+    "id": "medicos-del-mundo",
+    "nom_cas": "Médicos del Mundo",
+    "nom_val": "Metges del Món",
+    "tipus": "ong",
+    "variants": [
+      "Médicos del Mundo"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "salut",
+      "igualtat",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "observatori-valencia-migracions",
+    "nom_cas": "Observatorio Valenciano de las Migraciones",
+    "nom_val": "Observatori Valencià de les Migracions",
+    "tipus": "altres",
+    "variants": [
+      "Observatori Valencià de les Migracions"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "participacio_ciutadana",
+      "igualtat",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "penya-taurina-cabuts",
+    "nom_cas": "Peña Taurina los Cabuts",
+    "nom_val": "Penya Taurina els Cabuts",
+    "tipus": "cultural",
+    "variants": [
+      "Penya Taurina els Cabuts"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "cultura",
+      "agricultura",
+      "patrimoni"
+    ]
+  },
+  {
+    "id": "pena-valencianista-lgtbi",
+    "nom_cas": "Peña Valencianista LGTBI",
+    "nom_val": "Penya Valencianista LGTBI",
+    "tipus": "av",
+    "variants": [
+      "Peña Valencianista LGTBI"
+    ],
+    "num_intervencions": 1,
+    "barri": "La Petxina",
+    "temes_principals": [
+      "igualtat",
+      "participacio_ciutadana",
+      "esports"
+    ]
+  },
+  {
+    "id": "plataforma-interinas-accion",
+    "nom_cas": "Plataforma Interin@s en Acción",
+    "nom_val": "Plataforma Interines en Acció",
+    "tipus": "plataforma",
+    "variants": [
+      "Plataforma Interin@s en Acción"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "participacio_ciutadana",
+      "serveis_socials",
+      "economia"
+    ]
+  },
+  {
+    "id": "plataforma-valenciana-apoyo-querella-argentina",
+    "nom_cas": "Plataforma Valenciana de Apoyo a la Querella Argentina",
+    "nom_val": "Plataforma Valenciana de Suport a la Querella Argentina",
+    "tipus": "plataforma",
+    "variants": [
+      "Plataforma Valenciana de Apoyo a la Querella Argentina"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "memoria_historica",
+      "justicia",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "plataforma-valencia-palestina",
+    "nom_cas": "Plataforma València con Palestina",
+    "nom_val": "Plataforma València amb Palestina",
+    "tipus": "plataforma",
+    "variants": [
+      "Plataforma València amb Palestina"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "participacio_ciutadana",
+      "serveis_socials",
+      "dana_emergencies"
+    ]
+  },
+  {
+    "id": "plataforma-afectades-hipoteca-valencia",
+    "nom_cas": "Plataforma de Afectadas por la Hipoteca de Valencia",
+    "nom_val": "Plataforma d'Afectades per la Hipoteca de València",
+    "tipus": "plataforma",
+    "variants": [
+      "Plataforma d'Afectades per la Hipoteca de València"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "habitatge",
+      "economia",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "plataforma-plaça-music-lopez-chavarri",
+    "nom_cas": "Plataforma de la Plaça Músic López Chávarri",
+    "nom_val": "Plataforma de la Plaça Músic López Chávarri",
+    "tipus": "plataforma",
+    "variants": [
+      "Plataforma de la Plaça Músic López Chávarri"
+    ],
+    "num_intervencions": 1,
+    "barri": "Barrio del Carmen",
+    "temes_principals": [
+      "urbanisme",
+      "habitatge",
+      "medi_ambient"
+    ]
+  },
+  {
+    "id": "poble-benimaclet-veins",
+    "nom_cas": "Pueblo de Benimaclet y Vecinos de Benimaclet",
+    "nom_val": "Poble de Benimaclet i Veïns de Benimaclet",
+    "tipus": "av",
+    "variants": [
+      "Poble de Benimaclet y Veïns de Benimaclet"
+    ],
+    "num_intervencions": 1,
+    "barri": "Benimaclet",
+    "temes_principals": [
+      "habitatge",
+      "urbanisme",
+      "medi_ambient"
+    ]
+  },
+  {
+    "id": "poetas-unidos-valencia",
+    "nom_cas": "Poetas Unidos de Valencia",
+    "nom_val": "Poetes Units de València",
+    "tipus": "cultural",
+    "variants": [
+      "Poetas Unidos de València"
+    ],
+    "num_intervencions": 1,
+    "barri": "no especificat",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "cultura",
+      "medi_ambient"
+    ]
+  },
+  {
+    "id": "psicolegs-sense-fronteres",
+    "nom_cas": "Psicólogos sin Fronteras",
+    "nom_val": "Psicòlegs sense Fronteres",
+    "tipus": "ong",
+    "variants": [
+      "Psicòlegs sense Fronteres"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "serveis_socials",
+      "igualtat",
+      "economia"
+    ]
+  },
+  {
+    "id": "real-academia-cultura-valenciana",
+    "nom_cas": "Real Academia de Cultura Valenciana",
+    "nom_val": "Reial Acadèmia de Cultura Valenciana",
+    "tipus": "cultural",
+    "variants": [
+      "Real Acadèmia de Cultura Valenciana"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "cultura",
+      "participacio_ciutadana",
+      "igualtat"
+    ]
+  },
+  {
+    "id": "ste-intersindical",
+    "nom_cas": "STE-Intersindical",
+    "nom_val": "STE-Intersindical",
+    "tipus": "sindical",
+    "variants": [
+      "STE-Intersindical / Nadie sin Casa"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "habitatge",
+      "serveis_socials",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "stepv-intersindical",
+    "nom_cas": "STEPV-Intersindical",
+    "nom_val": "STEPV-Intersindical",
+    "tipus": "sindical",
+    "variants": [
+      "STEPV-Intersindical"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "habitatge",
+      "economia",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "salvem-el-cabanyal",
+    "nom_cas": "Salvem el Cabanyal",
+    "nom_val": "Salvem el Cabanyal",
+    "tipus": "plataforma",
+    "variants": [
+      "Salvem el Cabanyal"
+    ],
+    "num_intervencions": 1,
+    "barri": "Cabanyal-Canyamelar",
+    "temes_principals": []
+  },
+  {
+    "id": "san-juan-de-dios-servicios-sociales",
+    "nom_cas": "San Juan de Dios-Servicios Sociales",
+    "nom_val": "San Joan de Déu-Serveis Socials",
+    "tipus": "ong",
+    "variants": [
+      "San Juan de Dios-Servicios Sociales"
+    ],
+    "num_intervencions": 1,
+    "barri": "La Torre",
+    "temes_principals": [
+      "dana_emergencies",
+      "serveis_socials",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "ugt-pv-ajuntament-valencia",
+    "nom_cas": "Sección Sindical de la UGT-PV del Ayuntamiento de Valencia",
+    "nom_val": "Secció Sindical de la UGT-PV de l'Ajuntament de València",
+    "tipus": "sindical",
+    "variants": [
+      "Secció Sindical de la UGT-PV de l'Ajuntament de València"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "cultura",
+      "patrimoni",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "sjm-espana",
+    "nom_cas": "Servicio Jesuita a Migrantes España",
+    "nom_val": "Servei Jesuïta a Migrants Espanya",
+    "tipus": "ong",
+    "variants": [
+      "Servicio Jesuita a Migrantes España SJM España"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "participacio_ciutadana",
+      "economia",
+      "habitatge"
+    ]
+  },
+  {
+    "id": "sindicat-actors-audiovisual",
+    "nom_cas": "Sindicato de Actores y Actrices Valencianos",
+    "nom_val": "Sindicat d'Actors i Actrius Valencians",
+    "tipus": "sindical",
+    "variants": [
+      "Sindicat d'Actors i Actrius Valencians / Mesa Sectorial del Audiovisual Valenciano"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": []
+  },
+  {
+    "id": "societat-coral-micalet",
+    "nom_cas": "Sociedad Coral El Micalet",
+    "nom_val": "Societat Coral El Micalet",
+    "tipus": "cultural",
+    "variants": [
+      "Societat Coral El Micalet"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "cultura",
+      "participacio_ciutadana",
+      "patrimoni"
+    ]
+  },
+  {
+    "id": "lo-rat-penat-valencia",
+    "nom_cas": "Sociedad Lo Rat Penat de Valencia",
+    "nom_val": "Societat Lo Rat Penat de València",
+    "tipus": "cultural",
+    "variants": [
+      "Societat Lo Rat Penat de València"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "cultura",
+      "patrimoni",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "sporting-benimaclet",
+    "nom_cas": "Sporting Benimaclet",
+    "nom_val": "Sporting Benimaclet",
+    "tipus": "esportiu",
+    "variants": [
+      "Sporting Benimaclet / Asociación de Comerciantes de Benimaclet"
+    ],
+    "num_intervencions": 1,
+    "barri": "Benimaclet",
+    "temes_principals": []
+  },
+  {
+    "id": "ugt-mercavalencia",
+    "nom_cas": "UGT (Unión General de Trabajadores) - Sección Sindical de Mercavalencia",
+    "nom_val": "UGT (Unió General de Treballadors) - Secció Sindical de Mercavalencia",
+    "tipus": "sindical",
+    "variants": [
+      "UGT (Unión General de Trabajadores) - Sección Sindical de Mercavalencia"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "economia",
+      "serveis_socials",
+      "infraestructures"
+    ]
+  },
+  {
+    "id": "udc-valencia-chrysallis",
+    "nom_cas": "Unión de Consumidores de Valencia y Chrysallis Asociación de Familias de Infancia y Juventud Trans",
+    "nom_val": "Unió de Consumidors de València i Chrysallis Associació de Famílies d'Infància i Joventut Trans",
+    "tipus": "av",
+    "variants": [
+      "Unión de Consumidores de València y Chrysallis Asociación de Familias de Infancia y Juventud Trans"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "educacio",
+      "igualtat",
+      "joventut"
+    ]
+  },
+  {
+    "id": "valencia-silicon-cluster",
+    "nom_cas": "Valencia Silicon Cluster",
+    "nom_val": "Valencia Silicon Cluster",
+    "tipus": "empresa",
+    "variants": [
+      "Valencia Silicon Cluster"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "economia",
+      "infraestructures",
+      "joventut"
+    ]
+  },
+  {
+    "id": "veinats-barrio",
+    "nom_cas": "Vecinos del barrio",
+    "nom_val": "Veïnats del barri",
+    "tipus": "av",
+    "variants": [
+      "Veïnats del barri (sense especificar nom d'associació)"
+    ],
+    "num_intervencions": 1,
+    "barri": "Barri de Guatla",
+    "temes_principals": [
+      "urbanisme",
+      "patrimoni",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "viure-ciutat-vella",
+    "nom_cas": "Viure Ciutat Vella, Asociación Vecinal y de Comercio",
+    "nom_val": "Viure Ciutat Vella, Associació Veïnal i de Comerç",
+    "tipus": "av",
+    "variants": [
+      "Viure Ciutat Vella, Associació Veïnal i de Comerç"
+    ],
+    "num_intervencions": 1,
+    "barri": "Ciutat Vella",
+    "temes_principals": [
+      "mobilitat",
+      "economia",
+      "barris"
+    ]
+  },
+  {
+    "id": "zemmur",
+    "nom_cas": "Zemmur, Asociación de Saharauis en Valencia",
+    "nom_val": "Zemmur, Associació de Saharauís a València",
+    "tipus": "av",
+    "variants": [
+      "Zemmur, Asociación de Saharauis en València"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "memoria_historica",
+      "igualtat",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "av-cabanyal-canyamelar",
+    "nom_cas": "Asociación de Vecinos y Vecinas del Cabanyal-Canyamelar",
+    "nom_val": "Associació de Veïns i Veïnes del Cabanyal-Canyamelar",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns i Veïnes del Cabanyal-Canyamelar"
+    ],
+    "num_intervencions": 1,
+    "barri": "Cabanyal-Canyamelar, Marítim, Malva-rosa, Grau, Nazaret",
+    "temes_principals": [
+      "urbanisme",
+      "medi_ambient",
+      "infraestructures"
+    ]
+  }
+]

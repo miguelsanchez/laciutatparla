@@ -1,0 +1,112 @@
+{
+  "id": "2017-01-26",
+  "fecha": "2017-01-26",
+  "tipo": "ordinaria",
+  "mandat_id": "2015-2019",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2017-01-26",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20170126_1000_0_firmadoweb.pdf/d4496e05-d82d-4970-8afa-a7caa1179459?t=1613212594997",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20170126_1000_0_firmadoweb.pdf/22b8a50c-66bc-f88d-b2cc-65d3bac02b4c?t=1613212594584",
+  "url_video": "https://players.cdn.enetres.net/live/1B4DA0F1F28C4AC4BA9AE203080C30C8021",
+  "num_intervencions": 2,
+  "intervencions": [
+    {
+      "id": "2017-01-26-001",
+      "pleno_id": "2017-01-26",
+      "fecha": "2017-01-26",
+      "mandat_id": "2015-2019",
+      "ordre": 1,
+      "intervinient": "[***]",
+      "entitat": "Associació Gaviota Poblado Sud Perellonet / Plataforma Veïnal en Defensa de la CV500",
+      "entitat_id": "gaviota-poblado-sud-perellonet",
+      "tipus_entitat": "av",
+      "barri_o_zona": "Perellonet, Perelló, Palmar, Devesa del Saler, Pinedo, Saler",
+      "punts_ordre_dia": "no especificat",
+      "idioma_original": "valenciano",
+      "text_cas": "Sr. alcalde, concejales, Sra. presidenta.\nBuen día a todos y gracias por permitir que **el pueblo pueda expresarse** en nuestra casa, la casa de todos.\n\nRepresento a la **Plataforma Vecinal en Defensa de la CV-500**. Estoy aquí para hacer entender a nuestros representantes que **al pueblo no se le puede dejar atrás**. Soy un representante vecinal de mi querido pueblo del Perellonet y, por tanto, estoy aquí. Pero también, en este puntual momento, represento a **unos 50.000 vecinos y vecinas**, usuarios de la CV-500.\n\nQueréis **restringir al máximo la circulación de vehículos privados** por la CV-500 sin hacer antes un **buen servicio público**.\n\n'**Sostenibilidad y pacificación**', qué bien quedan esas palabras enlazadas en el aire. **La CV-500 es la huerta de estos pueblos**, es la vía en la que se concentra la vida de estos pueblos. **No podemos detenerla, no es viable**.\n\nQueremos quedarnos como estábamos. Si cualquier cosa funcionaba, entre otras, era la CV-500, hasta que la habéis tocado y lo habéis envuelto todo. Esto no es un problema de la Generalidad, como se está diciendo. **Esto es un capricho**, un capricho de unos pocos, **un capricho que nos está costando mucho dinero**. Un proyecto que **Europa rechazó** en su programa de financiación Life.\n\nPor primera vez en mucho tiempo atrás, **cuatro pueblos se ponen de acuerdo** en lo que se está haciendo en la CV-500. **Nos ahoga**.\n\nDemandan a nuestros políticos **sentido común** y que **nos escuchen**.",
+      "text_val": "Sr. alcalde, regidors, Sra. presidenta.\nBon dia a tots i gràcies per deixar que **el poble puga expressar-se** a la nostra casa, a la casa de tots.\n\nRepresente a la **Plataforma Veïnal en Defensa de la CV500**. Estic ací per fer entendre als nostres representants que **al poble no se'l pot deixar enrere**. Jo sóc un representant veïnal del meu ben volgut poble del Perellonet i, per tant, estic ací. Però també, en aquest puntual moment, represente a **uns 50.000 veïns i veïnes**, usuaris de la CV500.\n\nVoleu **restringir al màxim la circulació de vehicles privats** per la CV500 sense fer abans un **bon servici públic**.\n\n'**Sostenibilidad y pacificación**', que bé queden eixes paraules enllaçades en l'aire. **La CV500 és l'horta d'estos pobles**, és la via on es concentra la vida d'estos pobles. **No podem aturar-la, no és viable**.\n\nVolem quedar-nos com estàvem. Si qualsevol cosa funcionava, entre altres, era la CV500, fins que l'heu tocada i ho heu embolicat tot. Açó no es un problem de la Generalitat, com s'està dient. **Açò es un capritx**, un capritx d'uns quants, **un capritx que està costant-nos molts diners**. Un projecte que **Europa va rebutjar** al seu programa de finançament Life.\n\nPer primera vegada en molt de temps enrere, **quatre pobles es posen d'acord** amb el que s'està fent a la CV500. **Ens ofega**.\n\nDemanden als nostres politics **sentit comú** i que **ens escolten**.",
+      "temes": [
+        "mobilitat",
+        "infraestructures",
+        "participacio_ciutadana",
+        "barris"
+      ],
+      "temes_v2": {
+        "mobilitat": [
+          "transit"
+        ],
+        "medi_ambient": [
+          "emergencies_climatiques"
+        ],
+        "participacio": [
+          "participacio"
+        ]
+      },
+      "ambit": "multi_barri",
+      "zones": [
+        "El Perellonet",
+        "El Palmar",
+        "El Saler",
+        "La Torre"
+      ],
+      "districtes": [
+        "Poblats del Sud"
+      ],
+      "resum_cas": "Representante vecinal del Perellonet denuncia las medidas de restricción de circulación en la CV-500, argumentando que afectan a 50.000 residentes y usuarios de esta vía y solicita sentido común a los políticos para que escuchen al pueblo.",
+      "resum_val": "Representant veïnal del Perellonet denúncia les mesures de restricció de circulació en la CV-500, argumentant que afecten 50.000 veïns i usuaris d'esta via i demana sentit comú als polítics perquè escolten el poble.",
+      "cap_subtopics": [
+        1002,
+        711,
+        2000
+      ],
+      "cap_major": [
+        7,
+        10,
+        20
+      ]
+    },
+    {
+      "id": "2017-01-26-002",
+      "pleno_id": "2017-01-26",
+      "fecha": "2017-01-26",
+      "mandat_id": "2015-2019",
+      "ordre": 2,
+      "intervinient": "[***]",
+      "entitat": "Associació València Laica-Europa Laica / Federació d'Associacions de Veïns de València",
+      "entitat_id": "valencia-laica",
+      "tipus_entitat": "ong",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "Moció de laïcitat en les institucions presentada pel Grup València en Comú",
+      "idioma_original": "mixt",
+      "text_cas": "Gracias, alcaldes, regidores, regidoras, por estar aquí haciendo uso de la palabra.\n\nRepresento a la Asociación Valencia Laica-Europa Laica y pensamos que ya es momento en Valencia, en el Ayuntamiento, que se plantee **esta moción de laicidad en las instituciones** presentada por el Grupo Valencia en Comú.\n\nPara nosotros **el derecho a la libertad de conciencia es fundamental** y pensamos que **la única manera de organizar este derecho es con la neutralidad de las instituciones**. Estoy hablando de instituciones, no de sociedad. Porque la sociedad –que, por cierto, está muy secularizada– tiene multiplicidad de creencias, de ideologías. ¿De qué manera se puede articular y se puede garantizar **la libertad de conciencia** si no es con la neutralidad? Porque, claro, si hay 10.000 religiones y también muchísimas ideologías por todo el mundo, ¿cómo una institución pública que debe representarnos a todas y a todos podría articular esto y podría garantizarlo? **La única manera es con la neutralidad**, no vamos a llevar la simbología de todas las ideologías o todas las creencias. Creo que queda claro.\n\nEs una manera democrática de organizar las instituciones y de hacer que esas personas puedan llevarlo a cabo, puedan ejercerlo. Lo digo porque **sobre el laicismo se tergiversa muchas veces nuestros principios** y se dice, hoy mismo lo veía en la prensa, ayer también, que estamos en contra de la religión, que estamos planteando el enfrentamiento, abriendo brechas. No, por favor. Entiendo que haya personas y grupos municipales y políticos que no estén de acuerdo y no tengan el mismo planteamiento que tenemos las personas laicistas, lo puedo entender. Pero lo que no está bien es que digan lo que no es. **Nadie va contra la religión**, la religión como una forma de creencia. Luego hay ideologías, luego hay personas que no tienen religión, que son masones, humanistas, racionalistas, ateos, etc. **Todo el mundo tiene que tener esa libertad de conciencia**, pero poder ejercerla y **la única forma es con la neutralidad de las instituciones, exquisita neutralidad**.\n\nPor otra parte, sí que es cierto que también se puede organizar las instituciones de otra forma, eso ya lo conocemos. Que una religión o una ideología tenga muchos privilegios, claro que sí, lo conocemos muy bien en este país. Pero si nos creemos la democracia tendremos que articular aquello donde **todo el mundo nos sintamos aquí representados**.\n\nSolo quería decir que, por favor, **la gente que esté en contra de la laicidad que no diga mentiras** y que yo pienso que **esto es una cuestión transversal** y algún día, muy pronto, también los grupos conservadores de derechas que están en contra de la laicidad este debate también se producirá. Muchos derechos civiles que hemos conseguido en los últimos años ellos también se oponían, estoy segura que muy pronto también estarán por la laicidad.\n\nMuchas gracias.",
+      "text_val": "És una manera democràtica d'organitzar les institucions i de fer que aquestes persones pugen dur-ho a terme, pugen exercir-ho. Ho dic perquè sobre el laïcisme es tergiversa moltes vegades els nostres principis i es diu, hui mateix ho veia a la premsa, ahir també, que estem en contra de la religió, que estem plantejant l'enfrontament, obrint bretxes. No, per favor. Entenc que hi haja persones i grups municipals i polítics que no estiga d'acord i no tinguen el mateix plantejament que tenim les persones laïcistes, ho puc entendre. Però el que no està bé és que diguen el que no és. Nadie va contra la religió, la religió com una forma de creença. Després hi ha ideologies, després hi ha persones que no tenen religió, que són maçons, humanistes, racionalistes, ateus, etc. Tothom ha de tindre aquesta llibertat de consciència, però poder exercir-la i l'única forma és amb la neutralitat de les institucions, exquisida neutralitat.\n\nPer altra part, sí que és cert que també es pot organitzar les institucions d'una altra forma, això ja ho coneixem. Que una religió o una ideologia tinga molts privilegis, clar que sí, ho coneixem molt bé en este país. Però si ens creiem la democràcia haurem d'articular allò on tothom, totes i tots ens sentim ací representants.",
+      "temes": [
+        "participacio_ciutadana",
+        "igualtat"
+      ],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "drets_humans",
+          "diversitat"
+        ],
+        "participacio": [
+          "participacio"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "Representante de la Asociación Valencia Laica defiende la laicidad en las instituciones municipales como única forma de garantizar la libertad de conciencia y la igualdad de representación de todas las creencias e ideologías.",
+      "resum_val": "Representant de l'Associació València Laica defensa la laïcitat en les institucions municipals com a única manera de garantir la llibertat de consciència i la igualtat de representació de totes les creences i ideologies.",
+      "cap_subtopics": [
+        201,
+        207,
+        2000
+      ],
+      "cap_major": [
+        2,
+        20
+      ]
+    }
+  ]
+}

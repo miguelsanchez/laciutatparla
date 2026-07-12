@@ -1,0 +1,68 @@
+{
+  "id": "2020-12-23",
+  "fecha": "2020-12-23",
+  "tipo": "ordinaria",
+  "mandat_id": "2019-2023",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2020-12-23",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20201223_0945_0_firmadoweb.pdf/6cf98307-b484-fb42-eb8a-b25137d8011c?t=1613213186532",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20201223_0945_0_firmadoweb.pdf/60f02b5c-a93f-c7fd-fe52-9241a6ffd46b?t=1613213185961",
+  "url_video": "https://players.cdn.enetres.net/live/1B4DA0F1F28C4AC4BA9AE203080C30C8021",
+  "num_intervencions": 1,
+  "intervencions": [
+    {
+      "id": "2020-12-23-001",
+      "pleno_id": "2020-12-23",
+      "fecha": "2020-12-23",
+      "mandat_id": "2019-2023",
+      "ordre": 1,
+      "intervinient": "[***]",
+      "entitat": "Associació de Mares i Pares d'Alumnes el Saler",
+      "entitat_id": "associacio-mares-pares-saler",
+      "tipus_entitat": "educacio",
+      "barri_o_zona": "el Saler, la Devesa, el Palmar",
+      "punts_ordre_dia": "no especificat",
+      "idioma_original": "castellano",
+      "text_cas": "Vengo en representación de los **450 alumnos** que tenemos en la zona de la **Devesa, punto negro**. Necesito que **nos visualicen**. Primer paso, el Saler, **653 habitantes**. Segundo paso, la Devesa, **1.118 empadronados**, aunque realmente la comunidad es de 1.700 en invierno y de 5.000 en verano. Tercer paso, el Palmar. Nuestros hijos **sin querer porque no han tenido opción están en un semipresencial**.\nNo tenim accés a Internet, **no pueden estudiar**, no pueden ejercer su **derecho a recibir formación**, no tenim accés a Aules. **No temos acceso ni a la educación, ni al teletrabajo**. **Punto negro, no un punto blanco**. Nuestros vecinos del Palmar, nuestros vecinos del Saler **por fin han conseguido tener la fibra**.\nNosotros somos el **punto dos**, para el uno y para el tres ha llegado **y el dos ha sido excluido**. **Internet es la forma de contactar** donde los futuros médicos, futuros abogados, incluso futuros políticos **tienen que recibir una formación no la estemos recibiendo**. **El sistema de telecomunicaciones es del milenio pasado**. Trabajamos con ADSL.",
+      "text_val": "Vinc en representació dels **450 alumnes** que tenim en la zona de la **Devesa, punt negre**. Necessit que **ens visualitzen**. Primer pas, el Saler, **653 habitants**. Segon pas, la Devesa, **1.118 empadronats**, encara que realment la comunitat és de 1.700 en hivern i de 5.000 en estiu. Tercer pas, el Palmar. Els nostres fills **sense voler perquè no han tingut opció estan en un semipresencial**.\nNo tenim accés a Internet, **no poden estudiar**, no poden exercir el seu **dret a rebre formació**, no tenim accés a Aules. **No tenim accés ni a l'educació, ni al teletrabajo**. **Punt negre, no un punt blanc**. Els nostres veïns del Palmar, els nostres veïns del Saler **per fi han aconseguit tindre la fibra**.\nNosaltres som el **punt dos**, per al un i per al tres ha arribat **i el dos ha sigut exclòs**. **Internet és la forma de contactar** on els futurs metges, futurs advocats, inclús futurs polítics **han de rebre una formació no la rebem**. **El sistema de telecomunicacions és del mil·lenni passat**. Treballem amb ADSL.",
+      "temes": [
+        "educacio",
+        "infraestructures",
+        "mobilitat",
+        "serveis_socials",
+        "economia"
+      ],
+      "temes_v2": {
+        "serveis_publics": [
+          "educacio"
+        ],
+        "economia": [
+          "comerc_ocupacio"
+        ],
+        "drets_i_igualtat": [
+          "drets_humans"
+        ]
+      },
+      "ambit": "multi_barri",
+      "zones": [
+        "El Saler",
+        "El Palmar"
+      ],
+      "districtes": [
+        "Poblats del Sud"
+      ],
+      "resum_cas": "Representantes del AMPA del Saler denuncian la falta de acceso a Internet en la zona de la Devesa, lo que impide a 450 alumnos recibir educación telemática durante la pandemia, mientras que otras zonas vecinas ya han recibido cobertura de fibra.",
+      "resum_val": "Representants de l'AMPA del Saler denuncien la falta d'accés a Internet en la zona de la Devesa, cosa que impedeix a 450 alumnes rebre educació telemàtica durant la pandèmia, mentre que altres zones veïnes ja han rebut cobertura de fibra.",
+      "cap_subtopics": [
+        602,
+        1002,
+        1906
+      ],
+      "cap_major": [
+        6,
+        10,
+        19
+      ]
+    }
+  ]
+}

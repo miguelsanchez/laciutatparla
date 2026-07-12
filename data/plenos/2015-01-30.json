@@ -1,0 +1,62 @@
+{
+  "id": "2015-01-30",
+  "fecha": "2015-01-30",
+  "tipo": "ordinaria",
+  "mandat_id": "2011-2015",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2015-01-30",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20150130_1045_0_firmadoweb.pdf/30e9fb65-727f-0c98-e294-6485c057dd42?t=1613212442532",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20150130_1045_0_firmadoweb.pdf/b1db5276-07a8-52d3-bf1d-3d9f10884454?t=1613212442423",
+  "url_video": "https://players.cdn.enetres.net/live/1B4DA0F1F28C4AC4BA9AE203080C30C8021",
+  "num_intervencions": 1,
+  "intervencions": [
+    {
+      "id": "2015-01-30-001",
+      "pleno_id": "2015-01-30",
+      "fecha": "2015-01-30",
+      "mandat_id": "2011-2015",
+      "ordre": 1,
+      "intervinient": "[***]",
+      "entitat": "Associació d'Aturats i Aturades d'Orriols-Torrefiel",
+      "entitat_id": "associacio-aturats-orriols-torrefiel",
+      "tipus_entitat": "av",
+      "barri_o_zona": "Orriols-Torrefiel",
+      "punts_ordre_dia": "Proposta de transport públic gratuït per a desocupats",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días.\nVengo a presentar la propuesta del transporte público para el desempleado gratuito. Llevamos ya recogidas **cuatro mil firmas** colaborando con los ciudadanos de la ciudad de Valencia. Ya entregamos un escrito el 5 de junio de 2014, por si alguien de ustedes no se había enterado. Llevamos mucho tiempo ya en ello. El colectivo de Orriols-Torrefiel es de donde parte esta idea porque **es un barrio de los que tiene más paro** en esta ciudad.\n\nSólo pedimos lo que creemos que es justo y creemos que es necesario. ¿Por qué? Porque **este bono estaría destinado para quienes tienen un subsidio o una ayuda** y no les llega el dinero para poder ir a buscar trabajo.\n\nTambién estaría destinado para quienes están trabajando en ese trabajo que se ha creado de pocas horas a la semana, de 10 a 16 horas, y que de su salario tienen que descontar el transporte para poder llegar a su centro de trabajo. Ese trabajador a final de mes, ¿qué es lo que le queda para vivir dignamente?\n\nLes pedimos a ustedes, la clase política, que reflexionen y piensen. Voy a poner un ejemplo. **Ustedes tienen un buen salario, además tienen un plus de transporte**, un plus de dieta y alguno de ustedes coche oficial. ¿Es que no deberíamos tenerlo todos? Sin embargo, **para nosotros las ayudas son escasas** y el parado lo necesita para buscar trabajo.\n\nBusquen un ratito en sus agendas y pónganse en la piel de quienes estamos pasando por esta situación, y reflexionen. **Lo que pedimos no es tan difícil, un bono de transporte gratuito** para los desempleados y los precarios.\n\nY permítanme sugerirles una idea: si la excusa para no poderlo conceder es el dinero, quítense el plus de transporte en solidaridad con los ciudadanos y ese dinero destínenlo para este bono.\n\nGracias por escucharme y les paso a mi compañero.",
+      "text_val": "Buenos días.\nVinc a presentar la proposta del transport públic per al desempleat gratuït. Ja hem recollit **quatre mil signatures** col·laborant amb els ciutadans de la ciutat de València. Ja vam entregar un escrit el 5 de juny de 2014, per si algú de vostès no s'havia assabentat. Fa molt de temps que hi estem treballant. El col·lectiu d'Orriols-Torrefiel és d'on parteix aquesta idea perquè **és un barri dels que té més atur** en aquesta ciutat.\n\nNomés demanem el que creiem que és just i creiem que és necessari. ¿Per què? Perquè **aquest bono estaria destinat per a qui té una prestació o una ajuda** i no li arriba els diners per poder anar a buscar feina.\n\nTambé estaria destinat per a qui està treballant en aquest treball que s'ha creat de poques hores a la setmana, de 10 a 16 hores, i que del seu salari ha de descomptar el transport per poder arribar al seu centre de treball. Eixe treballador a final de mes, ¿quin és el que li queda per viure dignament?\n\nEls demanem a vostès, la classe política, que reflexionen i pensen. Vaig a posar un exemple. **Vostès tenen un bon salari, a més a més tenen un plus de transport**, un plus de dieta i algú de vostès cotxe oficial. ¿No hauríem de tenir-ho tots? No obstant, **per a nosaltres les ajudes són escasses** i l'aturat ho necessita per buscar feina.\n\nBusquen un ratinet en les seues agendes i poseu-se en la pell de qui estem passant per aquesta situació, i reflexionen. **El que demanem no és tan difícil, un bono de transport gratuït** per als desempleats i els precaris.\n\nI permítanme suggerir-los una idea: si l'excusa per no poder-ho concedir és els diners, trequen-se el plus de transport en solidaritat amb els ciutadans i eixos diners destinen-los per a aquest bono.\n\nGràcies per escoltar-me i els passe al meu company.",
+      "temes": [],
+      "temes_v2": {
+        "mobilitat": [
+          "transport_public"
+        ],
+        "economia": [
+          "comerc_ocupacio"
+        ],
+        "serveis_publics": [
+          "serveis_socials"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Els Orriols",
+        "Torrefiel"
+      ],
+      "districtes": [
+        "Rascanya"
+      ],
+      "resum_cas": "Representante de la Associació d'Aturats i Aturades d'Orriols-Torrefiel presenta una propuesta con cuatro mil firmas para crear un bono de transporte público gratuito destinado a desempleados y trabajadores precarios, sugiriendo que los políticos financien esta medida reduciendo sus propios complementos de transporte.",
+      "resum_val": "Representant de l'Associació d'Aturats i Aturades d'Orriols-Torrefiel presenta una proposta amb quatre mil signatures per a crear un bono de transport públic gratuït destinat a desocupats i treballadors precaris, suggerint que els polítics financen aquesta mesura reduint els seus propis complements de transport.",
+      "cap_subtopics": [
+        1001,
+        500,
+        1300
+      ],
+      "cap_major": [
+        5,
+        10,
+        13
+      ]
+    }
+  ]
+}

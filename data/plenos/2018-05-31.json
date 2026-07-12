@@ -1,0 +1,173 @@
+{
+  "id": "2018-05-31",
+  "fecha": "2018-05-31",
+  "tipo": "ordinaria",
+  "mandat_id": "2015-2019",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2018-05-31",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20180531_1000_0_firmadoweb.pdf/224c1d1d-60d1-ae9b-0fce-703e8c484d59?t=1613212850322",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20180531_1000_0_firmadoweb.pdf/336ee3a4-67ab-18df-29d3-519dbef04321?t=1613212849765",
+  "url_video": "https://players.cdn.enetres.net/live/1B4DA0F1F28C4AC4BA9AE203080C30C8021",
+  "num_intervencions": 3,
+  "intervencions": [
+    {
+      "id": "2018-05-31-001",
+      "pleno_id": "2018-05-31",
+      "fecha": "2018-05-31",
+      "mandat_id": "2015-2019",
+      "ordre": 1,
+      "intervinient": "José Vicente Barrachina Gallego",
+      "entitat": "Associació de Veïns de Benimàmet",
+      "entitat_id": "associacio-veins-benimamet",
+      "tipus_entitat": "av",
+      "barri_o_zona": "Benimàmet",
+      "punts_ordre_dia": "moció sobre benestar animal",
+      "idioma_original": "mixt",
+      "text_cas": "Buenos días a todos y a todas.\n\nAgradecemos que nos den la palabra para que nos expresemos nuestras inquietudes sobre el **bienestar animal** en nuestra ciudad.\n\nEn numerosas ocasiones a lo largo de los últimos años hemos presentado por registro de entrada en este Ayuntamiento nuestra queja sobre **la protectora de animales**, en la que les hemos hecho patente que **las instalaciones están siempre saturadas**. Que debido a esto, sobre todo en verano al estar sobresaturada de animales, **los ruidos son constantes**. Las pantallas que conseguimos que instalaran hace unos años no son suficientemente altas, pero es que además paran el aire y creemos que **en verano los animales se sofoquen más**.\n\nSabemos que **los animales al estar hacinados en tan poco espacio sufren** de esta situación. Las noticias que salen en prensa a veces nos comentan que el Ayuntamiento está mirando una nueva ubicación, pero vemos que al final no llega a buen puerto.\n\nPor eso, como el verano está a la vuelta de la esquina, **solicitamos una solución de emergencia**. Es por ello por lo que desde esta asociación apoyamos esta moción, aunque sea un parche. Y les instamos a **buscar una solución definitiva al problema**, cosa que nuestros vecinos agradecerían pues **la preocupación por el bienestar animal es una de nuestras prioridades**.",
+      "text_val": "Bon dia a tots i a totes.\n\nAgraïm que ens done la paraula perquè ens expressem les nostres inquietuds sobre el **benestar animal** en la nostra ciutat.\n\nEn nombroses ocasions al llarg dels últims anys hem presentat per registre d'entrada en aquest Ajuntament la nostra queixa sobre **la protectora d'animals**, en la qual els hem fet patent que **les instal·lacions estan sempre saturades**. Que a causa d'açò, sobretot en estiu al estar sobresaturada d'animals, **els sorolls són constants**. Les pantalles que vàrem aconseguir que instal·laren fa uns anys no són prou altes, però és que a més paren l'aire i creiem que **en estiu els animals s'ofeguen més**.\n\nSabem que **els animals al estar hacinats en tant poc espai patixen** d'aquesta situació. Les notícies que surten en premsa a vegades ens comenten que l'Ajuntament està mirant una nova ubicació, però veiem que al final no arriba a bon port.\n\nPer això, com l'estiu està a la volta de la cantonada, **sol·licitem una solució d'emergència**. És per això que des d'aquesta associació recolzem aquesta moció, encara que siga un pegat. I els instem a **buscar una solució definitiva al problema**, cosa que els nostres veïns agraïrien ja que **la preocupació pel benestar animal és una de les nostres prioritats**.",
+      "temes": [
+        "bienestar_animal",
+        "barris",
+        "infraestructuras",
+        "participacio_ciutadana"
+      ],
+      "temes_v2": {
+        "medi_ambient": [
+          "benestar_animal"
+        ],
+        "serveis_publics": [
+          "seguretat"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Benimamet"
+      ],
+      "districtes": [
+        "Poblats de l'Oest"
+      ],
+      "resum_cas": "La Asociación de Vecinos de Benimàmet solicita una solución de emergencia para la saturación de la protectora de animales, que genera ruidos y problemas de convivencia en el barrio, además de afectar al bienestar de los animales.",
+      "resum_val": "L'Associació de Veïns de Benimàmet sol·licita una solució d'emergència per a la saturació de la protectora d'animals, que genera sorolls i problemes de convivència al barri, a més d'afectar el benestar dels animals.",
+      "cap_subtopics": [
+        404,
+        711
+      ],
+      "cap_major": [
+        4,
+        7
+      ]
+    },
+    {
+      "id": "2018-05-31-002",
+      "pleno_id": "2018-05-31",
+      "fecha": "2018-05-31",
+      "mandat_id": "2015-2019",
+      "ordre": 2,
+      "intervinient": "Anna Batlle i Marco",
+      "entitat": "Associació Cultural la Demanà",
+      "entitat_id": "la-demana",
+      "tipus_entitat": "cultural",
+      "barri_o_zona": "Saler",
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "valenciano",
+      "text_cas": "Buenos días a todos y todas. Soy Anna Batlle, alcaldesa del Saler y hoy hablo como **portavoz de todas las asociaciones del Saler**. En primer lugar, queremos trasladaros **el orgullo que sentimos de pertenecer al Saler**, de formar parte del **Parque Natural de la Albufera**, un territorio y una manera de hacer y de entender el mundo que han marcado nuestra personalidad y carácter. Es por eso que en nuestro pueblo existe **un gran consenso por la sostenibilidad y la transversalidad**.\nPero tenemos **problemas y necesidades que vienen de varias décadas**. **La ampliación del puerto de Valencia nos afectó muchísimo** y redujo mucho las playas del sur. **Somos el único núcleo de población que no tiene ninguna infraestructura deportiva**. Pero, quiero subrayar que en el último período se han realizado **actuaciones muy importantes como la limpieza y retirada de residuos tóxicos** en el puerto albuferense. Hoy, quiero, queremos hablar de soluciones.\nEstoy convencida de que no hay ningún vecino o vecina del Saler que no desee **la cesión del Barco de Estibadores**, una instalación que ha estado **cerrada demasiados años** y que necesitamos para destinarla al **deporte de deslizamiento**, pero también como un **punto de información, de divulgación ambiental** de los sistemas dunares y el mar.\nY un lugar de cultura donde por ejemplo nuestra banda musical pueda ofrecer **conciertos en condiciones dignas**, garantizando el **principio de accesibilidad universal**.",
+      "text_val": "Bon dia a totes i tots. Sóc Anna Batlle, alcaldessa del Saler i hui parle com a **portaveu de totes les associacions del Saler**. En primer lloc, volem traslladar-vos **l'orgull que sentim de pertànyer al Saler**, de formar part del **Parc Natural de l'Albufera**, un territori i una manera de fer i d'entendre el món que han marcat la nostra personalitat i caràcter. És per això que al nostre poble existeix **un gran consens per la sostenibilitat i la transversalitat**.\nPerò tenim **problemes i necessitats que venen de varies dècades**. **L'ampliació del port de València ens va afectar moltíssim** i va reduir molt les platges del sud. **Som l'únic nucli de població que no té cap infraestructura esportiva**. Però vull subratllar que en l'últim període s'han fet **actuacions molt importants com la neteja i retirada de residus tòxics** al port albuferenc. Hui, vull, volem parlar de solucions.\nEstoy convençuda que no hi ha cap veïna o veï del Saler que no desitge **la cessió del Barco d'Estibadors**, una instal·lació que ha estat **tancada massa anys** i que necessitem per a destinar-la a **l'esport de lliscament**, però també com un **punt d'informació, de divulgació ambiental** dels sistemes dunars i la mar.\nI un lloc de cultura on la nostra banda musical puga oferir uns **concerts en condicions dignes**, garantint el **principi d'accessibilitat universal**.",
+      "temes": [
+        "medi_ambient",
+        "infraestructures",
+        "esports",
+        "cultura",
+        "mobilitat",
+        "turisme",
+        "participacio_ciutadana",
+        "memoria_historica"
+      ],
+      "temes_v2": {
+        "serveis_publics": [
+          "esports"
+        ],
+        "medi_ambient": [
+          "zones_verdes"
+        ],
+        "cultura": [
+          "patrimoni_cultural",
+          "associacionisme"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "El Saler"
+      ],
+      "districtes": [
+        "Poblats del Sud"
+      ],
+      "resum_cas": "La portavoz de las asociaciones del Saler presenta las necesidades históricas del barrio, especialmente la cesión del Barco de Estibadores para actividades deportivas, de divulgación ambiental y culturales, destacando el consenso de todo el pueblo.",
+      "resum_val": "La portaveu de les associacions del Saler presenta les necessitats històriques del barri, especialment la cessió del Barco d'Estibadors per a activitats esportives, de divulgació ambiental i culturals, destacant el consens de tot el poble.",
+      "cap_subtopics": [
+        1526,
+        709,
+        2300,
+        1401
+      ],
+      "cap_major": [
+        7,
+        14,
+        15,
+        23
+      ]
+    },
+    {
+      "id": "2018-05-31-003",
+      "pleno_id": "2018-05-31",
+      "fecha": "2018-05-31",
+      "mandat_id": "2015-2019",
+      "ordre": 3,
+      "intervinient": "Alfonso Cortés",
+      "entitat": "Associació de Veïns de Malilla",
+      "entitat_id": "associacio-veins-malilla",
+      "tipus_entitat": "av",
+      "barri_o_zona": "Malilla",
+      "punts_ordre_dia": "Moció presentada pel Grup Ciutadans sobre la construcció d'un centre de salut a Malilla",
+      "idioma_original": "mixt",
+      "text_cas": "Bueno, pues ya no se les puede decir como han dicho ustedes antes que eran pancartistas, parece que ha desaparecido la pancarta. Soy Alfonso Cortés, presidente de la **Asociación de Vecinos de Malilla**. No hace muchos años y gracias a una moción del PSOE intervenimos en otro pleno para pedir la **construcción del polideportivo de Malilla**. Hoy nos toca agradecer al Grupo Ciudadanos la presentación de otra moción que nos permite intervenir para pedir **nuestro centro de salud**. En noviembre del 2015 nos reunimos con el Sr.\nSarrià, concejal del área de Urbanismo, que nos propuso **el intercambio de la parcela** ya preparada para el centro de salud por otra más céntrica y con la **promesa personal del Sr. concejal** que la demora seria como máximo de **ocho a diez meses**. Nos equivocamos. Desde entonces un sinfín de reuniones y visitas a Patrimonio del Ayuntamiento, Conselleria, Gerencia del Peset. Una frase muy famosa que nos extraña: **'Mutación demonial de la parcela'**. Así se han pasado **meses y meses, años y años**, y por lo que parece **todo sigue igual**.\nEl 26 de enero de 2017 **(dos años habían trascurrido)** se aprobó el cambio de ubicación. Una vez más y **por la prensa, siempre por la prensa**, nos enteramos que ha sido rechazada por no cumplir los requisitos necesarios. Estamos igual que en el 2015. En octubre hicimos un último intento de contactar con el Sr. Sarrià. La respuesta del Sr. Ribó fue que **no teníamos paciencia**. ¿Cómo puede un alcalde de València **hacer promesas que no sabe si va a poder cumplir**? Pero lo más triste es la **falta de comunicación, de explicación**.\nAhora nos sentimos **defraudados y mangoneados**.",
+      "text_val": "Bé, doncs ja no es pot dir com han dit vosaltres abans que eren pancartisters, sembla que ha desaparegut la pancarta. Soc Alfonso Cortés, president de l'**Associació de Veïns de Malilla**. No fa molts anys i gràcies a una moció del PSOE vàrem intervindre en un altre ple per a demanar la **construcció del poliesportiu de Malilla**. Avui ens toca agrair al Grup Ciutadans la presentació d'una altra moció que ens permet intervindre per a demanar el **nostre centre de salut**. En novembre del 2015 ens vàrem reunir amb el Sr.\nSarrià, regidor de l'àrea d'Urbanisme, que ens va proposar **l'intercanvi de la parcel·la** ja preparada per al centre de salut per una altra més cèntrica i amb la **promesa personal del Sr. regidor** que la demora seria com a màxim de **huit a deu mesos**. Ens vàrem equivocar. Des de llavors un sinfí de reunions i visites a Patrimoni de l'Ajuntament, Conselleria, Gerència del Peset. Una frase molt famosa que ens estranya: **'Mutació demonial de la parcel·la'**. Així s'han passat **mesos i mesos, anys i anys**, i pel que sembla **tot segueix igual**.\nEl 26 de gener de 2017 **(dos anys havien transcorregut)** es va aprovar el canvi de ubicació. Una altra vegada i **per la premsa, sempre per la premsa**, ens assabentem que ha sigut rebutjada per no complir els requisits necessaris. Estem igual que en el 2015. En octubre vàrem fer un últim intent de contactar amb el Sr. Sarrià. La resposta del Sr. Ribó va ser que **no teníem paciència**. ¿Com pot un alcalde de València **fer promeses que no sap si va a poder complir**? Però el més trist és la **falta de comunicació, d'explicació**.\nAra ens sentim **defraudats i manejats**.",
+      "temes": [
+        "urbanisme",
+        "infraestructures",
+        "salut",
+        "participacio_ciutadana",
+        "barris"
+      ],
+      "temes_v2": {
+        "serveis_publics": [
+          "salut"
+        ],
+        "urbanisme": [
+          "habitatge"
+        ],
+        "participacio": [
+          "transparencia"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Malilla"
+      ],
+      "districtes": [
+        "Quatre Carreres"
+      ],
+      "resum_cas": "La Asociación de Vecinos de Malilla denuncia los retrasos reiterados en la construcción del centro de salud, que debería haberse completado hace años, y critica la falta de comunicación y transparencia del equipo de gobierno municipal.",
+      "resum_val": "L'Associació de Veïns de Malilla denuncia els retards reiterats en la construcció del centre de salut, que hauria de s'haver completat fa anys, i critica la falta de comunicació i transparència de l'equip de govern municipal.",
+      "cap_subtopics": [
+        300,
+        1403,
+        2000
+      ],
+      "cap_major": [
+        3,
+        14,
+        20
+      ]
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { t } from '../../../i18n/index.ts';
+import { AnalysisExplorer } from '../../../components/AnalysisExplorer.tsx';
+import { PresupuestosExplorer } from '../../../components/PresupuestosExplorer.tsx';
+import { CrucesExplorer } from '../../../components/CrucesExplorer.tsx';
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
+
+const lang = 'val';
+const dataDir = resolve(process.cwd(), '..', 'data');
+
+let intervencions: any[] = [];
+let quejas: any = { districts: {}, temas: {}, total: 0, years: [], by_year_district_tema: {} };
+let mandats: any[] = [];
+let entitats: any[] = [];
+let barris: any[] = [];
+let presupuestos: any = null;
+let propostes: any = null;
+let barriPoblacion: any = {};
+try {
+  intervencions = JSON.parse(readFileSync(`${dataDir}/intervencions.json`, 'utf-8'));
+  quejas = JSON.parse(readFileSync(`${dataDir}/quejas.json`, 'utf-8'));
+  mandats = JSON.parse(readFileSync(`${dataDir}/mandats.json`, 'utf-8'));
+  entitats = JSON.parse(readFileSync(`${dataDir}/entitats.json`, 'utf-8'));
+  barris = JSON.parse(readFileSync(`${dataDir}/raw/barris_referencia.json`, 'utf-8'));
+  presupuestos = JSON.parse(readFileSync(`${dataDir}/presupuestos_oficial.json`, 'utf-8'));
+  propostes = JSON.parse(readFileSync(`${dataDir}/propostes.json`, 'utf-8'));
+  barriPoblacion = JSON.parse(readFileSync(`${dataDir}/raw/barri_poblacion.json`, 'utf-8'));
+} catch {}
+
+const barriToDistrict: Record<string, string> = {};
+for (const b of barris) {
+  barriToDistrict[b.nom] = b.districte_nom;
+}
+
+const entityNames: Record<string, any> = {};
+for (const e of entitats) {
+  entityNames[e.id] = { nom_cas: e.nom_cas, nom_val: e.nom_val };
+}
+
+const slimIvs = intervencions.map((iv: any) => ({
+  id: iv.id, fecha: iv.fecha, entitat: iv.entitat, entitat_id: iv.entitat_id,
+  tipus_entitat: iv.tipus_entitat, temes_v2: iv.temes_v2 || {},
+  districtes: iv.districtes || [], zones: iv.zones || [],
+}));
+
+const catLabels: Record<string, string> = {
+  urbanisme: t(lang, 'cat_urbanisme'),
+  mobilitat: t(lang, 'cat_mobilitat'),
+  medi_ambient: t(lang, 'cat_medi_ambient'),
+  serveis_publics: t(lang, 'cat_serveis_publics'),
+  economia: t(lang, 'cat_economia'),
+  drets_i_igualtat: t(lang, 'cat_drets_i_igualtat'),
+  persones: t(lang, 'cat_persones'),
+  cultura: t(lang, 'cat_cultura'),
+  participacio: t(lang, 'cat_participacio'),
+};
+---
+
+<Base title="Altres veus" fullWidth={true}>
+
+  <!-- Hero -->
+  <section style="background: #1e1e1e; color: #fff; padding: 3rem 1rem 2.5rem;">
+    <div class="max-w-5xl mx-auto">
+      <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #e8562a; margin-bottom: 0.75rem;">
+        Altres veus
+      </p>
+      <h1 style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 1rem;">
+        Veus que complementen el ple: queixes i suggeriments, pressupostos participatius
+      </h1>
+      <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 1rem; color: #aaa; max-width: 48rem; line-height: 1.6;">
+        Les <strong style="color: #fff;">intervencions ciutadanes al ple</strong> són una forma de participació, però no l'única. La ciutadania de València també s'expressa presentant <strong style="color: #fff;">queixes i suggeriments</strong> individuals i proposant projectes als <strong style="color: #fff;">pressupostos participatius</strong>. Tres canals amb regles i barreres distintes, creuats ací per districte, barri i edició.
+      </p>
+    </div>
+  </section>
+
+  <!-- Piràmide invertida de la participació -->
+  <section style="background: #fafafa; padding: 3rem 1rem; border-bottom: 1px solid #eee;">
+    <div class="max-w-5xl mx-auto" style="font-family: 'Outfit', system-ui, sans-serif;">
+      <h2 style="font-family: 'Sora', system-ui, sans-serif; font-size: 1.5rem; font-weight: 700; color: #1e1e1e; letter-spacing: -0.02em; margin-bottom: 0.5rem;">
+        Tres canals, diferents barreres
+      </h2>
+      <p style="color: #666; margin-bottom: 2rem; max-width: 42rem; line-height: 1.6; font-size: 0.95rem;">
+        Del més accessible al més exigent. Com més estret el canal, menys persones arriben i més filtres institucionals cal traspassar — però també més pes té cada veu que travessa l'embut.
+      </p>
+
+      <div style="display: grid; gap: 0.75rem;">
+        <!-- Canal 1 -->
+        <a href="#" data-open-tab="queixes" style="text-decoration: none; color: inherit; display: block;">
+          <div style="background: #fef1ec; border-left: 4px solid #e8562a; border-radius: 12px; padding: 1.25rem 1.5rem; display: grid; grid-template-columns: auto 1fr auto; gap: 1rem; align-items: center; width: 100%;">
+            <div style="background: #e8562a; color: #fff; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Sora', system-ui, sans-serif; font-weight: 800;">1</div>
+            <div>
+              <h3 style="font-family: 'Sora', system-ui, sans-serif; font-size: 1.1rem; font-weight: 700; color: #1e1e1e; margin-bottom: 0.25rem;">Queixes i suggeriments</h3>
+              <p style="font-size: 0.85rem; color: #666; line-height: 1.4; margin: 0;">Veu individual, sense requisit organitzatiu. La forma més senzilla d'alçar la veu: qualsevol veí denuncia un problema quotidià.</p>
+            </div>
+            <div style="text-align: right; white-space: nowrap;">
+              <div style="font-family: 'Sora', system-ui, sans-serif; font-weight: 800; font-size: 1.3rem; color: #e8562a;">87.528</div>
+              <div style="font-size: 0.65rem; color: #666; text-transform: uppercase; letter-spacing: 0.05em;">registres · 2020-2026</div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Canal 2 -->
+        <a href="#" data-open-tab="pressupostos" style="text-decoration: none; color: inherit; display: block; margin-left: 4%; margin-right: 4%;">
+          <div style="background: #fff3e0; border-left: 4px solid #d97706; border-radius: 12px; padding: 1.25rem 1.5rem; display: grid; grid-template-columns: auto 1fr auto; gap: 1rem; align-items: center; width: 100%;">
+            <div style="background: #d97706; color: #fff; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Sora', system-ui, sans-serif; font-weight: 800;">2</div>
+            <div>
+              <h3 style="font-family: 'Sora', system-ui, sans-serif; font-size: 1.1rem; font-weight: 700; color: #1e1e1e; margin-bottom: 0.25rem;">Pressupostos participatius</h3>
+              <p style="font-size: 0.85rem; color: #666; line-height: 1.4; margin: 0;">Proposar projectes o votar-los en moments concrets. Les propostes han de superar un filtre de suport ciutadà i un altre tècnic de l'Ajuntament.</p>
+            </div>
+            <div style="text-align: right; white-space: nowrap;">
+              <div style="font-family: 'Sora', system-ui, sans-serif; font-weight: 800; font-size: 1.3rem; color: #d97706;">28.473</div>
+              <div style="font-size: 0.65rem; color: #666; text-transform: uppercase; letter-spacing: 0.05em;">participants · 8a ed.</div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Canal 3 -->
+        <a href={`/${lang}/intervencions/`} style="text-decoration: none; color: inherit; display: block; margin-left: 12%; margin-right: 12%;">
+          <div style="background: #f3f4f6; border-left: 4px solid #1e1e1e; border-radius: 12px; padding: 1.25rem 1.5rem; display: grid; grid-template-columns: auto 1fr auto; gap: 1rem; align-items: center; width: 100%;">
+            <div style="background: #1e1e1e; color: #fff; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Sora', system-ui, sans-serif; font-weight: 800;">3</div>
+            <div>
+              <h3 style="font-family: 'Sora', system-ui, sans-serif; font-size: 1.1rem; font-weight: 700; color: #1e1e1e; margin-bottom: 0.25rem;">Intervencions al ple</h3>
+              <p style="font-size: 0.85rem; color: #666; line-height: 1.4; margin: 0;">Canal formal i regulat. Majoritàriament entitats organitzades i veïns que s'atrevixen a comparèixer. És el nucli de La Ciutat Parla.</p>
+            </div>
+            <div style="text-align: right; white-space: nowrap;">
+              <div style="font-family: 'Sora', system-ui, sans-serif; font-weight: 800; font-size: 1.3rem; color: #1e1e1e;">{intervencions.length}</div>
+              <div style="font-size: 0.65rem; color: #666; text-transform: uppercase; letter-spacing: 0.05em;">intervencions · 2019-2026</div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <p style="color: #666; font-size: 0.75rem; margin-top: 1.5rem; font-style: italic;">
+        L'amplada de cada fila reflectix l'accessibilitat del canal, no el pes polític.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- Tres troballes clau                                              -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <section style="background: #fff; padding: 2.5rem 1rem 2rem; border-bottom: 1px solid #eee;">
+    <div class="max-w-5xl mx-auto" style="font-family: 'Outfit', system-ui, sans-serif;">
+      <p style="font-size: 0.7rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #e8562a; margin-bottom: 1rem;">
+        Tres troballes clau
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+        <a href="#" data-open-tab="pressupostos" style="text-decoration: none; color: inherit; display: block; border-left: 3px solid #d97706; padding: 1.25rem 1.25rem 1rem; background: linear-gradient(135deg, #fffbf0 0%, #fff 100%); border-radius: 0 12px 12px 0;" class="hover:shadow-md transition-shadow">
+          <div style="font-family: 'Sora', system-ui, sans-serif; font-size: 2.5rem; font-weight: 800; color: #d97706; line-height: 1; margin-bottom: 0.5rem;">48%</div>
+          <h3 style="font-family: 'Sora', system-ui, sans-serif; font-size: 0.9rem; font-weight: 700; color: #1e1e1e; margin-bottom: 0.4rem; line-height: 1.35;">Les pedanies del nord participen quatre vegades més que la mitjana</h3>
+          <p style="font-size: 0.8rem; color: #666; line-height: 1.5; margin: 0 0 0.75rem;">Pobles del Nord acumula un 48% de participació en pressupostos participatius — el triple de la mitjana ciutadana (11.6%). Però als plens a penes apareix: sols 1 intervenció en 7 anys.</p>
+          <span style="font-size: 0.72rem; color: #d97706; font-weight: 600;">→ Pressupostos participatius</span>
+        </a>
+
+        <a href="#" data-open-tab="pressupostos" style="text-decoration: none; color: inherit; display: block; border-left: 3px solid #e8562a; padding: 1.25rem 1.25rem 1rem; background: linear-gradient(135deg, #fef8f5 0%, #fff 100%); border-radius: 0 12px 12px 0;" class="hover:shadow-md transition-shadow">
+          <div style="font-family: 'Sora', system-ui, sans-serif; font-size: 2.5rem; font-weight: 800; color: #e8562a; line-height: 1; margin-bottom: 0.5rem;">1.335</div>
+          <h3 style="font-family: 'Sora', system-ui, sans-serif; font-size: 0.9rem; font-weight: 700; color: #1e1e1e; margin-bottom: 0.4rem; line-height: 1.35;">La meitat de les propostes cau abans del filtre tècnic</h3>
+          <p style="font-size: 0.8rem; color: #666; line-height: 1.5; margin: 0 0 0.75rem;">De 2.776 propostes en la 8a edició, 1.335 (48%) no van aconseguir els 30 suports mínims. La ciutadania exerceix el seu propi filtre abans que els tècnics de l'Ajuntament.</p>
+          <span style="font-size: 0.72rem; color: #e8562a; font-weight: 600;">→ Pressupostos participatius</span>
+        </a>
+
+        <a href="#" data-open-tab="creuaments" style="text-decoration: none; color: inherit; display: block; border-left: 3px solid #1e1e1e; padding: 1.25rem 1.25rem 1rem; background: linear-gradient(135deg, #f5f5f4 0%, #fff 100%); border-radius: 0 12px 12px 0;" class="hover:shadow-md transition-shadow">
+          <div style="font-family: 'Sora', system-ui, sans-serif; font-size: 2.5rem; font-weight: 800; color: #1e1e1e; line-height: 1; margin-bottom: 0.5rem;">≠</div>
+          <h3 style="font-family: 'Sora', system-ui, sans-serif; font-size: 0.9rem; font-weight: 700; color: #1e1e1e; margin-bottom: 0.4rem; line-height: 1.35;">Les queixes parlen de neteja; el ple parla de drets</h3>
+          <p style="font-size: 0.8rem; color: #666; line-height: 1.5; margin: 0 0 0.75rem;">Els temes de les queixes individuals (neteja, soroll, reparacions) i els del ple (urbanisme, drets, participació) a penes es solapen. Dos canals per a dos tipus distints de veu veïnal.</p>
+          <span style="font-size: 0.72rem; color: #666; font-weight: 600;">→ Creuaments entre canals</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Sticky tab nav -->
+  <nav id="av-nav" aria-label="Seccions" style="position: sticky; top: 48px; z-index: 30; background: #f0efe9; border-bottom: 1px solid #e5e5e5; box-shadow: 0 1px 4px rgba(0,0,0,0.06);">
+    <div class="max-w-5xl mx-auto" style="padding: 0.5rem 1rem;">
+      <div class="av-tab-bar">
+        <button class="av-pill av-active" data-tab="queixes">
+          <span class="tab-label">Queixes</span>
+          <span class="tab-sub">87k registres</span>
+        </button>
+        <button class="av-pill" data-tab="pressupostos">
+          <span class="tab-label">Pressupostos Participatius</span>
+          <span class="tab-sub">8 edic. · 80k pers.</span>
+        </button>
+        <button class="av-pill" data-tab="pleno">
+          <span class="tab-label">Plens</span>
+          <span class="tab-sub">570 intervencions</span>
+        </button>
+        <button class="av-pill" data-tab="creuaments">
+          <span class="tab-label">Creuaments</span>
+          <span class="tab-sub">3 canals · 19 dist.</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <style>
+    .av-tab-bar {
+      display: flex; gap: 4px;
+      background: #fff; border: 1px solid #e5e5e5;
+      border-radius: 10px; padding: 4px;
+    }
+    .av-pill {
+      flex: 1; display: flex; flex-direction: column; align-items: center; gap: 2px;
+      padding: 8px 6px; border-radius: 7px; border: none; cursor: pointer;
+      background: transparent; font-family: 'Outfit', system-ui, sans-serif;
+      transition: background 0.15s; min-width: 0;
+    }
+    .av-pill:hover:not(.av-active) { background: #f5f5f4; }
+    .av-pill.av-active { background: #1e1e1e; }
+    .av-pill .tab-label {
+      font-size: 0.8rem; font-weight: 500; color: #666; line-height: 1.2;
+      text-align: center; word-break: break-word; max-width: 100%;
+    }
+    .av-pill.av-active .tab-label { color: #fff; }
+    .av-pill .tab-sub {
+      font-size: 0.6rem; color: #aaa; letter-spacing: 0.03em;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%;
+    }
+    .av-pill.av-active .tab-sub { color: rgba(255,255,255,0.45); }
+    .cruce-pill {
+      flex-shrink: 0;
+      font-family: 'Outfit', system-ui, sans-serif;
+      font-size: 0.78rem;
+      font-weight: 500;
+      padding: 5px 14px;
+      border-radius: 100px;
+      border: 1px solid #e5e5e5;
+      background: #fff;
+      color: #666;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.15s, color 0.15s, border-color 0.15s;
+    }
+    .cruce-pill:hover:not(.cruce-active) { border-color: #ccc; color: #333; }
+    .cruce-pill.cruce-active {
+      background: #e8562a;
+      color: #fff;
+      border-color: #e8562a;
+      font-weight: 600;
+    }
+    #cruces-subnav::-webkit-scrollbar { display: none; }
+  </style>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- Panel: Queixes i Suggeriments                                    -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div id="panel-queixes" class="av-panel">
+    <section style="background: #1e1e1e; color: #fff; padding: 2.5rem 1rem 2rem;">
+      <div class="max-w-5xl mx-auto">
+        <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #e8562a; margin-bottom: 0.5rem;">
+          Canal 1 / veu individual
+        </p>
+        <h2 style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; margin-bottom: 0.75rem;">
+          Queixes i suggeriments
+        </h2>
+        <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.95rem; color: #aaa; max-width: 48rem; line-height: 1.6;">
+          Dataset <em>Queixes i Suggeriments</em> del portal de dades obertes municipal. Volum per districte, barri i tema, filtrable per any i tipus (queixa o suggeriment). Tingues en compte el context: 2020 i 2021 marcats per la pandèmia, 2023 any electoral amb canvi de govern, octubre de 2024 la DANA.
+        </p>
+      </div>
+    </section>
+
+    <AnalysisExplorer
+      client:load
+      intervencions={slimIvs}
+      quejas={quejas}
+      mandats={mandats}
+      entityNames={entityNames}
+      lang={lang}
+      cat_labels={catLabels}
+      entitats_path={`/${lang}/entitats/`}
+      barriToDistrict={barriToDistrict}
+      hideIntervenciones={true}
+    />
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- Panel: Pressupostos Participatius                                -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div id="panel-pressupostos" class="av-panel" style="display:none">
+    <section style="background: #1e1e1e; color: #fff; padding: 2.5rem 1rem 2rem;">
+      <div class="max-w-5xl mx-auto">
+        <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #d97706; margin-bottom: 0.5rem;">
+          Canal 2 / veu col·lectiva amb filtre
+        </p>
+        <h2 style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; margin-bottom: 0.75rem;">
+          Pressupostos participatius
+        </h2>
+        <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.95rem; color: #aaa; max-width: 48rem; line-height: 1.6;">
+          Des de 2015, huit edicions en què la ciutadania proposa, recolza i vota projectes d'inversió municipal. 80.091 persones han participat almenys una vegada. En l'edició 2025/26 es reparteixen <strong style="color: #fff;">16 milions d'euros</strong> amb criteris de població i renda.
+        </p>
+      </div>
+    </section>
+
+    {presupuestos && propostes && (
+      <PresupuestosExplorer
+        client:load
+        data={presupuestos}
+        propostes={propostes}
+        barriPoblacion={barriPoblacion}
+        barriToDistrict={barriToDistrict}
+        lang={lang}
+      />
+    )}
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- Panel: Intervencions al ple                                      -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div id="panel-pleno" class="av-panel" style="display:none">
+    <section style="background: #1e1e1e; color: #fff; padding: 2.5rem 1rem 2rem;">
+      <div class="max-w-5xl mx-auto">
+        <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #fff; margin-bottom: 0.5rem;">
+          Canal 3 / veu formal i organitzada
+        </p>
+        <h2 style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; margin-bottom: 0.75rem;">
+          Intervencions al ple
+        </h2>
+        <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.95rem; color: #aaa; max-width: 48rem; line-height: 1.6; margin-bottom: 1.5rem;">
+          {intervencions.length} intervencions entre 2019 i 2026, de {entitats.length} entitats i col·lectius diferents. És el nucli d'aquesta web: cada intervenció és el resultat de preparar un discurs, demanar torn i comparèixer davant del ple municipal.
+        </p>
+        <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+          <a href={`/${lang}/intervencions/`} style="background: #e8562a; color: #fff; font-family: 'Outfit', system-ui, sans-serif; font-weight: 600; padding: 0.6rem 1.4rem; border-radius: 100px; text-decoration: none; font-size: 0.9rem;">
+            Veure totes les intervencions →
+          </a>
+          <a href={`/${lang}/mapa/`} style="background: transparent; color: #fff; font-family: 'Outfit', system-ui, sans-serif; font-weight: 600; padding: 0.6rem 1.4rem; border-radius: 100px; text-decoration: none; font-size: 0.9rem; border: 1px solid #444;">
+            Veure al mapa
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- Panel: Creuaments                                                -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <div id="panel-creuaments" class="av-panel" style="display:none">
+    <section style="background: #fef8f5; padding: 3rem 1rem 2rem; border-top: 4px solid #e8562a;">
+      <div class="max-w-5xl mx-auto">
+        <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #e8562a; margin-bottom: 0.5rem;">
+          Creuaments · recapitulació
+        </p>
+        <h2 style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(1.8rem, 4.5vw, 2.5rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; margin-bottom: 1rem; color: #1e1e1e;">
+          Es solapen els tres canals?
+        </h2>
+        <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 1rem; color: #555; max-width: 48rem; line-height: 1.6;">
+          Després de presentar cada canal per separat, creuem cadascun amb les <strong>intervencions al ple</strong> i al final amb els tres junts. La pregunta: els mateixos districtes encapçalen els tres canals, o cada via canalitza perfils veïnals distints?
+        </p>
+      </div>
+    </section>
+
+    <!-- A/B/C sub-nav -->
+    <div id="cruces-subnav" style="background: #fff; padding: 0.5rem 1rem; border-bottom: 1px solid #f0f0f0;">
+      <div class="max-w-5xl mx-auto" style="display: flex; gap: 0.25rem; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;">
+        <button class="cruce-pill cruce-active" data-cruce="A">A · Queixes × Intervencions</button>
+        <button class="cruce-pill" data-cruce="B">B · Pressupostos participatius</button>
+        <button class="cruce-pill" data-cruce="C">C · Tres canals</button>
+      </div>
+    </div>
+
+    <!-- Creuament A: Queixes × Intervencions -->
+    <div id="cruce-panel-A">
+      <section style="background: #fff; padding: 2rem 1rem 0;">
+        <div class="max-w-5xl mx-auto">
+          <h3 style="font-family: 'Sora', system-ui, sans-serif; font-size: 1.3rem; font-weight: 700; color: #1e1e1e; letter-spacing: -0.02em; margin-bottom: 0.5rem;">
+            A. Queixes × Intervencions
+          </h3>
+          <p style="color: #666; max-width: 42rem; line-height: 1.6; font-size: 0.9rem;">
+            Queixar-se no requereix organització, n'hi ha prou amb un formulari. Intervenir al ple requereix una entitat, un torn i preparació. Per això aquests dos canals no sempre van de la mà. La diferència entre ells diu més sobre el teixit associatiu de cada barri que qualsevol dels dos per separat.
+          </p>
+        </div>
+      </section>
+
+      <AnalysisExplorer
+        client:load
+        intervencions={slimIvs}
+        quejas={quejas}
+        mandats={mandats}
+        entityNames={entityNames}
+        lang={lang}
+        cat_labels={catLabels}
+        entitats_path={`/${lang}/entitats/`}
+        barriToDistrict={barriToDistrict}
+        clampToQuejas={true}
+      />
+    </div>
+
+    <!-- Creuaments B + C (CrucesExplorer handles which block to show) -->
+    <div id="cruce-panel-BC" style="display:none">
+      {presupuestos && (
+        <CrucesExplorer
+          client:load
+          intervencions={slimIvs}
+          barriToDistrict={barriToDistrict}
+          participantes_por_distrito={presupuestos.participantes_por_distrito}
+          participantes_por_barri={presupuestos.participantes_por_barri}
+          barriPoblacion={barriPoblacion}
+          quejas={quejas}
+          lang={lang}
+        />
+      )}
+    </div>
+  </div>
+
+  <!-- Fonts -->
+  <section style="padding: 2rem 1rem; background: #fafafa; border-top: 1px solid #eee;">
+    <div class="max-w-5xl mx-auto" style="font-family: 'Outfit', system-ui, sans-serif; color: #666; font-size: 0.78rem; line-height: 1.6;">
+      <p style="margin-bottom: 0.5rem;"><strong style="color: #666;">Fonts:</strong></p>
+      <ul style="margin: 0; padding-left: 1.2rem; color: #666;">
+        <li><em>Queixes i Suggeriments</em> — Portal de Dades Obertes, Ajuntament de València (87.742 registres, 2020-2026).</li>
+        <li><em>Suport a propostes DecidimVLC</em> — Portal de Dades Obertes (5.795 propostes, 2015/16-2022/23).</li>
+        <li><em>Anàlisi de la participació ciutadana en les huit edicions celebrades</em> — Oficina d'Estadística, 04/02/2026.</li>
+        <li><em>Modificació de la distribució pressupostària 2025</em> — Oficina d'Estadística.</li>
+        <li><em>Intervencions ciutadanes als plens</em> — La Ciutat Parla, extracció pròpia d'actes municipals.</li>
+      </ul>
+    </div>
+  </section>
+
+  <script>
+    (function () {
+      var TABS = ['queixes', 'pressupostos', 'pleno', 'creuaments'];
+      var CRUCES = ['A', 'B', 'C'];
+
+      function getParam(key, fallback) {
+        try { return new URLSearchParams(window.location.search).get(key) || fallback; }
+        catch { return fallback; }
+      }
+
+      function setParam(key, val) {
+        try {
+          var u = new URL(window.location.href);
+          u.searchParams.set(key, val);
+          history.replaceState(null, '', u.toString());
+        } catch {}
+      }
+
+      function activateTab(tab, scroll) {
+        if (TABS.indexOf(tab) === -1) tab = TABS[0];
+        TABS.forEach(function (t) {
+          var p = document.getElementById('panel-' + t);
+          if (p) p.style.display = t === tab ? '' : 'none';
+        });
+        document.querySelectorAll('.av-pill').forEach(function (btn) {
+          btn.classList.toggle('av-active', btn.dataset.tab === tab);
+        });
+        setParam('tab', tab);
+        if (scroll) {
+          var nav = document.getElementById('av-nav');
+          if (nav) nav.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      }
+
+      function activateCruce(cruce) {
+        if (CRUCES.indexOf(cruce) === -1) cruce = 'A';
+        var panelA = document.getElementById('cruce-panel-A');
+        var panelBC = document.getElementById('cruce-panel-BC');
+        if (panelA) panelA.style.display = cruce === 'A' ? '' : 'none';
+        if (panelBC) panelBC.style.display = cruce !== 'A' ? '' : 'none';
+        document.querySelectorAll('.cruce-pill').forEach(function (btn) {
+          btn.classList.toggle('cruce-active', btn.dataset.cruce === cruce);
+        });
+        if (cruce === 'B' || cruce === 'C') {
+          window.dispatchEvent(new CustomEvent('cruce-show-block', { detail: { block: cruce } }));
+        }
+      }
+
+      function ready(fn) {
+        if (document.readyState !== 'loading') fn();
+        else document.addEventListener('DOMContentLoaded', fn);
+      }
+
+      ready(function () {
+        // Main tab pills
+        document.querySelectorAll('.av-pill').forEach(function (btn) {
+          btn.addEventListener('click', function () { activateTab(btn.dataset.tab, true); });
+        });
+
+        // data-open-tab links (pyramid + findings cards)
+        document.querySelectorAll('[data-open-tab]').forEach(function (el) {
+          el.addEventListener('click', function (e) {
+            e.preventDefault();
+            activateTab(el.dataset.openTab, true);
+          });
+        });
+
+        // Cruce A/B/C sub-nav pills
+        document.querySelectorAll('.cruce-pill').forEach(function (btn) {
+          btn.addEventListener('click', function () { activateCruce(btn.dataset.cruce); });
+        });
+
+        // Initialize from URL
+        var initialTab = getParam('tab', TABS[0]);
+        activateTab(TABS.indexOf(initialTab) !== -1 ? initialTab : TABS[0], false);
+        activateCruce('A');
+      });
+    })();
+  </script>
+
+</Base>

@@ -1,0 +1,67 @@
+{
+  "id": "2016-12-01",
+  "fecha": "2016-12-01",
+  "tipo": "extraordinaria",
+  "mandat_id": "2015-2019",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2016-12-01",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20161201_0930_0_firmadoweb.pdf/3d93919b-b73b-b017-c1d1-6fc3886f9756?t=1613212586322",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20161201_0930_0_firmadoweb.pdf/d0f18967-67f8-8115-c804-01a097c9212e?t=1613212586221",
+  "url_video": "https://players.cdn.enetres.net/live/1B4DA0F1F28C4AC4BA9AE203080C30C8021",
+  "num_intervencions": 1,
+  "intervencions": [
+    {
+      "id": "2016-12-01-001",
+      "pleno_id": "2016-12-01",
+      "fecha": "2016-12-01",
+      "mandat_id": "2015-2019",
+      "ordre": 1,
+      "intervinient": "[***]",
+      "entitat": "Plataforma Salvem el Cabanyal-el Canyamelar-Cap de França",
+      "entitat_id": "plataforma-salvem-cabanyal",
+      "tipus_entitat": "plataforma",
+      "barri_o_zona": "Cabanyal-el Canyamelar-Cap de França",
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "valenciano",
+      "text_cas": "Buenos días. La Plataforma y la Asociación de Vecinos/as hemos solicitado el turno de palabra en el Pleno de hoy para mostrar nuestro apoyo a los esfuerzos que se están haciendo para la **recuperación de nuestro pueblo**. Había que **detener la inercia de 18 años de destrucción** para poder comenzar la rehabilitación. Agradecemos al equipo de gobierno las **inversiones para dotaciones sociales y reurbanizaciones** en el Cabanyal-el Canyamelar. Para avanzar es **imprescindible que sigan contando con la participación ciudadana**.\nSolo vamos a hablar de dos: la **seguridad ciudadana y el patrimonio municipal**. Respecto a la seguridad ciudadana, es **imprescindible que se convoque la reunión de la Comisión** que se anunció el 16 de noviembre. Este grupo se **pone a disposición de todo el Ayuntamiento para eliminar el problema de la droga**. El Ayuntamiento es propietario de **450-500 viviendas** que aún no hay un plan que conozcamos.\nEs un **foco principal de degradación las viviendas que son propiedad municipal**.",
+      "text_val": "Bon dia. La Plataforma i l'Associació de Veïns/es hem demanat el torn de paraula al Ple de hui per mostrar el nostre suport als esforços que s'estan fent per a la **recuperació del nostre poble**. Calia **aturar la inèrcia de 18 anys de destrucció** per poder començar la rehabilitació. Agraïm a l'equip de govern les **inversions per a dotacions socials i reurbanitzacions** al Cabanyal-el Canyamelar. Per avançar es **imprescindible que seguixen contant amb la participació ciutadana**. Sols anem a parlar-ne de dos: la **seguretat ciutadana i el patrimoni municipal**.\nRespecte a la seguretat ciutadana, es **imprescindible que es convoque la reunió de la Comissió** que es va anunciar el 16 de novembre. Este grup es **posa a disposició de tot l'Ajuntament per eliminar el problema de la droga**. L'Ajuntament és propietari de **450-500 vivendes** que encara no hi ha un pla que coneguem. És un **focus principal de degradació les vivendes que són propietat municipal**.",
+      "temes": [
+        "seguretat",
+        "patrimoni",
+        "habitatge",
+        "participacio_ciutadana",
+        "barris"
+      ],
+      "temes_v2": {
+        "urbanisme": [
+          "patrimoni"
+        ],
+        "serveis_publics": [
+          "seguretat"
+        ],
+        "participacio": [
+          "participacio"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Cabanyal-Canyamelar"
+      ],
+      "districtes": [
+        "Poblats Marítims"
+      ],
+      "resum_cas": "La Plataforma Salvem el Cabanyal expresa su apoyo a los esfuerzos de recuperación del barrio y solicita acciones urgentes contra la venta de drogas y un plan de rehabilitación para las 450-500 viviendas municipales.",
+      "resum_val": "La Plataforma Salvem el Cabanyal expressa el seu suport als esforços de recuperació del barri i sol·licita accions urgents contra la venda de droga i un pla de rehabilitació per a les 450-500 vivendes municipals.",
+      "cap_subtopics": [
+        1401,
+        1203,
+        2000
+      ],
+      "cap_major": [
+        12,
+        14,
+        20
+      ]
+    }
+  ]
+}

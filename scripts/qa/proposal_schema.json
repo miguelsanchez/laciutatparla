@@ -1,0 +1,35 @@
+{
+  "$comment": "Output contract of the per-pleno review agents (arquitectura-agentes §3.1, F2.5). run_agents.py passes it to `claude -p --json-schema`, then turns each item into propose.py's input format and runs it through verify_proposals.py. entry_json is a JSON object serialised as a string: free-form objects fit structured output badly, and N7 + the verifier check its shape anyway.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["proposals", "notes"],
+  "properties": {
+    "proposals": {
+      "type": "array",
+      "maxItems": 20,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["check", "severity", "subject", "title", "message", "quote", "evidence_pleno",
+                     "file", "section", "entry_json", "op"],
+        "properties": {
+          "check": {"type": "string", "enum": ["E1", "E1b", "E2", "E5", "E6", "E7", "E8", "N2", "N4", "N6", "C1", "C3", "C4", "C6"]},
+          "severity": {"type": "string", "enum": ["P1", "P2", "P3"]},
+          "subject": {"type": "string", "description": "The intervention id, pleno id or entity id the proposal is about"},
+          "title": {"type": "string", "maxLength": 120, "description": "One line, English, imperative or descriptive"},
+          "message": {"type": "string", "maxLength": 800, "description": "Why, in English, for the PR reviewer"},
+          "quote": {"type": "string", "description": "Literal quote from the acta, in the acta's language, copied as-is (at least 4 words)"},
+          "evidence_pleno": {"type": "string", "description": "pleno_id of the acta the quote comes from"},
+          "file": {"type": "string", "enum": ["manual_interventions.yml", "reassignments.yml", "deletions.yml", "patches.yml",
+                                              "text_merges.yml", "entity_merges.yml", "variant_map_forced.yml",
+                                              "new_entities.yml", "skip_plenos.yml"]},
+          "section": {"type": ["string", "null"], "enum": ["interventions", "entities", null],
+                      "description": "Only for deletions.yml; null otherwise"},
+          "entry_json": {"type": "string", "description": "The YAML entry as a JSON object, e.g. {\"iv_id\": \"2026-07-23-005\", \"entitat\": \"…\"}"},
+          "op": {"type": "string", "enum": ["append", "replace"]}
+        }
+      }
+    },
+    "notes": {"type": "string", "maxLength": 1500, "description": "What you checked and found fine, or could not decide, in English"}
+  }
+}

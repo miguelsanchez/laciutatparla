@@ -1,0 +1,244 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { t } from '../../../i18n/index.ts';
+import { getCatLabels, getAmbitLabels } from '../../../utils/labels.ts';
+import { withCanonicalEntitat, formatIntervinient, formatFecha } from '../../../utils/format.ts';
+import { readData } from '../../../utils/data.ts';
+
+export function getStaticPaths() {
+  const raw: any[] = readData('intervencions.json');
+  const entitats: any[] = readData('entitats.json');
+  return (['cas', 'val'] as const).flatMap((lang) =>
+    raw.map((iv) => ({
+      params: { lang, id: iv.id },
+      props: { iv: withCanonicalEntitat([iv], entitats, lang)[0] },
+    }))
+  );
+}
+
+const { lang, id } = Astro.params as { lang: 'cas' | 'val'; id: string };
+const { iv } = Astro.props as { iv: any };
+
+const catLabels = getCatLabels(lang);
+const ambitLabels = getAmbitLabels(lang);
+
+const textPrimary = lang === 'cas' ? iv.text_cas : iv.text_val;
+const textOriginal = lang === 'cas' ? iv.text_val : iv.text_cas;
+const needsTranslation =
+  (lang === 'cas' && iv.idioma_original === 'valenciano') ||
+  (lang === 'val' && iv.idioma_original === 'castellano');
+
+const idiomaLabel =
+  iv.idioma_original === 'valenciano'
+    ? t(lang, 'intervencio_idioma_valenciano')
+    : t(lang, 'intervencio_idioma_castellano');
+
+function location(): string {
+  if (iv.zones?.length > 0) {
+    if (iv.districtes?.length === 1) return iv.zones.join(', ') + ', ' + iv.districtes[0];
+    return iv.zones.join(', ');
+  }
+  if (iv.districtes?.length > 0) return iv.districtes.join(', ');
+  return ambitLabels[iv.ambit] ?? iv.ambit;
+}
+
+const TEMA_STYLE: Record<string, string> = {
+  urbanisme:        'background:#dbeafe;color:#1e40af',
+  mobilitat:        'background:#ccfbf1;color:#115e59',
+  medi_ambient:     'background:#d1fae5;color:#065f46',
+  serveis_publics:  'background:#e0e7ff;color:#3730a3',
+  economia:         'background:#fef3c7;color:#92400e',
+  drets_i_igualtat: 'background:#ffe4e6;color:#9f1239',
+  persones:         'background:#f3e8ff;color:#7e22ce',
+  cultura:          'background:#ffedd5;color:#9a3412',
+  participacio:     'background:#e0f2fe;color:#075985',
+};
+const TEMA_DEFAULT = 'background:#f0f0f0;color:#555';
+
+const cats = Object.keys(iv.temes_v2 || {});
+const hasGeo = iv.ambit && iv.ambit !== 'no_especificat';
+
+function renderText(text: string): string {
+  if (!text) return `<p style="color:#999;font-style:italic">${lang === 'cas' ? 'Texto no disponible.' : 'Text no disponible.'}</p>`;
+  const speakerRe = /^(Sr\.|Sra\.|Sr |Sra ).+:$/;
+  return text.split('\n').filter((l) => l.trim()).map((line) => {
+    const tr = line.trim();
+    if (speakerRe.test(tr)) {
+      return `<p style="font-weight:600;color:#1e1e1e;margin-top:1.5rem;margin-bottom:0.25rem;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.03em;">${tr}</p>`;
+    }
+    // A censored name ([***], sometimes [*]) is not a bold marker: set aside, then put back
+    const names = tr.match(/\[\*+\]/g) ?? [];
+    const html = tr.replace(/\[\*+\]/g, '')
+      .replace(/\*\*([^*]+)\*\*/g, '<strong style="font-weight:600;color:#1e1e1e">$1</strong>')
+      .replace(//g, () => names.shift() ?? '');
+    return `<p style="margin-bottom:0.85rem;">${html}</p>`;
+  }).join('');
+}
+
+const pageTitle = `${formatIntervinient(iv.intervinient, lang)} — ${iv.entitat}`;
+const rawDesc = lang === 'cas' ? (iv.resum_cas ?? '') : (iv.resum_val ?? '');
+const pageDesc = rawDesc.length > 160 ? rawDesc.slice(0, 157) + '…' : rawDesc || undefined;
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": pageTitle,
+  "description": pageDesc,
+  "datePublished": iv.fecha,
+  "author": { "@type": "Organization", "name": iv.entitat },
+  "about": { "@type": "Thing", "name": lang === 'val' ? "Participació ciutadana" : "Participación ciudadana" },
+  "isPartOf": { "@type": "WebSite", "name": "La Ciutat Parla", "url": "https://laciutatparla.es" },
+};
+---
+
+<Base title={pageTitle} description={pageDesc} ogType="article" jsonLd={articleSchema}>
+  <div style="max-width: 42rem; margin: 0 auto; padding: 2rem 1.25rem 4rem;">
+
+    {/* Back link */}
+    <a
+      href={`/${lang}/intervencions/`}
+      style="display:inline-flex;align-items:center;gap:0.4rem;font-size:0.875rem;color:#888;text-decoration:none;margin-bottom:2rem;"
+      class="hover:text-orange-600 transition-colors"
+    >
+      ← {t(lang, 'nav_intervencions')}
+    </a>
+
+    {/* Header */}
+    <header style="margin-bottom: 1.75rem;">
+      <div style="display:flex;align-items:center;gap:0.5rem;flex-wrap:wrap;margin-bottom:0.75rem;">
+        <span style="font-size:0.8rem;font-weight:600;color:#b83a14;background:#fef1ec;padding:2px 10px;border-radius:100px;">
+          {formatFecha(iv.fecha, lang)}
+        </span>
+        <span style="font-size:0.8rem;color:#aaa;padding:2px 10px;border:1px solid #eee;border-radius:100px;">
+          {idiomaLabel}
+        </span>
+      </div>
+
+      <h1 style="font-family:'Sora',system-ui,sans-serif;font-size:1.5rem;font-weight:700;color:#1e1e1e;letter-spacing:-0.02em;margin-bottom:0.35rem;line-height:1.3;">
+        {formatIntervinient(iv.intervinient, lang)}
+      </h1>
+
+      <p style="font-size:1rem;color:#555;margin-bottom:0.4rem;">
+        <a
+          href={`/${lang}/entitats/${iv.entitat_id}/`}
+          style="color:inherit;text-decoration:none;"
+          class="hover:text-orange-600 transition-colors"
+        >
+          {iv.entitat}
+        </a>
+      </p>
+
+      {hasGeo && (
+        <p style="font-size:0.85rem;color:#999;">
+          <span aria-hidden="true">📍</span> {location()}
+        </p>
+      )}
+    </header>
+
+    {/* Theme tags */}
+    {cats.length > 0 && (
+      <div style="display:flex;flex-wrap:wrap;gap:0.35rem;margin-bottom:1.5rem;">
+        {cats.map((cat) => (
+          <span key={cat} style={`font-size:0.75rem;padding:2px 10px;border-radius:100px;font-weight:500;${TEMA_STYLE[cat] ?? TEMA_DEFAULT}`}>
+            {catLabels[cat] ?? cat}
+          </span>
+        ))}
+      </div>
+    )}
+
+    {/* Divider */}
+    <hr style="border:none;border-top:1px solid #eee;margin-bottom:1.75rem;" />
+
+    {/* Primary text */}
+    {needsTranslation && (
+      <p style="font-size:0.75rem;font-weight:600;color:#aaa;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:1rem;">
+        {lang === 'cas' ? 'Castellano (traducción)' : 'Valencià (traducció)'}
+      </p>
+    )}
+    <div
+      style="font-size:1rem;line-height:1.9;color:#44403c;"
+      set:html={renderText(textPrimary)}
+    />
+
+    {/* Original text (collapsed if translation) */}
+    {needsTranslation && textOriginal && (
+      <details style="margin-top:2rem;border-top:1px solid #eee;padding-top:1.5rem;">
+        <summary style="cursor:pointer;font-size:0.8rem;font-weight:600;color:#888;letter-spacing:0.04em;text-transform:uppercase;user-select:none;margin-bottom:1rem;list-style:none;">
+          <span>▶ {t(lang, 'intervencio_original_label')} ({iv.idioma_original})</span>
+        </summary>
+        <div
+          style="font-size:1rem;line-height:1.9;color:#44403c;margin-top:1rem;"
+          set:html={renderText(textOriginal)}
+        />
+      </details>
+    )}
+
+    {/* Share buttons */}
+    <div style="margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid #eee;">
+      <p style="font-size:0.75rem;font-weight:600;color:#aaa;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:0.75rem;">
+        {lang === 'cas' ? 'Compartir' : 'Compartir'}
+      </p>
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;align-items:center;">
+        <a
+          href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(pageTitle)}&url=${encodeURIComponent(`https://laciutatparla.es/${lang}/intervencions/${id}/`)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          style="display:inline-flex;align-items:center;gap:0.35rem;font-size:0.8rem;padding:5px 12px;border-radius:100px;border:1px solid #e5e5e5;color:#555;text-decoration:none;background:#fff;"
+        >
+          𝕏 Twitter
+        </a>
+        <a
+          href={`https://bsky.app/intent/compose?text=${encodeURIComponent(`${pageTitle}\nhttps://laciutatparla.es/${lang}/intervencions/${id}/`)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          style="display:inline-flex;align-items:center;gap:0.35rem;font-size:0.8rem;padding:5px 12px;border-radius:100px;border:1px solid #e5e5e5;color:#555;text-decoration:none;background:#fff;"
+        >
+          ☁ Bluesky
+        </a>
+        <a
+          href={`https://wa.me/?text=${encodeURIComponent(`${pageTitle} — https://laciutatparla.es/${lang}/intervencions/${id}/`)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          style="display:inline-flex;align-items:center;gap:0.35rem;font-size:0.8rem;padding:5px 12px;border-radius:100px;border:1px solid #e5e5e5;color:#555;text-decoration:none;background:#fff;"
+        >
+          WhatsApp
+        </a>
+        <button
+          id="copy-link-btn"
+          data-url={`https://laciutatparla.es/${lang}/intervencions/${id}/`}
+          style="display:inline-flex;align-items:center;gap:0.35rem;font-size:0.8rem;padding:5px 12px;border-radius:100px;border:1px solid #e5e5e5;color:#555;background:#fff;cursor:pointer;"
+        >
+          {lang === 'cas' ? 'Copiar enlace' : 'Copiar enllaç'}
+        </button>
+      </div>
+    </div>
+    <script is:inline>
+      document.getElementById('copy-link-btn')?.addEventListener('click', function() {
+        var url = this.getAttribute('data-url');
+        navigator.clipboard?.writeText(url).then(() => {
+          var orig = this.textContent;
+          this.textContent = '✓ ' + (document.documentElement.lang === 'ca' ? 'Copiat!' : '¡Copiado!');
+          setTimeout(() => { this.textContent = orig; }, 2000);
+        });
+      });
+    </script>
+
+    {/* Footer links */}
+    <footer style="margin-top:2rem;padding-top:1.5rem;border-top:1px solid #eee;display:flex;flex-wrap:wrap;gap:1rem;">
+      <a
+        href={`/${lang}/plens/${iv.pleno_id}/`}
+        style="font-size:0.875rem;color:#555;text-decoration:none;display:inline-flex;align-items:center;gap:0.3rem;"
+        class="hover:text-orange-600 transition-colors"
+      >
+        {lang === 'cas' ? 'Pleno del' : 'Ple del'} {formatFecha(iv.fecha, lang)} →
+      </a>
+      <a
+        href={`/${lang}/entitats/${iv.entitat_id}/`}
+        style="font-size:0.875rem;color:#555;text-decoration:none;display:inline-flex;align-items:center;gap:0.3rem;"
+        class="hover:text-orange-600 transition-colors"
+      >
+        {iv.entitat} →
+      </a>
+    </footer>
+  </div>
+</Base>

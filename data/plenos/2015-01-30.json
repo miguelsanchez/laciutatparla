@@ -1,0 +1,114 @@
+{
+  "id": "2015-01-30",
+  "fecha": "2015-01-30",
+  "tipo": "ordinaria",
+  "mandat_id": "2011-2015",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2015-01-30",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20150130_1045_0_firmadoweb.pdf/30e9fb65-727f-0c98-e294-6485c057dd42?t=1613212442532",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20150130_1045_0_firmadoweb.pdf/b1db5276-07a8-52d3-bf1d-3d9f10884454?t=1613212442423",
+  "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-479",
+  "url_videos": [],
+  "num_intervencions": 2,
+  "intervencions": [
+    {
+      "id": "2015-01-30-001",
+      "pleno_id": "2015-01-30",
+      "fecha": "2015-01-30",
+      "mandat_id": "2011-2015",
+      "ordre": 1,
+      "intervinient": "[***]",
+      "entitat": "Associació d'Aturats i Aturades d'Orriols-Torrefiel",
+      "entitat_id": "asociacion-aturados-orriols-torrefiel",
+      "entitat_cessio": null,
+      "tipus_entitat": "plataforma",
+      "barri_o_zona": "Orriols-Torrefiel",
+      "punts_ordre_dia": "Proposta de transport públic gratuït per a desocupats",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días.\nVengo a presentar la propuesta del transporte público para el desempleado gratuito. Llevamos ya recogidas **cuatro mil firmas** colaborando con los ciudadanos de la ciudad de Valencia. Ya entregamos un escrito el 5 de junio de 2014, por si alguien de ustedes no se había enterado. Llevamos mucho tiempo ya en ello. El colectivo de Orriols-Torrefiel es de donde parte esta idea porque **es un barrio de los que tiene más paro** en esta ciudad.\n\nSólo pedimos lo que creemos que es justo y creemos que es necesario. ¿Por qué? Porque **este bono estaría destinado para quienes tienen un subsidio o una ayuda** y no les llega el dinero para poder ir a buscar trabajo.\n\nTambién estaría destinado para quienes están trabajando en ese trabajo que se ha creado de pocas horas a la semana, de 10 a 16 horas, y que de su salario tienen que descontar el transporte para poder llegar a su centro de trabajo. Ese trabajador a final de mes, ¿qué es lo que le queda para vivir dignamente?\n\nLes pedimos a ustedes, la clase política, que reflexionen y piensen. Voy a poner un ejemplo. **Ustedes tienen un buen salario, además tienen un plus de transporte**, un plus de dieta y alguno de ustedes coche oficial. ¿Es que no deberíamos tenerlo todos? Sin embargo, **para nosotros las ayudas son escasas** y el parado lo necesita para buscar trabajo.\n\nBusquen un ratito en sus agendas y pónganse en la piel de quienes estamos pasando por esta situación, y reflexionen. **Lo que pedimos no es tan difícil, un bono de transporte gratuito** para los desempleados y los precarios.\n\nY permítanme sugerirles una idea: si la excusa para no poderlo conceder es el dinero, quítense el plus de transporte en solidaridad con los ciudadanos y ese dinero destínenlo para este bono.\n\nGracias por escucharme y les paso a mi compañero.",
+      "text_val": "Buenos días.\nVinc a presentar la proposta del transport públic per al desempleat gratuït. Ja hem recollit **quatre mil signatures** col·laborant amb els ciutadans de la ciutat de València. Ja vam entregar un escrit el 5 de juny de 2014, per si algú de vostès no s'havia assabentat. Fa molt de temps que hi estem treballant. El col·lectiu d'Orriols-Torrefiel és d'on parteix aquesta idea perquè **és un barri dels que té més atur** en aquesta ciutat.\n\nNomés demanem el que creiem que és just i creiem que és necessari. ¿Per què? Perquè **aquest bono estaria destinat per a qui té una prestació o una ajuda** i no li arriba els diners per poder anar a buscar feina.\n\nTambé estaria destinat per a qui està treballant en aquest treball que s'ha creat de poques hores a la setmana, de 10 a 16 hores, i que del seu salari ha de descomptar el transport per poder arribar al seu centre de treball. Eixe treballador a final de mes, ¿quin és el que li queda per viure dignament?\n\nEls demanem a vostès, la classe política, que reflexionen i pensen. Vaig a posar un exemple. **Vostès tenen un bon salari, a més a més tenen un plus de transport**, un plus de dieta i algú de vostès cotxe oficial. ¿No hauríem de tenir-ho tots? No obstant, **per a nosaltres les ajudes són escasses** i l'aturat ho necessita per buscar feina.\n\nBusquen un ratinet en les seues agendes i poseu-se en la pell de qui estem passant per aquesta situació, i reflexionen. **El que demanem no és tan difícil, un bono de transport gratuït** per als desempleats i els precaris.\n\nI permítanme suggerir-los una idea: si l'excusa per no poder-ho concedir és els diners, trequen-se el plus de transport en solidaritat amb els ciutadans i eixos diners destinen-los per a aquest bono.\n\nGràcies per escoltar-me i els passe al meu company.",
+      "temes": [],
+      "temes_v2": {
+        "mobilitat": [
+          "transport_public"
+        ],
+        "economia": [
+          "comerc_ocupacio"
+        ],
+        "serveis_publics": [
+          "serveis_socials"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Els Orriols",
+        "Torrefiel"
+      ],
+      "districtes": [
+        "Rascanya"
+      ],
+      "resum_cas": "Representante de la Associació d'Aturats i Aturades d'Orriols-Torrefiel presenta una propuesta con cuatro mil firmas para crear un bono de transporte público gratuito destinado a desempleados y trabajadores precarios, sugiriendo que los políticos financien esta medida reduciendo sus propios complementos de transporte.",
+      "resum_val": "Representant de l'Associació d'Aturats i Aturades d'Orriols-Torrefiel presenta una proposta amb quatre mil signatures per a crear un bono de transport públic gratuït destinat a desocupats i treballadors precaris, suggerint que els polítics financen aquesta mesura reduint els seus propis complements de transport.",
+      "cap_subtopics": [
+        1001,
+        500,
+        1300
+      ],
+      "cap_major": [
+        5,
+        10,
+        13
+      ]
+    },
+    {
+      "id": "2015-01-30-101",
+      "pleno_id": "2015-01-30",
+      "fecha": "2015-01-30",
+      "mandat_id": "2011-2015",
+      "ordre": 2,
+      "intervinient": "[***]",
+      "entitat": "Associació d'Aturats i Aturades d'Orriols-Torrefiel",
+      "entitat_id": "asociacion-aturados-orriols-torrefiel",
+      "entitat_cessio": null,
+      "tipus_entitat": "plataforma",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días, gracias.\nMi nombre es [***] y tengo el honor de representar a personas de diferentes colectivos sociales: Asamblea de Parados y Precarios de Valencia, Red de Solidaridad Popular, Plataforma de Afectados por las Hipotecas, Iaioflautas, Asamblea de Parados de Orriols y Asamblea del 15M de Algiròs.\n\nNosotros nos reunimos frente a la puerta principal de la casa del pueblo de esta ciudad todos los lunes, de once a una, desde el mes de septiembre, sin importar el tiempo que haga, con el nombre de Sillas contra el hambre para demandar un puesto de trabajo digno para todos que debería estar garantizado según la Constitución.\n\nLa falta de trabajo es la causa principal de todos los problemas, como imaginamos ya saben. Con trabajo no habría uno de cada tres niños pasando hambre. ¿Ustedes saben qué es pasar hambre? ¿Ustedes saben qué es que tus hijos pasen hambre? ¿Por qué lo consienten? Con trabajo no habría tantísimos desahucios. ¿Ustedes saben qué es vivir en la calle? ¿Ustedes saben lo que un padre o una madre tienen que decirle a un hijo cuando se lo llevan a vivir bajo un puente? ¿Por qué dejan que pase?\n\nCon trabajo las casas no serían neveras, con trabajo se puede pagar a la compañía del agua para que no te corte esa necesidad vital. ¿Por qué no lo evitan? Ustedes pueden tomar medidas para que nadie se quede sin agua y sin energía, medidas para eximir de tasas e impuestos a las personas y a las familias que no puedan pagarlos. Ustedes pueden elaborar un plan de ocupación pública que gestione directamente los servicios públicos. Ustedes deben ocuparse de que a todas las personas con minusvalías les llegue su ayuda sin más retrasos.\n\nComo somos conscientes de que si no se reparte el trabajo nunca habrá trabajo para todos y de que a este sistema le interesa tener trabajadores parados para utilizarlos como arma arrojadiza contra los trabajadores ocupados, pedimos una renta para todas las personas desempleadas que sea como mínimo el salario mínimo interprofesional. Una renta con la que poder hacer frente a las necesidades básicas que cualquier persona debe tener acceso.\n\nSeñoras, señores. Hemos venido hasta aquí porque creemos que aún les queda algo de corazón. Porque nos negamos a aceptar lo que la realidad nos dice de ustedes y es que les da igual lo que le pasa a tantos niños, a tantas familias y a tantas personas paradas que viven condenadas a la miseria y al miedo. Demuestren a su pueblo que se equivoca quien piensa que ustedes sólo se preocupan de sus traseros.\n\nMuchas gracias.",
+      "text_val": "Bon dia, gràcies. El meu nom és [***] i tinc l'honor de representar a persones de diferents col·lectius socials: Assemblea de Aturats i Precaris de València, Xarxa de Solidaritat Popular, Plataforma d'Afectats per les Hipoteques, Iaioflautas, Assemblea d'Aturats d'Orriols i Assemblea del 15M d'Algirós.\n\nNosaltres ens reunim davant de la porta principal de la casa del poble d'esta ciutat tots els dilluns, d'onze a una, des del mes de setembre, sense importar el temps que faça, amb el nom de **Cadires contra la fam** per a demanar **un lloc de treball digne per a tots** que hauria d'estar garantit segons la Constitució.\n\n**La falta de treball és la causa principal de tots els problemes**, com imaginem ja saben. Amb treball no hi hauria **un de cada tres xiquets passant fam**. Vostés saben què és passar fam? Vostés saben què és que els seus fills passen fam? Per què ho consentixen? Amb treball no hi hauria **tants desnonaments**. Vostés saben què és viure al carrer? Vostés saben què ha de dir un pare o una mare a un fill quan se l'emporten a viure sota un pont? Per què deixen que passe?\n\nAmb treball les cases no serien nevers, amb treball es pot pagar a la companyia de l'aigua perquè no et tallen **eixa necessitat vital**. Per què no ho eviten? **Vostés poden prendre mesures** perquè ningú es quede sense aigua i sense energia, **mesures per a eximir de taxes i impostos** a les persones i a les families que no puguen pagar-los. **Vostés poden elaborar un pla d'ocupació pública** que gestione directament els servicis públics. Vostés han d'ocupar-se que a totes les persones amb minusvalies els arribe la seua ajuda sense més retards.\n\nCom som conscients que si no es reparteix el treball mai hi haurà treball per a tots i que a este sistema li interessa tindre treballadors aturats per a utilitzar-los com a arma llançadissa contra els treballadors ocupats, demanem **una renda per a totes les persones desocupades** que siga com a mínim **el salari mínim interprofessional**. Una renda amb la qual poder fer front a **les necessitats bàsiques** a les quals qualsevol persona ha de tindre accés.\n\nSenyores, senyors. Hem vingut fins ací perquè creiem que encara els queda una mica de cor. Perquè ens negem a acceptar el que la realitat ens diu de vostés i és que els dóna igual el que li passa a tants xiquets, a tantes families i a tantes persones aturades que viuen condemnades a la misèria i a la por. Demostren al seu poble que s'equivoca qui pensa que vostés només es preocupen dels seus culs.\n\nMoltes gràcies.",
+      "temes": [],
+      "temes_v2": {
+        "economia": [
+          "comerc_ocupacio"
+        ],
+        "persones": [
+          "gent_major"
+        ],
+        "serveis_publics": [
+          "serveis_socials"
+        ]
+      },
+      "ambit": "multi_barri",
+      "zones": [
+        "Els Orriols",
+        "Torrefiel",
+        "L'Illa Perduda"
+      ],
+      "districtes": [
+        "Algirós",
+        "Rascanya"
+      ],
+      "resum_cas": "Representante de colectivos de desempleados y en riesgo de exclusión social denuncia la falta de trabajo como causa principal de la pobreza, el hambre infantil y los desahucios, demandando un plan de ocupación pública y una renta mínima para desocupados.",
+      "resum_val": "Representant de col·lectius de desocupats i en risc d'exclusió social denuncia la falta de treball com a causa principal de la pobresa, la fam infantil i els desnonaments, demanant un pla d'ocupació pública i una renda mínima per a desocupats.",
+      "cap_subtopics": [
+        500,
+        1300,
+        1302
+      ],
+      "cap_major": [
+        5,
+        13
+      ]
+    }
+  ]
+}

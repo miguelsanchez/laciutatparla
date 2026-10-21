@@ -1,0 +1,27 @@
+{
+  "/val/": {
+    "color-contrast": 7
+  },
+  "/val/plens/": {
+    "color-contrast": 46
+  },
+  "/cas/intervencions/": {
+    "color-contrast": 69
+  },
+  "/val/mapa/": {
+    "color-contrast": 7,
+    "label": 2
+  },
+  "/cas/entitats/favv/": {
+    "color-contrast": 9
+  },
+  "/val/plens/2017-09-20/": {
+    "color-contrast": 13
+  },
+  "/val/plens/2022-03-31/": {
+    "color-contrast": 12
+  },
+  "/cas/plens/2023-10-24/": {
+    "color-contrast": 19
+  }
+}

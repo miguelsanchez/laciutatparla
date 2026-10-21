@@ -1,0 +1,1332 @@
+{
+  "Ciutat Vella": {
+    "quejas_top": [
+      {
+        "name": "Servicios prestados en vía pública",
+        "count": 851
+      },
+      {
+        "name": "Servicios de limpieza en la vía pública",
+        "count": 808
+      },
+      {
+        "name": "Vía pública reparación de deficiencias",
+        "count": 625
+      },
+      {
+        "name": "Discrepancias con actuaciones municipales",
+        "count": 535
+      },
+      {
+        "name": "Sugerencias para la mejora de la ciudad",
+        "count": 481
+      }
+    ],
+    "cats_top": [
+      {
+        "name": "urbanisme",
+        "count": 17
+      },
+      {
+        "name": "economia",
+        "count": 12
+      },
+      {
+        "name": "mobilitat",
+        "count": 10
+      },
+      {
+        "name": "serveis_publics",
+        "count": 10
+      },
+      {
+        "name": "participacio",
+        "count": 8
+      }
+    ],
+    "ents_top": [
+      {
+        "id": "asociacion-comerciantes-centro-historico-valencia",
+        "count": 3,
+        "name_cas": "Asociación de Comerciantes del Centro Histórico de València",
+        "name_val": "Associació de Comerciants del Centre Històric de València"
+      },
+      {
+        "id": "asociacion-vendedores-mercado-central",
+        "count": 3,
+        "name_cas": "Asociación de Vendedores del Mercado Central",
+        "name_val": "Associació de Venedors del Mercat Central"
+      },
+      {
+        "id": "associacio-veinal-roqueta",
+        "count": 2,
+        "name_cas": "Asociación Vecinal La Roqueta",
+        "name_val": "Associació Veïnal La Roqueta"
+      },
+      {
+        "id": "confemercats",
+        "count": 2,
+        "name_cas": "Federación de Mercados Tradicionales de Abastos de la Comunidad Valenciana (Confemercats)",
+        "name_val": "Federació de Mercats Tradicionals d'Abastiments de la Comunitat Valenciana (Confemercats)"
+      },
+      {
+        "id": "av-carme",
+        "count": 1,
+        "name_cas": "Asociación de Vecinos y Comerciantes Amigos del Carme",
+        "name_val": "Associació de Veïns i Comerciants Amics del Carme"
+      }
+    ]
+  },
+  "L'Eixample": {
+    "quejas_top": [
+      {
+        "name": "Servicios prestados en vía pública",
+        "count": 712
+      },
+      {
+        "name": "Servicios de limpieza en la vía pública",
+        "count": 632
+      },
+      {
+        "name": "Vía pública reparación de deficiencias",
+        "count": 505
+      },
+      {
+        "name": "Señalización viaria",
+        "count": 364
+      },
+      {
+        "name": "Contaminación acústica",
+        "count": 353
+      }
+    ],
+    "cats_top": [
+      {
+        "name": "serveis_publics",
+        "count": 5
+      },
+      {
+        "name": "mobilitat",
+        "count": 5
+      },
+      {
+        "name": "medi_ambient",
+        "count": 5
+      },
+      {
+        "name": "economia",
+        "count": 4
+      },
+      {
+        "name": "urbanisme",
+        "count": 4
+      }
+    ],
+    "ents_top": [
+      {
+        "id": "confemercats",
+        "count": 3,
+        "name_cas": "Federación de Mercados Tradicionales de Abastos de la Comunidad Valenciana (Confemercats)",
+        "name_val": "Federació de Mercats Tradicionals d'Abastiments de la Comunitat Valenciana (Confemercats)"
+      },
+      {
+        "id": "associacio-veinal-roqueta",
+        "count": 2,
+        "name_cas": "Asociación Vecinal La Roqueta",
+        "name_val": "Associació Veïnal La Roqueta"
+      },
+      {
+        "id": "asociacion-vecinal-pla-remei-gran-via",
+        "count": 1,
+        "name_cas": "Asociación Vecinal Pla Del Remei-Gran Via",
+        "name_val": "Associació Veïnal Pla Del Remei-Gran Via"
+      },
+      {
+        "id": "asociacion-comerciantes-centro-historico-valencia",
+        "count": 1,
+        "name_cas": "Asociación de Comerciantes del Centro Histórico de València",
+        "name_val": "Associació de Comerciants del Centre Històric de València"
+      },
+      {
+        "id": "plataforma-vecinal-penyaroja",
+        "count": 1,
+        "name_cas": "Plataforma Vecinal Barrio Penya-roja",
+        "name_val": "Plataforma Veïnal Barri Penya-roja"
+      }
+    ]
+  },
+  "Extramurs": {
+    "quejas_top": [
+      {
+        "name": "Servicios prestados en vía pública",
+        "count": 1040
+      },
+      {
+        "name": "Servicios de limpieza en la vía pública",
+        "count": 1009
+      },
+      {
+        "name": "Vía pública reparación de deficiencias",
+        "count": 721
+      },
+      {
+        "name": "Señalización viaria",
+        "count": 554
+      },
+      {
+        "name": "Servicios de jardinería",
+        "count": 546
+      }
+    ],
+    "cats_top": [
+      {
+        "name": "mobilitat",
+        "count": 19
+      },
+      {
+        "name": "urbanisme",
+        "count": 19
+      },
+      {
+        "name": "medi_ambient",
+        "count": 19
+      },
+      {
+        "name": "participacio",
+        "count": 10
+      },
+      {
+        "name": "serveis_publics",
+        "count": 7
+      }
+    ],
+    "ents_top": [
+      {
+        "id": "associacio-veinal-roqueta",
+        "count": 11,
+        "name_cas": "Asociación Vecinal La Roqueta",
+        "name_val": "Associació Veïnal La Roqueta"
+      },
+      {
+        "id": "av-la-petxina",
+        "count": 8,
+        "name_cas": "Asociación Vecinal de La Petxina",
+        "name_val": "Associació Veïnal de La Petxina"
+      },
+      {
+        "id": "av-abastos-finca-roja",
+        "count": 3,
+        "name_cas": "Asociación Vecinal Abastos-Finca Roja",
+        "name_val": "Associació Veïnal Abastos-Finca Roja"
+      },
+      {
+        "id": "foro-cultural-roqueta-san-vicente-martir",
+        "count": 1,
+        "name_cas": "Asociación Foro Cultural La Roqueta – San Vicente Mártir",
+        "name_val": "Associació Foro Cultural La Roqueta – Sant Vicent Màrtir"
+      },
+      {
+        "id": "club-esportiu-samarucs-valencia",
+        "count": 1,
+        "name_cas": "Club Esportiu LGTB+ Samarucs Valencia",
+        "name_val": "Club Esportiu LGTB+ Samarucs València"
+      }
+    ]
+  },
+  "Campanar": {
+    "quejas_top": [
+      {
+        "name": "Servicios prestados en vía pública",
+        "count": 633
+      },
+      {
+        "name": "Servicios de limpieza en la vía pública",
+        "count": 542
+      },
+      {
+        "name": "Servicios de jardinería",
+        "count": 492
+      },
+      {
+        "name": "Vía pública reparación de deficiencias",
+        "count": 480
+      },
+      {
+        "name": "Señalización viaria",
+        "count": 331
+      }
+    ],
+    "cats_top": [
+      {
+        "name": "urbanisme",
+        "count": 4
+      },
+      {
+        "name": "serveis_publics",
+        "count": 3
+      },
+      {
+        "name": "participacio",
+        "count": 3
+      },
+      {
+        "name": "cultura",
+        "count": 2
+      },
+      {
+        "name": "drets_i_igualtat",
+        "count": 1
+      }
+    ],
+    "ents_top": [
+      {
+        "id": "avv-campanar",
+        "count": 4,
+        "name_cas": "Asociación de Vecinos de Campanar",
+        "name_val": "Associació de Veïns de Campanar"
+      },
+      {
+        "id": "av-beniferri",
+        "count": 1,
+        "name_cas": "Asociación de Vecinos de Beniferri",
+        "name_val": "Associació de Veïns de Beniferri"
+      }
+    ]
+  },
+  "La Saïdia": {
+    "quejas_top": [
+      {
+        "name": "Servicios de limpieza en la vía pública",
+        "count": 661
+      },
+      {
+        "name": "Servicios prestados en vía pública",
+        "count": 554
+      },
+      {
+        "name": "Vía pública reparación de deficiencias",
+        "count": 515
+      },
+      {
+        "name": "Servicios de jardinería",
+        "count": 475
+      },
+      {
+        "name": "Señalización viaria",
+        "count": 305
+      }
+    ],
+    "cats_top": [
+      {
+        "name": "urbanisme",
+        "count": 7
+      },
+      {
+        "name": "serveis_publics",
+        "count": 5
+      },
+      {
+        "name": "economia",
+        "count": 4
+      },
+      {
+        "name": "participacio",
+        "count": 3
+      },
+      {
+        "name": "cultura",
+        "count": 2
+      }
+    ],
+    "ents_top": [
+      {
+        "id": "av-sant-antoni-saidia",
+        "count": 6,
+        "name_cas": "Asociación de Vecinos de Sant Antoni-Saïdia",
+        "name_val": "Associació de Veïns de Sant Antoni-Saïdia"
+      },
+      {
+        "id": "av-marxalenes",
+        "count": 1,
+        "name_cas": "Asociación de Vecinos de Marxalenes",
+        "name_val": "Associació de Veïns de Marxalenes"
+      }
+    ]
+  },
+  "El Pla del Real": {
+    "quejas_top": [
+      {
+        "name": "Servicios prestados en vía pública",
+        "count": 508
+      },
+      {
+        "name": "Servicios de limpieza en la vía pública",
+        "count": 457
+      },
+      {
+        "name": "Vía pública reparación de deficiencias",
+        "count": 445
+      },
+      {
+        "name": "Señalización viaria",
+        "count": 326
+      },
+      {
+        "name": "Servicios de jardinería",
+        "count": 325
+      }
+    ],
+    "cats_top": [
+      {
+        "name": "serveis_publics",
+        "count": 3
+      },
+      {
+        "name": "cultura",
+        "count": 2
+      },
+      {
+        "name": "participacio",
+        "count": 2
+      },
+      {
+        "name": "drets_i_igualtat",
+        "count": 2
+      },
+      {
+        "name": "urbanisme",
+        "count": 1
+      }
+    ],
+    "ents_top": [
+      {
+        "id": "av-polo-peirolon",
+        "count": 1,
+        "name_cas": "Asociación de Vecinos Polo y Peirolón",
+        "name_val": "Associació de Veïns Polo i Peirolón"
+      },
+      {
+        "id": "families-pel-valencia",
+        "count": 1,
+        "name_cas": "Familias por el Valenciano",
+        "name_val": "Famílies pel Valencià"
+      },
+      {
+        "id": "pena-valencianista-lgtbi",
+        "count": 1,
+        "name_cas": "Peña Valencianista LGTBI",
+        "name_val": "Penya Valencianista LGTBI"
+      },
+      {
+        "id": "union-consumidores-valencia",
+        "count": 1,
+        "name_cas": "union-consumidores-valencia",
+        "name_val": "union-consumidores-valencia"
+      }
+    ]
+  },
+  "L'Olivereta": {
+    "quejas_top": [
+      {
+        "name": "Servicios prestados en vía pública",
+        "count": 810
+      },
+      {
+        "name": "Servicios de limpieza en la vía pública",
+        "count": 762
+      },
+      {
+        "name": "Vía pública reparación de deficiencias",
+        "count": 553
+      },
+      {
+        "name": "Servicios de jardinería",
+        "count": 454
+      },
+      {
+        "name": "Sugerencias para la mejora de la ciudad",
+        "count": 287
+      }
+    ],
+    "cats_top": [
+      {
+        "name": "urbanisme",
+        "count": 5
+      },
+      {
+        "name": "medi_ambient",
+        "count": 5
+      },
+      {
+        "name": "participacio",
+        "count": 3
+      },
+      {
+        "name": "serveis_publics",
+        "count": 3
+      },
+      {
+        "name": "mobilitat",
+        "count": 2
+      }
+    ],
+    "ents_top": [
+      {
+        "id": "av-carme",
+        "count": 1,
+        "name_cas": "Asociación de Vecinos y Comerciantes Amigos del Carme",
+        "name_val": "Associació de Veïns i Comerciants Amics del Carme"
+      },
+      {
+        "id": "plataforma-afectadas-hipoteca-valencia",
+        "count": 1,
+        "name_cas": "Plataforma de Afectadas por la Hipoteca de València",
+        "name_val": "Plataforma d'Afectades per la Hipoteca de València"
+      },
+      {
+        "id": "asociacion-vecinal-tres-forques",
+        "count": 1,
+        "name_cas": "Asociación Vecinal y Cultural Tres Forques",
+        "name_val": "Associació Veïnal i Cultural Tres Forques"
+      },
+      {
+        "id": "av-abastos-finca-roja",
+        "count": 1,
+        "name_cas": "Asociación Vecinal Abastos-Finca Roja",
+        "name_val": "Associació Veïnal Abastos-Finca Roja"
+      },
+      {
+        "id": "plataforma-valencia-aire",
+        "count": 1,
+        "name_cas": "Plataforma Valencia por el Aire",
+        "name_val": "Plataforma València per l'Aire"
+      }
+    ]
+  },
+  "Patraix": {
+    "quejas_top": [
+      {
+        "name": "Servicios de limpieza en la vía pública",
+        "count": 855
+      },
+      {
+        "name": "Servicios de jardinería",
+        "count": 821
+      },
+      {
+        "name": "Servicios prestados en vía pública",
+        "count": 759
+      },
+      {
+        "name": "Vía pública reparación de deficiencias",
+        "count": 699
+      },
+      {
+        "name": "Sugerencias para la mejora de la ciudad",
+        "count": 339
+      }
+    ],
+    "cats_top": [
+      {
+        "name": "urbanisme",
+        "count": 7
+      },
+      {
+        "name": "medi_ambient",
+        "count": 6
+      },
+      {
+        "name": "mobilitat",
+        "count": 4
+      },
+      {
+        "name": "serveis_publics",
+        "count": 4
+      },
+      {
+        "name": "cultura",
+        "count": 3
+      }
+    ],
+    "ents_top": [
+      {
+        "id": "av-sant-marcelli",
+        "count": 1,
+        "name_cas": "Asociación Vecinal del Barrio de Sant Marcel·lí",
+        "name_val": "Associació Veïnal del Barri de Sant Marcel·lí"
+      },
+      {
+        "id": "club-deportivo-safranar",
+        "count": 1,
+        "name_cas": "Club Deportivo Safranar",
+        "name_val": "Club Esportiu Safranar"
+      },
+      {
+        "id": "asociacion-vecinos-fuensanta",
+        "count": 1,
+        "name_cas": "Asociación de Vecinos de la Fuensanta",
+        "name_val": "Associació de Veïns de la Fuensanta"
+      },
+      {
+        "id": "asociacion-vecinal-tres-forques",
+        "count": 1,
+        "name_cas": "Asociación Vecinal y Cultural Tres Forques",
+        "name_val": "Associació Veïnal i Cultural Tres Forques"
+      },
+      {
+        "id": "av-la-petxina",
+        "count": 1,
+        "name_cas": "Asociación Vecinal de La Petxina",
+        "name_val": "Associació Veïnal de La Petxina"
+      }
+    ]
+  },
+  "Jesús": {
+    "quejas_top": [
+      {
+        "name": "Servicios de limpieza en la vía pública",
+        "count": 668
+      },
+      {
+        "name": "Vía pública reparación de deficiencias",
+        "count": 657
+      },
+      {
+        "name": "Servicios prestados en vía pública",
+        "count": 612
+      },
+      {
+        "name": "Servicios de jardinería",
+        "count": 383
+      },
+      {
+        "name": "Señalización viaria",
+        "count": 292
+      }
+    ],
+    "cats_top": [
+      {
+        "name": "urbanisme",
+        "count": 10
+      },
+      {
+        "name": "medi_ambient",
+        "count": 7
+      },
+      {
+        "name": "serveis_publics",
+        "count": 6
+      },
+      {
+        "name": "mobilitat",
+        "count": 6
+      },
+      {
+        "name": "economia",
+        "count": 3
+      }
+    ],
+    "ents_top": [
+      {
+        "id": "cuidem-la-raiosa",
+        "count": 5,
+        "name_cas": "Asociación Vecinal y Cultural Cuidem La Raïosa",
+        "name_val": "Associació Veïnal i Cultural Cuidem La Raïosa"
+      },
+      {
+        "id": "av-sant-marcelli",
+        "count": 3,
+        "name_cas": "Asociación Vecinal del Barrio de Sant Marcel·lí",
+        "name_val": "Associació Veïnal del Barri de Sant Marcel·lí"
+      },
+      {
+        "id": "av-la-torre",
+        "count": 1,
+        "name_cas": "Asociación de Vecinas y Vecinos de La Torre",
+        "name_val": "Associació de Veïnes i Veïns de La Torre"
+      },
+      {
+        "id": "asociacion-vecinos-raiosa",
+        "count": 1,
+        "name_cas": "Asociación de Vecinos la Raiosa",
+        "name_val": "Associació de Veïns la Raiosa"
+      },
+      {
+        "id": "av-creu-coberta",
+        "count": 1,
+        "name_cas": "Asociación de Vecinos de la Creu Coberta",
+        "name_val": "Associació de Veïns de la Creu Coberta"
+      }
+    ]
+  },
+  "Quatre Carreres": {
+    "quejas_top": [
+      {
+        "name": "Servicios de limpieza en la vía pública",
+        "count": 1292
+      },
+      {
+        "name": "Servicios prestados en vía pública",
+        "count": 1170
+      },
+      {
+        "name": "Vía pública reparación de deficiencias",
+        "count": 982
+      },
+      {
+        "name": "Servicios de jardinería",
+        "count": 953
+      },
+      {
+        "name": "Señalización viaria",
+        "count": 620
+      }
+    ],
+    "cats_top": [
+      {
+        "name": "mobilitat",
+        "count": 11
+      },
+      {
+        "name": "urbanisme",
+        "count": 11
+      },
+      {
+        "name": "medi_ambient",
+        "count": 8
+      },
+      {
+        "name": "participacio",
+        "count": 6
+      },
+      {
+        "name": "serveis_publics",
+        "count": 5
+      }
+    ],
+    "ents_top": [
+      {
+        "id": "av-malilla",
+        "count": 2,
+        "name_cas": "Asociación de Vecinos de Malilla",
+        "name_val": "Associació de Veïns de Malilla"
+      },
+      {
+        "id": "plataforma-vecinal-penyaroja",
+        "count": 2,
+        "name_cas": "Plataforma Vecinal Barrio Penya-roja",
+        "name_val": "Plataforma Veïnal Barri Penya-roja"
+      },
+      {
+        "id": "associacio-veinal-roqueta",
+        "count": 1,
+        "name_cas": "Asociación Vecinal La Roqueta",
+        "name_val": "Associació Veïnal La Roqueta"
+      },
+      {
+        "id": "av-monteolivete",
+        "count": 1,
+        "name_cas": "Asociación de Vecinos Cultural del Barrio de Monteolivete",
+        "name_val": "Associació de Veïns Cultural del Barri de Monteolivete"
+      },
+      {
+        "id": "av-turianova",
+        "count": 1,
+        "name_cas": "Asociación de Vecinos de Turianova",
+        "name_val": "Associació de Veïns de Turianova"
+      }
+    ]
+  },
+  "Poblats Marítims": {
+    "quejas_top": [
+      {
+        "name": "Servicios de limpieza en la vía pública",
+        "count": 1157
+      },
+      {
+        "name": "Servicios prestados en vía pública",
+        "count": 1057
+      },
+      {
+        "name": "Vía pública reparación de deficiencias",
+        "count": 924
+      },
+      {
+        "name": "Discrepancias con actuaciones municipales",
+        "count": 492
+      },
+      {
+        "name": "Sugerencias para la mejora de la ciudad",
+        "count": 490
+      }
+    ],
+    "cats_top": [
+      {
+        "name": "urbanisme",
+        "count": 19
+      },
+      {
+        "name": "mobilitat",
+        "count": 14
+      },
+      {
+        "name": "medi_ambient",
+        "count": 13
+      },
+      {
+        "name": "serveis_publics",
+        "count": 9
+      },
+      {
+        "name": "economia",
+        "count": 8
+      }
+    ],
+    "ents_top": [
+      {
+        "id": "asociacion-vecinos-nazaret-unido",
+        "count": 3,
+        "name_cas": "asociacion-vecinos-nazaret-unido",
+        "name_val": "asociacion-vecinos-nazaret-unido"
+      },
+      {
+        "id": "plataforma-vecinal-penyaroja",
+        "count": 3,
+        "name_cas": "Plataforma Vecinal Barrio Penya-roja",
+        "name_val": "Plataforma Veïnal Barri Penya-roja"
+      },
+      {
+        "id": "av-cabanyal-canyamelar",
+        "count": 3,
+        "name_cas": "Asociación de Vecinos y Vecinas del Cabanyal-Canyamelar",
+        "name_val": "Associació de Veïns i Veïnes del Cabanyal-Canyamelar"
+      },
+      {
+        "id": "confemercats",
+        "count": 2,
+        "name_cas": "Federación de Mercados Tradicionales de Abastos de la Comunidad Valenciana (Confemercats)",
+        "name_val": "Federació de Mercats Tradicionals d'Abastiments de la Comunitat Valenciana (Confemercats)"
+      },
+      {
+        "id": "av-grau-port",
+        "count": 2,
+        "name_cas": "Asociación de Vecinos Grau-Port",
+        "name_val": "Associació de Veïns Grau-Port"
+      }
+    ]
+  },
+  "Camins al Grau": {
+    "quejas_top": [
+      {
+        "name": "Contaminación acústica",
+        "count": 960
+      },
+      {
+        "name": "Servicios de limpieza en la vía pública",
+        "count": 834
+      },
+      {
+        "name": "Servicios prestados en vía pública",
+        "count": 661
+      },
+      {
+        "name": "Vía pública reparación de deficiencias",
+        "count": 619
+      },
+      {
+        "name": "Organismos autónomos",
+        "count": 603
+      }
+    ],
+    "cats_top": [
+      {
+        "name": "urbanisme",
+        "count": 12
+      },
+      {
+        "name": "serveis_publics",
+        "count": 9
+      },
+      {
+        "name": "medi_ambient",
+        "count": 7
+      },
+      {
+        "name": "mobilitat",
+        "count": 6
+      },
+      {
+        "name": "participacio",
+        "count": 6
+      }
+    ],
+    "ents_top": [
+      {
+        "id": "plataforma-vecinal-penyaroja",
+        "count": 11,
+        "name_cas": "Plataforma Vecinal Barrio Penya-roja",
+        "name_val": "Plataforma Veïnal Barri Penya-roja"
+      },
+      {
+        "id": "av-la-petxina",
+        "count": 1,
+        "name_cas": "Asociación Vecinal de La Petxina",
+        "name_val": "Associació Veïnal de La Petxina"
+      },
+      {
+        "id": "asociacion-vecinos-nazaret-unido",
+        "count": 1,
+        "name_cas": "asociacion-vecinos-nazaret-unido",
+        "name_val": "asociacion-vecinos-nazaret-unido"
+      },
+      {
+        "id": "av-maritim-aiora",
+        "count": 1,
+        "name_cas": "Asociación de Vecinos Marítim-Aiora",
+        "name_val": "Associació de Veïns Marítim-Aiora"
+      }
+    ]
+  },
+  "Algirós": {
+    "quejas_top": [
+      {
+        "name": "Servicios prestados en vía pública",
+        "count": 706
+      },
+      {
+        "name": "Contaminación acústica",
+        "count": 535
+      },
+      {
+        "name": "Servicios de limpieza en la vía pública",
+        "count": 528
+      },
+      {
+        "name": "Vía pública reparación de deficiencias",
+        "count": 481
+      },
+      {
+        "name": "Servicios de jardinería",
+        "count": 415
+      }
+    ],
+    "cats_top": [
+      {
+        "name": "economia",
+        "count": 2
+      },
+      {
+        "name": "mobilitat",
+        "count": 2
+      },
+      {
+        "name": "serveis_publics",
+        "count": 1
+      },
+      {
+        "name": "participacio",
+        "count": 1
+      },
+      {
+        "name": "urbanisme",
+        "count": 1
+      }
+    ],
+    "ents_top": [
+      {
+        "id": "confemercats",
+        "count": 2,
+        "name_cas": "Federación de Mercados Tradicionales de Abastos de la Comunidad Valenciana (Confemercats)",
+        "name_val": "Federació de Mercats Tradicionals d'Abastiments de la Comunitat Valenciana (Confemercats)"
+      },
+      {
+        "id": "av-placa-honduras-adjacents",
+        "count": 1,
+        "name_cas": "Asociación Vecinal Plaça d'Hondures i Adjacents",
+        "name_val": "Associació Vecinal Plaça d'Hondures i Adjacents"
+      }
+    ]
+  },
+  "Benimaclet": {
+    "quejas_top": [
+      {
+        "name": "Servicios de limpieza en la vía pública",
+        "count": 412
+      },
+      {
+        "name": "Servicios prestados en vía pública",
+        "count": 394
+      },
+      {
+        "name": "Vía pública reparación de deficiencias",
+        "count": 286
+      },
+      {
+        "name": "Servicios de jardinería",
+        "count": 231
+      },
+      {
+        "name": "Señalización viaria",
+        "count": 183
+      }
+    ],
+    "cats_top": [
+      {
+        "name": "urbanisme",
+        "count": 6
+      },
+      {
+        "name": "participacio",
+        "count": 4
+      },
+      {
+        "name": "serveis_publics",
+        "count": 4
+      },
+      {
+        "name": "cultura",
+        "count": 2
+      },
+      {
+        "name": "drets_i_igualtat",
+        "count": 2
+      }
+    ],
+    "ents_top": [
+      {
+        "id": "av-carme",
+        "count": 1,
+        "name_cas": "Asociación de Vecinos y Comerciantes Amigos del Carme",
+        "name_val": "Associació de Veïns i Comerciants Amics del Carme"
+      },
+      {
+        "id": "asociacion-veinal-benimaclet-plataforma",
+        "count": 1,
+        "name_cas": "Asociación Vecinal de Benimaclet / Plataforma de Entidades Vecinales de Benimaclet",
+        "name_val": "Associació Veïnal de Benimaclet / Plataforma de Entitats Veïnals de Benimaclet"
+      },
+      {
+        "id": "asociacion-fester-crist-benimaclet",
+        "count": 1,
+        "name_cas": "Asociación Fester Crist de Benimaclet",
+        "name_val": "Associació Fester Crist de Benimaclet"
+      },
+      {
+        "id": "poble-benimaclet-veins",
+        "count": 1,
+        "name_cas": "Pueblo de Benimaclet y Vecinos de Benimaclet",
+        "name_val": "Poble de Benimaclet i Veïns de Benimaclet"
+      },
+      {
+        "id": "sos-racisme-unio-africana",
+        "count": 1,
+        "name_cas": "SOS Racismo PV / Federación Unión Africana España",
+        "name_val": "SOS Racisme PV / Federació Unió Africana Espanya"
+      }
+    ]
+  },
+  "Rascanya": {
+    "quejas_top": [
+      {
+        "name": "Servicios de limpieza en la vía pública",
+        "count": 553
+      },
+      {
+        "name": "Servicios prestados en vía pública",
+        "count": 485
+      },
+      {
+        "name": "Vía pública reparación de deficiencias",
+        "count": 383
+      },
+      {
+        "name": "Servicios de jardinería",
+        "count": 332
+      },
+      {
+        "name": "Sugerencias para la mejora de la ciudad",
+        "count": 210
+      }
+    ],
+    "cats_top": [
+      {
+        "name": "serveis_publics",
+        "count": 8
+      },
+      {
+        "name": "urbanisme",
+        "count": 7
+      },
+      {
+        "name": "drets_i_igualtat",
+        "count": 5
+      },
+      {
+        "name": "cultura",
+        "count": 5
+      },
+      {
+        "name": "participacio",
+        "count": 4
+      }
+    ],
+    "ents_top": [
+      {
+        "id": "plataforma-orriols-en-lucha",
+        "count": 4,
+        "name_cas": "Plataforma Orriols en Lucha",
+        "name_val": "Plataforma Orriols en Lluita"
+      },
+      {
+        "id": "av-torrefiel",
+        "count": 2,
+        "name_cas": "Asociación de Vecinos de Torrefiel",
+        "name_val": "Associació de Veïns de Torrefiel"
+      },
+      {
+        "id": "orriols-conviu",
+        "count": 1,
+        "name_cas": "Orriols Conviu",
+        "name_val": "Orriols Conviu"
+      },
+      {
+        "id": "confemercats",
+        "count": 1,
+        "name_cas": "Federación de Mercados Tradicionales de Abastos de la Comunidad Valenciana (Confemercats)",
+        "name_val": "Federació de Mercats Tradicionals d'Abastiments de la Comunitat Valenciana (Confemercats)"
+      },
+      {
+        "id": "valencia-acull",
+        "count": 1,
+        "name_cas": "Asociación València Acull",
+        "name_val": "Associació València Acull"
+      }
+    ]
+  },
+  "Benicalap": {
+    "quejas_top": [
+      {
+        "name": "Servicios de limpieza en la vía pública",
+        "count": 651
+      },
+      {
+        "name": "Servicios prestados en vía pública",
+        "count": 429
+      },
+      {
+        "name": "Vía pública reparación de deficiencias",
+        "count": 425
+      },
+      {
+        "name": "Servicios de jardinería",
+        "count": 388
+      },
+      {
+        "name": "Sugerencias para la mejora de la ciudad",
+        "count": 283
+      }
+    ],
+    "cats_top": [
+      {
+        "name": "economia",
+        "count": 1
+      },
+      {
+        "name": "urbanisme",
+        "count": 1
+      }
+    ],
+    "ents_top": [
+      {
+        "id": "confemercats",
+        "count": 1,
+        "name_cas": "Federación de Mercados Tradicionales de Abastos de la Comunidad Valenciana (Confemercats)",
+        "name_val": "Federació de Mercats Tradicionals d'Abastiments de la Comunitat Valenciana (Confemercats)"
+      }
+    ]
+  },
+  "Poblats del Nord": {
+    "quejas_top": [
+      {
+        "name": "Vía pública reparación de deficiencias",
+        "count": 191
+      },
+      {
+        "name": "Servicios de limpieza en la vía pública",
+        "count": 66
+      },
+      {
+        "name": "Servicios prestados en vía pública",
+        "count": 54
+      },
+      {
+        "name": "Discrepancias con actuaciones municipales",
+        "count": 47
+      },
+      {
+        "name": "Servicios de jardinería",
+        "count": 46
+      }
+    ],
+    "cats_top": [
+      {
+        "name": "medi_ambient",
+        "count": 1
+      },
+      {
+        "name": "economia",
+        "count": 1
+      },
+      {
+        "name": "cultura",
+        "count": 1
+      },
+      {
+        "name": "participacio",
+        "count": 1
+      }
+    ],
+    "ents_top": [
+      {
+        "id": "accio-ecologista-agro",
+        "count": 1,
+        "name_cas": "Acción Ecologista-Agró",
+        "name_val": "Acció Ecologista-Agró"
+      }
+    ]
+  },
+  "Poblats de l'Oest": {
+    "quejas_top": [
+      {
+        "name": "Vía pública reparación de deficiencias",
+        "count": 242
+      },
+      {
+        "name": "Servicios de limpieza en la vía pública",
+        "count": 195
+      },
+      {
+        "name": "Señalización viaria",
+        "count": 130
+      },
+      {
+        "name": "Servicios de jardinería",
+        "count": 105
+      },
+      {
+        "name": "Sugerencias para la mejora de la ciudad",
+        "count": 102
+      }
+    ],
+    "cats_top": [
+      {
+        "name": "urbanisme",
+        "count": 4
+      },
+      {
+        "name": "cultura",
+        "count": 3
+      },
+      {
+        "name": "participacio",
+        "count": 1
+      },
+      {
+        "name": "mobilitat",
+        "count": 1
+      }
+    ],
+    "ents_top": [
+      {
+        "id": "av-beniferri",
+        "count": 3,
+        "name_cas": "Asociación de Vecinos de Beniferri",
+        "name_val": "Associació de Veïns de Beniferri"
+      },
+      {
+        "id": "associacio-placa-debats",
+        "count": 1,
+        "name_cas": "Asociación la Plaça Debats",
+        "name_val": "Associació la Plaça Debats"
+      }
+    ]
+  },
+  "Poblats del Sud": {
+    "quejas_top": [
+      {
+        "name": "Servicios prestados en vía pública",
+        "count": 413
+      },
+      {
+        "name": "Servicios de limpieza en la vía pública",
+        "count": 412
+      },
+      {
+        "name": "Vía pública reparación de deficiencias",
+        "count": 394
+      },
+      {
+        "name": "Sugerencias para la mejora de la ciudad",
+        "count": 210
+      },
+      {
+        "name": "Servicios de jardinería",
+        "count": 156
+      }
+    ],
+    "cats_top": [
+      {
+        "name": "medi_ambient",
+        "count": 47
+      },
+      {
+        "name": "serveis_publics",
+        "count": 38
+      },
+      {
+        "name": "urbanisme",
+        "count": 26
+      },
+      {
+        "name": "economia",
+        "count": 24
+      },
+      {
+        "name": "participacio",
+        "count": 18
+      }
+    ],
+    "ents_top": [
+      {
+        "id": "av-la-torre",
+        "count": 9,
+        "name_cas": "Asociación de Vecinas y Vecinos de La Torre",
+        "name_val": "Associació de Veïnes i Veïns de La Torre"
+      },
+      {
+        "id": "av-devesa-saler",
+        "count": 5,
+        "name_cas": "Asociación de Vecinos Devesa-El Saler",
+        "name_val": "Associació de Veïns Devesa-El Saler"
+      },
+      {
+        "id": "sta-intersindical",
+        "count": 3,
+        "name_cas": "STA-Intersindical",
+        "name_val": "STA-Intersindical"
+      },
+      {
+        "id": "ampa-cp-padre-manjon",
+        "count": 3,
+        "name_cas": "AMPA CP Padre Manjón",
+        "name_val": "AMPA CP Padre Manjón"
+      },
+      {
+        "id": "cuidem-la-raiosa",
+        "count": 3,
+        "name_cas": "Asociación Vecinal y Cultural Cuidem La Raïosa",
+        "name_val": "Associació Veïnal i Cultural Cuidem La Raïosa"
+      }
+    ]
+  }
+}

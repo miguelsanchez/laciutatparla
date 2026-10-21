@@ -1,0 +1,404 @@
+[
+  {
+    "id": "favv",
+    "nom_cas": "Federación de Asociaciones Vecinales de Valencia (FAVV)",
+    "nom_val": "Federació d'Associacions de Veïns de València (FAVV)",
+    "tipus": "av",
+    "variants": [
+      "FAVV (Federación de Asociaciones Vecinales de València)",
+      "Federació d'Associacions de Veïns de València",
+      "Federació d'Associacions de Veïns i Veïnes de València",
+      "Federación de Asociaciones de Vecinos",
+      "Federación de Asociaciones de Vecinos de Valencia",
+      "Federación de Asociaciones de Vecinos de València",
+      "Federación y movimiento vecinal"
+    ],
+    "num_intervencions": 1,
+    "barri": "Cabanyal, Velluters, Malvarrosa, Nazaret, Cabanyal-Canyamelar, Ciutat Vella, Velluters",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "serveis_socials",
+      "mobilitat"
+    ]
+  },
+  {
+    "id": "plataforma-vecinal-penyaroja",
+    "nom_cas": "Plataforma Vecinal Barrio Penya-roja",
+    "nom_val": "Plataforma Veïnal Barri Penya-roja",
+    "tipus": "plataforma",
+    "variants": [
+      "Asociación de Vecinos de Penya-roja",
+      "Associació de Veïns de Penya-roja / Plataforma Vecinal Barrio de Penya-roja",
+      "Associació de Veïns del Barri de Penya-roja",
+      "Plataforma Vecinal Barrio Penya-roja",
+      "Plataforma Vecinal Barrio Penya-roja / Asociación de Vecinos de Penya-roja",
+      "Plataforma Vecinal Barrio Penyaroja",
+      "Plataforma Vecinal Barrio de Penya-roja",
+      "Plataforma Vecinal Barrio de Penyaroja",
+      "Plataforma Veïnal Barri Penya-roja",
+      "Plataforma Veïnal Barri de Penya-roja",
+      "Plataforma Veïnal Penya-roja",
+      "Plataforma Veïnal del Barri de Penya-Roja",
+      "Plataforma Veïnal del Barri de Penya-roja",
+      "Plataforma de Vecinos de Penya-roja"
+    ],
+    "num_intervencions": 1,
+    "barri": "Barrio de Penyaroja, Penya-Roja, Penya-roja, Penya-roja, Grao, Nazaret, La Punta, Penya-roja, Marítim, Penya-roja, plaza Músico López Chávarri, Torrecalap, Tabacalera",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "barris",
+      "urbanisme"
+    ]
+  },
+  {
+    "id": "associacio-veinal-roqueta",
+    "nom_cas": "Asociación Vecinal La Roqueta",
+    "nom_val": "Associació Veïnal La Roqueta",
+    "tipus": "av",
+    "variants": [
+      "Asociación Vecinal La Roqueta",
+      "Asociación Veïnal La Roqueta",
+      "Asociación de Vecinos La Roqueta",
+      "Asociación de Vecinos de la Roqueta",
+      "Associació Veïnal la Roqueta",
+      "Associació de Veïns La Roqueta",
+      "Associació de Veïns de la Roqueta",
+      "Associación Veïnal la Roqueta"
+    ],
+    "num_intervencions": 1,
+    "barri": "La Roqueta, La Roqueta, Extramurs, Pérez Galdós-Giorgeta, Petxina, Arrancapins, la Roqueta",
+    "temes_principals": [
+      "mobilitat",
+      "medi_ambient",
+      "barris"
+    ]
+  },
+  {
+    "id": "col-lectiu-lambda",
+    "nom_cas": "Colectivo Lambda",
+    "nom_val": "Col·lectiu Lambda",
+    "tipus": "ong",
+    "variants": [
+      "Col·lectiu Lambda",
+      "LAMBDA",
+      "Lambda, col·lectiu de lesbianes, gais, transsexuals i bisexuals"
+    ],
+    "num_intervencions": 1,
+    "barri": "Patraix, La Torre",
+    "temes_principals": [
+      "igualtat",
+      "participacio_ciutadana",
+      "cultura"
+    ]
+  },
+  {
+    "id": "av-la-torre",
+    "nom_cas": "Asociación de Vecinas y Vecinos de La Torre",
+    "nom_val": "Associació de Veïnes i Veïns de La Torre",
+    "tipus": "av",
+    "variants": [
+      "AV La Torre",
+      "AVV La Torre",
+      "Asociación de Vecinos La Torre",
+      "Asociación de Vecinos Sociópolis-La Torre-Faitanar",
+      "Associació de Veïnes i Veïns de la Torre-Faitanar",
+      "Associació de Veïnes i Veïns la Torre",
+      "Associació de Veïns La Torre",
+      "Associació de Veïns de la Torre"
+    ],
+    "num_intervencions": 1,
+    "barri": "La Torre, La Torre-Faitanar, Sociópolis, Torre-Faitanar",
+    "temes_principals": [
+      "barris",
+      "participacio_ciutadana",
+      "dana_emergencies"
+    ]
+  },
+  {
+    "id": "asociacion-intercultural-candombe",
+    "nom_cas": "Asociación Intercultural Candombe",
+    "nom_val": "Associació Intercultural Candombe",
+    "tipus": "ong",
+    "variants": [
+      "Asociación Intercultural Candombe",
+      "Asociación Intercultural Candombe / Campaña por el Cierre de los CIE",
+      "Asociación Intercultural Candombe / Campaña por el Cierre de los Centros de Internamiento para Extranjeros (CIE)",
+      "Associació Cultural Candombé / Movimiento ¡Regularización Ya! / Plataforma Esenciales",
+      "Associació Intercultural Candombe",
+      "Associació Intercultural Candombe / Campaña por el Cierre de los Centros de Internamiento de Extranjeros"
+    ],
+    "num_intervencions": 1,
+    "barri": "València, null",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "igualtat",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "associacio-veins-cultural-consumidors-patraix",
+    "nom_cas": "Asociación de Vecinos y Cultural de Patraix",
+    "nom_val": "Associació de Veïns i Cultural de Patraix",
+    "tipus": "av",
+    "variants": [
+      "AV Cultural i de Consumidors de Patraix",
+      "Asociación de Vecinos, Cultural y de Consumidores de Patraix",
+      "Associació Cultural i de Consumidors Patraix",
+      "Associació de Veïns Cultural i Consumidors de Patraix",
+      "Associació de Veïns Cultural i de Consumidors Patraix / Coordinadora Feminista de València",
+      "Associació de Veïns de Patraix",
+      "Associació de Veïns, Cultura i de Consumidors Patraix",
+      "Associació de Veïns, Cultural i de Consumidors Patraix",
+      "Associació de Veïns, Cultural i de Consumidors Patraix / ASEBLAC",
+      "Associació de Veïns, Cultural i de Consumidors de Patraix",
+      "Associció de Veïns, Cultural i de Consumidors de Patraix"
+    ],
+    "num_intervencions": 4,
+    "barri": "Faitanar, La Torre, Patraix",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "infraestructures",
+      "barris"
+    ]
+  },
+  {
+    "id": "av-la-petxina",
+    "nom_cas": "AV La Petxina",
+    "nom_val": "AV La Petxina",
+    "tipus": "av",
+    "variants": [
+      "AV Arrancapins-la Petxina",
+      "AV La Petxina",
+      "AV la Petxina",
+      "AVV Arrancapins-La Petxina",
+      "Asociación de Vecinos Arrancapins-La Petxina",
+      "Associació Veïnal Arrancapins-La Petxina",
+      "Associació de Veïns Arrancapins-La Petxina",
+      "Associació de Veïns de la Petxina / Plataforma del Corredor Verd"
+    ],
+    "num_intervencions": 1,
+    "barri": "Arrancapins, La Petxina, Arrancapins-La Petxina, Arrancapins-la Petxina, La Petxina, Petxina, la Petxina",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "urbanisme",
+      "mobilitat"
+    ]
+  },
+  {
+    "id": "asociacion-vecinos-nazaret-unido",
+    "nom_cas": "Asociación de Vecinos Nazaret Unido",
+    "nom_val": "Associació de Veïns Nazaret Unit",
+    "tipus": "av",
+    "variants": [
+      "AV Nazaret Unido",
+      "Asociación de Vecinos Nazaret Unido",
+      "Associació de Veïns I Veïnes de Natzaret",
+      "Associació de Veïns i Veïnes de Natzaret"
+    ],
+    "num_intervencions": 3,
+    "barri": "Natzaret, Natzaret, Grau, Moreres, Punta, Canyamelar, Natzaret, Punta, Pinedo, Grau, Marina, Cabanyal-Canyamelar, Nazaret",
+    "temes_principals": [
+      "urbanisme",
+      "infraestructures",
+      "mobilitat"
+    ]
+  },
+  {
+    "id": "consell-joventut-valencia",
+    "nom_cas": "Consell de la Joventut de València",
+    "nom_val": "Consell de la Joventut de València",
+    "tipus": "altres",
+    "variants": [
+      "Consell de la Joventut de València",
+      "Consell de la Joventut de la Ciutat de València"
+    ],
+    "num_intervencions": 2,
+    "barri": null,
+    "temes_principals": [
+      "joventut",
+      "participacio_ciutadana",
+      "economia"
+    ]
+  },
+  {
+    "id": "asociacion-vecinos-san-antonio-zaidia",
+    "nom_cas": "Asociación de Vecinos de San Antonio-Zaidía",
+    "nom_val": "Associació de Veïns de Sant Antoni-Saïdia",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Vecinos de San Antonio-Zaidía",
+      "Asociación de Vecinos de Sant Antoni-Saïdia",
+      "Asociación de Vecinos del Barrio de San Antonio",
+      "Asociación de Vecinos del barrio de San Antonio",
+      "Associació de Veïns de Sant Antoni-la Saïdia"
+    ],
+    "num_intervencions": 1,
+    "barri": "San Antonio, San Antonio, distrito de Zaidia, Sant Antoni, Sant Antoni-Saïdia, barrio con calle de Guatla",
+    "temes_principals": [
+      "urbanisme",
+      "patrimoni",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "sta-intersindical",
+    "nom_cas": "STA-Intersindical",
+    "nom_val": "STA-Intersindical",
+    "tipus": "sindical",
+    "variants": [
+      "STA- Intersindical Valenciana",
+      "STA-Intersindical",
+      "Sindicat de Treballadores i Treballadors de les Administracions i els Serveis Publics-Intersindical",
+      "Sindicat de Treballadores i Treballadors de les Administracions i els Serveis Públics-Intersindical",
+      "Sindicat de Treballadores i Treballadors de les Administracions i els Serveis Públics-Intersindical Valenciana"
+    ],
+    "num_intervencions": 1,
+    "barri": "Castellar-l'Oliveral, La Torre, Forn d'Alcedo, La Torre, Castellar-L'Oliveral, El Forn D'Alcedo, Torre, Castellar-Oliveral, Forn d'Alcedo, el Tremolar",
+    "temes_principals": [
+      "participacio_ciutadana",
+      "dana_emergencies",
+      "barris"
+    ]
+  },
+  {
+    "id": "per-l-horta",
+    "nom_cas": "Por la Huerta",
+    "nom_val": "Per l'Horta",
+    "tipus": "plataforma",
+    "variants": [
+      "Associació Per l'Horta",
+      "Associació Per l'horta / Plataforma ciutadana Horta és futur-No a la ZAL",
+      "Per l'Horta"
+    ],
+    "num_intervencions": 1,
+    "barri": "Horta, Horta, Alboraia, litoral, L'Horta, La Torre, Faitanar",
+    "temes_principals": [
+      "medi_ambient",
+      "infraestructures",
+      "barris"
+    ]
+  },
+  {
+    "id": "associacio-veins-grau",
+    "nom_cas": "Asociación de Vecinos y Vecinas del Grau",
+    "nom_val": "Associació de Veïns i Veïnes del Grau",
+    "tipus": "av",
+    "variants": [
+      "Associació de Veïns Grau-Port",
+      "Associació de Veïns Grau-Port, Associació de Veïns de la Punta, la Unificadora, les Casetes de la Punta i la Plataforma el Litoral per al Poble",
+      "Associació de Veïns i Veïnes del Grau",
+      "Associació de Veïns i de Veïnes Grau-Port"
+    ],
+    "num_intervencions": 1,
+    "barri": "El Grau, Grau, la Punta, Natzaret, Pinedo, Marítim",
+    "temes_principals": [
+      "infraestructures",
+      "participacio_ciutadana",
+      "barris"
+    ]
+  },
+  {
+    "id": "intersindical-valenciana",
+    "nom_cas": "Intersindical Valenciana",
+    "nom_val": "Intersindical Valenciana",
+    "tipus": "sindical",
+    "variants": [
+      "Intersindical",
+      "Intersindical Valenciana"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "educacio",
+      "salut",
+      "joventut"
+    ]
+  },
+  {
+    "id": "asociacion-victimas-mortales-29-octubre",
+    "nom_cas": "Asociación de Víctimas Mortales 29 de Octubre",
+    "nom_val": "Associació de Víctimes Mortals 29 d'Octubre",
+    "tipus": "av",
+    "variants": [
+      "Asociación de Víctimas Mortales 29 de Octubre i Associació de Víctimes de la Dana 29 d'Octubre de 2024"
+    ],
+    "num_intervencions": 0,
+    "barri": null,
+    "temes_principals": []
+  },
+  {
+    "id": "al-adala-valencia",
+    "nom_cas": "Asociación Al-Adala València",
+    "nom_val": "Associació Al-Adala València",
+    "tipus": "av",
+    "variants": [
+      "Associació Al-Adala València"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "memoria_historica",
+      "participacio_ciutadana",
+      "igualtat"
+    ]
+  },
+  {
+    "id": "dret-morir-dignament",
+    "nom_cas": "Asociación Derecho a Morir Dignamente de la Comunidad Valenciana",
+    "nom_val": "Associació Dret a Morir Dignament de la Comunitat Valenciana",
+    "tipus": "av",
+    "variants": [
+      "Associació Dret a Morir Dignament de la Comunitat Valenciana"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "salut",
+      "participacio_ciutadana",
+      "serveis_socials"
+    ]
+  },
+  {
+    "id": "gent-benimaclet",
+    "nom_cas": "Asociación Gent de Benimaclet",
+    "nom_val": "Associació Gent de Benimaclet",
+    "tipus": "av",
+    "variants": [
+      "Associació Gent de Benimaclet"
+    ],
+    "num_intervencions": 1,
+    "barri": "Benimaclet",
+    "temes_principals": []
+  },
+  {
+    "id": "delegacion-saharaui-frente-polisario",
+    "nom_cas": "Delegación Saharaui en la Comunidad Valenciana",
+    "nom_val": "Delegació Saharauí a la Comunitat Valenciana",
+    "tipus": "altres",
+    "variants": [
+      "Delegación Saharaui en la Comunidad Valenciana / Dirección del Frente Polisario"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "memoria_historica",
+      "participacio_ciutadana"
+    ]
+  },
+  {
+    "id": "zemmur-asociacion-saharauis-valencia",
+    "nom_cas": "Zemmur, Asociación de Saharauis en València",
+    "nom_val": "Zemmur, Associació de Saharauís a València",
+    "tipus": "av",
+    "variants": [
+      "Zemmur, Asociación de Saharauis en València"
+    ],
+    "num_intervencions": 1,
+    "barri": null,
+    "temes_principals": [
+      "memoria_historica",
+      "igualtat",
+      "participacio_ciutadana"
+    ]
+  }
+]

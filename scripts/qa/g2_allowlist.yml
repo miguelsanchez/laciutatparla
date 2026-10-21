@@ -1,0 +1,15 @@
+# Figures G2 accepts although they are typed into the web source (arquitectura-agentes.md F3.3).
+# G2 flags a number next to a data keyword (intervenciones, entidades, barrios, %, quejas…) when
+# it is written literally in the page source instead of computed in web/src/utils/stats.ts.
+# Only constants of design or method belong here, never a count of the data. Changes go by PR.
+#
+# pattern: regex matched against "<previous word> <number> <keyword>", case-insensitive.
+
+- pattern: '^(?:\S+ )?(0|25|50|75|100) %$'
+  reason: Chart axis ticks and full-scale labels (0 %, 50 %, 100 %)
+- pattern: '^el 100 %$'
+  reason: 'Explains that multi-topic percentages add up to more than 100 %: a constant'
+- pattern: '^(cada|por|per|de) (100|1\.000|10\.000) (habitantes|habitants|quejas|queixes)$'
+  reason: Rate units (per 100 / 1,000 / 10,000 residents or complaints)
+- pattern: '^(las|les) 12 (entidades|entitats)$'
+  reason: The ranking shows the top 12 entities by design (slice length), not a count of the data

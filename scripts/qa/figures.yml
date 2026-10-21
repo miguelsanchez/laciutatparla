@@ -1,0 +1,74 @@
+# Figures the web shows that do NOT come from data/intervencions.json or entitats.json
+# (arquitectura-agentes.md §7, G1). Those come from web/src/utils/stats.ts and must never be
+# typed into a page; this manifest is only for external datasets.
+#
+# Each figure has its value, its source and date, and where the pages write it.
+#   check: {json: <file>, path: <dotted.key>}  → compared with the file on every run
+#   check: {csv_rows: <file>}                  → number of data rows of a CSV
+#   check: null                                → no machine-readable source (a PDF report):
+#                                                only the pages are checked against `value`
+#   where: regex with one group capturing the written number, per file
+# Update `value` and `as_of` in a PR when the source changes.
+
+- id: quejas_total
+  value: 87528
+  source: "data/quejas.json — Queixes i Suggeriments, open data Ajuntament, aggregated by aggregate_quejas.py"
+  as_of: "2026-05"
+  check: {json: data/quejas.json, path: total}
+  where:
+    - {file: "web/src/pages/[lang]/otras-voces/index.astro", pattern: "(\\d[\\d.]*)</div>\\s*<div[^>]*>registros"}
+    - {file: "web/src/pages/[lang]/altres-veus/index.astro", pattern: "(\\d[\\d.]*)</div>\\s*<div[^>]*>registres"}
+
+- id: quejas_raw_rows
+  value: 87742
+  source: "data/raw/quejas_sugerencias.csv — raw rows of the open-data file, before aggregation (quejas_total keeps 87528 of them)"
+  as_of: "2026-05"
+  check: {csv_rows: data/raw/quejas_sugerencias.csv}
+  where:
+    - {file: "web/src/pages/[lang]/otras-voces/index.astro", pattern: "Ajuntament de València \\((\\d[\\d.]*) registros"}
+    - {file: "web/src/pages/[lang]/altres-veus/index.astro", pattern: "Ajuntament de València \\((\\d[\\d.]*) registres"}
+
+- id: decidim_propuestas
+  value: 5795
+  source: "data/propostes.json — Apoyo a propuestas DecidimVLC, editions 1-7"
+  as_of: "2026-05"
+  check: {json: data/propostes.json, path: total.presentadas}
+  where:
+    - {file: "web/src/pages/[lang]/otras-voces/index.astro", pattern: "\\((\\d[\\d.]*) propuestas, 2015"}
+    - {file: "web/src/pages/[lang]/altres-veus/index.astro", pattern: "\\((\\d[\\d.]*) propostes, 2015"}
+
+- id: pp_participantes_ed8
+  value: 28473
+  source: "Oficina d'Estadística, Análisis de la participación ciudadana en las ocho ediciones (PDF), 04/02/2026"
+  as_of: "2026-02-04"
+  check: null
+  where:
+    - {file: "web/src/pages/[lang]/otras-voces/index.astro", pattern: "(\\d[\\d.]*)</div>\\s*<div[^>]*>participantes"}
+    - {file: "web/src/pages/[lang]/altres-veus/index.astro", pattern: "(\\d[\\d.]*)</div>\\s*<div[^>]*>participants"}
+
+- id: pp_personas_total
+  value: 80091
+  source: "Oficina d'Estadística, Análisis de la participación ciudadana en las ocho ediciones (PDF), 04/02/2026"
+  as_of: "2026-02-04"
+  check: null
+  where:
+    - {file: "web/src/pages/[lang]/otras-voces/index.astro", pattern: "(\\d[\\d.]*) personas han participado"}
+    - {file: "web/src/pages/[lang]/altres-veus/index.astro", pattern: "(\\d[\\d.]*) persones han participat"}
+
+- id: pp_proponen_hombres
+  value: 55
+  source: "Oficina d'Estadística, Análisis de la participación ciudadana en las ocho ediciones (PDF): sexo en la fase de presentar propuestas. presupuestos_oficial.json only has the overall split (54.7 / 45.3, computed in the component)"
+  as_of: "2026-02-04"
+  check: null
+  where:
+    - {file: "web/src/components/PresupuestosExplorer.tsx", pattern: "los hombres son el (\\d+)% y las mujeres"}
+    - {file: "web/src/components/PresupuestosExplorer.tsx", pattern: "els homes són el (\\d+)% i les dones"}
+
+- id: pp_proponen_mujeres
+  value: 45
+  source: "Same report, same phase"
+  as_of: "2026-02-04"
+  check: null
+  where:
+    - {file: "web/src/components/PresupuestosExplorer.tsx", pattern: "y las mujeres el (\\d+)%\\. El sesgo"}
+    - {file: "web/src/components/PresupuestosExplorer.tsx", pattern: "i les dones el (\\d+)%\\. El biaix"}

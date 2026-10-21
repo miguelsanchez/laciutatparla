@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Daily QA sentinel of La Ciutat Parla (arquitectura-agentes.md §10 F0.10).
+  A LaunchDaemon in the system domain that runs as @USER@: it needs no login session,
+  so it also runs after a restart with FileVault on and no autologin (§11.7).
+  Template: scripts/qa/install_launchd.sh fills @LCP_ROOT@, @PATH@, @STATE@, @USER@ and
+  @HOME@ and installs it in /Library/LaunchDaemons with sudo. Do not edit the installed copy.
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>es.laciutatparla.qa</string>
+
+  <key>UserName</key>
+  <string>@USER@</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>@LCP_ROOT@/scripts/qa/daily.sh</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>@LCP_ROOT@</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>@PATH@</string>
+    <key>HOME</key>
+    <string>@HOME@</string>
+    <key>USER</key>
+    <string>@USER@</string>
+    <key>LCP_ROOT</key>
+    <string>@LCP_ROOT@</string>
+    <key>LCP_QA_STATE</key>
+    <string>@STATE@</string>
+    <key>LCP_QA_TRIGGER</key>
+    <string>launchd</string>
+  </dict>
+
+  <!-- 08:00 every day; launchd runs a missed slot when the Mac wakes up -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>8</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>@STATE@/logs/daily.log</string>
+  <key>StandardErrorPath</key>
+  <string>@STATE@/logs/daily.log</string>
+
+  <key>ProcessType</key>
+  <string>Background</string>
+  <key>LowPriorityIO</key>
+  <true/>
+</dict>
+</plist>

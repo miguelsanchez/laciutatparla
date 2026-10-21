@@ -1,0 +1,240 @@
+---
+import { t, getLangFromUrl, switchLangUrl, type Lang } from '../i18n/index.ts';
+import { GlobalSearch } from '../components/GlobalSearch.tsx';
+
+interface Props {
+  title?: string;
+  description?: string;
+  fullWidth?: boolean;
+  ogType?: string;
+  ogImage?: string;
+  jsonLd?: Record<string, any>;
+  noRssFeed?: boolean;
+}
+
+const lang = getLangFromUrl(Astro.url) as Lang;
+const { title, description, fullWidth, ogType, ogImage, jsonLd, noRssFeed } = Astro.props;
+const pageTitle = title ? `${title} — ${t(lang, 'site_title')}` : t(lang, 'site_title');
+const pageDesc = description ?? t(lang, 'site_description');
+const altLang = lang === 'cas' ? 'val' : 'cas';
+const altUrl = switchLangUrl(Astro.url, altLang);
+const siteBase = 'https://laciutatparla.es';
+const currentAbsUrl = new URL(Astro.url.pathname, siteBase).href;
+const altAbsUrl = new URL(altUrl, siteBase).href;
+const resolvedOgImage = ogImage ?? `${siteBase}/og-default.png`;
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "La Ciutat Parla",
+  "url": siteBase,
+  "description": lang === 'val'
+    ? "Intervencions ciutadanes als plens de l'Ajuntament de València"
+    : "Intervenciones ciudadanas en los plenos del Ayuntamiento de Valencia",
+  "inLanguage": lang === 'val' ? "ca" : "es",
+};
+---
+
+<!doctype html>
+<html lang={lang === 'val' ? 'ca' : 'es'}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={pageDesc} />
+
+    <!-- Icons -->
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href={currentAbsUrl} />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDesc} />
+    <meta property="og:url" content={currentAbsUrl} />
+    <meta property="og:type" content={ogType ?? 'website'} />
+    <meta property="og:locale" content={lang === 'val' ? 'ca_ES' : 'es_ES'} />
+    <meta property="og:site_name" content="La Ciutat Parla" />
+    <meta property="og:image" content={resolvedOgImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={pageTitle} />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={pageDesc} />
+    <meta name="twitter:image" content={resolvedOgImage} />
+
+    <!-- JSON-LD WebSite -->
+    <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+
+    {!noRssFeed && (
+      <link rel="alternate" type="application/rss+xml" title={`La Ciutat Parla — RSS (${lang})`} href={`${siteBase}/${lang}/feed.xml`} />
+    )}
+    <link rel="alternate" hreflang={lang === 'val' ? 'ca' : 'es'} href={currentAbsUrl} />
+    <link rel="alternate" hreflang={altLang === 'val' ? 'ca' : 'es'} href={altAbsUrl} />
+    <link rel="alternate" hreflang="x-default" href={lang === 'val' ? currentAbsUrl : altAbsUrl} />
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600&display=swap" /></noscript>
+    <title>{pageTitle}</title>
+  </head>
+  <body class="min-h-screen" style="background: #fafafa; color: #1e1e1e; font-family: 'Outfit', system-ui, sans-serif; -webkit-font-smoothing: antialiased;">
+
+    <!-- Skip to content -->
+    <a href="#main-content" style="position: absolute; left: -9999px; top: 0; z-index: 100; padding: 8px 16px; background: #bf4115; color: #fff; font-size: 0.875rem; font-weight: 600;" onfocus="this.style.left='0'" onblur="this.style.left='-9999px'">
+      {lang === 'cas' ? 'Saltar al contenido' : 'Anar al contingut'}
+    </a>
+
+    <!-- Header -->
+    <header style="background: #fff; border-bottom: 1px solid #eee;" class="sticky top-0 z-50">
+      <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
+        <a href={`/${lang}/`} class="hover:opacity-70 transition-all no-underline flex-shrink-0 flex items-center gap-2" style="font-family: 'Sora', system-ui, sans-serif; font-size: 1.1rem; font-weight: 800; color: #1e1e1e; letter-spacing: -0.04em;">
+          <svg width="20" height="20" viewBox="0 0 72 72" aria-hidden="true" style="flex-shrink: 0;">
+            <polygon fill="#1e1e1e" points="0,0 30,0 30,21 21,30 0,30"/>
+            <polygon fill="#1e1e1e" points="42,0 72,0 72,30 51,30 42,21"/>
+            <polygon fill="#1e1e1e" points="0,42 21,42 30,51 30,72 0,72"/>
+            <polygon fill="#1e1e1e" points="51,42 72,42 72,72 42,72 42,51"/>
+            <polygon fill="#e8562a" points="30,21 42,21 51,30 51,42 42,51 30,51 21,42 21,30"/>
+          </svg>
+          <span>La Ciutat Parla<span style="color: #e8562a;">.</span></span>
+        </a>
+        <!-- Desktop nav -->
+        <nav class="hidden md:flex items-center gap-5" style="font-family: 'Outfit', system-ui, sans-serif;">
+          <a href={`/${lang}/plens/`} class="text-sm font-medium hover:text-stone-900 transition-colors no-underline" style="color: #666;">
+            {t(lang, 'nav_plens')}
+          </a>
+          <a href={`/${lang}/entitats/`} class="text-sm font-medium hover:text-stone-900 transition-colors no-underline" style="color: #666;">
+            {t(lang, 'nav_entitats')}
+          </a>
+          <a href={`/${lang}/intervencions/`} class="text-sm font-medium hover:text-stone-900 transition-colors no-underline" style="color: #666;">
+            {t(lang, 'nav_intervencions')}
+          </a>
+          <a href={`/${lang}/mapa/`} class="text-sm font-medium hover:text-stone-900 transition-colors no-underline" style="color: #666;">
+            {lang === 'cas' ? 'Mapa' : 'Mapa'}
+          </a>
+          <a href={`/${lang}/${lang === 'cas' ? 'otras-voces' : 'altres-veus'}/`} class="text-sm font-medium hover:text-stone-900 transition-colors no-underline" style="color: #666;">
+            {lang === 'cas' ? 'Otras voces' : 'Altres veus'}
+          </a>
+          <GlobalSearch
+            lang={lang}
+            intervencions_path={`/${lang}/intervencions/`}
+            entitats_path={`/${lang}/entitats/`}
+            client:load
+          />
+          <a
+            href={altUrl}
+            class="text-xs font-semibold hover:opacity-80 transition-all no-underline"
+            style="background: #1e1e1e; color: #fff; padding: 5px 14px; border-radius: 100px; letter-spacing: 0.02em;"
+          >
+            {t(lang, 'switch_lang')}
+          </a>
+        </nav>
+        <!-- Mobile search + menu button -->
+        <div class="md:hidden flex items-center gap-2">
+        <GlobalSearch
+          lang={lang}
+          intervencions_path={`/${lang}/intervencions/`}
+          entitats_path={`/${lang}/entitats/`}
+          client:load
+        />
+        <button
+          id="mobile-menu-btn"
+          class="md:hidden flex flex-col gap-1 p-1"
+          aria-label={lang === 'cas' ? 'Abrir menú de navegación' : 'Obrir menú de navegació'}
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          style="border: none; background: none; cursor: pointer;"
+        >
+          <span style="display: block; width: 18px; height: 2px; background: #1e1e1e; border-radius: 2px;"></span>
+          <span style="display: block; width: 18px; height: 2px; background: #1e1e1e; border-radius: 2px;"></span>
+          <span style="display: block; width: 12px; height: 2px; background: #1e1e1e; border-radius: 2px;"></span>
+        </button>
+        </div>
+      <!-- Mobile nav -->
+      <nav id="mobile-menu" class="md:hidden hidden" style="font-family: 'Outfit', system-ui, sans-serif; border-top: 1px solid #f0f0f0; padding: 0.75rem 1rem;">
+        <div class="flex flex-col gap-3">
+          <a href={`/${lang}/plens/`} class="text-sm font-medium no-underline" style="color: #999;">{t(lang, 'nav_plens')}</a>
+          <a href={`/${lang}/entitats/`} class="text-sm font-medium no-underline" style="color: #999;">{t(lang, 'nav_entitats')}</a>
+          <a href={`/${lang}/intervencions/`} class="text-sm font-medium no-underline" style="color: #999;">{t(lang, 'nav_intervencions')}</a>
+          <a href={`/${lang}/mapa/`} class="text-sm font-medium no-underline" style="color: #999;">Mapa</a>
+          <a href={`/${lang}/${lang === 'cas' ? 'otras-voces' : 'altres-veus'}/`} class="text-sm font-medium no-underline" style="color: #999;">{lang === 'cas' ? 'Otras voces' : 'Altres veus'}</a>
+          <a href={altUrl} class="text-xs font-semibold no-underline" style="color: #c94420;">{t(lang, 'switch_lang')}</a>
+        </div>
+      </nav>
+    </header>
+    <script is:inline>
+      var _btn = document.getElementById('mobile-menu-btn');
+      var _menu = document.getElementById('mobile-menu');
+      _btn?.addEventListener('click', function() {
+        var isHidden = _menu?.classList.contains('hidden');
+        _menu?.classList.toggle('hidden');
+        _btn.setAttribute('aria-expanded', isHidden ? 'true' : 'false');
+        if (isHidden) _menu?.querySelector('a')?.focus();
+      });
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && !_menu?.classList.contains('hidden')) {
+          _menu?.classList.add('hidden');
+          _btn?.setAttribute('aria-expanded', 'false');
+          _btn?.focus();
+        }
+      });
+    </script>
+
+    <!-- Main content -->
+    {fullWidth ? (
+      <main id="main-content">
+        <slot />
+      </main>
+    ) : (
+      <main id="main-content" class="max-w-6xl mx-auto px-4 py-8">
+        <slot />
+      </main>
+    )}
+
+    <!-- Footer -->
+    <footer style="border-top: 1px solid #eee; background: #fff;">
+      <div class="max-w-6xl mx-auto px-4 py-6 flex flex-wrap items-center justify-between gap-y-3">
+        <span style="font-family: 'Sora', system-ui, sans-serif; font-weight: 700; font-size: 0.8rem; color: #767676; letter-spacing: -0.03em;">
+          La Ciutat Parla<span style="color: #e8562a;">.</span>
+        </span>
+        <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs" style="color: #767676;">
+          <a href={`/${lang}/${lang === 'cas' ? 'datos' : 'dades'}/`} class="hover:text-stone-900 transition-colors no-underline" style="color: inherit;">
+            {lang === 'cas' ? 'Datos abiertos' : 'Dades obertes'}
+          </a>
+          <a href={`/${lang}/${lang === 'cas' ? 'analisis' : 'analisi'}/`} class="hover:text-stone-900 transition-colors no-underline" style="color: inherit;">
+            {lang === 'cas' ? 'Análisis' : 'Anàlisi'}
+          </a>
+          <a href={`/${lang}/metodologia/`} class="hover:text-stone-900 transition-colors no-underline" style="color: inherit;">
+            {lang === 'cas' ? 'Metodología' : 'Metodologia'}
+          </a>
+          <a href={`/${lang}/legal/`} class="hover:text-stone-900 transition-colors no-underline" style="color: inherit;">
+            {t(lang, 'nav_legal')}
+          </a>
+          <a href={altUrl} class="hover:text-stone-900 transition-colors no-underline" style="color: inherit;">
+            {t(lang, 'switch_lang')}
+          </a>
+          <span aria-hidden="true" style="width: 1px; height: 14px; background: #ddd;"></span>
+          <a href="https://instagram.com/laciutatparla" target="_blank" rel="noopener" aria-label="Instagram" class="hover:text-stone-900 transition-colors no-underline" style="color: inherit; display: inline-flex;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          </a>
+          <a href="https://x.com/laciutatparla" target="_blank" rel="noopener" aria-label="X (Twitter)" class="hover:text-stone-900 transition-colors no-underline" style="color: inherit; display: inline-flex;">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.451-6.231zm-1.161 17.52h1.833L7.084 4.126H5.117l11.966 15.644z"/></svg>
+          </a>
+          <a href="https://bsky.app/profile/laciutatparla.bsky.social" target="_blank" rel="noopener" aria-label="Bluesky" class="hover:text-stone-900 transition-colors no-underline" style="color: inherit; display: inline-flex;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  @import "tailwindcss";
+</style>

@@ -1,0 +1,60 @@
+{
+  "id": "2018-01-25",
+  "fecha": "2018-01-25",
+  "tipo": "ordinaria",
+  "mandat_id": "2015-2019",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2018-01-25",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20180125_1000_0_firmadoweb.pdf/cbcd25da-af9f-ac8b-d387-25bb69b9a004?t=1613212757805",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20180125_1000_0_firmadoweb.pdf/2775e08d-dc1d-e03c-df1c-5e4f5d715f13?t=1613212757217",
+  "url_video": "https://players.cdn.enetres.net/live/1B4DA0F1F28C4AC4BA9AE203080C30C8021",
+  "url_videos": [],
+  "num_intervencions": 1,
+  "intervencions": [
+    {
+      "id": "2018-01-25-101",
+      "pleno_id": "2018-01-25",
+      "fecha": "2018-01-25",
+      "mandat_id": "2015-2019",
+      "ordre": 101,
+      "intervinient": "Enrique Sacristán Fernández",
+      "entitat": "FOTUR",
+      "entitat_id": "fotur",
+      "entitat_cessio": null,
+      "tipus_entitat": "empresa",
+      "barri_o_zona": "",
+      "punts_ordre_dia": "Problemas generados con las infraestructuras de transporte en la ciudad de València",
+      "idioma_original": "castellano",
+      "text_cas": "Bon dia. Ante todo quiero dar las gracias por estar aquí en el Ayuntamiento de València. Hablo en representación de AEDIVA, también de FOTUR, soy consejo de FOTUR. AEDIVA es, para que lo sepan, de pubs y discotecas.\n\nQueríamos decir que teníamos ganas de estar aquí y sobre todo que nos dé la oportunidad para el tema del carril bus que nos han quitado la intervención de poder estar y sobre todo tener esa oportunidad de que nos dé el Sr. Grezzi. Hemos dado registros de entradas para poder hablar con él, nos han sido denegados y, bueno, a ver si el Sr. Grezzi puede ser capaz de darnos esa oportunidad de hablar.\n\nTambién presentamos 6.000 firmas sobre el carril bus para que nos dejasen esas plazas de aparcamiento. Se ha visto seriamente agravado porque ha sido un 40 % de pérdidas en la restauración y en todo el sector de discotecas y pubs. Y no afecta sobre todo a este sector sino también afecta al vecino que está en el centro, ese pobre vecino que va a coger a las 6 de la mañana el coche y no puede cogerlo porque no tiene esa plaza de aparcamiento.\n\nDesde aquí pido a ver si nos puede atender algún día el Sr. Grezzi.\n\nEstaba un poquito nervioso, mi primera intervención. Muchas gracias.",
+      "text_val": "Bon dia. Abans de res vull donar les gràcies per estar ací en l'Ajuntament de València. Parle en representació d'AEDIVA, també de FOTUR, soc consell de FOTUR. AEDIVA és, perquè ho sàpien, de pubs i discoteques.\n\nVolíem dir que teníem ganes d'estar ací i sobretot que ens done l'oportunitat per al tema del carril bus, que ens han llevat la intervenció de poder estar i sobretot tindre eixa oportunitat de que ens done el Sr. Grezzi. Hem donat registres d'entrades per a poder parlar amb ell, ens han sigut denegats i, bé, a veure si el Sr. Grezzi pot ser capaç de donar-nos eixa oportunitat de parlar.\n\nTambé presentem 6.000 firmes sobre el carril bus perquè ens deixen eixes places d'aparcament. S'ha vist seriosament agreujat perquè ha sigut un 40 % de pèrdues en la restauració i en tot el sector de discoteques i pubs. I no afecta sobretot a este sector sinó que també afecta al veí que està en el centre, eixe pobre veí que va a agafar a les 6 del matí el cotxe i no pot agafar-lo perquè no té eixa plaça d'aparcament.\n\nDes d'ací demane a veure si ens pot atendre algun dia el Sr. Grezzi.\n\nEstava un poquet nerviós, la meua primera intervenció. Moltes gràcies.",
+      "temes": [
+        "mobilitat",
+        "economia"
+      ],
+      "temes_v2": {
+        "mobilitat": [
+          "transport_public",
+          "aparcament"
+        ],
+        "economia": [
+          "comerc_ocupacio"
+        ]
+      },
+      "ambit": "districte",
+      "zones": [],
+      "districtes": [
+        "Ciutat Vella"
+      ],
+      "resum_cas": "En representación de FOTUR y AEDIVA, denuncia las pérdidas económicas del sector hostelero y de ocio nocturno causadas por la supresión de plazas de aparcamiento tras la implantación del carril bus, y solicita reunión con el concejal de Movilidad.",
+      "resum_val": "En representació de FOTUR i AEDIVA, denuncia les pèrdues econòmiques del sector de l'hostaleria i de l'oci nocturn causades per la supressió de places d'aparcament arran de la implantació del carril bus, i sol·licita reunió amb el regidor de Mobilitat.",
+      "cap_subtopics": [
+        1002,
+        1526
+      ],
+      "cap_major": [
+        10,
+        15
+      ]
+    }
+  ]
+}

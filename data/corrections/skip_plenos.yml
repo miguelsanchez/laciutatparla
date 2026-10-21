@@ -1,0 +1,17 @@
+# Plenos that script 05 must NOT parse.
+#
+# Script 05 decides what to process by looking for pleno_ids missing from
+# interventions_raw.json. That makes it re-parse, on every single run, any acta whose
+# extracted interventions were later removed as invalid — the pleno_id disappears from
+# the data, so the acta looks unprocessed again. Each run costs Haiku calls and
+# recreates the same false positives, which apply_merges.py then deletes again.
+#
+# Listing a pleno here breaks that loop. Only for actas whose section markers fire but
+# that genuinely contain no citizen intervention.
+
+- pleno_id: '2013-01-25'   # quoted: unquoted YAML dates parse as datetime.date
+  reason: >-
+    Era Barberá acta with a single `art. 12` boilerplate match, so the section splitter
+    runs to the end of the file and Claude extracts the political debate instead. Yields
+    Sr. Sarrià (Grupo Socialista) and Regidor Novo (Ajuntament) — both listed in
+    deletions.yml. There is no citizen intervention in this pleno.

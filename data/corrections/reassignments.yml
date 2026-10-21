@@ -1,0 +1,297 @@
+# Floor-cession re-attributions.
+# When an entity yielded their speaking time to another entity,
+# Claude attributes the speech to the registered entity. These entries correct that.
+#
+# entitat / entitat_id: the REGISTERED entity — stays canonical and counts in all
+#   aggregates (entity totals, maps, top entities, mandates).
+# entitat_cessio (optional): the organisation the speaker actually represented.
+#   Display-only mention, never counted. Fields:
+#     nom_cas, nom_val  — required, shown as "en nombre de …" / "en nom de …"
+#     entitat_id        — optional; when it resolves to a catalog entity the
+#                         mention is rendered as a link, otherwise as plain text.
+
+- iv_id: 2024-05-28-003
+  entitat: Colectivo Fuera Túnel
+  entitat_id: colectivo-fuera-tunel
+  reason: Floor cession — original speaker yielded their turn
+- iv_id: 2024-01-29-004
+  entitat: Asociación de Inquilinos de Vivienda Pública de la CV
+  entitat_id: asociacion-inquilinos-vivienda-publica
+  reason: Floor cession — original speaker yielded their turn
+- iv_id: 2025-11-18-006
+  entitat: Asociación Ciudadana para la Defensa de la Sanidad Pública del País Valencià (ACDESA)
+  entitat_id: acdesa
+  reason: Floor cession — original speaker yielded their turn
+- iv_id: 2022-12-22-1-002
+  entitat: Asociación de Vecinos del barrio de San Antonio
+  entitat_id: asociacion-vecinos-san-antonio-zaidia
+  reason: Floor cession — original speaker yielded their turn
+- iv_id: 2021-04-29-002
+  entitat: Plataforma Veïnal del Barri de Penya-roja
+  entitat_id: plataforma-vecinal-penyaroja
+  reason: Floor cession — original speaker yielded their turn
+- iv_id: 2025-05-27-005
+  entitat: Asociación Chrysallis Comunitat Valenciana
+  entitat_id: chrysallis-comunitat-valenciana
+  reason: Floor cession — original speaker yielded their turn
+- iv_id: 2026-07-23-005
+  entitat: Sindicat de Treballadores i Treballadors de les Administracions i els Serveis
+    Públics-Intersindical
+  entitat_id: sta-intersindical
+  entitat_cessio:
+    nom_cas: Asociación de Víctimas de la DANA 29 de octubre 2024
+    nom_val: Associació de Víctimes de la DANA 29 d'octubre 2024
+  reason: Cesión de turno — la ponente intervino como presidenta de la Associació de
+    Víctimes de la DANA, no del sindicato registrado
+- iv_id: 2026-07-23-006
+  entitat: Intersindical Valenciana
+  entitat_id: intersindical-valenciana
+  entitat_cessio:
+    nom_cas: Asociación de Víctimas Mortales 29 de Octubre
+    nom_val: Associació de Víctimes Mortals 29 d'Octubre
+    entitat_id: asociacion-victimas-mortales-29-octubre
+  reason: Cesión de turno — la ponente agradece a Intersindical Valenciana haberlo hecho
+    posible y comparece en nombre de la Asociación de Víctimas Mortales
+- iv_id: 2013-05-31-101
+  entitat: AMPA CEIP Carles Salvador
+  entitat_id: ampa-ceip-carles-salvador
+  entitat_cessio:
+    nom_cas: FAPA-Valencia
+    nom_val: FAPA-València
+    entitat_id: fapa-valencia
+  reason: Cesión de turno — la AMPA CEIP Carles Salvador cede la palabra al presidente de FAPA-València
+  date: '2026-10-19'
+- iv_id: 2013-05-31-102
+  entitat: Asociación de Vecinos de Favara
+  entitat_id: asociacion-vecinos-favara
+  entitat_cessio:
+    nom_cas: AMPA del CEIP Eliseo Vidal
+    nom_val: AMPA del CEIP Eliseo Vidal
+  reason: Cesión de turno — la AV de Favara cede la palabra al AMPA del CEIP Eliseo Vidal
+  date: '2026-10-19'
+- iv_id: 2017-09-20-008
+  entitat: Centre de Recursos Just Ramírez / Per l'Horta
+  entitat_id: centre-recursos-just-ramirez
+  entitat_cessio:
+    nom_cas: Per l'Horta
+    nom_val: Per l'Horta
+  reason: 'Acta: ''El Centre de Recursos Just Ramírez ha cedit la paraula a Per l''Horta per donar suport'';
+    speaker represents Per l''Horta.'
+  date: '2026-10-19'
+  finding: E7-100bc40191
+- iv_id: 2012-12-28-002
+  entitat: Asociación de Vecinos del Carmen
+  entitat_id: av-carme
+  entitat_cessio:
+    nom_cas: Inquilinos de Aumsa
+    nom_val: Inquilins d'Aumsa
+  reason: 'Acta: speaker registered for AV del Carmen says ''Les hablo en nombre de todos los inquilinos
+    de Aumsa'''
+  date: '2026-10-19'
+  finding: E7-f257d9f225
+- iv_id: 2013-06-28-003
+  entitat: Associació de Veïns i Cultural Cercle Obert de Benicalap / Plataforma Auditoria Ciutadana del
+    Deute
+  entitat_id: av-cercle-obert-benicalap
+  entitat_cessio:
+    nom_cas: Plataforma Auditoría Ciudadana de la Deuda
+    nom_val: Plataforma Auditoria Ciutadana del Deute
+  reason: 'Acta: speaker talks on behalf of Plataforma Auditoria Ciutadana del Deute and thanks Cercle
+    Obert for the possibility to present the motion.'
+  date: '2026-10-20'
+  finding: E7-9566f38744
+- iv_id: 2014-06-27-002
+  entitat: Asociación Amics de la Malva
+  entitat_id: asociacion-vecinos-amigos-malva
+  entitat_cessio:
+    nom_cas: Comité de Empresa de la EMT de València
+    nom_val: Comité d'Empresa de l'EMT de València
+  reason: Speech by EMT workers, says 'desde este Comité de Empresa pensamos...'; turn registered to Amics
+    de la Malva.
+  date: '2026-10-20'
+  finding: E7-f7341790a6
+- iv_id: 2014-09-26-002
+  entitat: Associació de Veïns, Cultural i de Consumidors Patraix / ASEBLAC
+  entitat_id: associacio-veins-cultural-consumidors-patraix
+  entitat_cessio:
+    nom_cas: Asociación ASEBLAC (expertos en prevención de blanqueo de capitales)
+    nom_val: Associació ASEBLAC (experts en prevenció de blanqueig de capitals)
+  reason: 'Acta: speaker thanks the Patraix AV for ceding him the floor; he is president of ASEBLAC.'
+  date: '2026-10-20'
+  finding: E7-bdf46bad63
+- iv_id: 2016-12-22-001
+  entitat: Associació de Veïns de Torrefiel, sindicats CCOO, UGT i CSIF
+  entitat_id: asociacion-vecinos-torrefiel
+  entitat_cessio:
+    nom_cas: Trabajadoras y trabajadores de las contratas municipales de Jardinería y Poda de Valencia
+      (CCOO, UGT y CSIF)
+    nom_val: Treballadores i treballadors de les contractes municipals de Jardineria i Poda de València
+      (CCOO, UGT i CSIF)
+  reason: 'Acta: speaker says he speaks on behalf of the workers of the municipal Jardinería y Poda contracts
+    and the unions CCOO, UGT and CSIF, in the turn registered for AV Torrefiel.'
+  date: '2026-10-20'
+  finding: E7-8987b26d7b
+- iv_id: 2017-04-27-004
+  entitat: Associació Stop Accidents
+  entitat_id: stop-accidents
+  entitat_cessio:
+    nom_cas: Federación del Taxi de Valencia y Comité de Empresa de la EMT
+    nom_val: Federació del Taxi de València i Comité d'Empresa de l'EMT
+  reason: Stop Accidentes ceded its turn; speakers represent the Taxi Federation and the EMT works council.
+  date: '2026-10-20'
+  finding: E7-968164e2e9
+- iv_id: 2018-06-28-002
+  entitat: Unió de Consumidors de València / Secció Sindical d'UGT
+  entitat_id: unio-consumidors-valencia
+  entitat_cessio:
+    nom_cas: UGT (Unión General de Trabajadores) - Sección Sindical de Mercavalencia
+    nom_val: UGT (Unió General de Treballadores) - Secció Sindical de Mercavalencia
+    entitat_id: ugt-seccion-sindical-mercavalencia
+  reason: 'Acta: speaker thanks Unió de Consumidors for ceding its turn; speaks for UGT section sindical
+    (Mercavalència workers).'
+  date: '2026-10-20'
+  finding: E7-b45a3ca16a
+- iv_id: 2019-02-28-002
+  entitat: Associació Integral de Comerciants Sense Establiment (AICSE)
+  entitat_id: aicse
+  entitat_cessio:
+    nom_cas: Plataforma Vecinal Barrio Penya-roja
+    nom_val: Plataforma Veïnal Barri Penya-roja
+    entitat_id: plataforma-vecinal-penyaroja
+  reason: 'Acta: Sociedad Civil Valenciana cedes its time and hands the floor to the president of the
+    Plataforma Vecinos de Penya-roja.'
+  date: '2026-10-20'
+  finding: E7-1a36de76e4
+- iv_id: 2019-02-28-004
+  entitat: Associació de Veïns La Isla
+  entitat_id: associacio-veins-isla
+  entitat_cessio:
+    nom_cas: Afectados por iDental
+    nom_val: Afectats per iDental
+  reason: 'Acta: speaker thanks the AV for ceding the floor and speaks in the name of all those affected
+    by iDental.'
+  date: '2026-10-20'
+  finding: E7-a809f61c2a
+- iv_id: 2019-02-28-005
+  entitat: Associació de Veïns de Natzaret / Xarxa de Col·lectius Entrebarris
+  entitat_id: associacio-veins-natzaret
+  entitat_cessio:
+    nom_cas: Red de Colectivos Entrebarris
+    nom_val: Xarxa de Col·lectius Entrebarris
+  reason: 'Acta: ''venim com a Entrebarris perquè l''Associació de Veïnes de Natzaret ens ha fet una cessió
+    de l''ús d''esta intervenció''.'
+  date: '2026-10-20'
+  finding: E7-4443aa15b7
+- iv_id: 2022-01-27-003
+  entitat: Federació d'Associacions de Veïns de València
+  entitat_id: favv
+  entitat_cessio:
+    nom_cas: Defensora de las Personas Mayores
+    nom_val: Defensora del Major
+  reason: 'Acta: FAVV representative cedes the floor to Asunción Pérez Calot, defensora del Major.'
+  date: '2026-10-20'
+  finding: E7-d090509307
+- iv_id: 2022-06-30-001
+  entitat: SPPLB / InterinosVLC por la Fijeza Ya
+  entitat_id: spplb-sindicato-policias-locales-bomberos
+  entitat_cessio:
+    nom_cas: Plataforma InterinosVLC por la Fijeza Ya
+    nom_val: Plataforma InterinosVLC por la Fijeza Ya
+  reason: Acta registers the turn for SPPLB, but the speaker says 'Somos la plataforma InterinosVLC por
+    la Fijeza Ya' and thanks the SPPLB as a separate supporter.
+  date: '2026-10-20'
+  finding: E7-94383993e4
+- iv_id: 2022-07-28-002
+  entitat: Associació de Veïns de la Plaça de Múrcia
+  entitat_id: av-placa-murcia
+  entitat_cessio:
+    nom_cas: Comité de Empresa del Hospital General Universitario de València (CSIF)
+    nom_val: Comité d'Empresa de l'Hospital General Universitari de València (CSIF)
+  reason: 'Acta: speaker is a nurse, CSIF delegate and Works Council member of Hospital General, speaking
+    in the AV Plaça de Múrcia turn.'
+  date: '2026-10-20'
+  finding: E7-8b70715420
+- iv_id: 2023-03-30-002
+  entitat: Associació de Veïns Grau-Port, Associació de Veïns de la Punta, la Unificadora, les Casetes
+    de la Punta i la Plataforma el Litoral per al Poble
+  entitat_id: associacio-veins-grau
+  entitat_cessio:
+    nom_cas: Asociación de Vecinos de la Punta, la Unificadora, las Casetas de la Punta y Plataforma el
+      Litoral per al Poble
+    nom_val: Associació de Veïns de la Punta, la Unificadora, les Casetes de la Punta i Plataforma el
+      Litoral per al Poble
+  reason: 'Acta: registered for AV Grau-Port, but speaker says ''Parle en nom de l''Associació de Veïns
+    de la Punta, la Unificadora, les Casetes de la Punta...'''
+  date: '2026-10-20'
+  finding: E7-c5da848551
+- iv_id: 2024-12-20-006
+  entitat: Associació de Veïns de Sant Marcel·lí
+  entitat_id: av-sant-marcelli
+  entitat_cessio:
+    nom_cas: Vecinos de La Torre y de l'Horta de Sant Jordi
+    nom_val: Veïns de la Torre i de l'Horta de Sant Jordi
+  reason: 'Acta: speaker thanks AV Sant Marcel·lí for ceding the turn and speaks ''en nombre de los vecinos
+    de la Torre y de l''Horta de Sant Jordi''.'
+  date: '2026-10-20'
+  finding: E7-4c8f7b4e64
+- iv_id: 2025-04-11-3-007
+  entitat: Jóvenes hacia la Solidaridad y el Desarrollo / Casa Marruecos
+  entitat_id: jovesolides
+  entitat_cessio:
+    nom_cas: Casa Marruecos
+    nom_val: Casa Marroc
+  reason: 'Acta: ''Agradecer también a Joves Sòlides por ceder la palabra a Casa Marruecos. Venimos representando
+    a Casa Marruecos''.'
+  date: '2026-10-20'
+  finding: E7-48d0395745
+- iv_id: 2025-05-27-008
+  entitat: STE-Intersindical / Nadie sin Casa
+  entitat_id: ste-intersindical
+  entitat_cessio:
+    nom_cas: Nadie sin Casa
+    nom_val: Nadie sin Casa
+  reason: 'Floor cession: speaker presents Nadie sin Casa (''Somos Nadie sin Casa'') in a turn obtained
+    via STE-Intersindical.'
+  date: '2026-10-20'
+  finding: E7-97262559fa
+- iv_id: 2026-02-24-022
+  entitat: Associació de Veïns Cultural i de Consumidors Patraix / Coordinadora Feminista de València
+  entitat_id: associacio-veins-cultural-consumidors-patraix
+  entitat_cessio:
+    nom_cas: Coordinadora Feminista de València
+    nom_val: Coordinadora Feminista de València
+  reason: 'Acta: registered for AV Patraix, but speech says ''La Coordinadora Feminista de València estem
+    fartes''.'
+  date: '2026-10-20'
+  finding: E7-85f4b7be4e
+- iv_id: 2025-10-02-1-002
+  entitat: Associació de Veïns de Sant Marcel·lí
+  entitat_id: av-sant-marcelli
+  entitat_cessio:
+    nom_cas: Front Abolicionista del País Valenciano
+    nom_val: Front Abolicionista del País Valencià
+    entitat_id: front-abolicionista-pais-valencia
+  reason: 'Acta: registered AV Sant Marcel·lí cedes the floor; speaker represents the Front Abolicionista
+    del País Valencià.'
+  date: '2026-10-20'
+  finding: E7-79fed643fb
+- iv_id: 2014-01-31-101
+  entitat: Asociación de Vecinos de Natzaret
+  entitat_id: associacio-veins-natzaret
+  entitat_cessio:
+    nom_cas: Plataforma de Afectadas por la Hipoteca de València
+    nom_val: Plataforma d'Afectades per la Hipoteca de València
+    entitat_id: plataforma-afectadas-hipoteca-valencia
+  reason: 'Acta: registered for AV Natzaret, but the speaker speaks for the PAH (''¿Y qué hacemos nosotros?
+    Pues ponernos delante de las casas para intentar detener los desahucios'').'
+  date: '2026-10-20'
+- iv_id: 2015-04-24-102
+  entitat: Asociación de Vecinos y Amigos de la Malva
+  entitat_id: asociacion-vecinos-amigos-malva
+  entitat_cessio:
+    nom_cas: CCOO PV
+    nom_val: CCOO PV
+    entitat_id: ccoo-pv
+  reason: 'Acta: ''Todo mi agradecimiento a Amics de la Malva por darme la palabra... Como representante
+    de CC.OO.PV en el Consejo Escolar Municipal''.'
+  date: '2026-10-20'

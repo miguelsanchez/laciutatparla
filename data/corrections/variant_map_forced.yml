@@ -1,0 +1,286 @@
+# Forced corrections to entity_variant_map.json.
+# Applied before MERGES so that match_texts resolve to the right entity ID.
+# reason: why Claude misgroups this text.
+
+- text: associació de veïns de la roqueta
+  entity_id: associacio-veinal-roqueta
+  reason: ''
+- text: associació de veïns la roqueta
+  entity_id: associacio-veinal-roqueta
+  reason: ''
+- text: associació de veïns de la torre
+  entity_id: av-la-torre
+  reason: ''
+- text: associ de veïns de la torre
+  entity_id: av-la-torre
+  reason: ''
+- text: asociación de inquilinos de vivienda pública
+  entity_id: asociacion-inquilinos-vivienda-publica
+  reason: ''
+- text: asociación de vecinos de san isidro / asociación de inquilinos de vivienda pública
+  entity_id: asociacion-inquilinos-vivienda-publica
+  reason: ''
+- text: associació de veïns i veïnes de natzaret
+  entity_id: asociacion-vecinos-nazaret-unido
+  reason: ''
+- text: av nazaret unido
+  entity_id: asociacion-vecinos-nazaret-unido
+  reason: ''
+- text: associació stop accidents
+  entity_id: stop-accidents
+  reason: ''
+- text: associació de veïns i veïnes del cabanyal-canyamelar
+  entity_id: av-cabanyal-canyamelar
+  reason: ''
+- text: associacio ciutadania i comunicacio-acicom
+  entity_id: ciutadania-comunicacio
+  reason: ''
+- text: associació de veïns abastos-finca roja (en representació de col·lectiu fuera túnel)
+  entity_id: colectivo-fuera-tunel
+  reason: ''
+- text: coordinadora de organizaciones no gubernamentales para el desarrollo de la comunitat valenciana
+  entity_id: coordinadora-ong-desarrollo-valencia
+  reason: ''
+- text: unió de consumidors de valència
+  entity_id: union-consumidores-valencia
+  reason: ''
+- text: asociación intercultural mundo solidario
+  entity_id: asociacion-intercultural-mundo-solidario
+  reason: ''
+- text: asociación tdah mas 16 valència
+  entity_id: asociacion-tdah-mas-16
+  reason: ''
+- text: associació cultural i de consumidors patraix
+  entity_id: associacio-veins-cultural-consumidors-patraix
+  reason: 'associacio-cultural-consumidors-patraix is merged into associacio-veins-cultural-consumidors-patraix
+    (N2-4a5d410cf6): this entry pointed to an id that no longer exists.'
+  date: '2026-10-18'
+  finding: N7-48c785fd34
+- text: avv de sant marcel·lí
+  entity_id: avv-sant-marcelli
+  reason: ''
+- text: cáritas diocesana
+  entity_id: caritas-diocesana
+  reason: ''
+- text: asociación cultural cruces de mayo la torre
+  entity_id: asociacion-cruces-mayo-la-torre
+  reason: ''
+- text: sta-intersindical
+  entity_id: sta-intersindical
+  reason: ''
+- text: associació cuidem la raïosa
+  entity_id: cuidem-la-raiosa
+  reason: ''
+- text: av castellar-l'oliveral - devesa d26
+  entity_id: av-castellar-loliveral
+  reason: ''
+- text: av castellar-l'oliveral
+  entity_id: av-castellar-loliveral
+  reason: ''
+- text: associació de veïns cultural i de consumidors patraix
+  entity_id: associacio-veins-cultural-consumidors-patraix
+  reason: 'associacio-cultural-consumidors-patraix is merged into associacio-veins-cultural-consumidors-patraix
+    (N2-4a5d410cf6): this entry pointed to an id that no longer exists.'
+  date: '2026-10-18'
+  finding: N7-6f89d626e8
+- text: asociación de vecinos cultural y de consumidores patraix
+  entity_id: associacio-veins-cultural-consumidors-patraix
+  reason: 'associacio-cultural-consumidors-patraix is merged into associacio-veins-cultural-consumidors-patraix
+    (N2-4a5d410cf6): this entry pointed to an id that no longer exists.'
+  date: '2026-10-18'
+  finding: N7-a7fbbcfd94
+- text: associació de veïns cultural i de consumidors patraix / coordinadora feminista de valència
+  entity_id: associacio-veins-cultural-consumidors-patraix
+  reason: 'associacio-cultural-consumidors-patraix is merged into associacio-veins-cultural-consumidors-patraix
+    (N2-4a5d410cf6): this entry pointed to an id that no longer exists.'
+  date: '2026-10-18'
+  finding: N7-f625b6425c
+- text: associació de veïns plataforma intercultural d'espanya
+  entity_id: asociacion-plataforma-intercultural-espana
+  reason: ''
+- text: asociación de vecinos plataforma intercultural de españa
+  entity_id: asociacion-plataforma-intercultural-espana
+  reason: ''
+- text: sos racisme pv / federació unió africana espanya
+  entity_id: sos-racisme-pais-valencia
+  reason: 'sos-racisme-unio-africana is merged into sos-racisme-pais-valencia (N2-31313a02e9): this entry
+    pointed to an id that no longer exists.'
+  date: '2026-10-18'
+  finding: N7-e4a5404325
+- text: sos racisme pv / federación unión africana españa
+  entity_id: sos-racisme-pais-valencia
+  reason: 'sos-racisme-unio-africana is merged into sos-racisme-pais-valencia (N2-31313a02e9): this entry
+    pointed to an id that no longer exists.'
+  date: '2026-10-18'
+  finding: N7-3803dc0dd0
+- text: sos racismo pv / federación unión africana españa
+  entity_id: sos-racisme-pais-valencia
+  reason: 'sos-racisme-unio-africana is merged into sos-racisme-pais-valencia (N2-31313a02e9): this entry
+    pointed to an id that no longer exists.'
+  date: '2026-10-18'
+  finding: N7-c53cffa1ad
+- text: federació unió africana espanya / sos racisme país valencià
+  entity_id: sos-racisme-pais-valencia
+  reason: 'sos-racisme-unio-africana is merged into sos-racisme-pais-valencia (N2-31313a02e9): this entry
+    pointed to an id that no longer exists.'
+  date: '2026-10-18'
+  finding: N7-cf76bc9f5a
+- text: federación unión africana españa / sos racismo país valenciano
+  entity_id: sos-racisme-pais-valencia
+  reason: 'sos-racisme-unio-africana is merged into sos-racisme-pais-valencia (N2-31313a02e9): this entry
+    pointed to an id that no longer exists.'
+  date: '2026-10-18'
+  finding: N7-a392a9a744
+- text: comissió española de ayuda al refugiado (cear) i fundació cepaim
+  entity_id: cear
+  reason: ''
+- text: comisión española de ayuda al refugiado (cear) i fundación cepaim
+  entity_id: cear
+  reason: ''
+- text: comissió espanyola d'ajuda al refugiat (cear) i fundació cepaim
+  entity_id: cear
+  reason: ''
+- text: sta-intersindical valenciana
+  entity_id: sta-intersindical
+  reason: ''
+- text: sta- intersindical valenciana
+  entity_id: sta-intersindical
+  reason: ''
+- text: sindicat de treballadores i treballadors de les administracions i els serveis públics-intersindical
+  entity_id: sta-intersindical
+  reason: ''
+- text: sindicat de treballadores i treballadors de les administracions i els serveis publics-intersindical
+  entity_id: sta-intersindical
+  reason: ''
+- text: sindicat de treballadores i treballadors de les administracions i els serveis públics-intersindical valenciana
+  entity_id: sta-intersindical
+  reason: ''
+- text: sindicato de trabajadoras y trabajadores de las administraciones y los servicios públicos-intersindical
+  entity_id: sta-intersindical
+  reason: ''
+- text: plataforma de vecinos de penya-roja
+  entity_id: plataforma-vecinal-penyaroja
+  reason: ''
+- text: plataforma vecinal del barrio de peña-roja
+  entity_id: plataforma-vecinal-penyaroja
+  reason: ''
+- text: plataforma veïnal del barri de penya-roja
+  entity_id: plataforma-vecinal-penyaroja
+  reason: ''
+- text: associació de veïns del barri de penya-roja
+  entity_id: plataforma-vecinal-penyaroja
+  reason: ''
+- text: asociación de vecinos del barrio de penya-roja
+  entity_id: plataforma-vecinal-penyaroja
+  reason: ''
+- text: asociación de vecinos de penya-roja
+  entity_id: plataforma-vecinal-penyaroja
+  reason: ''
+- text: associació de veïns de penya-roja / plataforma vecinal barrio de penya-roja
+  entity_id: plataforma-vecinal-penyaroja
+  reason: ''
+- text: associació de veïns de benimaclet
+  entity_id: associacio-veinal-benimaclet
+  reason: ''
+- text: asociación de vecinos de benimaclet
+  entity_id: associacio-veinal-benimaclet
+  reason: ''
+- text: associació per l'horta
+  entity_id: per-l-horta
+  reason: ''
+- text: asociación por la huerta
+  entity_id: per-l-horta
+  reason: ''
+- text: associació per l'horta / plataforma ciutadana horta és futur-no a la zal
+  entity_id: per-l-horta
+  reason: ''
+- text: associació valència acull
+  entity_id: valencia-acull
+  reason: ''
+- text: asociación valencia acull
+  entity_id: valencia-acull
+  reason: ''
+- text: associació de veïns i veïns de marítim-aiora
+  entity_id: av-maritim-ayora
+  reason: ''
+- text: asociación de vecinos y vecinas de marítim-aiora
+  entity_id: av-maritim-ayora
+  reason: ''
+- text: associació de veïns i veïnes de marítim-aiora
+  entity_id: av-maritim-ayora
+  reason: ''
+- text: associació de veïns de marítim-aiora
+  entity_id: av-maritim-ayora
+  reason: ''
+- text: asociación de vecinos de marítim-ayora
+  entity_id: av-maritim-ayora
+  reason: ''
+- text: vecinos del barrio de ayora / av de marítim-ayora
+  entity_id: av-maritim-ayora
+  reason: ''
+- text: associació de veïns de nou moles
+  entity_id: associacio-veins-nou-moles
+  reason: ''
+- text: asociación de vecinos de nou moles
+  entity_id: associacio-veins-nou-moles
+  reason: ''
+- text: associació de veïns i veïnes de nou moles / asociación de vecinos de tres forques y nou moles
+  entity_id: associacio-veins-nou-moles
+  reason: ''
+- text: asociación de vecinos y vecinas de nou moles / asociación de vecinos de tres forques y nou moles
+  entity_id: associacio-veins-nou-moles
+  reason: ''
+- text: federación y movimiento vecinal
+  entity_id: favv
+  reason: ''
+- text: federació i moviment veïnal
+  entity_id: favv
+  reason: ''
+- text: federació d'associacions de veïns
+  entity_id: favv
+  reason: ''
+- text: federación de asociaciones de vecinos
+  entity_id: favv
+  reason: ''
+- text: federación de asociaciones de vecinos de valència
+  entity_id: favv
+  reason: ''
+- text: federación de asociaciones de vecinos de valencia
+  entity_id: favv
+  reason: ''
+- text: federació d'associacions de veïns de valència
+  entity_id: favv
+  reason: ''
+- text: federació d'associacions de veïns i veïnes de valència
+  entity_id: favv
+  reason: ''
+- text: federación de asociaciones vecinales de valencia
+  entity_id: favv
+  reason: ''
+- text: favv (federación de asociaciones vecinales de valència)
+  entity_id: favv
+  reason: ''
+- text: federació sindical del taxi de valència
+  entity_id: federacio-taxi
+  reason: ''
+- text: federación sindical del taxi de valencia
+  entity_id: federacio-taxi
+  reason: ''
+- text: federación sindical del taxi de valència
+  entity_id: federacio-taxi
+  reason: ''
+- text: Asociación de Vecinos del Distrito 26 de Castellar-Oliveral
+  entity_id: associacio-veins-castellar-oliverar
+  reason: Same AV of Castellar-l'Oliverar village, different spelling
+  date: '2026-10-20'
+  finding: N2-6bd6d96421
+- text: Orriols en Lucha
+  entity_id: plataforma-orriols-en-lucha
+  reason: Orriols en Lucha is a separate platform from Orriols Conviu
+  date: '2026-10-20'
+  finding: N2-167cda07b2
+- text: Plataforma Orriols en Lucha
+  entity_id: plataforma-orriols-en-lucha
+  reason: Orriols en Lucha platform is distinct from Orriols Conviu
+  date: '2026-10-20'
+  finding: N2-c06a8aefd8

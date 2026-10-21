@@ -1,0 +1,9 @@
+# Pinned: a clean venv once pulled anthropic 1.x, which depends on httpx2 instead of
+# httpx, and eight scripts stopped importing. Upgrade on purpose, then run the tests.
+requests==2.33.1
+beautifulsoup4==4.14.3
+anthropic==0.84.0
+python-slugify==8.0.4
+python-dotenv==1.2.2
+pyyaml==6.0.3
+pytest==9.1.1

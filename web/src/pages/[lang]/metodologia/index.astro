@@ -1,0 +1,423 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getStats, getReferenceCounts } from '../../../utils/stats.ts';
+
+// Figures about the data come from utils/stats.ts, never typed in (QA checks G1/G2)
+const dataStats = getStats();
+const ref = getReferenceCounts();
+// name and first surname: drop the second surname ("Rita Barberá Nolla" → "Rita Barberá")
+const mandatList = ref.mandats.map((m) => `${m.id.replace('-', '–')} (${m.alcalde.split(' ').slice(0, -1).join(' ')})`).join(', ');
+
+export function getStaticPaths() {
+  return [{ params: { lang: 'cas' } }, { params: { lang: 'val' } }];
+}
+
+const { lang } = Astro.params as { lang: 'cas' | 'val' };
+const isVal = lang === 'val';
+
+const title = isVal ? 'Metodologia' : 'Metodología';
+const description = isVal
+  ? "Com La Ciutat Parla extreu, classifica i publica les intervencions ciutadanes dels plens de l'Ajuntament de València. Pipeline de 7 passos, IA + supervisió humana."
+  : 'Cómo La Ciutat Parla extrae, clasifica y publica las intervenciones ciudadanas de los plenos del Ayuntamiento de València. Pipeline de 7 pasos, IA + supervisión humana.';
+
+const heroSuper = isVal ? 'Metodologia' : 'Metodología';
+const heroTitle = isVal ? 'Com funciona.' : 'Cómo funciona.';
+const heroDesc = isVal
+  ? "Les actes dels plens són documents PDF de fins a 200 pàgines. Aquesta pàgina explica com les convertim en dades estructurades, què fa la intel·ligència artificial i què supervisa la persona."
+  : "Las actas de los plenos son documentos PDF de hasta 200 páginas. Esta página explica cómo las convertimos en datos estructurados, qué hace la inteligencia artificial y qué supervisa la persona.";
+
+const stats = isVal
+  ? [
+      { n: '7', label: 'passos del pipeline' },
+      { n: '~$0.10', label: 'cost per ple (IA)' },
+      { n: String(dataStats.mandates), label: 'mandats processats' },
+      { n: '100%', label: 'codi obert' },
+    ]
+  : [
+      { n: '7', label: 'pasos del pipeline' },
+      { n: '~$0.10', label: 'coste por pleno (IA)' },
+      { n: String(dataStats.mandates), label: 'mandatos procesados' },
+      { n: '100%', label: 'código abierto' },
+    ];
+
+const sourcesTitle = isVal ? 'Fonts de dades' : 'Fuentes de datos';
+const sourcesDesc = isVal
+  ? "El projecte parteix de fonts públiques de l'Ajuntament de València i les combina per generar dades que no existeixen en cap altra forma estructurada."
+  : "El proyecto parte de fuentes públicas del Ajuntament de València y las combina para generar datos que no existen en ninguna otra forma estructurada.";
+
+const sources = isVal
+  ? [
+      {
+        title: 'Actes dels plens municipals',
+        desc: "PDFs publicats per l'Ajuntament al seu web oficial. Domini públic. Reutilització emparada per la Llei 19/2013 de Transparència i la Llei 2/2015 de la Comunitat Valenciana.",
+        badge: 'Principal · domini públic',
+        badgeColor: '#666',
+      },
+      {
+        title: 'Dataset Barris i Districtes',
+        desc: `${ref.barris} barris i ${ref.districtes} districtes amb els seus contorns GeoJSON. Portal de Dades Obertes de l'Ajuntament de València (geoportal.valencia.es). Usat per a la geolocalització d'intervencions i el mapa interactiu.`,
+        badge: 'Dades obertes · CC BY 4.0',
+        badgeColor: '#16a34a',
+      },
+      {
+        title: 'Queixes, Suggeriments i Pressupostos',
+        desc: "Datasets de queixes i suggeriments (87.528 registres) i de pressupostos participatius (8 edicions). Portal de Dades Obertes de l'Ajuntament. Usats a la secció Altres veus.",
+        badge: 'Dades obertes · CC BY 4.0',
+        badgeColor: '#16a34a',
+      },
+    ]
+  : [
+      {
+        title: 'Actas de plenos municipales',
+        desc: "PDFs publicados por el Ajuntament en su web oficial. Dominio público. Reutilización amparada por la Ley 19/2013 de Transparencia y la Ley 2/2015 de la Comunitat Valenciana.",
+        badge: 'Principal · dominio público',
+        badgeColor: '#666',
+      },
+      {
+        title: 'Dataset Barris i Districtes',
+        desc: `${ref.barris} barrios y ${ref.districtes} distritos con sus contornos GeoJSON. Portal de Datos Abiertos del Ajuntament de València (geoportal.valencia.es). Usado para la geolocalización de intervenciones y el mapa interactivo.`,
+        badge: 'Datos abiertos · CC BY 4.0',
+        badgeColor: '#16a34a',
+      },
+      {
+        title: 'Queixes, Suggeriments i Pressupostos',
+        desc: "Datasets de quejas y sugerencias (87.528 registros) y de presupuestos participativos (8 ediciones). Portal de Datos Abiertos del Ajuntament. Usados en la sección Altres veus.",
+        badge: 'Datos abiertos · CC BY 4.0',
+        badgeColor: '#16a34a',
+      },
+    ];
+
+const pipelineTitle = isVal ? 'El pipeline: 7 passos' : 'El pipeline: 7 pasos';
+const pipelineDesc = isVal
+  ? "Un conjunt de scripts Python processa cada ple des de la seua publicació al web de l'Ajuntament fins a la seua aparició al web. Els passos 1–4 són automàtics i idempotents; els passos 5–7 usen IA amb supervisió humana."
+  : "Un conjunto de scripts Python procesa cada pleno desde su publicación en la web del Ajuntament hasta su aparición en la web. Los pasos 1–4 son automáticos e idempotentes; los pasos 5–7 usan IA con supervisión humana.";
+
+const steps = isVal
+  ? [
+      {
+        n: '01',
+        title: 'Índex de sessions',
+        tech: 'Python · web scraping',
+        desc: 'Descàrrega automàtica del llistat de tots els plens des del web municipal. Extreu data, tipus (ordinari/extraordinari) i enllaços a les actes i vídeos.',
+        output: 'sessions_index.json',
+        ia: false,
+      },
+      {
+        n: '02',
+        title: 'Metadades de sessió',
+        tech: 'Python · web scraping',
+        desc: 'Visita cada pàgina de sessió per obtenir els metadades complets i els enllaços directes als PDFs de les actes.',
+        output: 'sessions_metadata.json',
+        ia: false,
+      },
+      {
+        n: '03',
+        title: 'Descàrrega de PDFs',
+        tech: 'Python · urllib',
+        desc: "Descarrega les actes oficials en format PDF. Només descarrega els que no existeixen ja localment. Les actes poden superar les 200 pàgines.",
+        output: 'data/raw/pdfs/',
+        ia: false,
+      },
+      {
+        n: '04',
+        title: 'Extracció de text',
+        tech: 'pdftotext · Python',
+        desc: 'Converteix cada PDF a text pla net. Elimina capçaleres, peus de pàgina i artefactes de maquetació per preparar el text per a la IA.',
+        output: 'data/raw/texts/',
+        ia: false,
+      },
+      {
+        n: '05',
+        title: 'Extracció amb IA',
+        tech: 'Claude Haiku · Anthropic',
+        desc: "El model llegeix el text de l'acta i identifica cada bloc d'intervenció ciutadana. Per cada intervenció extreu: qui parla, quina entitat representa, en quin idioma, què diu. Genera resums bilingües (castellà i valencià).",
+        output: 'interventions_raw.json',
+        ia: true,
+      },
+      {
+        n: '06',
+        title: "Normalització d'entitats",
+        tech: 'Claude Haiku · supervisió humana',
+        desc: "La mateixa entitat apareix amb grafies distintes en actes diferents. Aquest pas agrupa variants sota un nom canònic. S'apliquen correccions manuals reproduïbles per als casos que la IA no resol bé.",
+        output: 'entitats.json',
+        ia: true,
+      },
+      {
+        n: '07',
+        title: 'Classificació i construcció final',
+        tech: 'Claude Haiku · Python',
+        desc: `Cada intervenció es classifica temàticament (${ref.categories} categories i ${ref.subcategories} subcategories), geogràficament (barri, districte, àmbit) i amb codis CAP (Comparative Agendas Project, estàndard acadèmic internacional). Es construeixen els JSONs finals que alimenten el web.`,
+        output: 'intervencions.json · plenos.json',
+        ia: true,
+      },
+    ]
+  : [
+      {
+        n: '01',
+        title: 'Índice de sesiones',
+        tech: 'Python · web scraping',
+        desc: 'Descarga automática del listado de todos los plenos desde la web municipal. Extrae fecha, tipo (ordinario/extraordinario) y enlaces a las actas y vídeos.',
+        output: 'sessions_index.json',
+        ia: false,
+      },
+      {
+        n: '02',
+        title: 'Metadatos de sesión',
+        tech: 'Python · web scraping',
+        desc: 'Visita cada página de sesión para obtener los metadatos completos y los enlaces directos a los PDFs de las actas.',
+        output: 'sessions_metadata.json',
+        ia: false,
+      },
+      {
+        n: '03',
+        title: 'Descarga de PDFs',
+        tech: 'Python · urllib',
+        desc: 'Descarga las actas oficiales en formato PDF. Solo descarga los que no existen ya localmente. Las actas pueden superar las 200 páginas.',
+        output: 'data/raw/pdfs/',
+        ia: false,
+      },
+      {
+        n: '04',
+        title: 'Extracción de texto',
+        tech: 'pdftotext · Python',
+        desc: 'Convierte cada PDF a texto plano limpio. Elimina cabeceras, pies de página y artefactos de maquetación para preparar el texto para la IA.',
+        output: 'data/raw/texts/',
+        ia: false,
+      },
+      {
+        n: '05',
+        title: 'Extracción con IA',
+        tech: 'Claude Haiku · Anthropic',
+        desc: 'El modelo lee el texto del acta e identifica cada bloque de intervención ciudadana. Por cada intervención extrae: quién habla, qué entidad representa, en qué idioma, qué dice. Genera resúmenes bilingües (castellano y valencià).',
+        output: 'interventions_raw.json',
+        ia: true,
+      },
+      {
+        n: '06',
+        title: 'Normalización de entidades',
+        tech: 'Claude Haiku · supervisión humana',
+        desc: 'La misma entidad aparece con grafías distintas en diferentes actas. Este paso agrupa variantes bajo un nombre canónico. Se aplican correcciones manuales reproducibles para casos que la IA no resuelve bien.',
+        output: 'entitats.json',
+        ia: true,
+      },
+      {
+        n: '07',
+        title: 'Clasificación y construcción final',
+        tech: 'Claude Haiku · Python',
+        desc: `Cada intervención se clasifica temáticamente (${ref.categories} categorías y ${ref.subcategories} subcategorías), geográficamente (barrio, distrito, ámbito) y con códigos CAP (Comparative Agendas Project, estándar académico internacional). Se construyen los JSONs finales que alimentan la web.`,
+        output: 'intervencions.json · plenos.json',
+        ia: true,
+      },
+    ];
+
+const iaTitle = isVal ? 'El rol de la intel·ligència artificial' : 'El rol de la inteligencia artificial';
+const iaDesc = isVal
+  ? "La IA fa possible processar centenars de pàgines de documents administratius. La supervisió humana garanteix la qualitat del resultat."
+  : "La IA hace posible procesar cientos de páginas de documentos administrativos. La supervisión humana garantiza la calidad del resultado.";
+
+const iaDoesTitle = isVal ? 'Què fa la IA' : 'Qué hace la IA';
+const iaDoesItems = isVal
+  ? [
+      "Localitzar els blocs d'intervenció ciutadana a l'acta",
+      "Identificar qui parla i quina entitat representa",
+      "Assignar l'idioma de la intervenció: el de més de la meitat del discurs, mesurat paràgraf a paràgraf",
+      "Traduir el discurs sencer a l'altra llengua (es comprova que no quede cap paràgraf sense traduir)",
+      "Redactar un resum d'1-2 frases en tots dos idiomes",
+      "Classificar temàticament amb taxonomia pròpia i codis CAP",
+      "Identificar barris i districtes esmentats",
+      "Marcar en negreta les frases clau del text",
+    ]
+  : [
+      "Localizar los bloques de intervención ciudadana en el acta",
+      "Identificar quién habla y a qué entidad representa",
+      "Asignar el idioma de la intervención: el de más de la mitad del discurso, medido párrafo a párrafo",
+      "Traducir el discurso entero a la otra lengua (se comprueba que no quede ningún párrafo sin traducir)",
+      "Redactar un resumen de 1-2 frases en ambos idiomas",
+      "Clasificar temáticamente con taxonomía propia y códigos CAP",
+      "Identificar barrios y distritos mencionados",
+      "Marcar en negrita las frases clave del texto",
+    ];
+
+const iaSupervTitle = isVal ? 'Què supervisa la persona' : 'Qué supervisa la persona';
+const iaSupervItems = isVal
+  ? [
+      "Revisar cada sessió processada",
+      "Eliminar intervencions de regidors mal identificats",
+      "Corregir noms d'entitats i fusionar duplicats",
+      "Reassignar cessions de torn: la intervenció s'atribueix a l'entitat registrada i s'indica a part en nom de quina organització va parlar realment",
+      "Validar la classificació geogràfica en casos ambigus",
+      "Totes les correccions queden en codi versionat i són reproduïbles",
+    ]
+  : [
+      "Revisar cada sesión procesada",
+      "Eliminar intervenciones de concejales mal identificados",
+      "Corregir nombres de entidades y fusionar duplicados",
+      "Reasignar cesiones de turno: la intervención se atribuye a la entidad registrada y se indica aparte en nombre de qué organización habló realmente",
+      "Validar la clasificación geográfica en casos ambiguos",
+      "Todas las correcciones quedan en código versionado y son reproducibles",
+    ];
+
+const iaFooter = isVal
+  ? `<strong style="color: #1e1e1e;">Model:</strong> Claude Haiku (Anthropic) · <strong style="color: #1e1e1e;">Cost estimat per ple:</strong> ~$0.05–0.15 · <strong style="color: #1e1e1e;">Cost total del dataset complet:</strong> &lt;$30 · <strong style="color: #1e1e1e;">Allotjament web:</strong> $0 (lloc estàtic)`
+  : `<strong style="color: #1e1e1e;">Modelo:</strong> Claude Haiku (Anthropic) · <strong style="color: #1e1e1e;">Coste estimado por pleno:</strong> ~$0.05–0.15 · <strong style="color: #1e1e1e;">Coste total del dataset completo:</strong> &lt;$30 · <strong style="color: #1e1e1e;">Hosting web:</strong> $0 (sitio estático)`;
+
+const limTitle = isVal ? 'Cobertura i limitacions' : 'Cobertura y limitaciones';
+const limDesc = isVal
+  ? "El dataset és exhaustiu dins del seu àmbit, però té límits que qualsevol usuari hauria de conèixer."
+  : "El dataset es exhaustivo dentro de su ámbito, pero tiene límites que cualquier usuario debería conocer.";
+
+const limitations = isVal
+  ? [
+      { label: 'Cobertura temporal', text: `${dataStats.mandates} mandats municipals: ${mandatList}. Els plens més recents s'afegeixen periòdicament.` },
+      { label: 'Només intervencions ciutadanes', text: "El dataset recull únicament les intervencions del torn ciutadà al ple. No inclou debats entre regidors, preguntes de grups municipals ni altres tràmits de l'ordre del dia." },
+      { label: 'Qualitat dels PDFs', text: "Les actes de 2011–2014 són documents escanejats. La qualitat del text extret és menor i hi pot haver més errors de transcripció que en els documents digitals natius de mandats posteriors." },
+      { label: 'Precisió de la IA', text: "L'extracció automàtica té una taxa d'encert elevada, però no és perfecta. Totes les sessions es revisen manualment. Els errors identificats es corregeixen en un script de correccions versionat." },
+      { label: "Normalització d'entitats", text: "Una mateixa entitat pot aparèixer amb grafies distintes en actes diferents. El procés de normalització és iteratiu i millora amb cada nou ple processat. Poden quedar variants no detectades." },
+      { label: 'Entitats no identificades', text: "En alguns casos l'intervinient no indica clarament l'entitat que representa. Aquestes intervencions es recullen amb el camp entitat buit o amb el nom de l'intervinient com a identificador." },
+    ]
+  : [
+      { label: 'Cobertura temporal', text: `${dataStats.mandates} mandatos municipales: ${mandatList}. Los plenos más recientes se añaden periódicamente.` },
+      { label: 'Solo intervenciones ciudadanas', text: 'El dataset recoge únicamente las intervenciones del turno ciudadano en el pleno. No incluye debates entre concejales, preguntas de grupos municipales ni otros trámites del orden del día.' },
+      { label: 'Calidad de los PDFs', text: 'Las actas de 2011–2014 son documentos escaneados. La calidad del texto extraído es menor y puede haber más errores de transcripción que en los documentos digitales nativos de mandatos posteriores.' },
+      { label: 'Precisión de la IA', text: 'La extracción automática tiene una tasa de acierto elevada, pero no es perfecta. Todas las sesiones se revisan manualmente. Los errores identificados se corrigen en un script de correcciones versionado.' },
+      { label: 'Normalización de entidades', text: 'Una misma entidad puede aparecer con grafías distintas en diferentes actas. El proceso de normalización es iterativo y mejora con cada nuevo pleno procesado. Pueden quedar variantes no detectadas.' },
+      { label: 'Entidades no identificadas', text: 'En algunos casos el interviniente no indica claramente la entidad que representa. Estas intervenciones se recogen con el campo entitat vacío o con el nombre del interviniente como identificador.' },
+    ];
+
+const reuseTitle = isVal ? 'Reutilitzar les dades' : 'Reutilizar los datos';
+const reuseDesc = isVal
+  ? "El dataset complet està disponible per a descàrrega lliure sota llicència <strong>CC BY 4.0</strong>. Pots usar-lo en projectes periodístics, investigacions acadèmiques o visualitzacions pròpies sempre que cites la font."
+  : "El dataset completo está disponible para descarga libre bajo licencia <strong>CC BY 4.0</strong>. Puedes usarlo en proyectos periodísticos, investigaciones académicas o visualizaciones propias siempre que cites la fuente.";
+const reuseLink = isVal ? `/${lang}/dades/` : `/${lang}/datos/`;
+const reuseLinkLabel = isVal ? 'Anar a Dades obertes →' : 'Ir a Datos abiertos →';
+---
+
+<Base title={title} description={description}>
+
+  <!-- Hero -->
+  <section style="background: #1e1e1e; color: #fff; padding: 3rem 1rem 2.5rem;">
+    <div class="max-w-5xl mx-auto">
+      <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #e8562a; margin-bottom: 0.75rem;">
+        {heroSuper}
+      </p>
+      <h1 style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 1rem;">
+        {heroTitle}
+      </h1>
+      <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 1rem; color: #aaa; max-width: 48rem; line-height: 1.6;">
+        {heroDesc}
+      </p>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section style="background: #f5f5f5; border-bottom: 1px solid #eee; padding: 1.5rem 1rem;">
+    <div class="max-w-5xl mx-auto" style="display: flex; flex-wrap: wrap; gap: 2rem;">
+      {stats.map(({ n, label }) => (
+        <div>
+          <span style="font-family: 'Sora', sans-serif; font-size: 1.75rem; font-weight: 800; color: #1e1e1e; letter-spacing: -0.03em;">{n}</span>
+          <span style="font-family: 'Outfit', sans-serif; font-size: 0.85rem; color: #666; display: block;">{label}</span>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <div class="max-w-5xl mx-auto px-4 py-10" style="font-family: 'Outfit', system-ui, sans-serif;">
+
+    <!-- Fonts de dades / Fuentes de datos -->
+    <section style="margin-bottom: 3.5rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem;">{sourcesTitle}</h2>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; max-width: 48rem; line-height: 1.6;">
+        {sourcesDesc}
+      </p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem;">
+        {sources.map(({ title: stitle, desc, badge, badgeColor }) => (
+          <div style="border: 1px solid #e5e5e5; border-radius: 12px; padding: 1.25rem 1.5rem; background: #fff;">
+            <p style="font-weight: 700; font-size: 0.9rem; color: #1e1e1e; margin-bottom: 0.4rem;">{stitle}</p>
+            <p style="color: #666; font-size: 0.82rem; line-height: 1.55; margin-bottom: 0.75rem;">{desc}</p>
+            <span style={`font-size: 0.72rem; font-weight: 600; color: ${badgeColor}; letter-spacing: 0.05em; text-transform: uppercase;`}>{badge}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Pipeline -->
+    <section style="margin-bottom: 3.5rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem;">{pipelineTitle}</h2>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 2rem; max-width: 48rem; line-height: 1.6;">
+        {pipelineDesc}
+      </p>
+
+      <div style="display: flex; flex-direction: column; gap: 0;">
+        {steps.map(({ n, title: stitle, tech, desc, output, ia }, i) => (
+          <div style={`display: flex; gap: 1.25rem; padding: 1.25rem 0; ${i > 0 ? 'border-top: 1px solid #f0f0f0;' : ''}`}>
+            <div style="flex-shrink: 0; display: flex; flex-direction: column; align-items: center; gap: 0;">
+              <div style={`width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Sora', sans-serif; font-size: 0.75rem; font-weight: 800; flex-shrink: 0; ${ia ? 'background: #fff3ee; color: #e8562a;' : 'background: #f0f0f0; color: #666;'}`}>
+                {n}
+              </div>
+            </div>
+            <div style="flex: 1; min-width: 0;">
+              <div style="display: flex; align-items: baseline; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.3rem;">
+                <p style="font-weight: 700; font-size: 0.95rem; color: #1e1e1e; margin: 0;">{stitle}</p>
+                <span style="font-size: 0.72rem; color: #aaa; font-weight: 500;">{tech}</span>
+                {ia && <span style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #e8562a; background: #fff3ee; padding: 2px 7px; border-radius: 4px;">IA</span>}
+              </div>
+              <p style="color: #555; font-size: 0.85rem; line-height: 1.6; margin: 0 0 0.4rem 0;">{desc}</p>
+              <p style="font-size: 0.75rem; color: #aaa; margin: 0;">→ <code style="font-size: 0.75rem;">{output}</code></p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Rol de la IA -->
+    <section style="margin-bottom: 3.5rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem;">{iaTitle}</h2>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; max-width: 48rem; line-height: 1.6;">
+        {iaDesc}
+      </p>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;">
+        <div style="border: 1px solid #fde0d4; border-radius: 12px; padding: 1.25rem 1.5rem; background: #fff8f5;">
+          <p style="font-family: 'Sora', sans-serif; font-weight: 700; font-size: 0.72rem; color: #e8562a; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">{iaDoesTitle}</p>
+          <ul style="color: #444; font-size: 0.85rem; line-height: 1.7; margin: 0; padding-left: 1.1rem;">
+            {iaDoesItems.map(item => <li>{item}</li>)}
+          </ul>
+        </div>
+        <div style="border: 1px solid #e5e5e5; border-radius: 12px; padding: 1.25rem 1.5rem; background: #fff;">
+          <p style="font-family: 'Sora', sans-serif; font-weight: 700; font-size: 0.72rem; color: #666; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em;">{iaSupervTitle}</p>
+          <ul style="color: #444; font-size: 0.85rem; line-height: 1.7; margin: 0; padding-left: 1.1rem;">
+            {iaSupervItems.map(item => <li>{item}</li>)}
+          </ul>
+        </div>
+      </div>
+
+      <div style="background: #f5f5f5; border-radius: 10px; padding: 1rem 1.25rem; font-size: 0.84rem; color: #555; line-height: 1.6;" set:html={iaFooter} />
+    </section>
+
+    <!-- Cobertura i limitacions -->
+    <section style="margin-bottom: 3.5rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.5rem;">{limTitle}</h2>
+      <p style="color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; max-width: 48rem; line-height: 1.6;">
+        {limDesc}
+      </p>
+      <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+        {limitations.map(({ label, text }, i) => (
+          <div style={`padding: 0.9rem 1.1rem; border-radius: 8px; background: ${i % 2 === 0 ? '#fafafa' : '#fff'}; border: 1px solid #eee;`}>
+            <span style="font-weight: 700; font-size: 0.85rem; color: #1e1e1e;">{label}: </span>
+            <span style="font-size: 0.85rem; color: #555; line-height: 1.6;">{text}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Reutilizar -->
+    <section style="background: #fff8f5; border: 1px solid #fde0d4; border-radius: 12px; padding: 1.5rem 2rem; margin-bottom: 3rem;">
+      <h2 style="font-family: 'Sora', sans-serif; font-size: 1.2rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 0.75rem; color: #1e1e1e;">{reuseTitle}</h2>
+      <p style="font-size: 0.9rem; color: #444; line-height: 1.65; margin-bottom: 1rem;" set:html={reuseDesc} />
+      <a href={reuseLink} style="display: inline-block; background: #1e1e1e; color: #fff; font-size: 0.85rem; font-weight: 600; padding: 9px 20px; border-radius: 8px; text-decoration: none;">
+        {reuseLinkLabel}
+      </a>
+    </section>
+
+  </div>
+</Base>

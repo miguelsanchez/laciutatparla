@@ -1,0 +1,195 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { t, formatDate } from '../../../i18n/index.ts';
+import { getCatLabels, getSubLabels, getAmbitLabels } from '../../../utils/labels.ts';
+import { withCanonicalEntitat } from '../../../utils/format.ts';
+import { InterventionCard } from '../../../components/InterventionCard.tsx';
+import { readData, listData } from '../../../utils/data.ts';
+
+export function getStaticPaths() {
+  try {
+    const ids = listData('plenos')
+      .filter((f: string) => f.endsWith('.json'))
+      .map((f: string) => f.replace('.json', ''));
+    const langs = ['cas', 'val'];
+    return langs.flatMap((lang: string) =>
+      ids.map((id: string) => ({ params: { lang, id } }))
+    );
+  } catch {
+    return [];
+  }
+}
+
+const { lang, id } = Astro.params as { lang: 'cas' | 'val'; id: string };
+let pleno: any = null;
+try {
+  pleno = readData(`plenos/${id}.json`);
+  if (pleno?.intervencions?.length) {
+    const entitats = readData('entitats.json');
+    pleno = { ...pleno, intervencions: withCanonicalEntitat(pleno.intervencions, entitats, lang) };
+  }
+} catch {}
+
+const ENETRES_ROOT = 'https://aytovlc.web.enetres.net/';
+const parts: string[] = Array.isArray(pleno?.url_videos) && pleno.url_videos.length > 1 ? pleno.url_videos : [];
+const isLive = !!pleno?.url_video && pleno.url_video.includes('/live/');
+const showSingle = parts.length === 0 && !!pleno?.url_video && pleno.url_video !== ENETRES_ROOT && !isLive;
+const noVideo = parts.length === 0 && isLive;
+
+// D2: other plenos that point to the same recording (2021-07-29 is a data duplicate: excluded)
+let siblings: any[] = [];
+try {
+  if (pleno?.url_video && !isLive && pleno.url_video !== ENETRES_ROOT && !id.startsWith('2021-07-29')) {
+    const all: any[] = readData('plenos.json');
+    siblings = all.filter((p: any) => p.id !== id && p.url_video === pleno.url_video);
+  }
+} catch {}
+const siblingLinks = siblings.map((s: any) => ({
+  id: s.id,
+  text: t(lang, 'plens_video_compartit_ple')
+    .replace('{tipus}', t(lang, `plens_${s.tipo}`).toLocaleLowerCase())
+    .replace('{data}', formatDate(s.fecha, lang)),
+}));
+
+const temesLabels: Record<string, string> = {
+  urbanisme: t(lang, 'temes_urbanisme'), habitatge: t(lang, 'temes_habitatge'),
+  medi_ambient: t(lang, 'temes_medi_ambient'), mobilitat: t(lang, 'temes_mobilitat'),
+  esports: t(lang, 'temes_esports'), cultura: t(lang, 'temes_cultura'),
+  educacio: t(lang, 'temes_educacio'), salut: t(lang, 'temes_salut'),
+  seguretat: t(lang, 'temes_seguretat'), serveis_socials: t(lang, 'temes_serveis_socials'),
+  participacio_ciutadana: t(lang, 'temes_participacio_ciutadana'),
+  infraestructures: t(lang, 'temes_infraestructures'), economia: t(lang, 'temes_economia'),
+  dana_emergencies: t(lang, 'temes_dana_emergencies'), patrimoni: t(lang, 'temes_patrimoni'),
+  joventut: t(lang, 'temes_joventut'), gent_major: t(lang, 'temes_gent_major'),
+  igualtat: t(lang, 'temes_igualtat'), barris: t(lang, 'temes_barris'),
+  memoria_historica: t(lang, 'temes_memoria_historica'), agricultura: t(lang, 'temes_agricultura'),
+  turisme: t(lang, 'temes_turisme'), altres: t(lang, 'temes_altres'),
+};
+const tipusLabels: Record<string, string> = {
+  av: t(lang, 'entitats_tipus_av'),
+  plataforma: t(lang, 'entitats_tipus_plataforma'),
+  ong: t(lang, 'entitats_tipus_ong'),
+  sindical: t(lang, 'entitats_tipus_sindical'),
+  cultural: t(lang, 'entitats_tipus_cultural'),
+  educacio: t(lang, 'entitats_tipus_educacio'),
+  esportiu: t(lang, 'entitats_tipus_esportiu'),
+  empresa: t(lang, 'entitats_tipus_empresa'),
+  particular: t(lang, 'entitats_tipus_particular'),
+  altres: t(lang, 'entitats_tipus_altres'),
+};
+const cardLabels = {
+  idioma_valenciano: t(lang, 'intervencio_idioma_valenciano'),
+  idioma_castellano: t(lang, 'intervencio_idioma_castellano'),
+  ver_texto: t(lang, 'intervencio_ver_texto'),
+  ocultar_texto: t(lang, 'intervencio_ocultar_texto'),
+  traduccion: t(lang, 'intervencio_traduccion_label'),
+  original: t(lang, 'intervencio_original_label'),
+  punts: t(lang, 'intervencio_punts'),
+  en_representacio: t(lang, 'intervencio_en_representacio'),
+  en_nom_de: t(lang, 'intervencio_en_nom_de'),
+  ambit_labels: getAmbitLabels(lang),
+};
+---
+
+<Base title={pleno ? formatDate(pleno.fecha, lang) : id}>
+  {!pleno ? (
+    <p class="text-stone-400">{lang === 'val' ? 'Plen no trobat.' : 'Pleno no encontrado.'}</p>
+  ) : (
+    <>
+      <!-- Breadcrumb -->
+      <nav class="text-sm text-stone-400 mb-6">
+        <a href={`/${lang}/plens/`} class="hover:text-orange-600">{t(lang, 'plens_title')}</a>
+        <span class="mx-2">›</span>
+        <span>{formatDate(pleno.fecha, lang)}</span>
+      </nav>
+
+      <!-- Header -->
+      <div class="bg-white rounded-xl border border-stone-200 p-6 mb-8 shadow-sm">
+        <div class="flex items-start justify-between gap-4">
+          <div>
+            <div class="flex items-center gap-2 mb-2">
+              <span class={`text-xs px-2 py-0.5 rounded-full font-medium ${
+                pleno.tipo === 'ordinaria' ? 'bg-blue-100 text-blue-700'
+                : pleno.tipo === 'extraordinaria' ? 'bg-purple-100 text-purple-700'
+                : 'bg-red-100 text-red-700'
+              }`}>
+                {t(lang, `plens_${pleno.tipo}`)}
+              </span>
+              {pleno.acta_disponible && (
+                <span class="text-xs text-green-600">{t(lang, 'plens_acta_si')}</span>
+              )}
+            </div>
+            <h1 class="text-2xl font-bold text-stone-900">{formatDate(pleno.fecha, lang)}</h1>
+            <p class="text-stone-500 mt-1">
+              {pleno.num_intervencions} {t(lang, 'plens_intervencions_count')}
+            </p>
+          </div>
+          <div class={`flex flex-wrap justify-end ${noVideo ? 'flex-col items-end gap-1' : 'gap-2'}`}>
+            {pleno.url_acta && (
+              <a href={pleno.url_acta} target="_blank" rel="noopener"
+                class="text-xs px-3 py-2 border border-stone-200 rounded-lg hover:border-orange-300 text-stone-600 hover:text-orange-600 transition-colors">
+                {t(lang, 'plens_ver_acta')} ↗
+              </a>
+            )}
+            {noVideo && (
+              <span class="text-xs text-stone-500">{t(lang, 'plens_video_no_disponible')}</span>
+            )}
+            {showSingle && (
+              <a href={pleno.url_video} target="_blank" rel="noopener"
+                class="text-xs px-3 py-2 border border-stone-200 rounded-lg hover:border-orange-300 text-stone-600 hover:text-orange-600 transition-colors">
+                {t(lang, 'plens_ver_video')} ↗
+              </a>
+            )}
+          </div>
+        </div>
+        {parts.length > 0 && (
+          <section aria-labelledby="video-parts-h"
+            class="mt-5 pt-4 border-t border-stone-100 flex flex-col items-start gap-2.5 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-4">
+            <h2 id="video-parts-h" class="flex items-center gap-1.5 text-[0.8rem] font-semibold text-[#1e1e1e]" style="font-family:'Sora',system-ui,sans-serif">
+              <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><rect x="0.75" y="2.75" width="14.5" height="10.5" rx="2.5" fill="none" stroke="#e8562a" stroke-width="1.5"/><path d="M6.5 5.6v4.8L10.4 8z" fill="#e8562a"/></svg>
+              {t(lang, 'plens_video_titol')}
+              <span class="font-normal text-stone-500" style="font-family:'Outfit',system-ui,sans-serif">· {t(lang, 'plens_video_parts_n').replace('{n}', String(parts.length))}</span>
+            </h2>
+            <ol class="flex flex-wrap gap-2 list-none">
+              {parts.map((url: string, i: number) => (
+                <li><a href={url} target="_blank" rel="noopener"
+                  class="inline-flex items-center gap-1 min-h-8 text-xs px-3 py-2 whitespace-nowrap border border-stone-200 rounded-lg bg-white text-stone-600 transition-colors hover:border-orange-300 hover:text-[#bf4115] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#e8562a]">
+                  <span class="font-semibold">{t(lang, 'plens_video_part').replace('{i}', String(i + 1))}</span> {t(lang, 'plens_video_part_de').replace('{n}', String(parts.length))}
+                  <span class="sr-only"> {t(lang, 'plens_video_nova_pestanya')}</span>
+                  <span aria-hidden="true">↗</span>
+                </a></li>
+              ))}
+            </ol>
+            <p class="basis-full text-xs text-stone-500">{t(lang, 'plens_video_nota').replace('{n}', String(parts.length))}</p>
+          </section>
+        )}
+        {siblingLinks.length > 0 && (
+          <p class="mt-4 flex items-start gap-2 px-3.5 py-2.5 bg-amber-50 border border-amber-200 rounded-[10px] text-[0.8rem] text-amber-900 leading-snug">
+            <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" class="flex-none mt-px"><circle cx="8" cy="8" r="7" fill="none" stroke="#92400e" stroke-width="1.5"/><path d="M8 7v4.2M8 4.6v.1" stroke="#92400e" stroke-width="1.6" stroke-linecap="round"/></svg>
+            <span set:html={t(lang, 'plens_video_compartit').replace('{sessio}', siblingLinks.map((s) => `<a href="/${lang}/plens/${s.id}/" class="text-amber-800 font-semibold underline">${s.text}</a>`).join(t(lang, 'plens_video_compartit_i')))} />
+          </p>
+        )}
+      </div>
+
+      <!-- Interventions -->
+      <div class="grid gap-4 grid-cols-1 lg:grid-cols-2">
+        {(pleno.intervencions ?? []).map((iv: any) => (
+          <InterventionCard
+            client:load
+            iv={iv}
+            lang={lang}
+            showDate={false}
+            labels={cardLabels}
+            temes_labels={temesLabels}
+            cat_labels={getCatLabels(lang)}
+            sub_labels={getSubLabels(lang)}
+            tipus_labels={tipusLabels}
+            plens_path={`/${lang}/plens/`}
+            entitats_path={`/${lang}/entitats/`}
+            intervencions_path={`/${lang}/intervencions/`}
+          />
+        ))}
+      </div>
+    </>
+  )}
+</Base>

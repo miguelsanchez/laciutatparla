@@ -1,0 +1,246 @@
+{
+  "years": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "categories": [
+    "cultura",
+    "economia",
+    "medi_ambient",
+    "mobilitat",
+    "serveis_publics",
+    "urbanisme"
+  ],
+  "by_year": {
+    "2021": {
+      "cultura": 57416240,
+      "economia": 82164038,
+      "medi_ambient": 175816678,
+      "mobilitat": 78331896,
+      "serveis_publics": 303254062,
+      "urbanisme": 44221980
+    },
+    "2022": {
+      "cultura": 40864758,
+      "economia": 33675025,
+      "medi_ambient": 110598138,
+      "mobilitat": 11085206,
+      "serveis_publics": 99607378,
+      "urbanisme": 30073009
+    },
+    "2023": {
+      "cultura": 46784364,
+      "economia": 37398030,
+      "medi_ambient": 124399692,
+      "mobilitat": 40843624,
+      "serveis_publics": 75727405,
+      "urbanisme": 27348380
+    },
+    "2024": {
+      "cultura": 78799869,
+      "economia": 78534440,
+      "medi_ambient": 110393834,
+      "mobilitat": 54980787,
+      "serveis_publics": 216248536,
+      "urbanisme": 47596552
+    },
+    "2025": {
+      "cultura": 61285700,
+      "economia": 37763388,
+      "medi_ambient": 66656261,
+      "mobilitat": 38809960,
+      "serveis_publics": 95299106,
+      "urbanisme": 47079809
+    },
+    "2026": {
+      "cultura": 27974514,
+      "economia": 6860875,
+      "medi_ambient": 11635457,
+      "mobilitat": 0,
+      "serveis_publics": 69895092,
+      "urbanisme": 6593920
+    }
+  },
+  "by_year_detail": {
+    "2021": {
+      "cultura": {
+        "Cultura": 57416240
+      },
+      "economia": {
+        "Fomento del empleo": 14444393,
+        "Comercio y turismo": 18139091,
+        "Otras actuaciones económicas": 47814036,
+        "Agricultura": 1766517
+      },
+      "medi_ambient": {
+        "Bienestar comunitario": 136272845,
+        "Medio ambiente": 39543833
+      },
+      "mobilitat": {
+        "Transporte público": 78331896
+      },
+      "serveis_publics": {
+        "Seguridad y orden público": 147204635,
+        "Acción social": 88173915,
+        "Sanidad": 6219920,
+        "Educación": 41658106,
+        "Deporte": 19997486
+      },
+      "urbanisme": {
+        "Vivienda y urbanismo": 44221980
+      }
+    },
+    "2022": {
+      "cultura": {
+        "Cultura": 40864758
+      },
+      "economia": {
+        "Comercio y turismo": 16216989,
+        "Fomento del empleo": 3066973,
+        "Otras actuaciones económicas": 12380796,
+        "Agricultura": 2010267
+      },
+      "medi_ambient": {
+        "Medio ambiente": 51447046,
+        "Bienestar comunitario": 59151092
+      },
+      "mobilitat": {
+        "Transporte público": 11085206
+      },
+      "serveis_publics": {
+        "Educación": 16570809,
+        "Seguridad y orden público": 41668177,
+        "Acción social": 16869287,
+        "Sanidad": 4939447,
+        "Deporte": 19559659
+      },
+      "urbanisme": {
+        "Vivienda y urbanismo": 30073009
+      }
+    },
+    "2023": {
+      "cultura": {
+        "Cultura": 46784364
+      },
+      "economia": {
+        "Fomento del empleo": 3386613,
+        "Comercio y turismo": 16667477,
+        "Otras actuaciones económicas": 15366739,
+        "Agricultura": 1977200
+      },
+      "medi_ambient": {
+        "Bienestar comunitario": 75074423,
+        "Medio ambiente": 49325269
+      },
+      "mobilitat": {
+        "Transporte público": 40843624
+      },
+      "serveis_publics": {
+        "Seguridad y orden público": 29323738,
+        "Acción social": 16710319,
+        "Sanidad": 6162818,
+        "Educación": 17689234,
+        "Deporte": 5841297
+      },
+      "urbanisme": {
+        "Vivienda y urbanismo": 27348380
+      }
+    },
+    "2024": {
+      "cultura": {
+        "Cultura": 78799869
+      },
+      "economia": {
+        "Fomento del empleo": 9798449,
+        "Comercio y turismo": 33652896,
+        "Otras actuaciones económicas": 28537522,
+        "Agricultura": 6545573
+      },
+      "medi_ambient": {
+        "Bienestar comunitario": 48780033,
+        "Medio ambiente": 61613802
+      },
+      "mobilitat": {
+        "Transporte público": 54980787
+      },
+      "serveis_publics": {
+        "Seguridad y orden público": 101022058,
+        "Acción social": 38267272,
+        "Sanidad": 11498940,
+        "Educación": 24377975,
+        "Deporte": 41082290
+      },
+      "urbanisme": {
+        "Vivienda y urbanismo": 47596552
+      }
+    },
+    "2025": {
+      "cultura": {
+        "Cultura": 61285700
+      },
+      "economia": {
+        "Fomento del empleo": 3871814,
+        "Comercio y turismo": 19125227,
+        "Otras actuaciones económicas": 12047731,
+        "Agricultura": 2718616
+      },
+      "medi_ambient": {
+        "Bienestar comunitario": 30196188,
+        "Medio ambiente": 36460073
+      },
+      "mobilitat": {
+        "Transporte público": 38809960
+      },
+      "serveis_publics": {
+        "Seguridad y orden público": 44446055,
+        "Acción social": 20260819,
+        "Sanidad": 6796627,
+        "Educación": 20006083,
+        "Deporte": 3789524
+      },
+      "urbanisme": {
+        "Vivienda y urbanismo": 47079809
+      }
+    },
+    "2026": {
+      "cultura": {
+        "Cultura": 27974514
+      },
+      "economia": {
+        "Fomento del empleo": 368124,
+        "Comercio y turismo": 3345868,
+        "Otras actuaciones económicas": 601678,
+        "Agricultura": 2545204
+      },
+      "medi_ambient": {
+        "Bienestar comunitario": 5745139,
+        "Medio ambiente": 5890318
+      },
+      "mobilitat": {
+        "Transporte público": 0
+      },
+      "serveis_publics": {
+        "Seguridad y orden público": 10140492,
+        "Acción social": 35726260,
+        "Sanidad": 944073,
+        "Educación": 5750946,
+        "Deporte": 17333322
+      },
+      "urbanisme": {
+        "Vivienda y urbanismo": 6593920
+      }
+    }
+  },
+  "totals_by_year": {
+    "2021": 741204894,
+    "2022": 325903514,
+    "2023": 352501496,
+    "2024": 586554019,
+    "2025": 346894224,
+    "2026": 122959858
+  }
+}

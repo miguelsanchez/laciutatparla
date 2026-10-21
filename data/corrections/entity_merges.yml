@@ -1,0 +1,729 @@
+# Entity merge groups.
+# match_texts: entity name strings from interventions that identify members of this group.
+# exclude_texts: entity texts whose IDs must NOT be included in the merge.
+# reason: why these names represent the same entity.
+
+- canonical_id: av-abastos-finca-roja
+  nom_cas: Asociación Vecinal Abastos-Finca Roja
+  nom_val: Associació Veïnal Abastos-Finca Roja
+  tipus: av
+  match_texts:
+  - AV Abastos-Finca Roja
+  - Asociación de Vecinos Abastos-Finca Roja
+  - Asociación de Vecinos de Abastos – Finca Roja
+  - Asociación de Vecinos Abastos-Finca Roja / Colectivo Fuera Túnel
+  - Associació de Veïns Abastos-Finca Roja / Colectivo Fuera Túnel
+  - AVV Abastos-Finca Roja
+  - Associació de Veïns Abastos-Finca Roja
+  exclude_texts:
+  - Colectivo Fuera Túnel
+  reason: ''
+- canonical_id: av-la-torre
+  nom_cas: Asociación de Vecinas y Vecinos de La Torre
+  nom_val: Associació de Veïnes i Veïns de La Torre
+  tipus: av
+  match_texts:
+  - AV La Torre
+  - AVV La Torre
+  - Asociación de Vecinos La Torre
+  - Associació de Veïns de la Torre
+  - Associació de Veïnes i Veïns de la Torre-Faitanar
+  - Associció de Veïnes i Veïns de la Torre-Faitanar
+  - Associació de Vecinos Sociópolis-La Torre-Faitanar
+  - Asociación de Vecinos Sociópolis-La Torre-Faitanar
+  reason: ''
+- canonical_id: av-la-petxina
+  nom_cas: AV La Petxina
+  nom_val: AV La Petxina
+  tipus: av
+  match_texts:
+  - AV La Petxina
+  - AV la Petxina
+  - AV Arrancapins-la Petxina
+  - Associació Veïnal Arrancapins-La Petxina
+  - Associació Veïnal de la Petxina
+  - Asociación Vecinal de la Petxina
+  - Associació de Veïns Arrancapins-La Petxina
+  - Asociación de Vecinos Arrancapins-La Petxina
+  - Associació de Veïns de la Petxina / Plataforma del Corredor Verd
+  - Associció de Veïns de la Petxina / Plataforma del Corredor Verd
+  - Asociación Vecinal Arrancapins-La Petxina
+  - AVV Arrancapins-La Petxina
+  reason: 'AVV Arrancapins-La Petxina is a spelling the existing La Petxina merge does not list yet. Name
+    as the maintainer gave it: AV La Petxina.'
+  date: '2026-10-18'
+  finding: N2-1cb5e5f1f3
+- canonical_id: associacio-veinal-roqueta
+  nom_cas: Asociación Vecinal La Roqueta
+  nom_val: Associació Veïnal La Roqueta
+  tipus: av
+  match_texts:
+  - Associació Veïnal la Roqueta
+  - Associació Veïnal La Roqueta
+  - Asociación Vecinal La Roqueta
+  - Associació de Veïns de la Roqueta
+  - Associació de Veïns La Roqueta
+  - Asociación de Vecinos La Roqueta
+  - Associción Veïnal la Roqueta
+  - Associación Veïnal la Roqueta
+  - Associció Veïnal la Roqueta
+  - Associció de Veïns La Roqueta
+  - Associció de Veïns de la Roqueta
+  - Associció de Veïns la Roqueta
+  - AV la Roqueta
+  - Asociación Veïnal La Roqueta
+  - Asociación de Vecinos de la Roqueta
+  reason: ''
+- canonical_id: cuidem-la-raiosa
+  nom_cas: Asociación Vecinal y Cultural Cuidem La Raïosa
+  nom_val: Associació Veïnal i Cultural Cuidem La Raïosa
+  tipus: av
+  match_texts:
+  - Asociación Cuidem La Raïosa
+  - Asociación Cuidem la Raïosa
+  - Associació Cuidem la Raiosa
+  - Associció Cuidem la Raiosa
+  - Asociación Vecinal Cuidem la Raïosa
+  - Associació Vecinal Cuidem la Raïosa
+  - Associció Vecinal Cuidem la Raïosa
+  reason: ''
+- canonical_id: avacu
+  nom_cas: Asociación Valenciana de Consumidores y Usuarios (AVACU)
+  nom_val: Associació Valenciana de Consumidors i Usuaris (AVACU)
+  tipus: altres
+  match_texts:
+  - AVACU
+  - Asociación Valenciana de Consumidores y Usuarios-AVACU
+  - Associació Valenciana de Consumidors i Usuaris
+  reason: AVACU is the Associació Valenciana de Consumidors i Usuaris.
+  date: '2026-10-18'
+  finding: N2-620a26f0b8
+- canonical_id: associacio-veins-forn-alcedo
+  nom_cas: Asociación de Vecinos del Forn d'Alcedo
+  nom_val: Associació de Veïns del Forn d'Alcedo
+  tipus: av
+  match_texts:
+  - AV Forn d'Alcedo
+  - Associació de Veïns del Forn d'Alcedo
+  - Associ de Veïns del Forn d'Alcedo
+  reason: ''
+- canonical_id: asociacion-vecinos-fuensanta
+  nom_cas: Asociación de Vecinos de la Fuensanta
+  nom_val: Associació de Veïns de la Fuensanta
+  tipus: av
+  match_texts:
+  - AVV Fuensanta
+  - Asociación de Vecinos de la Fuensanta
+  reason: ''
+- canonical_id: av-sant-marcelli
+  nom_cas: Asociación Vecinal del Barrio de Sant Marcel·lí
+  nom_val: Associació Veïnal del Barri de Sant Marcel·lí
+  tipus: av
+  match_texts:
+  - Associació de Veïns del Barri de Sant Marcel·lí
+  - Associació de Veïns i Veïnes del barri Sant Marcel·lí
+  - Associ de Veïns del Barri de Sant Marcel·lí
+  - Asociación Veïnal del barrio de Sant Marcel·lí
+  - Associació de Veïns de Sant Marcel·lí
+  - AVV de Sant Marcel·lí
+  - Asociación de Vecinos y Vecinas de Sant Marcel·lí
+  - Associació de Veïns i Veïnes de Sant Marcel·lí
+  - Associació Veïnal del Barri Sant Marcel·li
+  - AA.VV. Sant Marcel·lí
+  - AV Barri de Sant Marcel·lí
+  reason: Same neighbourhood association of Sant Marcel·lí, written as AA.VV., AV Barri and Associació
+    Veïnal.
+  date: '2026-10-18'
+  finding: N2-45f042b38b
+- canonical_id: asociacion-inquilinos-vivienda-publica
+  nom_cas: Asociación de Inquilinos de Vivienda Pública de la Comunitat Valenciana
+  nom_val: Associació d'Inquilins d'Habitatge Públic de la Comunitat Valenciana
+  tipus: plataforma
+  match_texts:
+  - Asociación de Inquilinos de Vivienda Pública de la CV
+  - Asociación de Inquilinos de Vivienda Pública de la Comunitat Valenciana
+  - Associació de Llogaters de Vivenda Pública de la CV / Asociación de Inquilinos de Vivienda Pública de la CV
+  - Associció de Llogaters de Vivenda Pública de la CV / Asociación de Inquilinos de Vivienda Pública de la CV
+  - Asociación de Inquilinos de Vivienda Pública
+  - Asociación de Vecinos de San Isidro / Asociación de Inquilinos de Vivienda Pública
+  reason: ''
+- canonical_id: plataforma-orriols-en-lucha
+  nom_cas: Plataforma Orriols en Lucha
+  nom_val: Plataforma Orriols en Lluita
+  tipus: plataforma
+  match_texts:
+  - Asociación Plataforma Orriols en Lucha
+  - Plataforma Orriols en Lucha
+  reason: ''
+- canonical_id: asociacion-plataforma-intercultural-espana
+  nom_cas: Plataforma Intercultural de España
+  nom_val: Plataforma Intercultural d'Espanya
+  tipus: plataforma
+  match_texts:
+  - Asociación Plataforma Intercultural de España
+  - Plataforma Intercultural de España
+  - Associació de Veïns Plataforma Intercultural d'Espanya
+  - Asociación de Vecinos Plataforma Intercultural de España
+  reason: ''
+- canonical_id: club-esportiu-samarucs-valencia
+  nom_cas: Club Esportiu LGTB+ Samarucs Valencia
+  nom_val: Club Esportiu LGTB+ Samarucs València
+  tipus: esportiu
+  match_texts:
+  - Samarucs
+  - Club esportiu LGTB+ Samarucs València
+  reason: ''
+- canonical_id: plataforma-valencia-aire
+  nom_cas: Plataforma Valencia por el Aire
+  nom_val: Plataforma València per l'Aire
+  tipus: plataforma
+  match_texts:
+  - Asociación Mesura
+  - Asociación Mesura / CAVECOVA / València per l'aire
+  - Associació Mesura / Plataforma València per l'Aire
+  - Associ Mesura / Plataforma València per l'Aire
+  - Associció Mesura / Plataforma València per l'Aire
+  - Plataforma València per l'Aire, Mesura
+  reason: ''
+- canonical_id: av-del-palmar
+  nom_cas: Asociación Vecinal El Palmar
+  nom_val: Associació Veïnal El Palmar
+  tipus: av
+  match_texts:
+  - AV del Palmar
+  reason: ''
+- canonical_id: avv-campanar
+  nom_cas: Asociación de Vecinos de Campanar
+  nom_val: Associació de Veïns de Campanar
+  tipus: av
+  match_texts:
+  - AVV Campanar
+  - Asociación de Vecinos Campanar
+  - Associació de Veïns Campanar
+  - Asociación de Vecinos de Campanar
+  - Associació de Veïns de Campanar
+  - AV Campanar
+  - AVV de Campanar
+  reason: Misma AV; variantes AV/AVV y castellano/valencià
+- canonical_id: asociacion-mujeres-separadas-divorciadas
+  nom_cas: Asociación de Mujeres Separadas y Divorciadas del País Valenciano
+  nom_val: Associació de Dones Separades i Divorciades del País Valencià
+  tipus: altres
+  match_texts:
+  - Asociación de Mujeres Separadas y Divorciadas del País Valenciano
+  - Asociación de Mujeres Separadas y Divorciadas del País Valencià
+  - Associació de Dones Separades i Divorciades del País Valencià
+  - Associació de Mujeres Separadas y Divorciadas del País Valencià
+  reason: ''
+- canonical_id: asociacion-intercultural-candombe
+  nom_cas: Asociación Intercultural Candombe
+  nom_val: Associació Intercultural Candombe
+  tipus: ong
+  match_texts:
+  - Asociación Intercultural Candombe
+  - Associació Intercultural Candombe
+  reason: ''
+- canonical_id: orriols-conviu
+  nom_cas: Orriols Conviu
+  nom_val: Orriols Conviu
+  tipus: plataforma
+  match_texts:
+  - Orriols Conviu
+  reason: ''
+- canonical_id: consell-joventut-valencia
+  nom_cas: Consell de la Joventut de València
+  nom_val: Consell de la Joventut de València
+  tipus: altres
+  match_texts:
+  - Consell de la Joventut de València
+  - Consejo de la Juventud de Valencia
+  reason: ''
+- canonical_id: fampa-valencia
+  nom_cas: FAMPA València
+  nom_val: FAMPA València
+  tipus: educacio
+  match_texts:
+  - FAMPA València
+  - FAMPA Valencia
+  reason: ''
+- canonical_id: asociacion-mujeres-voces-resistencias
+  nom_cas: Asociación Mujeres, Voces y Resistencia
+  nom_val: Associació Dones, Veus i Resistència
+  tipus: ong
+  match_texts:
+  - Asociación Mujeres, Voces y Resistencia
+  - Asociación Mujeres, Voces y Resistencias
+  reason: ''
+- canonical_id: asociacion-tdah-mas-16
+  nom_cas: Asociación TDAH MAS 16 València
+  nom_val: Associació TDAH MAS 16 València
+  tipus: ong
+  match_texts:
+  - Asociación TDAH MAS 16 València
+  - Asociación TDAH MAS 16 Valencia
+  - Associació TDAH MAS 16 València
+  reason: ''
+- canonical_id: plataforma-vecinal-penyaroja
+  nom_cas: Plataforma Vecinal Barrio Penya-roja
+  nom_val: Plataforma Veïnal Barri Penya-roja
+  tipus: plataforma
+  match_texts:
+  - Plataforma Vecinal Barrio Penya-roja
+  - Plataforma Veïnal Barri Penya-roja
+  - Plataforma Vecinal Barrio Peña-roja
+  - Plataforma Veïnal Barri de Penya-roja
+  - Asociación de Vecinos de Penya-roja
+  - Associació de Veïns de Penya-roja
+  - Asociación de Vecinos de Peña-roja
+  - Asociación de Vecinos Penya-roja
+  reason: ''
+- canonical_id: cruces-mayo-la-torre
+  nom_cas: Asociación Cultural Cruces de Mayo La Torre
+  nom_val: Associació Cultural Creus de Maig La Torre
+  tipus: cultural
+  match_texts:
+  - Asociación Cultural Cruces de Mayo La Torre
+  - Associació Cultural Cruces de Mayo La Torre
+  - Associació Cultural Creus de Maig La Torre
+  - Asociación Cultural Cruces de Maig La Torre
+  reason: ''
+- canonical_id: av-devesa-saler
+  nom_cas: Asociación de Vecinos Devesa-El Saler
+  nom_val: Associació de Veïns Devesa-El Saler
+  tipus: av
+  match_texts:
+  - Asociación de Vecinos Dehesa D.26
+  - Asociación de Vecinos Devesa-El Saler
+  - Associació de Veïns Mont de la Devesa del Saler
+  - Associació de Veïns de la Devesa del Saler
+  exclude_texts:
+  - Associació de Veïns del Palmar i el Perellonet la Devesa del Saler
+  reason: Palmar/Perellonet AV is a different association from the Devesa del Saler AV
+  date: '2026-10-20'
+  finding: N2-18adb44e27
+- canonical_id: cear
+  nom_cas: Comisión Española de Ayuda al Refugiado (CEAR)
+  nom_val: Comissió Espanyola d'Ajuda al Refugiat (CEAR)
+  tipus: ong
+  match_texts:
+  - Comisión Española de Ayuda al Refugiado (CEAR)
+  - Comissió Espanyola d'Ajuda al Refugiat (CEAR)
+  - Comissió Española de Ayuda al Refugiado (CEAR) i Fundació CEPAIM
+  - Comisión Española de Ayuda al Refugiado (CEAR) i Fundación CEPAIM
+  reason: ''
+- canonical_id: sta-intersindical
+  nom_cas: STA-Intersindical Valenciana
+  nom_val: STA-Intersindical Valenciana
+  tipus: sindical
+  match_texts:
+  - STA-Intersindical
+  - STA-Intersindical Valenciana
+  - STA- Intersindical Valenciana
+  - Sindicat de Treballadores i Treballadors de les Administracions i els Serveis Públics-Intersindical
+  - Sindicato de Trabajadoras y Trabajadores de las Administraciones y los Servicios Públicos-Intersindical
+  reason: ''
+- canonical_id: col-lectiu-lambda
+  nom_cas: Colectivo Lambda
+  nom_val: Col·lectiu Lambda
+  tipus: ong
+  match_texts:
+  - Colectivo Lambda
+  - Col·lectiu Lambda
+  - LAMBDA
+  - Lambda, col·lectiu de lesbianes, gais, transsexuals i bisexuals
+  reason: Lambda is the Col·lectiu Lambda (LGTBI collective).
+  date: '2026-10-18'
+  finding: N2-2e91c5e99e
+- canonical_id: jovesolides
+  nom_cas: Jóvenes hacia la Solidaridad y el Desarrollo
+  nom_val: Joves cap a la Solidaritat i el Desenvolupament
+  tipus: ong
+  match_texts:
+  - Jóvenes hacia la Solidaridad y el Desarrollo
+  - Joves cap a la Solidaritat i el Desenvolupament
+  - Jovesolides
+  reason: ''
+- canonical_id: asociacion-comerciantes-centro-historico-valencia
+  nom_cas: Asociación de Comerciantes del Centro Histórico de València
+  nom_val: Associació de Comerciants del Centre Històric de València
+  tipus: empresa
+  match_texts:
+  - Asociación de Comerciantes del Centro Histórico de València
+  - Associació de Comerciants del Centre Històric de València
+  reason: ''
+- canonical_id: favv
+  nom_cas: Federación de Asociaciones Vecinales de Valencia (FAVV)
+  nom_val: Federació d'Associacions de Veïns de València (FAVV)
+  tipus: av
+  match_texts:
+  - FAVV (Federación de Asociaciones Vecinales de València)
+  - Federación de Asociaciones Vecinales de Valencia
+  - Federació d'Associacions de Veïns de València
+  - Federació d'Associacions de Veïns i Veïnes de València
+  - Federación de Asociaciones de Vecinos
+  - Federación de Asociaciones de Vecinos de Valencia
+  - Federación de Asociaciones de Vecinos de València
+  - Federación y movimiento vecinal
+  - Federació i moviment veïnal
+  - Federació d'Associacions de Veïns
+  reason: ''
+- canonical_id: av-malilla
+  nom_cas: Asociación de Vecinos de Malilla
+  nom_val: Associació de Veïns de Malilla
+  tipus: av
+  match_texts:
+  - AV Malilla
+  - Asociación de Vecinos de Malilla
+  - Associació de Veïns de Malilla
+  - Asociación de Vecinos y Vecinas de Malilla
+  exclude_texts:
+  - AVV Malilla Nova
+  - Asociación de Vecinos Malilla Nova
+  reason: Misma AV. AVV Malilla Nova es una entidad DISTINTA — no fusionar (ambas intervinieron
+    por separado en el pleno 2026-06-30)
+- canonical_id: asociacion-vecinos-cultural-monteolivete
+  nom_cas: Asociación de Vecinos Cultural del Barrio de Monteolivete
+  nom_val: Associació de Veïns Cultural del Barri de Montolivet
+  tipus: av
+  match_texts:
+  - Asociación de Vecinos Cultural del Barrio de Monteolivete
+  - Associació de Veïns Cultural del Barri de Monteolivete
+  - Asociación de Vecinos Cultural del Barrio de Montolivet
+  - Associació de Veïns Cultural del Barri de Montolivet
+  - AVV Cultural del Barri de Montolivet
+  reason: Misma AV; Monteolivete/Montolivet son la misma grafía en castellano/valencià
+- canonical_id: federacio-sindical-taxi-valencia
+  nom_cas: Federación Sindical del Taxi de Valencia y su Provincia
+  nom_val: Federació Sindical del Taxi de València i la seua Província
+  tipus: sindical
+  match_texts:
+  - Federació del Taxi
+  - Federación del Taxi
+  - Federació Sindical del Taxi de València
+  - Federación Sindical del Taxi de Valencia
+  - Federación Sindical del Taxi de València
+  - Federació Sindical del Taxi de València i la seua Província
+  - Federación Sindical del Taxi de Valencia y su Provincia
+  reason: Misma federación; forma corta y forma con "y su Provincia"
+- canonical_id: unio-consumidors-valencia
+  nom_cas: Unión de Consumidores de Valencia
+  nom_val: Unió de Consumidors de València
+  tipus: altres
+  match_texts:
+  - Unión de Consumidores de Valencia
+  - Unión de Consumidores de València
+  - Unió de Consumidors de València
+  - Unió de Consumidors de València / Secció Sindical d'UGT
+  reason: Misma organización. El variant map del script 06 apuntaba 'Unió de Consumidors
+    de València' a un id (union-consumidores-valencia) que no emitía en entitats.json,
+    dejando la ficha huérfana y el enlace roto
+- canonical_id: associacio-veins-castellar-oliverar
+  nom_cas: Asociación de Vecinos de Castellar-l'Oliverar
+  nom_val: Associació de Veïnes i Veïns de Castellar-l'Oliverar
+  tipus: av
+  match_texts:
+  - Associació de Veïnes i Veïns de Castellar-l'Oliverar
+  - AV Castellar-l'Oliveral
+  reason: Misma AV; Oliverar/Oliveral es variación de grafía en las actas. NO incluye
+    "Asociación de Vecinos del Distrito 26 de Castellar-Oliveral", pendiente de confirmar
+    si es la misma entidad
+- canonical_id: asociacion-vecinal-benimaclet
+  nom_cas: Asociación de Vecinos de Benimaclet
+  nom_val: Associació de Veïns de Benimaclet
+  tipus: av
+  match_texts:
+  - Asociación de Vecinos de Benimaclet
+  - Associació de Veïns de Benimaclet
+  - Associació Veïnal de Benimaclet / Plataforma de Entitats Veïnals de Benimaclet
+  exclude_texts:
+  - Associació Gent de Benimaclet
+  - Poble de Benimaclet y Veïns de Benimaclet
+  - Sporting Benimaclet / Asociación de Comerciantes de Benimaclet
+  - AMPA del CP Benimaclet
+  - Associació Fester Crist de Benimaclet
+  reason: Misma AV de Benimaclet. El variant map apuntaba a un id huérfano, dejando 5
+    intervenciones sin ficha. Las otras entidades de Benimaclet son DISTINTAS y quedan
+    excluidas explícitamente
+- canonical_id: asociacion-vecinos-maritim-aiora
+  nom_cas: Asociación de Vecinos Marítim-Aiora
+  nom_val: Associació de Veïns Marítim-Aiora
+  tipus: av
+  match_texts:
+  - Asociación de Vecinos Marítim-Aiora
+  - Associació de Veïns i Veïns de Marítim-Aiora
+  - Vecinos del barrio de Ayora / AV de Marítim-Ayora
+  reason: Misma AV; Aiora/Ayora es variación de grafía en las actas
+- canonical_id: acicom
+  nom_cas: Asociación Ciudadanía y Comunicación (ACICOM)
+  nom_val: Associació Ciutadania i Comunicació (ACICOM)
+  tipus: altres
+  match_texts:
+  - Associació Ciutadania i Comunicació
+  - Associacio Ciutadania i Comunicacio-ACICOM
+  - Associació Ciutadania i Comunicació (ACICOM) i Consell de Transparència, Bon Govern i Participació Ciutadana de la Comunitat Valenciana
+  reason: Misma asociación; la grafía sin accentos de una acta generaba un id huérfano
+- canonical_id: coordinadora-ong-desarrollo-comunidad-valenciana
+  nom_cas: Coordinadora de Organizaciones No Gubernamentales para el Desarrollo de la Comunitat Valenciana
+  nom_val: Coordinadora d'Organitzacions No Governamentals per al Desenvolupament de la Comunitat Valenciana
+  tipus: ong
+  match_texts:
+  - Coordinadora de Organizaciones No Gubernamentales para el Desarrollo de la Comunidad Valenciana
+  - Coordinadora de Organizaciones No Gubernamentales para el Desarrollo de la Comunitat Valenciana
+  reason: Misma coordinadora (CVONGD); Comunidad/Comunitat generaba dos ids, uno huérfano
+- canonical_id: aicse
+  nom_cas: Agrupación Integral de Comerciantes sin Establecimiento
+  nom_val: Agrupació Integral de Comerciants sense Establiment
+  tipus: av
+  match_texts:
+  - Agrupació Integral de Comercians sense Establiment (AICSE) / Cooperativa de trabajo asociado Workman
+  - Agrupació Integral de Comerciants sense Establiment
+  - Associació Integral de Comerciants Sense Establiment (AICSE)
+  - Agrupació Integral de Comerciants (AICE)
+  reason: 'AICE is AICSE: the 2019 speaker (José Vicente Domínguez) speaks for AICSE in 2021.'
+  date: '2026-10-18'
+  finding: N2-3a07080250
+- canonical_id: asociacion-vecinos-torrefiel
+  nom_cas: Asociación de Vecinos de Torrefiel
+  nom_val: Associació de Veïns de Torrefiel
+  tipus: av
+  match_texts:
+  - Asociación de Vecinos de Torrefiel
+  - Associació de Veïns de Torrefiel
+  - AV Torrefiel
+  - Associació de Veïns de Torrefiel, sindicats CCOO, UGT i CSIF
+  reason: AV Torrefiel and Associació de Veïns de Torrefiel are the same association.
+  date: '2026-10-18'
+  finding: N2-b6059655d8
+- canonical_id: anima-naturalis
+  nom_cas: Anima Naturalis
+  nom_val: Anima Naturalis
+  tipus: ong
+  match_texts:
+  - Anima Naturalis
+  - Anima Naturalis (cedida la paraula per Joves amb Iniciativa del Poble Valencià-Iniciativa Jove)
+  - Fundació Anima Naturalis
+  reason: 'Anima Naturalis is a foundation: same organisation with and without ''Fundació''.'
+  date: '2026-10-18'
+  finding: N2-e768ef327a
+- canonical_id: valencia-acull
+  nom_cas: Valencia Acoge
+  nom_val: València Acull
+  tipus: ong
+  match_texts:
+  - Associació València Acull
+  - València Acull
+  - Asociación València Acull
+  reason: Same organisation, with and without 'Associació'.
+  date: '2026-10-18'
+  finding: N2-2e74110cf0
+- canonical_id: ava-asaja
+  nom_cas: AVA-ASAJA (Asociación Valenciana de Agricultores)
+  nom_val: AVA-ASAJA (Associació Valenciana d'Agricultors)
+  tipus: sindical
+  match_texts:
+  - AVA-ASAJA
+  - AVA-ASAJA (Associació Valenciana de Llauradors)
+  - Associació Valenciana d'Agricultors (AVA-ASAJA)
+  - Asociación Valenciana de Agricultores
+  reason: 'AVA-ASAJA is the Associació Valenciana d''Agricultors: full name, acronym, or both.'
+  date: '2026-10-18'
+  finding: N2-5dd84b6cc2
+- canonical_id: av-beniferri
+  nom_cas: Asociación de Vecinos y Vecinas de Beniferri
+  nom_val: Associció de Veïns i Veïnes de Beniferri
+  tipus: av
+  match_texts:
+  - Asociación de Vecinos y Vecinas de Beniferri
+  - Associació de Veïns i Veïnes de Beniferri
+  - Asociación de Vecinos de Beniferri
+  reason: Same Beniferri neighbourhood association, with and without 'i Veïnes'.
+  date: '2026-10-18'
+  finding: N2-92897b5d71
+- canonical_id: associacio-veins-benimamet
+  nom_cas: Asociación de Vecinos de Benimámet
+  nom_val: Associació de Veïns de Benimàmet
+  tipus: av
+  match_texts:
+  - Associació de Veïns de Benimàmet
+  - Asociación de Vecinos de Benimàmet
+  - AA.VV. Benimàmet
+  reason: Same Benimàmet neighbourhood association, in Valencian, Spanish and as AA.VV.
+  date: '2026-10-18'
+  finding: N2-b539a61e0b
+- canonical_id: av-creu-coberta
+  nom_cas: Asociación de Vecinos de la Creu Coberta
+  nom_val: Associació de Veïns de la Creu Coberta
+  tipus: av
+  match_texts:
+  - Associació de Veïns de la Creu Coberta
+  - Asociación de Vecinos de Creu Coberta
+  reason: Same Creu Coberta neighbourhood association, with and without 'la'.
+  date: '2026-10-18'
+  finding: N2-79c6f373f6
+- canonical_id: asociacion-vecinos-san-antonio-zaidia
+  nom_cas: Asociación de Vecinos de San Antonio-Zaidía
+  nom_val: Associació de Veïns de Sant Antoni-Saïdia
+  tipus: av
+  match_texts:
+  - Asociación de Vecinos de San Antonio-Zaidía
+  - Asociación de Vecinos de Sant Antoni-Saïdia
+  - Asociación de Vecinos del Barrio de San Antonio
+  - Asociación de Vecinos del barrio de San Antonio
+  - Associació de Veïns de Sant Antoni-la Saïdia
+  reason: Same Sant Antoni (la Saïdia) neighbourhood association, Spanish and Valencian names.
+  date: '2026-10-18'
+  finding: N2-a7703542f6
+- canonical_id: associacio-veins-grau
+  nom_cas: Asociación de Vecinos y Vecinas del Grau
+  nom_val: Associació de Veïns i Veïnes del Grau
+  tipus: av
+  match_texts:
+  - Associació de Veïns i Veïnes del Grau
+  - Associació de Veïns i de Veïnes Grau-Port
+  - Associació de Veïns Grau-Port
+  - Associació de Veïns Grau-Port, Associació de Veïns de la Punta, la Unificadora, les Casetes de la
+    Punta i la Plataforma el Litoral per al Poble
+  reason: The Associació de Veïns i Veïnes del Grau is also written Grau-Port (one of its own texts already
+    says so).
+  date: '2026-10-18'
+  finding: N2-ed8cd4c810
+- canonical_id: fapa-valencia
+  nom_cas: Federación de Asociaciones de Padres de Alumnos de Valencia
+  nom_val: Federació d'Associacions de Pares d'Alumnes de València
+  tipus: educacio
+  match_texts:
+  - FAPA Valencia / AMPA del Instituto Benimàmet / Plataforma en Defensa de l'Ensenyament Públic
+  - FAPA-Valencia
+  - FAPA-Valencia (Federació d'Ampa de València)
+  - FAPA-València
+  - Federación de Asociaciones de Padres de Alumnos de Valencia
+  reason: FAPA València is the Federació d'Associacions de Pares d'Alumnes de València.
+  date: '2026-10-18'
+  finding: N2-a4bd8140dd
+- canonical_id: plataforma-salvem-cabanyal
+  nom_cas: Plataforma Salvemos el Cabanyal
+  nom_val: Plataforma Salvem el Cabanyal
+  tipus: plataforma
+  match_texts:
+  - Plataforma Salvem el Cabanyal
+  - Plataforma Salvem el Cabanyal-el Canyamelar-Cap de França
+  - Salvem el Cabanyal
+  reason: Salvem el Cabanyal is the Plataforma Salvem el Cabanyal.
+  date: '2026-10-18'
+  finding: N2-86713e2a4f
+- canonical_id: confemercats
+  nom_cas: Federación de Mercados Tradicionales de Abastimientos CV
+  nom_val: Federació de Mercats Tradicionals d'Abastiments CV
+  tipus: empresa
+  match_texts:
+  - Federació de Mercats Tradicionals d'Abastimentos de la CV-CONFEMERCATS
+  - Federació de Mercats Tradicionals d'Abastiments CV (Comfemercat)
+  - Federación de Mercados Tradicionales de Abastos de la Comunidad Valenciana (Confemercats)
+  reason: Confemercats is the Federació de Mercats Tradicionals d'Abastos de la CV (the text names it).
+  date: '2026-10-18'
+  finding: N2-cf40cc59e3
+- canonical_id: cermi-cv
+  nom_cas: CERMI CV
+  nom_val: CERMI CV
+  tipus: ong
+  match_texts:
+  - CERMI CV
+  - CERMI-CV
+  - Associació d'Hemofília de la Comunitat Valenciana i CERMI CV (Comité d'entitats representants de persones
+    amb discapacitat de la Comunitat Valenciana)
+  reason: The 2017 speaker (Luis Vañó) speaks for CERMI CV, as he does in 2021.
+  date: '2026-10-18'
+  finding: N2-13f34488f6
+- canonical_id: associacio-veins-parc-central-iturbi
+  nom_cas: Asociación Vecinal Parque Central-Iturbi-La Raiosa
+  nom_val: Associació Veïnal Parc Central-Iturbi-La Raïosa
+  tipus: av
+  match_texts:
+  - Associació de Veïns Parc Central-Iturbi
+  - Associació de Vecinos la Raïosa
+  reason: 'The Asociación de Vecinos la Raïosa now calls itself Asociación Vecinal Parque Central-Iturbi-La
+    Raiosa (per the maintainer): same association as AV Parc Central-Iturbi.'
+  date: '2026-10-18'
+  finding: N2-68f5ea2b60
+- canonical_id: av-carme
+  nom_cas: Asociación de Vecinos y Comerciantes Amigos del Carme
+  nom_val: Associació de Veïns i Comerciants Amics del Carme
+  tipus: av
+  match_texts:
+  - Associació de Veïns i Amics del Carme
+  - Associació de Veïns i Comerciants Amics del Carme
+  - Asociación de Vecinos del Carmen
+  reason: The Asociación de Vecinos del Carmen is the Associació de Veïns i Comerciants Amics del Carme
+    (confirmed by the maintainer).
+  date: '2026-10-18'
+  finding: N2-266bcd2180
+- canonical_id: asociacion-vecinos-amigos-malva
+  nom_cas: Asociación de Vecinos y Amigos de la Malva
+  nom_val: Associació de Veïns i Amics de la Malva
+  tipus: av
+  match_texts:
+  - Asociación de Vecinos y Amigos de la Malva
+  - Asociación Amics de la Malva
+  - Asociación de Vecinos de la Malvarrosa
+  reason: Amics de la Malva and the Associació de Veïns de la Malvarrosa are the Associació de Veïns i
+    Amics de la Malva (confirmed by the maintainer).
+  date: '2026-10-18'
+  finding: N2-6d142b4ae8
+- canonical_id: chrysallis-comunitat-valenciana
+  nom_cas: Asociación Chrysallis Comunidad Valenciana
+  nom_val: Associació Chrysallis Comunitat Valenciana
+  tipus: ong
+  match_texts:
+  - Asociación Chrysallis Comunitat Valenciana
+  - Asociación Chrysallis Comunitat Valenciana de Menores y Adolescentes Trans
+  - Associació de Dones Separades del PV / Chrysallis, Asociación de Familias de Infancia y Juventud Trans
+  reason: The speaker of the combined 'Dones Separades / Chrysallis' entity speaks for Chrysallis (families
+    of trans children).
+  date: '2026-10-18'
+  finding: N2-fa17942dbc
+- canonical_id: sos-racisme-pais-valencia
+  nom_cas: SOS Racismo País Valenciano
+  nom_val: SOS Racisme País Valencià
+  tipus: ong
+  match_texts:
+  - SOS Racisme
+  - SOS Racisme País Valencià
+  - Federació Unió Africana Espanya / SOS Racisme País Valencià
+  - SOS Racisme PV / Federación Unión Africana España
+  reason: The combined 'SOS Racisme / Unió Africana' entity counts as SOS Racisme País Valencià (decided
+    by the maintainer).
+  date: '2026-10-18'
+  finding: N2-31313a02e9
+- canonical_id: mi-tierra-comunidad-valenciana
+  nom_cas: Mi Tierra Comunidad Valenciana
+  nom_val: Mi Tierra Comunitat Valenciana
+  tipus: av
+  match_texts:
+  - Mi Tierra CV
+  - Mi Tierra Comunidad Valenciana / España 2000
+  - Mi Tierra-Comunidad Valenciana
+  - Associació Mi Tierra CV / Hablamos Español
+  reason: The combined 'Mi Tierra CV / Hablamos Español' entity counts as Mi Tierra Comunitat Valenciana
+    (decided by the maintainer).
+  date: '2026-10-18'
+  finding: N2-bc04db6426
+- canonical_id: associacio-veins-cultural-consumidors-patraix
+  nom_cas: Asociación de Vecinos y Cultural de Patraix
+  nom_val: Associació de Veïns i Cultural de Patraix
+  tipus: av
+  match_texts:
+  - Associació de Veïns, Cultura i de Consumidors Patraix
+  - Associació de Veïns, Cultural i de Consumidors Patraix
+  - Associació de Veïns, Cultural i de Consumidors Patraix / ASEBLAC
+  - Associació de Veïns, Cultural i de Consumidors de Patraix
+  - Associció de Veïns, Cultural i de Consumidors de Patraix
+  - Asociación de Vecinos, Cultural y de Consumidores de Patraix
+  - Associació Cultural i de Consumidors Patraix
+  - Associació de Veïns Cultural i de Consumidors Patraix / Coordinadora Feminista de València
+  - Associació de Veïns Cultural i Consumidors de Patraix
+  - Associació de Veïns de Patraix
+  - AV Cultural i de Consumidors de Patraix
+  reason: 'The Associació de Veïns, Cultural i de Consumidors de Patraix, split into five ids by spelling
+    and language. Name as the maintainer gave it: Associació de Veïns i Cultural de Patraix.'
+  date: '2026-10-18'
+  finding: N2-4a5d410cf6

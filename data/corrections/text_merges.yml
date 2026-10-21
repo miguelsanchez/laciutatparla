@@ -1,0 +1,16 @@
+# Split speeches that should be concatenated into one intervention.
+# base_id keeps its metadata; texts from merge_ids are appended in order.
+# merge_ids are deleted after merging.
+
+- base_id: 2024-09-16-1-005
+  merge_ids:
+  - 2024-09-16-1-006
+  - 2024-09-16-1-007
+- base_id: 2024-09-16-1-017
+  merge_ids:
+  - 2024-09-16-1-020
+- base_id: 2025-04-11-3-001
+  merge_ids:
+  - 2025-04-11-3-002
+  - 2025-04-11-3-003
+  - 2025-04-11-3-004

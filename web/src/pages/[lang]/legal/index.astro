@@ -1,0 +1,492 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { t } from '../../../i18n/index.ts';
+
+export function getStaticPaths() {
+  return [{ params: { lang: 'cas' } }, { params: { lang: 'val' } }];
+}
+
+const { lang } = Astro.params as { lang: 'cas' | 'val' };
+---
+
+<Base title={t(lang, 'legal_title')}>
+  <div class="legal">
+
+    {lang === 'cas' ? (
+      <>
+        <section>
+          <h1>Aviso legal</h1>
+
+          <h2>1. Titular del sitio web</h2>
+          <p>
+            En cumplimiento de lo dispuesto en la normativa vigente, se informa que el presente
+            sitio web, "La Ciutat Parla", es un proyecto independiente de carácter informativo y cívico.
+          </p>
+          <div class="contact-box">
+            <p><strong>Titular:</strong> Miguel Sánchez</p>
+            <p><strong>Contacto:</strong> <a href="mailto:hola@laciutatparla.es">hola@laciutatparla.es</a></p>
+          </div>
+          <p>Este sitio no pertenece ni está vinculado institucionalmente al Ajuntament de València.</p>
+
+          <h2>2. Objeto</h2>
+          <p>
+            El sitio web tiene como finalidad ofrecer un archivo estructurado y accesible de las
+            intervenciones ciudadanas realizadas en los plenos municipales de València, con fines
+            informativos, de transparencia y análisis ciudadano.
+          </p>
+          <p>La información publicada procede de:</p>
+          <ul>
+            <li>Actas oficiales del pleno</li>
+            <li>Retransmisiones públicas de las sesiones</li>
+          </ul>
+
+          <h2>3. No oficialidad del contenido</h2>
+          <p>
+            Los contenidos publicados no constituyen una reproducción oficial ni íntegra de las
+            actas o intervenciones, sino una adaptación con finalidades informativas.
+            En caso de discrepancia, prevalecerá siempre la fuente oficial.
+          </p>
+          <p>
+            El sitio no pretende en ningún caso valorar, juzgar o interpretar las intervenciones,
+            sino únicamente facilitar su acceso. Cualquier persona que considere que la información
+            publicada afecta a sus derechos podrá solicitar su revisión a través del correo de contacto.
+          </p>
+
+          <h2>4. Condiciones de uso</h2>
+          <p>El acceso y uso del sitio implica la aceptación de las presentes condiciones.</p>
+          <p>El usuario se compromete a:</p>
+          <ul>
+            <li>Hacer un uso adecuado del contenido</li>
+            <li>No utilizar la información con fines ilícitos o lesivos</li>
+          </ul>
+          <p>
+            No se permite la reutilización masiva de los contenidos con fines comerciales
+            o de perfilado sin autorización expresa del titular.
+          </p>
+
+          <h2>5. Propiedad intelectual</h2>
+          <p>
+            Los contenidos se publican de acuerdo con la normativa sobre reutilización de la
+            información del sector público.
+          </p>
+          <p>
+            Las fuentes originales pertenecen a sus respectivos titulares y se facilitan
+            con finalidades informativas y de transparencia. Cuando proceda, se indicará
+            la fuente original.
+          </p>
+
+          <h2>6. Exclusión de responsabilidad</h2>
+          <p>
+            El titular no garantiza la ausencia de errores en los contenidos, aunque se compromete
+            a corregirlos en cuanto sean detectados.
+          </p>
+          <p>
+            El sitio no se responsabiliza del uso que terceros puedan hacer de la información publicada.
+          </p>
+
+          <h2>7. Legislación aplicable</h2>
+          <p>
+            El presente sitio web se rige por la legislación española.
+          </p>
+        </section>
+
+        <section>
+          <h1>Protección de datos</h1>
+
+          <h2>1. Naturaleza del tratamiento</h2>
+          <p>
+            Este sitio web realiza un tratamiento de datos personales limitado y contextualizado,
+            consistente en la publicación de información contenida en fuentes públicas oficiales.
+          </p>
+          <p>En particular:</p>
+          <ul>
+            <li>Intervenciones realizadas en sesiones plenarias públicas</li>
+            <li>Datos asociados al contexto institucional (fecha, punto del orden del día, entidad participante)</li>
+          </ul>
+
+          <h2>2. Base jurídica</h2>
+          <p>El tratamiento se basa en:</p>
+          <ul>
+            <li>El interés legítimo en la difusión de información pública</li>
+            <li>La finalidad de transparencia y acceso a la información</li>
+            <li>La reutilización de información del sector público</li>
+          </ul>
+          <p>De acuerdo con el artículo 6.1.f del RGPD y normativa de transparencia.</p>
+          <p>
+            Este tratamiento se enmarca también en lo previsto por la Ley 19/2013 de transparencia,
+            acceso a la información pública y buen gobierno, así como por la Ley 2/2015 de transparencia,
+            buen gobierno y participación ciudadana de la Comunitat Valenciana.
+          </p>
+
+          <h2>3. Origen de los datos</h2>
+          <p>Los datos publicados provienen exclusivamente de:</p>
+          <ul>
+            <li>Actas oficiales del Ajuntament de València</li>
+            <li>Retransmisiones públicas de sesiones plenarias</li>
+          </ul>
+          <p>No se incorporan datos procedentes de fuentes privadas ni se realizan inferencias adicionales.</p>
+
+          <h2>4. Procesamiento automatizado</h2>
+          <p>
+            Parte de los contenidos del sitio han sido estructurados, clasificados o traducidos
+            mediante herramientas de inteligencia artificial.
+          </p>
+          <p>
+            Estos procesos se aplican exclusivamente sobre información procedente de fuentes
+            públicas y tienen como finalidad mejorar su accesibilidad y organización.
+          </p>
+          <p>
+            Los procesos automatizados pueden generar errores, omisiones o clasificaciones
+            incorrectas, especialmente en el tratamiento del lenguaje natural.
+            El titular del sitio revisa y valida los resultados en la medida de lo posible
+            y se compromete a corregir las inexactitudes que sean detectadas.
+          </p>
+
+          <h2>5. Principio de minimización</h2>
+          <p>El sitio aplica criterios de minimización:</p>
+          <ul>
+            <li>Solo se muestran los datos necesarios para comprender la intervención</li>
+            <li>El nombre de la persona interviniente se incluye únicamente cuando aparece en la fuente oficial</li>
+            <li>En caso contrario, se mantiene anonimizado</li>
+          </ul>
+          <p>No se incluyen:</p>
+          <ul>
+            <li>Datos de contacto</li>
+            <li>Información sensible</li>
+            <li>Perfiles personales externos</li>
+          </ul>
+
+          <h2>6. Finalidad del sitio</h2>
+          <p>El objetivo del tratamiento es:</p>
+          <ul>
+            <li>Documentar la participación ciudadana</li>
+            <li>Facilitar el acceso a intervenciones públicas</li>
+            <li>Permitir análisis agregados sobre temas, entidades y actividad institucional</li>
+          </ul>
+          <p>No se realiza:</p>
+          <ul>
+            <li>Perfilado individual</li>
+            <li>Elaboración de rankings de personas</li>
+            <li>Uso comercial de los datos</li>
+          </ul>
+
+          <h2>7. Derechos de las personas</h2>
+          <p>
+            Las personas cuyos datos puedan aparecer en el sitio tienen derecho a:
+          </p>
+          <ul>
+            <li>Solicitar la corrección de errores</li>
+            <li>Solicitar la limitación de visibilidad</li>
+            <li>Oponerse al tratamiento en determinados casos</li>
+          </ul>
+          <div class="contact-box">
+            <p>Contacto: <a href="mailto:hola@laciutatparla.es">hola@laciutatparla.es</a></p>
+          </div>
+          <p>
+            Cada solicitud será evaluada atendiendo al equilibrio entre el interés público
+            y los derechos individuales.
+          </p>
+
+          <h2>8. Conservación de los datos</h2>
+          <p>
+            Los datos se mantienen en el sitio mientras sigan siendo relevantes para la
+            finalidad informativa y documental del proyecto.
+          </p>
+
+          <h2>9. Medición de audiencia</h2>
+          <p>
+            Este sitio utiliza <strong>Cloudflare Web Analytics</strong> para medir el tráfico
+            de forma agregada. Este servicio es proporcionado por Cloudflare, Inc. (101 Townsend St,
+            San Francisco, CA 94107, EE. UU.).
+          </p>
+          <p>
+            Cloudflare Web Analytics <strong>no utiliza cookies</strong>, no almacena direcciones IP
+            y no rastrea a los usuarios entre sitios. Los datos recogidos son exclusivamente agregados:
+            número de visitas, páginas consultadas, tipo de dispositivo y país de origen.
+          </p>
+          <p>
+            Esta medición se realiza al amparo del interés legítimo del titular (art. 6.1.f del RGPD)
+            para conocer el uso del sitio y mejorar su funcionamiento. No requiere banner de consentimiento.
+          </p>
+          <p>
+            Para más información, consulta la{' '}
+            <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">
+              política de privacidad de Cloudflare
+            </a>.
+          </p>
+        </section>
+      </>
+    ) : (
+      <>
+        <section>
+          <h1>Avís legal</h1>
+
+          <h2>1. Titular del lloc web</h2>
+          <p>
+            En compliment del que disposa la normativa vigent, s'informa que el present
+            lloc web, "La Ciutat Parla", és un projecte independent de caràcter informatiu i cívic.
+          </p>
+          <div class="contact-box">
+            <p><strong>Titular:</strong> Miguel Sánchez</p>
+            <p><strong>Contacte:</strong> <a href="mailto:hola@laciutatparla.es">hola@laciutatparla.es</a></p>
+          </div>
+          <p>Este lloc no pertany ni està vinculat institucionalment a l'Ajuntament de València.</p>
+
+          <h2>2. Objecte</h2>
+          <p>
+            El lloc web té com a finalitat oferir un arxiu estructurat i accessible de les
+            intervencions ciutadanes realitzades als plens municipals de València, amb fins
+            informatius, de transparència i anàlisi ciutadana.
+          </p>
+          <p>La informació publicada procedeix de:</p>
+          <ul>
+            <li>Actes oficials del ple</li>
+            <li>Retransmissions públiques de les sessions</li>
+          </ul>
+
+          <h2>3. No oficialitat del contingut</h2>
+          <p>
+            Els continguts publicats no constitueixen una reproducció oficial ni íntegra de les
+            actes o intervencions, sinó una adaptació amb finalitats informatives.
+            En cas de discrepància, prevaldrà sempre la font oficial.
+          </p>
+          <p>
+            El lloc no pretén en cap cas valorar, jutjar o interpretar les intervencions,
+            sinó únicament facilitar-ne l'accés. Qualsevol persona que considere que la informació
+            publicada afecta els seus drets podrà sol·licitar-ne la revisió a través del correu de contacte.
+          </p>
+
+          <h2>4. Condicions d'ús</h2>
+          <p>L'accés i l'ús del lloc implica l'acceptació de les presents condicions.</p>
+          <p>L'usuari es compromet a:</p>
+          <ul>
+            <li>Fer un ús adequat del contingut</li>
+            <li>No utilitzar la informació amb fins il·lícits o lesius</li>
+          </ul>
+          <p>
+            No es permet la reutilització massiva dels continguts amb finalitats comercials
+            o de perfilat sense autorització expressa del titular.
+          </p>
+
+          <h2>5. Propietat intel·lectual</h2>
+          <p>
+            Els continguts es publiquen d'acord amb la normativa sobre reutilització de la
+            informació del sector públic.
+          </p>
+          <p>
+            Les fonts originals pertanyen als seus respectius titulars i es faciliten
+            amb finalitats informatives i de transparència. Quan siga procedent, s'indicarà
+            la font original.
+          </p>
+
+          <h2>6. Exclusió de responsabilitat</h2>
+          <p>
+            El titular no garanteix l'absència d'errors en els continguts, encara que es compromet
+            a corregir-los tan prompte com siguen detectats.
+          </p>
+          <p>
+            El lloc no es responsabilitza de l'ús que tercers puguen fer de la informació publicada.
+          </p>
+
+          <h2>7. Legislació aplicable</h2>
+          <p>
+            El present lloc web es regeix per la legislació espanyola.
+          </p>
+        </section>
+
+        <section>
+          <h1>Protecció de dades</h1>
+
+          <h2>1. Naturalesa del tractament</h2>
+          <p>
+            Este lloc web realitza un tractament de dades personals limitat i contextualitzat,
+            consistent en la publicació d'informació continguda en fonts públiques oficials.
+          </p>
+          <p>En particular:</p>
+          <ul>
+            <li>Intervencions realitzades en sessions plenàries públiques</li>
+            <li>Dades associades al context institucional (data, punt de l'orde del dia, entitat participant)</li>
+          </ul>
+
+          <h2>2. Base jurídica</h2>
+          <p>El tractament es basa en:</p>
+          <ul>
+            <li>L'interés legítim en la difusió d'informació pública</li>
+            <li>La finalitat de transparència i accés a la informació</li>
+            <li>La reutilització d'informació del sector públic</li>
+          </ul>
+          <p>D'acord amb l'article 6.1.f del RGPD i normativa de transparència.</p>
+          <p>
+            Este tractament s'emmarca també en el que preveu la Llei 19/2013 de transparència,
+            accés a la informació pública i bon govern, així com la Llei 2/2015 de transparència,
+            bon govern i participació ciutadana de la Comunitat Valenciana.
+          </p>
+
+          <h2>3. Origen de les dades</h2>
+          <p>Les dades publicades provenen exclusivament de:</p>
+          <ul>
+            <li>Actes oficials de l'Ajuntament de València</li>
+            <li>Retransmissions públiques de sessions plenàries</li>
+          </ul>
+          <p>No s'incorporen dades procedents de fonts privades ni es realitzen inferències addicionals.</p>
+
+          <h2>4. Processament automatitzat</h2>
+          <p>
+            Part dels continguts del lloc han sigut estructurats, classificats o traduïts
+            mitjançant ferramentes d'intel·ligència artificial.
+          </p>
+          <p>
+            Estos processos s'apliquen exclusivament sobre informació procedent de fonts
+            públiques i tenen com a finalitat millorar-ne l'accessibilitat i l'organització.
+          </p>
+          <p>
+            Els processos automatitzats poden generar errors, omissions o classificacions
+            incorrectes, especialment en el tractament del llenguatge natural.
+            El titular del lloc revisa i valida els resultats en la mesura del possible
+            i es compromet a corregir les inexactituds que siguen detectades.
+          </p>
+
+          <h2>5. Principi de minimització</h2>
+          <p>El lloc aplica criteris de minimització:</p>
+          <ul>
+            <li>Només es mostren les dades necessàries per a comprendre la intervenció</li>
+            <li>El nom de la persona intervinient s'inclou únicament quan apareix en la font oficial</li>
+            <li>En cas contrari, es manté anonimitzat</li>
+          </ul>
+          <p>No s'inclouen:</p>
+          <ul>
+            <li>Dades de contacte</li>
+            <li>Informació sensible</li>
+            <li>Perfils personals externs</li>
+          </ul>
+
+          <h2>6. Finalitat del lloc</h2>
+          <p>L'objectiu del tractament és:</p>
+          <ul>
+            <li>Documentar la participació ciutadana</li>
+            <li>Facilitar l'accés a intervencions públiques</li>
+            <li>Permetre anàlisis agregades sobre temes, entitats i activitat institucional</li>
+          </ul>
+          <p>No es realitza:</p>
+          <ul>
+            <li>Perfilat individual</li>
+            <li>Elaboració de rànquings de persones</li>
+            <li>Ús comercial de les dades</li>
+          </ul>
+
+          <h2>7. Drets de les persones</h2>
+          <p>
+            Les persones les dades de les quals puguen aparéixer en el lloc tenen dret a:
+          </p>
+          <ul>
+            <li>Sol·licitar la correcció d'errors</li>
+            <li>Sol·licitar la limitació de visibilitat</li>
+            <li>Oposar-se al tractament en determinats casos</li>
+          </ul>
+          <div class="contact-box">
+            <p>Contacte: <a href="mailto:hola@laciutatparla.es">hola@laciutatparla.es</a></p>
+          </div>
+          <p>
+            Cada sol·licitud serà avaluada atenent a l'equilibri entre l'interés públic
+            i els drets individuals.
+          </p>
+
+          <h2>8. Conservació de les dades</h2>
+          <p>
+            Les dades es mantenen en el lloc mentre siguen rellevants per a la
+            finalitat informativa i documental del projecte.
+          </p>
+
+          <h2>9. Mesurament d'audiència</h2>
+          <p>
+            Este lloc utilitza <strong>Cloudflare Web Analytics</strong> per a mesurar el trànsit
+            de manera agregada. Este servei és proporcionat per Cloudflare, Inc. (101 Townsend St,
+            San Francisco, CA 94107, EUA).
+          </p>
+          <p>
+            Cloudflare Web Analytics <strong>no utilitza galetes</strong>, no emmagatzema adreces IP
+            i no rastreja els usuaris entre llocs. Les dades recollides són exclusivament agregades:
+            nombre de visites, pàgines consultades, tipus de dispositiu i país d'origen.
+          </p>
+          <p>
+            Este mesurament es realitza a l'empara de l'interés legítim del titular (art. 6.1.f del RGPD)
+            per a conéixer l'ús del lloc i millorar-ne el funcionament. No requereix bàner de consentiment.
+          </p>
+          <p>
+            Per a més informació, consulteu la{' '}
+            <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">
+              política de privacitat de Cloudflare
+            </a>.
+          </p>
+        </section>
+      </>
+    )}
+
+  </div>
+</Base>
+
+<style>
+  .legal {
+    max-width: 48rem;
+    margin: 0 auto;
+  }
+
+  .legal section {
+    margin-bottom: 3rem;
+  }
+
+  .legal h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #1c1917;
+    border-bottom: 1px solid #e7e5e4;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .legal h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #292524;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .legal p {
+    color: #57534e;
+    line-height: 1.75;
+    margin-bottom: 0.75rem;
+  }
+
+  .legal ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+    color: #57534e;
+  }
+
+  .legal ul li {
+    line-height: 1.75;
+    margin-bottom: 0.25rem;
+  }
+
+  .legal a {
+    color: #ea580c;
+  }
+
+  .legal a:hover {
+    color: #c2410c;
+  }
+
+  .contact-box {
+    background: #fafaf9;
+    border-radius: 0.5rem;
+    padding: 1rem 1.25rem;
+    margin: 0.75rem 0;
+    font-size: 0.9rem;
+  }
+
+  .contact-box p {
+    margin-bottom: 0.25rem;
+  }
+</style>

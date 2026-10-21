@@ -1,0 +1,100 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { ContextoExplorer } from '../../../components/ContextoExplorer.tsx';
+import { getCrossPeriods, getReferenceCounts } from '../../../utils/stats.ts';
+const ref = getReferenceCounts();
+import { readData } from '../../../utils/data.ts';
+
+export function getStaticPaths() {
+  return [{ params: { lang: 'cas' } }, { params: { lang: 'val' } }];
+}
+
+const { lang } = Astro.params as { lang: 'cas' | 'val' };
+
+let vulnerabilidad: any = {};
+let barriPoblacion: any = {};
+let barris: any[] = [];
+let intervencions: any[] = [];
+let presupuesto: any = { years: [], categories: [], by_year: {}, totals_by_year: {} };
+let obras: any[] = [];
+try {
+  vulnerabilidad = readData('vulnerabilidad.json');
+  barriPoblacion = readData('raw/barri_poblacion.json');
+  barris = readData('raw/barris_referencia.json');
+  intervencions = readData('intervencions.json');
+  presupuesto = readData('presupuesto_gastos.json');
+  obras = readData('obras_ejecutadas.json');
+} catch {}
+
+const barriToDistrict: Record<string, string> = {};
+for (const b of barris) {
+  barriToDistrict[b.nom] = b.districte_nom;
+}
+
+const slimIvs = intervencions.map((iv: any) => ({
+  id: iv.id, fecha: iv.fecha, districtes: iv.districtes || [], zones: iv.zones || [],
+  temes: Object.keys(iv.temes_v2 || {}),
+}));
+---
+
+<Base title={lang === 'val' ? 'La ciutat en xifres' : 'La ciudad en cifras'} fullWidth={true}>
+
+  <!-- Hero -->
+  <section style="background: #1e1e1e; color: #fff; padding: 3rem 1rem 2.5rem;">
+    <div class="max-w-5xl mx-auto">
+      <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #6366f1; margin-bottom: 0.75rem;">
+        {lang === 'val' ? 'La ciutat en xifres' : 'La ciudad en cifras'}
+      </p>
+      <h1 style="font-family: 'Sora', system-ui, sans-serif; font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 1rem;">
+        {lang === 'val' ? 'Radiografia social i econòmica de València' : 'Radiografía social y económica de València'}
+      </h1>
+      <p style="font-family: 'Outfit', system-ui, sans-serif; font-size: 1rem; color: #aaa; max-width: 48rem; line-height: 1.6;">
+        {lang === 'val'
+          ? <Fragment>Abans de llegir què diuen els veïns als plens, convé entendre <strong style="color: #fff;">on viuen i com viuen</strong>. Aquesta pàgina dibuixa el mapa social de la ciutat usant dades oficials — vulnerabilitat, demografia i pressupost — i al final pregunta: <strong style="color: #fff;">les intervencions ciutadanes naixen on més es necessiten?</strong></Fragment>
+          : <Fragment>Antes de leer qué dicen los vecinos en los plenos, conviene entender <strong style="color: #fff;">dónde viven y cómo viven</strong>. Esta página dibuja el mapa social de la ciudad usando datos oficiales — vulnerabilidad, demografía y presupuesto — y al final pregunta: <strong style="color: #fff;">¿las intervenciones ciudadanas nacen donde más se necesitan?</strong></Fragment>
+        }
+      </p>
+    </div>
+  </section>
+
+  <ContextoExplorer
+    client:visible
+    vulnerabilidad={vulnerabilidad}
+    barriPoblacion={barriPoblacion}
+    barriToDistrict={barriToDistrict}
+    intervencions={slimIvs}
+    presupuesto={presupuesto}
+    obras={obras}
+    lang={lang}
+    ivPeriod={getCrossPeriods().interventions}
+    lastCompleteYear={getCrossPeriods().lastCompleteYear}
+  />
+
+  <!-- Fuentes / Fonts -->
+  <section style="padding: 2rem 1rem; background: #fafafa; border-top: 1px solid #eee;">
+    <div class="max-w-5xl mx-auto" style="font-family: 'Outfit', system-ui, sans-serif; color: #666; font-size: 0.78rem; line-height: 1.6;">
+      {lang === 'val' ? (
+        <>
+          <p style="margin-bottom: 0.5rem;"><strong style="color: #666;">Fonts:</strong></p>
+          <ul style="margin: 0; padding-left: 1.2rem; color: #666;">
+            <li><em>Vulnerabilitat per barris 2021</em> — Portal de Dades Obertes, Ajuntament de València ({ref.vulnerabilityBarris} barris).</li>
+            <li><em>Padró Municipal d'Habitants</em> — Oficina d'Estadística, fitxes per barri (sèries {ref.populationYears.from}-{ref.populationYears.to}).</li>
+            <li><em>Estat de liquidació de despeses 2021-2026</em> — Portal de Dades Obertes, Ajuntament de València.</li>
+            <li><em>Intervencions ciutadanes als plens</em> — La Ciutat Parla, extracció pròpia d'actes municipals.</li>
+          </ul>
+        </>
+      ) : (
+        <>
+          <p style="margin-bottom: 0.5rem;"><strong style="color: #666;">Fuentes:</strong></p>
+          <ul style="margin: 0; padding-left: 1.2rem; color: #666;">
+            <li><em>Vulnerabilidad por barrios 2021</em> — Portal de Datos Abiertos, Ajuntament de València ({ref.vulnerabilityBarris} barrios).</li>
+            <li><em>Padrón Municipal de Habitantes</em> — Oficina d'Estadística, fichas por barrio (series {ref.populationYears.from}-{ref.populationYears.to}).</li>
+            <li><em>Estado de liquidación de gastos 2021-2026</em> — Portal de Datos Abiertos, Ajuntament de València.</li>
+            <li><em>Intervenciones ciudadanas en los plenos</em> — La Ciutat Parla, extracción propia de actas municipales.</li>
+          </ul>
+        </>
+      )}
+    </div>
+  </section>
+
+</Base>

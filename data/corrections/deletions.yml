@@ -1,0 +1,46 @@
+# IDs to delete from the final dataset.
+# interventions: Claude extracted these but they are not valid citizen interventions.
+# entities: entity IDs to remove entirely.
+
+interventions:
+- iv_id: 2013-01-25-003
+  reason: Político (Grupo Socialista), no ciudadano
+- iv_id: 2013-01-25-004
+  reason: Político (concejal Ajuntament), no ciudadano
+- iv_id: 2018-01-25-001
+  reason: Extracción incorrecta — sustituida por 2018-01-25-101 (manual)
+- iv_id: 2024-06-28-002
+  reason: ''
+- iv_id: 2024-06-28-003
+  reason: ''
+- iv_id: 2024-06-28-007
+  reason: ''
+- iv_id: 2024-09-16-1-011
+  reason: ''
+- iv_id: 2024-09-16-1-018
+  reason: ''
+- iv_id: 2024-09-16-1-024
+  reason: ''
+- iv_id: 2024-09-16-1-026
+  reason: ''
+- iv_id: 2024-09-25-001
+  reason: ''
+- iv_id: 2024-09-25-003
+  reason: ''
+- iv_id: 2024-09-25-005
+  reason: ''
+- iv_id: 2025-04-11-3-009
+  reason: ''
+- iv_id: 2025-04-11-3-011
+  reason: ''
+- iv_id: 2025-04-11-3-012
+  reason: ''
+- iv_id: 2025-07-22-101
+  reason: ''
+entities:
+- entity_id: ajuntament-valencia
+  reason: ''
+- entity_id: compromis
+  reason: ''
+- entity_id: grup-vox
+  reason: ''

@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# Versioned pre-push hook (arquitectura-agentes.md §10.0b P.10). Installed by
+# scripts/qa/install_githooks.sh through core.hooksPath.
+#
+# Rejects any push that updates or deletes `main`, on every remote except the one named
+# `public`: `main` only changes through a PR you merge, and merging publishes the site
+# (Cloudflare Pages builds main of the private repo, P.11). Fails closed: a new remote or a
+# push straight to a URL is blocked too. `public` passes because /publish force-pushes the
+# snapshot to its main (push-public.sh pushes by that remote name).
+#
+# Local safety net only: GitHub does not enforce rulesets on this plan (§11.9), and
+# `git push --no-verify` skips this hook.
+set -uo pipefail
+
+remote="$1"
+url="$2"
+
+[[ "$remote" == "public" ]] && exit 0
+
+while read -r local_ref local_sha remote_ref remote_sha; do
+  if [[ "$remote_ref" == "refs/heads/main" ]]; then
+    echo "pre-push: refusing to push to main on $remote ($url)." >&2
+    echo "pre-push: main only changes through a merged PR, and merging publishes the site." >&2
+    exit 1
+  fi
+done
+exit 0

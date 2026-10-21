@@ -1,0 +1,775 @@
+[
+  {
+    "id": "la-seu",
+    "nom": "La Seu",
+    "cod_barri": 1,
+    "districte_id": "ciutat-vella",
+    "districte_nom": "Ciutat Vella",
+    "cod_districte": 1
+  },
+  {
+    "id": "la-xerea",
+    "nom": "La Xerea",
+    "cod_barri": 2,
+    "districte_id": "ciutat-vella",
+    "districte_nom": "Ciutat Vella",
+    "cod_districte": 1
+  },
+  {
+    "id": "el-carme",
+    "nom": "El Carme",
+    "cod_barri": 3,
+    "districte_id": "ciutat-vella",
+    "districte_nom": "Ciutat Vella",
+    "cod_districte": 1
+  },
+  {
+    "id": "el-pilar",
+    "nom": "El Pilar",
+    "cod_barri": 4,
+    "districte_id": "ciutat-vella",
+    "districte_nom": "Ciutat Vella",
+    "cod_districte": 1
+  },
+  {
+    "id": "el-mercat",
+    "nom": "El Mercat",
+    "cod_barri": 5,
+    "districte_id": "ciutat-vella",
+    "districte_nom": "Ciutat Vella",
+    "cod_districte": 1
+  },
+  {
+    "id": "sant-francesc",
+    "nom": "Sant Francesc",
+    "cod_barri": 6,
+    "districte_id": "ciutat-vella",
+    "districte_nom": "Ciutat Vella",
+    "cod_districte": 1
+  },
+  {
+    "id": "russafa",
+    "nom": "Russafa",
+    "cod_barri": 1,
+    "districte_id": "l-eixample",
+    "districte_nom": "L'Eixample",
+    "cod_districte": 2
+  },
+  {
+    "id": "el-pla-del-remei",
+    "nom": "El Pla del Remei",
+    "cod_barri": 2,
+    "districte_id": "l-eixample",
+    "districte_nom": "L'Eixample",
+    "cod_districte": 2,
+    "alias": [
+      "El Pla Del Remei"
+    ]
+  },
+  {
+    "id": "la-gran-via",
+    "nom": "La Gran Via",
+    "cod_barri": 3,
+    "districte_id": "l-eixample",
+    "districte_nom": "L'Eixample",
+    "cod_districte": 2
+  },
+  {
+    "id": "el-botanic",
+    "nom": "El Botànic",
+    "cod_barri": 1,
+    "districte_id": "extramurs",
+    "districte_nom": "Extramurs",
+    "cod_districte": 3,
+    "alias": [
+      "El Botanic"
+    ]
+  },
+  {
+    "id": "la-roqueta",
+    "nom": "La Roqueta",
+    "cod_barri": 2,
+    "districte_id": "extramurs",
+    "districte_nom": "Extramurs",
+    "cod_districte": 3
+  },
+  {
+    "id": "la-petxina",
+    "nom": "La Petxina",
+    "cod_barri": 3,
+    "districte_id": "extramurs",
+    "districte_nom": "Extramurs",
+    "cod_districte": 3
+  },
+  {
+    "id": "arrancapins",
+    "nom": "Arrancapins",
+    "cod_barri": 4,
+    "districte_id": "extramurs",
+    "districte_nom": "Extramurs",
+    "cod_districte": 3
+  },
+  {
+    "id": "campanar",
+    "nom": "Campanar",
+    "cod_barri": 1,
+    "districte_id": "campanar",
+    "districte_nom": "Campanar",
+    "cod_districte": 4
+  },
+  {
+    "id": "les-tendetes",
+    "nom": "Les Tendetes",
+    "cod_barri": 2,
+    "districte_id": "campanar",
+    "districte_nom": "Campanar",
+    "cod_districte": 4
+  },
+  {
+    "id": "el-calvari",
+    "nom": "El Calvari",
+    "cod_barri": 3,
+    "districte_id": "campanar",
+    "districte_nom": "Campanar",
+    "cod_districte": 4
+  },
+  {
+    "id": "sant-pau",
+    "nom": "Sant Pau",
+    "cod_barri": 4,
+    "districte_id": "campanar",
+    "districte_nom": "Campanar",
+    "cod_districte": 4
+  },
+  {
+    "id": "marxalenes",
+    "nom": "Marxalenes",
+    "cod_barri": 1,
+    "districte_id": "la-saidia",
+    "districte_nom": "La Saïdia",
+    "cod_districte": 5
+  },
+  {
+    "id": "morvedre",
+    "nom": "Morvedre",
+    "cod_barri": 2,
+    "districte_id": "la-saidia",
+    "districte_nom": "La Saïdia",
+    "cod_districte": 5
+  },
+  {
+    "id": "trinitat",
+    "nom": "Trinitat",
+    "cod_barri": 3,
+    "districte_id": "la-saidia",
+    "districte_nom": "La Saïdia",
+    "cod_districte": 5
+  },
+  {
+    "id": "tormos",
+    "nom": "Tormos",
+    "cod_barri": 4,
+    "districte_id": "la-saidia",
+    "districte_nom": "La Saïdia",
+    "cod_districte": 5
+  },
+  {
+    "id": "sant-antoni",
+    "nom": "Sant Antoni",
+    "cod_barri": 5,
+    "districte_id": "la-saidia",
+    "districte_nom": "La Saïdia",
+    "cod_districte": 5
+  },
+  {
+    "id": "exposicio",
+    "nom": "Exposició",
+    "cod_barri": 1,
+    "districte_id": "el-pla-del-real",
+    "districte_nom": "El Pla del Real",
+    "cod_districte": 6,
+    "alias": [
+      "Exposicio"
+    ]
+  },
+  {
+    "id": "mestalla",
+    "nom": "Mestalla",
+    "cod_barri": 2,
+    "districte_id": "el-pla-del-real",
+    "districte_nom": "El Pla del Real",
+    "cod_districte": 6
+  },
+  {
+    "id": "jaume-roig",
+    "nom": "Jaume Roig",
+    "cod_barri": 3,
+    "districte_id": "el-pla-del-real",
+    "districte_nom": "El Pla del Real",
+    "cod_districte": 6
+  },
+  {
+    "id": "ciutat-universitaria",
+    "nom": "Ciutat Universitària",
+    "cod_barri": 4,
+    "districte_id": "el-pla-del-real",
+    "districte_nom": "El Pla del Real",
+    "cod_districte": 6,
+    "alias": [
+      "Ciutat Universitaria"
+    ]
+  },
+  {
+    "id": "nou-moles",
+    "nom": "Nou Moles",
+    "cod_barri": 1,
+    "districte_id": "l-olivereta",
+    "districte_nom": "L'Olivereta",
+    "cod_districte": 7
+  },
+  {
+    "id": "soternes",
+    "nom": "Soternes",
+    "cod_barri": 2,
+    "districte_id": "l-olivereta",
+    "districte_nom": "L'Olivereta",
+    "cod_districte": 7
+  },
+  {
+    "id": "tres-forques",
+    "nom": "Tres Forques",
+    "cod_barri": 3,
+    "districte_id": "l-olivereta",
+    "districte_nom": "L'Olivereta",
+    "cod_districte": 7
+  },
+  {
+    "id": "la-fontsanta",
+    "nom": "La Fontsanta",
+    "cod_barri": 4,
+    "districte_id": "l-olivereta",
+    "districte_nom": "L'Olivereta",
+    "cod_districte": 7
+  },
+  {
+    "id": "la-llum",
+    "nom": "La Llum",
+    "cod_barri": 5,
+    "districte_id": "l-olivereta",
+    "districte_nom": "L'Olivereta",
+    "cod_districte": 7
+  },
+  {
+    "id": "patraix",
+    "nom": "Patraix",
+    "cod_barri": 1,
+    "districte_id": "patraix",
+    "districte_nom": "Patraix",
+    "cod_districte": 8
+  },
+  {
+    "id": "sant-isidre",
+    "nom": "Sant Isidre",
+    "cod_barri": 2,
+    "districte_id": "patraix",
+    "districte_nom": "Patraix",
+    "cod_districte": 8
+  },
+  {
+    "id": "vara-de-quart",
+    "nom": "Vara de Quart",
+    "cod_barri": 3,
+    "districte_id": "patraix",
+    "districte_nom": "Patraix",
+    "cod_districte": 8,
+    "alias": [
+      "Vara De Quart"
+    ]
+  },
+  {
+    "id": "safranar",
+    "nom": "Safranar",
+    "cod_barri": 4,
+    "districte_id": "patraix",
+    "districte_nom": "Patraix",
+    "cod_districte": 8
+  },
+  {
+    "id": "favara",
+    "nom": "Favara",
+    "cod_barri": 5,
+    "districte_id": "patraix",
+    "districte_nom": "Patraix",
+    "cod_districte": 8
+  },
+  {
+    "id": "la-raiosa",
+    "nom": "La Raïosa",
+    "cod_barri": 1,
+    "districte_id": "jesus",
+    "districte_nom": "Jesús",
+    "cod_districte": 9,
+    "alias": [
+      "La Raiosa"
+    ]
+  },
+  {
+    "id": "l-hort-de-senabre",
+    "nom": "L'Hort de Senabre",
+    "cod_barri": 2,
+    "districte_id": "jesus",
+    "districte_nom": "Jesús",
+    "cod_districte": 9,
+    "alias": [
+      "L'Hort De Senabre"
+    ]
+  },
+  {
+    "id": "la-creu-coberta",
+    "nom": "La Creu Coberta",
+    "cod_barri": 3,
+    "districte_id": "jesus",
+    "districte_nom": "Jesús",
+    "cod_districte": 9
+  },
+  {
+    "id": "sant-marcel-li",
+    "nom": "Sant Marcel·lí",
+    "cod_barri": 4,
+    "districte_id": "jesus",
+    "districte_nom": "Jesús",
+    "cod_districte": 9,
+    "alias": [
+      "Sant Marcel.Li"
+    ]
+  },
+  {
+    "id": "cami-real",
+    "nom": "Camí Real",
+    "cod_barri": 5,
+    "districte_id": "jesus",
+    "districte_nom": "Jesús",
+    "cod_districte": 9,
+    "alias": [
+      "Cami Real"
+    ]
+  },
+  {
+    "id": "montolivet",
+    "nom": "Montolivet",
+    "cod_barri": 1,
+    "districte_id": "quatre-carreres",
+    "districte_nom": "Quatre Carreres",
+    "cod_districte": 10
+  },
+  {
+    "id": "en-corts",
+    "nom": "En Corts",
+    "cod_barri": 2,
+    "districte_id": "quatre-carreres",
+    "districte_nom": "Quatre Carreres",
+    "cod_districte": 10
+  },
+  {
+    "id": "malilla",
+    "nom": "Malilla",
+    "cod_barri": 3,
+    "districte_id": "quatre-carreres",
+    "districte_nom": "Quatre Carreres",
+    "cod_districte": 10
+  },
+  {
+    "id": "la-fonteta-s-lluis",
+    "nom": "La Fonteta de Sant Lluís",
+    "cod_barri": 4,
+    "districte_id": "quatre-carreres",
+    "districte_nom": "Quatre Carreres",
+    "cod_districte": 10,
+    "alias": [
+      "La Fonteta S.Lluis"
+    ]
+  },
+  {
+    "id": "na-rovella",
+    "nom": "Na Rovella",
+    "cod_barri": 5,
+    "districte_id": "quatre-carreres",
+    "districte_nom": "Quatre Carreres",
+    "cod_districte": 10
+  },
+  {
+    "id": "la-punta",
+    "nom": "La Punta",
+    "cod_barri": 6,
+    "districte_id": "quatre-carreres",
+    "districte_nom": "Quatre Carreres",
+    "cod_districte": 10
+  },
+  {
+    "id": "ciutat-de-les-arts-i-de-les-ciencies",
+    "nom": "Ciutat de les Arts i de les Ciències",
+    "cod_barri": 7,
+    "districte_id": "quatre-carreres",
+    "districte_nom": "Quatre Carreres",
+    "cod_districte": 10,
+    "alias": [
+      "Ciutat De Les Arts I De Les Ciencies"
+    ]
+  },
+  {
+    "id": "el-grau",
+    "nom": "El Grau",
+    "cod_barri": 1,
+    "districte_id": "poblats-maritims",
+    "districte_nom": "Poblats Marítims",
+    "cod_districte": 11
+  },
+  {
+    "id": "cabanyal-canyamelar",
+    "nom": "Cabanyal-Canyamelar",
+    "cod_barri": 2,
+    "districte_id": "poblats-maritims",
+    "districte_nom": "Poblats Marítims",
+    "cod_districte": 11
+  },
+  {
+    "id": "la-malva-rosa",
+    "nom": "La Malva-rosa",
+    "cod_barri": 3,
+    "districte_id": "poblats-maritims",
+    "districte_nom": "Poblats Marítims",
+    "cod_districte": 11,
+    "alias": [
+      "La Malva-Rosa"
+    ]
+  },
+  {
+    "id": "betero",
+    "nom": "Beteró",
+    "cod_barri": 4,
+    "districte_id": "poblats-maritims",
+    "districte_nom": "Poblats Marítims",
+    "cod_districte": 11,
+    "alias": [
+      "Betero"
+    ]
+  },
+  {
+    "id": "natzaret",
+    "nom": "Natzaret",
+    "cod_barri": 5,
+    "districte_id": "poblats-maritims",
+    "districte_nom": "Poblats Marítims",
+    "cod_districte": 11
+  },
+  {
+    "id": "aiora",
+    "nom": "Aiora",
+    "cod_barri": 1,
+    "districte_id": "camins-al-grau",
+    "districte_nom": "Camins al Grau",
+    "cod_districte": 12
+  },
+  {
+    "id": "albors",
+    "nom": "Albors",
+    "cod_barri": 2,
+    "districte_id": "camins-al-grau",
+    "districte_nom": "Camins al Grau",
+    "cod_districte": 12
+  },
+  {
+    "id": "la-creu-del-grau",
+    "nom": "La Creu del Grau",
+    "cod_barri": 3,
+    "districte_id": "camins-al-grau",
+    "districte_nom": "Camins al Grau",
+    "cod_districte": 12,
+    "alias": [
+      "La Creu Del Grau"
+    ]
+  },
+  {
+    "id": "cami-fondo",
+    "nom": "Camí Fondo",
+    "cod_barri": 4,
+    "districte_id": "camins-al-grau",
+    "districte_nom": "Camins al Grau",
+    "cod_districte": 12,
+    "alias": [
+      "Cami Fondo"
+    ]
+  },
+  {
+    "id": "penya-roja",
+    "nom": "Penya-Roja",
+    "cod_barri": 5,
+    "districte_id": "camins-al-grau",
+    "districte_nom": "Camins al Grau",
+    "cod_districte": 12
+  },
+  {
+    "id": "l-illa-perduda",
+    "nom": "L'Illa Perduda",
+    "cod_barri": 1,
+    "districte_id": "algiros",
+    "districte_nom": "Algirós",
+    "cod_districte": 13
+  },
+  {
+    "id": "ciutat-jardi",
+    "nom": "Ciutat Jardí",
+    "cod_barri": 2,
+    "districte_id": "algiros",
+    "districte_nom": "Algirós",
+    "cod_districte": 13,
+    "alias": [
+      "Ciutat Jardi"
+    ]
+  },
+  {
+    "id": "l-amistat",
+    "nom": "L'Amistat",
+    "cod_barri": 3,
+    "districte_id": "algiros",
+    "districte_nom": "Algirós",
+    "cod_districte": 13
+  },
+  {
+    "id": "la-vega-baixa",
+    "nom": "La Vega Baixa",
+    "cod_barri": 4,
+    "districte_id": "algiros",
+    "districte_nom": "Algirós",
+    "cod_districte": 13
+  },
+  {
+    "id": "la-carrasca",
+    "nom": "La Carrasca",
+    "cod_barri": 5,
+    "districte_id": "algiros",
+    "districte_nom": "Algirós",
+    "cod_districte": 13
+  },
+  {
+    "id": "benimaclet",
+    "nom": "Benimaclet",
+    "cod_barri": 1,
+    "districte_id": "benimaclet",
+    "districte_nom": "Benimaclet",
+    "cod_districte": 14
+  },
+  {
+    "id": "cami-de-vera",
+    "nom": "Camí de Vera",
+    "cod_barri": 2,
+    "districte_id": "benimaclet",
+    "districte_nom": "Benimaclet",
+    "cod_districte": 14,
+    "alias": [
+      "Cami De Vera"
+    ]
+  },
+  {
+    "id": "els-orriols",
+    "nom": "Els Orriols",
+    "cod_barri": 1,
+    "districte_id": "rascanya",
+    "districte_nom": "Rascanya",
+    "cod_districte": 15
+  },
+  {
+    "id": "torrefiel",
+    "nom": "Torrefiel",
+    "cod_barri": 2,
+    "districte_id": "rascanya",
+    "districte_nom": "Rascanya",
+    "cod_districte": 15
+  },
+  {
+    "id": "sant-llorens",
+    "nom": "Sant Llorenç",
+    "cod_barri": 3,
+    "districte_id": "rascanya",
+    "districte_nom": "Rascanya",
+    "cod_districte": 15,
+    "alias": [
+      "Sant Llorens"
+    ]
+  },
+  {
+    "id": "benicalap",
+    "nom": "Benicalap",
+    "cod_barri": 1,
+    "districte_id": "benicalap",
+    "districte_nom": "Benicalap",
+    "cod_districte": 16
+  },
+  {
+    "id": "ciutat-fallera",
+    "nom": "Ciutat Fallera",
+    "cod_barri": 2,
+    "districte_id": "benicalap",
+    "districte_nom": "Benicalap",
+    "cod_districte": 16
+  },
+  {
+    "id": "benifaraig",
+    "nom": "Benifaraig",
+    "cod_barri": 1,
+    "districte_id": "poblats-del-nord",
+    "districte_nom": "Poblats del Nord",
+    "cod_districte": 17
+  },
+  {
+    "id": "poble-nou",
+    "nom": "Poble Nou",
+    "cod_barri": 2,
+    "districte_id": "poblats-del-nord",
+    "districte_nom": "Poblats del Nord",
+    "cod_districte": 17
+  },
+  {
+    "id": "carpesa",
+    "nom": "Carpesa",
+    "cod_barri": 3,
+    "districte_id": "poblats-del-nord",
+    "districte_nom": "Poblats del Nord",
+    "cod_districte": 17
+  },
+  {
+    "id": "les-cases-de-barcena",
+    "nom": "Les Cases de Bàrcena",
+    "cod_barri": 4,
+    "districte_id": "poblats-del-nord",
+    "districte_nom": "Poblats del Nord",
+    "cod_districte": 17,
+    "alias": [
+      "Les Cases De Barcena"
+    ]
+  },
+  {
+    "id": "rafalell-vistabella",
+    "nom": "Rafalell-Vistabella",
+    "cod_barri": 5,
+    "districte_id": "poblats-del-nord",
+    "districte_nom": "Poblats del Nord",
+    "cod_districte": 17
+  },
+  {
+    "id": "mahuella-tauladella",
+    "nom": "Mahuella-Tauladella",
+    "cod_barri": 5,
+    "districte_id": "poblats-del-nord",
+    "districte_nom": "Poblats del Nord",
+    "cod_districte": 17
+  },
+  {
+    "id": "massarrojos",
+    "nom": "Massarrojos",
+    "cod_barri": 6,
+    "districte_id": "poblats-del-nord",
+    "districte_nom": "Poblats del Nord",
+    "cod_districte": 17
+  },
+  {
+    "id": "borboto",
+    "nom": "Borbotó",
+    "cod_barri": 7,
+    "districte_id": "poblats-del-nord",
+    "districte_nom": "Poblats del Nord",
+    "cod_districte": 17,
+    "alias": [
+      "Borboto"
+    ]
+  },
+  {
+    "id": "benimamet",
+    "nom": "Benimàmet",
+    "cod_barri": 1,
+    "districte_id": "poblats-de-l-oest",
+    "districte_nom": "Poblats de l'Oest",
+    "cod_districte": 18,
+    "alias": [
+      "Benimamet"
+    ]
+  },
+  {
+    "id": "beniferri",
+    "nom": "Beniferri",
+    "cod_barri": 2,
+    "districte_id": "poblats-de-l-oest",
+    "districte_nom": "Poblats de l'Oest",
+    "cod_districte": 18
+  },
+  {
+    "id": "el-forn-d-alcedo",
+    "nom": "El Forn d'Alcedo",
+    "cod_barri": 1,
+    "districte_id": "poblats-del-sud",
+    "districte_nom": "Poblats del Sud",
+    "cod_districte": 19,
+    "alias": [
+      "El Forn D'Alcedo"
+    ]
+  },
+  {
+    "id": "castellar-l-oliveral",
+    "nom": "Castellar-l'Oliveral",
+    "cod_barri": 2,
+    "districte_id": "poblats-del-sud",
+    "districte_nom": "Poblats del Sud",
+    "cod_districte": 19,
+    "alias": [
+      "Castellar-L'Oliveral"
+    ]
+  },
+  {
+    "id": "pinedo",
+    "nom": "Pinedo",
+    "cod_barri": 3,
+    "districte_id": "poblats-del-sud",
+    "districte_nom": "Poblats del Sud",
+    "cod_districte": 19
+  },
+  {
+    "id": "el-saler",
+    "nom": "El Saler",
+    "cod_barri": 4,
+    "districte_id": "poblats-del-sud",
+    "districte_nom": "Poblats del Sud",
+    "cod_districte": 19
+  },
+  {
+    "id": "el-palmar",
+    "nom": "El Palmar",
+    "cod_barri": 5,
+    "districte_id": "poblats-del-sud",
+    "districte_nom": "Poblats del Sud",
+    "cod_districte": 19
+  },
+  {
+    "id": "el-perellonet",
+    "nom": "El Perellonet",
+    "cod_barri": 6,
+    "districte_id": "poblats-del-sud",
+    "districte_nom": "Poblats del Sud",
+    "cod_districte": 19
+  },
+  {
+    "id": "la-torre",
+    "nom": "La Torre",
+    "cod_barri": 7,
+    "districte_id": "poblats-del-sud",
+    "districte_nom": "Poblats del Sud",
+    "cod_districte": 19
+  },
+  {
+    "id": "faitanar",
+    "nom": "Faitanar",
+    "cod_barri": 8,
+    "districte_id": "poblats-del-sud",
+    "districte_nom": "Poblats del Sud",
+    "cod_districte": 19
+  }
+]

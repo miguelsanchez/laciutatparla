@@ -1,0 +1,311 @@
+{
+  "id": "2022-10-31",
+  "fecha": "2022-10-31",
+  "tipo": "ordinaria",
+  "mandat_id": "2019-2023",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2022-10-31",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20221031_0945_0_firmadoweb.pdf/97684ce2-a893-4297-a6ae-a1920be0792c?t=1680089671731",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20221031_0945_0_firmadoweb.pdf/aef7c028-43f0-2d8e-3f98-7bb85cd14d88?t=1667392510313",
+  "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-203",
+  "url_videos": [],
+  "num_intervencions": 6,
+  "intervencions": [
+    {
+      "id": "2022-10-31-001",
+      "pleno_id": "2022-10-31",
+      "fecha": "2022-10-31",
+      "mandat_id": "2019-2023",
+      "ordre": 1,
+      "intervinient": "[***]",
+      "entitat": "Asociación de Veíns Plaça de Múrcia / Asociación Vecinal Fuensanta",
+      "entitat_id": "asociacion-vecinos-fuensanta",
+      "entitat_cessio": null,
+      "tipus_entitat": "av",
+      "barri_o_zona": "La Fuensanta",
+      "punts_ordre_dia": "no especificat",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días.\n\nCon permiso del Pleno, señor alcalde.\n\nSoy [*], actual presidente de la **Asociación Vecinal Fuensanta**. Tras **24 meses de intenso trabajo** tramitando múltiples incidencias a través de la app del Ayuntamiento y multitud de correos electrónicos y firmas digital por registro de entrada, fuimos viendo que **era imposible afrontar** la multitud de asuntos pendientes en nuestro barrio utilizando solo estos medios. Estos problemas **arrastran desde hace años, algunos desde hace décadas**, y de mucho calado, llegando a la conclusión en asamblea entre todos que **este sistema de trabajo apenas soluciona un 10 % de los problemas**. Decidimos entre todas y todos los vecinos que **había que llegar a los medios de comunicación** para sacar a la luz todas estas cuestiones. Como ejemplo y una de las gotas que colma el vaso ya, **la plaga de ratas** que campan en nuestro barrio dominando los espacios comunes y luego entrando en nuestras casas. Participamos en la **Junta de Distrito** en distintas ocasiones y comenzamos a citar concejales con responsabilidad para visitar nuestros barrios, haciendo entrega por escrito de nuevas incidencias y estamos en contacto para realizar más visitas con los concejales. Además, citamos a **cargos políticos de toda la oposición** para implicarlos ya que estamos en **una situación crítica a muchos niveles**, algunos desde hace décadas y algún modo de llegar a la raíz de los problemas.\n\nAsí que paso la palabra a mi compañera [*], vicepresidenta de la asociación.",
+      "text_val": "Buenos días.\n\nAmb permís del Ple, senyor alcalde.\n\nSóc [***], actual president de l'Associació Vecinal Fuensanta. Després de 24 mesos de intense treball tramitant múltiples incidències a través de l'app de l'Ajuntament i multitud de correus electrònics i firmes digital per registre d'entrada, vam veure que era impossible afrontar la multitud d'assumptes pendents del nostre barri utilitzant només aquests mitjans. Aquests problemes arrosseguen des de fa anys, alguns des de fa dècades, i de molt calat, arribant a la conclusió en assemblea entre tots que aquest sistema de treball apenas soluciona un 10 % dels problemes. Vam decidir entre tots i totes els veïns que havia que arribar als mitjans de comunicació per a treure a la llum totes aquestes qüestions. Com a exemple i una de les gotes que cola el vas ja, la plaga de rates que campan en el nostre barri dominant els espais comuns i després entrant en les nostres cases. Participem en la Junta de Districte en distintes ocasions i vam començar a citar regidors amb responsabilitat per a visitar els nostres barris, fent lliurament per escrit de noves incidències i estem en contacte per a realitzar més visites amb els regidors. A més, citarem a càrrecs polítics de tota l'oposició per a implicar-los ja que estem en una situació crítica a molts nivells, alguns des de fa dècades i algún mode d'arribar a l'arrel dels problemes.\n\nAixí que passe la paraula a la meva companya [***], vicepresidenta de l'associació.",
+      "temes": [],
+      "temes_v2": {
+        "participacio": [
+          "participacio",
+          "processos_participatius",
+          "transparencia"
+        ],
+        "serveis_publics": [
+          "seguretat",
+          "salut"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "La Fontsanta"
+      ],
+      "districtes": [
+        "L'Olivereta"
+      ],
+      "resum_cas": "El presidente de la Asociación Vecinal Fuensanta expone la frustración por la ineficacia del sistema municipal para resolver problemas del barrio, destacando la plaga de ratas y la necesidad de implicación política directa.",
+      "resum_val": "El president de l'Associació Vecinal Fuensanta exposa la frustració per la ineficàcia del sistema municipal per a resoldre problemes del barri, destacant la plaga de rates i la necessitat d'implicació política directa.",
+      "cap_subtopics": [
+        2000,
+        1305,
+        1401,
+        2015
+      ],
+      "cap_major": [
+        13,
+        14,
+        20
+      ]
+    },
+    {
+      "id": "2022-10-31-002",
+      "pleno_id": "2022-10-31",
+      "fecha": "2022-10-31",
+      "mandat_id": "2019-2023",
+      "ordre": 2,
+      "intervinient": "[***]",
+      "entitat": "Associació Mi Tierra CV / Hablamos Español",
+      "entitat_id": "mi-tierra-comunidad-valenciana",
+      "entitat_cessio": null,
+      "tipus_entitat": "av",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "moció sobre trámites municipales en español",
+      "idioma_original": "castellano",
+      "text_cas": "Hola. Muchas gracias, señor alcalde.\n\nQuiero agradecer también a la Asociación Mi Tierra su amabilidad al facilitarnos nuestra intervención hoy en este pleno.\n\nMi nombre es [*]. También he venido con compañeros. Está [*], [*], [*], [*], [*]. **Somos una asociación de personas de a pie**, personas de diferente edad, formación y estrato social que **hacemos voluntariado** unidos por un mismo objetivo. **Nuestro objetivo es conseguir que en España tengamos una política lingüística** homologable a la de todas las democracias con lenguas cooficiales, es decir, **basada en la libertad de elección de lengua**. ¿Cómo se aplicaría eso a la Comunidad Valenciana? En enseñanza se podría elegir estudiar íntegramente en español o íntegramente en valenciano. **No se discriminaría a nadie por razón de lengua** desde el ámbito oficial, ni se le diría a nadie cuál debe ser su lengua. **Ambas lenguas oficiales estarían presentes** en la rotulación. Y por supuesto, y por eso estamos hoy aquí en el Ayuntamiento, **en todos los ayuntamientos se respetaría la cooficialidad lingüística**.\n\nHoy se presenta una moción para lograr que **en este Ayuntamiento todos los trámites se puedan realizar también en español** y que se respete el uso y publicación de nuestra lengua común en actas y demás documentación municipal. Pero desde Hablamos Español queremos llamar la atención también sobre otros ámbitos dependientes del Ayuntamiento de València, donde **el español está siendo excluido de forma antidemocrática y absurda**. Nos referimos a la cartelería del mobiliario público urbano. Nos referimos a las redes sociales del Ayuntamiento. Mire, últimamente hemos estado siguiendo València como capital verde europea y hemos leído valenciano e inglés. Sus hashtags eran València verda, Green València. **Nada de español**. Los autobuses de la Empresa Municipal de Transportes, nuestro callejero e incluso en la bienvenida que nos da el Ayuntamiento cuando entramos en coche en la ciudad. **En todos estos ámbitos se excluye el español**, lo que es una muestra de falta de consideración hacia las personas del resto de España que vienen a València y revela una absoluta falta de respeto a la cooficialidad lingüística y a los valencianos hispanohablantes. Si de verdad quieren promocionar el valenciano, **no lo conviertan en una lengua de exclusión**. **Los valencianos queremos ver nuestras dos lenguas juntas**.\n\nLo que estamos reclamando es fácil de cumplir y **acorde a la Constitución española**, ley de leyes que ninguna norma inferior debe contradecir. Así lo entienden las personas que han firmado la **proposición de ley de libertad de elección de lengua** que hemos llevado a las Cortes Valencianas como **Iniciativa Legislativa Popular** y que ha sido avalada por el cuádruple de firmas legalmente requeridas.\n\nDesde Hablamos Español pedimos al Pleno de este Ayuntamiento que reflexione sobre ello para que València, en lugar de mirarse en el espejo de Cataluña, paradigma de la **intolerancia lingüística**, se convierta en un ejemplo de **tolerancia y de respeto a la cooficialidad**.\n\nMuchas gracias.",
+      "text_val": "Hola. Moltes gràcies, senyor alcalde.\n\nVull agrair també a l'Associació Mi Tierra la seua amabilitat al facilitar-nos la nostra intervenció hui en aquest ple.\n\nEl meu nom és [***]. He vingut també amb companys. Estan [***], [***], [***], [***], [***]. Som una associació de persones de peu, persones de diferent edat, formació i estrat social que fem voluntariat units per un mateix objectiu. El nostre objectiu és aconseguir que a Espanya tinguem una política lingüística homologable a la de totes les democràcies amb llengües cooficials, és a dir, basada en la llibertat d'elecció de llengua. Com s'aplicaria això a la Comunitat Valenciana? En ensenyança es podria triar estudiar íntegrament en espanyol o íntegrament en valencià. No es discriminaria ningú per raó de llengua des de l'àmbit oficial, ni se li diria a ningú quina ha de ser la seua llengua. Ambdues llengües oficials estarien presents en la rotulació. I per suposat, i per això esteem hui ací a l'Ajuntament, en tots els ajuntaments es respectaria la cooficialitat lingüística.\n\nHui es presenta una moció per a aconseguir que en este Ajuntament tots els trámits es puxen realitzar també en espanyol i que es respecte l'ús i publicació de la nostra llengua comuna en actes i demés documentació municipal. Però des de Hablamos Español volem cridar l'atenció també sobre altres àmbits depenents de l'Ajuntament de València, on l'espanyol està sent exclòs de forma antidemocrática i absurda. Ens referim a la carteleria del mobiliari públic urbà. Ens referim a les xarxes socials de l'Ajuntament. Mire, últimament hem estat seguint València com a capital verda europea i hem llegit valencià i anglés. Els seus hashtags eren València verda, Green València. Res d'espanyol. Els autobusos de l'Empresa Municipal de Transports, el nostre callejero i inclús en la benvinguda que ens dona l'Ajuntament quan entrem en cotxe en la ciutat. En tots estos àmbits s'exclou l'espanyol, la qual cosa és una mostra de falta de consideració cap a les persones de la resta d'Espanya que venen a València i revela una absoluta falta de respecte a la cooficialitat lingüística i als valencians hispanoparlants. Si de verdad volen promocionar el valencià, no el convertisquen en una llengua d'exclusió. Els valencians volem veure les nostres dos llengües juntes.\n\nLo que estamos reclamando es fácil de cumplir y acorde a la Constitución española, ley de leyes que ninguna norma inferior debe contradecir. Així ho entenen les persones que han signat la proposició de llei de llibertat d'elecció de llengua que hem portat a les Corts Valencianes com a Iniciativa Legislativa Popular i que ha estat avalada pel quàdruple de firmes legalment requerides.\n\nDes de Hablamos Español demanem al Ple d'este Ajuntament que reflexione sobre això perquè València, en lloc de mirar-se en l'espill de Catalunya, paradigma de la intolerància lingüística i del incompliment de la legislació vigent, es convertisca en un exemple de tolerància i de respecte a la cooficialitat.\n\nMoltes gràcies.",
+      "temes": [],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "drets_linguistics"
+        ],
+        "participacio": [
+          "participacio"
+        ],
+        "serveis_publics": [
+          "educacio"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "Representante de Hablamos Español solicita que el Ayuntamiento de Valencia garantice los trámites municipales en español y respete la cooficialidad lingüística en cartelería, redes sociales y documentación, argumentando que es acorde con la Constitución española y las democracias europeas con lenguas cooficiales.",
+      "resum_val": "Representant de Hablamos Español sol·licita que l'Ajuntament de València garantisca els tràmits municipals en espanyol i respecte la cooficialitat lingüística en cartelleria, xarxes socials i documentació, argumentant que és d'acord amb la Constitució espanyola i les democràcies europees amb llengües cooficials.",
+      "cap_subtopics": [
+        207,
+        602,
+        1401,
+        2000
+      ],
+      "cap_major": [
+        2,
+        6,
+        14,
+        20
+      ]
+    },
+    {
+      "id": "2022-10-31-003",
+      "pleno_id": "2022-10-31",
+      "fecha": "2022-10-31",
+      "mandat_id": "2019-2023",
+      "ordre": 3,
+      "intervinient": "[***], [***]",
+      "entitat": "Associació de Veïns Plataforma Intercultural d'Espanya",
+      "entitat_id": "asociacion-plataforma-intercultural-espana",
+      "entitat_cessio": null,
+      "tipus_entitat": "plataforma",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "Moció sobre discursos de odio cap a la població migrante",
+      "idioma_original": "castellano",
+      "text_cas": "Muchas gracias, señor alcalde. Muchas gracias a todos por darnos la oportunidad y la voz.\n\nEn representación de la Plataforma Intercultural queremos solicitar esta moción precisamente debido a **todos los discursos de odio** que se tejen y se están tejiendo en esta sociedad. Una sociedad que ha identificado y en la cual hemos estado durante los últimos 30 años, y que nos preocupa realmente que **se criminalice a la migración**, cuando **somos ciudadanas y ciudadanos que estamos aquí construyendo** precisamente y queriendo nuestra ciudad y ayudando a ese crecimiento.\n\nCuando hablamos de los discursos de odio que se han tejido también tenemos que redirigirnos a que estos discursos de odio son precisamente testigos de **la proliferación de toda la discriminación, de todo el racismo, de toda la xenofobia** que se teje en nuestra ciudad. Nos llama la atención que cuando se habla de la migración no se habla del recurso que ha llegado a crecer, a contribuir al **crecimiento tanto social como cultural y económico** de este país. Se habla desde los criminales, desde los que roben, desde los que hacen daño a esta ciudad. Y no es así. Cada día nos desvelamos porque **esta ciudad diferente, acogedora** que acaba de ganar el premio precisamente como ciudad verde, también es **una ciudad inclusiva**.\n\nEntonces, desde esta plataforma nos derivamos y le solicitamos que **se rechace totalmente los discursos de odio hacia la población migrante**.\n\nMuchas gracias, señor alcalde. Esta moción que hace referencia en su exposición de motivos a **los 75 años de la Declaración Universal de los Derechos Humanos** también nos recoge a nosotros en la historia para saber dónde estamos y de dónde venimos. Hoy, 31 de octubre, se están cumpliendo **100 años que 25.000 camisas negras entraron en Roma** a celebrar que Mussolini era el jefe de gobierno italiano, con 36 millones de habitantes que había en aquella Italia. Cien años y en este 2022 se cumplen **90 años exactamente que en el Parlamento alemán, con el 18 % de los votos, entraba el Partido Nazi** y nombraba a Hitler canciller. Y el 82 % de la población que no los votó veía cómo tanto en una Italia como en la Alemania del 32 **el odio, la mentira, la intolerancia**, el encontrar enemigos, la falsedad hacía que se quedaban con la sociedad más todo lo que vino después. Por eso hoy nosotros apoyamos por supuesto esta moción y le decimos, como decía mi compañera, a todos aquellos que están aquí que **ustedes son el ejemplo** porque ustedes son los representantes y **esta es la caja de resonancia del pueblo valenciano**. Por lo cual el comportamiento, la forma de actuar de **la València que queremos hoy y la que queremos mañana** tiene que ser **achicar, angostar, empequeñecer el lugar que los racistas trabajan**, porque **los valencianos y valencianas no son racistas**. En ese sentido, esos discursos son los que generan que cuando pasan cosas como pasaron en **la valla de Melilla** haya mucha gente que se queda en silencio, que cuando sale a hablar en nuestra ciudad un oficial de la Policía haya quien le cree, por aquello de aquellos años de una mentira repetida muchas veces pasa a ser verdad y por aquello de que hay que buscar un enemigo. Aquel momento eran los judíos. Hoy, para algunos en España, en València y en Europa son los inmigrantes. Pero yo les quiero decir, señores concejales y concejalas, que aquí tenemos que demostrar que **somos más los que no somos racistas**, porque **la València integradora, igualitaria, diversa, plural** que nosotros queremos para nuestros hijos que nacieron aquí es una en la cual van a los mismos colegios que van vuestros hijos. Y cuando **los niños se educan en una sociedad igualitaria** aprenden a conocer al que va al lado en su banco no como el morito, ni como el panchito, ni como el rusito, sino como el niño con nombre y apellido, que es lo que son todos los que estudian aquí. Por eso les decimos que es muy importante que ustedes apoyen en mayoría **todas las medidas que vayan en contra del racismo**, porque tenemos que hacer lo que no se hizo en aquel momento, **acotar el espacio a los que quieren dividirnos**. Y por último, una reflexión personal, que también es importante que lo hagamos porque no hay quien no lo tenga. [La presidència li comunica que ha esgotat el seu torn d'intervenció] Termino. Millones y miles y miles de españoles y españolas se refugiaron durante años en Latinoamérica. Mi padre fue uno de ellos. Nunca nadie salió a juntar firmas, ni a pedir que lo deporten, ni a pedir que lo tiraran, ni a pedir que si no pagaba no lo atendían en el hospital público. Con ese ejemplo, nosotros tenemos que devolvérselo a la historia de nuestro país que es España y València. Muchas gracias.",
+      "text_val": "Moltes gràcies, senyor alcalde. Moltes gràcies a tots per donar-nos l'oportunitat i la veu.\n\nEn representació de la Plataforma Intercultural volem sol·licitar aquesta moció precisament per **tots els discursos d'odi** que es teixen i s'estan teixint en aquesta societat. Una societat que ha identificat i en la qual hem estat durant els últims 30 anys, i que ens preocupa realment que **es criminalitze la migració**, quan **som ciutadanes i ciutadans que estem ací construint** precisament i volent la nostra ciutat i ajudant a eixe creixement.\n\nQuant parlamos dels discursos d'odi que s'han teixit també hem de redirigirnos a que aquests discursos d'odi són precisament testimonis de **la proliferació de tota la discriminació, de tot el racisme, de tota la xenofòbia** que es teix en la nostra ciutat. Ens crida l'atenció que quan es parla de la migració no es parla del recurs que ha arribat a créixer, a contribuir al **creixement tant social com cultural i econòmic** d'aquest país. Es parla des dels criminals, des dels que roben, des dels que fan mal a aquesta ciutat. I no és així. Cada dia ens desvelem perquè **aquesta ciutat diferent, acollidora** que acaba de guanyar el premi com a ciutat verda, també és **una ciutat inclusiva**.\n\nAleshores, des d'aquesta plataforma ens derivem i li sol·licitem que **es rebutge totalment els discursos d'odi cap a la població migrant**.",
+      "temes": [
+        "participacio_ciutadana",
+        "igualtat",
+        "memoria_historica"
+      ],
+      "temes_v2": {
+        "drets_i_igualtat": [
+          "interculturalitat_i_antiracisme",
+          "drets_humans"
+        ],
+        "participacio": [
+          "participacio"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "La Plataforma Intercultural solicita el rechazo de discursos de odio hacia la población migrante, enfatizando que los migrantes contribuyen al crecimiento social, cultural y económico de la ciudad, y no deben ser criminalizados.",
+      "resum_val": "La Plataforma Intercultural sol·licita el rebuig de discursos d'odi cap a la població migrant, destacant que els migrants contribueixen al creixement social, cultural i econòmic de la ciutat, i no han de ser criminalitzats.",
+      "cap_subtopics": [
+        1906,
+        900,
+        201
+      ],
+      "cap_major": [
+        2,
+        9,
+        19
+      ]
+    },
+    {
+      "id": "2022-10-31-101",
+      "pleno_id": "2022-10-31",
+      "fecha": "2022-10-31",
+      "mandat_id": "2019-2023",
+      "ordre": 4,
+      "intervinient": "[***]",
+      "entitat": "Associació de Veïns AVEGAS",
+      "entitat_id": "associacio-de-veins-avegas",
+      "entitat_cessio": null,
+      "tipus_entitat": "av",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días.\n\nSeñor Ribó, quiero aprovechar estos minutos que tengo para pedirle un favor. Organice entre los múltiples asesores que tiene un equipo que esté en contacto con las asociaciones de vecinos para conocer in situ las necesidades de las mismas, con lo cual se evitarían muchos de los problemas que se originan. En mi barrio está la calle Xàbia en la cual en su día se plantaron 24 palmeras, las cuales tenían que servir para que esta calle fuese un espacio ecológico y agradable. Pero por no poner en su momento los aros antirratas, las palmeras fueron ocupadas por las mismas creando muchos problemas a los vecinos ya que algunas de ellas trepando por la fachada llegaron a introducirse en varios pisos. El tema fue denunciado por el Partido Popular y se publicó en distintos medios de comunicación, quedando resuelto el problema de las ratas trepadoras. Ahora seguimos contando con su presencia, al igual que con una fuerte plaga de cucarachas, pero sobre el asfalto. Hemos desocupado a los roedores, pero las palmeras necesitan una poda urgente pues las ramas tocan el suelo, lo cual es molesto para los peatones y una diversión para los gamberros que soportamos todos los largos fines de semana, que utilizan esta zona para sus botellones y juergas, terminan arrancando las ramas a las palmeras junto con otras tropelías, sin que haya ninguna presencia policial que lo impida o lo sancione. Otro tema que se podría solucionar es la recogida de las naranjas de los árboles ornamentales antes de que caigan, pues aparte de la suciedad que originan es un peligro para los viandantes y también para los usuarios del carril bici.\n\nY por último, pues no hay más tiempo, pedirle que preste más atención a los jardines de Blasco Ibáñez, que son los más emblemáticos y los peores dotados de la ciudad ya que no invierten en ellos. Manténganlos limpios retirando las miles de hojas muertas que los cubren durante todo el año, afectando también a la calzada y aceras colindantes de la zona. En fin, señor Ribó, le he expuesto solo tres demandas, pero como usted bien debe de saber son muchas más. y variados los problemas y necesidades de todos los barrios. Pero lo más urgente actualmente es eliminar las plagas de ratas, cucarachas y mosquitos que invaden la ciudad. Por lo tanto, no les conceda usted el estatus de okupas y extermínelas.\n\nMuchísimas gracias.",
+      "text_val": "Bon dia.\n\nSenyor Ribó, vull aprofitar aquests minuts que tinc per demanar-li un favor. **Organitze entre els múltiples assessors que té un equip que estiga en contacte amb les associacions de veïns** per a conéixer in situ les necessitats de les mateixes, amb la qual cosa s'evitarien molts dels problemes que s'originen. Al meu barri hi ha el carrer Xàbia, en el qual en el seu dia es van plantar **24 palmeres**, les quals havien de servir perquè aquest carrer fóra **un espai ecològic i agradable**. Però per no posar en el seu moment els aros antiratolins, **les palmeres van ser ocupades per les mateixes**, creant molts problemes als veïns, ja que algunes d'elles, grimpant per la façana, van arribar a introduir-se en diversos pisos. El tema va ser denunciat pel Partit Popular i es va publicar en diversos mitjans de comunicació, quedant resolt el problema de **les rates grimpadores**. Ara continuem comptant amb la seua presència, igual que amb **una forta plaga de cucs**, però sobre l'asfalt. Hem desallotjat els rosegadors, però **les palmeres necessiten una poda urgent**, ja que les branques toquen el sòl, cosa que és molesta per als vianants i **una diversió per als gamberros** que aguantem tots els llargs caps de setmana, que utilitzen aquesta zona per als seus botellons i juerga, acaben arrancant les branques de les palmeres juntament amb altres malifetes, sense que hi haja **cap presència policial que ho impedisca o ho sancione**. Un altre tema que es podria solucionar és **la recollida de les taronges dels arbres ornamentals** abans que caiguen, perquè a part de la brutícia que originen és un perill per als viandants i també per als usuaris del carril bici.\n\nI per últim, com que no hi ha més temps, demanar-li que **prète més atenció als jardins de Blasco Ibáñez**, que són **els més emblemàtics i els pitjor dotats de la ciutat**, ja que no inverteixen en ells. Mantinguen-los nets retirant **els milers de fulles mortes** que els cobreixen durant tot l'any, afectant també la calçada i les voreres col·indants de la zona. En fi, senyor Ribó, li he exposat només tres demandes, però com vosté ben deu de saber són moltes més, i variats els problemes i necessitats de tots els barris. Però el més urgent actualment és **eliminar les plagues de rates, cucs i mosquits** que envaeixen la ciutat. Per tant, no els concedisca vosté l'estatus d'okupes i exterminen-los.\n\nMoltíssimes gràcies.",
+      "temes": [],
+      "temes_v2": {
+        "medi_ambient": [
+          "benestar_animal",
+          "zones_verdes"
+        ],
+        "urbanisme": [
+          "espai_public"
+        ],
+        "serveis_publics": [
+          "seguretat"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Russafa"
+      ],
+      "districtes": [
+        "L'Eixample"
+      ],
+      "resum_cas": "La asociación de vecinos AVEGAS reclama mayor coordinación entre el ayuntamiento y las asociaciones vecinales para atender necesidades de los barrios, destacando problemas en la calle Xàbia con plagas de ratas y cucarachas, necesidad de poda de palmeras y mantenimiento de los jardines de Blasco Ibáñez.",
+      "resum_val": "L'associació de veïns AVEGAS demana més coordinació entre l'ajuntament i les associacions veïnals per atendre necessitats dels barris, destacant problemes a la carrer Xàbia amb plagues de rates i cucaratxes, necessitat de poda de palmeres i manteniment dels jardins de Blasco Ibáñez.",
+      "cap_subtopics": [
+        709,
+        705,
+        1401,
+        1201
+      ],
+      "cap_major": [
+        7,
+        12,
+        14
+      ]
+    },
+    {
+      "id": "2022-10-31-102",
+      "pleno_id": "2022-10-31",
+      "fecha": "2022-10-31",
+      "mandat_id": "2019-2023",
+      "ordre": 5,
+      "intervinient": "[***]",
+      "entitat": "Asociación de Veíns Plaça de Múrcia / Asociación Vecinal Fuensanta",
+      "entitat_id": "asociacion-vecinos-fuensanta",
+      "entitat_cessio": null,
+      "tipus_entitat": "av",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "",
+      "idioma_original": "castellano",
+      "text_cas": "Hola, soy vecina del barrio de La Fuensanta, 42 años. Toda mi vida ahí, nacida aquí. Expongo los asuntos a solucionar. Primero, siendo la infancia y la juventud una prioridad, lamentablemente hemos tenido que recurrir al concurso del decidimVLC para pedir renovación completa y ampliación de dos parques infantiles en situación lamentable. Exigimos la limpieza constante e intensa. Que se realice una poda adecuada ya de una vez para suprimir las ramas cercanas a las fachadas que están utilizando las ratas para colonizar nuestras casas. El mobiliario urbano es inexistente en parte del barrio y tanto las personas mayores como los jóvenes estudiantes de Misericordia o colegios cercanos no pueden descansar o dejar los restos de almuerzo en una papelera. Sustitución de farolas existentes, modelos autopistas, por deficientes y obsoletas que generan una inseguridad real tanto en lo diferentes tropiezos al andar como la existencia de múltiples espacios oscuros en muchos puntos de mi barrio. Exigimos que no se cierre el centro de salud. Estamos intranquilos al respecto ya que se cerró el centro de asuntos sociales, cosa que en mi barrio se necesita mucho. En materia de empleo solicitamos la presencia del autobús Labora una vez al mes en la barriada para fomentarlo, para darle vitalidad a la juventud. En materia de vivienda hay que parar los desahucios si no les ofrecen una alternativa habitacional.\n\nPara concluir, quisiera destacar y dar las gracias a [***], aquí mi compañera presente y vecina, que está realizando una importante recogida de firmas al respecto.",
+      "text_val": "Hola, soc veïna del barri de La Fuensanta, 42 anys. Tota la meva vida allà, nascuda ací. Exposo els assumptes a solucionar.\n\nPrimer, sent **la infància i la joventut una prioritat**, lamentablement hem hagut de recórrer al concurs del decidimVLC per a demanar **renovació completa i ampliació de dos parcs infantils** en situació lamentable. **Exigim la neteja constant i intensa**. Que es realitze **una poda adequada** ja d'una vegada per a suprimir les branques pròximes a les façanes que estan utilitzant les rates per a colonitzar les nostres cases.\n\nEl **mobiliari urbà és inexistent** en part del barri i tant les persones majors com els joves estudiants de Misericòrdia o col·legis pròxims no poden descansar o deixar els restes de berenar en una paperera. **Substitució de faroles existents**, models autopistes, per deficients i obsoletes que generen una **inseguretat real** tant en els diferents entrebancs al caminar com l'existència de múltiples espais foscos en molts punts del meu barri.\n\n**Exigim que no es tanque el centre de salut**. Estem intranquils al respecte ja que es va tancar el centre d'assumptes socials, cosa que en el meu barri es necessita molt. En matèria d'ocupació solicitamos la **presència de l'autobús Labora una vegada al mes** en la barriada per a fomentar-ho, per a donar vitalitat a la joventut.\n\nEn matèria d'habitatge cal **aturar els desnonaments** si no els ofereixen una alternativa habitacional.\n\nPer a concloure, voldria destacar i donar les gràcies a [***], ací la meva companya present i veïna, que està realitzant una important recollida de firmes al respecte.",
+      "temes": [],
+      "temes_v2": {
+        "urbanisme": [
+          "espai_public"
+        ],
+        "serveis_publics": [
+          "salut",
+          "serveis_socials"
+        ],
+        "economia": [
+          "comerc_ocupacio"
+        ],
+        "persones": [
+          "joventut"
+        ],
+        "medi_ambient": [
+          "zones_verdes"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "La Fontsanta"
+      ],
+      "districtes": [
+        "L'Olivereta"
+      ],
+      "resum_cas": "Vecina de La Fuensanta reclama renovación de parques infantiles, mantenimiento de espacios públicos, mejora de infraestructuras urbanas, preservación del centro de salud, fomento de empleo y paralización de desahucios en el barrio.",
+      "resum_val": "Veïna de La Fuensanta reclama renovació de parcs infantils, manteniment d'espais públics, millora d'infraestructures urbanes, preservació del centre de salut, foment de l'ocupació i paralització dels desnonaments al barri.",
+      "cap_subtopics": [
+        1401,
+        331,
+        500,
+        709
+      ],
+      "cap_major": [
+        3,
+        5,
+        7,
+        14
+      ]
+    },
+    {
+      "id": "2022-10-31-103",
+      "pleno_id": "2022-10-31",
+      "fecha": "2022-10-31",
+      "mandat_id": "2019-2023",
+      "ordre": 6,
+      "intervinient": "[***]",
+      "entitat": "Asociación de Veíns Plaça de Múrcia / Asociación Vecinal Fuensanta",
+      "entitat_id": "asociacion-vecinos-fuensanta",
+      "entitat_cessio": null,
+      "tipus_entitat": "av",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "",
+      "idioma_original": "castellano",
+      "text_cas": "Gracias [***].\n\nBuenos días a todos y a todas.\n\nQueremos que conste que ya está realizada la recogida de firmas y que serán registradas en breve. En nombre de todos los vecinos del barrio se le pide al ayuntamiento de zona que le pida a Sanidad fumigación en el barrio porque hemos notado la presencia de ratas en casas, tallas, contadores de luz, zonas de alcantarillado, rejillas. Y limpieza de árboles, podar, que puedan causar daños a terceros y sobre todo a vecinos de este. Rogamos pongan mucho interés en todo lo que aquí está expuesto y queremos que conste que ya está realizada la recogida de firmas, que serán registradas en breve.\n\nMuchas gracias.",
+      "text_val": "Gràcies [***].\n\nBons dies a tots i a totes.\n\nVolem que conste que ja està realitzada la **recollida de signatures** i que seran registrades en breu. En nom de tots els veïns del barri se li demana a l'ajuntament de zona que li demane a Sanitat **fumigació en el barri** perquè hem notat la **presència de rates** en cases, taules, comptadors de llum, zones d'alcantarillat, reixetes. I **neteja d'arbres, poda**, que puguen causar danys a tercers i sobretot a veïns d'este. Us reguem que poseu molt d'interès en tot el que ací està exposat i volem que conste que ja està realitzada la recollida de signatures, que seran registrades en breu.\n\nMoltes gràcies.",
+      "temes": [],
+      "temes_v2": {
+        "medi_ambient": [
+          "benestar_animal"
+        ],
+        "serveis_publics": [
+          "seguretat"
+        ],
+        "participacio": [
+          "participacio"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "La Fontsanta"
+      ],
+      "districtes": [
+        "L'Olivereta"
+      ],
+      "resum_cas": "La Asociación de Vecinos Plaça de Múrcia/Fuensanta presenta recogida de firmas vecinales solicitando fumigación urgente por invasión de ratas y limpieza/poda de árboles en el barrio.",
+      "resum_val": "L'Associació de Veïns Plaça de Múrcia/Fuensanta presenta recollida de signatures veïnals demanant fumigació urgent per invasió de rates i neteja/poda d'arbres en el barri.",
+      "cap_subtopics": [
+        1305,
+        705,
+        2000
+      ],
+      "cap_major": [
+        7,
+        13,
+        20
+      ]
+    }
+  ]
+}

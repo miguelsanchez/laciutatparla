@@ -1,0 +1,731 @@
+{
+  "_doc": "Single source of the thematic taxonomy, geographic scopes, entity types and CAP codebook (arquitectura-agentes.md F1.1, D8). Read by scripts/lib/taxonomy.py and web/src/utils/labels.ts. Changing it changes the extraction prompt of script 05: run the tests.",
+  "categories": {
+    "urbanisme": [
+      "espai_public",
+      "habitatge",
+      "patrimoni",
+      "usos_turistics"
+    ],
+    "mobilitat": [
+      "transit",
+      "transport_public",
+      "zbe",
+      "mobilitat_activa",
+      "aparcament"
+    ],
+    "medi_ambient": [
+      "contaminacio",
+      "zones_verdes",
+      "emergencies_climatiques",
+      "dana_2024",
+      "benestar_animal"
+    ],
+    "serveis_publics": [
+      "educacio",
+      "salut",
+      "serveis_socials",
+      "seguretat",
+      "esports"
+    ],
+    "economia": [
+      "pressupostos",
+      "comerc_ocupacio",
+      "agricultura"
+    ],
+    "drets_i_igualtat": [
+      "diversitat",
+      "interculturalitat_i_antiracisme",
+      "igualtat_de_genere",
+      "drets_humans",
+      "drets_linguistics"
+    ],
+    "persones": [
+      "joventut",
+      "gent_major"
+    ],
+    "cultura": [
+      "festes",
+      "patrimoni_cultural",
+      "associacionisme"
+    ],
+    "participacio": [
+      "participacio",
+      "processos_participatius",
+      "transparencia",
+      "consells_sectorials"
+    ]
+  },
+  "subcategory_descriptions": {
+    "espai_public": "supermanzanes, peatonalitzacions, places, bulevards, zones verdes urbanes",
+    "habitatge": "vivenda pública, preus, pisos turístics, desnonaments, lloguer",
+    "patrimoni": "edificis protegits, patrimoni cultural, memòria històrica, monuments",
+    "usos_turistics": "turisme massiu, regulació d'usos, apartaments turístics",
+    "transit": "atascos, tràfic, senyalització",
+    "transport_public": "EMT, metro, bus, freqüències, línies",
+    "zbe": "zona de baixes emissions, restriccions",
+    "mobilitat_activa": "carrils bici, vianants, patinets, accessibilitat",
+    "aparcament": "aparcament, ORA, places d'aparcament, aparcaments dissuasoris",
+    "contaminacio": "qualitat de l'aire, soroll, contaminació acústica",
+    "zones_verdes": "parcs, arbrat, cobertura vegetal, horta, Albufera",
+    "emergencies_climatiques": "inundacions, onades de calor, gestió d'emergències",
+    "dana_2024": "DANA d'octubre de 2024, víctimes, reconstrucció",
+    "benestar_animal": "animals de companyia, colònies felines, protecció animal",
+    "educacio": "col·legis, escoles, universitat popular, llengua vehicular, FAMPA",
+    "salut": "hospitals, centres de salut, sanitat pública",
+    "serveis_socials": "atenció social, ajudes, exclusió, persones sense llar",
+    "seguretat": "policia local, vigilància, convivència, drogues, vandalisme",
+    "esports": "instal·lacions esportives, IDEs, clubs, activitats esportives",
+    "pressupostos": "pressupostos municipals, inversions, despesa pública, impostos",
+    "comerc_ocupacio": "comerç local, ocupació, activitat econòmica, mercats",
+    "agricultura": "horta, activitat agrària",
+    "diversitat": "LGTBI, diversitat funcional",
+    "interculturalitat_i_antiracisme": "interculturalitat, antiracisme, immigració, acollida, regularització",
+    "igualtat_de_genere": "violència masclista, igualtat de gènere, coordinadora feminista",
+    "drets_humans": "drets humans, solidaritat internacional, memòria democràtica",
+    "drets_linguistics": "valencià, drets lingüístics, ús de la llengua",
+    "joventut": "centres de joventut, polítiques juvenils",
+    "gent_major": "residències, envelliment, atenció a majors",
+    "festes": "Falles, festes de barri, festes populars",
+    "patrimoni_cultural": "biblioteques, museus, activitats culturals, patrimoni cultural",
+    "associacionisme": "teixit associatiu, centres cívics, entitats veïnals",
+    "participacio": "participació ciutadana en general, reglaments de participació",
+    "processos_participatius": "pressupostos participatius, consultes, processos participatius",
+    "transparencia": "transparència, accés a la informació, rendició de comptes",
+    "consells_sectorials": "consells sectorials, juntes de districte, òrgans de participació"
+  },
+  "ambits": [
+    "barri",
+    "districte",
+    "multi_barri",
+    "multi_districte",
+    "ciutat",
+    "area_metropolitana",
+    "no_especificat"
+  ],
+  "tipus": [
+    "av",
+    "plataforma",
+    "ong",
+    "sindical",
+    "cultural",
+    "educacio",
+    "esportiu",
+    "empresa",
+    "particular",
+    "altres"
+  ],
+  "idiomes": [
+    "valenciano",
+    "castellano"
+  ],
+  "cap": {
+    "majors": [
+      {
+        "code": 2,
+        "name": "Civil Rights",
+        "short": "Civil Rights"
+      },
+      {
+        "code": 3,
+        "name": "Health",
+        "short": "Health"
+      },
+      {
+        "code": 4,
+        "name": "Agriculture",
+        "short": "Agriculture"
+      },
+      {
+        "code": 5,
+        "name": "Labor",
+        "short": "Labor"
+      },
+      {
+        "code": 6,
+        "name": "Education",
+        "short": "Education"
+      },
+      {
+        "code": 7,
+        "name": "Environment",
+        "short": "Environment"
+      },
+      {
+        "code": 9,
+        "name": "Immigration",
+        "short": "Immigration"
+      },
+      {
+        "code": 10,
+        "name": "Transportation",
+        "short": "Transport"
+      },
+      {
+        "code": 12,
+        "name": "Law and Crime",
+        "short": "Law/Crime"
+      },
+      {
+        "code": 13,
+        "name": "Social Welfare",
+        "short": "Social Welfare"
+      },
+      {
+        "code": 14,
+        "name": "Housing",
+        "short": "Housing"
+      },
+      {
+        "code": 15,
+        "name": "Domestic Commerce",
+        "short": "Commerce"
+      },
+      {
+        "code": 17,
+        "name": "Technology",
+        "short": null
+      },
+      {
+        "code": 19,
+        "name": "International Affairs",
+        "short": "International"
+      },
+      {
+        "code": 20,
+        "name": "Government Operations",
+        "short": "Government"
+      },
+      {
+        "code": 21,
+        "name": "Public Lands",
+        "short": "Public Lands"
+      },
+      {
+        "code": 23,
+        "name": "Culture",
+        "short": "Culture"
+      }
+    ],
+    "subtopics": [
+      {
+        "code": 201,
+        "major": 2,
+        "name": "Minority Discrimination",
+        "short": "Minority Discrimination",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 202,
+        "major": 2,
+        "name": "Gender Discrimination",
+        "short": "Gender Discrimination",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 204,
+        "major": 2,
+        "name": "Age Discrimination",
+        "short": "Age Discrimination",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 205,
+        "major": 2,
+        "name": "Handicap Discrimination",
+        "short": "Handicap Discrimination",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 207,
+        "major": 2,
+        "name": "Freedom of Speech",
+        "short": "Freedom of Speech",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 208,
+        "major": 2,
+        "name": "Right to Privacy",
+        "short": null,
+        "in_extraction_prompt": false
+      },
+      {
+        "code": 300,
+        "major": 3,
+        "name": "General Health",
+        "short": "General",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 301,
+        "major": 3,
+        "name": "Health Care Reform",
+        "short": "Reform",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 322,
+        "major": 3,
+        "name": "Medical Facilities",
+        "short": "Facilities",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 331,
+        "major": 3,
+        "name": "Disease Prevention",
+        "short": "Prevention",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 332,
+        "major": 3,
+        "name": "Infants and Children",
+        "short": "Children",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 334,
+        "major": 3,
+        "name": "Long-term Care",
+        "short": "Long-term Care",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 400,
+        "major": 4,
+        "name": "General Agriculture",
+        "short": "General",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 402,
+        "major": 4,
+        "name": "Subsidies to Farmers",
+        "short": "Subsidies",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 403,
+        "major": 4,
+        "name": "Food Inspection & Safety",
+        "short": "Food Safety",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 405,
+        "major": 4,
+        "name": "Animal and Crop Disease (includes animal welfare)",
+        "short": "Animal Welfare",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 500,
+        "major": 5,
+        "name": "General Labor",
+        "short": "General",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 501,
+        "major": 5,
+        "name": "Worker Safety",
+        "short": "Safety",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 502,
+        "major": 5,
+        "name": "Employment Training",
+        "short": "Training",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 506,
+        "major": 5,
+        "name": "Youth Employment",
+        "short": "Youth Employment",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 600,
+        "major": 6,
+        "name": "General Education",
+        "short": "General",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 601,
+        "major": 6,
+        "name": "Higher Education",
+        "short": "Higher",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 602,
+        "major": 6,
+        "name": "Elementary & Secondary Schools",
+        "short": "Primary/Secondary",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 603,
+        "major": 6,
+        "name": "Underprivileged Education",
+        "short": "Underprivileged",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 606,
+        "major": 6,
+        "name": "Special Education",
+        "short": "Special",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 700,
+        "major": 7,
+        "name": "General Environment",
+        "short": "General",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 701,
+        "major": 7,
+        "name": "Drinking Water",
+        "short": "Water",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 703,
+        "major": 7,
+        "name": "Waste Disposal",
+        "short": "Waste",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 705,
+        "major": 7,
+        "name": "Air Pollution (includes noise pollution)",
+        "short": "Air/Noise Pollution",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 707,
+        "major": 7,
+        "name": "Recycling",
+        "short": "Recycling",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 709,
+        "major": 7,
+        "name": "Species & Forest (parks, trees, urban greening)",
+        "short": "Parks/Trees",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 711,
+        "major": 7,
+        "name": "Land and Water Conservation (includes climate, flooding)",
+        "short": "Climate/Flooding",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 900,
+        "major": 9,
+        "name": "Immigration and Refugees",
+        "short": "General",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1000,
+        "major": 10,
+        "name": "General Transportation",
+        "short": "General",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1001,
+        "major": 10,
+        "name": "Mass Transit (bus, metro)",
+        "short": "Mass Transit",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1002,
+        "major": 10,
+        "name": "Highways (traffic, parking, roads)",
+        "short": "Traffic/Roads/Parking",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1010,
+        "major": 10,
+        "name": "Infrastructure (bike lanes, pedestrian)",
+        "short": "Bike/Pedestrian",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1200,
+        "major": 12,
+        "name": "General Law and Crime",
+        "short": "General",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1201,
+        "major": 12,
+        "name": "Law Enforcement Agencies (police)",
+        "short": "Police",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1203,
+        "major": 12,
+        "name": "Illegal Drugs",
+        "short": "Drugs",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1205,
+        "major": 12,
+        "name": "Prisons",
+        "short": null,
+        "in_extraction_prompt": false
+      },
+      {
+        "code": 1206,
+        "major": 12,
+        "name": "Juvenile Crime",
+        "short": "Juvenile",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1207,
+        "major": 12,
+        "name": "Child Abuse",
+        "short": null,
+        "in_extraction_prompt": false
+      },
+      {
+        "code": 1208,
+        "major": 12,
+        "name": "Family Issues",
+        "short": "Family",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1300,
+        "major": 13,
+        "name": "General Social Welfare",
+        "short": "General",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1302,
+        "major": 13,
+        "name": "Low-Income Assistance",
+        "short": "Low-Income",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1303,
+        "major": 13,
+        "name": "Elderly Assistance",
+        "short": "Elderly",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1304,
+        "major": 13,
+        "name": "Disabled Assistance",
+        "short": "Disabled",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1305,
+        "major": 13,
+        "name": "Volunteer Associations",
+        "short": "Volunteering",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1308,
+        "major": 13,
+        "name": "Child Care",
+        "short": "Childcare",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1400,
+        "major": 14,
+        "name": "General Housing",
+        "short": "General",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1401,
+        "major": 14,
+        "name": "Community Development (public space, urban planning)",
+        "short": "Public Space/Urban Planning",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1403,
+        "major": 14,
+        "name": "Urban Development",
+        "short": "Urban Development",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1406,
+        "major": 14,
+        "name": "Low-Income Housing",
+        "short": "Low-Income Housing",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1408,
+        "major": 14,
+        "name": "Elderly Housing",
+        "short": null,
+        "in_extraction_prompt": false
+      },
+      {
+        "code": 1409,
+        "major": 14,
+        "name": "Homeless Assistance",
+        "short": "Homeless",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1500,
+        "major": 15,
+        "name": "General Commerce",
+        "short": "General",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1501,
+        "major": 15,
+        "name": "Banking",
+        "short": null,
+        "in_extraction_prompt": false
+      },
+      {
+        "code": 1521,
+        "major": 15,
+        "name": "Small Businesses",
+        "short": "Small Business",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1525,
+        "major": 15,
+        "name": "Consumer Safety",
+        "short": "Consumer Safety",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1526,
+        "major": 15,
+        "name": "Sports Regulation (includes tourism regulation)",
+        "short": "Sports/Tourism",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1700,
+        "major": 17,
+        "name": "General Technology",
+        "short": null,
+        "in_extraction_prompt": false
+      },
+      {
+        "code": 1706,
+        "major": 17,
+        "name": "Telecommunications",
+        "short": null,
+        "in_extraction_prompt": false
+      },
+      {
+        "code": 1906,
+        "major": 19,
+        "name": "Human Rights",
+        "short": "Human Rights",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 1925,
+        "major": 19,
+        "name": "Peace Movement (anti-war, international solidarity)",
+        "short": "Peace/Solidarity",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 2000,
+        "major": 20,
+        "name": "General Government Operations",
+        "short": "General",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 2001,
+        "major": 20,
+        "name": "Intergovernmental Relations",
+        "short": "Intergovernmental",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 2004,
+        "major": 20,
+        "name": "Government Employees",
+        "short": "Employees",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 2015,
+        "major": 20,
+        "name": "Claims against the government (transparency, accountability)",
+        "short": "Transparency/Accountability",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 2100,
+        "major": 21,
+        "name": "General Public Lands",
+        "short": "General",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 2101,
+        "major": 21,
+        "name": "National Parks",
+        "short": null,
+        "in_extraction_prompt": false
+      },
+      {
+        "code": 2104,
+        "major": 21,
+        "name": "Water Resources",
+        "short": "Water Resources",
+        "in_extraction_prompt": true
+      },
+      {
+        "code": 2105,
+        "major": 21,
+        "name": "Dependencies & Territories",
+        "short": null,
+        "in_extraction_prompt": false
+      },
+      {
+        "code": 2300,
+        "major": 23,
+        "name": "Cultural Policy (heritage, arts, language, festivals, sports)",
+        "short": "Heritage/Arts/Language/Festivals/Sports",
+        "in_extraction_prompt": true
+      }
+    ]
+  }
+}

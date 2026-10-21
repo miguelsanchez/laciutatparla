@@ -1,0 +1,277 @@
+# Entities to create from scratch (not via merges).
+# These appear in variant_map_forced or reassignments but
+# don't yet have a MERGE entry that would create the canonical entity.
+# reason: why the entity needs to be explicitly created.
+
+- id: colectivo-fuera-tunel
+  nom_cas: Colectivo Fuera Túnel
+  nom_val: Col·lectiu Fora Túnel
+  tipus: plataforma
+  reason: ''
+- id: av-cabanyal-canyamelar
+  nom_cas: Asociación de Vecinos y Vecinas del Cabanyal-Canyamelar
+  nom_val: Associació de Veïns i Veïnes del Cabanyal-Canyamelar
+  tipus: av
+  reason: ''
+- id: asociacion-intercultural-mundo-solidario
+  nom_cas: Asociación Intercultural Mundo Solidario
+  nom_val: Associació Intercultural Món Solidari
+  tipus: ong
+  reason: ''
+- id: acdesa
+  nom_cas: Asociación Ciudadana para la Defensa de la Sanidad Pública del País Valencià (ACDESA)
+  nom_val: Associació Ciutadana per a la Defensa de la Sanitat Pública del País Valencià (ACDESA)
+  tipus: plataforma
+  reason: ''
+- id: avv-sant-marcelli
+  nom_cas: Asociación de Vecinos y Vecinas de Sant Marcel·lí
+  nom_val: Associació de Veïns i Veïnes de Sant Marcel·lí
+  tipus: av
+  reason: ''
+- id: caritas-diocesana
+  nom_cas: Cáritas Diocesana
+  nom_val: Càritas Diocesana
+  tipus: ong
+  reason: ''
+- id: asociacion-cruces-mayo-la-torre
+  nom_cas: Asociación Cultural Cruces de Mayo La Torre
+  nom_val: Associació Cultural Creus de Maig La Torre
+  tipus: cultural
+  reason: ''
+- id: sta-intersindical
+  nom_cas: STA-Intersindical
+  nom_val: STA-Intersindical
+  tipus: sindical
+  reason: ''
+- id: san-juan-de-dios-servicios-sociales
+  nom_cas: San Juan de Dios-Servicios Sociales
+  nom_val: San Joan de Déu-Serveis Socials
+  tipus: ong
+  reason: ''
+- id: fotur
+  nom_cas: FOTUR (Federació d'Hostaleria i Turisme de la Província de València)
+  nom_val: FOTUR (Federació d'Hostaleria i Turisme de la Província de València)
+  tipus: empresa
+  reason: Entidad del pleno 2018-01-25, añadida como intervención manual
+- id: asociacion-afa-ceip-alejandra-soler
+  nom_cas: Asociación AFA CEIP Alejandra Soler
+  nom_val: Associació AFA CEIP Alejandra Soler
+  tipus: educacio
+  reason: New entity Asociación AFA CEIP Alejandra Soler
+  date: '2026-10-17'
+  finding: E1b-e59a244c7f
+- id: ampa-ceip-carles-salvador
+  nom_cas: AMPA CEIP Carles Salvador
+  nom_val: AMPA CEIP Carles Salvador
+  tipus: educacio
+  reason: New entity AMPA CEIP Carles Salvador
+  date: '2026-10-19'
+  finding: E1b-f55a633cd4
+- id: penya-taurina-el-ferratge
+  nom_cas: Peña Taurina El Ferratge
+  nom_val: Penya Taurina El Ferratge
+  tipus: cultural
+  reason: 'New entity: Penya Taurina El Ferratge'
+  date: '2026-10-19'
+  finding: E1b-295dd399bb
+- id: associacio-de-veterinaris-abolicionistes-de-la-tauromaquia-avatma
+  nom_cas: Asociación de Veterinarios Abolicionistas de la Tauromaquia (AVATMA)
+  nom_val: Associació de Veterinaris Abolicionistes de la Tauromàquia (AVATMA)
+  tipus: ong
+  reason: 'New entity: AVATMA'
+  date: '2026-10-19'
+  finding: E1b-21ee425891
+- id: appeat
+  nom_cas: Asociación Aceras para Peatones
+  nom_val: Associació Voreres per a Vianants
+  tipus: altres
+  reason: City-wide pedestrian advocacy association, not a neighbourhood residents' association.
+  date: '2026-10-19'
+  finding: N4-9cefa1059a
+- id: ampa-cp-teodor-llorente
+  nom_cas: AMPA CP Teodor Llorente
+  nom_val: AMPA CP Teodor Llorente
+  tipus: educacio
+  reason: New entity AMPA CP Teodor Llorente
+  date: '2026-10-19'
+  finding: E1b-3c3ea47768
+- id: asociacion-proted
+  nom_cas: Asociación Proted
+  nom_val: Associació Proted
+  tipus: educacio
+  reason: Represents senior-citizen adult education classes (aulas de la tercera edad), not an NGO.
+  date: '2026-10-19'
+  finding: N4-47f03f05b8
+- id: fesord-cv
+  nom_cas: Federación de Personas Sordas de la Comunidad Valenciana
+  nom_val: Federació de Persones Sordes de la Comunitat Valenciana
+  tipus: ong
+  reason: Disability federation, not a neighbourhood association
+  date: '2026-10-19'
+  finding: N4-b2a6c3d4eb
+- id: assemblea-cooperacio-pau
+  nom_cas: Asamblea de Cooperación por la Paz
+  nom_val: Assemblea de Cooperació per la Pau
+  tipus: ong
+  reason: Development cooperation NGO, not a platform
+  date: '2026-10-19'
+  finding: N4-c2a189d8c9
+- id: coordinadora-feminista-valencia
+  nom_cas: Coordinadora Feminista de Valencia
+  nom_val: Coordinadora Feminista de València
+  tipus: plataforma
+  reason: Feminist coordinating collective, not a neighbourhood association; tipus av is wrong.
+  date: '2026-10-19'
+  finding: N4-edc6b6bbee
+- id: ampa-ceip-tomas-de-villarroya
+  nom_cas: AMPA CEIP Tomás de Villarroya
+  nom_val: AMPA CEIP Tomás de Villarroya
+  tipus: educacio
+  reason: New entity AMPA CEIP Tomás de Villarroya
+  date: '2026-10-20'
+  finding: E1b-35cb25d3e0
+- id: asociacion-de-vecinos-de-velluters
+  nom_cas: Asociación de Vecinos de Velluters
+  nom_val: Associació de Veïns de Velluters
+  tipus: av
+  reason: 'New entity: Asociación de Vecinos de Velluters'
+  date: '2026-10-20'
+  finding: E1b-615eab8a4a
+- id: comite-de-empresa-de-rtvv
+  nom_cas: Comité de Empresa de RTVV
+  nom_val: Comité d'Empresa de RTVV
+  tipus: sindical
+  reason: New entity Comité de Empresa de RTVV
+  date: '2026-10-20'
+  finding: E1b-d72455904e
+- id: asociacion-de-vecinos-vilanova-del-grao
+  nom_cas: Asociación de Vecinos Vilanova del Grao
+  nom_val: Associació de Veïns Vilanova del Grau
+  tipus: av
+  reason: 'Acta: ''en representación de la Asociación de Vecinos Vilanova del Grao'''
+  date: '2026-10-20'
+  finding: E1b-849eeb75c8
+- id: asociacion-cultural-para-la-familia
+  nom_cas: Asociación Cultural para la Familia
+  nom_val: Associació Cultural per a la Família
+  tipus: cultural
+  reason: Create entity Asociación Cultural para la Familia
+  date: '2026-10-20'
+  finding: E1b-cc9e90a129
+- id: plataforma-la-tortura-no-es-cultura
+  nom_cas: Plataforma La Tortura no es Cultura
+  nom_val: Plataforma La Tortura no és Cultura
+  tipus: plataforma
+  reason: New entity Plataforma La Tortura no es Cultura
+  date: '2026-10-20'
+  finding: E1b-4eb59919ba
+- id: cocemfe
+  nom_cas: COCEMFE
+  nom_val: COCEMFE
+  tipus: altres
+  reason: Add new entity COCEMFE
+  date: '2026-10-20'
+  finding: E1b-8ee43083da
+- id: associacio-de-veins-i-comerciants-de-ciutat-vella
+  nom_cas: Asociación de Vecinos y Comerciantes de Ciutat Vella
+  nom_val: Associació de Veïns i Comerciants de Ciutat Vella
+  tipus: av
+  reason: 'Acta: 5t. Intervé el Sr. Rafael Mampel Mateu, en representació de l’Associació de Veïns i Comerciants
+    de Ciutat Vella.'
+  date: '2026-10-20'
+  finding: E1b-02e283232a
+- id: associacio-intramurs
+  nom_cas: Asociación Intramurs
+  nom_val: Associació Intramurs
+  tipus: cultural
+  reason: New entity Associació Intramurs
+  date: '2026-10-20'
+  finding: E1b-ad8bd65f3c
+- id: hermandad-nacional-monarquica
+  nom_cas: Hermandad Nacional Monárquica
+  nom_val: Hermandad Nacional Monárquica
+  tipus: altres
+  reason: 'Acta: speaker represents the Hermandad Nacional Monárquica (turn ceded by Lo Rat Penat); not
+    in catalog.'
+  date: '2026-10-20'
+  finding: E1b-51c6698360
+- id: associacio-de-veins-avegas
+  nom_cas: Asociación de Vecinos AVEGAS
+  nom_val: Associació de Veïns AVEGAS
+  tipus: av
+  reason: Entity named in the acta, absent from the catalog.
+  date: '2026-10-20'
+  finding: E1b-185c3b676d
+- id: asociacion-aturados-orriols-torrefiel
+  nom_cas: Asociación de Parados y Paradas de Orriols-Torrefiel
+  nom_val: Associació d'Aturats i Aturades d'Orriols-Torrefiel
+  tipus: plataforma
+  reason: Unemployed people's association, not a neighbourhood association; fixes mistranslated Spanish
+    name.
+  date: '2026-10-20'
+  finding: N4-74e31e51d1
+- id: asociacion-valencia-laica
+  nom_cas: Asociación Valencia Laica-Europa Laica / Federación de Asociaciones de Vecinos de Valencia
+  nom_val: Associació València Laica-Europa Laica / Federació d'Associacions de Veïns de València
+  tipus: altres
+  reason: Secular-advocacy association, not a neighbourhood association; the AV federation is only the
+    speaker's affiliation.
+  date: '2026-10-20'
+  finding: N4-5bfb0e8e18
+- id: asociacion-hosteleria-russafa
+  nom_cas: Asociación de Hostelería y Ocio de Russafa
+  nom_val: Associació d'Hosteleria i Oci de Russafa
+  tipus: empresa
+  reason: Speaker presides the hospitality association, which only shares a seat with the AV Russafa-Gran
+    Via; it is a business association, not an AV.
+  date: '2026-10-20'
+  finding: N4-54db173d53
+- id: asociacion-cooperacion-estrategia-educacion
+  nom_cas: Asociación de Cooperación y Estrategia de Educación (ACOEC) y Coordinadora Valenciana de ONGD
+  nom_val: Associció de Cooperació i Estratègia d'Educació (ACOEC) i Coordinadora Valenciana de ONGD
+  tipus: ong
+  reason: ACOEC and the Coordinadora Valenciana de ONGD are NGOs; educacio was inferred from the name
+  date: '2026-10-20'
+  finding: N4-1676da35e3
+- id: juvenil-valencia-movement
+  nom_cas: Asociación Juvenil València Movement
+  nom_val: Associació Juvenil València Movement
+  tipus: cultural
+  reason: Youth association for urban culture and sport, not a neighbourhood association
+  date: '2026-10-20'
+  finding: N4-0a47f4687a
+- id: albarca
+  nom_cas: Asociación ALBARCA
+  nom_val: Associació ALBARCA
+  tipus: empresa
+  reason: Speaker represents the hospitality sector of the historic centre, not a residents' association.
+  date: '2026-10-20'
+  finding: N4-49582b596d
+- id: al-adala-valencia
+  nom_cas: Asociación Al-Adala València
+  nom_val: Associació Al-Adala València
+  tipus: ong
+  reason: Sahrawi solidarity association, not a neighbourhood association
+  date: '2026-10-20'
+  finding: N4-9d9d2801c7
+- id: dret-morir-dignament
+  nom_cas: Asociación Derecho a Morir Dignamente de la Comunidad Valenciana
+  nom_val: Associació Dret a Morir Dignament de la Comunitat Valenciana
+  tipus: ong
+  reason: Regional right-to-die advocacy association, not a neighbourhood association
+  date: '2026-10-20'
+  finding: N4-c9cfbda741
+- id: zemmur-asociacion-saharauis-valencia
+  nom_cas: Zemmur, Asociación de Saharauis en València
+  nom_val: Zemmur, Associació de Saharauís a València
+  tipus: ong
+  reason: Sahrawi community association, not a neighbourhood association
+  date: '2026-10-20'
+  finding: N4-f215d7784e
+- id: alanna
+  nom_cas: Asociación Alanna
+  nom_val: Associació Alanna
+  tipus: ong
+  reason: Alanna works against gender violence; it is an NGO, not an AV
+  date: '2026-10-20'
+  finding: N4-88d4b59f24

@@ -1,0 +1,154 @@
+[
+  {
+    "id": "2011-03-25",
+    "fecha": "2011-03-25",
+    "tipo": "ordinaria",
+    "mandat_id": "desconegut",
+    "acta_disponible": true,
+    "num_intervencions": 1,
+    "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2011-03-25",
+    "url_video": "https://players.cdn.enetres.net/live/1B4DA0F1F28C4AC4BA9AE203080C30C8021",
+    "url_videos": [],
+    "entitats_preview": [
+      "Associció de Veïns, Cultural i de Consumidors de Patraix"
+    ]
+  },
+  {
+    "id": "2014-12-26",
+    "fecha": "2014-12-26",
+    "tipo": "ordinaria",
+    "mandat_id": "2011-2015",
+    "acta_disponible": true,
+    "num_intervencions": 2,
+    "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2014-12-26",
+    "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-492",
+    "url_videos": [],
+    "entitats_preview": [
+      "Associació de Veïns, Cultural i de Consumidors Patraix",
+      "Asociación Intercultural Candombe / Campaña por el Cierre de los CIE"
+    ]
+  },
+  {
+    "id": "2017-09-20",
+    "fecha": "2017-09-20",
+    "tipo": "extraordinaria",
+    "mandat_id": "2015-2019",
+    "acta_disponible": true,
+    "num_intervencions": 3,
+    "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2017-09-20",
+    "url_video": "https://players.cdn.enetres.net/live/1B4DA0F1F28C4AC4BA9AE203080C30C8021",
+    "url_videos": [],
+    "entitats_preview": [
+      "Associació de Veïns i Veïnes de Natzaret"
+    ]
+  },
+  {
+    "id": "2022-03-31",
+    "fecha": "2022-03-31",
+    "tipo": "ordinaria",
+    "mandat_id": "2019-2023",
+    "acta_disponible": true,
+    "num_intervencions": 4,
+    "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2022-03-31",
+    "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-190",
+    "url_videos": [
+      "https://aytovlc.web.enetres.net/video?videoId=e-190",
+      "https://aytovlc.web.enetres.net/video?videoId=e-189"
+    ],
+    "entitats_preview": [
+      "Associació Dret a Morir Dignament de la Comunitat Valenciana",
+      "Zemmur, Asociación de Saharauis en València",
+      "Delegación Saharaui en la Comunidad Valenciana / Dirección del Frente Polisario"
+    ]
+  },
+  {
+    "id": "2022-10-21",
+    "fecha": "2022-10-21",
+    "tipo": "extraordinaria",
+    "mandat_id": "2019-2023",
+    "acta_disponible": true,
+    "num_intervencions": 3,
+    "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2022-10-21",
+    "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-202",
+    "url_videos": [],
+    "entitats_preview": [
+      "Associació de Veïns I Veïnes de Natzaret",
+      "Consell de la Joventut de València",
+      "Plataforma Veïnal Barri de Penya-roja"
+    ]
+  },
+  {
+    "id": "2022-11-17",
+    "fecha": "2022-11-17",
+    "tipo": "ordinaria",
+    "mandat_id": "2019-2023",
+    "acta_disponible": true,
+    "num_intervencions": 1,
+    "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2022-11-17",
+    "url_video": "https://players.cdn.enetres.net/live/1B4DA0F1F28C4AC4BA9AE203080C30C8021",
+    "url_videos": [],
+    "entitats_preview": [
+      "Associació Gent de Benimaclet"
+    ]
+  },
+  {
+    "id": "2023-10-24",
+    "fecha": "2023-10-24",
+    "tipo": "ordinaria",
+    "mandat_id": "2023-2027",
+    "acta_disponible": true,
+    "num_intervencions": 4,
+    "url_web": "https://www.valencia.es/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2023-10-24",
+    "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-593",
+    "url_videos": [],
+    "entitats_preview": [
+      "Associació de Veïns de Sant Antoni-la Saïdia",
+      "Per l'Horta",
+      "Associació de Veïns i Veïnes del Grau"
+    ]
+  },
+  {
+    "id": "2023-10-24-1",
+    "fecha": "2023-10-24",
+    "tipo": "extraordinaria",
+    "mandat_id": "2023-2027",
+    "acta_disponible": true,
+    "num_intervencions": 0,
+    "url_web": "https://www.valencia.es/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2023-10-24-1",
+    "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-593",
+    "url_videos": [],
+    "entitats_preview": []
+  },
+  {
+    "id": "2026-02-24",
+    "fecha": "2026-02-24",
+    "tipo": "ordinaria",
+    "mandat_id": "2023-2027",
+    "acta_disponible": true,
+    "num_intervencions": 4,
+    "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2026-02-24",
+    "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-868",
+    "url_videos": [],
+    "entitats_preview": [
+      "AV Arrancapins-la Petxina",
+      "Associació Veïnal la Roqueta",
+      "Associació de Veïns Cultural i de Consumidors Patraix / Coordinadora Feminista de València"
+    ]
+  },
+  {
+    "id": "2026-07-23",
+    "fecha": "2026-07-23",
+    "tipo": "ordinaria",
+    "mandat_id": "2023-2027",
+    "acta_disponible": true,
+    "num_intervencions": 4,
+    "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2026-07-23",
+    "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-918",
+    "url_videos": [],
+    "entitats_preview": [
+      "Associació de Veïns Cultural i Consumidors de Patraix",
+      "Associació de Veïns La Torre",
+      "Intersindical Valenciana"
+    ]
+  }
+]

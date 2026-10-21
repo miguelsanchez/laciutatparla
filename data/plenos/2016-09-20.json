@@ -1,0 +1,489 @@
+{
+  "id": "2016-09-20",
+  "fecha": "2016-09-20",
+  "tipo": "extraordinaria",
+  "mandat_id": "2015-2019",
+  "acta_disponible": true,
+  "url_web": "https://www.valencia.es/web/guest/cas/ayuntamiento/plenodelayuntamiento/-/asset_publisher/0VsIJqf3efBH/content/2016-09-20",
+  "url_acta": "https://www.valencia.es/documents/20142/264010/A_00001_20160920_1000_0_firmadoweb.pdf/9a1c4a38-6763-47d8-9068-539d322eaa4e?t=1613212559056",
+  "url_orden_dia": "https://www.valencia.es/documents/20142/264010/OD_00001_20160920_1000_0_firmadoweb.pdf/f5aadd93-2127-11be-6092-ee800f25c755?t=1613212558993",
+  "url_video": "https://aytovlc.web.enetres.net/video?videoId=e-468",
+  "url_videos": [],
+  "num_intervencions": 9,
+  "intervencions": [
+    {
+      "id": "2016-09-20-001",
+      "pleno_id": "2016-09-20",
+      "fecha": "2016-09-20",
+      "mandat_id": "2015-2019",
+      "ordre": 1,
+      "intervinient": "[***]",
+      "entitat": "Associació de Comerciants del Centre Històric de València",
+      "entitat_id": "asociacion-comerciantes-centro-historico-valencia",
+      "entitat_cessio": null,
+      "tipus_entitat": "empresa",
+      "barri_o_zona": "Centre Històric",
+      "punts_ordre_dia": "No especificat",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días. Gracias por dejarnos asistir. Seré rápido porque creo que **solo tenemos tres minutos**. Hablo en nombre de **todos los comerciantes de la ciudad**. Valencia es la **tercera capital de España**, pero quisiera preguntaros si realmente pensamos que comercialmente lo es. **El comercio es el escaparate de la ciudad** a través del cual se transmite el pulso y la calidad de vida de los habitantes. Hemos **perdido fuelle como capital comercial**.\n¿Qué debe ofrecer Valencia para **diferenciarse**? Urge **definir un modelo comercial de ciudad**, reforzando los atractivos, la singularidad, que se haga de esta ciudad **algo especial, diferente**. ¿**Vamos a seguir acelerando la clonación de la ciudad**? **El binomio indisoluble del comercio y del turismo**. **Seguridad y limpieza**. Es necesario fomentar **la seguridad en los itinerarios comerciales** por medio de **cámaras de seguridad**. **Un no rotundo a la clonación**.\nNo hay que **sobredimensionar la oferta comercial repetitiva y anodina**. **Queremos apoyo y no asfixia a las empresas**. No hay que asfixiarlas con **impuestos desmedidos**. **Microempresa** con menos de 10 trabajadores. ¿**Por qué no sacamos los recursos persiguiendo el fraude**? Pasemos por encima de los posicionamientos y **ayúdenos, por favor**.",
+      "text_val": "Buenos días. Gràcies per deixar-nos assistir. Seré ràpid perquè crec que **només tenim tres minuts**. Parle en nom de **tots els comerciants de la ciutat**. València és la **tercera capital d'Espanya**, però voldria preguntar-vos si realment pensem que comercialment ho és. **El comerç és l'aparador de la ciutat** a través del qual es transmet el pols i la qualitat de vida dels habitants. Hem **perdut embranzida com a capital comercial**.\n¿Què ha d'oferir València per a **diferenciar-se**? Urgeteix **definir un model comercial de ciutat**, reforçant els atractius, la singularitat, que es faça d'aquesta ciutat **quelcom especial, diferent**. ¿**Anem a continuar accelerant la clonació de la ciutat**? **El binomi indisoluble del comerç i del turisme**. **Seguretat i neteja**. És necessari fomentar **la seguretat en els itineraris comercials** per mitjà de **càmeres de seguretat**. **Un no rotund a la clonació**.\nNo hai que **sobredimensionar l'oferta comercial repetitiva i anodina**. **Volem apoio i no asfixia a les empreses**. No hai que asfixiar-les amb **impostos desmesurats**. **Microempresa** amb menys de 10 treballadors. ¿**Per què no sacam els recursos perseguint el frau**? Passem per damunt dels posicionaments i **ajudeu-nos, per favor**.",
+      "temes": [
+        "economia",
+        "urbanisme",
+        "turisme",
+        "comercio",
+        "seguretat",
+        "infraestructures",
+        "mobilitat"
+      ],
+      "temes_v2": {
+        "economia": [
+          "comerc_ocupacio"
+        ],
+        "urbanisme": [
+          "espai_public"
+        ],
+        "mobilitat": [
+          "transit"
+        ]
+      },
+      "ambit": "multi_barri",
+      "zones": [
+        "La Seu",
+        "La Xerea",
+        "El Carme",
+        "El Pilar",
+        "El Mercat",
+        "Sant Francesc"
+      ],
+      "districtes": [
+        "Ciutat Vella"
+      ],
+      "resum_cas": "Los comerciantes del Centro Histórico de Valencia reclaman una estrategia comercial diferenciadora, conexiones urbanísticas adecuadas, seguridad y limpieza en los itinerarios comerciales, coordinación entre turismo y comercio, y una reducción de la presión fiscal sobre las microempresas.",
+      "resum_val": "Els comerciants del Centre Històric de València reclamen una estratègia comercial diferenciadora, connexions urbanístiques adequades, seguretat i neteja en els itineraris comercials, coordinació entre turisme i comerç, i una reducció de la pressió fiscal sobre les microempreses.",
+      "cap_subtopics": [
+        1500,
+        1521,
+        1002,
+        1401
+      ],
+      "cap_major": [
+        10,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "2016-09-20-102",
+      "pleno_id": "2016-09-20",
+      "fecha": "2016-09-20",
+      "mandat_id": "2015-2019",
+      "ordre": 2,
+      "intervinient": "[***]",
+      "entitat": "Federació d'Associacions de Veïns de València",
+      "entitat_id": "favv",
+      "entitat_cessio": null,
+      "tipus_entitat": "av",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "",
+      "idioma_original": "castellano",
+      "text_cas": "Señor alcalde, señoras y señores concejales. Buenos días. La Federación y el movimiento vecinal apoyan la realización de un pleno para conocer el estado de la ciudad, aunque consideramos precipitada la convocatoria y el plazo tan breve que impide profundizar en los problemas importantes y serios de la ciudad, así como el tiempo tan limitado para poder exponerlos. Vamos, no sólo a criticar, sino a proponer colaboración. Deseamos un feed-back fluido y continuo con el ayuntamiento y pasamos asuntos que consideramos interesantes.\nSobre participación creemos que se está haciendo una participación ciudadana de Wikipedia, pero la realidad de la participación va mucho más allá de una definición. Ha pasado tiempo suficiente para, al menos, haber planteado las líneas de trabajo hacia la descentralización de las juntas municipales de distrito y su reglamento.\nSin este paso, es imposible que las consultas realizadas hasta este momentos tengan el valor que se merece una consulta ciudadana ya que no tienen el marco legal adecuado para que lleguen a ser vinculantes, ya que actualmente sólo son consultivas y no dejarán de serlo hasta que se modifique el reglamento y el funcionamiento de las juntas. La ciudadanía no tiene el hábito de la participación y de la consulta, es cierto, pero no es menos cierto que si éstas no son vinculantes, sólo provocan la desmotivación en la implicación en los asuntos municipales.\nY en temas de movilidad incidimos en la necesidad de que los acuerdos adoptados en las consultas sean los ejecutados y no los previamente definidos por la Concejalía. Hablamos de la modificación de las líneas de la EMT, algunas positivas y otras que se deberían haber revisado y estudiado, puesto más atención en las comisiones de trabajo. Y entendemos que hay que tener sensibilidad con las personas y ponerlas en primer lugar, antes que cualquier otra consideración.\nExisten más de 5.000 firmas en el Ayuntamiento y se siguen recogiendo, que piden que se rectifiquen algunas modificaciones que ya se han puesto en marcha; por cierto, en un mes que estadísticamente no es indicativo para realizar valoraciones. Y para futuras consultas sobre movilidad (carril bici, peatonalización, modificación de la EMT) solicitamos un trabajo previo de información y difusión antes de tratarlo en las consultas y no continuar el modelo anterior, de hace antaño, de decisiones unilaterales desde el Ayuntamiento.\nSobre vía pública y seguridad como no se ha trabajado por definir el ocio de nuestra ciudad, nos encontramos con graves problemas extensivos a todos los barrios. Las terrazas, masificadas, por no haber escuchado a los ciudadanos. No sólo no se ha finalizado la pintura de delimitación de las terrazas pese al tiempo transcurrido que consideramos más que suficiente, sino que la ocupación de las aceras se ha incrementado en casi todas las zonas de la ciudad. Quisiera decir que si no se toman medidas Valencia tiene microbotellones y vamos a pasar a ser una ciudad macrobotellón.\nY, posteriormente, en temas de apartamentos turísticos, se debe no autorizar esta actividad en zonas residenciales y no modificar el Plan general. Y podríamos hablar de educación, de limpieza viaria, de parques y jardines, de todo. Pero creo que hay que dar las gracias por la oportunidad de este Pleno y poder hablar.",
+      "text_val": "Senyor alcalde, senyores i senyors concejals. Buenos días. La Federació i el moviment veïnal aposten per la realització d'un ple per a conéixer l'estat de la ciutat, encara que considerem **precipitada la convocatòria** i el termini tan breu que impedeix aprofundir en els problemes importants i seriosos de la ciutat, així com el temps tan limitat per a poder-los exposar. Anem, no només a criticar, sinó a **proposar col·laboració**. Desitjem un **feed-back fluid i continu** amb l'ajuntament i passem assumptes que considerem interessants.\n\nSobre participació creiem que s'està fent una **participació ciutadana de Wikipedia**, però la realitat de la participació va molt més allà d'una definició. Ha passat temps suficient per a, almenys, haber plantejat les **línies de treball vers la descentralització de les juntes municipals de districte** i la seua reglamentació. Sense aquest pas, és impossible que les consultes realitzades fins a aquest moments tinguen el valor que es mereix una consulta ciutadana ja que no tienen **el marc legal adequat** per a que arribin a ser **vinculants**, ja que actualment només són consultives i no deixaran de serlo fins que es modifique la reglamentació i el funcionament de les juntes. La ciutadania no té l'hàbit de la participació i de la consulta, és cert, però no és menys cert que si aquestes no són vinculants, només **provoquen la desmotivació** en la implicació en els assumptes municipals.\n\nI en temes de mobilitat incidem en la necessitat que **els acords adoptats en les consultes siguen els executats** i no els prèviament definits per la Regidoria. Parllem de la **modificació de les línies de l'EMT**, algunes positives i altres que s'haurien de haber revisat i estudiat, posant més atenció en les comissions de treball. I entenem que cal **tindre sensibilitat amb les persones** i posar-les en primer lloc, abans que qualsevol altra consideració. Existeixen **més de 5.000 firmes** en l'Ajuntament i es continuen recollint, que demanen que es rectifiquen algunes modificacions que ja s'han posat en marxa; per cert, en un mes que estadísticament no és indicatiu per a realitzar valoracions. I per a futures consultes sobre mobilitat (carril bici, peatonalització, modificació de l'EMT) sol·licitem un **treball previ d'informació i difusió** abans de tractar-ho en les consultes i no continuar el model anterior, fa antany, de **decisions unilaterals des de l'Ajuntament**.\n\nSobre via pública i seguretat com no s'ha treballat per a definir l'oci de la nostra ciutat, ens encontrem amb **greus problemes extensius a tots els barris**. Les terrasses, **massificades**, per no haber escoltat als ciutadans. No sols no s'ha finalitzat la **pintura de delimitació de les terrasses** malgrat el temps transcorregut que considerem més que suficient, sinó que l'**ocupació de les voreres s'ha incrementat** en quasi totes les zones de la ciutat. Voldria dir que si no es prenen mesures València té microbotellons i **anem a passar a ser una ciutat macrobotellón**. I, posteriorment, en temes d'apartaments turístics, es deu **no autoritzar aquesta activitat en zones residencials** i no modificar el Pla general. I podríem parlar d'educació, de neteja viària, de parcs i jardins, de tot. Però crec que cal donar les gràcies per l'oportunitat d'aquest Ple i poder parlar.",
+      "temes": [],
+      "temes_v2": {
+        "participacio": [
+          "participacio",
+          "processos_participatius"
+        ],
+        "mobilitat": [
+          "transit",
+          "transport_public"
+        ],
+        "urbanisme": [
+          "espai_public",
+          "usos_turistics"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "La Federación de Asociaciones de Vecinos critica la precipitación de la convocatoria, solicita participación vinculante con marco legal adecuado, reclama que se ejecuten los acuerdos de las consultas sobre movilidad y líneas de EMT, y denuncia problemas graves de terrazas masificadas, ocupación de aceras y apartamentos turísticos en zonas residenciales.",
+      "resum_val": "La Federació d'Associacions de Veïns critica la precipitació de la convocatòria, sol·licita participació vinculant amb marc legal adequat, reclama que s'executen els acords de les consultes sobre mobilitat i línies d'EMT, i denuncia problemes greus de terrasses massificades, ocupació de voreres i apartaments turístics en zones residencials.",
+      "cap_subtopics": [
+        2000,
+        1001,
+        1002,
+        1401
+      ],
+      "cap_major": [
+        10,
+        14,
+        20
+      ]
+    },
+    {
+      "id": "2016-09-20-103",
+      "pleno_id": "2016-09-20",
+      "fecha": "2016-09-20",
+      "mandat_id": "2015-2019",
+      "ordre": 3,
+      "intervinient": "[***]",
+      "entitat": "Asociación de Vecinos Polo y Peirolón",
+      "entitat_id": "asociacion-vecinos-polo-peirolan",
+      "entitat_cessio": null,
+      "tipus_entitat": "av",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días, con el permiso de todos. Tenía aquí yo una pequeña reseña que iba a decir, pero resulta que después de venir a este Pleno y, por primera vez, estoy alucinada porque yo he venido a escuchar un Pleno que hable del estado de la ciudad, no del pasado de la ciudad y, sobre todo y por encima de todo, los insultos me caen fatal, es algo que yo no puedo soportar ni de uno ni del otro porque, como dice un refrán, hasta segar todo es hierba, quiere decir que si ahora los actuales se encuentran muy limpios de alma y de bolsillo, quizás en el futuro se puede ver lo contrario y entonces, ¿qué pasará? Pues espero vivir años porque yo creo que de los que estamos aquí soy de las mayores, casi puedo decir de las mayores. Pero como no me gusta pasarme de mis tiempos y soy una persona metódica, llevo 20 años en ambas asociaciones y creerlo que he visto de todo. Tú, Sandra, te has recorrido la ciudad a pie; yo me la he recorrido a pie, de memoria y en todos los sitios del mundo, ¿estamos? Y aparte tengo una memoria, gracias a Dios y que Dios me la conserve perfectamente, memorizo muchísimo, no se me olvidan muchas cosas y creo que no se me va a olvidar el Pleno de hoy tampoco. Entonces, en mis tres minutos que aún me queda, llevo 1:23, voy a decir mis cosas que yo considero más importantes. No quiero leer la letanía porque considero que es tontería porque sé que voy a entregar el papel y va a ser caso omiso como las 10 peticiones que he hecho al Sr. alcalde para que me reciba y aún no he tenido el placer de que así lo haga; y quiero decirle que me dejó colgada para la entrega de premios a toda mi gente mayor de los poetas, personas de 70 a 90 años, y es una cosa que no le voy perdonar nunca. Eso que lo tenga bien claro y para ser un alcalde se debe a todos los ciudadanos. Y ahora yo digo, vosotros estáis ahí porque estáis con sueldo, nosotros estamos defendiendo los barrios sin un puto duro a favor nuestro y tenemos que estar aquí enjaulados como las gallinas cuando ese banco último debía de ser, por respeto, para nosotros. Si es la casa del Ayuntamiento y es la casa del pueblo tenemos tanto derecho como vosotros que estáis ahí. Y solamente voy a decir esto ya. En mis tres minutos quiero decir que por las bases de las nuevas solicitudes, está claro que no quieren darnos ninguna subvención, por eso lo han hecho, para reírse de todos nosotros y pretender hacer de ello un examen como para entrar en la NASA. Segundo, los servicios de limpieza en las calles, si antes habláis que estaban mal, ahora no quiero ni contaros, peor, pero muchísimo peor. Tres, el cambiar los autobuses no ha beneficiado a nadie, solo fastidiar, sobre todo a la gente mayor. Y la línea del hospital que ha perjudicado a ellos, precisamente que ya lo habían memorizado. Y los parques y jardines, si antes se criticaba que estaban mal, ahora la poda brilla por su ausencia de ramas secas. Y bueno y por favor, en las Juntas de Distrito, solamente pido una cosa: si es posible que vuelvan a ser como eran donde iban las asociaciones en representación de los vecinos y luego se contestaban y no la jaula que hacen ahora de tanto hablar para nada. Gracias.",
+      "text_val": "Bon dia, amb el permís de tots. Tenia ací jo una xicoteta ressenya que anava a dir, però resulta que després de vindre a este Ple i, per primera vegada, estic al·lucinada perquè jo he vingut a escoltar un Ple que parle de l'estat de la ciutat, no del passat de la ciutat i, sobretot i per damunt de tot, **els insults em cauen fatal**, és una cosa que jo no puc soportar ni d'un ni de l'altre perquè, com diu un refrany, fins a segar tot és herba, vol dir que si ara els actuals es troben molt nets d'ànima i de butxaca, potser en el futur es pot veure el contrari i llavors, què passarà? Doncs espere viure anys perquè jo crec que dels que estem ací sóc de les majors, quasi puc dir de les majors.\n\nPerò com no m'agrada passar-me dels meus temps i sóc una persona metòdica, **porte 20 anys en les dues associacions** i crec que he vist de tot. Tu, Sandra, t'has recorregut la ciutat a peu; jo me l'he recorregut a peu, de memòria i en tots els llocs del món, ens entenem? I a més tinc una memòria, gràcies a Déu i que Déu me la conserve perfectament, memoritze moltíssim, no se m'obliden moltes coses i crec que no se m'oblidarà el Ple d'hui tampoc.\n\nDoncs, en els meus tres minuts que encara em queden, porte 1:23, vaig a dir les meues coses que considere més importants. No vull llegir la lletania perquè considere que és una ximpleria perquè sé que vaig a entregar el paper i serà **cas omís com les 10 peticions** que he fet al Sr. alcalde perquè em reba i encara no he tingut el plaer que així ho faça; i vull dir-li que em va deixar penjada per a l'entrega de premis a tota la meua gent major dels poetes, persones de 70 a 90 anys, i és una cosa que **no li perdonaré mai**. Que això ho tinga ben clar i per a ser un alcalde **es deu a tots els ciutadans**.\n\nI ara jo dic, vosaltres esteu ahí perquè esteu amb sou, nosaltres estem **defensant els barris sense un maleït duro** a favor nostre i tenim que estar ací engabiats com les gallines quan eixe banc últim devia ser, per respecte, per a nosaltres. Si és la casa de l'Ajuntament i és la casa del poble **tenim tant dret com vosaltres** que esteu ahí.\n\nI només vaig a dir això ja. En els meus tres minuts vull dir que per **les bases de les noves sol·licituds**, està clar que **no volen donar-nos cap subvenció**, per això ho han fet, per a riure's de tots nosaltres i pretendre fer-ne un examen com per a entrar a la NASA.\n\nSegon, **els servicis de neteja als carrers**, si abans dèieu que estaven malament, ara no vull ni contar-vos, pitjor, però moltíssim pitjor.\n\nTres, **el canvi dels autobusos no ha beneficiat ningú**, només fastidiar, sobretot a la gent major. I la línia de l'hospital que els ha perjudicat a ells, precisament que ja s'ho havien memoritzat.\n\nI **els parcs i jardins**, si abans es criticava que estaven malament, ara la poda brilla per la seua absència de branques seques.\n\nI bé i per favor, en les **Juntes de Districte**, només demane una cosa: si és possible que **tornen a ser com eren** on anaven les associacions en representació dels veïns i després es contestaven i no la gàbia que fan ara de tant parlar per a res. Gràcies.",
+      "temes": [],
+      "temes_v2": {
+        "serveis_publics": [
+          "seguretat"
+        ],
+        "mobilitat": [
+          "transport_public"
+        ],
+        "participacio": [
+          "participacio"
+        ],
+        "medi_ambient": [
+          "zones_verdes"
+        ],
+        "urbanisme": [
+          "espai_public"
+        ],
+        "economia": [
+          "pressupostos"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "Vecina de una asociación de vecinos expresa su descontento con la gestión municipal en servicios de limpieza, transporte público y parques, reclama respeto hacia las asociaciones en las juntas de distrito y lamenta la falta de atención del alcalde a sus peticiones.",
+      "resum_val": "Una veïna d'una associació de veïns expressa el seu descontentament amb la gestió municipal en serveis de neteja, transport públic i parcs, reclama respecte cap a les associacions en les juntes de districte i es lamenta de la falta d'atenció de l'alcalde a les seues peticions.",
+      "cap_subtopics": [
+        1001,
+        1401,
+        2000,
+        709
+      ],
+      "cap_major": [
+        7,
+        10,
+        14,
+        20
+      ]
+    },
+    {
+      "id": "2016-09-20-104",
+      "pleno_id": "2016-09-20",
+      "fecha": "2016-09-20",
+      "mandat_id": "2015-2019",
+      "ordre": 4,
+      "intervinient": "[***]",
+      "entitat": "Associació de Veïns de Nou Moles",
+      "entitat_id": "associacio-veins-nou-moles",
+      "entitat_cessio": null,
+      "tipus_entitat": "av",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días. Sr. alcalde, concejales, concejalas y público en general. Aprovechamos este Pleno del Estado de la Ciudad para exponer la situación de nuestro barrio, Nou Moles. No entendemos que al día de hoy el polideportivo de Nou Moles, que estaba en su programa electoral, siga sin acabarse y con la problemática de tres calles inutilizadas por las vallas, dos semáforos y dos pasos de peatones anulados, teniendo enfrente de la obra el centro de mayores, con el peligro que ello conlleva.\nNo nos vale que nos indiquen que es responsabilidad de la Generalitat, cuando todos los polideportivos de la ciudad son municipales. El responsable de la alcaldía tendría que hacer cumplir lo prometido, tanto en este punto como en los abajo indicados. También se prometió en el mismo programa la recuperación de la línea de autobús nº. 7 para nuestro barrio y, no solo no se ha cumplido, sino que nos han quitado la línea 29 y 81, a pesar de las 2.800 firmas que se presentaron en la Concejalía de Movilidad y en la misma Alcaldía.\nLos vecinos siguen viniendo a nuestra Asociación a firmar por el descontento general tan grande y las molestias que les ocasionan no disponer de los citados servicios. Otra promesa incumplida es la reapertura del Parque Oeste de Bomberos ¿Cómo se pueden tener tantos barrios sin medidas de seguridad? Nos costó mucho esfuerzo en su día que nos asignaran seis policías de barrio y actualmente solamente tenemos dos, aunque en el papel les conste que son cuatro, para un barrio tan grande y poblado como este.\nDespués de tantos años esperando dejar en condiciones el solar municipal de Hermanos Rivas para que aparquen los vecinos, ya que al ser un barrio antiguo carece de plazas de aparcamiento, este verano se han acometido las obras, las cuales al día de hoy no deben de haber finalizado porque han dejado el mismo con tierra y los vecinos de alrededor se quejan con muchísima razón de la polvareda que se levanta.\nAparte también se ha reclamado a la Concejalía de Movilidad el acondicionamiento de un solar municipal que hay en la calle Brasil para aparcamiento de los vecinos mientras el Ayuntamiento le asigne otra utilidad. Solicitamos la poda de los árboles secos, así como el arreglo del jardín de la plaza de Nou Moles que está en muy mal estado. Esperamos que sean aceptadas nuestras reclamaciones para el bien de nuestro barrio y recordarles que ustedes, concejales y Sr. alcalde, administran nuestros impuestos.\nGracias.",
+      "text_val": "Bon dia. Sr. alcalde, regidors, regidores i públic en general. Aprofitem este Ple de l'Estat de la Ciutat per a exposar la situació del nostre barri, Nou Moles. No entenem que hui en dia el **poliesportiu de Nou Moles**, que estava en el seu programa electoral, continue sense acabar-se i amb la problemàtica de **tres carrers inutilitzats** per les tanques, **dos semàfors i dos passos de vianants anul·lats**, tenint enfront de l'obra el centre de majors, amb el perill que això comporta.\nNo ens val que ens indiquen que és responsabilitat de la Generalitat, quan **tots els poliesportius de la ciutat són municipals**. El responsable de l'alcaldia hauria de **complir el que s'ha promès**, tant en este punt com en els indicats baix. També es va prometre en el mateix programa la **recuperació de la línia d'autobús nº. 7** per al nostre barri i, no sols no s'ha complit, sinó que **ens han llevat la línia 29 i 81**, malgrat les **2.800 firmes** que es van presentar en la Regidoria de Mobilitat i en la mateixa Alcaldia.\nEls veïns continuen venint a la nostra Associació a signar pel **descontent general tan gran** i les molèsties que els ocasionen no disposar dels citats serveis. Una altra promesa incomplida és la **reobertura del Parc Oest de Bombers**. Com es poden tindre tants barris sense mesures de seguretat? Ens va costar molt esforç en el seu dia que ens assignaren sis policies de barri i actualment només tenim dos, encara que en el paper els conste que són quatre, per a un barri tan gran i poblat com este.\nDesprés de tants anys esperant deixar en condicions el **solar municipal de Germans Rivas** perquè aparquen els veïns, ja que en ser un barri antic **no té places d'aparcament**, este estiu s'han escomés les obres, les quals hui en dia no deuen d'haver finalitzat perquè han deixat el mateix amb terra i els veïns de voltant es queixen amb molta raó de la **polseguera que s'alça**.\nA més, també s'ha reclamat a la Regidoria de Mobilitat l'**acondicionament d'un solar municipal** que hi ha al carrer Brasil per a aparcament dels veïns mentre l'Ajuntament li assigne una altra utilitat. Sol·licitem la **poda dels arbres secs**, així com l'**arreglament del jardí de la plaça de Nou Moles** que està en molt mal estat. Esperem que siguen acceptades les nostres reclamacions per al bé del nostre barri i recordar-los que vostés, regidors i Sr. alcalde, administren els nostres impostos.\nGràcies.",
+      "temes": [],
+      "temes_v2": {
+        "serveis_publics": [
+          "esports",
+          "seguretat"
+        ],
+        "mobilitat": [
+          "transport_public",
+          "aparcament"
+        ],
+        "urbanisme": [
+          "espai_public"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Nou Moles"
+      ],
+      "districtes": [
+        "L'Olivereta"
+      ],
+      "resum_cas": "La Associació de Veïns de Nou Moles denuncia incompliment de promeses electorals: polideportivo sense acabar, eliminació de línies de bus (29 i 81), falta de seguretat (centre de bombers tancat, reducció de policia) i problemes de mobilitat i parking.",
+      "resum_val": "L'Associació de Veïns de Nou Moles protesta pel incompliment de promeses electorals: poliesportiu inacabat, eliminació de línies d'autobús (29 i 81), manca de seguretat (parc de bombers tancat, reducció de policia) i problemes de mobilitat i aparcament.",
+      "cap_subtopics": [
+        1001,
+        1002,
+        1526,
+        1200
+      ],
+      "cap_major": [
+        10,
+        12,
+        15
+      ]
+    },
+    {
+      "id": "2016-09-20-105",
+      "pleno_id": "2016-09-20",
+      "fecha": "2016-09-20",
+      "mandat_id": "2015-2019",
+      "ordre": 5,
+      "intervinient": "[***]",
+      "entitat": "Orriols Conviu",
+      "entitat_id": "orriols-conviu",
+      "entitat_cessio": null,
+      "tipus_entitat": "plataforma",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "",
+      "idioma_original": "castellano",
+      "text_cas": "En primer lugar queremos agradecerles la invitación que esta Alcaldía ha hecho a esta Asociación Orriols Convive y que, por fin, se tomen en cuenta nuestras aportaciones. Orriols Convive es un proyecto de desarrollo comunitario puesto en marcha en el año 2014 y nuestra labor es conocida ya por muchos de ustedes porque ya hemos tenido reuniones, al contrario que otro parece ser, con diversas concejalías y les hemos expuesto la situación del barrio.\nPero han pasado ya 485 días desde las elecciones y el rescate de las personas y la mejora de los barrios obreros y periféricos, como el nuestro de Orriols, están todavía por llegar. En Orriols tenemos el honor, entre comillas, de ser la segunda renta per cápita más baja de Valencia y el de mayor tasa de desempleo. Tenemos un problema de superpoblación porque hay 18.000 personas censadas pero, en realidad, viven 35.000. Tenemos también la mayor tasa de población migrante con problemas de estigmatización de colectivos.\nPor no hablar del pequeño comercio prácticamente desaparecido en estos momentos que impulsándolo, la verdad, que sería una estupenda vía de interrelación cultural. A todas luces, en este momento, los servicios públicos son insuficientes y constatamos una ausencia de inversiones reales en el barrio, al margen del parque de la Ermita que ya se ha nombrado y el parque de las Ilusiones que salió en los presupuestos participativos. Hemos oído que será inaugurado en el año 2017 pero nos gustaría saber cuándo comenzarán realmente las obras.\nEl estado del barrio de Orriols sigue siendo muy preocupante por diversos motivos porque hay un grave problema de ocupación de viviendas propiedad de diversas entidades bancarias. Hemos oído que se han realizado acciones con los diversos bancos, pero nosotros proponemos otras cosas que si nos quieren oír se las diremos. Tenemos un problema que hay un determinado colectivo de personas que no quieren convivir con nadie, que han ocupado esas viviendas y que generan, la verdad, un clima de miedo e inseguridad creciente.\nSe necesitaría en estos momentos más presencia policial y otro tipo de intervención comunitaria, no solamente la presencia policial sino otro tipo de intervención. ¿Por qué, por ejemplo, el Ayuntamiento, con esos presupuestos que tiene, no empieza a comprar algunas viviendas de este tipo en el barrio y las destina a jóvenes que regeneren el barrio? Destacamos, en este momento, la incapacidad, suponemos por falta de personal y de recurso, del Centro Municipal de Servicios Sociales Salvador Allende que tiene que atender a más de 20.000 usuarios.\n¿Para cuándo una intervención comunitaria en coordinación con otras instituciones y recursos? Constatamos también un aumento de la limpieza, eso es verdad, pero todavía creemos que es insuficiente. La actividad cultural y de ocio y tiempo libre prácticamente no existe porque no hay infraestructuras públicas. Si hay algunas son de pago. En cuanto al empleo sería necesario potenciar otra manera de inserción socio-laboral adaptada a la realidad de los barrios con cooperativas y vecinos y vecinas en las contratas. Esto lo hemos contemplado ya en algunas ocasiones.\nSabemos que es difícil. Reclamamos, sobre todo un Plan integral de renovación del barrio, que esto sería súper importante, que el Grupo Socialista en el año 2014 ya lo dijo. ¿Para cuándo el Agujero de la Vergüenza desaparecerá? Y, sobre todo, con lo que respecta a educación nos gustaría que la concejala de educación visitara nuestros colegios públicos que en este momento son unos guetos en los que solamente, prácticamente están matriculados personas inmigrantes.\nYa, para acabar, les invitamos a nuestra Asamblea general que será el día 29 de septiembre a las 17 horas y podrán constatar in situ los problemas reales del barrio porque allí la gente habla.",
+      "text_val": "En primer lloc volem agraïr-vos la invitació que esta Alcaldia ha fet a esta Associació Orriols Conviu i que, **per fi, es tinga en compte les nostres aportacions**. Orriols Conviu és un projecte de desenvolupament comunitari posat en marxa en l'any 2014 i la nostra labor és coneguda ja per molts de vosaltres perquè ja hem tingut reunions, al contrari que altre pareix ser, amb diverses concejalies i els hem exposat la situació del barri. Però **han passat ja 485 dies** des de les eleccions i **el rescat de les persones i la millora dels barris obrers i perifèrics**, com el nostre d'Orriols, estan todavía per arribar.\n\nEn Orriols tenim l'honor, entre cometes, de ser **la segona renda per cápita més baixa de València** i la de **major taxa d'atur**. Tenim **un problema de superpoblació** perquè hi ha 18.000 persones censades però, en realitat, viuen 35.000. Tenim també **la major taxa de població migrant** amb problemes d'estigmatització de col·lectius. Per no parlar del **petit comerç pràcticament desaparegut** en estos moments que impulsant-lo, la veritat, que seria una esplèndida via d'interrelació cultural.\n\nA totes llums, en este moment, **els serveis públics són insuficients** i constatem **una absència d'inversions reals en el barri**, al marge del parc de l'Ermita que ja s'ha nomenat i el parc de les Il·lusions que va eixir en els pressupostos participatius. Hem oït que serà inaugurat en l'any 2017 però ens agradaria saber quan començaran realment les obres.\n\nL'estat del barri d'Orriols segueix sendo molt preocupant per diversos motius perquè **hi ha un greu problema d'ocupació de vivendes** propietat de diverses entitats bancàries. Hem oït que s'han realitzat accions amb els diversos bancs, però nosaltres proposem altres coses que si ens volen oír se les direm. Tenim un problema que hi ha un determinat col·lectiu de persones que no volen conviure amb ningú, que han ocupat eses vivendes i que generen, la veritat, **un clima de por i inseguretat creixent**. Es necessitaria en este moment **més presència policial** i altre tipus d'intervenció comunitaria, no solament la presència policial sino altre tipus d'intervenció. ¿Per què, per exemple, l'Ajuntament, amb estos pressupostos que té, no comença a comprar algunes vivendes d'este tipus en el barri i les destina a jóvens que regeneren el barri?\n\nDestaquem, en este moment, **la incapacitat** del Centre Municipal de Serveis Socials Salvador Allende que té que atendre a més de 20.000 usuaris. ¿Per a quan una intervenció comunitaria en coordinació amb altres institucions i recursos? Constatem també un augment de la neteja, esto és veritat, però todavía creiem que és insuficient.\n\n**L'activitat cultural i d'oci i temps libre pràcticament no existe** perquè no hi ha infraestructures públiques. Si n'hi ha algunes són de pagament. Quant a l'ocupació seria necessari potenciar altra manera d'inserció socioeconòmica adaptada a la realitat dels barris amb cooperatives i veïns i veïnes en les contrates. Esto ho hem contemplat ja en algunes ocasions. Sabem que és difícil.\n\nReclamem, sobre tot **un Pla integral de renovació del barri**, que esto seria súper important, que el Grup Socialista en l'any 2014 ja ho va dir. ¿Per a quan **el Forat de la Vergonya desapareixerà**? I, sobre tot, amb lo que respecta a educació ens agradaria que la concejala d'educació visitara els nostres col·legis públics que en este moment són uns getos en los quals solament, pràcticament estan matriculats persones immigrantes.\n\nYa, per acabar, os invitem a la nostra Assemblea general que serà el dia 29 de setembre a les 17 hores i podran constar in situ els problemes reals del barri perquè allí la gent parla.",
+      "temes": [],
+      "temes_v2": {
+        "urbanisme": [
+          "espai_public",
+          "patrimoni"
+        ],
+        "economia": [
+          "comerc_ocupacio"
+        ],
+        "serveis_publics": [
+          "educacio",
+          "salut",
+          "serveis_socials",
+          "seguretat"
+        ],
+        "drets_i_igualtat": [
+          "interculturalitat_i_antiracisme"
+        ],
+        "participacio": [
+          "participacio"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Els Orriols"
+      ],
+      "districtes": [
+        "Rascanya"
+      ],
+      "resum_cas": "Asociación de desarrollo comunitario de Orriols reclama inversiones reales, mejora de servicios públicos, intervención en ocupación de viviendas y un plan integral de renovación del barrio que ha permanecido sin cambios en 485 días tras las elecciones, denunciando la segunda renta per cápita más baja de Valencia, mayor desempleo, superpoblación, estigmatización de migrantes y casi desaparición del comercio local.",
+      "resum_val": "Associació de desenvolupament comunitari d'Orriols reclama inversions reals, millora de serveis públics, intervenció en ocupació de vivendes i un pla integral de renovació del barri que ha romàs sense canvis en 485 dies després de les eleccions, denunciant la segona renda per cápita més baixa de València, major atur, superpoblació, estigmatització de migrants i quasi desaparició del comerç local.",
+      "cap_subtopics": [
+        1401,
+        1521,
+        1302,
+        1300,
+        900,
+        602,
+        2000
+      ],
+      "cap_major": [
+        6,
+        9,
+        13,
+        14,
+        15,
+        20
+      ]
+    },
+    {
+      "id": "2016-09-20-107",
+      "pleno_id": "2016-09-20",
+      "fecha": "2016-09-20",
+      "mandat_id": "2015-2019",
+      "ordre": 7,
+      "intervinient": "[***]",
+      "entitat": "COCEMFE",
+      "entitat_id": "cocemfe",
+      "entitat_cessio": null,
+      "tipus_entitat": "altres",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días. Sr. alcalde, concejales, concejalas, caballeros, señoras y señores. Yo quería hablar sobre la accesibilidad en la ciudad de Valencia. En la ciudad de Valencia la accesibilidad ha ido mejorando poco a poco desde hace tiempo, pero todavía queda camino por recorrer hasta alcanzar la accesibilidad plena y el objetivo final de conseguir que Valencia sea realmente una ciudad para todos, que todas las personas puedan recorrerla y disfrutarla de una forma autónoma. Valoramos positivamente la constitución y el trabajo de la Mesa de Mobilitat en la que participamos.\nPero la accesibilidad debe contemplarse desde una forma transversal en las diversas áreas y concejalías ya que, además de los medios de transporte, también están implicados Urbanismo, Planeamiento, Parques y Jardines, Mantenimiento de Infraestructuras en la vía pública y otros competentes en plazas de aparcamiento, edificios y locales de pública concurrencia.\nTambién valoramos positivamente las numerosas intervenciones realizadas recientemente en vados peatonales con uso adecuado del pavimento señalizador, si bien, en algunos casos, se ha afectado el itinerario peatonal que discurre por las aceras. Así como la dotación de mobiliario y juegos inclusivos en nuevos parques como el de Nou Moles. Esperamos que se siga introduciendo no solo en los nuevos parques en construcción, sino en los que se remodelen y, poco a poco, en todos los de la ciudad para que los niños con discapacidad puedan jugar con los demás y no ser meros espectadores.\nNo obstante, siguen habiendo problemas de accesibilidad. Como muestra quedan pasos peatonales sin vado peatonal, elaboramos un informe exhaustivo en El Cabanyal. Hay vados peatonales inadecuadamente ejecutados, es frecuente que éstos invadan los itinerarios peatonales que discurren en la acera. Hay muchos vados para vehículos mal ejecutados que alteran la pendiente en los itinerarios peatonales. Hay aceras estrechas y con obstáculos que no son itinerarios peatonales accesibles.\nHay muchos establecimientos públicos con problemas de accesibilidad, incluso se siguen abriendo establecimientos sin un acceso adecuado. Hay paradas de la EMT no accesibles; algunas son jaulas para las personas que bajan en ellas con sillas de ruedas. Bueno, y un largo etcétera. Por ello, hay que seguir avanzando. Es importante que se tenga en cuenta la accesibilidad en todas las intervenciones que se hagan en los espacios y medios de transporte públicos, así como en los locales, edificios y establecimientos tanto públicos como privados de uso público, como los comercios.\nHay que reformar el Reglamento de la EMT que permita que accedan por la rampa las personas con muletas o andador, entre otras cosas. Adecuar las paradas no accesibles y asegurar que funcionen las rampas de todos los autobuses.\nFinalmente, solicitamos la creación de un Servicio u Oficina Municipal de Accesibilidad que, además de asegurar la coordinación de todos los departamentos en este tema y la adecuación de los proyectos, asesore a técnicos propios y privados y tome la iniciativa en revisar toda la accesibilidad existente, planificando actuaciones para mejorar e instar a su ejecución. Muchas gracias.",
+      "text_val": "Bon dia. Sr. alcalde, regidors, regidores, cavallers, senyores i senyors. Jo volia parlar sobre **la accessibilitat a la ciutat de València**. A la ciutat de València l'accessibilitat ha anat millorant poc a poc des de fa temps, però encara queda camí per recórrer fins a aconseguir **l'accessibilitat plena** i l'objectiu final d'aconseguir que **València siga realment una ciutat per a tots**, que totes les persones puguen recórrer-la i gaudir-la de manera autònoma. Valorem positivament **la constitució i el treball de la Mesa de Mobilitat** en la qual participem. Però **l'accessibilitat ha de contemplar-se d'una manera transversal** en les diverses àrees i regidories ja que, a més dels mitjans de transport, també hi estan implicats Urbanisme, Planejament, Parcs i Jardins, Manteniment d'Infraestructures en la via pública i altres competents en places d'aparcament, edificis i locals de pública concurrència.\n\nTambé valorem positivament **les nombroses intervencions realitzades recentment en voladors per a vianants** amb ús adequat del paviment senyalitzador, si bé, en alguns casos, s'ha afectat l'itinerari per a vianants que discorre per les voreres. Així com **la dotació de mobiliari i jocs inclusius** en nous parcs com el de Nou Moles. Esperem que **es continue introduint en els nous parcs**, en els que es remodelen i, poc a poc, en tots els de la ciutat perquè **els xiquets amb discapacitat puguen jugar** amb els altres i no ser simples espectadors.\n\nNo obstant això, **continuen havent-hi problemes d'accessibilitat**. Com a mostra queden **passos de vianants sense vorell de vianants**; elaborem un informe exhaustiu a El Cabanyal. Hi ha **voladors per a vianants inadequadament executats**; és freqüent que aquests invadeixen els itineraris per a vianants que discorren per la vorera. Hi ha molts **voladors per a vehicles mal executats** que alteren el pendent en els itineraris per a vianants. Hi ha **voreres estretes i amb obstacles** que no són itineraris per a vianants accessibles. Hi ha **molts establiments públics amb problemes d'accessibilitat**, fins i tot se segueixen obrint establiments sense un accés adequat. Hi ha **parades de l'EMT no accessibles**; algunes són gàbies per a les persones que baixen en elles amb cadires de rodes. Bé, i un llarg etcètera.\n\nPer això, **cal seguir avançant**. És important que es tinga en compte l'accessibilitat en totes les intervencions que es facen en els espais i mitjans de transport públics, així com en els locals, edificis i establiments tant públics com privats d'ús públic, com els comerços. **Cal reformar el Reglament de l'EMT** que permeta que accedisquen per la rampa les persones amb crosses o andador, entre altres coses. **Adequar les parades no accessibles** i assegurar que funcionen les rampes de tots els autobusos.\n\nFinalment, sol·licitem **la creació d'un Servei o Oficina Municipal d'Accessibilitat** que, a més d'assegurar la coordinació de tots els departaments en aquest tema i l'adequació dels projectes, assessore els tècnics propis i privats i prenga la iniciativa de revisar tota l'accessibilitat existent, planificant actuacions per a millorar i instar a la seua execució. Moltes gràcies.",
+      "temes": [],
+      "temes_v2": {
+        "mobilitat": [
+          "transport_public",
+          "mobilitat_activa"
+        ],
+        "urbanisme": [
+          "espai_public"
+        ],
+        "drets_i_igualtat": [
+          "drets_humans"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "COCEMFE demanda mejoras en la accesibilidad integral de Valencia, incluyendo transporte público, espacios urbanos y establecimientos, y solicita la creación de una Oficina Municipal de Accesibilidad que coordine las actuaciones transversales.",
+      "resum_val": "COCEMFE reclama millorar l'accessibilitat integral de València, inclosa la mobilitat pública, els espais urbans i els establiments, i sol·licita la creació d'una Oficina Municipal d'Accessibilitat que coordine les actuacions transversals.",
+      "cap_subtopics": [
+        1001,
+        1010,
+        1401,
+        1304
+      ],
+      "cap_major": [
+        10,
+        13,
+        14
+      ]
+    },
+    {
+      "id": "2016-09-20-109",
+      "pleno_id": "2016-09-20",
+      "fecha": "2016-09-20",
+      "mandat_id": "2015-2019",
+      "ordre": 9,
+      "intervinient": "[***]",
+      "entitat": "Associació de Veïns i Veïnes de Natzaret",
+      "entitat_id": "asociacion-vecinos-nazaret-unido",
+      "entitat_cessio": null,
+      "tipus_entitat": "av",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "",
+      "idioma_original": "valenciano",
+      "text_cas": "Buenos días o buenas tardes a todos y a todas. Con motivo de la celebración este año del 40 aniversario de nuestra asociación elegimos el lema **Por un barrio sin fronteras**. **Recuperamos ciudad**, y solicitamos un **plan integral** para hacer realidad un **Natzaret sin barreras físicas y sociales**, de manera que la inclusión de nuestro barrio en la ciudad sea de verdad.\n\nPor lo que respecta a las barreras físicas, como ustedes saben, el 18 de mayo de 1986 el Ayuntamiento y el Puerto de Valencia firmaron un convenio para favorecer la ampliación del puerto por la playa de Natzaret. Para paliar este sacrificio se introdujeron en el mencionado documento unas **compensaciones que no se cumplieron**, con excepción de los 40.000 m2 del parque de Marazul rescatado de la destrucción de la playa después de la lucha de nuestra asociación de vecinos. Durante los 24 años del gobierno anterior solo la lucha del vecindario organizado consiguió la reconstrucción, en dos ocasiones, del balneario Marazul y su puesta en marcha en 2014, y el derribo de la peligrosa y contaminante **fábrica de aceite**, hace ahora tres años y medio. Pero el puerto se llevó los **talleres de ocupación** que pusimos en marcha con el Proyecto JOB Benimar, un proyecto de futuro que abre esperanzas, en los años 1991 y 2000.\n\nAdemás, en 2004 sufrimos una **inundación del barrio** por las obras mal ejecutadas del puerto durante la construcción de la rotonda que recuperaba en Natzaret los terrenos cedidos para la Copa América en la dársena histórica, convirtiendo la desembocadura del lecho del Turia en la imagen más indigna de la ciudad de Valencia, convirtiendo la salida del río al mar en una especie de alcantarilla. Por eso, pedimos un **parque de desembocadura**, recordando que, en el debate electoral organizado por la Plataforma el litoral para el pueblo el 18 de mayo de 2015 en el Ateneu Marítim del Cabanyal, la totalidad de los partidos actualmente representados en el consistorio (PP, Ciudadanos, Valencia en Comú, PSPV-PSOE y Compromís) se comprometieron a **hacer realidad la recuperación de la desembocadura del Turia**. Les pedimos coherencia.\n\nA estas alturas, la Autoridad Portuaria y el Ayuntamiento tienen una **deuda histórica con Natzaret** por el incumplimiento del convenio del 86: final del río, jardín o vía verde en el solar de la antigua fábrica de aceite, almacén de contenedores de la calle Algemessí, por lo que interpusimos un contencioso administrativo contra los anteriores gobernantes de la Autoridad Portuaria y del Ayuntamiento. Hay, sin embargo, al menos otra barrera física muy importante entre Natzaret y el resto de la ciudad: **las vías del ferrocarril**, un tema absolutamente estancado.\n\nY en cuanto a las **barreras sociales** en nuestro barrio, les recordamos solo algunos datos significativos: **renta muy baja y alto nivel de desempleo**; **pérdida y envejecimiento de la población**; **bajo nivel formativo** (5,8 % de analfabetismo en Natzaret, frente al 1,8 % de la media en toda la ciudad de Valencia); **bajo porcentaje de personas con estudios universitarios** ante la media de Valencia que es mucho más alta.\n\nY para terminar, el Ayuntamiento está dando respuesta a la reivindicación de un **plan integral** que pone en marcha una **estrategia integral participativa** para actualizar las reivindicaciones históricas del barrio y para orientar las inversiones municipales a corto, medio y largo plazo. Por todo ello y para finalizar, pedimos un **compromiso de todos los partidos** representados en el Ayuntamiento de Valencia, a babor y a estribor, para apoyar lo que salga de ese plan participativo y hacer realidad la inclusión de Natzaret en la ciudad. Muchas gracias, nada más de momento.",
+      "text_val": "Bon dia, o bona vesprada, a totes i a tots. Amb motiu de la celebració enguany del 40 aniversari de la nostra associació vam triar el lema Per un barri sense fronteres. Recuperem ciutat, i vam demanar un pla integral per a fer realitat un Natzaret sense barreres físiques i socials, de manera que la inclusió del nostre barri en la ciutat siga de veres. Pel que fa a les barreres físiques, com vostés saben, el 18 de maig de 1986 l’Ajuntament i el Port de València varen signar un conveni per a afavorir l’ampliació del port per la platja de Natzaret.\nPer pal·liar aquest sacrifici es varen introduir en l’esmentat document unes compensacions que no es varen complir, excepció feta dels 40.000 m2 del parc de Marazul rescatat de la destrossa de la platja després de la lluita de la nostra associació de veïns. Durant els 24 anys del govern anterior tan sols la lluita del veïnat organitzat va aconseguir la reconstrucció, per dues vegades, del balneari Marazul i posada en marxa en 2014, i l’enderrocament de la perillosa i contaminant fàbrica d’oli, ara farà tres anys i mig.\nPerò el port es va carregar els tallers d’ocupació que vàrem posar en marxa amb el Proyecto JOB Benimar, un proyecto de futuro que abre esperanzas, els anys 1991 i 2000. A més a més, en 2004 vàrem patir inundació del barri per les obres mal fetes del port durant la construcció de la rotonda que recuperava en Natzaret els terrenys cedits per a la Copa América en la dàrsena històrica, tot convertint la desembocadura del llit del Túria en la imatge més indigna de la ciutat de València, convertint l’eixida del riu a la mar en una mena de claveguera.\nPer això, demanem un parc de desembocadura, tot recordant que, en el debat electoral organitzat per la Plataforma el litoral per al poble el 18 de maig de 2015 a l’Ateneu Marítim del Cabanyal, la totalitat dels partits actualment representants en el consistori (PP, Ciudadanos, València en Comú, PSPV-PSOE i Compromís) es varen comprometre a fer realitat la recuperació de la desembocadura del Túria. Els demanem coherència.\nA hores d’ara l’Autoritat Portuària i l’Ajuntament tenen un deute històric amb Natzaret per l’incompliment del conveni del 86: final del riu, jardí o via verda en el solar de la antiga fàbrica d’oli, magatzem de contenidors del carrer d’Algemessí, per la qual cosa vam interposar un contenciós administratiu contra els anteriors governants de l’Autoritat Portuària i de l’Ajuntament. Hi ha, però, almenys una altra barrera física molt important entre Natzaret i la resta de la ciutat: les vies del ferrocarril, un tema absolutament encallat.\nI pel que fa a les barreres socials al nostre barri, els recordem tan sols algunes dades significatives: renda molt baixa i alt nivell d’atur; pèrdua i envelliment de la població; baix nivell formatiu (5,8 % d’analfabetisme a Natzaret, front a l’1,8 % de la mitjana a tota la ciutat de València); baix percentatge de persones amb estudis universitaris davant la mitjana de València que és molt més alta.\nI per acabar, l’Ajuntament està donant resposta a la reivindicació d’un pla integral que posa en marxa una estratègia integral participativa per actualitzar les reivindicacions històriques del barri i per a organitzat, orientar les inversions municipals a curt, mitja i llarg termini. Per tot això i per a finalitzar, demanen un compromís de tots els partits representats a l’Ajuntament de València, a babord i a estribord, per a recolzar allò que isca d’eixe pla participatiu i fer realitat la inclusió de Natzaret en la ciutat.\nMoltes gràcies, res més de moment.",
+      "temes": [],
+      "temes_v2": {
+        "urbanisme": [
+          "espai_public",
+          "patrimoni"
+        ],
+        "medi_ambient": [
+          "emergencies_climatiques"
+        ],
+        "participacio": [
+          "participacio",
+          "processos_participatius"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Natzaret"
+      ],
+      "districtes": [
+        "Poblats Marítims"
+      ],
+      "resum_cas": "La Asociación de Vecinos de Natzaret solicita un plan integral para eliminar barreras físicas y sociales en el barrio, incluyendo la recuperación de la desembocadura del Turia, compensaciones por los daños del puerto y mejora de indicadores socioeconómicos historicamente desfavorables.",
+      "resum_val": "L'Associació de Veïns de Natzaret demana un pla integral per a eliminar barreres físiques i socials en el barri, incloent la recuperació de la desembocadura del Túria, compensacions pels danys del port i millora d'indicadors socioeconòmics històricament desfavorables.",
+      "cap_subtopics": [
+        1401,
+        711,
+        2100,
+        2015
+      ],
+      "cap_major": [
+        7,
+        14,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "2016-09-20-110",
+      "pleno_id": "2016-09-20",
+      "fecha": "2016-09-20",
+      "mandat_id": "2015-2019",
+      "ordre": 10,
+      "intervinient": "[***]",
+      "entitat": "Associació Alanna",
+      "entitat_id": "alanna",
+      "entitat_cessio": null,
+      "tipus_entitat": "ong",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "",
+      "idioma_original": "castellano",
+      "text_cas": "Buenos días. En nombre de Asociación Alanna, gracias por hacernos partícipes de este Ple sobre l’Estat de la Ciutat. La situación actual económica y social ha tenido y tiene múltiples consecuencias; una de ellas ha sido el empeoramiento de las condiciones de vida de las personas. La puerta de entrada al sistema público de servicios sociales continúa colapsada por su falta de adaptación a tal incremento de demanda. Esta situación es especialmente gravosa en el caso de los centros municipales de servicios sociales. Conocemos de vuestro esfuerzo en este sentido.\nLa mayoría de las personas, ante las demora de los servicios sociales públicos, se ven afectadas, acrecentándose su empobrecimiento y produciéndose un debilitamiento generalizado de sus condiciones materiales de existencia: precarización residencial, alimentación deficiente, aumento de su endeudamiento, pérdida de viviendas. Y en cuanto a las cuantías, las prestaciones económicas de la renta garantizada establecidas en la Comunidad Valenciana son claramente insuficientes y no garantizan al derecho a una subsistencia digna. Demasiados años arrastrando esta grave situación.\nNuestras propuestas, que le voy a transmitir ahora mismo. La necesidad de coordinación de servicios sociales con otros sistemas fundamentales como empleo, educación y vivienda, que son dimensiones básicas para la inclusión social y en donde la falta de políticas coordinadas es patente. Esto implica entender los procesos de inclusión de manera más compleja que el puro traspaso de renta o de empleabilidad. Sabemos que habéis comenzado a hacerlo.\nDesde la xarxa contra la pobreza y la exclusión social y desde la asociación valenciana de empresas de inserción, y otras plataformas de las que formamos parte, reivindicamos unos servicios sociales públicos con una dotación presupuestaria y de personal, estructura organizativa y funcional adecuada al incremento de demanda y nuestros perfiles de población, sin olvidar a los olvidados: familias que sobreviven en la calle, minorías étnicas, haciendo especial hincapié en la etnia gitana mujeres, así como el apoyo y respaldo responsable a las entidades sociales que trabajamos en la calle. Desarrollar políticas sociales y de empleo inclusivas que contemplen la inserción socio-laboral de las personas en situación de pobreza y exclusión como eje prioritario, teniendo especial relevancia las dirigidas a mujeres en situación de alta vulnerabilidad social: mujeres víctimas de violencia de género y mujeres gitanas, también. Contemplar el acompañamiento personalizado como clave en la actuación con las personas más vulnerables. Se ha de tener en cuenta la diversidad de grupos y colectivos en situación de pobreza y/o exclusión para responder adecuadamente a la diversidad de las necesidades de inserción e inclusión social. También necesitamos apoyar la creación de empleo mediante proyectos innovadores y sostenibles de la economía social, y en concreto de las empresas de inserción para lograr los objetivos sociales. Coordinar estrategias, líneas de actuación y recursos de las distintas concejalías que tienen competencias en políticas de empleo y de lucha contra la pobreza y/o exclusión. Como debo finalizar, pues le doy a ustedes las gracias. I en nom de la Associació Alanna, gràcies per escoltar-nos i per fer que entre tots i totes puguem fer una ciutat socialment responsable, igualitària per a tota la població d’esta ciutat. Gràcies.",
+      "text_val": "Bon dia. En nom de l'Associació Alanna, gràcies per fer-nos partícips d'este Ple sobre l'Estat de la Ciutat. La situació econòmica i social actual ha tingut i té **múltiples conseqüències**; una d'elles ha sigut l'**empitjorament de les condicions de vida** de les persones. La porta d'entrada al sistema públic de servicis socials continua **col·lapsada per la seua falta d'adaptació** a tal increment de demanda. Esta situació és especialment costosa en el cas dels centres municipals de servicis socials. Coneixem el vostre esforç en este sentit. La majoria de les persones, davant de la demora dels servicis socials públics, es veuen afectades, incrementant-se el seu empobriment i produint-se un **debilitament generalitzat de les seues condicions materials d'existència**: precarització residencial, alimentació deficient, augment del seu endeutament, pèrdua d'habitatges. I pel que fa a les quanties, les **prestacions econòmiques de la renda garantida** establides a la Comunitat Valenciana són **clarament insuficients** i no garanteixen el dret a una **subsistència digna**. Massa anys arrossegant esta greu situació.\n\nLes nostres propostes, que li transmetré ara mateix. La **necessitat de coordinació de servicis socials** amb altres sistemes fonamentals com ocupació, educació i habitatge, que són **dimensions bàsiques per a la inclusió social** i on la falta de polítiques coordinades és evident. Això implica entendre els processos d'inclusió de manera més complexa que el simple traspàs de renda o d'ocupabilitat. Sabem que heu començat a fer-ho. Des de la xarxa contra la pobresa i l'exclusió social i des de l'associació valenciana d'empreses d'inserció, i altres plataformes de les quals formem part, reivindiquem uns **servicis socials públics amb una dotació pressupostària i de personal**, estructura organitzativa i funcional adequada a l'increment de demanda i als nostres perfils de població, sense oblidar els oblidats: **famílies que sobreviuen al carrer**, **minories ètniques**, fent especial èmfasi en l'**ètnia gitana**, dones, així com el **suport i recolzament responsable a les entitats socials** que treballem al carrer.\n\nDesenvolupar **polítiques socials i d'ocupació inclusives** que contemplen la **inserció sociolaboral** de les persones en situació de pobresa i exclusió com a eix prioritari, tenint especial rellevància les dirigides a **dones en situació d'alta vulnerabilitat social**: dones víctimes de violència de gènere i dones gitanes, també. Contemplar l'**acompanyament personalitzat** com a clau en l'actuació amb les persones més vulnerables. Cal tindre en compte la **diversitat de grups i col·lectius** en situació de pobresa i/o exclusió per a respondre adequadament a la diversitat de les necessitats d'inserció i inclusió social. També necessitem **donar suport a la creació d'ocupació** mitjançant projectes innovadors i sostenibles de l'economia social, i en concret de les empreses d'inserció per a aconseguir els objectius socials. **Coordinar estratègies**, línies d'actuació i recursos de les diferents regidories que tenen competències en polítiques d'ocupació i de lluita contra la pobresa i/o exclusió.\n\nCom he de finalitzar, doncs els done les gràcies. I en nom de l'Associació Alanna, gràcies per escoltar-nos i per fer que entre tots i totes puguem fer una ciutat socialment responsable, igualitària per a tota la població d'esta ciutat. Gràcies.",
+      "temes": [],
+      "temes_v2": {
+        "serveis_publics": [
+          "serveis_socials"
+        ],
+        "economia": [
+          "comerc_ocupacio"
+        ],
+        "drets_i_igualtat": [
+          "diversitat",
+          "igualtat_de_genere",
+          "interculturalitat_i_antiracisme"
+        ]
+      },
+      "ambit": "ciutat",
+      "zones": [],
+      "districtes": [],
+      "resum_cas": "La Asociación Alanna reclama servicios sociales públicos adecuadamente dotados, políticas de empleo inclusivas y coordinación entre concejalías para combatir la pobreza, exclusión social y vulnerabilidad especialmente de mujeres gitanas y víctimas de violencia de género.",
+      "resum_val": "L'Asociació Alanna reclama serveis socials públics adequadament dotats, polítiques d'ocupació inclusives i coordinació entre concejalies per a combatre la pobresa, exclusió social i vulnerabilitat especialment de dones gitanes i víctimes de violència de gènere.",
+      "cap_subtopics": [
+        1300,
+        1302,
+        202,
+        500
+      ],
+      "cap_major": [
+        2,
+        5,
+        13
+      ]
+    },
+    {
+      "id": "2016-09-20-115",
+      "pleno_id": "2016-09-20",
+      "fecha": "2016-09-20",
+      "mandat_id": "2015-2019",
+      "ordre": 15,
+      "intervinient": "[***]",
+      "entitat": "Associació de Veïns del Cabanyal-el Canyamelar i Plataforma Salvem el Cabanyal",
+      "entitat_id": "av-cabanyal-canyamelar",
+      "entitat_cessio": null,
+      "tipus_entitat": "av",
+      "barri_o_zona": null,
+      "punts_ordre_dia": "",
+      "idioma_original": "valenciano",
+      "text_cas": "Buenas tardes. Las organizaciones que firman este escrito son conscientes de los **esfuerzos realizados por el equipo de gobierno** del Ayuntamiento de Valencia. Sabemos de las dificultades en poner orden en muchos aspectos que afectan al Cabanyal-Canyamelar y estamos dispuestos a trabajar, dentro de nuestras posibilidades como organización social, **codo con codo**, en la rehabilitación social y urbanística del barrio. Salvem el Cabanyal y la Asociación de Vecinos Cabanyal-Canyamelar, como organización reivindicativa que es, **nunca dejará de defender** y luchar por lo que consideramos justo y que la Administración no ha cumplido tal como esperábamos de ella.\n\nA estas alturas creemos que en la actuación municipal **hay algunos aspectos mejorables**. Hay muchos problemas a resolver, esperamos que los iremos solucionando en forma y tiempo adecuados. Por ejemplo, debemos **dar velocidad a la redacción y aprobación** del nuevo Plan de Rehabilitación del Cabanyal-Canyamelar, porque es posible que ya vayamos con retraso a estas alturas. **Hay que replantearse el destino y urgencia** de algunas de las inversiones anunciadas y otros asuntos.\n\nPero hay un problema que, a estas alturas, **ya no se puede dilatar ni un día más**. Estamos hablando de la **contaminación acústica** y todos los problemas que de ella se derivan. En las zonas cero del barrio no se respetan los **derechos fundamentales siguientes**: el derecho a la intimidad del domicilio familiar, el derecho a un medio ambiente sano, el derecho a la salud y el derecho al descanso por derecho al trabajo.\n\nNuestra reivindicación es concreta y directa: estos problemas, que no han mejorado en absoluto, **deben estar resueltos antes de comenzar el año 2017**. No puede haber otro plazo porque lo que está en juego es la **salud de ciudadanos y ciudadanas**, algunos de ellos ya mayores. **Un asunto tan grave** que no se puede alargar más tiempo.\n\nComo ya he dicho, hay otros asuntos urgentes de los cuales tenemos mucho que hablar y reivindicar. **Ahora es indiscutiblemente el tiempo de los derechos fundamentales** en el Cabanyal-Canyamelar. Muchas gracias.",
+      "text_val": "Bona vesprada. Les organitzacions que signen este escrit son conscients dels esforços fets per l’equip de govern de l’Ajuntament de València. Sabem de les dificultats en posar ordre en molts aspectes que afecten al Cabanyal-Canyamelar i estem disposats a treballar, dins de les nostres possibilitats com a organització social, colze amb colze, en la rehabilitació social i urbanística del barri.\nSalvem el Cabanyal i l’ Associació de Veïns Cabanyal-Canyamelar, com a organització reivindicativa que és, no deixarà mai de defensar i lluitar per allò que considerem just i que l’Administració no haja complit tal com esperàvem d’ella. A hores d’ara creguem que en l’actuació municipal hi han alguns aspectes millorables. Hi ha molts problemes a resoldre, esperem que els anirem solucionant en forma i temps adequats.\nPer exemple, hem de donar velocitat a la redacció i aprovació del nou Pla de Rehabilitació del Cabanyal-Canyamelar, perquè és possible que ja anem amb retard a hores d’ara. Cal replantejar el destí i urgència d’algunes de les inversions anunciades i altres assumptes. Però hi ha un problema que, a hores d’ara, ja no es pot dilatar ni un dia més. Estem parlant de la contaminació acústica i tots els problemes que d’ella es deriven.\nA les zones zero del barri no es respecten els drets fonamentals següents: el dret a la intimitat del domicili familiar, el dret a un medi ambient sa, el dret a la salut i el dret al descans pel dret al treball. La nostra reivindicació es concreta i directa: estos problemes, que no han millorat en absolut, deuen estar resolts abans de començar l’any 2017. No pot haver altre termini perquè el que està en joc és la salut de ciutadans i ciutadanes, alguns d’ells ja majors. Un assumpte tan greu que no es pot allargar per més temps.\nCom ja he dit, hi ha altres assumptes urgents i dels quals tenim molt a parlar i reivindicar. Ara és indiscutiblement el temps dels drets fonamentals al Cabanyal-Canyamelar. Moltes gràcies.",
+      "temes": [],
+      "temes_v2": {
+        "medi_ambient": [
+          "contaminacio"
+        ],
+        "urbanisme": [
+          "habitatge"
+        ],
+        "drets_i_igualtat": [
+          "drets_humans"
+        ]
+      },
+      "ambit": "barri",
+      "zones": [
+        "Cabanyal-Canyamelar"
+      ],
+      "districtes": [
+        "Poblats Marítims"
+      ],
+      "resum_cas": "La Asociación de Vecinos del Cabanyal-Canyamelar y Plataforma Salvem el Cabanyal reclama soluciones inmediatas a la contaminación acústica y otros problemas de rehabilitación urbanística del barrio, alertando sobre la vulneración de derechos fundamentales como la salud y el descanso.",
+      "resum_val": "L'Associació de Veïns del Cabanyal-Canyamelar i Plataforma Salvem el Cabanyal reclamen solucions immediates a la contaminació acústica i altres problemes de rehabilitació urbanística del barri, alertant sobre la vulneració de drets fonamentals com la salut i el descans.",
+      "cap_subtopics": [
+        705,
+        1400,
+        1906
+      ],
+      "cap_major": [
+        7,
+        14,
+        19
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <style>
+    .b { fill: #1e1e1e; }
+    @media (prefers-color-scheme: dark) {
+      .b { fill: #ffffff; }
+    }
+  </style>
+  <polygon class="b" points="0,0 30,0 30,21 21,30 0,30"/>
+  <polygon class="b" points="42,0 72,0 72,30 51,30 42,21"/>
+  <polygon class="b" points="0,42 21,42 30,51 30,72 0,72"/>
+  <polygon class="b" points="51,42 72,42 72,72 42,72 42,51"/>
+  <polygon fill="#e8562a" points="30,21 42,21 51,30 51,42 42,51 30,51 21,42 21,30"/>
+</svg>

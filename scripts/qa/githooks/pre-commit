@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+# Versioned pre-commit hook (arquitectura-agentes.md §4, F0b.5). Installed by
+# scripts/qa/install_githooks.sh through core.hooksPath. Budget: under 20 s.
+#
+#   1. pytest scripts/tests      (dataset invariants, guard table, QA core), without the tests
+#                                marked `slow` (full-data apply_merges runs) or `derived`
+#                                (corrections vs derived data, stale in a data PR until
+#                                /apply-approved); /publish and /apply-approved run those too
+#   2. run_checks --fast         (N7 YAML, C1/C3/C5/C7, E3/E4, N1, G1, G4, S2) offline and
+#                                stateless: blocks only findings that are not in
+#                                meta/qa/baseline.json or meta/qa/suppressions.yml
+#
+# It checks the working tree, which is what the commit will contain in the usual case.
+# Skip in an emergency with `git commit --no-verify`, and say so in the PR.
+set -uo pipefail
+
+LCP_ROOT="$(git rev-parse --show-toplevel)"
+PY="$LCP_ROOT/scripts/.venv/bin/python"
+# A linked worktree (the QA worktree ../lcp-qa) has no venv of its own: use the main checkout's
+if [[ ! -x "$PY" ]]; then
+  PY="$(cd "$(git rev-parse --path-format=absolute --git-common-dir)/.." && pwd)/scripts/.venv/bin/python"
+fi
+# git exports GIT_INDEX_FILE, GIT_DIR… to hooks; they would leak into the tests that build
+# their own throwaway repos and make them write to this repo's index.
+unset $(git rev-parse --local-env-vars)
+if [[ ! -x "$PY" ]]; then
+  echo "pre-commit: no $PY — create the venv first (python3 -m venv scripts/.venv && scripts/.venv/bin/pip install -r scripts/requirements.txt)" >&2
+  exit 1
+fi
+
+"$PY" -m pytest "$LCP_ROOT/scripts/tests" -x -q -p no:cacheprovider -m "not slow and not derived" || {
+  echo "pre-commit: tests failed, commit blocked" >&2; exit 1; }
+"$PY" "$LCP_ROOT/scripts/qa/run_checks.py" --fast --offline --no-state --strict --trigger pre-commit || {
+  echo "pre-commit: new QA findings (above), commit blocked. Fix them, or baseline/suppress them in a reviewed PR." >&2
+  exit 1; }

@@ -1,0 +1,36 @@
+# Scripts the data guard (.claude/hooks/guard_data.py) lets run without asking.
+# Everything else under scripts/**, and push-public.sh, needs your confirmation.
+#
+# Only scripts that never write to data/ belong here. Adding a line is a PR you review.
+#
+# Format: one path per line, relative to the repo root.
+#   !<flag>   the entry stops applying when the command contains that flag
+#   +<flag>   the entry applies only when the command contains that flag (a free rehearsal of a
+#             script that otherwise spends API money or publishes)
+#   pytest    special entry: `python -m pytest` and the `pytest` binary
+
+scripts/validate_interventions.py !--json
+scripts/detect_missed_interventions.py
+scripts/check_new_sessions.py
+
+scripts/qa/run_checks.py
+scripts/qa/verify_proposals.py
+scripts/qa/status.py
+scripts/qa/notify.py
+scripts/qa/risk_rank.py
+scripts/qa/web_budget.py
+scripts/qa/doctor.sh
+scripts/qa/probe_guard.sh
+scripts/qa/sync_repo.sh
+scripts/qa/daily.sh
+
+# Only as a rehearsal: without the flag they spend API money
+scripts/qa/run_agents.py +--dry-run
+scripts/qa/complete_manual.py +--dry-run
+# Free unless it calls Haiku (--translate): --dry-run and --proposals spend nothing
+scripts/qa/retranslate.py !--translate
+# No API in either mode; --push opens or updates the data PR, which Claude may do on its own
+# (merging it and /apply-approved still need your yes). Writes only in the QA worktree.
+scripts/qa/propose.py
+
+pytest
